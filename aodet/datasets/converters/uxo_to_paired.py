@@ -283,7 +283,11 @@ def convert(src_root: str, out_root: str,
     man = split_manifest or {}
     man = man.get("recordings", man)
     for rec, m in man.items():
-        if m.get("split") not in (None, "train", "val", "test"):
+        # "excluded" is how tools/split_uxo_recordings.py marks a
+        # calibration-quality rejection (its own tests pin that value);
+        # accept it here as well as the explicit ``excluded: true`` form
+        # so the two tools can be chained without a translating step.
+        if m.get("split") not in (None, "train", "val", "test", "excluded"):
             raise ValueError(f"{rec}: bad manifest split {m.get('split')!r}")
     cat_id = {name: i + 1 for i, name in enumerate(CATEGORIES)}
     test_set = set(test_recordings)
@@ -315,7 +319,7 @@ def convert(src_root: str, out_root: str,
                  "no_gantry": 0, "stride_skipped": 0, "classes": {},
                  "category_dir": group or ""}
         m = man.get(rec, {})
-        if m.get("excluded"):
+        if m.get("excluded") or m.get("split") == "excluded":
             stats.update(split="excluded",
                          exclude_reason=m.get("exclude_reason", ""),
                          moving_target="true" if m.get("moving_target")
