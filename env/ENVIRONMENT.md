@@ -110,3 +110,83 @@ parallel, ~4 GB B0 + ~9 GB cross-attn):
 (Separate `RESULTS` files avoid the two collectors racing on
 `results/results.csv`; merge afterwards.)  Rough wall-clock with both
 running: B0 ~1.7 h, cross-attn ~3.5 h, plus the D0–D∞ scan.
+
+## Second box — environment built from scratch, 2026-11-02
+
+This is **not** a correction of the records above: it is a *different
+machine*.  Everything above (32 cores, 62 GiB RAM, and the 2026-10-31
+`.venv-gpu` on an **RTX 5090 D v2, 24 455 MiB**) describes the other box,
+which is unchanged and still has that card.  The two are easy to confuse
+because they run the same OS generation:
+
+| | this box | box in the records above |
+| --- | --- | --- |
+| host | `DESKTOP-5GMC542` | (not recorded) |
+| CPU | i7-14700KF, 14C / 28T | 32 cores |
+| RAM | 15 GiB | 62 GiB |
+| GPU | RTX 5060 Ti, 16 311 MiB, cc 12.0, driver 610.88 | RTX 5090 D v2, 24 455 MiB |
+| WSL | Ubuntu 22.04.5, kernel 6.18.54.1-microsoft-standard-WSL2 | same generation |
+
+Both are Blackwell (sm_120), so the cu128 / torch >= 2.7 conclusion holds
+on either — but the freezes, timings and pass counts below are **per-box**
+and were re-derived here, not copied.  In particular 16 311 MiB is *below*
+the 24 GB the training-machine section asks for, so the "two S0-lite
+configs in parallel, ~4 GB + ~9 GB" plan above does not transfer as-is:
+13 GB of 15.9 GB usable is thin once the desktop compositor takes its
+share, and it needs measuring on this box before anyone relies on it.
+
+`.venv-gpu` did not exist here at all (no `.venv*` in the working tree),
+so the env was built from nothing along the §"mmcv build recipe" above,
+verbatim.  Deviations and measurements:
+
+| step | what was done | note |
+| ---- | ------------- | ---- |
+| toolchain | `build-essential python3.10-dev python3.10-venv` (gcc/g++ 11.4.0) | none of it was installed; mmcv needs a compiler |
+| torch/torchvision | 2.7.1+cu128 / 0.22.1+cu128 | same pins as the 2026-10-31 build |
+| mmcv | 2.1.0 source, `CUDA_VISIBLE_DEVICES="" MMCV_WITH_OPS=1`, CPU-only ops | built from `~/mmcv-2.1.0-src` (sdist sha256 d387bcab…), 7 m 22 s, `MAX_JOBS=10`, wheel 29 MB |
+| setuptools | 80.9.0 (<81) | recipe requirement, as before |
+
+Wheel sources (measured, this box): `download.pytorch.org/whl/cu128`
+peaks at 4.5 MB/s here; `mirrors.aliyun.com/pytorch-wheels/cu128` at
+16 MB/s for the same 1.04 GB `torch-2.7.1+cu128` file.  PyPI proper is
+slower still (1.1 MB/s from `files.pythonhosted.org`, 12–29 MB/s from
+the aliyun PyPI mirror).
+
+Incident worth recording: pip produced **no log output for 10+ minutes**
+on `nvidia_cudnn_cu12` (726.9 MB).  With `--progress-bar off` pip prints
+nothing between starting a file and finishing it, so that only bounds it
+at "slower than ~1.2 MB/s" — it was not proven to be a hard stall, and
+the 0 B/s reading I based that on was an artefact of polling the wrong
+veth (`eth0`; this box carries traffic on another interface).  What is
+certain is the contrast: `curl` on the same URL, then a local wheelhouse,
+got the whole 2.7 GB down in 39 s.  So: resolve the wheel URLs, `curl`
+them into a local wheelhouse (2.7 GB of CUDA runtime + 208 MB of
+everything else, 39 s at ~70 MB/s aggregate — `xargs -P 4`, not one
+connection), then `pip install --no-index --find-links …`.  Installed
+with `--no-deps` against the pin list, since mmdet 3.3.0's `mmcv<2.2.0`
+requirement cannot be satisfied from an index that has no mmcv wheel.
+
+Verification on the rebuilt env (2026-11-02):
+
+- `torch.cuda.is_available()` → True; `RTX 5060 Ti`, cc 12.0, 36 SMs,
+  15.9 GiB; `arch_list` includes `sm_120` and `compute_120`.
+- Real kernels, not just the capability check: conv fwd+bwd on
+  `(2,3,256,256)` OK; 4096² fp32 matmul 9.8 ms → 14.0 TFLOPS.  Not
+  comparable with the 2026-10-31 "2048² in 0.07 s" figure: other card,
+  other size, and that number was taken cold in a fresh process.
+- `mmcv.ops` 155 symbols import; CPU `nms` correct; CUDA-tensor `nms`
+  raises `implementation for device cuda:0 not found` — the expected
+  CPU-only-`_ext` state, not a regression.
+- `install_nms_cpu_fallback()` verified through the real code path
+  (`mmdet.models.dense_heads.yolox_head.batched_nms`): CUDA and CPU
+  agree on keep set `[0, 2]`, coordinates match to 1e-5, results come
+  back on `cuda:0`.  Note the shim patches the *head's* `batched_nms`,
+  not `mmcv.ops.nms`, so calling `mmcv.ops.nms` directly on CUDA
+  tensors still raises after installing it — that is by design.
+- `pytest tests/ -q` → **216 passed**, 21 warnings, 883 s.
+- `pip freeze` (after dropping the `direct_url.json` files left by the
+  local-wheelhouse install) matches `env/pip-freeze-gpu.txt` line for
+  line — that freeze came off the *other* box, so an exact match here is
+  the evidence that the rebuild is faithful, not just plausible.  The one
+  intended difference is that mmcv records as `mmcv==2.1.0` instead of
+  `file:///tmp/mmcv_build/mmcv-2.1.0`.
