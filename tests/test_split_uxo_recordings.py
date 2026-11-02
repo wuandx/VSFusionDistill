@@ -50,7 +50,9 @@ def _inventory(n_per_cell=8, cats=("mortar_shell", "incindiary_grenade"),
                 if name in bad_blob:
                     e["n_blob_frames"] = 12
                 if name in bad_row:
-                    e["proj_err_row_px_p50"] = 25.0
+                    # derived from the frozen bound so raising the bound
+                    # does not silently turn this into a passing case
+                    e["proj_err_row_px_p50"] = _tool().MAX_ROW_RESID_PX * 2
                 if name in missing_calib:
                     e["proj_err_row_px_p50"] = None
                 recs[name] = e
