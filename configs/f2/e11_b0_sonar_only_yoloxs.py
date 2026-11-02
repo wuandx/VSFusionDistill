@@ -20,6 +20,11 @@ training-label quality knob.
 Three seeds via tools/run_seeds.sh configs/f2/e11_b0_sonar_only_yoloxs.py
 0 1 2.  The number that matters is the spread across seeds: it sets the
 resolution of every later B0-vs-method comparison.
+
+The evaluation split is val, not test: the frozen E11 preregistration
+says "test 在本实验中不开封，E11 全部判定读 val", so the scan dataloader
+points at the val split.  test stays sealed until the platform tier is
+decided.
 """
 
 _base_ = "s0_b0_sonar_only_yoloxs.py"
@@ -27,4 +32,4 @@ _base_ = "s0_b0_sonar_only_yoloxs.py"
 data_root = "data/paired/uxo-full/"
 
 train_dataloader = dict(dataset=dict(data_root=data_root))
-test_dataloader = dict(dataset=dict(data_root=data_root))
+test_dataloader = dict(dataset=dict(data_root=data_root, split="val"))
