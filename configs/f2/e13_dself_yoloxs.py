@@ -1,4 +1,4 @@
-"""E11 D-self arm: self-distillation control -- the student's own recipe
+"""E13 D-self arm: self-distillation control -- the student's own recipe
 as its own teacher (B3's epoch_100 checkpoint: same S capacity, same
 degradation-augmented training), queried on the degraded view.
 
