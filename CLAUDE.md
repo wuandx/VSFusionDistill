@@ -35,9 +35,17 @@ F2 主线：相机退化时，相机信息经融合/蒸馏进入声呐支路的�
 | 仓库 | 归属 | 用途 |
 |---|---|---|
 | `wuandx/VSFusionDistill` | **本人** | `origin`，所有提交推送目标；不做 PR |
-| `PengBY91/VSFusionDistill` | 导师 | `upstream`，**需要同步他的提交**（`git fetch upstream` + `git merge upstream/main`）；只同步、不提 PR |
+| `PengBY91/VSFusionDistill` | 导师 | `upstream`，**只读参考 + 按需合并**；不提 PR |
 
-push 目标一律 `git push origin main`；同步导师用 `git pull upstream main`（或 fetch + merge）。两边都有提交时是"本地领先 N、落后 M"的状态，合并方向固定为把 `upstream/main` 并进 `main`，冲突时以导师的板面与台账为准、本机数字只作补充。本机凭据是 `blockingsyslunat` 的 fine-grained PAT：对 `wuandx` 有 push 权限，对 `PengBY91` 无（403，故只读同步）；两个 SSH key 对 GitHub 均为 `Permission denied (publickey)`，**走 HTTPS，不走 SSH**。
+push 目标一律 `git push origin main`。本机凭据是 `blockingsyslunat` 的 fine-grained PAT：对 `wuandx` 有 push 权限，对 `PengBY91` 无（403，故对导师仓库只能读）；两个 SSH key 对 GitHub 均为 `Permission denied (publickey)`，**走 HTTPS，不走 SSH**。
+
+**与导师仓库的三条规则**（2026-11-06 定，取代此前"每次都要同步"的笼统说法）：
+
+1. **只读为主，合并按需**。日常只跑 `git fetch upstream`（不改工作区）；要看内容用 `git log upstream/main`、`git diff HEAD upstream/main -- aodet/ tools/ configs/`。**只有需要吸收他的改动时才合并**，不做"他有提交就跟"。
+2. **共享文件冲突一律取导师版本**。`CLAUDE.md`、`doc/experiments.md`、`doc/f2-mainline-questions.md` 三份是他本人都在写的，冲突高发；冲突时保留他的行与措辞，本机只做**追加**，不改写他的判断与读数。本人自有的分析、日志、调研只放 `doc/logs/` 与 `doc/survey-*/`（他不碰这两处，永不冲突）。
+3. **合并时机只由两种事件触发**：其一，他改了本人要依赖的代码（`aodet/`、`tools/`、`configs/`）——不合并会导致"用旧代码跑出新数字"，与他过账的读数对不上；其二，本人需要引用他新过账的读数或新开的问答板条目（Q1–Q8）。两个条件都不满足时，只 fetch 不 merge。
+
+合并方向固定为把 `upstream/main` 并进 `main`（不 rebase、不改写已推送历史）；合并后照常 `git push origin main`。
 
 **git 身份**（repo-scoped，已设）：`user.name=wuandx`、`user.email=137522156+wuandx@users.noreply.github.com`。换机器后先补这两条，否则 commit 报 "Author identity unknown"。
 
