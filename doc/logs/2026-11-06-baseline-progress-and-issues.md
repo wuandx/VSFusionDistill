@@ -165,6 +165,7 @@
 
 - 台账：`doc/experiments.md`（E11 节 :507 起；E11-1 判据表 :584–:594；E13 节 :641 起）
 - 口径表注：`doc/logs/2026-11-06-e13-caliber-note.md`（E13 三臂两列主表 + 四条使用限制；§5 说明为什么 `val_id` 才算与文献同性质）
+- 对齐清单：`doc/logs/2026-11-06-cmold-alignment-plan.md`（我方与 CMOLD 逐项对齐度 + A 推理级 / B GT 级 / C 训练级可做动作；本文 §5/§6 的展开版）
 - 口径与标签：`doc/logs/2026-11-05-gt-metric-decision.md`、`doc/logs/2026-11-05-projected-label-alignment.md`
 - 失败诊断：`doc/logs/2026-11-05-sonar-failure-session-diagnosis.md`
 - 文献对照：`doc/logs/2026-11-04-literature-baseline-protocol-comparison.md`、`doc/logs/2026-11-05-literature-comparison-blob.md`
