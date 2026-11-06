@@ -24,3 +24,30 @@ F2 主线：相机退化时，相机信息经融合/蒸馏进入声呐支路的�
 - 无人值守长任务：`.ok` 标记、重试两次停链、启动十分钟确认；长步骤加心跳，进度以落盘文件为准不以 stdout 为准。
 - 文档遵循 `doc/f2-rethink-2026-11-01.md` §8 与台账 §6 规则；文风按既有文档（无 emoji、无①②③、「」用""、加粗只限"标签："式）。
 - 环境：CPU 转换/工具用仓库 `.venv`，GPU 训练用 `.venv-gpu`；数据驻 `/mnt/d/pby/uxo-full`，终版转换落仓库盘 `data/paired/uxo_full`。
+
+## 仓库、身份与文档布局（2026-11-06 定，长期事实）
+
+**仓库归属**（曾搞反过一次，以此处为准）：
+
+| 仓库 | 归属 | 用途 |
+|---|---|---|
+| `wuandx/VSFusionDistill` | **本人** | `origin`，所有提交推送目标；不做 PR |
+| `PengBY91/VSFusionDistill` | 导师 | 仅作 fork 来源；导师自述其仓库只是验证环境，**不与它同步、不提 PR** |
+
+push 目标一律 `git push origin main`。本机凭据是 `blockingsyslunat` 的 fine-grained PAT：对 `wuandx` 有 push 权限，对 `PengBY91` 无（403）；两个 SSH key 对 GitHub 均为 `Permission denied (publickey)`，**走 HTTPS，不走 SSH**。
+
+**git 身份**（repo-scoped，已设）：`user.name=wuandx`、`user.email=137522156+wuandx@users.noreply.github.com`。换机器后先补这两条，否则 commit 报 "Author identity unknown"。
+
+**文档布局**：`doc/` 顶层只放长期文档（`experiments.md` 台账 / `f2-rethink-2026-11-01.md` 复盘 / `f2-mainline-questions.md` 问答板 / `topic-f2-…-2026-10.md` 研究计划）；其余按类进子目录：
+
+| 目录 | 职责 | 规则 |
+|---|---|---|
+| `doc/logs/` | 按日期的叙事日志 | 命名 `YYYY-MM-DD-<英文主题>.md`；`README.md` 是索引，新增日志必须补进去；结论被推翻时在旧文件顶部写"已被 ××× 取代"，不删原文 |
+| `doc/survey-<日期>/` | 外部调研（如与 CMOLD/CMHD 的协议对齐） | 不进台账、不改变判定；写清快照对应的 HEAD，后续修正只加勘误不改原文 |
+| `doc/reviews/` | 代码审查 | — |
+| `doc/evidence/` | 证据图 | — |
+| `doc/loss_trend/` | 训练曲线 csv | 数据产物，与代码分开提交 |
+
+一次性草稿不要放 `doc/` 顶层：该合并的并进长期文档或当日日志，该删的删。
+
+**当前阶段**（2026-11-06）：做教师与学生 baseline，未到蒸馏。E13-0（纯声呐）/ E13-cam（纯光学）/ E13-T（教师 YOLOX-L 双流）已出数但**未入台账**；E13-KD（跨模态蒸馏）与 E13-deg（退化档位）未开始。读数与口径以 `doc/logs/2026-11-06-baseline-progress-and-issues.md` 为入口。
