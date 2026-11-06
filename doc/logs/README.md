@@ -10,6 +10,7 @@
 
 | 日期 | 文件 | 主题 | 状态 |
 |---|---|---|---|
+| 11-06 | `2026-11-06-e13-caliber-note.md` | E13 三臂主表的口径与表注：`val` / `val_id` 两列不可混用，四条使用限制与"为什么 val_id 才算与文献同性质" | 现行 |
 | 11-06 | `2026-11-06-baseline-progress-and-issues.md` | 基线阶段进度与问题汇总（入口文档）；含附录 A 冻结条款与实验阶梯 | 现行 |
 | 11-05 | `2026-11-05-literature-comparison-blob.md` | 与同类论文 baseline 对比（主口径 blob，含 val-ID 文献式考场） | 现行 |
 | 11-05 | `2026-11-05-projected-label-alignment.md` | 投影标注能否当 GT：对齐实测与口径裁定 | 现行 |

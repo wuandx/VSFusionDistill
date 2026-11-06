@@ -164,6 +164,7 @@
 **仓库内（本文件之外）**
 
 - 台账：`doc/experiments.md`（E11 节 :507 起；E11-1 判据表 :584–:594；E13 节 :641 起）
+- 口径表注：`doc/logs/2026-11-06-e13-caliber-note.md`（E13 三臂两列主表 + 四条使用限制；§5 说明为什么 `val_id` 才算与文献同性质）
 - 口径与标签：`doc/logs/2026-11-05-gt-metric-decision.md`、`doc/logs/2026-11-05-projected-label-alignment.md`
 - 失败诊断：`doc/logs/2026-11-05-sonar-failure-session-diagnosis.md`
 - 文献对照：`doc/logs/2026-11-04-literature-baseline-protocol-comparison.md`、`doc/logs/2026-11-05-literature-comparison-blob.md`
@@ -173,12 +174,12 @@
 
 **仓库外（未入库，需要给导师看时须单独拷贝）**
 
-`D:\agent_workspace\水下\声呐目标检测\调查\` 下的五份调查文档：
+`D:\agent_workspace\水下\声呐目标检测\docs\investigation\` 下的五份调查文档（2026-11-06 工作区整理后路径；整理前为 `调查\`，映射表见工作区 `docs/README.md`）：
 
 | 文件 | 行数 | 内容 |
 |---|---|---|
-| `00_总报告_我方与CMOLD对齐与差距归因.md` | 576 | 逐项对齐矩阵、L0–L5 归因分层、残差演算、已排除项、口径治理清单、口径自洽数字表 |
-| `01_CMOLD论文规格.md` | 440 | CMOLD 逐项规格、TABLE 1–6 原图核对、30 项可复现性缺口、CMHD 交叉印证 |
+| `00_总报告_我方与CMOLD对齐与差距归因.md` | 578 | 逐项对齐矩阵、L0–L5 归因分层、残差演算、已排除项、口径治理清单、口径自洽数字表 |
+| `01_CMOLD论文规格.md` | 456 | CMOLD 逐项规格、TABLE 1–6 原图核对、30 项可复现性缺口、CMHD 交叉印证（§8.1 含 CMHD §4.3 原文引证） |
 | `02_我方_pipeline_审计.md` | 376 | 配置/数据/几何/评测/模型五层审计，每条带 `路径:行号` |
 | `03_基线数字复核.md` | 265 | 每个数字的原始出处、口径一致性、A–G 归因与残差演算 |
 | `04_方法论与复现实验建议.md` | 202 | 方法论映射、T0–T3 目标、P1–P7 前置、E0–E4 分级实验、负面清单 |
