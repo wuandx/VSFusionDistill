@@ -50,7 +50,7 @@
 | 温度 τ | 2 | 2.0 | 无偏离 |
 | top-K 的 K 上界 | 未给（`:405`、`:419-421`） | 保留 objectness ≥ 0.3 且每图至多 100 个，`K = min(教师保留数, 学生保留数)` | 中偏离 |
 | 输入分辨率 | 全文无数字 | **640×640，letterbox（keep_ratio=True）** | 中偏离；640 由 CMHD 复现佐证（`01:395`），letterbox 是 YOLOX 规范 |
-| 数据增强 | 仅一句 "applied to increase the robustness"（`:294`） | YOLOX 标准：Mosaic + MixUp 开，HSV/翻转按 YOLOX 默认 | 中偏离（我方主线是关的） |
+| 数据增强 | 仅一句 "applied to increase the robustness"（`:294`） | **不实现 Mosaic/MixUp**（仓库无此实现，且 paired 双流同步 Mosaic 属数据语义级改动），同步翻转保持 prob=0.0，仅保留 letterbox 与既有几何/尺度抖动 | 中偏离；R0 若因此低于 0.611 再单独立项决定是否补 |
 | NMS / 置信度门限 | 未给 | NMS IoU 0.65、score 0.01、每图 300（YOLOX 默认） | 低偏离 |
 | 评测 maxDets | 未给 | pycocotools 默认 [1, 10, 100] | 低偏离 |
 | 教师容量 | "same architecture as student"（`:392-393`） | **YOLOX-S 纯相机**（9.0 M 级），冻结 | 无偏离（照论文） |
