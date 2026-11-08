@@ -51,10 +51,11 @@
 | top-K 的 K 上界 | 未给（`:405`、`:419-421`） | 保留 objectness ≥ 0.3 且每图至多 100 个，`K = min(教师保留数, 学生保留数)` | 中偏离 |
 | 输入分辨率 | 全文无数字 | **640×640，letterbox（keep_ratio=True）**；注意本仓库的 letterbox **不 pad 到固定 640×640 画布**，只按比例缩放，padding 由 `PairedDataPreprocessor` 补到批内最大尺寸（`aodet/datasets/transforms/paired_geometric.py:77-82`、`aodet/models/data_preprocessors/paired_preprocessor.py:53`、`pad_size_divisor=32`、`pad_value=114`） | 中偏离；640 由 CMHD 复现佐证（`01:395`），letterbox 是 YOLOX 规范；画布随批变化是第三种偏离 |
 | 数据增强 | 仅一句 "applied to increase the robustness"（`:294`） | **不实现 Mosaic/MixUp**（仓库无此实现，且 paired 双流同步 Mosaic 属数据语义级改动），同步翻转保持 prob=0.0，仅保留 letterbox 与既有几何/尺度抖动 | 中偏离；R0 若因此低于 0.611 再单独立项决定是否补 |
-| NMS / 置信度门限 | 未给 | NMS IoU 0.65、score 0.01、每图 300（YOLOX 默认） | 低偏离 |
+| NMS / 置信度门限 | 未给 | NMS IoU 0.65、score 0.01、`max_per_img=100`；注意 mmdet 3.3 的 `YOLOXHead` 并未实现 `max_per_img`（`yolox_head.py` 无 `max_num`/`max_per_img`），故该键实际不截断，框数只受 score_thr 与 NMS 约束，AP 口径由 pycocotools 的 maxDets 决定 | 低偏离；预测文件会略大 |
 | 评测 maxDets | 未给 | pycocotools 默认 [1, 10, 100] | 低偏离 |
 | 教师容量 | "same architecture as student"（`:392-393`） | **YOLOX-S 纯相机**（9.0 M 级），冻结 | 无偏离（照论文） |
 | 教师训练数据 | 相机图全标注 | 相机 GT 全量（4,152 帧的相机框） | 无偏离 |
+| 教师起点权重 | 未给 | 相机 S 教师 = **与学生同一份 COCO YOLOX-S 权重**（`two_stream_yolox_s.py:20-22,30-40`）；声呐 M 教师 = **从零**（mmdet 3.3.7 的 `configs/yolox/metafile.yml` 只有 tiny/S/L/X，无 M；猜过的 M URL 实测 404） | 中等偏离，只在 R1 一侧；从零的 M 教师起步弱于 COCO 起点的学生，故 **R1 的 Δ 是下界**，若 Δ 异常小或反号先复核这一条再看 KD 代码 |
 | 划分比例 | 未给 | 8:2 帧级 | 高偏离 |
 
 ## 4 复现阶梯
