@@ -62,7 +62,7 @@ _head_s = dict(
 )
 
 # placeholder path -- 待对齐, see the module docstring
-teacher_ckpt = "work_dirs/repro_cmold_teacher_camera_s/epoch_200.pth"
+teacher_ckpt = "work_dirs/repro_cmold_teacher/t_camera_s/epoch_200.pth"
 
 model = dict(
     cmold=dict(

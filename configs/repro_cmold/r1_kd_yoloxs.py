@@ -57,7 +57,7 @@ _teacher_head_m = dict(
 )
 
 # placeholder path -- 待对齐, see the module docstring
-teacher_checkpoint = "work_dirs/repro_cmold_teacher_sonar_m/epoch_200.pth"
+teacher_checkpoint = "work_dirs/repro_cmold_teacher/t_sonar_m/epoch_200.pth"
 
 model = dict(
     distillation=dict(
