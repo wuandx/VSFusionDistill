@@ -56,6 +56,30 @@ def filter_infos_by_split(infos, splits):
             if str((d.get("meta") or {}).get("split", "")) in wanted]
 
 
+def resolve_cli_split(split_set, dataset_cfg):
+    """Dataset ``split`` value that makes the CLI split set expressible.
+
+    Returns ``None`` — the historical behaviour — for the frame_meta
+    datasets: they are built with ``split=None`` (load every split) and the
+    infos are filtered afterwards.  Datasets that read an explicit id-list
+    ``split_file`` refuse ``split=None`` on purpose ("that would admit the
+    test recordings"), so there the CLI set must name exactly one role and
+    the dataset itself does the filtering; the infos filter then matches
+    everything it loaded and changes nothing.
+    """
+    if split_set is None:
+        return None
+    if "split_file" in dataset_cfg and dataset_cfg.get("split_file"):
+        roles = sorted(split_set)
+        if len(roles) != 1:
+            raise ValueError(
+                "--split on a split_file dataset accepts exactly one role "
+                "(train or val), got %s; evaluating several roles in one run "
+                "needs a combined id list in the split file" % roles)
+        return roles[0]
+    return None
+
+
 def recording_by_image_id(infos, side):
     """coco image id -> frame_meta recording name for one GT side.
 
@@ -120,7 +144,7 @@ def main():
         # the CLI split set replaces the config's single-value dataset
         # filter (split=None loads every split; infos/preds are filtered
         # below, so the dumps only carry the requested frames)
-        dl_cfg.dataset.split = None
+        dl_cfg.dataset.split = resolve_cli_split(split_set, dl_cfg.dataset)
 
     from aodet.evaluation.per_branch_metric import (
         ap_by_group_and_category, blob_eval_img_ids, evaluate_prediction_file,
