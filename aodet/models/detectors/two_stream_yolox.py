@@ -20,6 +20,9 @@ Topology::
   frames (or the same degraded frames for M1); its head outputs feed the KD
   losses (branch_kd / cross_plane_mil).  Offline caching is a later
   optimisation and must pass an equivalence test first (§4.4(4)).
+* A separate ``cmold`` block adds the rank-paired cross-modal teacher of the
+  paper (cmold_kd); it is built only when configured and never changes the
+  path above.
 """
 
 from __future__ import annotations
@@ -78,6 +81,19 @@ class TwoStreamYOLOX(BaseDetector):
                  reach_routes=('sonar_uncoupled',)).
             ``teacher_checkpoint`` is required; ``teacher_input='clear'``
             raises when the batch has no clear view (review 2026-11-01).
+        cmold: optional dict for CMOLD rank-paired object-level
+            distillation (paper eq. 10-19, aodet/models/losses/cmold_kd.py):
+            dict(teacher=<model cfg>, teacher_ckpt=<path> (alias of
+                 teacher_checkpoint), routes={student branch: teacher
+                 branch}, teacher_input='camera'|'clear', obj_weight=...,
+                 score_weight=..., tau=..., score_thr=..., max_dets=...,
+                 topk=...).
+            Absent -> byte-for-byte the pre-CMOLD code path.  A *separate*
+            teacher from ``distillation``'s: CMOLD's teacher is a camera
+            model, not the two-stream fusion teacher.  Note the branch
+            mapping: in this detector ``sonar`` is the *fused* head and
+            ``sonar_uncoupled`` the sonar-only head, so a sonar-only
+            student is ``routes={"sonar_uncoupled": "camera"}``.
     """
 
     def __init__(
@@ -93,6 +109,7 @@ class TwoStreamYOLOX(BaseDetector):
         loss_weights: Optional[dict] = None,
         fusion_detach_sonar: bool = False,
         distillation: Optional[dict] = None,
+        cmold: Optional[dict] = None,
         train_cfg: Optional[dict] = None,
         test_cfg: Optional[dict] = None,
         data_preprocessor: Optional[dict] = None,
@@ -153,6 +170,11 @@ class TwoStreamYOLOX(BaseDetector):
                 self.kd_adapters = nn.ModuleList(
                     [nn.Conv2d(a, b, 1) for a, b in zip(s_ch, t_ch)])
 
+        self.cmold_cfg = cmold
+        self.cmold_teacher = None
+        if cmold:
+            self._init_cmold_teacher(cmold)
+
     # -- teacher -----------------------------------------------------------
     def _init_teacher(self, cfg: dict) -> None:
         from aodet.models.teachers.frozen_teacher import FrozenTeacher
@@ -160,6 +182,28 @@ class TwoStreamYOLOX(BaseDetector):
         for p in self.teacher.parameters():
             p.requires_grad = False
         self.teacher.eval()
+
+    def _init_cmold_teacher(self, cfg: dict) -> None:
+        """Build the CMOLD teacher (a camera model) and freeze it.
+
+        Reuses :class:`FrozenTeacher`, so the same strict checkpoint loading
+        applies.  ``teacher_ckpt`` is the spelling frozen by the branch
+        plan section 6; ``teacher_checkpoint`` is accepted too so the key
+        matches the ``distillation`` block.
+        """
+        from aodet.models.teachers.frozen_teacher import FrozenTeacher
+        tcfg = dict(cfg)
+        if "teacher_ckpt" in tcfg and "teacher_checkpoint" not in tcfg:
+            tcfg["teacher_checkpoint"] = tcfg["teacher_ckpt"]
+        if "teacher" not in tcfg:
+            raise ValueError(
+                "cmold.teacher (the teacher model config) is required: the "
+                "CMOLD teacher is built from it and its weights are loaded "
+                "from cmold.teacher_ckpt")
+        self.cmold_teacher = FrozenTeacher(tcfg)
+        for p in self.cmold_teacher.parameters():
+            p.requires_grad = False
+        self.cmold_teacher.eval()
 
     # -- features ----------------------------------------------------------
     def extract_camera_feat(self, img: torch.Tensor) -> Optional[List]:
@@ -232,6 +276,8 @@ class TwoStreamYOLOX(BaseDetector):
         if self.teacher is not None and self.training:
             losses.update(self._kd_losses(batch_inputs, outs, son_feats,
                                           cam_valid))
+        if self.cmold_teacher is not None and self.training:
+            losses.update(self._cmold_losses(batch_inputs, outs))
         return losses
 
     def _kd_losses(self, batch_inputs, outs, son_feats, cam_valid) -> dict:
@@ -293,6 +339,41 @@ class TwoStreamYOLOX(BaseDetector):
             losses["kd/loss_sonar_feat"] = fw * feature_kd_loss(
                 son_feats, t_feats["sonar_fused"], self.kd_adapters, fg=fg)
         return losses
+
+    def _cmold_losses(self, batch_inputs, outs) -> dict:
+        """CMOLD rank-paired object-level distillation (eq. 10-19).
+
+        Only reachable when ``cmold`` is in the model config, so its absence
+        leaves :meth:`loss` untouched.  Keys contain "loss" for mmengine's
+        ``parse_losses`` (review 2026-10-31 section 1.1).
+
+        ``teacher_input='camera'`` (default) feeds the batch's camera view --
+        the paper's setting, a camera teacher on RGB.  ``'clear'`` reads
+        ``camera_clear`` and raises when it is missing rather than silently
+        distilling from the degraded view (review 2026-11-01 #2).  With no
+        camera view at all (a D-inf drop) there is no cross-modal signal, so
+        the block is skipped instead of crashing a fused-head run.
+        """
+        from aodet.models.losses.cmold_kd import cmold_kd_losses
+        cfg = self.cmold_cfg or {}
+        mode = cfg.get("teacher_input", "camera")
+        if mode == "clear":
+            t_in = batch_inputs.get("camera_clear")
+            if t_in is None:
+                raise RuntimeError(
+                    "cmold teacher_input='clear' but the batch has no "
+                    "camera_clear (is AOStudentCameraView in the pipeline?)")
+        elif mode == "camera":
+            t_in = batch_inputs.get("camera")
+        else:
+            raise ValueError(f"unknown cmold teacher_input {mode!r}")
+        if t_in is None:
+            return {}
+        with torch.no_grad():
+            t_out = self.cmold_teacher.forward_head_outputs(
+                camera=t_in, sonar=batch_inputs["sonar"])
+        kd = cmold_kd_losses(outs, t_out, cfg=cfg)
+        return {f"cmold/loss_{k}": v for k, v in kd.items()}
 
     def predict(self, batch_inputs: Dict[str, torch.Tensor],
                 batch_data_samples: Dict[str, SampleList],
