@@ -92,7 +92,7 @@ R0 必须先跑通并解释，再往上走：R2 的增益是相对 R0 的，R0 �
 ## 6 接口契约（并行前提，先冻结再开工）
 
 - 划分产物：`D:/pby/uxo-full/repro/frame_split.json` = `{"seed":0, "counts":{"train":N,"val":M}, "train":[sonar_image_id...], "val":[...]}`；带 `--check` 自检（打印逐类分布与总帧数）。
-- 数据接入：优先产出新的 ann 文件（`repro/sonar.json`、`repro/camera.json`），把 `split` 字段改写为 train/val，**不改** `aodet/datasets/` 的既有语义；若该数据集只认 `data_root` 下的固定文件名，则新增子类，改动限定在新文件内。
+- 数据接入（已实测确认，2026-11-08 定案）：现有数据集的分组只来自 `frame_meta` 的 `split` 列（`aodet/datasets/paired_format.py:84` `"split": row.get("split", "")`、`aodet/datasets/paired_dataset.py:105` `if self.split and sample["split"] != self.split`），而 ann 的 `images` 里没有 `split` 键、`aodet/` 全树也没有该键的读者 —— 所以改写 `repro/*.json` 的 `split` **不会被读到**，那两份文件只作留档。真正接线用新增子类 `aodet/datasets/repro_frame_split.py` 的 `FrameSplitPairedSonarCameraDataset`，按 `frame_split.json` 的 id 集合过滤 `d["coco_sonar_image_id"]`（`paired_dataset.py:124`），`split_file=None` 时与父类逐位一致。配置写法：`type="FrameSplitPairedSonarCameraDataset"`、`split_file="/mnt/d/pby/uxo-full/repro/frame_split.json"`、`split="train"|"val"`，`data_root` 仍指向 `/mnt/d/pby/uxo-full/paired`（`repro/` 没有 `frame_meta.csv`/`pairs.csv`/`images/`）。
 - KD 接口（冻结签名）：
 
   ```python
