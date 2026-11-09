@@ -338,3 +338,57 @@ R0 0.5347、R2 0.5137、M 教师 0.5202、P2 0.8744 全部是在**帧级 val** �
 相关脚本（不入库）：`tools/oneshot/wzl_xeval_clean.sh`、`wzl_do_xeval_clean.sh`、
 `check_overlap.sh`、`wzl_do_check_overlap.sh`、`cmp_camera_ann.sh`、`wzl_do_cmp_camera_ann.sh`、
 `xeval_b_e13cam_on_ourval.sh`、`xeval_b2_stretch.sh`、`wzl_xeval_a.sh`、`wzl_do_xeval_a.sh`。
+
+## 12. 干净考场（他们 test 900 帧）上的四份权重（2026-11-09 晚补）
+
+### 12.1 为什么用这个考场
+
+他们平台的划分是录音级：train 27 条录音 1,650 帧、val 10 条 900 帧、val_id 27 条 378 帧、
+test 10 条 900 帧。我方候选池（`paired_calib`，4,152 帧 / 37 条录音）正好等于他们的
+train + val 那 37 条，**test 那 10 条录音在我方池子里一帧都没有**。因此：
+
+- 他们的 test 对我方模型是**彻底零样本**；
+- 对他们的 B0 同样是零样本（他们只在 train 27 条上训）；
+- 两边用同一份标注（`data/paired/uxo_full/sonar.json`，3,828 帧、每帧 1 个框，
+  `source` 字段 projected 1,766 / blob 2,062，与我方 schema 一致）。
+
+### 12.2 读数（`--split test`，900 帧，配对输入，d0）
+
+| 模型 | 训练帧 | 评测器 | gt=all AP | AP50 | gt=blob AP | AP50 |
+|---|---|---|---|---|---|---|
+| 我方 R0（声呐 letterbox） | 3,322 | 我方 | **0.0849** | 0.2062 | 0.1297 | 0.2567 |
+| 我方 R2（CMOLD 单 seed） | 3,322 | 我方 | 0.0881 | 0.1988 | 0.1320 | 0.2556 |
+| 我方声呐 M 教师（从零） | 3,322 | 我方 | 0.0475 | 0.1276 | 0.0696 | 0.1626 |
+| 他们 B0（e11 纯声呐，304 ep） | 1,650 | 他们的 | **0.0626** | 0.1437 | 0.1129 | 0.2594 |
+| 他们 e09 B0-recipe（旧配方） | 1,650 | 他们的 | 0.0007 | 0.0020 | 0.0021 | 0.0066 |
+
+### 12.3 结论
+
+1. **在录音级留出上，所有人都塌到 0.06–0.09**：我方 R0 0.0849，他们自己的 B0 0.0626。
+   与论文的 0.661 相差一个数量级。
+2. 所以论文的 0.661 **不可能**是录音级口径。它与"帧级随机 80/20"（训练帧与评测帧同源）
+   这种划分更相容 —— 这也正是我方复现分支当初选帧级划分的理由。
+3. 我方的 0.5347（帧级 val）与他们的 0.2677（台账 B0 blob 读数，他们 val）都含
+   "同源"乐观，只是乐观幅度不同。
+4. **CMOLD 机制在两个口径下都没有增益**：帧级 val 上 R2−R0 = −0.0210；
+   干净考场 R2−R0 = +0.0032（噪声量级）。同一结论的两次独立检验。
+
+### 12.4 这一格的两个限制（必须随数字一起引用）
+
+- **两把尺子**：我方两行用我方评测器（`aodet/evaluation/per_branch_metric.py`，score_thr、NMS 按我方
+  test_cfg），他们 B0 用他们自己的评测器。出框帧数我方 844/900，他们 418/900，
+  说明两边分数阈值不同，绝对值的可比性有限。量级结论（都在 0.06–0.09）不受影响，
+  但"我方 0.0849 高于他们 0.0626"这句要留出这个余地。
+- 尝试把他们的 B0 权重塞进我方模型用同一把尺子评，实测 AP 全 0
+  （键或结构不匹配；`torch.load` 还需要 `weights_only=False`），该路线未打通。
+
+### 12.5 还缺的一格
+
+我方 R0/R2 在**自己的录音级留出**上没有读数——我方池子 37 条录音全在帧级训练集里，
+没有留出录音。要做只能重训（把 37 条切成 27+10，重跑 R0/R2/R1，各 200 epoch）。
+在拿到那一格之前，跨平台比较只能借用他们的 test，且必须声明这一点。
+
+相关脚本（不入库）：`wzl_xeval_sonar_clean.sh`、`wzl_do_xeval_sonar_clean.sh`、
+`wzl_xeval_r0_control.sh`、`wzl_do_r0_control.sh`、`probe_their_sonar_gt.sh`、
+`diag_sonar_image_compat.sh`、`diag_recordings.sh`、`wzl_eval_their_b0.sh`、
+`wzl_eval_their_b0_oureval.sh`、`wzl_show_b0_d0.sh`、`wzl_check_eval_frames.sh`。
