@@ -110,3 +110,22 @@ push 目标一律 `git push origin main`。本机凭据是 `blockingsyslunat` �
 - dense 平台（E13 系列）数据不在本机；本机只有 uxo_full 6,246 帧在 `D:/pby/uxo-full`，两者 image_id 空间不一致，不能直接对齐。
 - E13 三臂尚未入 `doc/experiments.md`，入账需导师同意。
 - 本机无 `pycocotools`，任何"重算 AP"的结论必须注明在 5090 上跑。
+
+## 审计后更正（2026-11-09 多智能体审计，五份报告 `doc/reviews/`，裁决 `doc/logs/2026-11-09-audit-synthesis.md`）
+
+本节只追加，不改上文。以下六条覆盖本文件与 doc/logs 里的既有表述。
+
+1. **论文没有规定帧级随机 80/20。** 全文 "split" 只出现 1 次且指 KD 一致性，划分方式论文未述。
+   凡把"帧级随机"写成论文协议的（`docs/investigation/00_总报告_我方与CMOLD对齐与差距归因.md:353`、`:567`、`03_基线数字复核.md:187`）
+   一律按"论文未述，我方自选"读。正确表述在 `doc/logs/2026-11-04-literature-baseline-protocol-comparison.md:117`。
+2. **CMHD 的"教师与学生同为 YOLOX-S-Ghost"只对"复现 CMOLD"那一臂成立**；CMHD 本体的教师是 YOLOX-M。
+3. **论文的 0.949 / 0.828 与相机 0.958 / 0.997 / 0.997 / 0.969 正文 0 命中**，唯一出处是表图
+   `literature/cmold/cmold_t5.png` 与 `cmold_t3.png`；引用时须写"表图，非正文"。
+   同理，超参（200 epoch / lr / bs / momentum / wd）唯一出处是 TABLE 2 图片。
+4. **今日三条主结论已降级**（详见裁决文件）：录音级"不可能"→"本平台可测"；
+   相机"考场难度"一词撤回（真实结构是近邻帧乐观量 + 模型×考场交互）；机制"无增益"→"这份实例化未测到增益"，
+   因为门控 score_thr=0.3 把配对数压到每图 8–9 对，论文是整图一个列表一个 K。
+5. **两处读数不得单独引用**：`doc/logs/2026-11-09-r0-first-result-and-overfit-diagnosis.md` §11 的 0.9817
+   （评测帧 81% 在我方训练集内）、§12 的干净考场四行（本机零产物，且两边评测器未打通，排序不可用）。
+6. **val 录音数是 37 条**（`repro/frame_split.json` 的 `recordings.shared=37`），不是 28；
+   val 830 帧与 train 3,322 帧来自同一份 37 条录音清单。
