@@ -239,29 +239,3 @@ def test_recording_by_image_id(tmp_path):
     ]
     assert mod.recording_by_image_id(infos, "sonar") == {7: "r1"}
     assert mod.recording_by_image_id(infos, "camera") == {3: "r3"}
-
-
-def test_resolve_cli_split_frame_meta_dataset():
-    """frame_meta datasets keep the historical split=None + post-filter path."""
-    mod = _load_tools_test()
-    cfg = {"type": "PairedSonarCameraDataset", "split": "val"}
-    assert mod.resolve_cli_split(None, cfg) is None
-    # any set is expressible: every split is loaded, infos are filtered later
-    assert mod.resolve_cli_split({"val", "val_id"}, cfg) is None
-    assert mod.resolve_cli_split({"train"}, cfg) is None
-    # an empty string (split_file="") must not switch the dataset into
-    # id-list mode
-    assert mod.resolve_cli_split({"train"}, {"split_file": ""}) is None
-
-
-def test_resolve_cli_split_split_file_dataset():
-    """id-list datasets refuse split=None, so the CLI must name one role."""
-    mod = _load_tools_test()
-    cfg = {"type": "FrameSplitPairedSonarCameraDataset",
-           "split": "val", "split_file": "/tmp/frame_split.json"}
-    assert mod.resolve_cli_split({"val"}, cfg) == "val"
-    assert mod.resolve_cli_split({"train"}, cfg) == "train"
-    with pytest.raises(ValueError, match="exactly one role"):
-        mod.resolve_cli_split({"val", "val_id"}, cfg)
-    # and it must reach the dataset, not be swallowed as None
-    assert mod.resolve_cli_split({"val"}, cfg) != None  # noqa: E711

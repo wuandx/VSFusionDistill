@@ -51,8 +51,8 @@
 #   scripts/cmold_repro_chain.sh --arm r0 --stages eval,summary
 #
 # Guards: the train stage runs the config's own schedule only when --full is
-# given; every tools/test.py call passes an explicit --split val (the test
-# split stays sealed, CLAUDE.md hard rule).
+# given; every tools/test.py call pins the val split (the test split stays
+# sealed, CLAUDE.md hard rule).
 
 set -uo pipefail
 
@@ -211,7 +211,8 @@ describe_stage() {
             echo "      -> $RES/smoke.json" ;;
         eval)
             echo "    $PY tools/test.py $CFG <newest epoch_*.pth under $WD> \\"
-            echo "        --split val --levels d0 --out-dir $RES/eval_val"
+            echo "        --cfg-options test_dataloader.dataset.split=val \\"
+            echo "        --levels d0 --out-dir $RES/eval_val"
             echo "      (marker kept only if $RES/eval_val/ap_summary.json appears)" ;;
         summary)
             echo "    \$PY - <summary> $RES/eval_val/ap_summary.json $ARM" ;;
@@ -798,8 +799,16 @@ stage_eval() {
     local ckpt; ckpt="$(newest_ckpt "$WD")"
     [ -n "$ckpt" ] || { say "eval: FAILED no checkpoint under $WD"; return 1; }
     local out_dir="$RES/eval_val"
-    say "eval: $ckpt -> $out_dir (explicit --split val, test stays sealed)"
-    "$PY" tools/test.py "$CFG" "$ckpt" --split val --levels d0 \
+    # The split is pinned through --cfg-options, not --split: tools/test.py's
+    # --split path builds the dataset with split=None ("load every split, then
+    # filter the infos"), and a split_file dataset refuses None on purpose
+    # (aodet/datasets/repro_frame_split.py:108 -- "that would admit the test
+    # recordings").  Pinning dataset.split evaluates exactly the val id list
+    # in the split file, so the sealed test recordings stay unopened, and this
+    # branch leaves the shared tools/test.py untouched (mainline separation).
+    say "eval: $ckpt -> $out_dir (split pinned to val in the config, test stays sealed)"
+    "$PY" tools/test.py "$CFG" "$ckpt" --levels d0 \
+        --cfg-options test_dataloader.dataset.split=val \
         --out-dir "$out_dir"
     [ -f "$out_dir/ap_summary.json" ] || { say "eval: FAILED no ap_summary.json"; return 1; }
 }
