@@ -147,7 +147,7 @@ def main():
             content = content.replace(token, token + f'\n  本次已补充[仓库副本]({published})，gzip文件解压后为原始JSON。\n')
     write(artifact, content)
     # Main entry points lead with the two requested historical baseline indexes.
-    for rel in ['README.md', 'research/README.md']:
+    for rel in ['research/README.md']:
         path = CHECKOUT / rel
         text = path.read_text(encoding='utf-8')
         prefix = 'research/' if rel == 'README.md' else ''

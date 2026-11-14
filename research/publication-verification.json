@@ -15,5 +15,24 @@
   "new_training_or_evaluation": false,
   "original_test_images_or_annotations_accessed": false,
   "full_images_or_weights_uploaded": false,
-  "checks_scope": "local imported snapshot and Git index before adding this verification JSON; no live training query or model rerun"
+  "checks_scope": "local imported snapshot and Git index before adding this verification JSON; no live training query or model rerun",
+  "readme_restoration": {
+    "original_commit": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+    "byte_equal_to_original": true,
+    "sha256": {
+      "README.md": "e0ffac6bf52ccfbacaec64d6e755205e109a158c4f5b742f0ef32e66971422cd",
+      "README.zh-CN.md": "0eada0af0cb2d8f0127826eca98aeb27c1afb6c4cdda0c3100b393d1e803df5a"
+    },
+    "research_text_is_objective": true,
+    "original_workflow_readme_restored": true,
+    "latest_static_check_before_record_rewrite": {
+      "passed": true,
+      "imported_hashes_checked": 1403,
+      "json_files_checked": 620,
+      "local_links_checked": 1330,
+      "total_files": 1416,
+      "total_bytes": 48785071,
+      "failures": []
+    }
+  }
 }

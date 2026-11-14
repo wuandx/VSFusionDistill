@@ -6005,8 +6005,8 @@
     {
       "source": "tools/add_historical_baseline_release.py",
       "published": "research/tools/add_historical_baseline_release.py",
-      "source_sha256": "216d2bec542449f74d57433ccb1df0dbab106900af0eab9c864cef615223c6d4",
-      "published_sha256": "216d2bec542449f74d57433ccb1df0dbab106900af0eab9c864cef615223c6d4",
+      "source_sha256": "820f3bf589ca98e094241a83cb860bf6ef6b44ce298d7b8627c63aec9482b1e2",
+      "published_sha256": "820f3bf589ca98e094241a83cb860bf6ef6b44ce298d7b8627c63aec9482b1e2",
       "transformation": "copy"
     },
     {
@@ -7027,9 +7027,9 @@
     {
       "source": "tools/prepare_github_research_release.py",
       "published": "research/tools/prepare_github_research_release.py",
-      "source_sha256": "a798b2488063866c59c9e59f2b3d01a978cf0d15b0fa4eb11819df1a95505f88",
+      "source_sha256": "5c38e68ed998146743ef15ba984128db80b2481a57860787121e9120692bbc68",
       "transformation": "copy",
-      "published_sha256": "a798b2488063866c59c9e59f2b3d01a978cf0d15b0fa4eb11819df1a95505f88"
+      "published_sha256": "5c38e68ed998146743ef15ba984128db80b2481a57860787121e9120692bbc68"
     },
     {
       "source": "tools/prepare_grenade_sequence_observations.py",
@@ -9828,5 +9828,6 @@
   "omitted_link_count": 460,
   "omitted_artifact_count": 326,
   "scope": "publication only; no training, inference, or original test access",
-  "additional_scope": "historical baseline results and frozen dataset metadata requested by user; no full image upload"
+  "additional_scope": "historical baseline results and frozen dataset metadata requested by user; no full image upload",
+  "readme_policy": "Original repository README.md and README.zh-CN.md preserved; new research indexes are separate."
 }
