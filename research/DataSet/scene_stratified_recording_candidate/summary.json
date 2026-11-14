@@ -1,0 +1,50 @@
+{
+  "train": {
+    "recordings": 21,
+    "source_groups": 17,
+    "selected": 1985,
+    "reserve": 286,
+    "per_class_recordings": {
+      "100lbs_aircraft_bomb": 8,
+      "mortar_shell": 7,
+      "incindiary_grenade": 6
+    },
+    "per_class_pairs": {
+      "100lbs_aircraft_bomb": 769,
+      "mortar_shell": 616,
+      "incindiary_grenade": 600
+    }
+  },
+  "val": {
+    "recordings": 8,
+    "source_groups": 6,
+    "selected": 749,
+    "reserve": 53,
+    "per_class_recordings": {
+      "100lbs_aircraft_bomb": 3,
+      "mortar_shell": 2,
+      "incindiary_grenade": 3
+    },
+    "per_class_pairs": {
+      "100lbs_aircraft_bomb": 249,
+      "mortar_shell": 200,
+      "incindiary_grenade": 300
+    }
+  },
+  "test": {
+    "recordings": 7,
+    "source_groups": 7,
+    "selected": 584,
+    "reserve": 59,
+    "per_class_recordings": {
+      "100lbs_aircraft_bomb": 3,
+      "mortar_shell": 2,
+      "incindiary_grenade": 2
+    },
+    "per_class_pairs": {
+      "100lbs_aircraft_bomb": 242,
+      "mortar_shell": 200,
+      "incindiary_grenade": 142
+    }
+  }
+}

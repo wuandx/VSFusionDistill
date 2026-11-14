@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-11-13T23:37:32.405715+08:00",
+  "parallel_training_verified": true,
+  "runs": [
+    {
+      "name": "scene_camera_m_baseline",
+      "status": "training",
+      "latest_iteration": "11/13 23:37:17 - mmengine - INFO - Epoch(train)   [1][150/309]  base_lr: 1.1782e-05 lr: 1.1782e-05  eta: 8:50:51  time: 0.5083  data_time: 0.0484  memory: 7463  grad_norm: 193.8914  loss: 80.2397  camera/loss_cls: 0.4896  camera/loss_bbox: 4.9438  camera/loss_obj: 74.8062",
+      "service": "MainPID=8680\nResult=success\nActiveState=active\nSubState=running\n"
+    },
+    {
+      "name": "scene_sonar_s_baseline",
+      "status": "training",
+      "latest_iteration": "11/13 23:37:25 - mmengine - INFO - Epoch(train)   [1][200/309]  base_lr: 2.0947e-05 lr: 2.0947e-05  eta: 7:25:30  time: 0.4378  data_time: 0.0371  memory: 3988  grad_norm: 229.2423  loss: 63.5694  uncoupled_sonar/loss_cls: 1.2486  uncoupled_sonar/loss_bbox: 4.5218  uncoupled_sonar/loss_obj: 57.7990",
+      "service": "MainPID=8683\nResult=success\nActiveState=active\nSubState=running\n"
+    }
+  ],
+  "test_content_read": false
+}

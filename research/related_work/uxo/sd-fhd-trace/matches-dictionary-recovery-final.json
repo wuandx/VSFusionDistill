@@ -1,0 +1,12 @@
+[
+  {
+    "range_start": 61491128889,
+    "range_end": 61512100408,
+    "read_bytes": 20971520,
+    "candidate_offset": 3413,
+    "prefix_bytes": 1,
+    "decoded_bytes": 20993179,
+    "csv_bytes": 23048,
+    "crc32": 2231209736
+  }
+]

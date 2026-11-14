@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "summary": {
+    "test": {
+      "images": 600,
+      "classes": {
+        "100lbs_aircraft_bomb": 200,
+        "mortar_shell": 200,
+        "incindiary_grenade": 200
+      },
+      "all_images_decoded": true,
+      "all_image_hashes_match": true,
+      "boxes_in_native_sd_bounds": true
+    }
+  },
+  "test_content_read": true,
+  "coordinate_scale": 1,
+  "clip": false
+}

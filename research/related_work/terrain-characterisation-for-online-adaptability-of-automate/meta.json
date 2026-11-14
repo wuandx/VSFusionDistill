@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2404.18663",
+ "slug": "terrain-characterisation-for-online-adaptability-of-automate",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:41:44",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Terrain characterisation for online adaptability of automated sonar processing: Lessons learnt from operationally applying ATR to sidescan sonar in MCM applications",
+ "authors": [
+  "Guerneve, Thomas",
+  "Loizou, Stephanos",
+  "Munafo, Andrea",
+  "Mignotte, Pierre-Yves"
+ ],
+ "date": "2024/04/29",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: The performance of Automated Recognition (ATR) algorithms on side-scan sonar imagery has shown to degrade rapidly when deployed on non benign environments. Complex seafloors and acoustic artefacts constitute distractors in the form of strong textural patterns, creating false detections or preventing detections of true objects. This paper presents two online seafloor characterisation techniques to improve explainability during Autonomous Underwater Vehicles (AUVs) missions. Importantly and as opposed to previous work in the domain, these techniques are not based on a model and require limited input from human operators, making it suitable for real-time onboard processing. Both techniques rely on an unsupervised machine learning approach to extract terrain features which relate to the human understanding of terrain complexity. The first technnique provides a quantitative, application-driven terrain characterisation metric based on the performance of an ATR algorithm. The second method provides a way to incorporate subject matter expertise and enables contextualisation and explainability in support for scenario-dependent subjective terrain characterisation. The terrain complexity matches the expectation of seasoned users making this tool desirable and trustworthy in comparison to traditional unsupervised approaches. We finally detail an application of these techniques to repair a Mine Countermeasures (MCM) mission carried with SeeByte autonomy framework Neptune.",
+ "comments": "Presented at UACE (Underwater Acoustics Conference &amp; Exhibition) 2023, Kalamata, Greece",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2404.18663",
+  "bytes": 5310186,
+  "sha256": "e287c1d18c42b300511e4641fa2283dc1820847cc9d765e476c611fe053ed40b"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2404.18663",
+  "bytes": 5310186,
+  "sha256": "e287c1d18c42b300511e4641fa2283dc1820847cc9d765e476c611fe053ed40b",
+  "kind": "pdf",
+  "n_files": 0,
+  "tex_files": [],
+  "note": "e-print was a PDF, no LaTeX available"
+ }
+}

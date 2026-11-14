@@ -1,0 +1,88 @@
+{
+  "archive": "data_processed.7z",
+  "archive_size": 61513277947,
+  "members": 198915,
+  "solid": true,
+  "blocks": 32,
+  "new_bytes_transferred": 1177570,
+  "operation": "list only; no members extracted",
+  "new_ranges": [
+    {
+      "start": 0,
+      "end_inclusive": 5,
+      "bytes": 6,
+      "path": "header-range-0-5.bin",
+      "sha256": "66fa59e8d4a03861706e6197b6189eb9c7fa6a47a23da2a69aaa6eb6260182ff"
+    },
+    {
+      "start": 6,
+      "end_inclusive": 6,
+      "bytes": 1,
+      "path": "header-range-6-6.bin",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+    },
+    {
+      "start": 7,
+      "end_inclusive": 7,
+      "bytes": 1,
+      "path": "header-range-7-7.bin",
+      "sha256": "e52d9c508c502347344d8c07ad91cbd6068afc75ff6292f062a09ca381c89e71"
+    },
+    {
+      "start": 8,
+      "end_inclusive": 11,
+      "bytes": 4,
+      "path": "header-range-8-11.bin",
+      "sha256": "70df3afb9f21a3b2a6973bcecda2c029257becc3a6850022729b750690013065"
+    },
+    {
+      "start": 12,
+      "end_inclusive": 19,
+      "bytes": 8,
+      "path": "header-range-12-19.bin",
+      "sha256": "ed64f26c862579b4766bf07b464bb0a282a328b6686db9ba40eb49dad72c1f93"
+    },
+    {
+      "start": 20,
+      "end_inclusive": 27,
+      "bytes": 8,
+      "path": "header-range-20-27.bin",
+      "sha256": "ed049108bc18f2c64369e8d0ea42850bdd1a7d1dd340cfde716315579702a76c"
+    },
+    {
+      "start": 28,
+      "end_inclusive": 31,
+      "bytes": 4,
+      "path": "header-range-28-31.bin",
+      "sha256": "2873eab0b74f838a0f39cf8de169e2361590554484ca67148919994a379f00c9"
+    },
+    {
+      "start": 61513277905,
+      "end_inclusive": 61513277946,
+      "bytes": 42,
+      "path": "header-range-61513277905-61513277946.bin",
+      "sha256": "110836a0daf676fe1aa5140fd598e82be1204ef52262ea9ca40b569b5d141ad8"
+    },
+    {
+      "start": 61512100409,
+      "end_inclusive": 61513148984,
+      "bytes": 1048576,
+      "path": "header-range-61512100409-61513148984.bin",
+      "sha256": "608cf9590c8aeb6097f20088753eafe49dfef542882efc0854ac73d08c51f82c"
+    },
+    {
+      "start": 61513148985,
+      "end_inclusive": 61513277904,
+      "bytes": 128920,
+      "path": "header-range-61513148985-61513277904.bin",
+      "sha256": "c9ef452d8ba9446df1e703a12cd849995ad659e0f5476368d447595fe8d1046b"
+    }
+  ],
+  "extension_counts": {
+    ".pgm": 98937,
+    ".csv": 386,
+    ".yaml": 210,
+    ".png": 98937,
+    ".mp4": 228
+  }
+}

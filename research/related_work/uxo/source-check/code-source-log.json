@@ -1,0 +1,26 @@
+{
+  "retrieved_date": "2026-11-10",
+  "code_commit": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/323ac6cf45bb6129806c8e3ed8ec31e22e1a392d/scripts/release_1_export.py",
+      "path": "related_work\\uxo\\source-check\\release_1_export.py",
+      "sha256": "e37b0d649a011b20337f431fb0ec4c1f3cf8c97ef295a690b80512294f66d95b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/323ac6cf45bb6129806c8e3ed8ec31e22e1a392d/scripts/common/matching_context.py",
+      "path": "related_work\\uxo\\source-check\\matching_context.py",
+      "sha256": "9b3c008902703b88f0cd3bbe372dad95b1a56b3567942a0be3ec44c6592ce87b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/323ac6cf45bb6129806c8e3ed8ec31e22e1a392d/scripts/prep_8_gopro_downsample.bash",
+      "path": "related_work\\uxo\\source-check\\prep_8_gopro_downsample.bash",
+      "sha256": "b112f679b62213208554e13ec78e0c342d40092fa01c4910ba4deeb7d67296a4"
+    },
+    {
+      "url": "https://github.com/dfki-ric/uxo-dataset2024/issues/2",
+      "path": "related_work\\uxo\\source-check\\annotation-issue-2.html",
+      "sha256": "1426d162f25ef773f43215bdb885418cf325b0ad43003b09623d0f20e7be528c"
+    }
+  ]
+}

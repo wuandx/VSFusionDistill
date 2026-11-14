@@ -1,0 +1,2634 @@
+[
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_171105/aris_file_meta.yaml",
+    "size": 1043,
+    "compressed": 1883555022,
+    "crc32": 1255188437,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_171105/aris_frame_meta.csv",
+    "size": 650663,
+    "compressed": null,
+    "crc32": 3156735152,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_171105/gantry.csv",
+    "size": 33918,
+    "compressed": null,
+    "crc32": 3612611350,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_171105/notes.txt",
+    "size": 99,
+    "compressed": null,
+    "crc32": 2454375696,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_172513/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 3856328000,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_172513/aris_frame_meta.csv",
+    "size": 675034,
+    "compressed": null,
+    "crc32": 2738269077,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_172513/gantry.csv",
+    "size": 34754,
+    "compressed": null,
+    "crc32": 3566714257,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_172513/notes.txt",
+    "size": 99,
+    "compressed": null,
+    "crc32": 2512834929,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_172851/aris_file_meta.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 2017666657,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_172851/aris_frame_meta.csv",
+    "size": 645192,
+    "compressed": null,
+    "crc32": 882234445,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_172851/gantry.csv",
+    "size": 33442,
+    "compressed": null,
+    "crc32": 4013654425,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_172851/notes.txt",
+    "size": 98,
+    "compressed": null,
+    "crc32": 2451238413,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_173329/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 432798658,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_173329/aris_frame_meta.csv",
+    "size": 693542,
+    "compressed": null,
+    "crc32": 1824694170,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_173329/gantry.csv",
+    "size": 35836,
+    "compressed": null,
+    "crc32": 1859974100,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_173329/notes.txt",
+    "size": 123,
+    "compressed": null,
+    "crc32": 3761031734,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_173615/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2184479038,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_173615/aris_frame_meta.csv",
+    "size": 724728,
+    "compressed": null,
+    "crc32": 287732123,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_173615/gantry.csv",
+    "size": 37167,
+    "compressed": null,
+    "crc32": 1939133738,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_173615/notes.txt",
+    "size": 131,
+    "compressed": null,
+    "crc32": 4130572914,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174200/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3305151850,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174200/aris_frame_meta.csv",
+    "size": 678629,
+    "compressed": null,
+    "crc32": 589373221,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174200/gantry.csv",
+    "size": 35496,
+    "compressed": null,
+    "crc32": 3644363396,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174200/notes.txt",
+    "size": 99,
+    "compressed": null,
+    "crc32": 508837731,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174439/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3728001404,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174439/aris_frame_meta.csv",
+    "size": 670340,
+    "compressed": null,
+    "crc32": 675279216,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174439/gantry.csv",
+    "size": 35122,
+    "compressed": null,
+    "crc32": 3129617210,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174439/notes.txt",
+    "size": 120,
+    "compressed": null,
+    "crc32": 1089997165,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174711/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3067851639,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174711/aris_frame_meta.csv",
+    "size": 647442,
+    "compressed": null,
+    "crc32": 2331663734,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174711/gantry.csv",
+    "size": 33956,
+    "compressed": null,
+    "crc32": 2756351191,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_174711/notes.txt",
+    "size": 98,
+    "compressed": null,
+    "crc32": 47371875,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175000/aris_file_meta.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 2607097027,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175000/aris_frame_meta.csv",
+    "size": 722469,
+    "compressed": null,
+    "crc32": 1440143576,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175000/gantry.csv",
+    "size": 38041,
+    "compressed": null,
+    "crc32": 2164632645,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175000/notes.txt",
+    "size": 100,
+    "compressed": null,
+    "crc32": 3550279414,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175506/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2193098840,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175506/aris_frame_meta.csv",
+    "size": 656389,
+    "compressed": null,
+    "crc32": 2316233644,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175506/gantry.csv",
+    "size": 33895,
+    "compressed": null,
+    "crc32": 3037277775,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175506/notes.txt",
+    "size": 99,
+    "compressed": null,
+    "crc32": 750684021,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175703/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2504357837,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175703/aris_frame_meta.csv",
+    "size": 660056,
+    "compressed": null,
+    "crc32": 1240909590,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175703/gantry.csv",
+    "size": 34194,
+    "compressed": null,
+    "crc32": 4286513404,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175703/notes.txt",
+    "size": 120,
+    "compressed": null,
+    "crc32": 193504580,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175905/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 4112028406,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175905/aris_frame_meta.csv",
+    "size": 637236,
+    "compressed": null,
+    "crc32": 4132603889,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175905/gantry.csv",
+    "size": 32347,
+    "compressed": null,
+    "crc32": 1017128318,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_175905/notes.txt",
+    "size": 98,
+    "compressed": null,
+    "crc32": 805708623,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180126/aris_file_meta.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 3253871982,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180126/aris_frame_meta.csv",
+    "size": 662294,
+    "compressed": null,
+    "crc32": 3193873732,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180126/gantry.csv",
+    "size": 33857,
+    "compressed": null,
+    "crc32": 3959168095,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180126/notes.txt",
+    "size": 100,
+    "compressed": null,
+    "crc32": 662350111,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180506/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 683974245,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180506/aris_frame_meta.csv",
+    "size": 660741,
+    "compressed": null,
+    "crc32": 2817176240,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180506/gantry.csv",
+    "size": 34551,
+    "compressed": null,
+    "crc32": 1383509216,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180506/notes.txt",
+    "size": 99,
+    "compressed": null,
+    "crc32": 471123878,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180722/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3067851639,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180722/aris_frame_meta.csv",
+    "size": 673552,
+    "compressed": null,
+    "crc32": 267966163,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180722/gantry.csv",
+    "size": 35344,
+    "compressed": null,
+    "crc32": 1778304187,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180722/notes.txt",
+    "size": 120,
+    "compressed": null,
+    "crc32": 2059211799,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180944/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 542566731,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180944/aris_frame_meta.csv",
+    "size": 746260,
+    "compressed": null,
+    "crc32": 4256323177,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180944/gantry.csv",
+    "size": 37827,
+    "compressed": null,
+    "crc32": 1711314249,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_180944/notes.txt",
+    "size": 119,
+    "compressed": null,
+    "crc32": 3858192277,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_181139/aris_file_meta.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 2131061580,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_181139/aris_frame_meta.csv",
+    "size": 701049,
+    "compressed": null,
+    "crc32": 2544416495,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_181139/gantry.csv",
+    "size": 36626,
+    "compressed": null,
+    "crc32": 3114769356,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_181139/notes.txt",
+    "size": 100,
+    "compressed": null,
+    "crc32": 948994097,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182317/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 4220603177,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182317/aris_frame_meta.csv",
+    "size": 438933,
+    "compressed": null,
+    "crc32": 2036392508,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182317/gantry.csv",
+    "size": 18186,
+    "compressed": null,
+    "crc32": 1273585037,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182317/notes.txt",
+    "size": 146,
+    "compressed": null,
+    "crc32": 673859641,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182600/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 683974245,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182600/aris_frame_meta.csv",
+    "size": 763732,
+    "compressed": null,
+    "crc32": 972161930,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182600/gantry.csv",
+    "size": 32617,
+    "compressed": null,
+    "crc32": 321972249,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182600/notes.txt",
+    "size": 142,
+    "compressed": null,
+    "crc32": 2232657718,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182843/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3714586630,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182843/aris_frame_meta.csv",
+    "size": 570432,
+    "compressed": null,
+    "crc32": 3307594383,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182843/gantry.csv",
+    "size": 24070,
+    "compressed": null,
+    "crc32": 822790620,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb/2023-09-20_182843/notes.txt",
+    "size": 141,
+    "compressed": null,
+    "crc32": 2210266475,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_155609/aris_file_meta.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 2525747248,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_155609/aris_frame_meta.csv",
+    "size": 1283306,
+    "compressed": null,
+    "crc32": 1942122585,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_155609/gantry.csv",
+    "size": 66137,
+    "compressed": null,
+    "crc32": 926185022,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_155609/notes.txt",
+    "size": 117,
+    "compressed": null,
+    "crc32": 3653053443,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_160146/aris_file_meta.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 4040643535,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_160146/aris_frame_meta.csv",
+    "size": 1305571,
+    "compressed": null,
+    "crc32": 3608837487,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_160146/gantry.csv",
+    "size": 65370,
+    "compressed": null,
+    "crc32": 3642551266,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_160146/notes.txt",
+    "size": 117,
+    "compressed": null,
+    "crc32": 14492758,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_160551/aris_file_meta.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 1933150220,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_160551/aris_frame_meta.csv",
+    "size": 1296059,
+    "compressed": null,
+    "crc32": 858459540,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_160551/gantry.csv",
+    "size": 64988,
+    "compressed": null,
+    "crc32": 3138372525,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_160551/notes.txt",
+    "size": 146,
+    "compressed": null,
+    "crc32": 3996085284,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161033/aris_file_meta.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 3832136978,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161033/aris_frame_meta.csv",
+    "size": 1796218,
+    "compressed": null,
+    "crc32": 2817494782,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161033/gantry.csv",
+    "size": 81605,
+    "compressed": null,
+    "crc32": 3064863059,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161033/notes.txt",
+    "size": 136,
+    "compressed": null,
+    "crc32": 3268567135,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161444/aris_file_meta.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 2996801698,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161444/aris_frame_meta.csv",
+    "size": 1496911,
+    "compressed": null,
+    "crc32": 377892814,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161444/gantry.csv",
+    "size": 73898,
+    "compressed": null,
+    "crc32": 4100105770,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161444/notes.txt",
+    "size": 132,
+    "compressed": null,
+    "crc32": 2168807169,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161916/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3857470949,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161916/aris_frame_meta.csv",
+    "size": 454555,
+    "compressed": null,
+    "crc32": 839545529,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161916/gantry.csv",
+    "size": 19370,
+    "compressed": null,
+    "crc32": 2487793991,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_161916/notes.txt",
+    "size": 127,
+    "compressed": null,
+    "crc32": 3110358908,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162055/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1424000926,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162055/aris_frame_meta.csv",
+    "size": 469658,
+    "compressed": null,
+    "crc32": 4180551904,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162055/gantry.csv",
+    "size": 19891,
+    "compressed": null,
+    "crc32": 4261521497,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162055/notes.txt",
+    "size": 126,
+    "compressed": null,
+    "crc32": 1635322094,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162251/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3857470949,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162251/aris_frame_meta.csv",
+    "size": 573051,
+    "compressed": null,
+    "crc32": 3958375922,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162251/gantry.csv",
+    "size": 24427,
+    "compressed": null,
+    "crc32": 4164891078,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162251/notes.txt",
+    "size": 142,
+    "compressed": null,
+    "crc32": 3796673696,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162428/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 4209641795,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162428/aris_frame_meta.csv",
+    "size": 571148,
+    "compressed": null,
+    "crc32": 5630757,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162428/gantry.csv",
+    "size": 24546,
+    "compressed": null,
+    "crc32": 3637013777,
+    "directory": false
+  },
+  {
+    "name": "recordings/100lbs_bomb_(floor)/2023-09-21_162428/notes.txt",
+    "size": 143,
+    "compressed": null,
+    "crc32": 1016636872,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_100927/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 822004152,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_100927/aris_frame_meta.csv",
+    "size": 653664,
+    "compressed": null,
+    "crc32": 3774907371,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_100927/gantry.csv",
+    "size": 34271,
+    "compressed": null,
+    "crc32": 3910631046,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_100927/notes.txt",
+    "size": 99,
+    "compressed": null,
+    "crc32": 567974743,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101131/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 300110820,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101131/aris_frame_meta.csv",
+    "size": 746844,
+    "compressed": null,
+    "crc32": 2207571998,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101131/gantry.csv",
+    "size": 38576,
+    "compressed": null,
+    "crc32": 1455219505,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101131/notes.txt",
+    "size": 120,
+    "compressed": null,
+    "crc32": 976965402,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101416/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2632461628,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101416/aris_frame_meta.csv",
+    "size": 676343,
+    "compressed": null,
+    "crc32": 3585617517,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101416/gantry.csv",
+    "size": 35277,
+    "compressed": null,
+    "crc32": 445053630,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101416/notes.txt",
+    "size": 98,
+    "compressed": null,
+    "crc32": 1141361536,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101622/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2910784346,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101622/aris_frame_meta.csv",
+    "size": 708283,
+    "compressed": null,
+    "crc32": 3911721119,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101622/gantry.csv",
+    "size": 36270,
+    "compressed": null,
+    "crc32": 598747223,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101622/notes.txt",
+    "size": 119,
+    "compressed": null,
+    "crc32": 3149487989,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101840/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 587994156,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101840/aris_frame_meta.csv",
+    "size": 717455,
+    "compressed": null,
+    "crc32": 2062911654,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101840/gantry.csv",
+    "size": 37010,
+    "compressed": null,
+    "crc32": 3932167800,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_101840/notes.txt",
+    "size": 100,
+    "compressed": null,
+    "crc32": 3271736894,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102106/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 4131638733,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102106/aris_frame_meta.csv",
+    "size": 634259,
+    "compressed": null,
+    "crc32": 1235649756,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102106/gantry.csv",
+    "size": 32691,
+    "compressed": null,
+    "crc32": 3543711328,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102106/notes.txt",
+    "size": 120,
+    "compressed": null,
+    "crc32": 1014026303,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102500/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 2897194895,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102500/aris_frame_meta.csv",
+    "size": 661944,
+    "compressed": null,
+    "crc32": 1480582604,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102500/gantry.csv",
+    "size": 34055,
+    "compressed": null,
+    "crc32": 665378323,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102500/notes.txt",
+    "size": 99,
+    "compressed": null,
+    "crc32": 2670645554,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102700/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 2619828056,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102700/aris_frame_meta.csv",
+    "size": 633061,
+    "compressed": null,
+    "crc32": 1569395493,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102700/gantry.csv",
+    "size": 32705,
+    "compressed": null,
+    "crc32": 414656269,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102700/notes.txt",
+    "size": 120,
+    "compressed": null,
+    "crc32": 2043200666,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102909/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3965590824,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102909/aris_frame_meta.csv",
+    "size": 625984,
+    "compressed": null,
+    "crc32": 290828255,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102909/gantry.csv",
+    "size": 32427,
+    "compressed": null,
+    "crc32": 48727298,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_102909/notes.txt",
+    "size": 98,
+    "compressed": null,
+    "crc32": 3143483122,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103140/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 990325240,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103140/aris_frame_meta.csv",
+    "size": 732930,
+    "compressed": null,
+    "crc32": 1210776403,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103140/gantry.csv",
+    "size": 37446,
+    "compressed": null,
+    "crc32": 781359269,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103140/notes.txt",
+    "size": 99,
+    "compressed": null,
+    "crc32": 2595028012,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103407/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3542128390,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103407/aris_frame_meta.csv",
+    "size": 663848,
+    "compressed": null,
+    "crc32": 2430513522,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103407/gantry.csv",
+    "size": 33915,
+    "compressed": null,
+    "crc32": 2702456730,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103407/notes.txt",
+    "size": 100,
+    "compressed": null,
+    "crc32": 4213950758,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103728/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2210141865,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103728/aris_frame_meta.csv",
+    "size": 615550,
+    "compressed": null,
+    "crc32": 2529867233,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103728/gantry.csv",
+    "size": 32757,
+    "compressed": null,
+    "crc32": 2116314356,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103728/notes.txt",
+    "size": 99,
+    "compressed": null,
+    "crc32": 2944700897,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103927/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1300854861,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103927/aris_frame_meta.csv",
+    "size": 754258,
+    "compressed": null,
+    "crc32": 1254559059,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103927/gantry.csv",
+    "size": 39274,
+    "compressed": null,
+    "crc32": 2730525674,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_103927/notes.txt",
+    "size": 120,
+    "compressed": null,
+    "crc32": 150828489,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_104749/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2210141865,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_104749/aris_frame_meta.csv",
+    "size": 643524,
+    "compressed": null,
+    "crc32": 106496383,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_104749/gantry.csv",
+    "size": 34348,
+    "compressed": null,
+    "crc32": 187168554,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_104749/notes.txt",
+    "size": 98,
+    "compressed": null,
+    "crc32": 2766308381,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105017/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1048771879,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105017/aris_frame_meta.csv",
+    "size": 647835,
+    "compressed": null,
+    "crc32": 78568638,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105017/gantry.csv",
+    "size": 34242,
+    "compressed": null,
+    "crc32": 1502775335,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105017/notes.txt",
+    "size": 99,
+    "compressed": null,
+    "crc32": 2852568319,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105230/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 3256016454,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105230/aris_frame_meta.csv",
+    "size": 754835,
+    "compressed": null,
+    "crc32": 3836128875,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105230/gantry.csv",
+    "size": 38920,
+    "compressed": null,
+    "crc32": 727625960,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105230/notes.txt",
+    "size": 100,
+    "compressed": null,
+    "crc32": 3784242829,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105856/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2985000841,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105856/aris_frame_meta.csv",
+    "size": 193519,
+    "compressed": null,
+    "crc32": 2171339933,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105856/gantry.csv",
+    "size": 8135,
+    "compressed": null,
+    "crc32": 2470032454,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_105856/notes.txt",
+    "size": 120,
+    "compressed": null,
+    "crc32": 2479991711,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110049/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3536159996,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110049/aris_frame_meta.csv",
+    "size": 495019,
+    "compressed": null,
+    "crc32": 3491065938,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110049/gantry.csv",
+    "size": 21065,
+    "compressed": null,
+    "crc32": 3343509950,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110049/notes.txt",
+    "size": 121,
+    "compressed": null,
+    "crc32": 2886025410,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110229/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3536159996,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110229/aris_frame_meta.csv",
+    "size": 467253,
+    "compressed": null,
+    "crc32": 3173469817,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110229/gantry.csv",
+    "size": 19777,
+    "compressed": null,
+    "crc32": 3869621535,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110229/notes.txt",
+    "size": 143,
+    "compressed": null,
+    "crc32": 59535333,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110411/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 474782523,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110411/aris_frame_meta.csv",
+    "size": 476373,
+    "compressed": null,
+    "crc32": 524353611,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110411/gantry.csv",
+    "size": 20125,
+    "compressed": null,
+    "crc32": 4141818697,
+    "directory": false
+  },
+  {
+    "name": "recordings/15cm_mortar/2023-09-21_110411/notes.txt",
+    "size": 142,
+    "compressed": null,
+    "crc32": 3966044713,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_120653/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 3347732465,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_120653/aris_frame_meta.csv",
+    "size": 695156,
+    "compressed": null,
+    "crc32": 1044688030,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_120653/gantry.csv",
+    "size": 36546,
+    "compressed": null,
+    "crc32": 3096737534,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_120653/notes.txt",
+    "size": 104,
+    "compressed": null,
+    "crc32": 1519349481,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_120912/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2210141865,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_120912/aris_frame_meta.csv",
+    "size": 686142,
+    "compressed": null,
+    "crc32": 2402278462,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_120912/gantry.csv",
+    "size": 36198,
+    "compressed": null,
+    "crc32": 3695991170,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_120912/notes.txt",
+    "size": 125,
+    "compressed": null,
+    "crc32": 3702366088,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121124/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2248296373,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121124/aris_frame_meta.csv",
+    "size": 636132,
+    "compressed": null,
+    "crc32": 3188633219,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121124/gantry.csv",
+    "size": 32986,
+    "compressed": null,
+    "crc32": 4290213248,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121124/notes.txt",
+    "size": 103,
+    "compressed": null,
+    "crc32": 2698632010,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121327/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 881766225,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121327/aris_frame_meta.csv",
+    "size": 675065,
+    "compressed": null,
+    "crc32": 3477971485,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121327/gantry.csv",
+    "size": 35161,
+    "compressed": null,
+    "crc32": 1973095421,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121327/notes.txt",
+    "size": 123,
+    "compressed": null,
+    "crc32": 838136393,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121539/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2872581040,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121539/aris_frame_meta.csv",
+    "size": 716789,
+    "compressed": null,
+    "crc32": 3339138171,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121539/gantry.csv",
+    "size": 36862,
+    "compressed": null,
+    "crc32": 1105908725,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121539/notes.txt",
+    "size": 104,
+    "compressed": null,
+    "crc32": 1506181404,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121739/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 1513708652,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121739/aris_frame_meta.csv",
+    "size": 889430,
+    "compressed": null,
+    "crc32": 2688887827,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121739/gantry.csv",
+    "size": 44124,
+    "compressed": null,
+    "crc32": 178779392,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_121739/notes.txt",
+    "size": 142,
+    "compressed": null,
+    "crc32": 1988800913,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122115/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 254777298,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122115/aris_frame_meta.csv",
+    "size": 745886,
+    "compressed": null,
+    "crc32": 1851474248,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122115/gantry.csv",
+    "size": 37418,
+    "compressed": null,
+    "crc32": 2537283242,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122115/notes.txt",
+    "size": 155,
+    "compressed": null,
+    "crc32": 3285817299,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122337/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1221110888,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122337/aris_frame_meta.csv",
+    "size": 621264,
+    "compressed": null,
+    "crc32": 156462462,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122337/gantry.csv",
+    "size": 32205,
+    "compressed": null,
+    "crc32": 2026218122,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122337/notes.txt",
+    "size": 125,
+    "compressed": null,
+    "crc32": 2673742856,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122608/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3664309614,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122608/aris_frame_meta.csv",
+    "size": 679861,
+    "compressed": null,
+    "crc32": 102430975,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122608/gantry.csv",
+    "size": 35071,
+    "compressed": null,
+    "crc32": 4199554088,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122608/notes.txt",
+    "size": 103,
+    "compressed": null,
+    "crc32": 1497918675,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122855/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2095453392,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122855/aris_frame_meta.csv",
+    "size": 735719,
+    "compressed": null,
+    "crc32": 1884982957,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122855/gantry.csv",
+    "size": 37528,
+    "compressed": null,
+    "crc32": 3816748582,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_122855/notes.txt",
+    "size": 175,
+    "compressed": null,
+    "crc32": 3858849128,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123215/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 599091159,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123215/aris_frame_meta.csv",
+    "size": 936763,
+    "compressed": null,
+    "crc32": 3757924934,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123215/gantry.csv",
+    "size": 41993,
+    "compressed": null,
+    "crc32": 4198227883,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123215/notes.txt",
+    "size": 133,
+    "compressed": null,
+    "crc32": 3974073590,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123500/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3675232356,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123500/aris_frame_meta.csv",
+    "size": 693739,
+    "compressed": null,
+    "crc32": 3380619822,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123500/gantry.csv",
+    "size": 36977,
+    "compressed": null,
+    "crc32": 1204184829,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123500/notes.txt",
+    "size": 104,
+    "compressed": null,
+    "crc32": 3570492511,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123651/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2449245193,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123651/aris_frame_meta.csv",
+    "size": 768541,
+    "compressed": null,
+    "crc32": 2705946839,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123651/gantry.csv",
+    "size": 40031,
+    "compressed": null,
+    "crc32": 1829923397,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123651/notes.txt",
+    "size": 136,
+    "compressed": null,
+    "crc32": 346773703,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123841/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2632461628,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123841/aris_frame_meta.csv",
+    "size": 708446,
+    "compressed": null,
+    "crc32": 1950069308,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123841/gantry.csv",
+    "size": 37835,
+    "compressed": null,
+    "crc32": 1033568411,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_123841/notes.txt",
+    "size": 116,
+    "compressed": null,
+    "crc32": 247056225,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124039/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1221110888,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124039/aris_frame_meta.csv",
+    "size": 705087,
+    "compressed": null,
+    "crc32": 2903700918,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124039/gantry.csv",
+    "size": 37686,
+    "compressed": null,
+    "crc32": 1534358361,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124039/notes.txt",
+    "size": 112,
+    "compressed": null,
+    "crc32": 3840468713,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124241/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1753222215,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124241/aris_frame_meta.csv",
+    "size": 677896,
+    "compressed": null,
+    "crc32": 1235481695,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124241/gantry.csv",
+    "size": 35660,
+    "compressed": null,
+    "crc32": 798704385,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124241/notes.txt",
+    "size": 104,
+    "compressed": null,
+    "crc32": 3617098666,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124440/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3664249741,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124440/aris_frame_meta.csv",
+    "size": 675228,
+    "compressed": null,
+    "crc32": 156321724,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124440/gantry.csv",
+    "size": 35523,
+    "compressed": null,
+    "crc32": 132757569,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124440/notes.txt",
+    "size": 105,
+    "compressed": null,
+    "crc32": 3442228723,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124735/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3712141589,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124735/aris_frame_meta.csv",
+    "size": 518248,
+    "compressed": null,
+    "crc32": 242492656,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124735/gantry.csv",
+    "size": 22077,
+    "compressed": null,
+    "crc32": 594413259,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124735/notes.txt",
+    "size": 158,
+    "compressed": null,
+    "crc32": 2814958765,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124915/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2858830045,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124915/aris_frame_meta.csv",
+    "size": 508806,
+    "compressed": null,
+    "crc32": 599946939,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124915/gantry.csv",
+    "size": 21589,
+    "compressed": null,
+    "crc32": 3786189529,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_124915/notes.txt",
+    "size": 124,
+    "compressed": null,
+    "crc32": 931766054,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125048/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1766398880,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125048/aris_frame_meta.csv",
+    "size": 533655,
+    "compressed": null,
+    "crc32": 3839154387,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125048/gantry.csv",
+    "size": 22601,
+    "compressed": null,
+    "crc32": 742600821,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125048/notes.txt",
+    "size": 124,
+    "compressed": null,
+    "crc32": 3420507329,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125236/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1393001730,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125236/aris_frame_meta.csv",
+    "size": 471001,
+    "compressed": null,
+    "crc32": 1605309517,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125236/gantry.csv",
+    "size": 19787,
+    "compressed": null,
+    "crc32": 2625055718,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125236/notes.txt",
+    "size": 158,
+    "compressed": null,
+    "crc32": 3376623394,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125545/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3559339398,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125545/aris_frame_meta.csv",
+    "size": 729741,
+    "compressed": null,
+    "crc32": 3925333469,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125545/gantry.csv",
+    "size": 38472,
+    "compressed": null,
+    "crc32": 1814139015,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125545/notes.txt",
+    "size": 129,
+    "compressed": null,
+    "crc32": 3363049369,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125924/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3857742095,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125924/aris_frame_meta.csv",
+    "size": 714704,
+    "compressed": null,
+    "crc32": 691431231,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125924/gantry.csv",
+    "size": 37928,
+    "compressed": null,
+    "crc32": 1663872822,
+    "directory": false
+  },
+  {
+    "name": "recordings/20lbs_incendiary/2023-09-21_125924/notes.txt",
+    "size": 129,
+    "compressed": null,
+    "crc32": 2149472480,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_141710/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2247853014,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_141710/aris_frame_meta.csv",
+    "size": 732235,
+    "compressed": null,
+    "crc32": 1570976608,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_141710/gantry.csv",
+    "size": 38338,
+    "compressed": null,
+    "crc32": 3244553445,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_141710/notes.txt",
+    "size": 101,
+    "compressed": null,
+    "crc32": 576006462,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_141945/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1889699104,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_141945/aris_frame_meta.csv",
+    "size": 700716,
+    "compressed": null,
+    "crc32": 1782371214,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_141945/gantry.csv",
+    "size": 36621,
+    "compressed": null,
+    "crc32": 2711467554,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_141945/notes.txt",
+    "size": 122,
+    "compressed": null,
+    "crc32": 2335699881,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142233/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 881766225,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142233/aris_frame_meta.csv",
+    "size": 733628,
+    "compressed": null,
+    "crc32": 735897283,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142233/gantry.csv",
+    "size": 38553,
+    "compressed": null,
+    "crc32": 1857826050,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142233/notes.txt",
+    "size": 131,
+    "compressed": null,
+    "crc32": 3668154271,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142511/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 334173953,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142511/aris_frame_meta.csv",
+    "size": 634188,
+    "compressed": null,
+    "crc32": 1804713442,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142511/gantry.csv",
+    "size": 33020,
+    "compressed": null,
+    "crc32": 2097360252,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142511/notes.txt",
+    "size": 98,
+    "compressed": null,
+    "crc32": 3302444632,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142753/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 136312222,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142753/aris_frame_meta.csv",
+    "size": 795202,
+    "compressed": null,
+    "crc32": 1628793119,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142753/gantry.csv",
+    "size": 40133,
+    "compressed": null,
+    "crc32": 1477070998,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142753/notes.txt",
+    "size": 117,
+    "compressed": null,
+    "crc32": 1089611172,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142952/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3395594729,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142952/aris_frame_meta.csv",
+    "size": 854967,
+    "compressed": null,
+    "crc32": 2624125996,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142952/gantry.csv",
+    "size": 43041,
+    "compressed": null,
+    "crc32": 874379946,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_142952/notes.txt",
+    "size": 118,
+    "compressed": null,
+    "crc32": 1902728219,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143308/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2528086963,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143308/aris_frame_meta.csv",
+    "size": 805675,
+    "compressed": null,
+    "crc32": 2419419633,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143308/gantry.csv",
+    "size": 39655,
+    "compressed": null,
+    "crc32": 212516981,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143308/notes.txt",
+    "size": 117,
+    "compressed": null,
+    "crc32": 3332880212,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143718/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1048771879,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143718/aris_frame_meta.csv",
+    "size": 774573,
+    "compressed": null,
+    "crc32": 1412713061,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143718/gantry.csv",
+    "size": 38861,
+    "compressed": null,
+    "crc32": 2056198729,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143718/notes.txt",
+    "size": 141,
+    "compressed": null,
+    "crc32": 877036711,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143925/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2114488016,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143925/aris_frame_meta.csv",
+    "size": 751097,
+    "compressed": null,
+    "crc32": 1858713832,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143925/gantry.csv",
+    "size": 37518,
+    "compressed": null,
+    "crc32": 2192041571,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_143925/notes.txt",
+    "size": 137,
+    "compressed": null,
+    "crc32": 674165476,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144132/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1123180596,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144132/aris_frame_meta.csv",
+    "size": 759830,
+    "compressed": null,
+    "crc32": 3261081238,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144132/gantry.csv",
+    "size": 38123,
+    "compressed": null,
+    "crc32": 357480553,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144132/notes.txt",
+    "size": 114,
+    "compressed": null,
+    "crc32": 3313283438,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144410/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3857742095,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144410/aris_frame_meta.csv",
+    "size": 794281,
+    "compressed": null,
+    "crc32": 2848739942,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144410/gantry.csv",
+    "size": 38889,
+    "compressed": null,
+    "crc32": 863547282,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144410/notes.txt",
+    "size": 117,
+    "compressed": null,
+    "crc32": 1529099801,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144723/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3855799034,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144723/aris_frame_meta.csv",
+    "size": 764721,
+    "compressed": null,
+    "crc32": 3288387900,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144723/gantry.csv",
+    "size": 37638,
+    "compressed": null,
+    "crc32": 3131035408,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_144723/notes.txt",
+    "size": 118,
+    "compressed": null,
+    "crc32": 3298970937,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145245/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2895099517,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145245/aris_frame_meta.csv",
+    "size": 741507,
+    "compressed": null,
+    "crc32": 2189909965,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145245/gantry.csv",
+    "size": 38449,
+    "compressed": null,
+    "crc32": 4079881504,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145245/notes.txt",
+    "size": 117,
+    "compressed": null,
+    "crc32": 2299783747,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145725/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1529403558,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145725/aris_frame_meta.csv",
+    "size": 746709,
+    "compressed": null,
+    "crc32": 1182490672,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145725/gantry.csv",
+    "size": 38669,
+    "compressed": null,
+    "crc32": 3459382362,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145725/notes.txt",
+    "size": 139,
+    "compressed": null,
+    "crc32": 408427849,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145930/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1173426992,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145930/aris_frame_meta.csv",
+    "size": 756689,
+    "compressed": null,
+    "crc32": 608011312,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145930/gantry.csv",
+    "size": 38991,
+    "compressed": null,
+    "crc32": 3130832276,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_145930/notes.txt",
+    "size": 135,
+    "compressed": null,
+    "crc32": 1395282318,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150138/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3857742095,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150138/aris_frame_meta.csv",
+    "size": 777414,
+    "compressed": null,
+    "crc32": 4251948700,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150138/gantry.csv",
+    "size": 40008,
+    "compressed": null,
+    "crc32": 3463108039,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150138/notes.txt",
+    "size": 116,
+    "compressed": null,
+    "crc32": 867479104,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150336/aris_file_meta.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 881624238,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150336/aris_frame_meta.csv",
+    "size": 852671,
+    "compressed": null,
+    "crc32": 2697024092,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150336/gantry.csv",
+    "size": 42422,
+    "compressed": null,
+    "crc32": 940993577,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150336/notes.txt",
+    "size": 117,
+    "compressed": null,
+    "crc32": 1872047867,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150536/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 26860868,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150536/aris_frame_meta.csv",
+    "size": 828642,
+    "compressed": null,
+    "crc32": 4285230996,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150536/gantry.csv",
+    "size": 41282,
+    "compressed": null,
+    "crc32": 4004524062,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150536/notes.txt",
+    "size": 118,
+    "compressed": null,
+    "crc32": 2324856693,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150841/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3244966979,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150841/aris_frame_meta.csv",
+    "size": 623416,
+    "compressed": null,
+    "crc32": 689684957,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150841/gantry.csv",
+    "size": 25511,
+    "compressed": null,
+    "crc32": 400251218,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_150841/notes.txt",
+    "size": 138,
+    "compressed": null,
+    "crc32": 3734718561,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151019/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 606878272,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151019/aris_frame_meta.csv",
+    "size": 569880,
+    "compressed": null,
+    "crc32": 3970366369,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151019/gantry.csv",
+    "size": 24004,
+    "compressed": null,
+    "crc32": 2165501016,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151019/notes.txt",
+    "size": 137,
+    "compressed": null,
+    "crc32": 3103068941,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151156/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3386009839,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151156/aris_frame_meta.csv",
+    "size": 572604,
+    "compressed": null,
+    "crc32": 3260398491,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151156/gantry.csv",
+    "size": 23927,
+    "compressed": null,
+    "crc32": 1113826481,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151156/notes.txt",
+    "size": 137,
+    "compressed": null,
+    "crc32": 503027009,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151337/aris_file_meta.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1250159480,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151337/aris_frame_meta.csv",
+    "size": 753486,
+    "compressed": null,
+    "crc32": 3306583272,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151337/gantry.csv",
+    "size": 29595,
+    "compressed": null,
+    "crc32": 3769026927,
+    "directory": false
+  },
+  {
+    "name": "recordings/test_cylinder/2023-09-21_151337/notes.txt",
+    "size": 192,
+    "compressed": null,
+    "crc32": 4195683598,
+    "directory": false
+  }
+]

@@ -1,0 +1,131 @@
+{
+  "2023-09-20_175506": {
+    "images": 100,
+    "thresholds": {
+      "0.01": {
+        "groups": {
+          "matched": 100
+        },
+        "TP": 100,
+        "FN": 0,
+        "FP": 0,
+        "predictions": 100
+      },
+      "0.25": {
+        "groups": {
+          "matched": 100
+        },
+        "TP": 100,
+        "FN": 0,
+        "FP": 0,
+        "predictions": 100
+      },
+      "0.5": {
+        "groups": {
+          "matched": 100
+        },
+        "TP": 100,
+        "FN": 0,
+        "FP": 0,
+        "predictions": 100
+      }
+    },
+    "COCO_metrics": {
+      "mAP": 0.9759379091689422,
+      "AP50": 1.0,
+      "AP75": 1.0,
+      "APsmall": -1.0,
+      "APmedium": -1.0,
+      "APlarge": 0.9759379091689422,
+      "AR1": 0.985,
+      "AR10": 0.985,
+      "AR100": 0.985,
+      "ARsmall": -1.0,
+      "ARmedium": -1.0,
+      "ARlarge": 0.985
+    },
+    "overview_indices": [
+      0,
+      9,
+      18,
+      27,
+      36,
+      45,
+      54,
+      63,
+      72,
+      81,
+      90,
+      99
+    ]
+  },
+  "2023-09-21_160551": {
+    "images": 100,
+    "thresholds": {
+      "0.01": {
+        "groups": {
+          "wrong_class": 55,
+          "matched": 38,
+          "unmatched": 6,
+          "localization": 1
+        },
+        "TP": 38,
+        "FN": 62,
+        "FP": 89,
+        "predictions": 127
+      },
+      "0.25": {
+        "groups": {
+          "wrong_class": 61,
+          "matched": 27,
+          "unmatched": 11,
+          "localization": 1
+        },
+        "TP": 27,
+        "FN": 73,
+        "FP": 72,
+        "predictions": 99
+      },
+      "0.5": {
+        "groups": {
+          "wrong_class": 62,
+          "unmatched": 15,
+          "matched": 22,
+          "localization": 1
+        },
+        "TP": 22,
+        "FN": 78,
+        "FP": 68,
+        "predictions": 90
+      }
+    },
+    "COCO_metrics": {
+      "mAP": 0.17226851680327968,
+      "AP50": 0.3472622259237138,
+      "AP75": 0.1317122888759464,
+      "APsmall": -1.0,
+      "APmedium": -1.0,
+      "APlarge": 0.17531548353037035,
+      "AR1": 0.197,
+      "AR10": 0.20400000000000001,
+      "AR100": 0.20400000000000001,
+      "ARsmall": -1.0,
+      "ARmedium": -1.0,
+      "ARlarge": 0.20400000000000001
+    },
+    "overview_indices": [
+      0,
+      9,
+      18,
+      27,
+      36,
+      45,
+      54,
+      63,
+      72,
+      81,
+      90,
+      99
+    ]
+  }
+}

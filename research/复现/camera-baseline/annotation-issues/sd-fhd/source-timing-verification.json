@@ -1,0 +1,298 @@
+[
+  {
+    "recording": "2023-09-21_101622",
+    "sd": {
+      "start_time": "3.551000",
+      "duration": "54.054000",
+      "frames": 1620
+    },
+    "fhd": {
+      "start_time": "5.687000",
+      "duration": "51.918533",
+      "frames": 1556
+    },
+    "fps": 29.97002997002997,
+    "fhd_start_minus_sd_seconds": 2.136,
+    "fhd_start_minus_sd_frames_rounded": 64,
+    "frame_count_sd_minus_fhd": 64,
+    "aligned_pairs_sampled": 156,
+    "timestamp_aligned_mse_median": 1.225198745727539,
+    "same_index_mse_median": 233.07754516601562,
+    "fhd_jpg_queries": [
+      {
+        "frame": 76,
+        "best_fhd_index": 0,
+        "time_rule_index": 0,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 64,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 1.109777569770813
+      },
+      {
+        "frame": 146,
+        "best_fhd_index": 142,
+        "time_rule_index": 142,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 206,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 1.141963005065918
+      },
+      {
+        "frame": 215,
+        "best_fhd_index": 282,
+        "time_rule_index": 282,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 346,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 1.0595526695251465
+      },
+      {
+        "frame": 285,
+        "best_fhd_index": 422,
+        "time_rule_index": 422,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 486,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 1.099188208580017
+      },
+      {
+        "frame": 355,
+        "best_fhd_index": 568,
+        "time_rule_index": 568,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 632,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 1.0944905281066895
+      },
+      {
+        "frame": 425,
+        "best_fhd_index": 710,
+        "time_rule_index": 710,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 774,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 1.0609416961669922
+      },
+      {
+        "frame": 494,
+        "best_fhd_index": 848,
+        "time_rule_index": 848,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 912,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 1.0132405757904053
+      },
+      {
+        "frame": 564,
+        "best_fhd_index": 988,
+        "time_rule_index": 987,
+        "best_fhd_minus_rule": 1,
+        "best_sd_index": 1052,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 0.906605064868927
+      },
+      {
+        "frame": 634,
+        "best_fhd_index": 1130,
+        "time_rule_index": 1130,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 1194,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 0.7138055562973022
+      },
+      {
+        "frame": 704,
+        "best_fhd_index": 1275,
+        "time_rule_index": 1275,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 1339,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 0.8243357539176941
+      },
+      {
+        "frame": 773,
+        "best_fhd_index": 1413,
+        "time_rule_index": 1413,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 1477,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 1.1094696521759033
+      },
+      {
+        "frame": 822,
+        "best_fhd_index": 1513,
+        "time_rule_index": 1513,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 1577,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 1.174103856086731
+      },
+      {
+        "frame": 843,
+        "best_fhd_index": 1555,
+        "time_rule_index": 1555,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 1619,
+        "best_sd_minus_best_fhd": 64,
+        "fhd_match_centered_mse": 1.0491994619369507
+      }
+    ],
+    "images": [
+      "2023-09-21_101622_0822-source-timing-proof.jpg"
+    ],
+    "limits": "This establishes a difference in published clip temporal coverage and inherited JPEG/label association, not which historical editing command caused it; no annotations or dataset roles changed."
+  },
+  {
+    "recording": "2023-09-21_103140",
+    "sd": {
+      "start_time": "6.714000",
+      "duration": "48.381667",
+      "frames": 1450
+    },
+    "fhd": {
+      "start_time": "0.241000",
+      "duration": "54.854800",
+      "frames": 1644
+    },
+    "fps": 29.97002997002997,
+    "fhd_start_minus_sd_seconds": -6.473000000000001,
+    "fhd_start_minus_sd_frames_rounded": -194,
+    "frame_count_sd_minus_fhd": -194,
+    "aligned_pairs_sampled": 145,
+    "timestamp_aligned_mse_median": 1.1832035779953003,
+    "same_index_mse_median": 329.60919189453125,
+    "fhd_jpg_queries": [
+      {
+        "frame": 84,
+        "best_fhd_index": 1,
+        "time_rule_index": 1,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 106,
+        "best_sd_minus_best_fhd": 105,
+        "fhd_match_centered_mse": 0.9569574594497681
+      },
+      {
+        "frame": 149,
+        "best_fhd_index": 134,
+        "time_rule_index": 134,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 0,
+        "best_sd_minus_best_fhd": -134,
+        "fhd_match_centered_mse": 0.9608680605888367
+      },
+      {
+        "frame": 214,
+        "best_fhd_index": 270,
+        "time_rule_index": 270,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 76,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 0.9973060488700867
+      },
+      {
+        "frame": 223,
+        "best_fhd_index": 288,
+        "time_rule_index": 288,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 94,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 0.9887516498565674
+      },
+      {
+        "frame": 278,
+        "best_fhd_index": 398,
+        "time_rule_index": 398,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 204,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 1.0021483898162842
+      },
+      {
+        "frame": 309,
+        "best_fhd_index": 464,
+        "time_rule_index": 464,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 270,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 0.9784389734268188
+      },
+      {
+        "frame": 343,
+        "best_fhd_index": 532,
+        "time_rule_index": 532,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 338,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 1.103060007095337
+      },
+      {
+        "frame": 408,
+        "best_fhd_index": 662,
+        "time_rule_index": 662,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 468,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 1.1691386699676514
+      },
+      {
+        "frame": 473,
+        "best_fhd_index": 794,
+        "time_rule_index": 794,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 600,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 1.1291723251342773
+      },
+      {
+        "frame": 538,
+        "best_fhd_index": 924,
+        "time_rule_index": 924,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 730,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 1.1204429864883423
+      },
+      {
+        "frame": 603,
+        "best_fhd_index": 1058,
+        "time_rule_index": 1058,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 864,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 1.047180414199829
+      },
+      {
+        "frame": 667,
+        "best_fhd_index": 1185,
+        "time_rule_index": 1185,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 991,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 0.9650415182113647
+      },
+      {
+        "frame": 732,
+        "best_fhd_index": 1317,
+        "time_rule_index": 1317,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 1123,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 0.8956225514411926
+      },
+      {
+        "frame": 797,
+        "best_fhd_index": 1449,
+        "time_rule_index": 1449,
+        "best_fhd_minus_rule": 0,
+        "best_sd_index": 1255,
+        "best_sd_minus_best_fhd": -194,
+        "fhd_match_centered_mse": 0.9149270057678223
+      }
+    ],
+    "images": [
+      "2023-09-21_103140_0223-source-timing-proof.jpg",
+      "2023-09-21_103140_0309-source-timing-proof.jpg"
+    ],
+    "limits": "This establishes a difference in published clip temporal coverage and inherited JPEG/label association, not which historical editing command caused it; no annotations or dataset roles changed."
+  }
+]

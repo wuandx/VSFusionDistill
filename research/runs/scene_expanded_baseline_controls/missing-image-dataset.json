@@ -1,0 +1,31 @@
+[
+  {
+    "sample_id": "2023-09-20_174200_0158",
+    "recording": "2023-09-20_174200",
+    "group_id": "2023-09-20_174200",
+    "scene_id": "100lbs_aircraft_bomb|standard|L_to_R",
+    "role": "val",
+    "width": 640,
+    "height": 360,
+    "fp_camera": "missing.jpg",
+    "fp_sonar": null,
+    "boxes_camera": [
+      [
+        230,
+        122,
+        169,
+        142
+      ]
+    ],
+    "labels_camera": [
+      0
+    ],
+    "boxes_sonar": [],
+    "labels_sonar": [],
+    "deg_level": "d0",
+    "deg_seed": 0,
+    "source_image": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/DataSet/expanded_paired_coverage_candidate/camera/images/2023-09-20_174200_0158.jpg",
+    "source_image_sha256": "b8939954198213a42c440b9ac548a7c7730cfc08459fd080becf7ab4de81795f",
+    "coco_camera_image_id": 1
+  }
+]

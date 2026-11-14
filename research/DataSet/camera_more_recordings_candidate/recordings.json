@@ -1,0 +1,351 @@
+[
+  {
+    "recording": "2023-09-20_173329",
+    "category": "100lbs_aircraft_bomb",
+    "nominal": {
+      "placement": "standard",
+      "trajectory": "L_to_R",
+      "z": "750",
+      "tilt": "-22",
+      "roll": "90",
+      "pan": "unknown"
+    },
+    "group_id": "2023-09-20_173329",
+    "eligible_sd": 763,
+    "unique_sd": 763,
+    "proposed": 100,
+    "excluded_reasons": {},
+    "sheets": [
+      {
+        "path": "2023-09-20_173329\\page-00.jpg",
+        "sha256": "e31e3791f5bbcebab5ecaaecf60a08d39baf005bedc3283f37b28f307ef9958d"
+      },
+      {
+        "path": "2023-09-20_173329\\page-01.jpg",
+        "sha256": "7d175fdc10c031728f6d9c5490615c5f6e35953012b24dea21ab53bcf3cffd45"
+      },
+      {
+        "path": "2023-09-20_173329\\page-02.jpg",
+        "sha256": "60b8c977cc9b1f3b46ba602ed1502ff2c7d5c73aa612cccbdb0045a5652c6aba"
+      },
+      {
+        "path": "2023-09-20_173329\\page-03.jpg",
+        "sha256": "7fafd14e7523219ef8e87778075bec70f06ea63f1fdf375624e79fb2661c7873"
+      }
+    ],
+    "decision": "pending_camera_visual_review"
+  },
+  {
+    "recording": "2023-09-20_173615",
+    "category": "100lbs_aircraft_bomb",
+    "nominal": {
+      "placement": "standard",
+      "trajectory": "L_to_R",
+      "z": "750",
+      "tilt": "-22",
+      "roll": "90",
+      "pan": "unknown"
+    },
+    "group_id": "2023-09-20_173615",
+    "eligible_sd": 0,
+    "unique_sd": 0,
+    "proposed": 0,
+    "excluded_reasons": {
+      "bbox_out_of_bounds": 797
+    },
+    "sheets": [],
+    "decision": "no_valid_unmodified_box"
+  },
+  {
+    "recording": "2023-09-20_174711",
+    "category": "100lbs_aircraft_bomb",
+    "nominal": {
+      "placement": "standard",
+      "trajectory": "L_to_R",
+      "z": "725",
+      "tilt": "-26",
+      "roll": "0",
+      "pan": "unknown"
+    },
+    "group_id": "2023-09-20_174711",
+    "eligible_sd": 729,
+    "unique_sd": 729,
+    "proposed": 100,
+    "excluded_reasons": {},
+    "sheets": [
+      {
+        "path": "2023-09-20_174711\\page-00.jpg",
+        "sha256": "0f2fe8d9c7c2b2703b665be357f359681f31f8e05ac88b096b7b620835ad7569"
+      },
+      {
+        "path": "2023-09-20_174711\\page-01.jpg",
+        "sha256": "fba11f2ca4300eed0b2717bc425fefdd8f18fc983de6c5f5aba3e0c791da6b25"
+      },
+      {
+        "path": "2023-09-20_174711\\page-02.jpg",
+        "sha256": "df90bd030443769452c6e78a1d183003c3665034612d1ed1940229ad17f4cc18"
+      },
+      {
+        "path": "2023-09-20_174711\\page-03.jpg",
+        "sha256": "eefae9d100648d69fc16f9e0b76debc001b7277305243ec31bcff3a144026995"
+      }
+    ],
+    "decision": "pending_camera_visual_review"
+  },
+  {
+    "recording": "2023-09-21_100927",
+    "category": "mortar_shell",
+    "nominal": {
+      "placement": "standard",
+      "trajectory": "L_to_R",
+      "z": "750",
+      "tilt": "-22",
+      "roll": "0",
+      "pan": "unknown"
+    },
+    "group_id": "2023-09-21_100927",
+    "eligible_sd": 725,
+    "unique_sd": 725,
+    "proposed": 100,
+    "excluded_reasons": {},
+    "sheets": [
+      {
+        "path": "2023-09-21_100927\\page-00.jpg",
+        "sha256": "54b5d1f7ce3fb5eee02b0e6175ef697f71bc9ef06e3d585ed37999f52f39a007"
+      },
+      {
+        "path": "2023-09-21_100927\\page-01.jpg",
+        "sha256": "6b722db0c341fd7133a7be29369fc7817b720d78b02575508988b6244650c352"
+      },
+      {
+        "path": "2023-09-21_100927\\page-02.jpg",
+        "sha256": "93bc9e5089973b21c8c4aee6e19c0ca2fcd061e6493dece9504ec12bdbf000ec"
+      },
+      {
+        "path": "2023-09-21_100927\\page-03.jpg",
+        "sha256": "65b241f837ece99c2257e30afaf732a63468f5431df13475b36aafa9d2d4441a"
+      }
+    ],
+    "decision": "pending_camera_visual_review"
+  },
+  {
+    "recording": "2023-09-21_101131",
+    "category": "mortar_shell",
+    "nominal": {
+      "placement": "standard",
+      "trajectory": "L_to_R",
+      "z": "750",
+      "tilt": "-22",
+      "roll": "0",
+      "pan": "unknown"
+    },
+    "group_id": "2023-09-21_101131",
+    "eligible_sd": 828,
+    "unique_sd": 828,
+    "proposed": 100,
+    "excluded_reasons": {
+      "missing_sd": 1
+    },
+    "sheets": [
+      {
+        "path": "2023-09-21_101131\\page-00.jpg",
+        "sha256": "1f731fa5d4ae482d1a94a74cb494e7841fdc852155d82d223f14b4fc3619ddba"
+      },
+      {
+        "path": "2023-09-21_101131\\page-01.jpg",
+        "sha256": "ade05ff5bf10cdf7229ffc76ba162efe44527eaf5d50df4f77fb7d480f7e2913"
+      },
+      {
+        "path": "2023-09-21_101131\\page-02.jpg",
+        "sha256": "72497381f873abb887cd6e2b56db8811b12386b821ef2885f20ba8ca373d4e1b"
+      },
+      {
+        "path": "2023-09-21_101131\\page-03.jpg",
+        "sha256": "21b218b2ebe2a82c83967ce28e5db545120b9b024e254eef1fa19a17c540f1a9"
+      }
+    ],
+    "decision": "pending_camera_visual_review"
+  },
+  {
+    "recording": "2023-09-21_110229",
+    "category": "mortar_shell",
+    "nominal": {
+      "placement": "standard",
+      "trajectory": "flyby",
+      "z": "250",
+      "tilt": "-90",
+      "roll": "0",
+      "pan": "-180"
+    },
+    "group_id": "2023-09-21_110229",
+    "eligible_sd": 226,
+    "unique_sd": 226,
+    "proposed": 100,
+    "excluded_reasons": {},
+    "sheets": [
+      {
+        "path": "2023-09-21_110229\\page-00.jpg",
+        "sha256": "049511248bd6e84bb1dd3d63e50a73f491b684560b5be0011f504f43a488f785"
+      },
+      {
+        "path": "2023-09-21_110229\\page-01.jpg",
+        "sha256": "e37b87e1ffe2aedf881d1e491f7dc4841316ae8819e9fbdd613fd7541ff4a4ee"
+      },
+      {
+        "path": "2023-09-21_110229\\page-02.jpg",
+        "sha256": "6cc3a3969a88dd43a56d01711a7c0028641bfc97a37a0656365c4786f6876f3b"
+      },
+      {
+        "path": "2023-09-21_110229\\page-03.jpg",
+        "sha256": "58ee30012f40cae89781c9831ca8f6bc27c267d010bebbe259136f44a80659e8"
+      }
+    ],
+    "decision": "pending_camera_visual_review"
+  },
+  {
+    "recording": "2023-09-21_110411",
+    "category": "mortar_shell",
+    "nominal": {
+      "placement": "standard",
+      "trajectory": "flyby",
+      "z": "250",
+      "tilt": "-90",
+      "roll": "0",
+      "pan": "-180"
+    },
+    "group_id": "2023-09-21_110411",
+    "eligible_sd": 291,
+    "unique_sd": 291,
+    "proposed": 100,
+    "excluded_reasons": {},
+    "sheets": [
+      {
+        "path": "2023-09-21_110411\\page-00.jpg",
+        "sha256": "c9e25242a1aeaa789cd139d3cd511b2c55b4a7585e19897fbb7259b370398fb5"
+      },
+      {
+        "path": "2023-09-21_110411\\page-01.jpg",
+        "sha256": "1167f0f838962063af55a385266e4c540cb7a8c173831ab42392a7dc940181e8"
+      },
+      {
+        "path": "2023-09-21_110411\\page-02.jpg",
+        "sha256": "2d86ed2e8b376b532166de182db044a927e5947ae0b4107dbb23aaa8d5159828"
+      },
+      {
+        "path": "2023-09-21_110411\\page-03.jpg",
+        "sha256": "41a2b0a116d3474c682ff90401b363bd0a87ac456ded450f847d316fe460641f"
+      }
+    ],
+    "decision": "pending_camera_visual_review"
+  },
+  {
+    "recording": "2023-09-21_120653",
+    "category": "incindiary_grenade",
+    "nominal": {
+      "placement": "standard",
+      "trajectory": "L_to_R",
+      "z": "750",
+      "tilt": "-22",
+      "roll": "0",
+      "pan": "unknown"
+    },
+    "group_id": "2023-09-21_120653",
+    "eligible_sd": 770,
+    "unique_sd": 770,
+    "proposed": 100,
+    "excluded_reasons": {
+      "missing_sd": 1
+    },
+    "sheets": [
+      {
+        "path": "2023-09-21_120653\\page-00.jpg",
+        "sha256": "1a6841eee98128f79b204385aa4981be654bc1a44b519b5f3d48684f1efeb825"
+      },
+      {
+        "path": "2023-09-21_120653\\page-01.jpg",
+        "sha256": "b0da103c029c63c26561ac2321b6e6798767de9ce85c40bf1323cbf3dc9e820c"
+      },
+      {
+        "path": "2023-09-21_120653\\page-02.jpg",
+        "sha256": "43b3c90e009a766b85f8e89e08bf1594866b6304804ad65902280da9e42392a1"
+      },
+      {
+        "path": "2023-09-21_120653\\page-03.jpg",
+        "sha256": "f7230be8d76a2951642442d14727f2c7b4f4813c80915dbaa721eba32120928f"
+      }
+    ],
+    "decision": "pending_camera_visual_review"
+  },
+  {
+    "recording": "2023-09-21_120912",
+    "category": "incindiary_grenade",
+    "nominal": {
+      "placement": "standard",
+      "trajectory": "L_to_R",
+      "z": "750",
+      "tilt": "-22",
+      "roll": "0",
+      "pan": "unknown"
+    },
+    "group_id": "2023-09-21_120912",
+    "eligible_sd": 683,
+    "unique_sd": 683,
+    "proposed": 100,
+    "excluded_reasons": {},
+    "sheets": [
+      {
+        "path": "2023-09-21_120912\\page-00.jpg",
+        "sha256": "0a0df1d4ca358f448606549f8a2cedd7ff3b9d7a7a20d7c17e929bbcdd7e5f22"
+      },
+      {
+        "path": "2023-09-21_120912\\page-01.jpg",
+        "sha256": "f04b22e571f7ae3e4b4b6c90b74fb3ed7cc8a6aa55c8368fafd55bfeefc7d57b"
+      },
+      {
+        "path": "2023-09-21_120912\\page-02.jpg",
+        "sha256": "6107bfe4eccc501e2933a4d147795efd6d8947d478c6e93a5a355256a018ca23"
+      },
+      {
+        "path": "2023-09-21_120912\\page-03.jpg",
+        "sha256": "19e4afb288a80af9b2ae59e7d08c29f296f6eaae8b1c180adf1d387463bcb323"
+      }
+    ],
+    "decision": "pending_camera_visual_review"
+  },
+  {
+    "recording": "2023-09-21_162055",
+    "category": "100lbs_aircraft_bomb",
+    "nominal": {
+      "placement": "floor",
+      "trajectory": "flyby",
+      "z": "unknown",
+      "tilt": "-60",
+      "roll": "0",
+      "pan": "-180"
+    },
+    "group_id": "2023-09-21_162055",
+    "eligible_sd": 255,
+    "unique_sd": 255,
+    "proposed": 100,
+    "excluded_reasons": {},
+    "sheets": [
+      {
+        "path": "2023-09-21_162055\\page-00.jpg",
+        "sha256": "295b3b5154e7cf4f4c70408640af66226fcb16d65a179b710f36e36d032e0f30"
+      },
+      {
+        "path": "2023-09-21_162055\\page-01.jpg",
+        "sha256": "26566b60cb92e6e97523c0f9a8cfc11440a3ac937913e047c4791de6161e5a34"
+      },
+      {
+        "path": "2023-09-21_162055\\page-02.jpg",
+        "sha256": "f807a98c25cd40c73a93c1dcf6101f2e02a30996546d16c47eb83dab82abdaaa"
+      },
+      {
+        "path": "2023-09-21_162055\\page-03.jpg",
+        "sha256": "8a2090b62e57c57aa5fa0f94ad00d5fd204943ce55307207d81c24be2aad39f7"
+      }
+    ],
+    "decision": "pending_camera_visual_review"
+  }
+]

@@ -1,0 +1,39 @@
+{
+ "arxiv_id": "2508.10445",
+ "slug": "dod-sa-infrared-visible-decoupled-object-detection-with-sing",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:46:21",
+ "tier": "",
+ "why_relevant": "",
+ "title": "DOD-SA: Infrared-Visible Decoupled Object Detection with Single-Modality Annotations",
+ "authors": [
+  "Jin, Hang",
+  "Gao, Chenqiang",
+  "Guo, Junjie",
+  "Liu, Fangcen",
+  "Chang, Qinyao",
+  "Tian, Kanghui",
+  "Meng, Deyu"
+ ],
+ "date": "2025/08/14",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Infrared-visible object detection has shown great potential in real-world applications, enabling robust all-day perception by leveraging the complementary information of infrared and visible images. However, existing methods typically require dual-modality annotations to output decoupled detection results, leading to high annotation costs and limiting scalability in large-scale remote sensing applications. To address this challenge, we propose a novel infrared-visible \\textbf{D}ecoupled \\textbf{O}bject \\textbf{D}etection framework with \\textbf{S}ingle-modality \\textbf{A}nnotations, called DOD-SA. It is built upon a Single- and Dual-Modality Collaborative Teacher-Student Network (CoSD-TSNet), which consists of a single-modality branch (SM-Branch) and a dual-modality decoupled branch (DMD-Branch). This design enables cross-modality knowledge transfer from the labeled modality to the unlabeled modality, and facilitates effective cross-branch supervision. To further improve the quality of pseudo-labels, we introduce a Progressive and Self-Tuning Training Strategy (PaST) that trains the model in three stages: 1) SM-Branch self-training, 2) SM-Branch guiding the learning of DMD-Branch, and 3) DMD-Branch refinement. In addition, we design a Pseudo Label Assigner (PLA) to match labels across modalities, explicitly addressing modality misalignment during training.",
+ "comments": "12 pages, 8 figures",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2508.10445",
+  "bytes": 9909162,
+  "sha256": "9c62f7db93fae76a926625eee0c5bfdb78fac8b4e8355c5a93a955cd5cc56df8"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2508.10445",
+  "bytes": 9077251,
+  "sha256": "208b5537a742a721a84cac5fc93be5137c3b9e445f57376a0df5d054bd79b118",
+  "kind": "tar",
+  "n_files": 12,
+  "tex_files": [
+   "bare_jrnl_new_sample4.tex"
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "summary": {
+    "train": {
+      "recordings": 21,
+      "selected": 2100,
+      "reserve": 268,
+      "per_class": {
+        "100lbs_aircraft_bomb": 8,
+        "incindiary_grenade": 7,
+        "mortar_shell": 6
+      }
+    },
+    "val": {
+      "recordings": 4,
+      "selected": 400,
+      "reserve": 76,
+      "per_class": {
+        "100lbs_aircraft_bomb": 1,
+        "incindiary_grenade": 1,
+        "mortar_shell": 2
+      }
+    },
+    "test": {
+      "recordings": 5,
+      "selected": 500,
+      "reserve": 54,
+      "per_class": {
+        "100lbs_aircraft_bomb": 1,
+        "incindiary_grenade": 2,
+        "mortar_shell": 2
+      }
+    }
+  },
+  "primary_conditions_total": 21,
+  "all_primary_conditions_in_train": true,
+  "holdout_primary_conditions_all_present_in_train": true,
+  "unique_group_conditions": 14,
+  "all_3398_identities_preserved": true,
+  "selected_3000_unchanged": true,
+  "recording_and_source_group_disjoint": true,
+  "cross_role_image_hash_duplicates": 0,
+  "old_split_and_source_hash_unchanged": true
+}

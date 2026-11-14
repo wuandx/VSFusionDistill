@@ -1,0 +1,608 @@
+[
+ {
+  "id": "2607.23770",
+  "title": "A Comparison of Data Augmentation Methods for Training Deep Neural Net",
+  "urls": []
+ },
+ {
+  "id": "2005.04621",
+  "title": "A Comparison of Few-Shot Learning Methods for Underwater Optical and S",
+  "urls": []
+ },
+ {
+  "id": "2405.03355",
+  "title": "A Generalization Theory of Cross-Modality Distillation with Contrastiv",
+  "urls": [
+   "https://github.com/goodfeli/dlbook_notation"
+  ]
+ },
+ {
+  "id": "2503.10152",
+  "title": "A Hierarchical Semantic Distillation Framework for Open-Vocabulary Obj",
+  "urls": [
+   "https://github.com/iSEE-Laboratory/HD-OVD"
+  ]
+ },
+ {
+  "id": "2609.18124",
+  "title": "Aligned Consensus Teaching for Label-Efficient Oriented Object Detecti",
+  "urls": []
+ },
+ {
+  "id": "2511.08901",
+  "title": "Asymmetric Cross-Modal Knowledge Distillation: Bridging Modalities wit",
+  "urls": [
+   "https://github.com/pcs992/ACKD",
+   "https://github.com/weirl-922/ACKD"
+  ]
+ },
+ {
+  "id": "2108.03619",
+  "title": "Learning an Augmented RGB Representation with Cross-Modal Knowledge Di",
+  "urls": []
+ },
+ {
+  "id": "2205.04072",
+  "title": "Beyond Bounding Box: Multimodal Knowledge Learning for Object Detectio",
+  "urls": [
+   "https://github.com/MCG-NKU/CVPR_Template"
+  ]
+ },
+ {
+  "id": "2503.01655",
+  "title": "Can Optical Denoising Clean Sonar Images? A Benchmark and Fusion Appro",
+  "urls": [
+   "https://github.com/XingYZhu/Forward-looking-Sonar-Detection-Dataset",
+   "https://github.com/wzyii/M2SDF"
+  ]
+ },
+ {
+  "id": "2511.14599",
+  "title": "CCSD: Cross-Modal Compositional Self-Distillation for Robust Brain Tum",
+  "urls": []
+ },
+ {
+  "id": "2503.09878",
+  "title": "CleverDistiller: Simple and Spatially Consistent Cross-modal Distillat",
+  "urls": [
+   "https://github.com/Pointcept/Pointcept",
+   "https://github.com/Pointcept/Pointcept/tree/main/configs/nuscenes",
+   "https://github.com/open-mmlab/OpenPCDet",
+   "https://github.com/open-mmlab/mmdetection3d",
+   "https://github.com/open-mmlab/mmsegmentation",
+   "https://github.com/valeoai/ALSO"
+  ]
+ },
+ {
+  "id": "2507.16296",
+  "title": "Cross-Modal Distillation For Widely Differing Modalities",
+  "urls": []
+ },
+ {
+  "id": "2307.04091",
+  "title": "CMDFusion: Bidirectional Fusion Network with Cross-modality Knowledge ",
+  "urls": [
+   "https://github.com/Jun-CEN/CMDFusion"
+  ]
+ },
+ {
+  "id": "2211.07171",
+  "title": "Cross-Modality Knowledge Distillation Network for Monocular 3D Object ",
+  "urls": [
+   "https://github.com/Cc-Hy/CMKD"
+  ]
+ },
+ {
+  "id": "2606.10504",
+  "title": "Cross-Modal Knowledge Distillation without Paired Data: Theoretical Fo",
+  "urls": [
+   "https://github.com/Duckduck-05/UCMKD"
+  ]
+ },
+ {
+  "id": "2609.37243",
+  "title": "Codebook-Guided Cross-Modal Knowledge Distillation for Structurally He",
+  "urls": []
+ },
+ {
+  "id": "2312.02240",
+  "title": "Contrastive Learning-Based Spectral Knowledge Distillation for Multi-M",
+  "urls": [
+   "https://github.com/cvpr-org/author-kit"
+  ]
+ },
+ {
+  "id": "2609.31785",
+  "title": "Cross-Modal Knowledge Distillation for Acoustic Pedestrian Detection",
+  "urls": [
+   "https://github.com/yonghyunk1m/cmkd-ped-detect"
+  ]
+ },
+ {
+  "id": "2603.21071",
+  "title": "CTFS : Collaborative Teacher Framework for Forward-Looking Sonar Image",
+  "urls": [
+   "https://github.com/cvpr-org/author-kit",
+   "https://github.com/pingggg516/CTFS"
+  ]
+ },
+ {
+  "id": "2211.10156",
+  "title": "DETRDistill: A Universal Knowledge Distillation Framework for DETR-fam",
+  "urls": []
+ },
+ {
+  "id": "2210.06535",
+  "title": "Development of a Simulation Environment for Evaluation of a Forward Lo",
+  "urls": []
+ },
+ {
+  "id": "1906.03609",
+  "title": "Distilling Object Detectors with Fine-grained Feature Imitation",
+  "urls": [
+   "https://github.com/twangnh/Distilling-Object-Detectors",
+   "https://github.com/twangnh/Distilling-Object-Detectors-FRCNN"
+  ]
+ },
+ {
+  "id": "2309.02719",
+  "title": "DMKD: Improving Feature-based Knowledge Distillation for Object Detect",
+  "urls": []
+ },
+ {
+  "id": "2508.10445",
+  "title": "DOD-SA: Infrared-Visible Decoupled Object Detection with Single-Modali",
+  "urls": [
+   "https://github.com/Hang-J/DOD-SA"
+  ]
+ },
+ {
+  "id": "2601.02016",
+  "title": "Enhancing Object Detection with Privileged Information: A Model-Agnost",
+  "urls": [
+   "https://github.com/OpenDroneMap/ODM",
+   "https://github.com/mbar0075/lupi-for-object-detection",
+   "https://github.com/roboflow/rf-detr",
+   "https://github.com/ultralytics/ultralytics",
+   "https://github.com/ultralytics/yolov11",
+   "https://github.com/ultralytics/yolov5"
+  ]
+ },
+ {
+  "id": "2611.06542",
+  "title": "EvoOPD: Evolving Privileged Information Strategies for Black-Box On-Po",
+  "urls": []
+ },
+ {
+  "id": "2212.00352",
+  "title": "A Dataset with Multibeam Forward-Looking Sonar for Underwater Object D",
+  "urls": []
+ },
+ {
+  "id": "2111.11837",
+  "title": "Focal and Global Knowledge Distillation for Detectors",
+  "urls": [
+   "https://github.com/yzd-v/FGD"
+  ]
+ },
+ {
+  "id": "2606.11572",
+  "title": "FreqKD: Frequency-Decoupled Cross-Modal Knowledge Distillation for Inf",
+  "urls": []
+ },
+ {
+  "id": "2108.07482",
+  "title": "G-DetKD: Towards General Distillation Framework for Object Detectors v",
+  "urls": [
+   "https://github.com/jwyang/faster-rcnn.pytorch",
+   "https://github.com/open-mmlab/mmdetection"
+  ]
+ },
+ {
+  "id": "2605.09899",
+  "title": "Hyperbolic Distillation: Geometry-Guided Cross-Modal Transfer for Robu",
+  "urls": []
+ },
+ {
+  "id": "2512.15581",
+  "title": "IMKD: Intensity-Aware Multi-Level Knowledge Distillation for Camera-Ra",
+  "urls": [
+   "https://github.com/dfki-av/IMKD/",
+   "https://github.com/youngskkim/CRN/issues/19"
+  ]
+ },
+ {
+  "id": "2405.13571",
+  "title": "Incomplete Multimodal Industrial Anomaly Detection via Cross-Modal Dis",
+  "urls": []
+ },
+ {
+  "id": "2512.15311",
+  "title": "KD360-VoxelBEV: LiDAR and 360-degree Camera Cross Modality Knowledge D",
+  "urls": [
+   "https://github.com/Tom-E-Durham/KD360-VoxelBEV",
+   "https://github.com/wayveai/fiery",
+   "https://github.com/xtreme1-io/xtreme1/"
+  ]
+ },
+ {
+  "id": "2112.04840",
+  "title": "Knowledge Distillation for Object Detection via Rank Mimicking and Pre",
+  "urls": []
+ },
+ {
+  "id": "2407.10164",
+  "title": "LabelDistill: Label-guided Cross-modal Knowledge Distillation for Came",
+  "urls": [
+   "https://github.com/sanmin0312/LabelDistill"
+  ]
+ },
+ {
+  "id": "2111.08379",
+  "title": "Minimax Robust Landmine Detection Using Forward-Looking Ground-Penetra",
+  "urls": []
+ },
+ {
+  "id": "2411.16196",
+  "title": "Learn from Foundation Model: Fruit Detection Model without Manual Anno",
+  "urls": [
+   "https://github.com/AgRoboticsResearch/SDM-D.git"
+  ]
+ },
+ {
+  "id": "2310.01035",
+  "title": "Learnable Cross-modal Knowledge Distillation for Multi-modal Learning ",
+  "urls": []
+ },
+ {
+  "id": "2409.05564",
+  "title": "LEROjD: Lidar Extended Radar-Only Object Detection",
+  "urls": [
+   "https://github.com/open-mmlab/OpenPCDet",
+   "https://github.com/rst-tu-dortmund/lerojd"
+  ]
+ },
+ {
+  "id": "2102.12252",
+  "title": "Localization Distillation for Dense Object Detection",
+  "urls": [
+   "https://github.com/HikariTJU/LD",
+   "https://github.com/MCG-NKU/CVPR_Template"
+  ]
+ },
+ {
+  "id": "2107.10504",
+  "title": "External-Memory Networks for Low-Shot Learning of Targets in Forward-L",
+  "urls": []
+ },
+ {
+  "id": "2606.24248",
+  "title": "M^2C-EvDet: Multi-Domain Multi-Order Cross-Modal Knowledge Distillatio",
+  "urls": [
+   "https://github.com/ultralytics/ultralytics"
+  ]
+ },
+ {
+  "id": "2108.06800",
+  "title": "The Marine Debris Dataset for Forward-Looking Sonar Semantic Segmentat",
+  "urls": [
+   "https://github.com/mvaldenegro/marine-debris-fls-datasets/"
+  ]
+ },
+ {
+  "id": "2009.11528",
+  "title": "MimicDet: Bridging the Gap Between One-Stage and Two-Stage Object Dete",
+  "urls": []
+ },
+ {
+  "id": "2604.00383",
+  "title": "Mine-JEPA: In-Domain Self-Supervised Learning for Mine-Like Object Cla",
+  "urls": [
+   "https://github.com/cvpr-org/author-kit"
+  ]
+ },
+ {
+  "id": "2304.08028",
+  "title": "MMANet: Margin-aware Distillation and Modality-aware Regularization fo",
+  "urls": [
+   "https://github.com/MCG-NKU/CVPR_Template",
+   "https://github.com/shicaiwei123/MMANet"
+  ]
+ },
+ {
+  "id": "2507.07015",
+  "title": "MST-Distill: Mixture of Specialized Teachers for Cross-Modal Knowledge",
+  "urls": [
+   "https://github.com/Gray-OREO/MST-Distill"
+  ]
+ },
+ {
+  "id": "2409.02438",
+  "title": "Non-target Divergence Hypothesis: Toward Understanding Domain Gaps in ",
+  "urls": []
+ },
+ {
+  "id": "2311.05494",
+  "title": "Object-centric Cross-modal Feature Distillation for Event-based Object",
+  "urls": []
+ },
+ {
+  "id": "1709.02600",
+  "title": "Objectness Scoring and Detection Proposals in Forward-Looking Sonar Im",
+  "urls": []
+ },
+ {
+  "id": "1907.00734",
+  "title": "Learning Objectness from Sonar Images for Class-Independent Object Det",
+  "urls": [
+   "https://github.com/mvaldenegro/marine-debris-fls-datasets/releases/",
+   "https://github.com/opencv/opencv_contrib/tree/master/modules/ximgproc"
+  ]
+ },
+ {
+  "id": "1908.10559",
+  "title": "Online Sensor Hallucination via Knowledge Distillation for Multimodal ",
+  "urls": []
+ },
+ {
+  "id": "2602.04583",
+  "title": "PEPR: Privileged Event-based Predictive Regularization for Domain Gene",
+  "urls": [
+   "https://github.com/cvpr-org/author-kit",
+   "https://github.com/open-mmlab/mmsegmentation",
+   "https://github.com/ultralytics/yolov5"
+  ]
+ },
+ {
+  "id": "2409.07004",
+  "title": "Performance Assessment of Feature Detection Methods for 2-D FS Sonar I",
+  "urls": []
+ },
+ {
+  "id": "2603.15200",
+  "title": "Physically Motivated Knowledge Distillation for Blind Geometric Correc",
+  "urls": []
+ },
+ {
+  "id": "2411.05863",
+  "title": "Exploring the Feasibility of Affordable Sonar Technology: Object Detec",
+  "urls": [
+   "https://github.com/junayed/Sonar-Scan-Dataset-with-Ping-360"
+  ]
+ },
+ {
+  "id": "2108.01111",
+  "title": "Pre-trained Models for Sonar Images",
+  "urls": [
+   "https://github.com/mvaldenegro/marine-debris-fls-datasets/releases/",
+   "https://github.com/mvaldenegro/pretrained-models-sonar-images",
+   "https://github.com/mvaldenegro/pretrained-models-sonar-images/"
+  ]
+ },
+ {
+  "id": "2403.05061",
+  "title": "RadarDistill: Boosting Radar-based Object Detection Performance via Kn",
+  "urls": [
+   "https://github.com/MCG-NKU/CVPR_Template"
+  ]
+ },
+ {
+  "id": "2312.11829",
+  "title": "RadOcc: Learning Cross-Modality Occupancy Knowledge through Rendering ",
+  "urls": []
+ },
+ {
+  "id": "2509.17712",
+  "title": "RCTDistill: Cross-Modal Knowledge Distillation Framework for Radar-Cam",
+  "urls": [
+   "https://github.com/open-mmlab/mmdetection3d"
+  ]
+ },
+ {
+  "id": "2406.07189",
+  "title": "RGB-Sonar Tracking Benchmark and Spatial Cross-Attention Transformer T",
+  "urls": [
+   "https://github.com/LiYunfengLYF/RGBS50"
+  ]
+ },
+ {
+  "id": "2410.10554",
+  "title": "ROSAR: An Adversarial Re-Training Framework for Robust Side-Scan Sonar",
+  "urls": [
+   "https://github.com/remaro-network/ROSAR-framework"
+  ]
+ },
+ {
+  "id": "2501.07101",
+  "title": "SAMKD: Spatial-aware Adaptive Masking Knowledge Distillation for Objec",
+  "urls": []
+ },
+ {
+  "id": "2512.22483",
+  "title": "Scalpel-SAM: A Semi-Supervised Paradigm for Adapting SAM to Infrared S",
+  "urls": []
+ },
+ {
+  "id": "2412.14571",
+  "title": "SCKD: Semi-Supervised Cross-Modality Knowledge Distillation for 4D Rad",
+  "urls": [
+   "https://github.com/Ruoyu-Xu/SCKD"
+  ]
+ },
+ {
+  "id": "2603.07464",
+  "title": "Selective Transfer Learning of Cross-Modality Distillation for Monocul",
+  "urls": [
+   "https://github.com/DingCodeLab/MonoSTL"
+  ]
+ },
+ {
+  "id": "2511.13922",
+  "title": "Self-Supervised Compression and Artifact Correction for Streaming Unde",
+  "urls": [
+   "https://github.com/WHU-SGG-RS-Pro-Group/PolSAR-DESPECKLING-MTDN",
+   "https://github.com/vpaHduGroup/SFTIP_SCC"
+  ]
+ },
+ {
+  "id": "2608.20916",
+  "title": "Semantically Compatible Knowledge Distillation for Cross-Domain Object",
+  "urls": [
+   "https://github.com/hnu-vis/SLE-T"
+  ]
+ },
+ {
+  "id": "1910.05374",
+  "title": "Rotation-invariant shipwreck recognition with forward-looking sonar",
+  "urls": []
+ },
+ {
+  "id": "2412.11840",
+  "title": "Sonar-based Deep Learning in Underwater Robotics: Overview, Robustness",
+  "urls": [
+   "https://github.com/Jorwnpay/Sonar-OLTR",
+   "https://github.com/Sonar-Sim/MASTODON",
+   "https://github.com/mvaldenegro/marine-debris-fls-datasets",
+   "https://github.com/remaro-network/OpenSonarDatasets",
+   "https://github.com/ultralytics/yolov5"
+  ]
+ },
+ {
+  "id": "2510.03353",
+  "title": "Sonar Image Datasets: A Comprehensive Survey of Resources, Challenges,",
+  "urls": [
+   "https://github.com/Jorwnpay/NK-Sonar-Image-Dataset/tree/main",
+   "https://github.com/Jorwnpay/Sonar-OLTR",
+   "https://github.com/MingqiangNing/SCTD",
+   "https://github.com/NunoCunha/SSS-Segmentation",
+   "https://github.com/RoboticsSWLab/Sonar-Wall-Detection-Dataset",
+   "https://github.com/SAS-Survey/SASSED",
+   "https://github.com/Underwater-Object-Detection/UATD",
+   "https://github.com/Underwater-Perception/SEE-Dataset",
+   "https://github.com/XingYZhu/Forward-looking-Sonar-Detection-Dataset",
+   "https://github.com/aburguera/NNSSS/tree/master/DATASET",
+   "https://github.com/whuwanglab/NKSID"
+  ]
+ },
+ {
+  "id": "2603.13585",
+  "title": "Sonar-MASt3R: Real-Time Opti-Acoustic Fusion in Turbid, Unstructured E",
+  "urls": [
+   "https://github.com/danielgatis/rembg",
+   "https://github.com/pmneila/PyMCubes"
+  ]
+ },
+ {
+  "id": "2504.00159",
+  "title": "SonarSplat: Novel View Synthesis of Imaging Sonar via Gaussian Splatti",
+  "urls": []
+ },
+ {
+  "id": "2308.11633",
+  "title": "Advances in Self-Supervised Learning for Synthetic Aperture Sonar Data",
+  "urls": [
+   "https://github.com/Lightning-AI/lightning"
+  ]
+ },
+ {
+  "id": "2310.01667",
+  "title": "STARS: Zero-shot Sim-to-Real Transfer for Segmentation of Shipwrecks i",
+  "urls": [
+   "https://github.com/hendrycks/ss-ood",
+   "https://github.com/princeton-vl/RAFT"
+  ]
+ },
+ {
+  "id": "2410.12953",
+  "title": "Syn2Real Domain Generalization for Underwater Mine-like Object Detecti",
+  "urls": [
+   "https://github.com/ultralytics/yolov5"
+  ]
+ },
+ {
+  "id": "2410.08612",
+  "title": "Synth-SONAR: Sonar Image Synthesis with Enhanced Diversity and Realism",
+  "urls": []
+ },
+ {
+  "id": "2101.03603",
+  "title": "Target Detection and Segmentation in Circular-Scan Synthetic-Aperture-",
+  "urls": []
+ },
+ {
+  "id": "2404.18663",
+  "title": "Terrain characterisation for online adaptability of automated sonar pr",
+  "urls": []
+ },
+ {
+  "id": "2605.10130",
+  "title": "Thermal-Det: Language-Guided Cross-Modal Distillation for Open-Vocabul",
+  "urls": [
+   "https://github.com/cvpr-org/author-kit"
+  ]
+ },
+ {
+  "id": "2606.06130",
+  "title": "Towards Realistic 3D Sonar Simulation",
+  "urls": [
+   "https://github.com/GRAAL-Lab/IsaacSim_Underwater",
+   "https://github.com/OmerMersin/FAST_LIO_GP",
+   "https://github.com/freefloating-gazebo/freefloating_gazebo",
+   "https://github.com/isaac-sim/IsaacSim"
+  ]
+ },
+ {
+  "id": "2609.01738",
+  "title": "UAV Thermal Imagery for Inert Ordnance Screening: Multi Campaign Datas",
+  "urls": []
+ },
+ {
+  "id": "2303.12946",
+  "title": "Underwater Camouflage Object Detection Dataset",
+  "urls": []
+ },
+ {
+  "id": "2304.11875",
+  "title": "Underwater object classification combining SAS and transferred optical",
+  "urls": []
+ },
+ {
+  "id": "2303.15083",
+  "title": "UniDistill: A Universal Cross-Modality Knowledge Distillation Framewor",
+  "urls": [
+   "https://github.com/MCG-NKU/CVPR_Template",
+   "https://github.com/megvii-research/CVPR2023-UniDistill"
+  ]
+ },
+ {
+  "id": "1706.09858",
+  "title": "What&#39;s Mine is Yours: Pretrained CNNs for Limited Training Sonar A",
+  "urls": []
+ },
+ {
+  "id": "2609.03378",
+  "title": "When Depth Hurts: Reliability-Aware Geometry Distillation for Depth-Fr",
+  "urls": []
+ },
+ {
+  "id": "2303.02203",
+  "title": "X$^3$KD: Knowledge Distillation Across Modalities, Tasks and Stages fo",
+  "urls": [
+   "https://github.com/open-mmlab/mmdetection3d"
+  ]
+ },
+ {
+  "id": "2605.30111",
+  "title": "xModel-KD: Cross-modal Knowledge Distillation for 3D Scene Perception ",
+  "urls": [
+   "https://github.com/thenukan/xModel-KD"
+  ]
+ },
+ {
+  "id": "2403.09313",
+  "title": "Knowledge Distillation in YOLOX-ViT for Side-Scan Sonar Object Detecti",
+  "urls": [
+   "https://github.com/remaro-network/KD-YOLOX-ViT"
+  ]
+ }
+]

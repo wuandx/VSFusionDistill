@@ -1,0 +1,47 @@
+{
+ "arxiv_id": "2307.04091",
+ "slug": "cmdfusion-lidar-segmentation",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:33:43",
+ "tier": "B",
+ "why_relevant": "bidirectional fusion + cross-modality KD",
+ "title": "CMDFusion: Bidirectional Fusion Network with Cross-modality Knowledge Distillation for LIDAR Semantic Segmentation",
+ "authors": [
+  "Cen, Jun",
+  "Zhang, Shiwei",
+  "Pei, Yixuan",
+  "Li, Kun",
+  "Zheng, Hang",
+  "Luo, Maochun",
+  "Zhang, Yingya",
+  "Chen, Qifeng"
+ ],
+ "date": "2023/07/09",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: 2D RGB images and 3D LIDAR point clouds provide complementary knowledge for the perception system of autonomous vehicles. Several 2D and 3D fusion methods have been explored for the LIDAR semantic segmentation task, but they suffer from different problems. 2D-to-3D fusion methods require strictly paired data during inference, which may not be available in real-world scenarios, while 3D-to-2D fusion methods cannot explicitly make full use of the 2D information. Therefore, we propose a Bidirectional Fusion Network with Cross-Modality Knowledge Distillation (CMDFusion) in this work. Our method has two contributions. First, our bidirectional fusion scheme explicitly and implicitly enhances the 3D feature via 2D-to-3D fusion and 3D-to-2D fusion, respectively, which surpasses either one of the single fusion schemes. Second, we distillate the 2D knowledge from a 2D network (Camera branch) to a 3D network (2D knowledge branch) so that the 3D network can generate 2D information even for those points not in the FOV (field of view) of the camera. In this way, RGB images are not required during inference anymore since the 2D knowledge branch provides 2D information according to the 3D LIDAR input. We show that our CMDFusion achieves the best performance among all fusion-based methods on SemanticKITTI and nuScenes datasets. The code will be released at this https URL .",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2307.04091",
+  "bytes": 5337109,
+  "sha256": "f571010d03351b6ac1edf00fe3cfd00a244ae4215c9f9e1e9b7c77c5277e020e"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2307.04091",
+  "bytes": 20911581,
+  "sha256": "8e473d1e32d9831c1d8a10e974138229ed56efb2b9321f318b9a131b686315b6",
+  "kind": "tar",
+  "n_files": 28,
+  "tex_files": [
+   "latex/0_abstract.tex",
+   "latex/1_intro.tex",
+   "latex/2_related.tex",
+   "latex/3_method.tex",
+   "latex/3_method_o.tex",
+   "latex/4_exp.tex",
+   "latex/4_exp_o.tex",
+   "latex/5_conclu.tex",
+   "ms.tex"
+  ]
+ }
+}

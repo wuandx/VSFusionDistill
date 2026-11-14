@@ -1,0 +1,33 @@
+{
+ "arxiv_id": "1907.00734",
+ "slug": "objectness-sonar-class-independent",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:27:49",
+ "tier": "B",
+ "why_relevant": "class-independent sonar object detection",
+ "title": "Learning Objectness from Sonar Images for Class-Independent Object Detection",
+ "authors": [
+  "Valdenegro-Toro, Matias"
+ ],
+ "date": "2019/07/01",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Detecting novel objects without class information is not trivial, as it is difficult to generalize from a small training set. This is an interesting problem for underwater robotics, as modeling marine objects is inherently more difficult in sonar images, and training data might not be available apriori. Detection proposals algorithms can be used for this purpose but usually requires a large amount of output bounding boxes. In this paper we propose the use of a fully convolutional neural network that regresses an objectness value directly from a Forward-Looking sonar image. By ranking objectness, we can produce high recall (96 %) with only 100 proposals per image. In comparison, EdgeBoxes requires 5000 proposals to achieve a slightly better recall of 97 %, while Selective Search requires 2000 proposals to achieve 95 % recall. We also show that our method outperforms a template matching baseline by a considerable margin, and is able to generalize to completely new objects. We expect that this kind of technique can be used in the field to find lost objects under the sea.",
+ "comments": "European Conference on Mobile Robots 2019",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/1907.00734",
+  "bytes": 1868776,
+  "sha256": "f0a6b43732c43ef3022cb1c69e044baedc26a41bcb3b5d6d83027f7f0c6b036a"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/1907.00734",
+  "bytes": 2988463,
+  "sha256": "72ceef7470cc2a2ab57be2c07ee2760b87114b38ce882acb47f024f1694858c4",
+  "kind": "tar",
+  "n_files": 79,
+  "tex_files": [
+   "sonar-proposals-paper.tex"
+  ]
+ }
+}

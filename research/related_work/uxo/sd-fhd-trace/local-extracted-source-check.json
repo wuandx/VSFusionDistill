@@ -1,0 +1,35 @@
+{
+  "new_source_root": "D:\\pby\\data_processed",
+  "archive_path": "D:\\pby\\data_processed.7z",
+  "archive_size": 61513277947,
+  "existing_archive_md5_record": "D:\\pby\\.uxo-transfer\\certutil_md5.txt",
+  "full_archive_md5_rerun_this_turn": false,
+  "selected_video_checks": [
+    {
+      "path": "D:\\pby\\data_processed\\gopro\\clips_fhd\\20230921_GX010012_04.mp4",
+      "bytes": 31037644,
+      "official_size_crc_matches": true,
+      "sha256": "edc9d716e6fa218548d609c0ec343dde7528371d538f1b2d72c3199d76c6c31b"
+    },
+    {
+      "path": "D:\\pby\\data_processed\\gopro\\clips_fhd\\20230921_GX020012_02.mp4",
+      "bytes": 30680583,
+      "official_size_crc_matches": true,
+      "sha256": "30609100c8e336eff5f0009a2b16c3eb67e71ead6c757f43f6ca8d909d152b7d"
+    },
+    {
+      "path": "D:\\pby\\data_processed\\gopro\\clips_sd\\20230921_GX010012_04.mp4",
+      "bytes": 2660967,
+      "official_size_crc_matches": true,
+      "sha256": "0e9687cd463fb0f4ff1c39836893d0e91eb77fec79cd39dc12ddb6ca0ed37446"
+    },
+    {
+      "path": "D:\\pby\\data_processed\\gopro\\clips_sd\\20230921_GX020012_02.mp4",
+      "bytes": 2256966,
+      "official_size_crc_matches": true,
+      "sha256": "eef6b0f7b477ac6a7b593b8156e0feb1a89368f72e4f0d3e6aa42ff6c2e7acc8"
+    }
+  ],
+  "matches_csv_identical": true,
+  "scope": "Directory structure and four approved source clips plus matching metadata only; no test video decoding or annotation changes."
+}

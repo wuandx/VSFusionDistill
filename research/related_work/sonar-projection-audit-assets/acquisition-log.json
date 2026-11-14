@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://zenodo.org/api/records/13778485/files/data_export_calibration.7z/content",
+    "checked_at_utc": "2026-11-10T18:03:05.658189+00:00",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\data_export_calibration.7z",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/13778485/files/data_export_calibration.7z/content",
+    "official_checksum_verified": "md5:bb7641890899bf424e3eeb242509f261",
+    "bytes": 1020,
+    "sha256": "f9545696b6de64c67f2fb0b6ea89e6f3a8f265a0edafebeab4e0fae728c5bbda"
+  },
+  {
+    "url": "https://zenodo.org/api/records/13778485/files/data_export_3dmodels.7z/content",
+    "checked_at_utc": "2026-11-10T18:03:05.658688+00:00",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\data_export_3dmodels.7z",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/13778485/files/data_export_3dmodels.7z/content",
+    "official_checksum_verified": "md5:4ed8820771bbb39819eacf66b50ff509",
+    "bytes": 26442213,
+    "sha256": "05f493aa9ef4f52c8b0071a977c5a66a131619fe5b13d8d16b9f4836cfe0b90d"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/calibration/transforms.yaml",
+    "checked_at_utc": "2026-11-10T18:03:05.658688+00:00",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\calibration__transforms.yaml",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/calibration/transforms.yaml",
+    "bytes": 2328,
+    "sha256": "db99ddb4153a71011b6c2563da706bd7b6f6626681dd861641c4aecb5fd7a560"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/demo/transforms.py",
+    "checked_at_utc": "2026-11-10T18:03:05.659188+00:00",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\demo__transforms.py",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/demo/transforms.py",
+    "bytes": 1542,
+    "sha256": "5e8964c311da8678d94559a7982d6931bd16dfe944c1ce64fed3337d5d6f25af"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/demo/snippet_for_pose_gt.ipynb",
+    "checked_at_utc": "2026-11-10T18:03:05.955010+00:00",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\demo__snippet_for_pose_gt.ipynb",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/demo/snippet_for_pose_gt.ipynb",
+    "bytes": 13050,
+    "sha256": "9a1198fb05612806a3d15875d6afe4d83e989bda6df2aa9d09622d66226854ad"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/calibration/camera_parameters/camera_parameter_linear.txt",
+    "checked_at_utc": "2026-11-10T18:03:06.055914+00:00",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\calibration__camera_parameters__camera_parameter_linear.txt",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/calibration/camera_parameters/camera_parameter_linear.txt",
+    "bytes": 237,
+    "sha256": "1ae0e3d953f8050345781906b1ad90a42da0674df3bb79fcc036ffb790db7be7"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/demo/camera_tilt.ipynb",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\demo__camera_tilt.ipynb",
+    "bytes": 1455905,
+    "sha256": "a5b641179ec6cfd9e2051328270eb402cb3e29addf515a2f048bc0fc3e8a3f94",
+    "status": 200,
+    "note": "Retrieved during audit; retrieval UTC time not captured, record creation time only",
+    "recorded_at_utc": "2026-11-10T18:09:17.035581+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/demo/transforms_nb.ipynb",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\demo__transforms_nb.ipynb",
+    "bytes": 610370,
+    "sha256": "c31ddeb055e4e029ef80cd2da24711459c60c48524472c2eb522d0d4c3aa91aa",
+    "status": 200,
+    "note": "Retrieved during audit; retrieval UTC time not captured, record creation time only",
+    "recorded_at_utc": "2026-11-10T18:09:17.035581+00:00"
+  }
+]

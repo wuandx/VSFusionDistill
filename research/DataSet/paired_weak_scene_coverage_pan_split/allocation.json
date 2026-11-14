@@ -1,0 +1,14 @@
+{
+  "feasible_holdout_assignments": 8,
+  "score": [
+    3025,
+    12157,
+    22,
+    "d5e73aa7d0a132a8a67bcef31d36736a6aa418a584d19e0165ed62893b813a1b"
+  ],
+  "pair_counts": {
+    "train": 4138,
+    "val": 573,
+    "test": 518
+  }
+}

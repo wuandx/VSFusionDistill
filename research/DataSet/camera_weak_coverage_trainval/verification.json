@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "classes": [
+    "100lbs_aircraft_bomb",
+    "mortar_shell",
+    "incindiary_grenade"
+  ],
+  "counts": {
+    "camera-train": {
+      "images": 4138,
+      "boxes": 4138,
+      "original_labels": 3745,
+      "assistant_labels": 393
+    },
+    "camera-val": {
+      "images": 573,
+      "boxes": 573,
+      "original_labels": 573,
+      "assistant_labels": 0
+    }
+  },
+  "source": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_weak_scene_coverage_pan_split",
+  "input_sha256": {
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_weak_scene_coverage_pan_split\\manifest.json": "744aff50c0a6d69b4e79003c78262df9c2f1100ee438380cc71f44cc22ba26a5",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_weak_scene_coverage_pan_split\\recordings.json": "28b0cf1f70d1d46fc01e28d1638899ed68f4803b470fc8789852e68308c0cf64",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_weak_scene_coverage_pan_split\\protocol.json": "d439959bab1e4f92dbeb27252e07d7d96367ac13f7b81bff700dd1ccdca14676",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_weak_scene_coverage_pan_split\\independent-verification.json": "ecd3df92db1497d31c646f029863c9c8fd5ed9126ef96613abc970f70bc33512",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\experiment\\archive\\weak-coverage-camera-m-training-plan.md": "c4fbf1aed29f9bf676417cace29447dc082237670be40fc1ddae37bb3dced2be",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\assets\\checkpoints\\yolox_m_coco_backbone_neck.pth": "eaab1cad97fa5f3b404db01e75e7cd7931b6d81a21b4c0fbee7be4eefea11488",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_weak_scene_coverage_pan_split\\camera\\coco_train.json": "c1eb27f6bc37001f245313975d6b959b49cc21cb93686b5581ed5aeb27373812",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_weak_scene_coverage_pan_split\\camera\\coco_val.json": "48521a62e8163f4a0cd39b8ae8ced4af5ae27dd3267b3038ea90796a1f88584c"
+  },
+  "trainval_images": 4711,
+  "source_groups": {
+    "train": 27,
+    "val": 5
+  },
+  "all_images_decoded": true,
+  "all_copy_hashes_match": true,
+  "all_boxes_match_source": true,
+  "source_groups_disjoint": true,
+  "cross_role_file_and_pixel_duplicates": 0,
+  "only_camera_trainval": true,
+  "sonar_included": false,
+  "test_content_read": false,
+  "test_included": false,
+  "dataset_sha256": "c5e48db49087cb5a03503343ca1b7ded7c238aad625c53d0592e8e66bd00f7d1"
+}

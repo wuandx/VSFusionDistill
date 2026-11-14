@@ -1,0 +1,45 @@
+{
+ "arxiv_id": "2503.01074",
+ "slug": "oceansim-gpu-underwater-sim",
+ "ok": true,
+ "fetched_at": "2026-11-13T11:27:13",
+ "tier": "B",
+ "why_relevant": "OceanSim：GPU 水下仿真，实时成像声呐渲染（含代码），可作投影/可见性实验的合成台",
+ "title": "OceanSim: A GPU-Accelerated Underwater Robot Perception Simulation Framework",
+ "authors": [
+  "Song, Jingyu",
+  "Ma, Haoyu",
+  "Bagoren, Onur",
+  "Sethuraman, Advaith V.",
+  "Zhang, Yiting",
+  "Skinner, Katherine A."
+ ],
+ "date": "2025/03/03",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Underwater simulators offer support for building robust underwater perception solutions. Significant work has recently been done to develop new simulators and to advance the performance of existing underwater simulators. Still, there remains room for improvement on physics-based underwater sensor modeling and rendering efficiency. In this paper, we propose OceanSim, a high-fidelity GPU-accelerated underwater simulator to address this research gap. We propose advanced physics-based rendering techniques to reduce the sim-to-real gap for underwater image simulation. We develop OceanSim to fully leverage the computing advantages of GPUs and achieve real-time imaging sonar rendering and fast synthetic data generation. We evaluate the capabilities and realism of OceanSim using real-world data to provide qualitative and quantitative results. The code and detailed documentation are made available on the project website to support the marine robotics community: this https URL .",
+ "comments": "Accepted at IROS 2025; 8 pages, 6 figures",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2503.01074",
+  "bytes": 5988786,
+  "sha256": "378569753547110a375dc5580323a7f62664e9f5422fdcfadfdf81ff1bc9cef2"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2503.01074",
+  "bytes": 5270713,
+  "sha256": "967a8b90a78dab88ab5aeb65302fbd18ae65248ded0aa8560afd8f83476ad884",
+  "kind": "tar",
+  "n_files": 17,
+  "tex_files": [
+   "Sections/Conclusion.tex",
+   "Sections/Discussion.tex",
+   "Sections/Introduction.tex",
+   "Sections/Method.tex",
+   "Sections/Related_works.tex",
+   "Sections/Results.tex",
+   "main.tex",
+   "shortcuts.tex"
+  ]
+ }
+}

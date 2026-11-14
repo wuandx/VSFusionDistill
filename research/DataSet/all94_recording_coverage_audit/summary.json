@@ -1,0 +1,51 @@
+{
+  "total_recordings": 94,
+  "target_three_class": 72,
+  "other_target_test_cylinder": 22,
+  "original_test_metadata_only": 10,
+  "non_original_test_three_class": 62,
+  "current_accepted": 38,
+  "remaining_matched_camera_three_class": 13,
+  "missing_published_camera_three_class": 11,
+  "priority_unlabelled_sources": 4,
+  "fixed_pilot_recordings_viewed": 84,
+  "dual_pilot_recordings": 55,
+  "sonar_only_pilot_recordings": 29,
+  "pilot_frames_viewed": 252,
+  "unassigned_camera_clips": 11,
+  "unassigned_clip_frames_viewed": 55,
+  "states": {
+    "current_accepted": 38,
+    "original_test_metadata_only": 10,
+    "needs_continuous_pairing_recovery": 7,
+    "needs_camera_relabel_and_sonar_annotation": 1,
+    "priority_needs_both_modality_annotation": 4,
+    "missing_published_camera_mapping": 11,
+    "other_target_not_current_three_class": 22,
+    "needs_visible_window_sonar_boxes": 1
+  },
+  "metadata_conflicts": [
+    {
+      "recording": "2023-09-21_122115",
+      "notes": "- target: 20lbs_incendiary\n- Trajectory: flyby (z: ?, y: 1000)\n- Tilt: -90°\n- Roll: 0°\n- Pan: -180°\n- Min Transmit\n- 15dB\n- couldn't identify gopro clip",
+      "recorded_motion": {
+        "pan_unwrapped_span_degrees": 149.0290002822876,
+        "tilt_min": -34.0,
+        "tilt_max": -34.0,
+        "tilt_median": -34.0,
+        "roll_median": 0.0,
+        "receiver_gain": [
+          "15"
+        ],
+        "enable150V": [
+          "0"
+        ]
+      }
+    }
+  ],
+  "new_pairs_accepted": 0,
+  "current_4836_manifest_unchanged": true,
+  "no_new_training": true,
+  "original_test_content_read": false,
+  "all_inputs_unchanged": true
+}

@@ -1,0 +1,5770 @@
+[
+  {
+    "name": "data_processed/aris/2023-09-20_145625/2023-09-20_145625_flow.csv",
+    "size": 868,
+    "compressed": null,
+    "crc32": 600594341,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_145625/2023-09-20_145625_frames.csv",
+    "size": 74122,
+    "compressed": null,
+    "crc32": 2280595574,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_145625/2023-09-20_145625_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2625005805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_145625/2023-09-20_145625_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1737831510,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_150515/2023-09-20_150515_flow.csv",
+    "size": 914,
+    "compressed": null,
+    "crc32": 2375455476,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_150515/2023-09-20_150515_frames.csv",
+    "size": 77159,
+    "compressed": null,
+    "crc32": 1743568436,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_150515/2023-09-20_150515_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2625005805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_150515/2023-09-20_150515_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 4097878588,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_151155/2023-09-20_151155_flow.csv",
+    "size": 52251,
+    "compressed": null,
+    "crc32": 325688396,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_151155/2023-09-20_151155_frames.csv",
+    "size": 4384747,
+    "compressed": null,
+    "crc32": 2711094573,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_151155/2023-09-20_151155_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2625005805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_151155/2023-09-20_151155_metadata.yaml",
+    "size": 1044,
+    "compressed": null,
+    "crc32": 4264127685,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_152713/2023-09-20_152713_flow.csv",
+    "size": 534,
+    "compressed": null,
+    "crc32": 60693052,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_152713/2023-09-20_152713_frames.csv",
+    "size": 50739,
+    "compressed": null,
+    "crc32": 159289936,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_152713/2023-09-20_152713_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2625005805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_152713/2023-09-20_152713_metadata.yaml",
+    "size": 1039,
+    "compressed": null,
+    "crc32": 3657396065,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_155406/2023-09-20_155406_flow.csv",
+    "size": 773,
+    "compressed": null,
+    "crc32": 1396901639,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_155406/2023-09-20_155406_frames.csv",
+    "size": 79010,
+    "compressed": null,
+    "crc32": 3953356511,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_155406/2023-09-20_155406_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2625005805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_155406/2023-09-20_155406_metadata.yaml",
+    "size": 1039,
+    "compressed": null,
+    "crc32": 2784306452,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_155429/2023-09-20_155429_flow.csv",
+    "size": 766,
+    "compressed": null,
+    "crc32": 3056694925,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_155429/2023-09-20_155429_frames.csv",
+    "size": 65896,
+    "compressed": null,
+    "crc32": 1753950087,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_155429/2023-09-20_155429_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2625005805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_155429/2023-09-20_155429_metadata.yaml",
+    "size": 1039,
+    "compressed": null,
+    "crc32": 2937794193,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_164713/2023-09-20_164713_flow.csv",
+    "size": 8527,
+    "compressed": null,
+    "crc32": 2111438236,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_164713/2023-09-20_164713_frames.csv",
+    "size": 782336,
+    "compressed": null,
+    "crc32": 4122230121,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_164713/2023-09-20_164713_marks.yaml",
+    "size": 19,
+    "compressed": null,
+    "crc32": 1046720976,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_164713/2023-09-20_164713_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1766848177,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_171105/2023-09-20_171105_flow.csv",
+    "size": 14901,
+    "compressed": null,
+    "crc32": 3308841592,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_171105/2023-09-20_171105_frames.csv",
+    "size": 1262153,
+    "compressed": null,
+    "crc32": 2366289699,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_171105/2023-09-20_171105_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 1601215321,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_171105/2023-09-20_171105_metadata.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 1255188437,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_172513/2023-09-20_172513_flow.csv",
+    "size": 10462,
+    "compressed": null,
+    "crc32": 802839221,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_172513/2023-09-20_172513_frames.csv",
+    "size": 901192,
+    "compressed": null,
+    "crc32": 2408921725,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_172513/2023-09-20_172513_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 3049038653,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_172513/2023-09-20_172513_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 3856328000,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_172851/2023-09-20_172851_flow.csv",
+    "size": 12470,
+    "compressed": null,
+    "crc32": 425220846,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_172851/2023-09-20_172851_frames.csv",
+    "size": 1010825,
+    "compressed": null,
+    "crc32": 1828979219,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_172851/2023-09-20_172851_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 2859225239,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_172851/2023-09-20_172851_metadata.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 2017666657,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_173329/2023-09-20_173329_flow.csv",
+    "size": 10243,
+    "compressed": null,
+    "crc32": 2292795322,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_173329/2023-09-20_173329_frames.csv",
+    "size": 902090,
+    "compressed": null,
+    "crc32": 2172717649,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_173329/2023-09-20_173329_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 1236336,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_173329/2023-09-20_173329_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 432798658,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_173615/2023-09-20_173615_flow.csv",
+    "size": 10263,
+    "compressed": null,
+    "crc32": 2245818375,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_173615/2023-09-20_173615_frames.csv",
+    "size": 893243,
+    "compressed": null,
+    "crc32": 1408209660,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_173615/2023-09-20_173615_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 2244771814,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_173615/2023-09-20_173615_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2184479038,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174200/2023-09-20_174200_flow.csv",
+    "size": 10448,
+    "compressed": null,
+    "crc32": 65782893,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174200/2023-09-20_174200_frames.csv",
+    "size": 902089,
+    "compressed": null,
+    "crc32": 1436586340,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174200/2023-09-20_174200_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 1236336,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174200/2023-09-20_174200_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3305151850,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174439/2023-09-20_174439_flow.csv",
+    "size": 10217,
+    "compressed": null,
+    "crc32": 4244751903,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174439/2023-09-20_174439_frames.csv",
+    "size": 887833,
+    "compressed": null,
+    "crc32": 2217891320,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174439/2023-09-20_174439_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 2635408528,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174439/2023-09-20_174439_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3728001404,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174711/2023-09-20_174711_flow.csv",
+    "size": 10242,
+    "compressed": null,
+    "crc32": 3185949363,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174711/2023-09-20_174711_frames.csv",
+    "size": 845436,
+    "compressed": null,
+    "crc32": 1257100693,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174711/2023-09-20_174711_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2893295746,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_174711/2023-09-20_174711_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3067851639,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175000/2023-09-20_175000_flow.csv",
+    "size": 11077,
+    "compressed": null,
+    "crc32": 4207098424,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175000/2023-09-20_175000_frames.csv",
+    "size": 970120,
+    "compressed": null,
+    "crc32": 1423655840,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175000/2023-09-20_175000_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 39084841,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175000/2023-09-20_175000_metadata.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 2607097027,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175506/2023-09-20_175506_flow.csv",
+    "size": 9836,
+    "compressed": null,
+    "crc32": 3149005624,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175506/2023-09-20_175506_frames.csv",
+    "size": 822570,
+    "compressed": null,
+    "crc32": 933730815,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175506/2023-09-20_175506_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2893295746,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175506/2023-09-20_175506_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2193098840,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175703/2023-09-20_175703_flow.csv",
+    "size": 9763,
+    "compressed": null,
+    "crc32": 4259651819,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175703/2023-09-20_175703_frames.csv",
+    "size": 813133,
+    "compressed": null,
+    "crc32": 1170125236,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175703/2023-09-20_175703_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 4226612531,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175703/2023-09-20_175703_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2504357837,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175905/2023-09-20_175905_flow.csv",
+    "size": 10152,
+    "compressed": null,
+    "crc32": 3674360147,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175905/2023-09-20_175905_frames.csv",
+    "size": 830648,
+    "compressed": null,
+    "crc32": 691082922,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175905/2023-09-20_175905_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3357078918,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_175905/2023-09-20_175905_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 4112028406,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180126/2023-09-20_180126_flow.csv",
+    "size": 11263,
+    "compressed": null,
+    "crc32": 1157326239,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180126/2023-09-20_180126_frames.csv",
+    "size": 974123,
+    "compressed": null,
+    "crc32": 1365106623,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180126/2023-09-20_180126_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2675980343,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180126/2023-09-20_180126_metadata.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 3253871982,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180506/2023-09-20_180506_flow.csv",
+    "size": 10249,
+    "compressed": null,
+    "crc32": 4036467874,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180506/2023-09-20_180506_frames.csv",
+    "size": 854494,
+    "compressed": null,
+    "crc32": 2803562762,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180506/2023-09-20_180506_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1453053960,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180506/2023-09-20_180506_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 683974245,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180722/2023-09-20_180722_flow.csv",
+    "size": 9832,
+    "compressed": null,
+    "crc32": 730720462,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180722/2023-09-20_180722_frames.csv",
+    "size": 829089,
+    "compressed": null,
+    "crc32": 1398937540,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180722/2023-09-20_180722_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 4197357316,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180722/2023-09-20_180722_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3067851639,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180944/2023-09-20_180944_flow.csv",
+    "size": 10089,
+    "compressed": null,
+    "crc32": 2528165251,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180944/2023-09-20_180944_frames.csv",
+    "size": 815819,
+    "compressed": null,
+    "crc32": 3160456533,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180944/2023-09-20_180944_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1543894274,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_180944/2023-09-20_180944_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 542566731,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_181139/2023-09-20_181139_flow.csv",
+    "size": 11177,
+    "compressed": null,
+    "crc32": 1057464464,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_181139/2023-09-20_181139_frames.csv",
+    "size": 948853,
+    "compressed": null,
+    "crc32": 628418093,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_181139/2023-09-20_181139_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2914409141,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_181139/2023-09-20_181139_metadata.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 2131061580,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182317/2023-09-20_182317_flow.csv",
+    "size": 7195,
+    "compressed": null,
+    "crc32": 3426300715,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182317/2023-09-20_182317_frames.csv",
+    "size": 623824,
+    "compressed": null,
+    "crc32": 3655992802,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182317/2023-09-20_182317_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2349147260,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182317/2023-09-20_182317_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 4220603177,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182412/2023-09-20_182412_flow.csv",
+    "size": 8812,
+    "compressed": null,
+    "crc32": 4056264265,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182412/2023-09-20_182412_frames.csv",
+    "size": 750173,
+    "compressed": null,
+    "crc32": 3255687984,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182412/2023-09-20_182412_marks.yaml",
+    "size": 19,
+    "compressed": null,
+    "crc32": 1046720976,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182412/2023-09-20_182412_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 4279747660,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182600/2023-09-20_182600_flow.csv",
+    "size": 18060,
+    "compressed": null,
+    "crc32": 3621315553,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182600/2023-09-20_182600_frames.csv",
+    "size": 836846,
+    "compressed": null,
+    "crc32": 1106612322,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182600/2023-09-20_182600_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2914409141,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182600/2023-09-20_182600_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 683974245,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182843/2023-09-20_182843_flow.csv",
+    "size": 7887,
+    "compressed": null,
+    "crc32": 2920316867,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182843/2023-09-20_182843_frames.csv",
+    "size": 653774,
+    "compressed": null,
+    "crc32": 2857854860,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182843/2023-09-20_182843_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3043951043,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-20_182843/2023-09-20_182843_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3714586630,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_095714/2023-09-21_095714_flow.csv",
+    "size": 1446,
+    "compressed": null,
+    "crc32": 582618677,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_095714/2023-09-21_095714_frames.csv",
+    "size": 121625,
+    "compressed": null,
+    "crc32": 249961531,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_095714/2023-09-21_095714_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2625005805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_095714/2023-09-21_095714_metadata.yaml",
+    "size": 1040,
+    "compressed": null,
+    "crc32": 2201929559,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100307/2023-09-21_100307_flow.csv",
+    "size": 568,
+    "compressed": null,
+    "crc32": 70358115,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100307/2023-09-21_100307_frames.csv",
+    "size": 44565,
+    "compressed": null,
+    "crc32": 4194217272,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100307/2023-09-21_100307_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2625005805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100307/2023-09-21_100307_metadata.yaml",
+    "size": 1039,
+    "compressed": null,
+    "crc32": 4186514148,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100338/2023-09-21_100338_flow.csv",
+    "size": 8289,
+    "compressed": null,
+    "crc32": 44177928,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100338/2023-09-21_100338_frames.csv",
+    "size": 675576,
+    "compressed": null,
+    "crc32": 3471056612,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100338/2023-09-21_100338_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2625005805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100338/2023-09-21_100338_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3916679899,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100927/2023-09-21_100927_flow.csv",
+    "size": 10029,
+    "compressed": null,
+    "crc32": 3978536821,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100927/2023-09-21_100927_frames.csv",
+    "size": 863443,
+    "compressed": null,
+    "crc32": 2059411123,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100927/2023-09-21_100927_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3031264244,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_100927/2023-09-21_100927_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 822004152,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101131/2023-09-21_101131_flow.csv",
+    "size": 10332,
+    "compressed": null,
+    "crc32": 517638126,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101131/2023-09-21_101131_frames.csv",
+    "size": 890886,
+    "compressed": null,
+    "crc32": 3089441490,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101131/2023-09-21_101131_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3502354160,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101131/2023-09-21_101131_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 300110820,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101416/2023-09-21_101416_flow.csv",
+    "size": 10553,
+    "compressed": null,
+    "crc32": 2708603003,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101416/2023-09-21_101416_frames.csv",
+    "size": 884987,
+    "compressed": null,
+    "crc32": 2565378676,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101416/2023-09-21_101416_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 3764572373,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101416/2023-09-21_101416_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2632461628,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101622/2023-09-21_101622_flow.csv",
+    "size": 10767,
+    "compressed": null,
+    "crc32": 3407460197,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101622/2023-09-21_101622_frames.csv",
+    "size": 906499,
+    "compressed": null,
+    "crc32": 610180405,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101622/2023-09-21_101622_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 4038113806,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101622/2023-09-21_101622_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2910784346,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101840/2023-09-21_101840_flow.csv",
+    "size": 10670,
+    "compressed": null,
+    "crc32": 234095284,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101840/2023-09-21_101840_frames.csv",
+    "size": 944455,
+    "compressed": null,
+    "crc32": 3148386907,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101840/2023-09-21_101840_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 3823502523,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_101840/2023-09-21_101840_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 587994156,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102106/2023-09-21_102106_flow.csv",
+    "size": 12310,
+    "compressed": null,
+    "crc32": 3640330127,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102106/2023-09-21_102106_frames.csv",
+    "size": 1024567,
+    "compressed": null,
+    "crc32": 2982914843,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102106/2023-09-21_102106_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 3410985750,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102106/2023-09-21_102106_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 4131638733,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102500/2023-09-21_102500_flow.csv",
+    "size": 11247,
+    "compressed": null,
+    "crc32": 3975720372,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102500/2023-09-21_102500_frames.csv",
+    "size": 962291,
+    "compressed": null,
+    "crc32": 3688040726,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102500/2023-09-21_102500_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 3311194798,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102500/2023-09-21_102500_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 2897194895,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102700/2023-09-21_102700_flow.csv",
+    "size": 10637,
+    "compressed": null,
+    "crc32": 1839183356,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102700/2023-09-21_102700_frames.csv",
+    "size": 907814,
+    "compressed": null,
+    "crc32": 1839529767,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102700/2023-09-21_102700_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 3049038653,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102700/2023-09-21_102700_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 2619828056,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102909/2023-09-21_102909_flow.csv",
+    "size": 10172,
+    "compressed": null,
+    "crc32": 2288266784,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102909/2023-09-21_102909_frames.csv",
+    "size": 832361,
+    "compressed": null,
+    "crc32": 3489206929,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102909/2023-09-21_102909_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 3764572373,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_102909/2023-09-21_102909_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3965590824,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103140/2023-09-21_103140_flow.csv",
+    "size": 10849,
+    "compressed": null,
+    "crc32": 1330247429,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103140/2023-09-21_103140_frames.csv",
+    "size": 890497,
+    "compressed": null,
+    "crc32": 4130109162,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103140/2023-09-21_103140_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2914409141,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103140/2023-09-21_103140_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 990325240,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103407/2023-09-21_103407_flow.csv",
+    "size": 9904,
+    "compressed": null,
+    "crc32": 3902305047,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103407/2023-09-21_103407_frames.csv",
+    "size": 859123,
+    "compressed": null,
+    "crc32": 2890183581,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103407/2023-09-21_103407_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3191031550,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103407/2023-09-21_103407_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3542128390,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103728/2023-09-21_103728_flow.csv",
+    "size": 9853,
+    "compressed": null,
+    "crc32": 3586451684,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103728/2023-09-21_103728_frames.csv",
+    "size": 842596,
+    "compressed": null,
+    "crc32": 2983864615,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103728/2023-09-21_103728_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2655146496,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103728/2023-09-21_103728_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2210141865,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103927/2023-09-21_103927_flow.csv",
+    "size": 9909,
+    "compressed": null,
+    "crc32": 724413082,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103927/2023-09-21_103927_frames.csv",
+    "size": 852446,
+    "compressed": null,
+    "crc32": 2002896132,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103927/2023-09-21_103927_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 4038113806,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_103927/2023-09-21_103927_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1300854861,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_104749/2023-09-21_104749_flow.csv",
+    "size": 10426,
+    "compressed": null,
+    "crc32": 1624946326,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_104749/2023-09-21_104749_frames.csv",
+    "size": 841615,
+    "compressed": null,
+    "crc32": 963548264,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_104749/2023-09-21_104749_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2800360840,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_104749/2023-09-21_104749_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2210141865,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105017/2023-09-21_105017_flow.csv",
+    "size": 10523,
+    "compressed": null,
+    "crc32": 1059370521,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105017/2023-09-21_105017_frames.csv",
+    "size": 853256,
+    "compressed": null,
+    "crc32": 1380153356,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105017/2023-09-21_105017_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2675980343,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105017/2023-09-21_105017_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1048771879,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105230/2023-09-21_105230_flow.csv",
+    "size": 10335,
+    "compressed": null,
+    "crc32": 1181560528,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105230/2023-09-21_105230_frames.csv",
+    "size": 902754,
+    "compressed": null,
+    "crc32": 2164388077,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105230/2023-09-21_105230_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2800360840,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105230/2023-09-21_105230_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 3256016454,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105856/2023-09-21_105856_flow.csv",
+    "size": 9016,
+    "compressed": null,
+    "crc32": 1090673742,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105856/2023-09-21_105856_frames.csv",
+    "size": 733362,
+    "compressed": null,
+    "crc32": 799557646,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105856/2023-09-21_105856_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 3567218876,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_105856/2023-09-21_105856_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2985000841,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110049/2023-09-21_110049_flow.csv",
+    "size": 7512,
+    "compressed": null,
+    "crc32": 2891560336,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110049/2023-09-21_110049_frames.csv",
+    "size": 675142,
+    "compressed": null,
+    "crc32": 3338698463,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110049/2023-09-21_110049_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1602298220,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110049/2023-09-21_110049_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3536159996,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110229/2023-09-21_110229_flow.csv",
+    "size": 8053,
+    "compressed": null,
+    "crc32": 2138320647,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110229/2023-09-21_110229_frames.csv",
+    "size": 675247,
+    "compressed": null,
+    "crc32": 3224302552,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110229/2023-09-21_110229_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 2896663164,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110229/2023-09-21_110229_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3536159996,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110411/2023-09-21_110411_flow.csv",
+    "size": 8109,
+    "compressed": null,
+    "crc32": 3854333733,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110411/2023-09-21_110411_frames.csv",
+    "size": 641140,
+    "compressed": null,
+    "crc32": 472998307,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110411/2023-09-21_110411_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3663692794,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_110411/2023-09-21_110411_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 474782523,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_120653/2023-09-21_120653_flow.csv",
+    "size": 10410,
+    "compressed": null,
+    "crc32": 317084163,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_120653/2023-09-21_120653_frames.csv",
+    "size": 907337,
+    "compressed": null,
+    "crc32": 1157036347,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_120653/2023-09-21_120653_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 474413748,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_120653/2023-09-21_120653_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 3347732465,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_120912/2023-09-21_120912_flow.csv",
+    "size": 9869,
+    "compressed": null,
+    "crc32": 241249618,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_120912/2023-09-21_120912_frames.csv",
+    "size": 852024,
+    "compressed": null,
+    "crc32": 2100017123,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_120912/2023-09-21_120912_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 2244771814,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_120912/2023-09-21_120912_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2210141865,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121124/2023-09-21_121124_flow.csv",
+    "size": 9432,
+    "compressed": null,
+    "crc32": 1790725750,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121124/2023-09-21_121124_frames.csv",
+    "size": 791458,
+    "compressed": null,
+    "crc32": 3257611228,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121124/2023-09-21_121124_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2328815255,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121124/2023-09-21_121124_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2248296373,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121327/2023-09-21_121327_flow.csv",
+    "size": 10453,
+    "compressed": null,
+    "crc32": 435158828,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121327/2023-09-21_121327_frames.csv",
+    "size": 872750,
+    "compressed": null,
+    "crc32": 4091389504,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121327/2023-09-21_121327_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1573363509,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121327/2023-09-21_121327_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 881766225,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121539/2023-09-21_121539_flow.csv",
+    "size": 10521,
+    "compressed": null,
+    "crc32": 1931070474,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121539/2023-09-21_121539_frames.csv",
+    "size": 889345,
+    "compressed": null,
+    "crc32": 4103951087,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121539/2023-09-21_121539_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1573363509,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121539/2023-09-21_121539_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2872581040,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121739/2023-09-21_121739_flow.csv",
+    "size": 10598,
+    "compressed": null,
+    "crc32": 1644332671,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121739/2023-09-21_121739_frames.csv",
+    "size": 955524,
+    "compressed": null,
+    "crc32": 928953084,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121739/2023-09-21_121739_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2497478410,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_121739/2023-09-21_121739_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 1513708652,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122115/2023-09-21_122115_flow.csv",
+    "size": 9627,
+    "compressed": null,
+    "crc32": 3702100981,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122115/2023-09-21_122115_frames.csv",
+    "size": 832945,
+    "compressed": null,
+    "crc32": 910613501,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122115/2023-09-21_122115_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1453053960,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122115/2023-09-21_122115_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 254777298,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122337/2023-09-21_122337_flow.csv",
+    "size": 9651,
+    "compressed": null,
+    "crc32": 849445603,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122337/2023-09-21_122337_frames.csv",
+    "size": 823899,
+    "compressed": null,
+    "crc32": 2199230379,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122337/2023-09-21_122337_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3663692794,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122337/2023-09-21_122337_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1221110888,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122608/2023-09-21_122608_flow.csv",
+    "size": 10446,
+    "compressed": null,
+    "crc32": 405142830,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122608/2023-09-21_122608_frames.csv",
+    "size": 854642,
+    "compressed": null,
+    "crc32": 2274111364,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122608/2023-09-21_122608_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3276059323,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122608/2023-09-21_122608_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3664309614,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122855/2023-09-21_122855_flow.csv",
+    "size": 10338,
+    "compressed": null,
+    "crc32": 4043005620,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122855/2023-09-21_122855_frames.csv",
+    "size": 859437,
+    "compressed": null,
+    "crc32": 1343255095,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122855/2023-09-21_122855_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3807890546,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_122855/2023-09-21_122855_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2095453392,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123215/2023-09-21_123215_flow.csv",
+    "size": 11661,
+    "compressed": null,
+    "crc32": 659699301,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123215/2023-09-21_123215_frames.csv",
+    "size": 1013626,
+    "compressed": null,
+    "crc32": 939307479,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123215/2023-09-21_123215_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3807890546,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123215/2023-09-21_123215_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 599091159,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123500/2023-09-21_123500_flow.csv",
+    "size": 9904,
+    "compressed": null,
+    "crc32": 2704315773,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123500/2023-09-21_123500_frames.csv",
+    "size": 836676,
+    "compressed": null,
+    "crc32": 2246464073,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123500/2023-09-21_123500_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3684559309,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123500/2023-09-21_123500_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3675232356,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123651/2023-09-21_123651_flow.csv",
+    "size": 9821,
+    "compressed": null,
+    "crc32": 1783845305,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123651/2023-09-21_123651_frames.csv",
+    "size": 823806,
+    "compressed": null,
+    "crc32": 2673708606,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123651/2023-09-21_123651_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3191031550,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123651/2023-09-21_123651_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2449245193,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123841/2023-09-21_123841_flow.csv",
+    "size": 10678,
+    "compressed": null,
+    "crc32": 4202752671,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123841/2023-09-21_123841_frames.csv",
+    "size": 862938,
+    "compressed": null,
+    "crc32": 1946645348,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123841/2023-09-21_123841_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1159644227,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_123841/2023-09-21_123841_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2632461628,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124039/2023-09-21_124039_flow.csv",
+    "size": 10144,
+    "compressed": null,
+    "crc32": 2499817339,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124039/2023-09-21_124039_frames.csv",
+    "size": 814470,
+    "compressed": null,
+    "crc32": 1594704730,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124039/2023-09-21_124039_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3625532835,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124039/2023-09-21_124039_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1221110888,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124241/2023-09-21_124241_flow.csv",
+    "size": 9922,
+    "compressed": null,
+    "crc32": 1743785801,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124241/2023-09-21_124241_frames.csv",
+    "size": 802195,
+    "compressed": null,
+    "crc32": 2163470861,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124241/2023-09-21_124241_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3663692794,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124241/2023-09-21_124241_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1753222215,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124440/2023-09-21_124440_flow.csv",
+    "size": 9534,
+    "compressed": null,
+    "crc32": 1674372457,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124440/2023-09-21_124440_frames.csv",
+    "size": 830302,
+    "compressed": null,
+    "crc32": 2186658624,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124440/2023-09-21_124440_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3663692794,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124440/2023-09-21_124440_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3664249741,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124735/2023-09-21_124735_flow.csv",
+    "size": 6891,
+    "compressed": null,
+    "crc32": 2169931568,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124735/2023-09-21_124735_frames.csv",
+    "size": 616210,
+    "compressed": null,
+    "crc32": 199541490,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124735/2023-09-21_124735_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1184501805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124735/2023-09-21_124735_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3712141589,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124915/2023-09-21_124915_flow.csv",
+    "size": 13418,
+    "compressed": null,
+    "crc32": 3693259843,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124915/2023-09-21_124915_frames.csv",
+    "size": 614843,
+    "compressed": null,
+    "crc32": 3229649280,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124915/2023-09-21_124915_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2804447167,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_124915/2023-09-21_124915_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2858830045,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125048/2023-09-21_125048_flow.csv",
+    "size": 7534,
+    "compressed": null,
+    "crc32": 2645967726,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125048/2023-09-21_125048_frames.csv",
+    "size": 612734,
+    "compressed": null,
+    "crc32": 709898502,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125048/2023-09-21_125048_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2775501286,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125048/2023-09-21_125048_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1766398880,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125236/2023-09-21_125236_flow.csv",
+    "size": 7451,
+    "compressed": null,
+    "crc32": 4110737455,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125236/2023-09-21_125236_frames.csv",
+    "size": 667753,
+    "compressed": null,
+    "crc32": 3868523143,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125236/2023-09-21_125236_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2675980343,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125236/2023-09-21_125236_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1393001730,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125545/2023-09-21_125545_flow.csv",
+    "size": 9775,
+    "compressed": null,
+    "crc32": 969231568,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125545/2023-09-21_125545_frames.csv",
+    "size": 881325,
+    "compressed": null,
+    "crc32": 2968209742,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125545/2023-09-21_125545_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 4197357316,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125545/2023-09-21_125545_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3559339398,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125924/2023-09-21_125924_flow.csv",
+    "size": 9206,
+    "compressed": null,
+    "crc32": 293881254,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125924/2023-09-21_125924_frames.csv",
+    "size": 851914,
+    "compressed": null,
+    "crc32": 1000049307,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125924/2023-09-21_125924_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 4050833465,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_125924/2023-09-21_125924_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3857742095,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_141710/2023-09-21_141710_flow.csv",
+    "size": 9880,
+    "compressed": null,
+    "crc32": 75083615,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_141710/2023-09-21_141710_frames.csv",
+    "size": 890530,
+    "compressed": null,
+    "crc32": 130528857,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_141710/2023-09-21_141710_marks.yaml",
+    "size": 21,
+    "compressed": null,
+    "crc32": 4173040547,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_141710/2023-09-21_141710_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2247853014,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_141945/2023-09-21_141945_flow.csv",
+    "size": 9402,
+    "compressed": null,
+    "crc32": 3296002743,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_141945/2023-09-21_141945_frames.csv",
+    "size": 851067,
+    "compressed": null,
+    "crc32": 2940451776,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_141945/2023-09-21_141945_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3899253112,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_141945/2023-09-21_141945_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1889699104,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142233/2023-09-21_142233_flow.csv",
+    "size": 9548,
+    "compressed": null,
+    "crc32": 3282116982,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142233/2023-09-21_142233_frames.csv",
+    "size": 861426,
+    "compressed": null,
+    "crc32": 739871402,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142233/2023-09-21_142233_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2378649163,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142233/2023-09-21_142233_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 881766225,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142511/2023-09-21_142511_flow.csv",
+    "size": 9905,
+    "compressed": null,
+    "crc32": 2529707680,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142511/2023-09-21_142511_frames.csv",
+    "size": 824030,
+    "compressed": null,
+    "crc32": 988186190,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142511/2023-09-21_142511_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1155313268,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142511/2023-09-21_142511_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 334173953,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142753/2023-09-21_142753_flow.csv",
+    "size": 10231,
+    "compressed": null,
+    "crc32": 3715134935,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142753/2023-09-21_142753_frames.csv",
+    "size": 863562,
+    "compressed": null,
+    "crc32": 3059311882,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142753/2023-09-21_142753_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3920333647,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142753/2023-09-21_142753_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 136312222,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142952/2023-09-21_142952_flow.csv",
+    "size": 9915,
+    "compressed": null,
+    "crc32": 1032659008,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142952/2023-09-21_142952_frames.csv",
+    "size": 916897,
+    "compressed": null,
+    "crc32": 1107462779,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142952/2023-09-21_142952_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3899253112,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_142952/2023-09-21_142952_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3395594729,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143308/2023-09-21_143308_flow.csv",
+    "size": 9718,
+    "compressed": null,
+    "crc32": 3237376019,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143308/2023-09-21_143308_frames.csv",
+    "size": 864043,
+    "compressed": null,
+    "crc32": 3375715240,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143308/2023-09-21_143308_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3191031550,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143308/2023-09-21_143308_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2528086963,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143718/2023-09-21_143718_flow.csv",
+    "size": 9526,
+    "compressed": null,
+    "crc32": 832502177,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143718/2023-09-21_143718_frames.csv",
+    "size": 856593,
+    "compressed": null,
+    "crc32": 3929728225,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143718/2023-09-21_143718_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2655146496,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143718/2023-09-21_143718_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1048771879,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143925/2023-09-21_143925_flow.csv",
+    "size": 9132,
+    "compressed": null,
+    "crc32": 3586809769,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143925/2023-09-21_143925_frames.csv",
+    "size": 813353,
+    "compressed": null,
+    "crc32": 493589894,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143925/2023-09-21_143925_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1155313268,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_143925/2023-09-21_143925_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2114488016,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144132/2023-09-21_144132_flow.csv",
+    "size": 9901,
+    "compressed": null,
+    "crc32": 3691090476,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144132/2023-09-21_144132_frames.csv",
+    "size": 820385,
+    "compressed": null,
+    "crc32": 2161210812,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144132/2023-09-21_144132_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3276059323,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144132/2023-09-21_144132_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1123180596,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144410/2023-09-21_144410_flow.csv",
+    "size": 10249,
+    "compressed": null,
+    "crc32": 1897983615,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144410/2023-09-21_144410_frames.csv",
+    "size": 857246,
+    "compressed": null,
+    "crc32": 3166936507,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144410/2023-09-21_144410_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3663692794,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144410/2023-09-21_144410_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3857742095,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144723/2023-09-21_144723_flow.csv",
+    "size": 9297,
+    "compressed": null,
+    "crc32": 2792157409,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144723/2023-09-21_144723_frames.csv",
+    "size": 837530,
+    "compressed": null,
+    "crc32": 270612384,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144723/2023-09-21_144723_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2258307446,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_144723/2023-09-21_144723_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3855799034,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145245/2023-09-21_145245_flow.csv",
+    "size": 8938,
+    "compressed": null,
+    "crc32": 5259588,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145245/2023-09-21_145245_frames.csv",
+    "size": 797389,
+    "compressed": null,
+    "crc32": 3021563808,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145245/2023-09-21_145245_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3191031550,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145245/2023-09-21_145245_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 2895099517,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145725/2023-09-21_145725_flow.csv",
+    "size": 8989,
+    "compressed": null,
+    "crc32": 45125921,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145725/2023-09-21_145725_frames.csv",
+    "size": 808566,
+    "compressed": null,
+    "crc32": 278658220,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145725/2023-09-21_145725_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2497478410,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145725/2023-09-21_145725_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1529403558,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145930/2023-09-21_145930_flow.csv",
+    "size": 9347,
+    "compressed": null,
+    "crc32": 576501883,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145930/2023-09-21_145930_frames.csv",
+    "size": 837359,
+    "compressed": null,
+    "crc32": 2295574755,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145930/2023-09-21_145930_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2893295746,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_145930/2023-09-21_145930_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1173426992,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150138/2023-09-21_150138_flow.csv",
+    "size": 10267,
+    "compressed": null,
+    "crc32": 746101026,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150138/2023-09-21_150138_frames.csv",
+    "size": 839088,
+    "compressed": null,
+    "crc32": 1156883062,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150138/2023-09-21_150138_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2497478410,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150138/2023-09-21_150138_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3857742095,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150336/2023-09-21_150336_flow.csv",
+    "size": 11079,
+    "compressed": null,
+    "crc32": 2733539908,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150336/2023-09-21_150336_frames.csv",
+    "size": 907820,
+    "compressed": null,
+    "crc32": 111358826,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150336/2023-09-21_150336_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2349147260,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150336/2023-09-21_150336_metadata.yaml",
+    "size": 1042,
+    "compressed": null,
+    "crc32": 881624238,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150536/2023-09-21_150536_flow.csv",
+    "size": 9975,
+    "compressed": null,
+    "crc32": 3322782200,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150536/2023-09-21_150536_frames.csv",
+    "size": 896219,
+    "compressed": null,
+    "crc32": 1247596053,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150536/2023-09-21_150536_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3920333647,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150536/2023-09-21_150536_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 26860868,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150841/2023-09-21_150841_flow.csv",
+    "size": 7679,
+    "compressed": null,
+    "crc32": 3747303980,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150841/2023-09-21_150841_frames.csv",
+    "size": 680414,
+    "compressed": null,
+    "crc32": 754811110,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150841/2023-09-21_150841_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3899253112,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_150841/2023-09-21_150841_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3244966979,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151019/2023-09-21_151019_flow.csv",
+    "size": 13918,
+    "compressed": null,
+    "crc32": 3823566125,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151019/2023-09-21_151019_frames.csv",
+    "size": 629019,
+    "compressed": null,
+    "crc32": 82772254,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151019/2023-09-21_151019_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3663692794,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151019/2023-09-21_151019_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 606878272,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151156/2023-09-21_151156_flow.csv",
+    "size": 7770,
+    "compressed": null,
+    "crc32": 184256472,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151156/2023-09-21_151156_frames.csv",
+    "size": 629568,
+    "compressed": null,
+    "crc32": 198767865,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151156/2023-09-21_151156_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3899253112,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151156/2023-09-21_151156_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3386009839,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151337/2023-09-21_151337_flow.csv",
+    "size": 17390,
+    "compressed": null,
+    "crc32": 1455660195,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151337/2023-09-21_151337_frames.csv",
+    "size": 815159,
+    "compressed": null,
+    "crc32": 1952653703,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151337/2023-09-21_151337_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2497478410,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_151337/2023-09-21_151337_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1250159480,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_155609/2023-09-21_155609_flow.csv",
+    "size": 17320,
+    "compressed": null,
+    "crc32": 1048939926,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_155609/2023-09-21_155609_frames.csv",
+    "size": 1628926,
+    "compressed": null,
+    "crc32": 2760471455,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_155609/2023-09-21_155609_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2497478410,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_155609/2023-09-21_155609_metadata.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 2525747248,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_160146/2023-09-21_160146_flow.csv",
+    "size": 16359,
+    "compressed": null,
+    "crc32": 1197294309,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_160146/2023-09-21_160146_frames.csv",
+    "size": 1558723,
+    "compressed": null,
+    "crc32": 183218722,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_160146/2023-09-21_160146_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 1155313268,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_160146/2023-09-21_160146_metadata.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 4040643535,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_160551/2023-09-21_160551_flow.csv",
+    "size": 16994,
+    "compressed": null,
+    "crc32": 1633519004,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_160551/2023-09-21_160551_frames.csv",
+    "size": 1482591,
+    "compressed": null,
+    "crc32": 746399679,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_160551/2023-09-21_160551_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3276059323,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_160551/2023-09-21_160551_metadata.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 1933150220,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161033/2023-09-21_161033_flow.csv",
+    "size": 21789,
+    "compressed": null,
+    "crc32": 2236057608,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161033/2023-09-21_161033_frames.csv",
+    "size": 1870522,
+    "compressed": null,
+    "crc32": 4255584199,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161033/2023-09-21_161033_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3263617164,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161033/2023-09-21_161033_metadata.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 3832136978,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161444/2023-09-21_161444_flow.csv",
+    "size": 16356,
+    "compressed": null,
+    "crc32": 1335499219,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161444/2023-09-21_161444_frames.csv",
+    "size": 1562947,
+    "compressed": null,
+    "crc32": 2373199702,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161444/2023-09-21_161444_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3899253112,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161444/2023-09-21_161444_metadata.yaml",
+    "size": 1043,
+    "compressed": null,
+    "crc32": 2996801698,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161916/2023-09-21_161916_flow.csv",
+    "size": 7151,
+    "compressed": null,
+    "crc32": 2404266123,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161916/2023-09-21_161916_frames.csv",
+    "size": 639041,
+    "compressed": null,
+    "crc32": 2307265804,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161916/2023-09-21_161916_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2775501286,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_161916/2023-09-21_161916_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3857470949,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162055/2023-09-21_162055_flow.csv",
+    "size": 8067,
+    "compressed": null,
+    "crc32": 762509900,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162055/2023-09-21_162055_frames.csv",
+    "size": 659626,
+    "compressed": null,
+    "crc32": 1245064617,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162055/2023-09-21_162055_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3276059323,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162055/2023-09-21_162055_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 1424000926,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162251/2023-09-21_162251_flow.csv",
+    "size": 7989,
+    "compressed": null,
+    "crc32": 1642393855,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162251/2023-09-21_162251_frames.csv",
+    "size": 638626,
+    "compressed": null,
+    "crc32": 3663758852,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162251/2023-09-21_162251_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 3920333647,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162251/2023-09-21_162251_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 3857470949,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162428/2023-09-21_162428_flow.csv",
+    "size": 13841,
+    "compressed": null,
+    "crc32": 1271785695,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162428/2023-09-21_162428_frames.csv",
+    "size": 649542,
+    "compressed": null,
+    "crc32": 3034058927,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162428/2023-09-21_162428_marks.yaml",
+    "size": 20,
+    "compressed": null,
+    "crc32": 2655146496,
+    "directory": false
+  },
+  {
+    "name": "data_processed/aris/2023-09-21_162428/2023-09-21_162428_metadata.yaml",
+    "size": 1041,
+    "compressed": null,
+    "crc32": 4209641795,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-11-30_100lbs_bomb.csv",
+    "size": 33553,
+    "compressed": null,
+    "crc32": 3145835066,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-25-10_100lbs_bomb.csv",
+    "size": 33059,
+    "compressed": null,
+    "crc32": 2944798680,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-28-57_100lbs_bomb.csv",
+    "size": 32408,
+    "compressed": null,
+    "crc32": 3920605575,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-33-32_100lbs_bomb.csv",
+    "size": 29089,
+    "compressed": null,
+    "crc32": 1473280712,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-36-17_100lbs_bomb.csv",
+    "size": 31315,
+    "compressed": null,
+    "crc32": 769336867,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-42-03_100lbs_bomb.csv",
+    "size": 30492,
+    "compressed": null,
+    "crc32": 3634204628,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-44-40_100lbs_bomb.csv",
+    "size": 30068,
+    "compressed": null,
+    "crc32": 876389367,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-47-12_100lbs_bomb.csv",
+    "size": 29271,
+    "compressed": null,
+    "crc32": 3063406060,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-50-02_100lbs_bomb.csv",
+    "size": 30000,
+    "compressed": null,
+    "crc32": 3968939117,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-55-08_100lbs_bomb.csv",
+    "size": 26963,
+    "compressed": null,
+    "crc32": 3297301428,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-57-05_100lbs_bomb.csv",
+    "size": 26544,
+    "compressed": null,
+    "crc32": 21201872,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-17-59-06_100lbs_bomb.csv",
+    "size": 26956,
+    "compressed": null,
+    "crc32": 2024506190,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-18-01-27_100lbs_bomb.csv",
+    "size": 29434,
+    "compressed": null,
+    "crc32": 2709389094,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-18-05-08_100lbs_bomb.csv",
+    "size": 28195,
+    "compressed": null,
+    "crc32": 2259126258,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-18-07-24_100lbs_bomb.csv",
+    "size": 28341,
+    "compressed": null,
+    "crc32": 528244663,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-18-09-45_100lbs_bomb.csv",
+    "size": 27454,
+    "compressed": null,
+    "crc32": 171501202,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-18-11-40_100lbs_bomb.csv",
+    "size": 34105,
+    "compressed": null,
+    "crc32": 4262828035,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-18-23-16_100lbs_bomb.csv",
+    "size": 19646,
+    "compressed": null,
+    "crc32": 1056005654,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-18-26-03_100lbs_bomb.csv",
+    "size": 22925,
+    "compressed": null,
+    "crc32": 2150214089,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-20-18-28-44_100lbs_bomb.csv",
+    "size": 20324,
+    "compressed": null,
+    "crc32": 1990545491,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-09-23_15cm_mortar.csv",
+    "size": 30336,
+    "compressed": null,
+    "crc32": 2096309350,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-11-33_15cm_mortar.csv",
+    "size": 31421,
+    "compressed": null,
+    "crc32": 3051040133,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-14-18_15cm_mortar.csv",
+    "size": 29160,
+    "compressed": null,
+    "crc32": 220568000,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-16-23_15cm_mortar.csv",
+    "size": 28437,
+    "compressed": null,
+    "crc32": 3349918208,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-18-42_15cm_mortar.csv",
+    "size": 32471,
+    "compressed": null,
+    "crc32": 246695531,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-21-09_15cm_mortar.csv",
+    "size": 34734,
+    "compressed": null,
+    "crc32": 3008928377,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-25-01_15cm_mortar.csv",
+    "size": 29506,
+    "compressed": null,
+    "crc32": 2762467597,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-27-05_15cm_mortar.csv",
+    "size": 27168,
+    "compressed": null,
+    "crc32": 485146228,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-29-12_15cm_mortar.csv",
+    "size": 26610,
+    "compressed": null,
+    "crc32": 573648224,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-31-41_15cm_mortar.csv",
+    "size": 26676,
+    "compressed": null,
+    "crc32": 1605044572,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-34-07_15cm_mortar.csv",
+    "size": 26329,
+    "compressed": null,
+    "crc32": 323453673,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-37-30_15cm_mortar.csv",
+    "size": 29111,
+    "compressed": null,
+    "crc32": 2329634307,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-39-28_15cm_mortar.csv",
+    "size": 28133,
+    "compressed": null,
+    "crc32": 1584837841,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-47-49_15cm_mortar.csv",
+    "size": 29551,
+    "compressed": null,
+    "crc32": 3475043724,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-50-18_15cm_mortar.csv",
+    "size": 28433,
+    "compressed": null,
+    "crc32": 1853755076,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-52-31_15cm_mortar.csv",
+    "size": 30424,
+    "compressed": null,
+    "crc32": 1188049182,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-10-59-02_15cm_mortar.csv",
+    "size": 19639,
+    "compressed": null,
+    "crc32": 1903840568,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-11-00-50_15cm_mortar.csv",
+    "size": 18528,
+    "compressed": null,
+    "crc32": 3010479705,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-11-02-34_15cm_mortar.csv",
+    "size": 18630,
+    "compressed": null,
+    "crc32": 1787244823,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-11-04-12_15cm_mortar.csv",
+    "size": 18521,
+    "compressed": null,
+    "crc32": 2748736974,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-06-59_20lbs_incendiary.csv",
+    "size": 28638,
+    "compressed": null,
+    "crc32": 3630792061,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-09-16_20lbs_incendiary.csv",
+    "size": 27834,
+    "compressed": null,
+    "crc32": 680580478,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-11-22_20lbs_incendiary.csv",
+    "size": 27897,
+    "compressed": null,
+    "crc32": 751333883,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-13-27_20lbs_incendiary.csv",
+    "size": 27572,
+    "compressed": null,
+    "crc32": 4098835703,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-15-38_20lbs_incendiary.csv",
+    "size": 31795,
+    "compressed": null,
+    "crc32": 2867384367,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-17-40_20lbs_incendiary.csv",
+    "size": 31732,
+    "compressed": null,
+    "crc32": 142024571,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-21-16_20lbs_incendiary.csv",
+    "size": 27188,
+    "compressed": null,
+    "crc32": 2230921496,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-23-38_20lbs_incendiary.csv",
+    "size": 26615,
+    "compressed": null,
+    "crc32": 1795905650,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-26-08_20lbs_incendiary.csv",
+    "size": 26728,
+    "compressed": null,
+    "crc32": 3803554297,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-28-01_20lbs_incendiary.csv",
+    "size": 8689,
+    "compressed": null,
+    "crc32": 1564260567,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-28-57_20lbs_incendiary.csv",
+    "size": 28058,
+    "compressed": null,
+    "crc32": 1468500180,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-32-16_20lbs_incendiary.csv",
+    "size": 32448,
+    "compressed": null,
+    "crc32": 1753497122,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-35-01_20lbs_incendiary.csv",
+    "size": 27215,
+    "compressed": null,
+    "crc32": 2726444854,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-36-51_20lbs_incendiary.csv",
+    "size": 27381,
+    "compressed": null,
+    "crc32": 127333482,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-38-42_20lbs_incendiary.csv",
+    "size": 27689,
+    "compressed": null,
+    "crc32": 3785563854,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-40-38_20lbs_incendiary.csv",
+    "size": 28577,
+    "compressed": null,
+    "crc32": 966128117,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-42-41_20lbs_incendiary.csv",
+    "size": 28734,
+    "compressed": null,
+    "crc32": 2935023371,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-44-40_20lbs_incendiary.csv",
+    "size": 27958,
+    "compressed": null,
+    "crc32": 4154258293,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-47-35_20lbs_incendiary.csv",
+    "size": 18500,
+    "compressed": null,
+    "crc32": 701936342,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-49-15_20lbs_incendiary.csv",
+    "size": 18817,
+    "compressed": null,
+    "crc32": 2579703294,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-50-48_20lbs_incendiary.csv",
+    "size": 18445,
+    "compressed": null,
+    "crc32": 2046879991,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-52-37_20lbs_incendiary.csv",
+    "size": 19775,
+    "compressed": null,
+    "crc32": 3444360065,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-55-45_20lbs_incendiary.csv",
+    "size": 90971,
+    "compressed": null,
+    "crc32": 4211482611,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-12-59-24_20lbs_incendiary.csv",
+    "size": 36346,
+    "compressed": null,
+    "crc32": 272213562,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-17-13_cylinder_test.csv",
+    "size": 29402,
+    "compressed": null,
+    "crc32": 2105841154,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-19-45_cylinder_test.csv",
+    "size": 27110,
+    "compressed": null,
+    "crc32": 411410591,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-22-34_cylinder_test.csv",
+    "size": 28273,
+    "compressed": null,
+    "crc32": 3947936248,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-25-12_cylinder_test.csv",
+    "size": 27214,
+    "compressed": null,
+    "crc32": 301292126,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-27-53_cylinder_test.csv",
+    "size": 30644,
+    "compressed": null,
+    "crc32": 2214352501,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-29-53_cylinder_test.csv",
+    "size": 30150,
+    "compressed": null,
+    "crc32": 585731346,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-33-08_cylinder_test.csv",
+    "size": 26704,
+    "compressed": null,
+    "crc32": 1342519206,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-37-20_cylinder_test.csv",
+    "size": 25997,
+    "compressed": null,
+    "crc32": 2451852857,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-39-25_cylinder_test.csv",
+    "size": 32372,
+    "compressed": null,
+    "crc32": 1347710139,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-41-32_cylinder_test.csv",
+    "size": 27108,
+    "compressed": null,
+    "crc32": 2682450786,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-44-10_cylinder_test.csv",
+    "size": 30082,
+    "compressed": null,
+    "crc32": 839344160,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-47-23_cylinder_test.csv",
+    "size": 29897,
+    "compressed": null,
+    "crc32": 2414677839,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-52-45_cylinder_test.csv",
+    "size": 27851,
+    "compressed": null,
+    "crc32": 2206921348,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-57-25_cylinder_test.csv",
+    "size": 28024,
+    "compressed": null,
+    "crc32": 3249736781,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-14-59-31_cylinder_test.csv",
+    "size": 29797,
+    "compressed": null,
+    "crc32": 1194925683,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-15-01-38_cylinder_test.csv",
+    "size": 28155,
+    "compressed": null,
+    "crc32": 3620841130,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-15-03-36_cylinder_test.csv",
+    "size": 31118,
+    "compressed": null,
+    "crc32": 730143810,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-15-05-37_cylinder_test.csv",
+    "size": 31079,
+    "compressed": null,
+    "crc32": 3562551345,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-15-08-41_cylinder_test.csv",
+    "size": 19858,
+    "compressed": null,
+    "crc32": 1956492348,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-15-10-19_cylinder_test.csv",
+    "size": 18834,
+    "compressed": null,
+    "crc32": 2027593560,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-15-11-56_cylinder_test.csv",
+    "size": 18468,
+    "compressed": null,
+    "crc32": 2620010005,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-15-13-37_cylinder_test.csv",
+    "size": 1052663,
+    "compressed": null,
+    "crc32": 2231270383,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-15-56-09_100lbs.csv",
+    "size": 58258,
+    "compressed": null,
+    "crc32": 577664558,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-16-01-46_100lbs.csv",
+    "size": 49961,
+    "compressed": null,
+    "crc32": 4102796996,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-16-05-51_100lbs.csv",
+    "size": 47650,
+    "compressed": null,
+    "crc32": 3170853109,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-16-09-37_100lbs.csv",
+    "size": 20744,
+    "compressed": null,
+    "crc32": 2389512856,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-16-10-34_100lbs.csv",
+    "size": 49153,
+    "compressed": null,
+    "crc32": 2428928399,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-16-14-44_100lbs.csv",
+    "size": 49244,
+    "compressed": null,
+    "crc32": 3362817505,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-16-19-16_100lbs.csv",
+    "size": 22293,
+    "compressed": null,
+    "crc32": 2239762872,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-16-20-56_100lbs.csv",
+    "size": 23525,
+    "compressed": null,
+    "crc32": 2271853922,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-16-22-52_100lbs.csv",
+    "size": 22637,
+    "compressed": null,
+    "crc32": 1768056055,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/2023-09-21-16-24-29_100lbs.csv",
+    "size": 23742,
+    "compressed": null,
+    "crc32": 2713480730,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gantry/gantry_metadata.csv",
+    "size": 9169,
+    "compressed": null,
+    "crc32": 539503808,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX010010_01.mp4",
+    "size": 22732058,
+    "compressed": null,
+    "crc32": 4181992182,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX010010_02.mp4",
+    "size": 24473264,
+    "compressed": null,
+    "crc32": 2793313913,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX010010_03.mp4",
+    "size": 22536878,
+    "compressed": null,
+    "crc32": 279119177,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX020009_01.mp4",
+    "size": 23919151,
+    "compressed": null,
+    "crc32": 3626772543,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX020010_01.mp4",
+    "size": 27376499,
+    "compressed": null,
+    "crc32": 2622671365,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX020010_02.mp4",
+    "size": 25002806,
+    "compressed": null,
+    "crc32": 2888662109,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX020010_03.mp4",
+    "size": 24019746,
+    "compressed": null,
+    "crc32": 1529595793,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX020010_04.mp4",
+    "size": 23544441,
+    "compressed": null,
+    "crc32": 1047676345,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX020010_05.mp4",
+    "size": 27943520,
+    "compressed": null,
+    "crc32": 2937602440,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX020010_06.mp4",
+    "size": 24960040,
+    "compressed": null,
+    "crc32": 2529105240,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX020010_07.mp4",
+    "size": 24545507,
+    "compressed": null,
+    "crc32": 2352708714,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX030010_01.mp4",
+    "size": 24831974,
+    "compressed": null,
+    "crc32": 3244089790,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX030010_02.mp4",
+    "size": 21949107,
+    "compressed": null,
+    "crc32": 3421490272,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX030010_03.mp4",
+    "size": 23577617,
+    "compressed": null,
+    "crc32": 4090863329,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX030010_04.mp4",
+    "size": 25383228,
+    "compressed": null,
+    "crc32": 1364504676,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX030010_05.mp4",
+    "size": 26499585,
+    "compressed": null,
+    "crc32": 52113828,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230920_GX030010_06.mp4",
+    "size": 16608697,
+    "compressed": null,
+    "crc32": 2812304725,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010012_01.mp4",
+    "size": 31315599,
+    "compressed": null,
+    "crc32": 553315466,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010012_02.mp4",
+    "size": 36776456,
+    "compressed": null,
+    "crc32": 525022805,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010012_03.mp4",
+    "size": 31533847,
+    "compressed": null,
+    "crc32": 31860746,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010012_04.mp4",
+    "size": 31037644,
+    "compressed": null,
+    "crc32": 948562858,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010012_05.mp4",
+    "size": 33458219,
+    "compressed": null,
+    "crc32": 3713733234,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010012_06.mp4",
+    "size": 29033852,
+    "compressed": null,
+    "crc32": 409905613,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010012_07.mp4",
+    "size": 27669221,
+    "compressed": null,
+    "crc32": 4203909597,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010012_08.mp4",
+    "size": 25973868,
+    "compressed": null,
+    "crc32": 2453387955,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010014_01.mp4",
+    "size": 25141672,
+    "compressed": null,
+    "crc32": 3836335939,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010014_02.mp4",
+    "size": 24805298,
+    "compressed": null,
+    "crc32": 460043300,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010014_03.mp4",
+    "size": 22347994,
+    "compressed": null,
+    "crc32": 2165809563,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010014_04.mp4",
+    "size": 22677027,
+    "compressed": null,
+    "crc32": 3054340334,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010014_05.mp4",
+    "size": 25907838,
+    "compressed": null,
+    "crc32": 3946255622,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010014_06.mp4",
+    "size": 25896902,
+    "compressed": null,
+    "crc32": 340378387,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010014_07.mp4",
+    "size": 24699291,
+    "compressed": null,
+    "crc32": 1547394974,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010014_08.mp4",
+    "size": 22060001,
+    "compressed": null,
+    "crc32": 756682468,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010014_09.mp4",
+    "size": 5855229,
+    "compressed": null,
+    "crc32": 3346313781,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010014_10.mp4",
+    "size": 24478753,
+    "compressed": null,
+    "crc32": 4260678996,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010015_01.mp4",
+    "size": 23695676,
+    "compressed": null,
+    "crc32": 2984766678,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010015_02.mp4",
+    "size": 22558023,
+    "compressed": null,
+    "crc32": 4189403192,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010015_03.mp4",
+    "size": 25043287,
+    "compressed": null,
+    "crc32": 2751714769,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010015_04.mp4",
+    "size": 21679380,
+    "compressed": null,
+    "crc32": 143075334,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010018_01.mp4",
+    "size": 53605650,
+    "compressed": null,
+    "crc32": 1399311281,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010018_02.mp4",
+    "size": 53712608,
+    "compressed": null,
+    "crc32": 3835167964,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010018_03.mp4",
+    "size": 53062290,
+    "compressed": null,
+    "crc32": 1120051636,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010018_04.mp4",
+    "size": 16122404,
+    "compressed": null,
+    "crc32": 2290314513,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010018_05.mp4",
+    "size": 19065072,
+    "compressed": null,
+    "crc32": 1256354898,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010018_06.mp4",
+    "size": 17263831,
+    "compressed": null,
+    "crc32": 3327114467,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010018_07.mp4",
+    "size": 18424445,
+    "compressed": null,
+    "crc32": 2308077237,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_01.mp4",
+    "size": 26979054,
+    "compressed": null,
+    "crc32": 3741734692,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_02.mp4",
+    "size": 30680583,
+    "compressed": null,
+    "crc32": 2870520973,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_03.mp4",
+    "size": 29536115,
+    "compressed": null,
+    "crc32": 2143669905,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_04.mp4",
+    "size": 25036181,
+    "compressed": null,
+    "crc32": 4182068457,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_05.mp4",
+    "size": 29040516,
+    "compressed": null,
+    "crc32": 760038637,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_06.mp4",
+    "size": 24728527,
+    "compressed": null,
+    "crc32": 1018961773,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_07.mp4",
+    "size": 26299927,
+    "compressed": null,
+    "crc32": 572209927,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_08.mp4",
+    "size": 18483917,
+    "compressed": null,
+    "crc32": 1684868992,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_09.mp4",
+    "size": 29954687,
+    "compressed": null,
+    "crc32": 3359410009,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_10.mp4",
+    "size": 8013590,
+    "compressed": null,
+    "crc32": 2056404550,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_01.mp4",
+    "size": 23160871,
+    "compressed": null,
+    "crc32": 2979680667,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_02.mp4",
+    "size": 22573381,
+    "compressed": null,
+    "crc32": 4258298683,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_03.mp4",
+    "size": 23924060,
+    "compressed": null,
+    "crc32": 3325571427,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_04.mp4",
+    "size": 24007626,
+    "compressed": null,
+    "crc32": 1564807764,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_05.mp4",
+    "size": 23075609,
+    "compressed": null,
+    "crc32": 472669367,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_06.mp4",
+    "size": 24070081,
+    "compressed": null,
+    "crc32": 3952394720,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_07.mp4",
+    "size": 23782205,
+    "compressed": null,
+    "crc32": 1070729975,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_08.mp4",
+    "size": 19859351,
+    "compressed": null,
+    "crc32": 676096948,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_09.mp4",
+    "size": 19303439,
+    "compressed": null,
+    "crc32": 2132716467,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_10.mp4",
+    "size": 20803706,
+    "compressed": null,
+    "crc32": 3314894332,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_11.mp4",
+    "size": 18056092,
+    "compressed": null,
+    "crc32": 3040989992,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_12.mp4",
+    "size": 17120955,
+    "compressed": null,
+    "crc32": 2629443287,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020014_13.mp4",
+    "size": 17467860,
+    "compressed": null,
+    "crc32": 165710382,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX030012_01.mp4",
+    "size": 22611323,
+    "compressed": null,
+    "crc32": 957355553,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX030012_02.mp4",
+    "size": 21211026,
+    "compressed": null,
+    "crc32": 329802430,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX030012_03.mp4",
+    "size": 20395355,
+    "compressed": null,
+    "crc32": 2774110779,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX030012_04.mp4",
+    "size": 22380929,
+    "compressed": null,
+    "crc32": 485119611,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX030012_05.mp4",
+    "size": 19517359,
+    "compressed": null,
+    "crc32": 4228218583,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX030014_01.mp4",
+    "size": 25931689,
+    "compressed": null,
+    "crc32": 1817739387,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX030014_02.mp4",
+    "size": 23763666,
+    "compressed": 1834384494,
+    "crc32": 2138406083,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX010010_01.mp4",
+    "size": 1711143,
+    "compressed": null,
+    "crc32": 1695705138,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX010010_01_flow.csv",
+    "size": 17746,
+    "compressed": null,
+    "crc32": 876723290,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX010010_02.mp4",
+    "size": 1895578,
+    "compressed": null,
+    "crc32": 2068709007,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX010010_02_flow.csv",
+    "size": 19311,
+    "compressed": null,
+    "crc32": 3073082857,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX010010_03.mp4",
+    "size": 1765263,
+    "compressed": null,
+    "crc32": 1822568140,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX010010_03_flow.csv",
+    "size": 18384,
+    "compressed": null,
+    "crc32": 3666996756,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020009_01.mp4",
+    "size": 1703983,
+    "compressed": null,
+    "crc32": 2344015551,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020009_01_flow.csv",
+    "size": 38915,
+    "compressed": null,
+    "crc32": 4157853556,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_01.mp4",
+    "size": 2129042,
+    "compressed": null,
+    "crc32": 1139152907,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_01_flow.csv",
+    "size": 21584,
+    "compressed": null,
+    "crc32": 3273969364,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_02.mp4",
+    "size": 1900649,
+    "compressed": null,
+    "crc32": 3481355390,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_02_flow.csv",
+    "size": 18900,
+    "compressed": null,
+    "crc32": 4153907009,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_03.mp4",
+    "size": 1830471,
+    "compressed": null,
+    "crc32": 1898543503,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_03_flow.csv",
+    "size": 18625,
+    "compressed": null,
+    "crc32": 494986232,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_04.mp4",
+    "size": 1854973,
+    "compressed": null,
+    "crc32": 2538009747,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_04_flow.csv",
+    "size": 18718,
+    "compressed": null,
+    "crc32": 490112008,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_05.mp4",
+    "size": 2270597,
+    "compressed": null,
+    "crc32": 1264150123,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_05_flow.csv",
+    "size": 20016,
+    "compressed": null,
+    "crc32": 3003582031,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_06.mp4",
+    "size": 1928677,
+    "compressed": null,
+    "crc32": 3180997718,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_06_flow.csv",
+    "size": 18446,
+    "compressed": null,
+    "crc32": 1940587501,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_07.mp4",
+    "size": 1873951,
+    "compressed": null,
+    "crc32": 1463244461,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX020010_07_flow.csv",
+    "size": 18443,
+    "compressed": null,
+    "crc32": 1119729178,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_01.mp4",
+    "size": 2265256,
+    "compressed": null,
+    "crc32": 1571773910,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_01_flow.csv",
+    "size": 20634,
+    "compressed": null,
+    "crc32": 3614431419,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_02.mp4",
+    "size": 1854581,
+    "compressed": null,
+    "crc32": 2430515696,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_02_flow.csv",
+    "size": 18564,
+    "compressed": null,
+    "crc32": 3854466298,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_03.mp4",
+    "size": 1977627,
+    "compressed": null,
+    "crc32": 2265910957,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_03_flow.csv",
+    "size": 19384,
+    "compressed": null,
+    "crc32": 1606521608,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_04.mp4",
+    "size": 1964935,
+    "compressed": null,
+    "crc32": 758272961,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_04_flow.csv",
+    "size": 18640,
+    "compressed": null,
+    "crc32": 1588050243,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_05.mp4",
+    "size": 2012150,
+    "compressed": null,
+    "crc32": 68651178,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_05_flow.csv",
+    "size": 18716,
+    "compressed": null,
+    "crc32": 4191879032,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_06.mp4",
+    "size": 1298214,
+    "compressed": null,
+    "crc32": 815657182,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_GX030010_06_flow.csv",
+    "size": 12704,
+    "compressed": null,
+    "crc32": 1808724314,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230920_gopro_metadata.csv",
+    "size": 1153,
+    "compressed": null,
+    "crc32": 1821914403,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_01.mp4",
+    "size": 2653236,
+    "compressed": null,
+    "crc32": 2136928783,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_01_flow.csv",
+    "size": 20284,
+    "compressed": null,
+    "crc32": 1913787528,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_02.mp4",
+    "size": 2944240,
+    "compressed": null,
+    "crc32": 3240593612,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_02_flow.csv",
+    "size": 21405,
+    "compressed": null,
+    "crc32": 3987881097,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_03.mp4",
+    "size": 2639394,
+    "compressed": null,
+    "crc32": 13967625,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_03_flow.csv",
+    "size": 20009,
+    "compressed": null,
+    "crc32": 3296529239,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_04.mp4",
+    "size": 2660967,
+    "compressed": null,
+    "crc32": 1256863408,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_04_flow.csv",
+    "size": 19897,
+    "compressed": null,
+    "crc32": 104513238,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_05.mp4",
+    "size": 2613197,
+    "compressed": null,
+    "crc32": 4227768162,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_05_flow.csv",
+    "size": 19395,
+    "compressed": null,
+    "crc32": 644425879,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_06.mp4",
+    "size": 2377801,
+    "compressed": null,
+    "crc32": 2721837115,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_06_flow.csv",
+    "size": 19652,
+    "compressed": null,
+    "crc32": 2612751057,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_07.mp4",
+    "size": 2206775,
+    "compressed": null,
+    "crc32": 733600018,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_07_flow.csv",
+    "size": 20045,
+    "compressed": null,
+    "crc32": 3093344340,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_08.mp4",
+    "size": 2169920,
+    "compressed": null,
+    "crc32": 4103390960,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_08_flow.csv",
+    "size": 19927,
+    "compressed": null,
+    "crc32": 179366253,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_01.mp4",
+    "size": 1876494,
+    "compressed": null,
+    "crc32": 1141193287,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_01_flow.csv",
+    "size": 20007,
+    "compressed": null,
+    "crc32": 1315838883,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_02.mp4",
+    "size": 1697491,
+    "compressed": null,
+    "crc32": 3781059193,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_02_flow.csv",
+    "size": 20115,
+    "compressed": null,
+    "crc32": 880006187,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_03.mp4",
+    "size": 1799548,
+    "compressed": null,
+    "crc32": 805586851,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_03_flow.csv",
+    "size": 20092,
+    "compressed": null,
+    "crc32": 1981688016,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_04.mp4",
+    "size": 1835734,
+    "compressed": null,
+    "crc32": 3007565340,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_04_flow.csv",
+    "size": 19745,
+    "compressed": null,
+    "crc32": 230501168,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_05.mp4",
+    "size": 1975676,
+    "compressed": null,
+    "crc32": 81548304,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_05_flow.csv",
+    "size": 19961,
+    "compressed": null,
+    "crc32": 1593011037,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_06.mp4",
+    "size": 1946664,
+    "compressed": null,
+    "crc32": 780030143,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_06_flow.csv",
+    "size": 21259,
+    "compressed": null,
+    "crc32": 1668920299,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_07.mp4",
+    "size": 1897146,
+    "compressed": null,
+    "crc32": 403144197,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_07_flow.csv",
+    "size": 20023,
+    "compressed": null,
+    "crc32": 1147945268,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_08.mp4",
+    "size": 1705719,
+    "compressed": null,
+    "crc32": 2717241225,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_08_flow.csv",
+    "size": 20333,
+    "compressed": null,
+    "crc32": 2865643040,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_09.mp4",
+    "size": 495643,
+    "compressed": null,
+    "crc32": 553964397,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_09_flow.csv",
+    "size": 6967,
+    "compressed": null,
+    "crc32": 3101021566,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_10.mp4",
+    "size": 1935636,
+    "compressed": null,
+    "crc32": 3627151308,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010014_10_flow.csv",
+    "size": 20040,
+    "compressed": null,
+    "crc32": 4142232955,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010015_01.mp4",
+    "size": 1660442,
+    "compressed": null,
+    "crc32": 72630487,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010015_01_flow.csv",
+    "size": 19760,
+    "compressed": null,
+    "crc32": 129050001,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010015_02.mp4",
+    "size": 1742640,
+    "compressed": null,
+    "crc32": 2384574011,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010015_02_flow.csv",
+    "size": 19710,
+    "compressed": null,
+    "crc32": 2831491196,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010015_03.mp4",
+    "size": 1798501,
+    "compressed": null,
+    "crc32": 1468872592,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010015_03_flow.csv",
+    "size": 19892,
+    "compressed": null,
+    "crc32": 3703975814,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010015_04.mp4",
+    "size": 1756151,
+    "compressed": null,
+    "crc32": 4112764927,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010015_04_flow.csv",
+    "size": 17849,
+    "compressed": null,
+    "crc32": 2210781866,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_01.mp4",
+    "size": 4768719,
+    "compressed": null,
+    "crc32": 628963315,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_01_flow.csv",
+    "size": 34736,
+    "compressed": null,
+    "crc32": 193841748,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_02.mp4",
+    "size": 4795966,
+    "compressed": null,
+    "crc32": 4062664780,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_02_flow.csv",
+    "size": 35230,
+    "compressed": null,
+    "crc32": 2851930188,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_03.mp4",
+    "size": 4605103,
+    "compressed": null,
+    "crc32": 993892209,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_03_flow.csv",
+    "size": 34811,
+    "compressed": null,
+    "crc32": 1001078856,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_04.mp4",
+    "size": 1371469,
+    "compressed": null,
+    "crc32": 1887027316,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_04_flow.csv",
+    "size": 14880,
+    "compressed": null,
+    "crc32": 781070742,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_05.mp4",
+    "size": 1324506,
+    "compressed": null,
+    "crc32": 542344989,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_05_flow.csv",
+    "size": 15077,
+    "compressed": null,
+    "crc32": 1997599254,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_06.mp4",
+    "size": 1466218,
+    "compressed": null,
+    "crc32": 497353794,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_06_flow.csv",
+    "size": 14702,
+    "compressed": null,
+    "crc32": 1521031261,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_07.mp4",
+    "size": 1479076,
+    "compressed": null,
+    "crc32": 625919948,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010018_07_flow.csv",
+    "size": 14865,
+    "compressed": null,
+    "crc32": 2012000115,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_01.mp4",
+    "size": 2108422,
+    "compressed": null,
+    "crc32": 791132687,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_01_flow.csv",
+    "size": 20447,
+    "compressed": null,
+    "crc32": 3641568796,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_02.mp4",
+    "size": 2256966,
+    "compressed": null,
+    "crc32": 1061927502,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_02_flow.csv",
+    "size": 19631,
+    "compressed": null,
+    "crc32": 1213098944,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_03.mp4",
+    "size": 2460510,
+    "compressed": null,
+    "crc32": 2034151836,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_03_flow.csv",
+    "size": 19958,
+    "compressed": null,
+    "crc32": 2674092372,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_04.mp4",
+    "size": 2036378,
+    "compressed": null,
+    "crc32": 2057602386,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_04_flow.csv",
+    "size": 20424,
+    "compressed": null,
+    "crc32": 2756872423,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_05.mp4",
+    "size": 2125322,
+    "compressed": null,
+    "crc32": 2316082975,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_05_flow.csv",
+    "size": 20937,
+    "compressed": null,
+    "crc32": 663338636,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_06.mp4",
+    "size": 2052223,
+    "compressed": null,
+    "crc32": 3250514767,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_06_flow.csv",
+    "size": 20209,
+    "compressed": null,
+    "crc32": 1207521712,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_07.mp4",
+    "size": 2021425,
+    "compressed": null,
+    "crc32": 3723656418,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_07_flow.csv",
+    "size": 19313,
+    "compressed": null,
+    "crc32": 1278083080,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_08.mp4",
+    "size": 1872397,
+    "compressed": null,
+    "crc32": 34156161,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_08_flow.csv",
+    "size": 14435,
+    "compressed": null,
+    "crc32": 4008688200,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_09.mp4",
+    "size": 2182951,
+    "compressed": null,
+    "crc32": 1409163669,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_09_flow.csv",
+    "size": 21583,
+    "compressed": null,
+    "crc32": 2387294,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_10.mp4",
+    "size": 892792,
+    "compressed": null,
+    "crc32": 3546690418,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_10_flow.csv",
+    "size": 8771,
+    "compressed": null,
+    "crc32": 2798506782,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_01.mp4",
+    "size": 1987865,
+    "compressed": null,
+    "crc32": 2171493291,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_01_flow.csv",
+    "size": 19783,
+    "compressed": null,
+    "crc32": 2283224540,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_02.mp4",
+    "size": 1817050,
+    "compressed": null,
+    "crc32": 3376174206,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_02_flow.csv",
+    "size": 20256,
+    "compressed": null,
+    "crc32": 2041404668,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_03.mp4",
+    "size": 1829660,
+    "compressed": null,
+    "crc32": 3570009774,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_03_flow.csv",
+    "size": 20155,
+    "compressed": null,
+    "crc32": 2399097305,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_04.mp4",
+    "size": 1741648,
+    "compressed": null,
+    "crc32": 250909591,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_04_flow.csv",
+    "size": 20919,
+    "compressed": null,
+    "crc32": 1730477977,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_05.mp4",
+    "size": 1666045,
+    "compressed": null,
+    "crc32": 129942742,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_05_flow.csv",
+    "size": 20072,
+    "compressed": null,
+    "crc32": 4028335082,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_06.mp4",
+    "size": 1922102,
+    "compressed": null,
+    "crc32": 2279158639,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_06_flow.csv",
+    "size": 20507,
+    "compressed": null,
+    "crc32": 3415247406,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_07.mp4",
+    "size": 1721315,
+    "compressed": null,
+    "crc32": 161022229,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_07_flow.csv",
+    "size": 19702,
+    "compressed": null,
+    "crc32": 2133733653,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_08.mp4",
+    "size": 1272564,
+    "compressed": null,
+    "crc32": 4251590484,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_08_flow.csv",
+    "size": 15165,
+    "compressed": null,
+    "crc32": 3353850578,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_09.mp4",
+    "size": 1366448,
+    "compressed": null,
+    "crc32": 2880051488,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_09_flow.csv",
+    "size": 14989,
+    "compressed": null,
+    "crc32": 773570910,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_10.mp4",
+    "size": 1616065,
+    "compressed": null,
+    "crc32": 1094244156,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_10_flow.csv",
+    "size": 14789,
+    "compressed": null,
+    "crc32": 227473616,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_11.mp4",
+    "size": 1418555,
+    "compressed": null,
+    "crc32": 3487638883,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_11_flow.csv",
+    "size": 14984,
+    "compressed": null,
+    "crc32": 1778440266,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_12.mp4",
+    "size": 1652059,
+    "compressed": null,
+    "crc32": 1719654669,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_12_flow.csv",
+    "size": 14965,
+    "compressed": null,
+    "crc32": 4170790089,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_13.mp4",
+    "size": 1694305,
+    "compressed": null,
+    "crc32": 137751013,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020014_13_flow.csv",
+    "size": 14979,
+    "compressed": null,
+    "crc32": 2579681578,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030012_01.mp4",
+    "size": 1793293,
+    "compressed": null,
+    "crc32": 1288746620,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030012_01_flow.csv",
+    "size": 26517,
+    "compressed": null,
+    "crc32": 340337622,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030012_02.mp4",
+    "size": 1922682,
+    "compressed": null,
+    "crc32": 2497976697,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030012_02_flow.csv",
+    "size": 25983,
+    "compressed": null,
+    "crc32": 2783413085,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030012_03.mp4",
+    "size": 1966016,
+    "compressed": null,
+    "crc32": 2790494513,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030012_03_flow.csv",
+    "size": 14975,
+    "compressed": null,
+    "crc32": 3081562410,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030012_04.mp4",
+    "size": 1765248,
+    "compressed": null,
+    "crc32": 2278199349,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030012_04_flow.csv",
+    "size": 14737,
+    "compressed": null,
+    "crc32": 1856165540,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030012_05.mp4",
+    "size": 1884662,
+    "compressed": null,
+    "crc32": 2187706202,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030012_05_flow.csv",
+    "size": 14969,
+    "compressed": null,
+    "crc32": 691051244,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030014_01.mp4",
+    "size": 1766294,
+    "compressed": null,
+    "crc32": 3979162387,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030014_01_flow.csv",
+    "size": 20209,
+    "compressed": null,
+    "crc32": 2985891481,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030014_02.mp4",
+    "size": 1466308,
+    "compressed": null,
+    "crc32": 3265942990,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX030014_02_flow.csv",
+    "size": 20230,
+    "compressed": null,
+    "crc32": 531862581,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/gopro_metadata.csv",
+    "size": 3883,
+    "compressed": null,
+    "crc32": 4031031489,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX010010_01.mp4",
+    "size": 417448420,
+    "compressed": null,
+    "crc32": 4148264067,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX010010_02.mp4",
+    "size": 413112818,
+    "compressed": null,
+    "crc32": 4044628912,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX010010_03.mp4",
+    "size": 420619381,
+    "compressed": null,
+    "crc32": 3800344259,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX020009_01.mp4",
+    "size": 409354848,
+    "compressed": null,
+    "crc32": 2097726000,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX020010_01.mp4",
+    "size": 460225741,
+    "compressed": 2137485536,
+    "crc32": 1251546471,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX020010_02.mp4",
+    "size": 419639825,
+    "compressed": null,
+    "crc32": 1371047704,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX020010_03.mp4",
+    "size": 417783354,
+    "compressed": null,
+    "crc32": 3997225666,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX020010_04.mp4",
+    "size": 410223981,
+    "compressed": null,
+    "crc32": 3518239945,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX020010_05.mp4",
+    "size": 429528852,
+    "compressed": null,
+    "crc32": 3408563032,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX020010_06.mp4",
+    "size": 413345273,
+    "compressed": 2103475871,
+    "crc32": 3760789208,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX020010_07.mp4",
+    "size": 416714886,
+    "compressed": null,
+    "crc32": 3493004932,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX030010_01.mp4",
+    "size": 432717317,
+    "compressed": null,
+    "crc32": 2207636155,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX030010_02.mp4",
+    "size": 419311000,
+    "compressed": null,
+    "crc32": 800717123,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX030010_03.mp4",
+    "size": 421304743,
+    "compressed": null,
+    "crc32": 3623705205,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX030010_04.mp4",
+    "size": 413547882,
+    "compressed": 2008584382,
+    "crc32": 213436598,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX030010_05.mp4",
+    "size": 423008848,
+    "compressed": null,
+    "crc32": 3116237094,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230920_GX030010_06.mp4",
+    "size": 304595794,
+    "compressed": null,
+    "crc32": 967177583,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010012_01.mp4",
+    "size": 419065609,
+    "compressed": null,
+    "crc32": 686896656,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010012_02.mp4",
+    "size": 448287286,
+    "compressed": null,
+    "crc32": 3567178576,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010012_03.mp4",
+    "size": 414221464,
+    "compressed": 2070415481,
+    "crc32": 4157707100,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010012_04.mp4",
+    "size": 427810369,
+    "compressed": null,
+    "crc32": 2710696789,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010012_05.mp4",
+    "size": 408276235,
+    "compressed": null,
+    "crc32": 2378268789,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010012_06.mp4",
+    "size": 405558281,
+    "compressed": null,
+    "crc32": 678976004,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010012_07.mp4",
+    "size": 414466214,
+    "compressed": null,
+    "crc32": 3299553082,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010012_08.mp4",
+    "size": 410552050,
+    "compressed": 2062426701,
+    "crc32": 2359525909,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010014_01.mp4",
+    "size": 414981681,
+    "compressed": null,
+    "crc32": 540732481,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010014_02.mp4",
+    "size": 413912914,
+    "compressed": null,
+    "crc32": 4256753548,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010014_03.mp4",
+    "size": 414456335,
+    "compressed": null,
+    "crc32": 2745987610,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010014_04.mp4",
+    "size": 408442882,
+    "compressed": null,
+    "crc32": 2847713379,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010014_05.mp4",
+    "size": 415251169,
+    "compressed": 1818836404,
+    "crc32": 1342752639,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010014_06.mp4",
+    "size": 446008723,
+    "compressed": null,
+    "crc32": 868452171,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010014_07.mp4",
+    "size": 414949034,
+    "compressed": null,
+    "crc32": 2479266204,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010014_08.mp4",
+    "size": 421598176,
+    "compressed": null,
+    "crc32": 4043059127,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010014_09.mp4",
+    "size": 120957220,
+    "compressed": null,
+    "crc32": 2308903496,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010014_10.mp4",
+    "size": 413229972,
+    "compressed": 2057355456,
+    "crc32": 3404054125,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010015_01.mp4",
+    "size": 414940605,
+    "compressed": null,
+    "crc32": 778667964,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010015_02.mp4",
+    "size": 409827012,
+    "compressed": null,
+    "crc32": 2456844994,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010015_03.mp4",
+    "size": 415836340,
+    "compressed": null,
+    "crc32": 2763602141,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010015_04.mp4",
+    "size": 403440942,
+    "compressed": null,
+    "crc32": 1114697215,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010018_01.mp4",
+    "size": 782192070,
+    "compressed": 1565803940,
+    "crc32": 3958165344,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010018_02.mp4",
+    "size": 783549326,
+    "compressed": null,
+    "crc32": 4289663905,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010018_03.mp4",
+    "size": 777989899,
+    "compressed": 2004857489,
+    "crc32": 1059865352,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010018_04.mp4",
+    "size": 307702493,
+    "compressed": null,
+    "crc32": 2509168969,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010018_05.mp4",
+    "size": 306205448,
+    "compressed": null,
+    "crc32": 2727523204,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010018_06.mp4",
+    "size": 307929426,
+    "compressed": null,
+    "crc32": 1774817039,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX010018_07.mp4",
+    "size": 304951465,
+    "compressed": null,
+    "crc32": 1027285588,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020012_01.mp4",
+    "size": 419812156,
+    "compressed": 2089678323,
+    "crc32": 1502393543,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020012_02.mp4",
+    "size": 405048206,
+    "compressed": null,
+    "crc32": 1355568201,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020012_03.mp4",
+    "size": 413704994,
+    "compressed": null,
+    "crc32": 433940282,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020012_04.mp4",
+    "size": 417949270,
+    "compressed": null,
+    "crc32": 2012893792,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020012_05.mp4",
+    "size": 433081080,
+    "compressed": null,
+    "crc32": 1310132462,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020012_06.mp4",
+    "size": 414016874,
+    "compressed": 2135300097,
+    "crc32": 344655758,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020012_07.mp4",
+    "size": 399408688,
+    "compressed": null,
+    "crc32": 359368048,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020012_08.mp4",
+    "size": 304765290,
+    "compressed": null,
+    "crc32": 3934266978,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020012_09.mp4",
+    "size": 450552320,
+    "compressed": null,
+    "crc32": 2278495804,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020012_10.mp4",
+    "size": 161281338,
+    "compressed": null,
+    "crc32": 2516502750,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_01.mp4",
+    "size": 405192119,
+    "compressed": null,
+    "crc32": 3884420266,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_02.mp4",
+    "size": 417035762,
+    "compressed": 2094149289,
+    "crc32": 3401812455,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_03.mp4",
+    "size": 411370180,
+    "compressed": null,
+    "crc32": 3318994593,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_04.mp4",
+    "size": 430807399,
+    "compressed": null,
+    "crc32": 3870528897,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_05.mp4",
+    "size": 420433935,
+    "compressed": null,
+    "crc32": 2126116091,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_06.mp4",
+    "size": 414419930,
+    "compressed": null,
+    "crc32": 3502772720,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_07.mp4",
+    "size": 407991434,
+    "compressed": 1942856179,
+    "crc32": 382566356,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_08.mp4",
+    "size": 309697459,
+    "compressed": null,
+    "crc32": 753929064,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_09.mp4",
+    "size": 305380223,
+    "compressed": null,
+    "crc32": 1398785594,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_10.mp4",
+    "size": 308347794,
+    "compressed": null,
+    "crc32": 3890472413,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_11.mp4",
+    "size": 307757432,
+    "compressed": null,
+    "crc32": 2988433533,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_12.mp4",
+    "size": 303604792,
+    "compressed": null,
+    "crc32": 3472402799,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX020014_13.mp4",
+    "size": 304049856,
+    "compressed": 1827543804,
+    "crc32": 1006348802,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX030012_01.mp4",
+    "size": 303668984,
+    "compressed": null,
+    "crc32": 3668487224,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX030012_02.mp4",
+    "size": 307643401,
+    "compressed": null,
+    "crc32": 3494121551,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX030012_03.mp4",
+    "size": 308261800,
+    "compressed": null,
+    "crc32": 701057374,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX030012_04.mp4",
+    "size": 301740088,
+    "compressed": null,
+    "crc32": 700116469,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX030012_05.mp4",
+    "size": 302107993,
+    "compressed": null,
+    "crc32": 1704262045,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX030014_01.mp4",
+    "size": 414809526,
+    "compressed": 827443029,
+    "crc32": 1117692037,
+    "directory": false
+  },
+  {
+    "name": "data_processed/gopro/clips_uhd/20230921_GX030014_02.mp4",
+    "size": 412598701,
+    "compressed": null,
+    "crc32": 3355449118,
+    "directory": false
+  },
+  {
+    "name": "data_processed/matches.csv",
+    "size": 23048,
+    "compressed": null,
+    "crc32": 2231209736,
+    "directory": false
+  }
+]

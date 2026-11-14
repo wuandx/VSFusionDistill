@@ -1,0 +1,485 @@
+{
+  "date": "2026-11-10",
+  "mode": "read-only explicit non-test whitelist; no model execution",
+  "git": {
+    "head": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+    "branch": "exp/cmold-paper-repro",
+    "status": "",
+    "latest_changed_files": "doc/logs/2026-11-09-r2-cmold-and-geometry-readings.md"
+  },
+  "files": {
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\configs\\repro_cmold\\teachers\\t_camera_s_yoloxs.py": {
+      "bytes": 5582,
+      "sha256": "0dea6542580751c8ecb18e3457ddab4270484971747a7983585c0b9e49dd0ae3"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\configs\\repro_cmold\\teachers\\t_camera_s_stretch_yoloxs.py": {
+      "bytes": 3974,
+      "sha256": "46613a14ae46f3a1210e7bde64101ef8fd5336d8666a26865e00ea173faca4f9"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\configs\\repro_cmold\\uxo_frame_split.py": {
+      "bytes": 6128,
+      "sha256": "e27d36feb2fbccb538c52c90882fb78105e24b95418f740ccff88ef27c766162"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\tools\\test.py": {
+      "bytes": 9841,
+      "sha256": "d0dc8aad75f535b1361066f7bd1c6a8e12ab1789edb686086b5a34f6ef64e511"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\configs\\_base_\\schedules\\schedule_f2.py": {
+      "bytes": 2411,
+      "sha256": "8eaf72ba11eb723b689f9361347a043655369f8dbf8c3835f6202ff0558b76da"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\aodet\\models\\data_preprocessors\\paired_preprocessor.py": {
+      "bytes": 4736,
+      "sha256": "d3c2852fc4eeba131f1d1c824f1b7d157be246c886abc96e61ed194424dd0a84"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\aodet\\datasets\\transforms\\paired_geometric.py": {
+      "bytes": 9140,
+      "sha256": "727f76f2e931fb5a6f88e9898ad724406560bfb8de222fdf9a0d265e360b6d90"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\configs\\f2\\e11_bcam_camera_only_yoloxs.py": {
+      "bytes": 1425,
+      "sha256": "46157fa97cbd58b2fd050f0fe495fc0d480226a1d83def42bfb844fb69bbf3ac"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\configs\\f2\\e13_bcam_camera_only_dense_yoloxs.py": {
+      "bytes": 2231,
+      "sha256": "09521133d626d491e21d5805689d72397941c68a0827c9d3fbcb069d909cb605"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s\\run_meta.txt": {
+      "bytes": 167,
+      "sha256": "b35f748d0b59cd0a985ab3672f0edf506ba7c7fec02ff4ab16b5d54450b1f5bd"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s\\t_camera_s_yoloxs.py": {
+      "bytes": 9071,
+      "sha256": "cc8515085deafb24df29a8ad1de59d79177fb14cb4542bb2578fe0bbf149ed28"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s\\20261109_022400\\vis_data\\config.py": {
+      "bytes": 9071,
+      "sha256": "cc8515085deafb24df29a8ad1de59d79177fb14cb4542bb2578fe0bbf149ed28"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s\\20261109_022400\\20261109_022400.log": {
+      "bytes": 596027,
+      "sha256": "cb2cbebb520474d8162752f87975beba6ec2f9ead25d5a141057ae7bdb0eec87"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s_stretch\\run_meta.txt": {
+      "bytes": 175,
+      "sha256": "2d134d144b6326388496fa37bd4ba42f29c2dc7d894dcb03db94635521fb9583"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s_stretch\\t_camera_s_stretch_yoloxs.py": {
+      "bytes": 9312,
+      "sha256": "e3a7dd0cd7b0465c3975d53a787d42e7b4b83d041878f3f835117644930c5698"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s_stretch\\20261109_092259\\vis_data\\config.py": {
+      "bytes": 9312,
+      "sha256": "e3a7dd0cd7b0465c3975d53a787d42e7b4b83d041878f3f835117644930c5698"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s_stretch\\20261109_092259\\20261109_092259.log": {
+      "bytes": 598536,
+      "sha256": "4cb5b06c70bac79ed414f3b6d06e57e78c7ec272b993e27855123a8cdf5175e9"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s\\eval_val\\ap_summary.json": {
+      "bytes": 279,
+      "sha256": "7eee51a505919b4511fd887cb9a753eb1a5443a535330e4bd8458b721e7d7a4c"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s\\eval_val\\ap_breakdown.json": {
+      "bytes": 29946,
+      "sha256": "d0ceb27fcd545ebd174f2f99df39e576875b3a967cbba405dd0a3c3aea94e1ee"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s\\eval_val\\pred.camera.d0.json": {
+      "bytes": 126776,
+      "sha256": "bdf17eb76d4183927a7b636f44099d27f4f9b9efe827c7648b3c51891c4ba939"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s\\eval_val_stretch\\ap_summary.json": {
+      "bytes": 282,
+      "sha256": "d79e12991d7baf97b292799266e79f092bb72f27f6b07324f100c6ed8400b994"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s\\eval_val_stretch\\ap_breakdown.json": {
+      "bytes": 31871,
+      "sha256": "713d85a371de464eeb55daa54c935cabc9ccfc26c8bee3cfa40db78158fcc934"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s\\eval_val_stretch\\pred.camera.d0.json": {
+      "bytes": 211097,
+      "sha256": "dcfdba4860fa50323ef7bbee920f6447bf338fe0a29de7d86d5bcde5b133821d"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s_stretch\\eval_val\\ap_summary.json": {
+      "bytes": 278,
+      "sha256": "94cab69713120606b1b8c6f5e57870e4f406790d5d385791a8932f1457792cf8"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s_stretch\\eval_val\\ap_breakdown.json": {
+      "bytes": 29989,
+      "sha256": "ef583ce2296a6ff2e62bac601399dd3462502ecb21621906d02e5dec43c975d6"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s_stretch\\eval_val\\pred.camera.d0.json": {
+      "bytes": 128914,
+      "sha256": "47a012bf89f37905d6d09a6d5f1ec1ec68b79eec07e19b86a6ae6d8fbd7ac39a"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\xeval\\e13cam_on_ourval_stretch\\ap_summary.json": {
+      "bytes": 278,
+      "sha256": "f381fecf59bb8e4b2621b5f4895fa5577a25d15d58e7f23f99214f70966b47fc"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\xeval\\e13cam_on_ourval_stretch\\ap_breakdown.json": {
+      "bytes": 31363,
+      "sha256": "efab0973efecd455e812a006825f87ddc61de8e8f00ea61cf62586fb05131983"
+    },
+    "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\xeval\\e13cam_on_ourval_stretch\\pred.camera.d0.json": {
+      "bytes": 154396,
+      "sha256": "37b5b413ff433f9f72187403b2f015447a7d8fbf03e62cb00c8ce558af61e535"
+    }
+  },
+  "metrics": {
+    "camera": {
+      "summary": [
+        {
+          "branch": "camera",
+          "level": "d0",
+          "gt": "all",
+          "AP": 0.9024874436450422,
+          "AP50": 0.9897153653852183,
+          "AP75": 0.9574760308975963,
+          "AP_small": -1.0,
+          "AP_medium": -1.0,
+          "AP_large": 0.9024874436450422,
+          "AR@100": 0.9316866193159591
+        }
+      ],
+      "pooled": {
+        "branch": "camera",
+        "level": "d0",
+        "gt": "all",
+        "recording": "all",
+        "category": "all",
+        "n_images": 830,
+        "n_gt": 830,
+        "n_pred": 836,
+        "AP": 0.9024874436450422,
+        "AP50": 0.9897153653852183,
+        "AP75": 0.9574760308975963,
+        "AP_small": -1.0,
+        "AP_medium": -1.0,
+        "AP_large": 0.9024874436450422,
+        "AR@100": 0.9316866193159591,
+        "AP50_class_agnostic": 0.9898542535312661
+      },
+      "recordings": 37,
+      "per_recording_AP_arithmetic_mean": 0.9051461113963193,
+      "worst_recording": {
+        "branch": "camera",
+        "level": "d0",
+        "gt": "all",
+        "recording": "2023-09-21_101622",
+        "category": "all",
+        "n_images": 21,
+        "n_gt": 21,
+        "n_pred": 25,
+        "AP": 0.7236089323218037,
+        "AP50": 0.8375337533753375,
+        "AP75": 0.8375337533753375,
+        "AP_small": -1.0,
+        "AP_medium": -1.0,
+        "AP_large": 0.7236089323218037,
+        "AR@100": 0.7523809523809524,
+        "AP50_class_agnostic": 0.8375337533753375
+      },
+      "zero_AP_recordings": [],
+      "pred_json_count": 836
+    },
+    "p1_mismatch": {
+      "summary": [
+        {
+          "branch": "camera",
+          "level": "d0",
+          "gt": "all",
+          "AP": 0.27123564705059555,
+          "AP50": 0.7215974335593517,
+          "AP75": 0.16253843941532217,
+          "AP_small": -1.0,
+          "AP_medium": -1.0,
+          "AP_large": 0.27123564705059555,
+          "AR@100": 0.3668767097184201
+        }
+      ],
+      "pooled": {
+        "branch": "camera",
+        "level": "d0",
+        "gt": "all",
+        "recording": "all",
+        "category": "all",
+        "n_images": 830,
+        "n_gt": 830,
+        "n_pred": 1388,
+        "AP": 0.27123564705059555,
+        "AP50": 0.7215974335593517,
+        "AP75": 0.16253843941532217,
+        "AP_small": -1.0,
+        "AP_medium": -1.0,
+        "AP_large": 0.27123564705059555,
+        "AR@100": 0.3668767097184201,
+        "AP50_class_agnostic": 0.8715279895773432
+      },
+      "recordings": 37,
+      "per_recording_AP_arithmetic_mean": 0.3070007329042978,
+      "worst_recording": {
+        "branch": "camera",
+        "level": "d0",
+        "gt": "all",
+        "recording": "2023-09-20_173615",
+        "category": "all",
+        "n_images": 23,
+        "n_gt": 23,
+        "n_pred": 51,
+        "AP": 0.00495049504950495,
+        "AP50": 0.04950495049504949,
+        "AP75": 0.0,
+        "AP_small": -1.0,
+        "AP_medium": -1.0,
+        "AP_large": 0.00495049504950495,
+        "AR@100": 0.004347826086956522,
+        "AP50_class_agnostic": 0.04950495049504949
+      },
+      "zero_AP_recordings": [],
+      "pred_json_count": 1388
+    },
+    "p2_stretch": {
+      "summary": [
+        {
+          "branch": "camera",
+          "level": "d0",
+          "gt": "all",
+          "AP": 0.8743583982348356,
+          "AP50": 0.9603439799642828,
+          "AP75": 0.928750576949223,
+          "AP_small": -1.0,
+          "AP_medium": -1.0,
+          "AP_large": 0.8743583982348356,
+          "AR@100": 0.8996476592634938
+        }
+      ],
+      "pooled": {
+        "branch": "camera",
+        "level": "d0",
+        "gt": "all",
+        "recording": "all",
+        "category": "all",
+        "n_images": 830,
+        "n_gt": 830,
+        "n_pred": 849,
+        "AP": 0.8743583982348356,
+        "AP50": 0.9603439799642828,
+        "AP75": 0.928750576949223,
+        "AP_small": -1.0,
+        "AP_medium": -1.0,
+        "AP_large": 0.8743583982348356,
+        "AR@100": 0.8996476592634938,
+        "AP50_class_agnostic": 0.9603467488537201
+      },
+      "recordings": 37,
+      "per_recording_AP_arithmetic_mean": 0.8792205310900897,
+      "worst_recording": {
+        "branch": "camera",
+        "level": "d0",
+        "gt": "all",
+        "recording": "2023-09-20_173615",
+        "category": "all",
+        "n_images": 23,
+        "n_gt": 23,
+        "n_pred": 24,
+        "AP": 0.0,
+        "AP50": 0.0,
+        "AP75": 0.0,
+        "AP_small": -1.0,
+        "AP_medium": -1.0,
+        "AP_large": 0.0,
+        "AR@100": 0.0,
+        "AP50_class_agnostic": 0.0
+      },
+      "zero_AP_recordings": [
+        "2023-09-20_173615"
+      ],
+      "pred_json_count": 849
+    },
+    "e13_matching_geometry": {
+      "summary": [
+        {
+          "branch": "camera",
+          "level": "d0",
+          "gt": "all",
+          "AP": 0.6407657050720271,
+          "AP50": 0.9067519158578681,
+          "AP75": 0.6575415912405377,
+          "AP_small": -1.0,
+          "AP_medium": -1.0,
+          "AP_large": 0.6407657050720271,
+          "AR@100": 0.702817393314389
+        }
+      ],
+      "pooled": {
+        "branch": "camera",
+        "level": "d0",
+        "gt": "all",
+        "recording": "all",
+        "category": "all",
+        "n_images": 830,
+        "n_gt": 830,
+        "n_pred": 1016,
+        "AP": 0.6407657050720271,
+        "AP50": 0.9067519158578681,
+        "AP75": 0.6575415912405377,
+        "AP_small": -1.0,
+        "AP_medium": -1.0,
+        "AP_large": 0.6407657050720271,
+        "AR@100": 0.702817393314389,
+        "AP50_class_agnostic": 0.9011131576899172
+      },
+      "recordings": 37,
+      "per_recording_AP_arithmetic_mean": 0.6772311190345729,
+      "worst_recording": {
+        "branch": "camera",
+        "level": "d0",
+        "gt": "all",
+        "recording": "2023-09-21_105856",
+        "category": "all",
+        "n_images": 37,
+        "n_gt": 37,
+        "n_pred": 102,
+        "AP": 0.01355074399518023,
+        "AP50": 0.053911137382394954,
+        "AP75": 0.0,
+        "AP_small": -1.0,
+        "AP_medium": -1.0,
+        "AP_large": 0.01355074399518023,
+        "AR@100": 0.1,
+        "AP50_class_agnostic": 0.09566831683168317
+      },
+      "zero_AP_recordings": [],
+      "pred_json_count": 1016
+    }
+  },
+  "checkpoint": {
+    "t_camera_s": {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s\\epoch_200.pth",
+      "bytes": 179431393,
+      "sha256": "34885b4d64d95a3da09a8d2434ec1178b7832a2ce5d42c32bbbed590996f94dd",
+      "zip_pickle": "archive/data.pkl",
+      "pickle_bytes": 14158170,
+      "selected_string_opcodes": [
+        {
+          "offset": 21,
+          "value": "epoch"
+        },
+        {
+          "offset": 35,
+          "value": "iter"
+        },
+        {
+          "offset": 9247,
+          "value": "mmengine_version"
+        },
+        {
+          "offset": 9270,
+          "value": "0.10.787d8d3aa0f4ccc92c214ea0aa82612b0ff3cb5aa"
+        },
+        {
+          "offset": 9346,
+          "value": "state_dict"
+        },
+        {
+          "offset": 13889300,
+          "value": "0.10.7e4b1dc7467b1382e41536ad949ac1a76631059c2"
+        },
+        {
+          "offset": 13992616,
+          "value": "ema_state_dict"
+        },
+        {
+          "offset": 14045914,
+          "value": "module.camera_backbone.stem.conv.conv.weight"
+        }
+      ],
+      "method": "pickletools.genops only; no unpickling, torch.load or tensor/model execution"
+    },
+    "t_camera_s_stretch": {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s_stretch\\epoch_200.pth",
+      "bytes": 179438241,
+      "sha256": "574a48e7f78e835d35647e0d15101a7b20804559fd33370d0621370c13acab0a",
+      "zip_pickle": "archive/data.pkl",
+      "pickle_bytes": 14165041,
+      "selected_string_opcodes": [
+        {
+          "offset": 21,
+          "value": "epoch"
+        },
+        {
+          "offset": 35,
+          "value": "iter"
+        },
+        {
+          "offset": 9496,
+          "value": "mmengine_version"
+        },
+        {
+          "offset": 9519,
+          "value": "0.10.707c1a12044e0b5eeb13c1269dd0b32897155435a"
+        },
+        {
+          "offset": 9595,
+          "value": "state_dict"
+        },
+        {
+          "offset": 13896163,
+          "value": "0.10.7253c931bad7642c170f62d02d0b3403b57d52ec1"
+        },
+        {
+          "offset": 13999487,
+          "value": "ema_state_dict"
+        },
+        {
+          "offset": 14052785,
+          "value": "module.camera_backbone.stem.conv.conv.weight"
+        }
+      ],
+      "method": "pickletools.genops only; no unpickling, torch.load or tensor/model execution"
+    }
+  },
+  "framework_sources": {
+    "hooks/ema_hook.py": {
+      "installed_path": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\ty\\mycode\\VSFusionDistill\\.venv-gpu\\lib\\python3.10\\site-packages\\mmengine\\hooks\\ema_hook.py",
+      "official_url": "https://raw.githubusercontent.com/open-mmlab/mmengine/v0.10.7/mmengine/hooks/ema_hook.py",
+      "local_copy": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\mmengine\\source\\ema_hook_v0.10.7.py",
+      "installed_sha256": "edb7d228a45f91febaacfbc1c3267dc2b50ef0e8fcd16be62868cf0f6d84565d",
+      "downloaded_sha256": "edb7d228a45f91febaacfbc1c3267dc2b50ef0e8fcd16be62868cf0f6d84565d",
+      "identical": true
+    },
+    "runner/checkpoint.py": {
+      "installed_path": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\ty\\mycode\\VSFusionDistill\\.venv-gpu\\lib\\python3.10\\site-packages\\mmengine\\runner\\checkpoint.py",
+      "official_url": "https://raw.githubusercontent.com/open-mmlab/mmengine/v0.10.7/mmengine/runner/checkpoint.py",
+      "local_copy": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\mmengine\\source\\checkpoint_v0.10.7.py",
+      "installed_sha256": "ed6108c9dd8f7ea914efdd3f0dd047a35ae6741c4f12ae885b76ad493f52c321",
+      "downloaded_sha256": "ed6108c9dd8f7ea914efdd3f0dd047a35ae6741c4f12ae885b76ad493f52c321",
+      "identical": true
+    }
+  },
+  "p2_functional_config_diff": [
+    {
+      "path": "train_dataloader.dataset.pipeline[1].keep_ratio",
+      "before": true,
+      "after": false
+    },
+    {
+      "path": "test_dataloader.dataset.pipeline[1].keep_ratio",
+      "before": true,
+      "after": false
+    }
+  ],
+  "terminal_lr": {
+    "log": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s\\20261109_022400\\20261109_022400.log",
+    "configured_eta_min": 6.25e-05,
+    "last_reported_epoch200": {
+      "line": 3909,
+      "base_lr": 6.4641e-05,
+      "lr": 6.4641e-05
+    },
+    "cosine_begin_epoch": 5,
+    "cosine_end_epoch": 185,
+    "cosine_T_max": 185,
+    "constant_tail_factor": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+ "arxiv_id": "1709.02600",
+ "slug": "objectness-proposals-fls",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:28:02",
+ "tier": "C",
+ "why_relevant": "early FLS detection proposals",
+ "title": "Objectness Scoring and Detection Proposals in Forward-Looking Sonar Images with Convolutional Neural Networks",
+ "authors": [
+  "Valdenegro-Toro, Matias"
+ ],
+ "date": "2017/09/08",
+ "doi": "10.1007/978-3-319-46182-3_18",
+ "journal": "",
+ "abstract": "Abstract: Forward-looking sonar can capture high resolution images of underwater scenes, but their interpretation is complex. Generic object detection in such images has not been solved, specially in cases of small and unknown objects. In comparison, detection proposal algorithms have produced top performing object detectors in real-world color images. In this work we develop a Convolutional Neural Network that can reliably score objectness of image windows in forward-looking sonar images and by thresholding objectness, we generate detection proposals. In our dataset of marine garbage objects, we obtain 94% recall, generating around 60 proposals per image. The biggest strength of our method is that it can generalize to previously unseen objects. We show this by detecting chain links, walls and a wrench without previous training in such objects. We strongly believe our method can be used for class-independent object detection, with many real-world applications such as chain following and mine detection.",
+ "comments": "Author version",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/1709.02600",
+  "bytes": 1158118,
+  "sha256": "d663d9b931faa4da48509c96d4064ad9c2ba2763225a536072a4b9ebab1a3757"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/1709.02600",
+  "bytes": 4712102,
+  "sha256": "02999b083fbd683f293b6d1554a4252af076403c8635f55725de2433a9e5bab9",
+  "kind": "tar",
+  "n_files": 48,
+  "tex_files": [
+   "proposal-forward-looking-sonar.tex"
+  ]
+ }
+}

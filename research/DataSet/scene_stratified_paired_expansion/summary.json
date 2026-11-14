@@ -1,0 +1,41 @@
+{
+  "train": {
+    "recordings": 21,
+    "source_groups": 17,
+    "selected": 2472,
+    "previous_selected": 1985,
+    "admitted_previous_reserve": 286,
+    "new_pairs": 201,
+    "per_class_pairs": {
+      "100lbs_aircraft_bomb": 966,
+      "mortar_shell": 800,
+      "incindiary_grenade": 706
+    }
+  },
+  "val": {
+    "recordings": 8,
+    "source_groups": 6,
+    "selected": 874,
+    "previous_selected": 749,
+    "admitted_previous_reserve": 53,
+    "new_pairs": 72,
+    "per_class_pairs": {
+      "100lbs_aircraft_bomb": 310,
+      "mortar_shell": 252,
+      "incindiary_grenade": 312
+    }
+  },
+  "test": {
+    "recordings": 7,
+    "source_groups": 7,
+    "selected": 715,
+    "previous_selected": 584,
+    "admitted_previous_reserve": 59,
+    "new_pairs": 72,
+    "per_class_pairs": {
+      "100lbs_aircraft_bomb": 308,
+      "mortar_shell": 246,
+      "incindiary_grenade": 161
+    }
+  }
+}

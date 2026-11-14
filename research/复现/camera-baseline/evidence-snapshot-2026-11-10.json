@@ -1,0 +1,113 @@
+{
+  "captured_at": "2026-11-10T09:22:05.512123+08:00",
+  "scope": "explicit non-test file allowlist; cached metrics, not a COCOeval rerun",
+  "research_root": "D:\\agent_workspace\\水下\\声呐目标检测",
+  "repo": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill",
+  "head": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+  "branch": "exp/cmold-paper-repro",
+  "status_porcelain": "",
+  "files": [
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\configs\\repro_cmold\\teachers\\t_camera_s_yoloxs.py",
+      "exists": true,
+      "size_bytes": 5582,
+      "sha256": "0dea6542580751c8ecb18e3457ddab4270484971747a7983585c0b9e49dd0ae3"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\configs\\repro_cmold\\teachers\\t_camera_s_stretch_yoloxs.py",
+      "exists": true,
+      "size_bytes": 3974,
+      "sha256": "46613a14ae46f3a1210e7bde64101ef8fd5336d8666a26865e00ea173faca4f9"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\configs\\repro_cmold\\r0_baseline_yoloxs.py",
+      "exists": true,
+      "size_bytes": 4321,
+      "sha256": "b700cb2368063b0284d5bed91b4e5d653fe5d75626a8bfebca8c4687380704b8"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\configs\\repro_cmold\\uxo_frame_split.py",
+      "exists": true,
+      "size_bytes": 6128,
+      "sha256": "e27d36feb2fbccb538c52c90882fb78105e24b95418f740ccff88ef27c766162"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\aodet\\datasets\\repro_frame_split.py",
+      "exists": true,
+      "size_bytes": 6077,
+      "sha256": "eba20188d5b77557f4050ac8912f7dfbd9df3524ac9380badd0cbec415a533d5"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\aodet\\datasets\\transforms\\paired_geometric.py",
+      "exists": true,
+      "size_bytes": 9140,
+      "sha256": "727f76f2e931fb5a6f88e9898ad724406560bfb8de222fdf9a0d265e360b6d90"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\aodet\\models\\data_preprocessors\\paired_preprocessor.py",
+      "exists": true,
+      "size_bytes": 4736,
+      "sha256": "d3c2852fc4eeba131f1d1c824f1b7d157be246c886abc96e61ed194424dd0a84"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\tools\\test.py",
+      "exists": true,
+      "size_bytes": 9841,
+      "sha256": "d0dc8aad75f535b1361066f7bd1c6a8e12ab1789edb686086b5a34f6ef64e511"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s\\run_meta.txt",
+      "exists": true,
+      "size_bytes": 167,
+      "sha256": "b35f748d0b59cd0a985ab3672f0edf506ba7c7fec02ff4ab16b5d54450b1f5bd"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\work_dirs\\repro_cmold_teacher\\t_camera_s\\t_camera_s_yoloxs.py",
+      "exists": true,
+      "size_bytes": 9071,
+      "sha256": "cc8515085deafb24df29a8ad1de59d79177fb14cb4542bb2578fe0bbf149ed28"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s\\eval_val\\ap_summary.json",
+      "exists": true,
+      "size_bytes": 279,
+      "sha256": "7eee51a505919b4511fd887cb9a753eb1a5443a535330e4bd8458b721e7d7a4c"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s\\eval_val\\ap_breakdown.json",
+      "exists": true,
+      "size_bytes": 29946,
+      "sha256": "d0ceb27fcd545ebd174f2f99df39e576875b3a967cbba405dd0a3c3aea94e1ee"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s\\eval_val_stretch\\ap_summary.json",
+      "exists": true,
+      "size_bytes": 282,
+      "sha256": "d79e12991d7baf97b292799266e79f092bb72f27f6b07324f100c6ed8400b994"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\repro_cmold\\t_camera_s_stretch\\eval_val\\ap_summary.json",
+      "exists": true,
+      "size_bytes": 278,
+      "sha256": "94cab69713120606b1b8c6f5e57870e4f406790d5d385791a8932f1457792cf8"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测\\code\\VSFusionDistill\\results\\xeval\\e13cam_on_ourval_stretch\\ap_summary.json",
+      "exists": true,
+      "size_bytes": 278,
+      "sha256": "f381fecf59bb8e4b2621b5f4895fa5577a25d15d58e7f23f99214f70966b47fc"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\experiment\\tools\\prepare_camera_dataset.py",
+      "exists": true,
+      "size_bytes": 15841,
+      "sha256": "d45963024c90ae76c75bf9e970b1209839c8604fb4e8e4ee2dc556e9f26af568"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_recording_disjoint_v1\\progress.json",
+      "exists": true,
+      "size_bytes": 117,
+      "sha256": "0c560c3acfb3c73b8c804ef6bd916048dab314ca92af2e14aa9418da05112465"
+    }
+  ]
+}

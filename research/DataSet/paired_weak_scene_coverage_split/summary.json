@@ -1,0 +1,32 @@
+{
+  "train": {
+    "pairs": 3762,
+    "recordings": 31,
+    "groups": 26,
+    "per_class_pairs": {
+      "100lbs_aircraft_bomb": 1598,
+      "mortar_shell": 875,
+      "incindiary_grenade": 1289
+    }
+  },
+  "val": {
+    "pairs": 754,
+    "recordings": 6,
+    "groups": 6,
+    "per_class_pairs": {
+      "100lbs_aircraft_bomb": 155,
+      "mortar_shell": 316,
+      "incindiary_grenade": 283
+    }
+  },
+  "test": {
+    "pairs": 713,
+    "recordings": 5,
+    "groups": 3,
+    "per_class_pairs": {
+      "100lbs_aircraft_bomb": 241,
+      "mortar_shell": 372,
+      "incindiary_grenade": 100
+    }
+  }
+}

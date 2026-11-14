@@ -1,0 +1,95 @@
+{
+  "roots": [
+    {
+      "root": "paired_assistant_mortar_late_review",
+      "decisions": 703,
+      "accepted": 55,
+      "accepted_by_recording": {
+        "2023-09-21_105230": 55
+      }
+    },
+    {
+      "root": "paired_assistant_mortar_late_strong",
+      "decisions": 48,
+      "accepted": 0,
+      "accepted_by_recording": {}
+    },
+    {
+      "root": "paired_assistant_mortar_late_component",
+      "decisions": 100,
+      "accepted": 25,
+      "accepted_by_recording": {
+        "2023-09-21_105017": 25
+      }
+    },
+    {
+      "root": "paired_assistant_mortar_late_manual",
+      "decisions": 131,
+      "accepted": 82,
+      "accepted_by_recording": {
+        "2023-09-21_105017": 82
+      }
+    },
+    {
+      "root": "paired_assistant_mortar_late_supplement",
+      "decisions": 98,
+      "accepted": 61,
+      "accepted_by_recording": {
+        "2023-09-21_105230": 61
+      }
+    },
+    {
+      "root": "paired_assistant_mortar_late_exhaustion",
+      "decisions": 483,
+      "accepted": 0,
+      "accepted_by_recording": {}
+    }
+  ],
+  "recordings": [
+    {
+      "recording": "2023-09-21_105017",
+      "inventory": 677,
+      "reviewed": 167,
+      "accepted": 107,
+      "unseen": 510
+    },
+    {
+      "recording": "2023-09-21_105230",
+      "inventory": 766,
+      "reviewed": 268,
+      "accepted": 116,
+      "unseen": 498
+    },
+    {
+      "recording": "2023-09-21_105856",
+      "inventory": 206,
+      "reviewed": 206,
+      "accepted": 0,
+      "unseen": 0
+    },
+    {
+      "recording": "2023-09-21_110049",
+      "inventory": 193,
+      "reviewed": 193,
+      "accepted": 0,
+      "unseen": 0
+    },
+    {
+      "recording": "2023-09-21_110229",
+      "inventory": 226,
+      "reviewed": 226,
+      "accepted": 0,
+      "unseen": 0
+    },
+    {
+      "recording": "2023-09-21_110411",
+      "inventory": 291,
+      "reviewed": 291,
+      "accepted": 0,
+      "unseen": 0
+    }
+  ],
+  "accepted_total": 223,
+  "unique_reviewed_total": 1351,
+  "checks": "all accepted source/camera/label/sheet hashes, original camera boxes and reference identity, allowed pool membership, sonar extent, cross-root duplicate accepted identity passed"
+}

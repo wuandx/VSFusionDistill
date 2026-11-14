@@ -1,0 +1,15 @@
+{
+  "geomar": {
+    "url": "https://oceanrep.geomar.de/id/eprint/61225/",
+    "status": 200,
+    "command": "curl.exe --ssl-no-revoke -L --max-time 25",
+    "sha256": "89bcc344677623575fe2d4951665fd2b5e34a9e2d0539be3eed1b6043d03ced9",
+    "access": "landing page only; full text restricted, not fetched"
+  },
+  "failed_attempts": [
+    "urllib GEOMAR certificate-chain validation",
+    "curl default revocation service offline",
+    "requests module unavailable",
+    "DFKI HTTP403"
+  ]
+}

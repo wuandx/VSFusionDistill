@@ -1,0 +1,870 @@
+{
+  "run": "sonar_fixed_mesh_independent_numeric_verification",
+  "passed": true,
+  "verifier_revision": "physical beam sign remains unverified",
+  "verifier_revision_history": [
+    {
+      "reason": "The initial independent verifier had an overbroad fallback mapping to 128 beams. Corrected to the complete official lookup; none of the 18 selected frames or numerical results changed.",
+      "previous_report_sha256": "4a626bff19a76162b4f6f7779588362a6531cb2289d2bc763264890fb1ea0fc5",
+      "previous_maximum_numeric_difference": 6.252776074688882e-13
+    },
+    {
+      "reason": "Clarify that official raw-to-fan direction does not establish the physical sonar +x to beam-angle sign; no geometry parameters or generated results changed.",
+      "previous_report_sha256": "466988beb49dd748f92900279a9defa2886f3f72a66a37a2257356834dd4a0a3",
+      "previous_maximum_numeric_difference": 6.252776074688882e-13
+    }
+  ],
+  "scope": "Software and saved-hypothesis replay; does not certify physical calibration, model registration, echo identity, or training labels",
+  "identities": 18,
+  "recordings": 6,
+  "models": 3,
+  "test_images_read": 0,
+  "parameter_fits": 0,
+  "independent_methods": [
+    "YAML quaternion algebra",
+    "manual Rz Ry Rx extrinsic Euler matrix",
+    "analytic rigid inverse",
+    "homogeneous point projection",
+    "covariance eigendecomposition instead of SVD",
+    "arcsin elevation",
+    "piecewise scalar interpolation",
+    "original polar2 synthetic rasterizer"
+  ],
+  "fixed_transform_sha256": "31e18b860fbbb6ac489156d9d2f4f3ffa57953301e95ab35f1e9fa0bcc8722c7",
+  "inputs_unchanged": true,
+  "generation_inputs_still_match": true,
+  "input_hashes": {
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_120912\\aris_raw\\0463.pgm": "4152bea656db258973124d517a3393786578cb184b61811e976c4f3cda0dfa21",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_171105\\aris_raw\\1336.pgm": "2f498b4cba7923ee3a4900c436e0b62782ab3c80eaf3247d41539e1e7a8f1474",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_171105\\aris_raw\\0981.pgm": "921f851d1b97e74c26b2e48ae391e45eaa8c4f94b9cea7409a6c9c05693f5931",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_100927\\aris_raw\\0087.pgm": "3483d1a097f354c4c8bc8ab79f9aa3801bf76c88c875106f5197f9ca91d4be2b",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_171105\\aris_frame_meta.csv": "6002945ea1921ff0e476ea453f9b1dc5f519f01fe5236f62166f1fc8c71af82a",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_120912\\gantry.csv": "ed85a36ea399ce2f6230e2750897c884785bd62fd4ee1ec6d20dae3cfce02e3f",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_120653\\aris_frame_meta.csv": "57b9f235d9defeda2eda42b98efc2db7a084d62cb0847a2e470b291ae8eaf47e",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_173329\\aris_raw\\0154.pgm": "05d241ec61bce9e112565b4d862841548b3b9cc669c643d0a43c3dc21f677963",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_171105\\gantry.csv": "241f83b66f7a42131093896a5882b06f4ba4a3c5f31a20b406448f743dea4dc7",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_fixed_mesh\\results.json": "1087803095fd6cf50ef5a2355a0f939b802a06fa3e99a1e7f11956908aff4573",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_model_registration_consistency\\mesh-registration.json": "873d823eb0aaa9eba9fa611142e0087337cc29940b4cc00f943fdf46d323598f",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_120912\\aris_frame_meta.csv": "1dde34a8c45d769e149718e3b1b554ad740550aef6f27ec6bc1feb52eb64d10d",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_100927\\aris_raw\\0451.pgm": "b8c4209a931c885d7cceb65e657913e022ed3f25f284ee3c08db6e7c3c9aeb78",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_120653\\gantry.csv": "f9e30c6464492b768496486a2160da373e9b1e7ec47f1abac48aa8dbf2e23aab",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\tools\\project_fixed_mesh_to_sonar.py": "8a44abfe9c2bcf720002510a225c8f7ea85bad6c4ad4a34b08d1082bb403ed23",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_120912\\aris_raw\\0802.pgm": "09314a46d1fa18d985090be03c39e2bc92177908148776422fe8d4b992271dbd",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101131\\aris_frame_meta.csv": "4a3eb03ebf72674edd1880e9a5f30314d53935d601abfc0960d6f2de0d5b6641",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_173329\\aris_raw\\0456.pgm": "2b7710076e3f63e4920c30e71358e5a209d2002b55718a85a1dc9ae5ddf6d7e1",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_120653\\aris_raw\\0933.pgm": "f214f40f03a6d3c3a02858a1396d16ff2e06b9c8d6f02a1c747209a6057af16e",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\data_export_3dmodels\\3d_models\\incindiary.obj": "e6aab3d5638a368185f1c6807df32f62d45bd92ad54a3f2ecddf9015bd6e1e14",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\data_export_3dmodels\\3d_models\\mortar_shell.obj": "0688109b4a2147c212de38b7721cb6b8d60558eec4d4d0bf53cbe5f09a43307e",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\release_1_export.py": "576d9c076d99cbc28b14f628ea737eb506b874535b624fbe42ecba6305b55b9f",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_171105\\aris_raw\\0622.pgm": "696521dfbe3512ac2880df275554d248aea2af22ee199b55208d243d2a5d9aaf",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\experiment\\sonar-fixed-mesh-plan.md": "57858f28699146748014621df381df2b1f6a65a5b25204abe716c2099d6309bc",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101131\\aris_raw\\0509.pgm": "4ffc418c7d706b3fdc8bef80dc3420ca7bb1e6815858eb94b392ea5fb54ff779",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_173329\\aris_raw\\0916.pgm": "b8e148b233157694e5692b15899f15d1e4ca516df535c701e33363064462f359",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_independent_registration\\selection.json": "960d9fdaaa6f2c399b555e3a243c93349ce6bcaca5e164907d81705de43a0f49",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_120653\\aris_raw\\0163.pgm": "486493edeca955297f966b4a7e083bb34f5a7e88f6ac0c928d9f74c941193d2a",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_120912\\aris_raw\\0120.pgm": "de0c3c7545be36ee3d390a56bae8270631908e0caf39931eb3366629284ef450",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_100927\\gantry.csv": "e9cd091ae7a4a47ea8f223c1a249a4b526876224eb78a7b5763e2b5ffd29213a",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_173329\\aris_frame_meta.csv": "0e0f980bd012fcc46621f252568c3ae882aead48088d3dde4eb2af44f917bcf1",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_fixed_mesh\\fixed-mesh-transforms.json": "31e18b860fbbb6ac489156d9d2f4f3ffa57953301e95ab35f1e9fa0bcc8722c7",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\prep_2_aris_to_polar.py": "0ec2e111ead3a1b14d2836b2e7800bda0b8d90a9c72af54e7481dbb227cd900f",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\model-registration-sources\\historical-README.md": "923f89f93cda1cd5e14b35d1be00211dd0362feeb41cfef8ae97d1c7e5704cb3",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\data_export_3dmodels\\3d_models\\100lbs.obj": "839433692d51c657a0757519f17884de7c773bce4cb3945eebdb5a2361bace03",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\tools\\verify_sonar_fixed_mesh.py": "16873753dbd279384913fcd2cc5e021e72624145cd18f1cd04e5f0e901b4e400",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_120653\\aris_raw\\0551.pgm": "735f58ccd0eb71bf69757f84dbba829e67b93beadd2ef7ae13343cf6ef3a2daf",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_temporal_all\\manifest-resolved.json": "3b2cf9fd85fce4c76a2e21a953b4ecf230ccc7f846f0547d3fc00d3ca3cffa4a",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101131\\aris_raw\\0909.pgm": "786b64a717a7e6dfb175164649341e9f9b5ea9938f321ffecb1400c120469f0e",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_100927\\aris_raw\\0811.pgm": "084a5a03f8b90b90f0f06d928aca05b852b7a0fe03ef6588291d74648953961b",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_173329\\gantry.csv": "2cdb692244a7c31cc065a7968b759314d61ef0fbf4722d3a1291f22153c70552",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_100927\\aris_frame_meta.csv": "7071eff1856814ed89e0141ef37dc7f2d248f70c4a50de6fb8c2d57494822648",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101131\\gantry.csv": "1185ed43609354883d616832373bdd8fc7c50338d08ecefa3dc8fba0a70169a8",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\view_recording.py": "c0f2b4b2bd808ecee410a764e7e71f0128de22c873c81cf5487e1671f2f94e2b",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\common\\aris_definitions.py": "dc63949fc9f5356ab4a3fd0cb12c1a98bd029a37fdb4ace202c6a571d4f9cbd1",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101131\\aris_raw\\0103.pgm": "cd7e83a3b6244d2f467cb724cf30d3b51edfdc8b973d5b8ed935c2adcfd5fd31",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_model_registration_consistency\\calibration-versions.json": "b8fbd58849618569f77cd8570eb20b091a29b3e898928f801ef4f9ac0215d281",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_fixed_mesh\\qa-before-projection.json": "f8d5102227f7de395c97fe8542134c982014c7ed3ff877e07c3f0ebc976e354d",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\calibration__transforms.yaml": "db99ddb4153a71011b6c2563da706bd7b6f6626681dd861641c4aecb5fd7a560"
+  },
+  "model_checks": [
+    {
+      "model": "100lbs",
+      "similarity_rederived_max_abs_error": 7.13318293321663e-15,
+      "rotation_orthogonality_error": 4.440892098500626e-16,
+      "determinant": 1.0,
+      "length_error_m": 1.1102230246251565e-16,
+      "extent_error_m": 5.551115123125783e-17,
+      "midpoint_error_m": 5.551115123125783e-17,
+      "sampled_points": 856136,
+      "source_sha256_matches": true,
+      "eigenvalues_descending": [
+        227868.42908837684,
+        15517.642450944224,
+        13222.414861539186
+      ]
+    },
+    {
+      "model": "incindiary",
+      "similarity_rederived_max_abs_error": 6.938893903907228e-16,
+      "rotation_orthogonality_error": 6.661338147750939e-16,
+      "determinant": 1.0,
+      "length_error_m": 0.0,
+      "extent_error_m": 5.551115123125783e-17,
+      "midpoint_error_m": 4.163336342344337e-17,
+      "sampled_points": 810049,
+      "source_sha256_matches": true,
+      "eigenvalues_descending": [
+        248657.06128967507,
+        27698.779859555914,
+        16153.576959383547
+      ]
+    },
+    {
+      "model": "mortar_shell",
+      "similarity_rederived_max_abs_error": 1.8041124150158794e-15,
+      "rotation_orthogonality_error": 8.881784197001252e-16,
+      "determinant": 1.0000000000000009,
+      "length_error_m": 1.1102230246251565e-16,
+      "extent_error_m": 1.1102230246251565e-16,
+      "midpoint_error_m": 2.7755575615628914e-17,
+      "sampled_points": 568648,
+      "source_sha256_matches": true,
+      "eigenvalues_descending": [
+        506093.089360064,
+        15724.335015811137,
+        11264.491638592772
+      ]
+    }
+  ],
+  "frame_checks": [
+    {
+      "sample": "2023-09-20_171105_0622",
+      "errors": {
+        "world_from_ar3": 2.220446049250313e-16,
+        "world_from_sonar": 2.220446049250313e-16,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 6.661338147750939e-16,
+        "mesh_azimuth_deg": 1.021405182655144e-14,
+        "mesh_elevation_deg": 1.7763568394002505e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 2.2737367544323206e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 2.2737367544323206e-13,
+        "visible_raw_bbox_padded_clipped_xyxy": 1.7053025658242404e-13,
+        "visible_fan_bbox_padded_clipped_xyxy": 1.1368683772161603e-13
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        327,
+        605
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        328,
+        605
+      ],
+      "official_canvas_extra_range_m": 0.00298256005859375,
+      "window_start_field_difference_m": -2.0248413057366577e-08,
+      "visible_fraction_7deg": 0.6071523683153144,
+      "visible_fraction_7_5deg": 0.6142879168730202
+    },
+    {
+      "sample": "2023-09-20_171105_0981",
+      "errors": {
+        "world_from_ar3": 2.220446049250313e-16,
+        "world_from_sonar": 2.220446049250313e-16,
+        "sonar_from_world": 3.3306690738754696e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 2.220446049250313e-16,
+        "mesh_azimuth_deg": 4.440892098500626e-15,
+        "mesh_elevation_deg": 2.0872192862952943e-14,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 6.252776074688882e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 8.526512829121202e-14,
+        "visible_raw_bbox_padded_clipped_xyxy": 8.526512829121202e-14,
+        "visible_fan_bbox_padded_clipped_xyxy": 5.684341886080802e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        327,
+        605
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        328,
+        605
+      ],
+      "official_canvas_extra_range_m": 0.0029825625,
+      "window_start_field_difference_m": 1.2157440165694311e-08,
+      "visible_fraction_7deg": 0.6434176345814216,
+      "visible_fraction_7_5deg": 0.6434176345814216
+    },
+    {
+      "sample": "2023-09-20_171105_1336",
+      "errors": {
+        "world_from_ar3": 5.551115123125783e-17,
+        "world_from_sonar": 5.551115123125783e-17,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 2.220446049250313e-16,
+        "mesh_azimuth_deg": 7.216449660063518e-15,
+        "mesh_elevation_deg": 2.4868995751603507e-14,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 1.1368683772161603e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 1.1368683772161603e-13,
+        "visible_raw_bbox_padded_clipped_xyxy": 1.1368683772161603e-13,
+        "visible_fan_bbox_padded_clipped_xyxy": 5.684341886080802e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        327,
+        605
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        328,
+        605
+      ],
+      "official_canvas_extra_range_m": 0.0029825615234375,
+      "window_start_field_difference_m": 2.3036956786626206e-08,
+      "visible_fraction_7deg": 0.674952344020109,
+      "visible_fraction_7_5deg": 0.7259173776129026
+    },
+    {
+      "sample": "2023-09-20_173329_0154",
+      "errors": {
+        "world_from_ar3": 2.220446049250313e-16,
+        "world_from_sonar": 2.220446049250313e-16,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 2.220446049250313e-16,
+        "mesh_azimuth_deg": 5.329070518200751e-15,
+        "mesh_elevation_deg": 7.105427357601002e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 7.105427357601002e-14,
+        "full_surface_raw_bbox_intersection_xyxy": 7.105427357601002e-14,
+        "visible_raw_bbox_padded_clipped_xyxy": 7.105427357601002e-14,
+        "visible_fan_bbox_padded_clipped_xyxy": 5.684341886080802e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        327,
+        605
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        328,
+        605
+      ],
+      "official_canvas_extra_range_m": 0.002982564208984375,
+      "window_start_field_difference_m": -6.881713865425354e-09,
+      "visible_fraction_7deg": 0.8253875552482316,
+      "visible_fraction_7_5deg": 0.8574700748479214
+    },
+    {
+      "sample": "2023-09-20_173329_0456",
+      "errors": {
+        "world_from_ar3": 3.3306690738754696e-16,
+        "world_from_sonar": 3.3306690738754696e-16,
+        "sonar_from_world": 3.3306690738754696e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 4.440892098500626e-16,
+        "mesh_azimuth_deg": 1.5987211554602254e-14,
+        "mesh_elevation_deg": 7.105427357601002e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 1.4210854715202004e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 1.4210854715202004e-13,
+        "visible_raw_bbox_padded_clipped_xyxy": 0.0,
+        "visible_fan_bbox_padded_clipped_xyxy": 0.0
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        327,
+        605
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        328,
+        605
+      ],
+      "official_canvas_extra_range_m": 0.002982564697265625,
+      "window_start_field_difference_m": -1.2321472175891302e-08,
+      "visible_fraction_7deg": 0.0,
+      "visible_fraction_7_5deg": 0.0
+    },
+    {
+      "sample": "2023-09-20_173329_0916",
+      "errors": {
+        "world_from_ar3": 1.5265566588595902e-16,
+        "world_from_sonar": 1.5265566588595902e-16,
+        "sonar_from_world": 4.440892098500626e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 6.661338147750939e-16,
+        "mesh_azimuth_deg": 2.1316282072803006e-14,
+        "mesh_elevation_deg": 1.7763568394002505e-14,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 2.2737367544323206e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 2.2737367544323206e-13,
+        "visible_raw_bbox_padded_clipped_xyxy": 2.2737367544323206e-13,
+        "visible_fan_bbox_padded_clipped_xyxy": 1.1368683772161603e-13
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        327,
+        605
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        327,
+        605
+      ],
+      "official_canvas_extra_range_m": 0.002981856201171875,
+      "window_start_field_difference_m": 1.2954711858803591e-08,
+      "visible_fraction_7deg": 0.38913443658484165,
+      "visible_fraction_7_5deg": 0.4365649850023828
+    },
+    {
+      "sample": "2023-09-21_120653_0163",
+      "errors": {
+        "world_from_ar3": 1.1102230246251565e-16,
+        "world_from_sonar": 1.1102230246251565e-16,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 2.220446049250313e-16,
+        "mesh_azimuth_deg": 1.1546319456101628e-14,
+        "mesh_elevation_deg": 6.217248937900877e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 7.105427357601002e-14,
+        "full_surface_raw_bbox_intersection_xyxy": 7.105427357601002e-14,
+        "visible_raw_bbox_padded_clipped_xyxy": 7.105427357601002e-14,
+        "visible_fan_bbox_padded_clipped_xyxy": 5.684341886080802e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002983261474609375,
+      "window_start_field_difference_m": -2.625274653222931e-08,
+      "visible_fraction_7deg": 1.0,
+      "visible_fraction_7_5deg": 1.0
+    },
+    {
+      "sample": "2023-09-21_120653_0551",
+      "errors": {
+        "world_from_ar3": 5.551115123125783e-17,
+        "world_from_sonar": 5.551115123125783e-17,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 1.1102230246251565e-16,
+        "range_end_m": 0.0,
+        "range_bin_m": 4.336808689942018e-19,
+        "mesh_range_m": 2.220446049250313e-16,
+        "mesh_azimuth_deg": 3.552713678800501e-15,
+        "mesh_elevation_deg": 5.329070518200751e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 1.2789769243681803e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 1.2789769243681803e-13,
+        "visible_raw_bbox_padded_clipped_xyxy": 1.2789769243681803e-13,
+        "visible_fan_bbox_padded_clipped_xyxy": 5.684341886080802e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002982555908203125,
+      "window_start_field_difference_m": 2.5989532526082826e-08,
+      "visible_fraction_7deg": 1.0,
+      "visible_fraction_7_5deg": 1.0
+    },
+    {
+      "sample": "2023-09-21_120653_0933",
+      "errors": {
+        "world_from_ar3": 2.220446049250313e-16,
+        "world_from_sonar": 2.220446049250313e-16,
+        "sonar_from_world": 4.440892098500626e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 4.440892098500626e-16,
+        "mesh_azimuth_deg": 9.769962616701378e-15,
+        "mesh_elevation_deg": 7.105427357601002e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 1.4210854715202004e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 1.4210854715202004e-13,
+        "visible_raw_bbox_padded_clipped_xyxy": 1.4210854715202004e-13,
+        "visible_fan_bbox_padded_clipped_xyxy": 8.526512829121202e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002982554931640625,
+      "window_start_field_difference_m": -2.2735595739398207e-08,
+      "visible_fraction_7deg": 0.9348138199047218,
+      "visible_fraction_7_5deg": 0.9597925557589726
+    },
+    {
+      "sample": "2023-09-21_120912_0120",
+      "errors": {
+        "world_from_ar3": 1.1102230246251565e-16,
+        "world_from_sonar": 1.1102230246251565e-16,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 4.440892098500626e-16,
+        "mesh_azimuth_deg": 6.217248937900877e-15,
+        "mesh_elevation_deg": 5.329070518200751e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 1.1368683772161603e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 1.1368683772161603e-13,
+        "visible_raw_bbox_padded_clipped_xyxy": 1.1368683772161603e-13,
+        "visible_fan_bbox_padded_clipped_xyxy": 2.842170943040401e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002982554931640625,
+      "window_start_field_difference_m": -2.2735595739398207e-08,
+      "visible_fraction_7deg": 1.0,
+      "visible_fraction_7_5deg": 1.0
+    },
+    {
+      "sample": "2023-09-21_120912_0463",
+      "errors": {
+        "world_from_ar3": 1.6653345369377348e-16,
+        "world_from_sonar": 1.6653345369377348e-16,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 6.661338147750939e-16,
+        "mesh_azimuth_deg": 1.7763568394002505e-14,
+        "mesh_elevation_deg": 1.3322676295501878e-14,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 2.2737367544323206e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 2.2737367544323206e-13,
+        "visible_raw_bbox_padded_clipped_xyxy": 2.2737367544323206e-13,
+        "visible_fan_bbox_padded_clipped_xyxy": 1.4210854715202004e-13
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002982554931640625,
+      "window_start_field_difference_m": -2.2735595739398207e-08,
+      "visible_fraction_7deg": 0.9975828622712947,
+      "visible_fraction_7_5deg": 0.9975828622712947
+    },
+    {
+      "sample": "2023-09-21_120912_0802",
+      "errors": {
+        "world_from_ar3": 1.1102230246251565e-16,
+        "world_from_sonar": 1.1102230246251565e-16,
+        "sonar_from_world": 4.440892098500626e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 2.220446049250313e-16,
+        "mesh_azimuth_deg": 1.021405182655144e-14,
+        "mesh_elevation_deg": 9.769962616701378e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 5.684341886080802e-14,
+        "full_surface_raw_bbox_intersection_xyxy": 5.684341886080802e-14,
+        "visible_raw_bbox_padded_clipped_xyxy": 5.684341886080802e-14,
+        "visible_fan_bbox_padded_clipped_xyxy": 5.684341886080802e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002982554931640625,
+      "window_start_field_difference_m": -2.2735595739398207e-08,
+      "visible_fraction_7deg": 0.9919474007127964,
+      "visible_fraction_7_5deg": 1.0
+    },
+    {
+      "sample": "2023-09-21_100927_0087",
+      "errors": {
+        "world_from_ar3": 1.1102230246251565e-16,
+        "world_from_sonar": 1.1102230246251565e-16,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 0.0,
+        "mesh_azimuth_deg": 1.021405182655144e-14,
+        "mesh_elevation_deg": 5.329070518200751e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 4.263256414560601e-14,
+        "full_surface_raw_bbox_intersection_xyxy": 4.263256414560601e-14,
+        "visible_raw_bbox_padded_clipped_xyxy": 4.263256414560601e-14,
+        "visible_fan_bbox_padded_clipped_xyxy": 2.842170943040401e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002983261474609375,
+      "window_start_field_difference_m": -2.625274653222931e-08,
+      "visible_fraction_7deg": 1.0,
+      "visible_fraction_7_5deg": 1.0
+    },
+    {
+      "sample": "2023-09-21_100927_0451",
+      "errors": {
+        "world_from_ar3": 1.6653345369377348e-16,
+        "world_from_sonar": 1.6653345369377348e-16,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 2.220446049250313e-16,
+        "mesh_azimuth_deg": 1.4210854715202004e-14,
+        "mesh_elevation_deg": 1.865174681370263e-14,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 1.4210854715202004e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 8.526512829121202e-14,
+        "visible_raw_bbox_padded_clipped_xyxy": 8.526512829121202e-14,
+        "visible_fan_bbox_padded_clipped_xyxy": 8.526512829121202e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.00298255517578125,
+      "window_start_field_difference_m": -2.545547483912003e-08,
+      "visible_fraction_7deg": 0.932596263417791,
+      "visible_fraction_7_5deg": 0.932596263417791
+    },
+    {
+      "sample": "2023-09-21_100927_0811",
+      "errors": {
+        "world_from_ar3": 5.551115123125783e-17,
+        "world_from_sonar": 5.551115123125783e-17,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 4.440892098500626e-16,
+        "mesh_azimuth_deg": 2.3092638912203256e-14,
+        "mesh_elevation_deg": 1.2434497875801753e-14,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 1.4210854715202004e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 1.4210854715202004e-13,
+        "visible_raw_bbox_padded_clipped_xyxy": 1.4210854715202004e-13,
+        "visible_fan_bbox_padded_clipped_xyxy": 1.1368683772161603e-13
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002982554931640625,
+      "window_start_field_difference_m": -2.2735595739398207e-08,
+      "visible_fraction_7deg": 0.9321267286616677,
+      "visible_fraction_7_5deg": 0.959366778745375
+    },
+    {
+      "sample": "2023-09-21_101131_0103",
+      "errors": {
+        "world_from_ar3": 1.1102230246251565e-16,
+        "world_from_sonar": 1.1102230246251565e-16,
+        "sonar_from_world": 2.220446049250313e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 2.220446049250313e-16,
+        "mesh_azimuth_deg": 7.105427357601002e-15,
+        "mesh_elevation_deg": 6.217248937900877e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 7.105427357601002e-14,
+        "full_surface_raw_bbox_intersection_xyxy": 7.105427357601002e-14,
+        "visible_raw_bbox_padded_clipped_xyxy": 7.105427357601002e-14,
+        "visible_fan_bbox_padded_clipped_xyxy": 5.684341886080802e-14
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002982554931640625,
+      "window_start_field_difference_m": -2.2735595739398207e-08,
+      "visible_fraction_7deg": 1.0,
+      "visible_fraction_7_5deg": 1.0
+    },
+    {
+      "sample": "2023-09-21_101131_0509",
+      "errors": {
+        "world_from_ar3": 1.1102230246251565e-16,
+        "world_from_sonar": 2.220446049250313e-16,
+        "sonar_from_world": 3.3306690738754696e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 2.220446049250313e-16,
+        "mesh_azimuth_deg": 3.197442310920451e-14,
+        "mesh_elevation_deg": 1.865174681370263e-14,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 1.4210854715202004e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 1.4210854715202004e-13,
+        "visible_raw_bbox_padded_clipped_xyxy": 1.4210854715202004e-13,
+        "visible_fan_bbox_padded_clipped_xyxy": 1.0658141036401503e-13
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002982554931640625,
+      "window_start_field_difference_m": -2.2735595739398207e-08,
+      "visible_fraction_7deg": 1.0,
+      "visible_fraction_7_5deg": 1.0
+    },
+    {
+      "sample": "2023-09-21_101131_0909",
+      "errors": {
+        "world_from_ar3": 1.1102230246251565e-16,
+        "world_from_sonar": 1.1102230246251565e-16,
+        "sonar_from_world": 4.440892098500626e-16,
+        "range_start_m": 0.0,
+        "range_end_m": 0.0,
+        "range_bin_m": 0.0,
+        "mesh_range_m": 3.3306690738754696e-16,
+        "mesh_azimuth_deg": 7.993605777301127e-15,
+        "mesh_elevation_deg": 3.552713678800501e-15,
+        "fraction_in_range_beam": 0.0,
+        "fraction_visible_assumed_7deg": 0.0,
+        "fraction_visible_assumed_7_5deg": 0.0,
+        "full_surface_raw_bbox_padded_xyxy": 1.1368683772161603e-13,
+        "full_surface_raw_bbox_intersection_xyxy": 9.947598300641403e-14,
+        "visible_raw_bbox_padded_clipped_xyxy": 8.526512829121202e-14,
+        "visible_fan_bbox_padded_clipped_xyxy": 1.1368683772161603e-13
+      },
+      "all_numeric_comparisons_passed": true,
+      "canvas_local_wh": [
+        218,
+        403
+      ],
+      "canvas_official_polar2_wh_at_200px_per_m": [
+        218,
+        403
+      ],
+      "official_canvas_extra_range_m": 0.002982554931640625,
+      "window_start_field_difference_m": -2.2735595739398207e-08,
+      "visible_fraction_7deg": 0.6411664157791815,
+      "visible_fraction_7_5deg": 0.660072663580985
+    }
+  ],
+  "maximum_saved_numeric_difference": 6.252776074688882e-13,
+  "synthetic_controls": {
+    "official_polar2_direction_passed": true,
+    "negative_angle_image_column_centroid": 418.8936170212766,
+    "positive_angle_image_column_centroid": 17.960526315789473,
+    "synthetic_image_width": 438,
+    "range_bin_center_convention": "range r0+(j+0.5)*dr maps to raw edge-coordinate row j+0.5",
+    "beam_center_convention": "table center i maps to raw edge-coordinate column i+0.5",
+    "actual_internal_beam_boundary_vs_center_interpolation_max_error_columns": {
+      "64": 0.00010801468999943609,
+      "128": 0.00021579628830314945
+    }
+  },
+  "physical_axis_review": {
+    "sonar_xyz_to_beam_physical_sign_validated": false,
+    "target_long_axis_x_is_officially_registered": false,
+    "camera_and_sonar_rotation_difference_current_yaml_max_abs": 0.0,
+    "public_fact": "Official viewer states raw beams are ordered right to left; polar2 places increasing beam-table angle to the left.",
+    "inference": "Current public calibration gives the sonar and camera identical rotation. If sonar +x is interpreted as standard camera-right, the beam-table angle should be -atan2(x,z), not the current +atan2(x,z). This is an unresolved coordinate-convention inconsistency, not a certified correction.",
+    "missing_control": "An authoritative sonar-frame axis definition tied to beam index, or independent known 3D point and measured raw-beam correspondence.",
+    "action": "Keep the current hypothesis and failures; do not claim that numerical replay ruled out a physical left-right sign error or attribute all visual mismatch to mesh registration."
+  },
+  "source_evidence": [
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\release_1_export.py",
+      "lines": "19-35",
+      "finding": "Gantry translation plus setup/ar3 offset; static rotation multiplied by extrinsic xyz Euler"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\prep_2_aris_to_polar.py",
+      "lines": "156-171",
+      "finding": "Range start uses delay; official display canvas extends to h+1 bins"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\prep_2_aris_to_polar.py",
+      "lines": "174-207",
+      "finding": "Angles negated before cos(angle+90), then horizontal flip; net positive angle is left"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\view_recording.py",
+      "lines": "178-180",
+      "finding": "Official comment: In ARIS frames, beams are ordered right to left; viewer flips raw images"
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\common\\aris_definitions.py",
+      "lines": "250-452",
+      "finding": "Nonuniform center/left/right beam angle table"
+    }
+  ],
+  "limitations": [
+    "The synthetic rasterizer control validates beam-index-to-display direction only. It does not validate mapping sonar xyz coordinates to physical beam angle. The current +atan2(x,z) sign remains unverified and may be inconsistent with the public camera/sonar axis alignment.",
+    "Local fan is a display reconstruction, not the released polar2 image coordinate frame: h instead of h+1 outer canvas, max absolute angle instead of half full span, nearest-neighbor versus polygon fill.",
+    "Ignoring raster rounding, official flip on pixel indices gives u=W/2-1-r*sin(az)*res. Local continuous edge convention uses u=W/2-r*sin(az)*res. Positive-angle-left direction agrees; a local fan box must not be transplanted to an official raster without coordinate conversion.",
+    "Raw beam position is interpolated through beam centers. Actual internal table boundaries differ slightly from integer columns; the exact maximum is recorded. This is smaller than the candidate one-column pad, not a substitute for exact polygon clipping.",
+    "Surface sampling plus one-bin/one-beam padding is not a proof of exact clipped mesh bounds. No analytic mesh-frustum intersection or acoustic scattering/occlusion/shadow model is used.",
+    "Fractions count nonuniformly sampled mesh points; they are not surface-area visibility fractions or echo probabilities.",
+    "Plus/minus 7 degree elevation, nominal intact length, PCA orientation/roll, midpoint origin, and one static target pose across recordings remain explicit hypotheses."
+  ],
+  "axis_evidence_appendix": {
+    "date": "2026-11-11",
+    "appendix_kind": "source evidence added after numerical verification; original comparisons and frozen model unchanged",
+    "prior_report_sha256": "d42f5821afaf96ef44eb5fee20d8b0c24fa79167974b598151674fe5b1ff5a6b",
+    "local_primary_evidence": [
+      {
+        "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\view_recording.py",
+        "sha256": "c0f2b4b2bd808ecee410a764e7e71f0128de22c873c81cf5487e1671f2f94e2b",
+        "line_start": 178,
+        "line_end": 180,
+        "excerpt": "        if not self._aris_polar:\n            # In ARIS frames, beams are ordered right to left\n            aris_frame = cv2.flip(aris_frame, -1)"
+      },
+      {
+        "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\prep_2_aris_to_polar.py",
+        "sha256": "0ec2e111ead3a1b14d2836b2e7800bda0b8d90a9c72af54e7481dbb227cd900f",
+        "line_start": 174,
+        "line_end": 188,
+        "excerpt": "        start_angle = -beam_angles[beam_idx][1]\n        center_angle = -beam_angles[beam_idx][0]\n        end_angle = -beam_angles[beam_idx][2]\n        \n        for bin_idx in range(bin_count):\n            intensity = frame[bin_idx, beam_idx]\n            bin_start = window_start + sample_period * bin_idx * 1e-6 * speed_of_sound  / 2\n            bin_end = window_start + sample_period * (bin_idx+1) * 1e-6 * speed_of_sound  / 2\n            \n            top_left_img_ref_frame      = np.array([bin_end * np.cos(np.deg2rad(start_angle+90)) * frame_res, -bin_end * np.sin(np.deg2rad(start_angle+90)) * frame_res]) + center_img_ref_frame\n            top_center_img_ref_frame    = np.array([bin_end * np.cos(np.deg2rad(center_angle+90)) * frame_res, -bin_end * np.sin(np.deg2rad(center_angle+90)) * frame_res]) + center_img_ref_frame\n            top_right_img_ref_frame     = np.array([bin_end * np.cos(np.deg2rad(end_angle+90)) * frame_res, -bin_end * np.sin(np.deg2rad(end_angle+90)) * frame_res]) + center_img_ref_frame\n            bottom_right_img_ref_frame  = np.array([bin_start * np.cos(np.deg2rad(end_angle+90)) * frame_res, -bin_start * np.sin(np.deg2rad(end_angle+90)) * frame_res]) + center_img_ref_frame\n            bottom_center_img_ref_frame = np.array([bin_start * np.cos(np.deg2rad(center_angle+90)) * frame_res, -bin_start * np.sin(np.deg2rad(center_angle+90)) * frame_res]) + center_img_ref_frame\n            bottom_left_img_ref_frame   = np.array([bin_start * np.cos(np.deg2rad(start_angle+90)) * frame_res, -bin_start * np.sin(np.deg2rad(start_angle+90)) * frame_res]) + center_img_ref_frame"
+      },
+      {
+        "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\prep_2_aris_to_polar.py",
+        "sha256": "0ec2e111ead3a1b14d2836b2e7800bda0b8d90a9c72af54e7481dbb227cd900f",
+        "line_start": 207,
+        "line_end": 207,
+        "excerpt": "    return cv2.flip(polar_frame, 1)"
+      },
+      {
+        "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\calibration\\transforms.yaml",
+        "sha256": "a9543e7fab3107818548e1b0f600065220be17413b8e829edf5a8fa5656d4ba2",
+        "line_start": 13,
+        "line_end": 71,
+        "excerpt": "  - frame_id: \"setup/aris\"\n    parent_frame_id: \"setup/ar3\"\n    translation:\n      x: 0.0\n      y: 0.0\n      z: 0.0\n    rotation:\n      x: 0.0\n      y: 0.0\n      z: 0.0\n      w: 1.0\n  - frame_id: \"setup/sonar\"\n    parent_frame_id: \"setup/aris\"\n    translation:\n      x: -0.108725\n      y: 0.0\n      z: 0.0\n    rotation:\n      x: 0.5\n      y: 0.5\n      z: 0.5\n      w: 0.5\n  - frame_id: \"setup/gopro_mounting_hole\"\n    parent_frame_id: \"setup/ar3\"\n    translation:\n      x: 0.1265\n      y: 0.023\n      z: -0.1055\n    rotation:\n      x: 0.0\n      y: 0.0\n      z: 0.0 #0.08715574\n      w: 1.0 #0.9961947\n  - frame_id: \"setup/gopro_mounting_axis\"\n    parent_frame_id: \"setup/gopro_mounting_hole\"\n    translation:\n      x: 0.02125\n      y: 0.0\n      z: -0.0075\n    rotation:\n      # x: 0.0      \n      # y: -0.0348995\n      # z: 0.0      \n      # w: 0.99939083\n      x: 0.0\n      y: 0.0\n      z: 0.0\n      w: 1.0\n  - frame_id: \"setup/camera\"\n    parent_frame_id: \"setup/gopro_mounting_axis\"\n    translation:\n      x: 0.01925\n      y: -0.0195\n      z: -0.0415\n    rotation:\n      x: 0.5\n      y: 0.5\n      z: 0.5\n      w: 0.5"
+      },
+      {
+        "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\demo\\camera_tilt.ipynb",
+        "sha256": "76cfe57ecc8344e92dd7c84fd23996edea5616bbd33755311dac1d777cb886f9",
+        "line_start": 852,
+        "line_end": 856,
+        "excerpt": "    \"            pose = detector.detection_pose(result, [fx, fy, cx, cy],  tag_size=0.247)\\n\",\n    \"            \\n\",\n    \"            tm.add_transform(\\\"setup/ar3\\\", \\\"world\\\", A2B=pytr.transform_from(R.from_quat(row[['rot.x','rot.y', 'rot.z', 'rot.w']]).as_matrix(), row[['pos.x','pos.y', 'pos.z']]))\\n\",\n    \"\\n\",\n    \"            tm.add_transform(\\\"marker/\\\" + str(result.tag_id), \\\"setup/camera\\\", A2B=pose[0])\\n\","
+      },
+      {
+        "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\demo\\camera_tilt.ipynb",
+        "sha256": "76cfe57ecc8344e92dd7c84fd23996edea5616bbd33755311dac1d777cb886f9",
+        "line_start": 654,
+        "line_end": 658,
+        "excerpt": "    \"    pose = detector.detection_pose(result, [fx, fy, cx, cy],  tag_size=0.30)\\n\",\n    \"    tf = pose[0]\\n\",\n    \"\\n\",\n    \"    #NOTE: transform to camera frame\\n\",\n    \"    tf[:3,3] = [-tf[1,3], tf[0,3], tf[2,3]]\\n\","
+      }
+    ],
+    "external_primary_evidence_read": {
+      "url": "https://github.com/SoundMetrics/aris-file-sdk/blob/master/docs/understanding-aris-data.md#L134",
+      "raw_url": "https://raw.githubusercontent.com/SoundMetrics/aris-file-sdk/master/docs/understanding-aris-data.md",
+      "line_start": 134,
+      "line_end": 135,
+      "excerpt": "> Please note: in ARIS acoustic sample data beam 0 is the right-most\n> beam, and beams are numbered from right-to-left.",
+      "retrieval": "read during this audit; full response was not persisted and no immutable commit hash claimed"
+    },
+    "inference": "Public raw data beam order is right-to-left. Current sonar and camera calibration rotations are identical. Under the optical camera convention x-right, z-forward, beam table angle = -atan2(x,z) is the consistent mapping. This supports one named sign-only hypothesis revision; it is not physical registration certification.",
+    "source_limit": "The camera_tilt notebook has inconsistent experimental coordinate manipulation and known matrix/index problems. Its AprilTag attachment is supporting evidence, not an unambiguous sonar-axis specification.",
+    "target_axis": "PCA long axis to target +x, transverse roll, axis signs and extrema midpoint remain local fixed mesh assumptions. The public YAML identity target rotation does not establish mesh long-axis registration.",
+    "revision_boundary": "Only beam angle sign may change in a new named candidate; frozen mesh scale, rotation, translation, 18 identities, range mapping, poses, FOV gates and QA rules remain unchanged. No new projection was generated by this verifier."
+  }
+}

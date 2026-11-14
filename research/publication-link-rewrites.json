@@ -1,0 +1,2302 @@
+[
+  {
+    "file": "research/DataSet/camera_temporal_all/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-509c66e4b095"
+  },
+  {
+    "file": "research/DataSet/expanded_paired_coverage_candidate/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-adc723e0ca52"
+  },
+  {
+    "file": "research/DataSet/expanded_paired_split_candidate/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-c0621d2deefd"
+  },
+  {
+    "file": "research/DataSet/paired_expanded_resplit_candidate/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-4f30fc00fd8b"
+  },
+  {
+    "file": "research/DataSet/paired_four_recording_expanded/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-9940a746ec7f"
+  },
+  {
+    "file": "research/DataSet/paired_recording_condition_coverage_candidate/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-d0e2c45d2060"
+  },
+  {
+    "file": "research/DataSet/paired_recording_condition_coverage_candidate/README.md",
+    "original_target": "coverage.csv",
+    "published_target": "../../ARTIFACTS.md#artifact-5790755451b4"
+  },
+  {
+    "file": "research/DataSet/paired_recording_condition_coverage_candidate/README.md",
+    "original_target": "condition-audit.json",
+    "published_target": "../../ARTIFACTS.md#artifact-52a65a8a9b32"
+  },
+  {
+    "file": "research/DataSet/paired_recording_split/README.md",
+    "original_target": "manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-734b26cfcd9b"
+  },
+  {
+    "file": "research/DataSet/paired_recording_split/README.md",
+    "original_target": "train-selected.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-7c0c1080707c"
+  },
+  {
+    "file": "research/DataSet/paired_recording_split/README.md",
+    "original_target": "val-selected.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-ed376ef0b99a"
+  },
+  {
+    "file": "research/DataSet/paired_recording_split/README.md",
+    "original_target": "test-selected.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-956d98a14dec"
+  },
+  {
+    "file": "research/DataSet/paired_weak_scene_coverage_pan_split/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-7b6b78ded1da"
+  },
+  {
+    "file": "research/DataSet/paired_weak_scene_coverage_split/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-8b45d34fb11a"
+  },
+  {
+    "file": "research/DataSet/scene_stratified_mortar_recovered_candidate/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-318e1cce8c85"
+  },
+  {
+    "file": "research/DataSet/scene_stratified_paired_expansion/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-dcdb7635c6e3"
+  },
+  {
+    "file": "research/DataSet/scene_stratified_recording_candidate/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-0fc3a69c3703"
+  },
+  {
+    "file": "research/DataSet/sonar_bomb_sequence_observations/README.md",
+    "original_target": "observations.json",
+    "published_target": "../../ARTIFACTS.md#artifact-a53d48088fcd"
+  },
+  {
+    "file": "research/DataSet/sonar_bomb_sequence_observations/README.md",
+    "original_target": "index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-ea119bac3740"
+  },
+  {
+    "file": "research/DataSet/sonar_bomb_sequence_observations/README.md",
+    "original_target": "source-provenance.json",
+    "published_target": "../../ARTIFACTS.md#artifact-e3052cdbc47c"
+  },
+  {
+    "file": "research/DataSet/sonar_bomb_sequence_observations/README.md",
+    "original_target": "delivery-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-8050cd664963"
+  },
+  {
+    "file": "research/DataSet/sonar_bomb_sequence_observations/README.md",
+    "original_target": "display-revision.json",
+    "published_target": "../../ARTIFACTS.md#artifact-83190a84e520"
+  },
+  {
+    "file": "research/DataSet/weak_coverage_camera_m_5090_deployment/README.md",
+    "original_target": "deployment-files-sha256.json",
+    "published_target": "../../ARTIFACTS.md#artifact-3ed5ac9ba84a"
+  },
+  {
+    "file": "research/DataSet/weak_coverage_camera_m_5090_deployment/README.md",
+    "original_target": "remote-task-snapshot.json",
+    "published_target": "../../ARTIFACTS.md#artifact-b14b9548765a"
+  },
+  {
+    "file": "research/DataSet/weak_coverage_camera_m_5090_deployment/README.md",
+    "original_target": "remote-after-local-stop-snapshot.json",
+    "published_target": "../../ARTIFACTS.md#artifact-fb245a689071"
+  },
+  {
+    "file": "research/DataSet/workstation_baselines/README.md",
+    "original_target": "remote-snapshot/remote-data-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-94974c270e36"
+  },
+  {
+    "file": "research/DataSet/workstation_baselines/README.md",
+    "original_target": "source-sha256.json",
+    "published_target": "../../ARTIFACTS.md#artifact-de2166c6e43d"
+  },
+  {
+    "file": "research/DataSet/workstation_baselines/README.md",
+    "original_target": "remote-snapshot/runs/camera_s_fixed640/preflight/status.json",
+    "published_target": "../../ARTIFACTS.md#artifact-3926a5cc9e33"
+  },
+  {
+    "file": "research/DataSet/workstation_baselines/README.md",
+    "original_target": "remote-snapshot/runs/sonar_s/preflight/status.json",
+    "published_target": "../../ARTIFACTS.md#artifact-9757dc784711"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_weak_scene_coverage_pan_split/index.html",
+    "published_target": "ARTIFACTS.md#artifact-7b6b78ded1da"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_four_recording_expanded/index.html",
+    "published_target": "ARTIFACTS.md#artifact-9940a746ec7f"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/all94_recording_coverage_audit/index.html",
+    "published_target": "ARTIFACTS.md#artifact-ef26c73164e5"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_expanded_resplit_candidate/index.html",
+    "published_target": "ARTIFACTS.md#artifact-4f30fc00fd8b"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_recording_condition_coverage_candidate/index.html",
+    "published_target": "ARTIFACTS.md#artifact-d0e2c45d2060"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_assistant_truncated_review/export/README.md",
+    "published_target": "ARTIFACTS.md#artifact-387067fb2f13"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_assistant_truncated_review/export/selected-samples.txt",
+    "published_target": "ARTIFACTS.md#artifact-415815fc6be4"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_assistant_truncated_review/export/reserve-samples.txt",
+    "published_target": "ARTIFACTS.md#artifact-48f54bdd637e"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_assistant_truncated_review/export/manifest.json",
+    "published_target": "ARTIFACTS.md#artifact-ba71e56ae039"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_assistant_truncated_review/export/verification.json",
+    "published_target": "ARTIFACTS.md#artifact-b4dd603aed73"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_assistant_truncated_review/export/index.html",
+    "published_target": "ARTIFACTS.md#artifact-a14061aa6c51"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_assistant_full_review/export/index.html",
+    "published_target": "ARTIFACTS.md#artifact-7842e0e73cac"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_assistant_full_review/export/README.md",
+    "published_target": "ARTIFACTS.md#artifact-b473334d4b1f"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_assistant_remaining/export/index.html",
+    "published_target": "ARTIFACTS.md#artifact-72ad1ea7bf7b"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_assistant_expansion/export/index.html",
+    "published_target": "ARTIFACTS.md#artifact-5f72a4eb1558"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_visible_reviewed/export/index.html",
+    "published_target": "ARTIFACTS.md#artifact-9eebbc22ffa1"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/paired_paper_scale/index.html",
+    "published_target": "ARTIFACTS.md#artifact-d98db18ebd09"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/sonar_fixed_registration_refinement/index.html",
+    "published_target": "ARTIFACTS.md#artifact-2d05d5aadf17"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/mortar_fixed_registration/index.html",
+    "published_target": "ARTIFACTS.md#artifact-6e4b4b92b25f"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/sonar_fixed_mesh/index.html",
+    "published_target": "ARTIFACTS.md#artifact-8f0a04b6ace9"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/sonar_projection_chain_audit/index.html",
+    "published_target": "ARTIFACTS.md#artifact-3db267dd4f52"
+  },
+  {
+    "file": "research/dataset.md",
+    "original_target": "DataSet/camera_temporal_all/index.html",
+    "published_target": "ARTIFACTS.md#artifact-509c66e4b095"
+  },
+  {
+    "file": "research/experiment/archive/sonar-box-curation-protocol-draft.md",
+    "original_target": "../../DataSet/sonar_independent_registration/selection.json",
+    "published_target": "../../ARTIFACTS.md#artifact-d2fbf44d730b"
+  },
+  {
+    "file": "research/experiment/archive/sonar-box-curation-protocol-draft.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/run-summary.json",
+    "published_target": "../../ARTIFACTS.md#artifact-9d8f0f1fe563"
+  },
+  {
+    "file": "research/experiment/evaluation.md",
+    "original_target": "../DataSet/paired_weak_scene_coverage_pan_split/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-7b6b78ded1da"
+  },
+  {
+    "file": "research/experiment/evaluation.md",
+    "original_target": "../DataSet/paired_four_recording_expanded/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-9940a746ec7f"
+  },
+  {
+    "file": "research/experiment/evaluation.md",
+    "original_target": "../DataSet/paired_expanded_resplit_candidate/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-4f30fc00fd8b"
+  },
+  {
+    "file": "research/experiment/evaluation.md",
+    "original_target": "../DataSet/paired_assistant_truncated_review/export/README.md",
+    "published_target": "../ARTIFACTS.md#artifact-387067fb2f13"
+  },
+  {
+    "file": "research/experiment/evaluation.md",
+    "original_target": "../DataSet/paired_assistant_truncated_review/export/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-a14061aa6c51"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/paired_weak_scene_coverage_pan_split/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-7b6b78ded1da"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/paired_four_recording_expanded/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-9940a746ec7f"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/all94_recording_coverage_audit/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-ef26c73164e5"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/paired_expanded_resplit_candidate/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-4f30fc00fd8b"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/scene_stratified_recording_candidate/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-0fc3a69c3703"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/expanded_paired_coverage_candidate/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-adc723e0ca52"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/sonar_ray_visibility/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-9c4e3205ed51"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/paired_assistant_truncated_review/export/README.md",
+    "published_target": "../ARTIFACTS.md#artifact-387067fb2f13"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/paired_assistant_truncated_review/export/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-a14061aa6c51"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/sonar_fixed_registration_refinement/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-2d05d5aadf17"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/sonar_fixed_registration_refinement/run-summary.json",
+    "published_target": "../ARTIFACTS.md#artifact-f95805ac1c9c"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/sonar_initial_candidate_audit/floor-target-fix-verification.json",
+    "published_target": "../ARTIFACTS.md#artifact-3a7f803c0a37"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/sonar_initial_candidate_audit/production-restart-verification.json",
+    "published_target": "../ARTIFACTS.md#artifact-289c6ff74772"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/mortar_fixed_registration/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-6e4b4b92b25f"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/mortar_fixed_registration/freeze-model.json",
+    "published_target": "../ARTIFACTS.md#artifact-ab6dd4daa0c6"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/sonar_registration_methods/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-2add25c39be5"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/sonar_fixed_mesh/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-8f0a04b6ace9"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/sonar_view_consistency/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-a78fd6f9c5d4"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/sonar_independent_registration/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-c45b6223b81c"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/scene_stratified_paired_expansion/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-dcdb7635c6e3"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/mortar_flyby_recovery/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-9ab93db696df"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/scene_stratified_mortar_recovered_candidate/index.html",
+    "published_target": "../ARTIFACTS.md#artifact-318e1cce8c85"
+  },
+  {
+    "file": "research/experiment/results.md",
+    "original_target": "../DataSet/train_scene_coverage_confirmation/results.json",
+    "published_target": "../ARTIFACTS.md#artifact-2d6be42a11f9"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_weak_scene_coverage_pan_split/index.html",
+    "published_target": "ARTIFACTS.md#artifact-7b6b78ded1da"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_expanded_resplit_candidate/index.html",
+    "published_target": "ARTIFACTS.md#artifact-4f30fc00fd8b"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_more_recordings_review_verified/index.html",
+    "published_target": "ARTIFACTS.md#artifact-0313dcaecaca"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/recording_expansion_94_audit/corrected_sd_review/index.html",
+    "published_target": "ARTIFACTS.md#artifact-0c9333431c79"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/train_scene_coverage_confirmation/results.json",
+    "published_target": "ARTIFACTS.md#artifact-2d6be42a11f9"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/train_scene_coverage_confirmation/scene-coverage.csv",
+    "published_target": "ARTIFACTS.md#artifact-8a2e3d2111f5"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/mortar_flyby_recovery/index.html",
+    "published_target": "ARTIFACTS.md#artifact-9ab93db696df"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/scene_stratified_mortar_recovered_candidate/index.html",
+    "published_target": "ARTIFACTS.md#artifact-318e1cce8c85"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/scene_stratified_paired_expansion/index.html",
+    "published_target": "ARTIFACTS.md#artifact-dcdb7635c6e3"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/scene_stratified_recording_candidate/index.html",
+    "published_target": "ARTIFACTS.md#artifact-0fc3a69c3703"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/expanded_paired_coverage_candidate/index.html",
+    "published_target": "ARTIFACTS.md#artifact-adc723e0ca52"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_recording_condition_coverage_candidate/index.html",
+    "published_target": "ARTIFACTS.md#artifact-d0e2c45d2060"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/camera_s_test_bomb_review/index.html",
+    "published_target": "ARTIFACTS.md#artifact-b8d483cf5f2c"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/camera_train_self_review/index.html",
+    "published_target": "ARTIFACTS.md#artifact-a7247ef120f7"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/camera_train_neighbor_review/index.html",
+    "published_target": "ARTIFACTS.md#artifact-aa29eaebd5a4"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/camera_s_two_recording_review/index.html",
+    "published_target": "ARTIFACTS.md#artifact-230fe696b83a"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_ray_visibility/index.html",
+    "published_target": "ARTIFACTS.md#artifact-9c4e3205ed51"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_assistant_truncated_review/export/README.md",
+    "published_target": "ARTIFACTS.md#artifact-387067fb2f13"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_assistant_truncated_review/export/index.html",
+    "published_target": "ARTIFACTS.md#artifact-a14061aa6c51"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_tag_continuous_camera/index.html",
+    "published_target": "ARTIFACTS.md#artifact-4e1b596ee152"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_assistant_full_review/export/index.html",
+    "published_target": "ARTIFACTS.md#artifact-7842e0e73cac"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_assistant_full_review/export/README.md",
+    "published_target": "ARTIFACTS.md#artifact-b473334d4b1f"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_rgb_pose_pilot/index.html",
+    "published_target": "ARTIFACTS.md#artifact-7cb9f7b14c08"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_assistant_remaining/export/index.html",
+    "published_target": "ARTIFACTS.md#artifact-72ad1ea7bf7b"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_projection_root_cause/comparison/index.html",
+    "published_target": "ARTIFACTS.md#artifact-8091d8907ac2"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_projection_root_cause/proposal_provenance/index.html",
+    "published_target": "ARTIFACTS.md#artifact-701d764e2653"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_box_guided_full_trajectory/index.html",
+    "published_target": "ARTIFACTS.md#artifact-d762b4eec970"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_box_guided_full_trajectory/qa/index.html",
+    "published_target": "ARTIFACTS.md#artifact-04c45d03627b"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_assistant_expansion/export/index.html",
+    "published_target": "ARTIFACTS.md#artifact-5f72a4eb1558"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/paired_visible_reviewed/export/index.html",
+    "published_target": "ARTIFACTS.md#artifact-9eebbc22ffa1"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_camera_continuous_timing/recording-decisions.json",
+    "published_target": "ARTIFACTS.md#artifact-e63a76537bbf"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_fixed_registration_refinement/index.html",
+    "published_target": "ARTIFACTS.md#artifact-2d05d5aadf17"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_fixed_registration_refinement/run-summary.json",
+    "published_target": "ARTIFACTS.md#artifact-f95805ac1c9c"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_initial_candidate_audit/production-restart-verification.json",
+    "published_target": "ARTIFACTS.md#artifact-289c6ff74772"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/mortar_fixed_registration/index.html",
+    "published_target": "ARTIFACTS.md#artifact-6e4b4b92b25f"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_registration_methods/index.html",
+    "published_target": "ARTIFACTS.md#artifact-2add25c39be5"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_fixed_mesh/index.html",
+    "published_target": "ARTIFACTS.md#artifact-8f0a04b6ace9"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_fixed_mesh/fixed-mesh-transforms.json",
+    "published_target": "ARTIFACTS.md#artifact-fbc529ae2c21"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/gopro_imaging_model/index.html",
+    "published_target": "ARTIFACTS.md#artifact-29aba4b05c63"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_view_consistency/index.html",
+    "published_target": "ARTIFACTS.md#artifact-a78fd6f9c5d4"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/sonar_projection_chain_audit/index.html",
+    "published_target": "ARTIFACTS.md#artifact-3db267dd4f52"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/camera_temporal_all/index.html",
+    "published_target": "ARTIFACTS.md#artifact-509c66e4b095"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/camera_temporal_pilot_rebuilt/index.html",
+    "published_target": "ARTIFACTS.md#artifact-0de86458421b"
+  },
+  {
+    "file": "research/handoff.md",
+    "original_target": "DataSet/camera_annotation_review/index.html",
+    "published_target": "ARTIFACTS.md#artifact-c8be9f3fdccf"
+  },
+  {
+    "file": "research/README.md",
+    "original_target": "ARTIFACTS.md",
+    "published_target": "ARTIFACTS.md#artifact-b4ed386eb700"
+  },
+  {
+    "file": "research/related_work/dataset-split-after-closure.md",
+    "original_target": "cmhd/source/sections-indexed.txt",
+    "published_target": "../ARTIFACTS.md#artifact-94799dbed714"
+  },
+  {
+    "file": "research/related_work/dataset-split-after-closure.md",
+    "original_target": "cmold/evidence-existing/cmold_numbered.txt",
+    "published_target": "../ARTIFACTS.md#artifact-109cd67ccf39"
+  },
+  {
+    "file": "research/related_work/dataset-split-after-closure.md",
+    "original_target": "yolox-vit-side-scan-sonar-kd/source/tex/03_model.tex",
+    "published_target": "../ARTIFACTS.md#artifact-9b84bc8c6ab3"
+  },
+  {
+    "file": "research/related_work/dataset-split-after-closure.md",
+    "original_target": "yolox-vit-side-scan-sonar-kd/source/tex/05_exp_results.tex",
+    "published_target": "../ARTIFACTS.md#artifact-c79b8be38e96"
+  },
+  {
+    "file": "research/related_work/model-registration-sources/README.md",
+    "original_target": "all-public-history-paths.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-1c989e5fcb1a"
+  },
+  {
+    "file": "research/related_work/model-registration-sources/README.md",
+    "original_target": "camera-pitch-change.patch",
+    "published_target": "../../ARTIFACTS.md#artifact-13654b9a5306"
+  },
+  {
+    "file": "research/related_work/model-registration-sources/README.md",
+    "original_target": "pose-notebook-at-addition.ipynb",
+    "published_target": "../../ARTIFACTS.md#artifact-a488d355342f"
+  },
+  {
+    "file": "research/related_work/recording-split-review-20261111/uxo-readme.md",
+    "original_target": "media/teaser_montage_h.png",
+    "published_target": "../../ARTIFACTS.md#artifact-d8f06fee678f"
+  },
+  {
+    "file": "research/related_work/recording-split-review-20261111/uxo-readme.md",
+    "original_target": "media/aris_setup_labeled.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-a91e6bddf1cf"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/beam-evidence.md",
+    "original_target": "../uxo-upstream-history/calibration/transforms.yaml",
+    "published_target": "../../ARTIFACTS.md#artifact-64be26eceb2d"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/beam-evidence.md",
+    "original_target": "../uxo-upstream-history/scripts/common/aris_definitions.py",
+    "published_target": "../../ARTIFACTS.md#artifact-b6bbc201b4c6"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/beam-evidence.md",
+    "original_target": "../uxo-upstream-history/scripts/view_recording.py",
+    "published_target": "../../ARTIFACTS.md#artifact-f518715eec11"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/beam-evidence.md",
+    "original_target": "../uxo-upstream-history/scripts/prep_2_aris_to_polar.py",
+    "published_target": "../../ARTIFACTS.md#artifact-78fba5f843d4"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/beam-evidence.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/fixed-mesh-transforms.json",
+    "published_target": "../../ARTIFACTS.md#artifact-fbc529ae2c21"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/beam-evidence.md",
+    "original_target": "../uxo-upstream-history/demo/snippet_for_pose_gt.ipynb",
+    "published_target": "../../ARTIFACTS.md#artifact-3c9d6d4f9ee3"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/CMHD-evidence.md",
+    "original_target": "../cmhd/source/fulltext.xml",
+    "published_target": "../../ARTIFACTS.md#artifact-f5ac120ef892"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/CMHD-evidence.md",
+    "original_target": "../cmhd/source/sections-indexed.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-94799dbed714"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/registration-methods-review.md",
+    "original_target": "../../experiment/sonar-box-curation-protocol-draft.md",
+    "published_target": "../../ARTIFACTS.md#artifact-96411255b586"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/registration-methods-review.md",
+    "original_target": "../../DataSet/sonar_registration_methods/observability/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-1afff5e74120"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/registration-methods-review.md",
+    "original_target": "../../DataSet/sonar_registration_methods/observability/README.md",
+    "published_target": "../../ARTIFACTS.md#artifact-506d2be09fd3"
+  },
+  {
+    "file": "research/related_work/sonar-literature-recheck/registration-methods-review.md",
+    "original_target": "../../DataSet/sonar_independent_registration/selection.json",
+    "published_target": "../../ARTIFACTS.md#artifact-d2fbf44d730b"
+  },
+  {
+    "file": "research/related_work/sonar-projection-reproduction-use.md",
+    "original_target": "stereo-sidescan-fls-feature-geometry/source/main.tex",
+    "published_target": "../ARTIFACTS.md#artifact-38ac651cfa26"
+  },
+  {
+    "file": "research/related_work/sonar-projection-reproduction-use.md",
+    "original_target": "pnp-2d-fls-convex-global/source/IEEE-conference-template-062824.tex",
+    "published_target": "../ARTIFACTS.md#artifact-efb26ed84574"
+  },
+  {
+    "file": "research/related_work/sonar-projection-reproduction-use.md",
+    "original_target": "bestanp-acoustic-n-point/source/RAL_version3.tex",
+    "published_target": "../ARTIFACTS.md#artifact-f8e3d5ac368f"
+  },
+  {
+    "file": "research/related_work/sonar-projection-reproduction-use.md",
+    "original_target": "outlier-rejection-2d3d-fls/source/root.tex",
+    "published_target": "../ARTIFACTS.md#artifact-a1c9e307cc9f"
+  },
+  {
+    "file": "research/related_work/sonar-projection-reproduction-use.md",
+    "original_target": "rasterized-raytracer-sonar-sim/source/elsarticle-template.tex",
+    "published_target": "../ARTIFACTS.md#artifact-eb0978ee7249"
+  },
+  {
+    "file": "research/related_work/sonar-projection-reproduction-use.md",
+    "original_target": "oceansim-gpu-underwater-sim/source/Sections/Method.tex",
+    "published_target": "../ARTIFACTS.md#artifact-d030a7fba7c7"
+  },
+  {
+    "file": "research/related_work/sonar-projection-reproduction-use.md",
+    "original_target": "towards-realistic-3d-sonar-simulation/source/conference_101719.tex",
+    "published_target": "../ARTIFACTS.md#artifact-79a9d68d305d"
+  },
+  {
+    "file": "research/related_work/sonar-projection-reproduction-use.md",
+    "original_target": "geometry-driven-opti-acoustic-co-registration-and-view-invar/source/main.tex",
+    "published_target": "../ARTIFACTS.md#artifact-4d6fdffd8b8c"
+  },
+  {
+    "file": "research/related_work/sonar-projection-reproduction-use.md",
+    "original_target": "sonar-motion-paper-alignment/cmhd-section-3-1.txt",
+    "published_target": "../ARTIFACTS.md#artifact-4019367014c5"
+  },
+  {
+    "file": "research/runs/camera_recording_baseline/README.md",
+    "original_target": "train.log",
+    "published_target": "../../ARTIFACTS.md#artifact-23682527417f"
+  },
+  {
+    "file": "research/runs/camera_recording_baseline/README.md",
+    "original_target": "../../DataSet/camera_recording_baseline/geometry-preview.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-018858fc0f5e"
+  },
+  {
+    "file": "research/runs/camera_recording_m/README.md",
+    "original_target": "train.log",
+    "published_target": "../../ARTIFACTS.md#artifact-b08307b8496c"
+  },
+  {
+    "file": "research/复现/camera-baseline/all94-recording-coverage-audit.md",
+    "original_target": "../../DataSet/all94_recording_coverage_audit/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-ef26c73164e5"
+  },
+  {
+    "file": "research/复现/camera-baseline/all94-recording-coverage-audit.md",
+    "original_target": "../../DataSet/all94_recording_coverage_audit/inventory-reviewed.csv",
+    "published_target": "../../ARTIFACTS.md#artifact-60d30e496709"
+  },
+  {
+    "file": "research/复现/camera-baseline/all94-recording-coverage-audit.md",
+    "original_target": "../../DataSet/all94_recording_coverage_audit/inventory-reviewed.json",
+    "published_target": "../../ARTIFACTS.md#artifact-51476003bfa3"
+  },
+  {
+    "file": "research/复现/camera-baseline/all94-recording-coverage-audit.md",
+    "original_target": "../../DataSet/all94_recording_coverage_audit/decisions.json",
+    "published_target": "../../ARTIFACTS.md#artifact-9549b57dd412"
+  },
+  {
+    "file": "research/复现/camera-baseline/all94-recording-coverage-audit.md",
+    "original_target": "../../DataSet/all94_recording_coverage_audit/unassigned-clips-reviewed.json",
+    "published_target": "../../ARTIFACTS.md#artifact-9b59ad8db566"
+  },
+  {
+    "file": "research/复现/camera-baseline/all94-recording-coverage-audit.md",
+    "original_target": "../../DataSet/all94_recording_coverage_audit/unassigned-timing-metadata.json",
+    "published_target": "../../ARTIFACTS.md#artifact-75ee5905e17e"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/camera-temporal-all-results.md",
+    "original_target": "../../../DataSet/camera_temporal_all/index.html",
+    "published_target": "../../../ARTIFACTS.md#artifact-509c66e4b095"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/camera-temporal-all-results.md",
+    "original_target": "../../../DataSet/camera_temporal_all/manifest-resolved.json",
+    "published_target": "../../../ARTIFACTS.md#artifact-71c4c91cc60c"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/camera-temporal-all-results.md",
+    "original_target": "../../../DataSet/camera_temporal_all/verification-resolved.json",
+    "published_target": "../../../ARTIFACTS.md#artifact-7e88a5ad1822"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/camera-temporal-all-results.md",
+    "original_target": "../../../DataSet/camera_temporal_all/source-archive-verification.json",
+    "published_target": "../../../ARTIFACTS.md#artifact-65f9dd347f19"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/camera-temporal-all-results.md",
+    "original_target": "../../../DataSet/camera_temporal_all/annotation-archive-verification.json",
+    "published_target": "../../../ARTIFACTS.md#artifact-a89859fdaaad"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/camera-temporal-pilot-results.md",
+    "original_target": "../../../DataSet/camera_temporal_pilot_rebuilt/index.html",
+    "published_target": "../../../ARTIFACTS.md#artifact-0de86458421b"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/camera-temporal-pilot-results.md",
+    "original_target": "../../../DataSet/camera_temporal_pilot_rebuilt/verification-overview.jpg",
+    "published_target": "../../../ARTIFACTS.md#artifact-22a56f1f8a3a"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/camera-temporal-pilot-results.md",
+    "original_target": "../../../DataSet/camera_temporal_pilot_rebuilt/manifest.json",
+    "published_target": "../../../ARTIFACTS.md#artifact-d9b1f5801bbe"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/camera-temporal-pilot-results.md",
+    "original_target": "../../../DataSet/camera_temporal_pilot_rebuilt/correspondence.csv",
+    "published_target": "../../../ARTIFACTS.md#artifact-a093a89a45f0"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/full-source-timing-cause-audit.md",
+    "original_target": "../../../DataSet/camera_annotation_review/manifest.json",
+    "published_target": "../../../ARTIFACTS.md#artifact-e93ca666d72e"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/full-source-timing-cause-audit.md",
+    "original_target": "../../../related_work/uxo/sd-fhd-trace/prep_7_gopro_cut.bash",
+    "published_target": "../../../ARTIFACTS.md#artifact-12e77cb26d77"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/full-source-timing-cause-audit.md",
+    "original_target": "../../../related_work/uxo/sd-fhd-trace/prep_8_gopro_downsample.bash",
+    "published_target": "../../../ARTIFACTS.md#artifact-274c42251fed"
+  },
+  {
+    "file": "research/复现/camera-baseline/annotation-issues/mortar-camera-misalignment.md",
+    "original_target": "../../../DataSet/camera_annotation_review/reported-issues.csv",
+    "published_target": "../../../ARTIFACTS.md#artifact-383e85b2109d"
+  },
+  {
+    "file": "research/复现/camera-baseline/bomb182317-camera-coverage-audit.md",
+    "original_target": "../../DataSet/bomb182317-camera-coverage-audit/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-00d88669a991"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-annotation-export.md",
+    "original_target": "../../DataSet/camera_annotation_review/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-c8be9f3fdccf"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-m-pilot-distribution.md",
+    "original_target": "../../runs/scene_camera_m_pilot/train/distribution_analysis/grenade-flyby-train-val.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-1ff58f46e5ae"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-m-pilot-distribution.md",
+    "original_target": "../../runs/scene_camera_m_pilot/train/distribution_analysis/mortar-flyby-train-val.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-cbd162887495"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-s-test-results.md",
+    "original_target": "../../DataSet/camera_recording_baseline/test-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-d01b8639a940"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-test-bomb-review.md",
+    "original_target": "../../DataSet/camera_s_test_bomb_review/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-b8d483cf5f2c"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-test-bomb-review.md",
+    "original_target": "../../DataSet/camera_s_test_bomb_review/errors.csv",
+    "published_target": "../../ARTIFACTS.md#artifact-17a24bcdb0b4"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-train-neighbor-review.md",
+    "original_target": "../../DataSet/camera_train_neighbor_review/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-aa29eaebd5a4"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-train-neighbor-review.md",
+    "original_target": "../../DataSet/camera_train_neighbor_review/neighbors.json",
+    "published_target": "../../ARTIFACTS.md#artifact-e0b9956b3fce"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-train-neighbor-review.md",
+    "original_target": "../../DataSet/camera_train_neighbor_review/retrieval-scores.npz",
+    "published_target": "../../ARTIFACTS.md#artifact-f8ff709e7919"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-train-val-gap.md",
+    "original_target": "../../DataSet/camera_train_self_review/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-a7247ef120f7"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-train-val-gap.md",
+    "original_target": "../../DataSet/camera_train_self_review/train-errors.csv",
+    "published_target": "../../ARTIFACTS.md#artifact-b0082fba5804"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-train-val-gap.md",
+    "original_target": "../../DataSet/camera_train_self_review/val-errors.csv",
+    "published_target": "../../ARTIFACTS.md#artifact-e51126498608"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-train-val-gap.md",
+    "original_target": "../../DataSet/camera_train_self_review/neighbor-predictions.json",
+    "published_target": "../../ARTIFACTS.md#artifact-cf77298a8514"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-two-recording-review.md",
+    "original_target": "../../DataSet/camera_s_two_recording_review/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-230fe696b83a"
+  },
+  {
+    "file": "research/复现/camera-baseline/camera-two-recording-review.md",
+    "original_target": "../../DataSet/camera_s_two_recording_review/errors.csv",
+    "published_target": "../../ARTIFACTS.md#artifact-4650e93b1852"
+  },
+  {
+    "file": "research/复现/camera-baseline/cmold-camera-teacher-clarification.md",
+    "original_target": "../../related_work/cmold/paper.pdf",
+    "published_target": "../../ARTIFACTS.md#artifact-b44090068078"
+  },
+  {
+    "file": "research/复现/camera-baseline/cmold-camera-teacher-clarification.md",
+    "original_target": "../../related_work/cmold/evidence-existing/cmold-p12-recheck.png",
+    "published_target": "../../ARTIFACTS.md#artifact-99a14056bc38"
+  },
+  {
+    "file": "research/复现/camera-baseline/current-experiment-integrity-audit.md",
+    "original_target": "integrity-audit/metric-controls.log",
+    "published_target": "../../ARTIFACTS.md#artifact-4106d1166f9a"
+  },
+  {
+    "file": "research/复现/camera-baseline/current-teacher-paper-comparison.md",
+    "original_target": "../../related_work/cmold/paper.pdf",
+    "published_target": "../../ARTIFACTS.md#artifact-b44090068078"
+  },
+  {
+    "file": "research/复现/camera-baseline/current-teacher-paper-comparison.md",
+    "original_target": "../../related_work/cmold/evidence-existing/cmold_t3.png",
+    "published_target": "../../ARTIFACTS.md#artifact-ea06e21b6c21"
+  },
+  {
+    "file": "research/复现/camera-baseline/current-teacher-paper-comparison.md",
+    "original_target": "../../related_work/cmold/evidence-existing/cmold_t2.png",
+    "published_target": "../../ARTIFACTS.md#artifact-a4edd924ba67"
+  },
+  {
+    "file": "research/复现/camera-baseline/current-teacher-paper-comparison.md",
+    "original_target": "../../related_work/cmold/evidence-existing/cmold_numbered.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-109cd67ccf39"
+  },
+  {
+    "file": "research/复现/camera-baseline/current-teacher-paper-comparison.md",
+    "original_target": "../../related_work/cmhd/source/fulltext.xml",
+    "published_target": "../../ARTIFACTS.md#artifact-f5ac120ef892"
+  },
+  {
+    "file": "research/复现/camera-baseline/expanded-paired-recordings.md",
+    "original_target": "../../DataSet/expanded_paired_coverage_candidate/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-adc723e0ca52"
+  },
+  {
+    "file": "research/复现/camera-baseline/expanded-paired-recordings.md",
+    "original_target": "../../DataSet/expanded_paired_coverage_candidate/manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-a7419b736454"
+  },
+  {
+    "file": "research/复现/camera-baseline/expanded-paired-recordings.md",
+    "original_target": "../../DataSet/expanded_paired_coverage_candidate/review-events.json",
+    "published_target": "../../ARTIFACTS.md#artifact-c6dd6c0d6054"
+  },
+  {
+    "file": "research/复现/camera-baseline/expanded-paired-recordings.md",
+    "original_target": "../../DataSet/expanded_paired_recordings/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-c4e193f990bb"
+  },
+  {
+    "file": "research/复现/camera-baseline/four-recording-paired-annotation-review.md",
+    "original_target": "../../DataSet/four_recording_paired_annotation/overview/",
+    "published_target": "../../ARTIFACTS.md#artifact-2a82a570312f"
+  },
+  {
+    "file": "research/复现/camera-baseline/four-recording-paired-annotation-review.md",
+    "original_target": "../../DataSet/four_recording_paired_annotation/proposal_v2/",
+    "published_target": "../../ARTIFACTS.md#artifact-e2edc67983a9"
+  },
+  {
+    "file": "research/复现/camera-baseline/four-recording-paired-annotation-review.md",
+    "original_target": "../../DataSet/four_recording_paired_annotation/review-decisions.json",
+    "published_target": "../../ARTIFACTS.md#artifact-3dfa448166fb"
+  },
+  {
+    "file": "research/复现/camera-baseline/four-recording-paired-annotation-review.md",
+    "original_target": "../../DataSet/four_recording_paired_annotation/review-summary.json",
+    "published_target": "../../ARTIFACTS.md#artifact-2328e7daf516"
+  },
+  {
+    "file": "research/复现/camera-baseline/four-recording-paired-expansion-5229.md",
+    "original_target": "../../DataSet/four_recording_paired_annotation/proposals-v3.json",
+    "published_target": "../../ARTIFACTS.md#artifact-3eb1f4d96c84"
+  },
+  {
+    "file": "research/复现/camera-baseline/four-recording-paired-expansion-5229.md",
+    "original_target": "../../DataSet/four_recording_paired_annotation/explicit-corrections-final.json",
+    "published_target": "../../ARTIFACTS.md#artifact-a08ee6824192"
+  },
+  {
+    "file": "research/复现/camera-baseline/four-recording-paired-expansion-5229.md",
+    "original_target": "../../DataSet/paired_four_recording_expanded/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-9940a746ec7f"
+  },
+  {
+    "file": "research/复现/camera-baseline/four-recording-paired-expansion-5229.md",
+    "original_target": "../../DataSet/paired_four_recording_expanded/added-manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-c0939f7eefac"
+  },
+  {
+    "file": "research/复现/camera-baseline/four-recording-paired-expansion-5229.md",
+    "original_target": "../../DataSet/paired_four_recording_expanded/manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-0aea4b2cee24"
+  },
+  {
+    "file": "research/复现/camera-baseline/four-recording-paired-expansion-5229.md",
+    "original_target": "../../DataSet/paired_four_recording_expanded/unresolved/manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-3545251dfa04"
+  },
+  {
+    "file": "research/复现/camera-baseline/gopro-control-records.md",
+    "original_target": "../../related_work/gopro-control-records/processed-archive-paths.json",
+    "published_target": "../../ARTIFACTS.md#artifact-a00833fc2351"
+  },
+  {
+    "file": "research/复现/camera-baseline/gopro-imaging-model.md",
+    "original_target": "../../DataSet/gopro_imaging_model/metadata-audit.json",
+    "published_target": "../../ARTIFACTS.md#artifact-6b49947f862e"
+  },
+  {
+    "file": "research/复现/camera-baseline/gopro-imaging-model.md",
+    "original_target": "../../related_work/gopro-imaging-model/historical-abstract.tex",
+    "published_target": "../../ARTIFACTS.md#artifact-a3e5a34c1229"
+  },
+  {
+    "file": "research/复现/camera-baseline/gopro-imaging-model.md",
+    "original_target": "../../DataSet/gopro_imaging_model/apriltag-controls.json",
+    "published_target": "../../ARTIFACTS.md#artifact-e1c448f24330"
+  },
+  {
+    "file": "research/复现/camera-baseline/gopro-imaging-model.md",
+    "original_target": "../../DataSet/gopro_imaging_model/tag-sd-fhd-control.json",
+    "published_target": "../../ARTIFACTS.md#artifact-b334bcd15147"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测_workflow/tools/audit_camera_implementation.py",
+    "published_target": "../../ARTIFACTS.md#artifact-9d78f841b491"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测_workflow/复现/camera-baseline/evidence/implementation-audit.json",
+    "published_target": "../../ARTIFACTS.md#artifact-9b0a8c57ffaf"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测/code/VSFusionDistill/doc/logs/2026-11-09-stage-review-camera-baseline.md:70",
+    "published_target": "../../ARTIFACTS.md#artifact-a67ec9a045d1"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测/code/VSFusionDistill/work_dirs/repro_cmold_teacher/t_camera_s/20261109_022400/20261109_022400.log:30",
+    "published_target": "../../ARTIFACTS.md#artifact-c2daea8a24fd"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测/code/VSFusionDistill/configs/_base_/schedules/schedule_f2.py:62",
+    "published_target": "../../ARTIFACTS.md#artifact-a46a85eac287"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测_workflow/related_work/mmengine/source/ema_hook_v0.10.7.py:159",
+    "published_target": "../../ARTIFACTS.md#artifact-8e171b3e9179"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测/code/VSFusionDistill/tools/test.py:110",
+    "published_target": "../../ARTIFACTS.md#artifact-9536c8ca6454"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测_workflow/related_work/mmengine/source/checkpoint_v0.10.7.py:569",
+    "published_target": "../../ARTIFACTS.md#artifact-bd246a1c3d1c"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测/code/VSFusionDistill/aodet/datasets/transforms/paired_geometric.py:77",
+    "published_target": "../../ARTIFACTS.md#artifact-5d12232f2ab6"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测/code/VSFusionDistill/aodet/models/data_preprocessors/paired_preprocessor.py:42",
+    "published_target": "../../ARTIFACTS.md#artifact-1cea3d1e67cc"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测/code/VSFusionDistill/work_dirs/repro_cmold_teacher/t_camera_s/20261109_022400/20261109_022400.log:3909",
+    "published_target": "../../ARTIFACTS.md#artifact-f10d67d1ae7c"
+  },
+  {
+    "file": "research/复现/camera-baseline/implementation-evidence-review.md",
+    "original_target": "D:/agent_workspace/水下/声呐目标检测/code/VSFusionDistill/configs/repro_cmold/r0_baseline_yoloxs.py:85",
+    "published_target": "../../ARTIFACTS.md#artifact-ce5463194cbb"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/observations/fit-observations.json",
+    "published_target": "../../ARTIFACTS.md#artifact-432854cb15e8"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/freeze-model.json",
+    "published_target": "../../ARTIFACTS.md#artifact-ab6dd4daa0c6"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/zero-cost-ambiguity.json",
+    "published_target": "../../ARTIFACTS.md#artifact-63747c0f9611"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/candidate-ambiguity.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-c708740618d4"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/evaluation-results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-cf04eb827893"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/numerical-controls.json",
+    "published_target": "../../ARTIFACTS.md#artifact-caa6f9fa28bf"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/independent-fit-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-9f0a210c7cdf"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/independent-check-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-e93e6e3c3a25"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-6e4b4b92b25f"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/fit-results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-f165824c9c07"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/solver-notes.md",
+    "published_target": "../../ARTIFACTS.md#artifact-46897acf2925"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/fit-analysis.json",
+    "published_target": "../../ARTIFACTS.md#artifact-44301a9b95ae"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-fixed-registration.md",
+    "original_target": "../../DataSet/mortar_fixed_registration/independent-review/after-overlay-notes.md",
+    "published_target": "../../ARTIFACTS.md#artifact-8fb5276e50b8"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-flyby-recovery.md",
+    "original_target": "../../DataSet/scene_stratified_mortar_recovered_candidate/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-318e1cce8c85"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-flyby-recovery.md",
+    "original_target": "../../DataSet/scene_stratified_mortar_recovered_candidate/recordings/2023-09-21_105856.html",
+    "published_target": "../../ARTIFACTS.md#artifact-54f0615f3dc0"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-flyby-recovery.md",
+    "original_target": "../../DataSet/mortar_flyby_recovery/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-9ab93db696df"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-flyby-recovery.md",
+    "original_target": "../../DataSet/scene_stratified_mortar_recovered_candidate/recordings/2023-09-21_105856.html",
+    "published_target": "../../ARTIFACTS.md#artifact-54f0615f3dc0"
+  },
+  {
+    "file": "research/复现/camera-baseline/mortar-flyby-recovery.md",
+    "original_target": "../../DataSet/mortar_flyby_recovery/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-9ab93db696df"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-expansion-results.md",
+    "original_target": "../../DataSet/paired_assistant_expansion/export/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-5f72a4eb1558"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../DataSet/paired_assistant_full_review/export/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-7842e0e73cac"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../DataSet/paired_assistant_full_review/export/README.md",
+    "published_target": "../../ARTIFACTS.md#artifact-b473334d4b1f"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../DataSet/paired_assistant_full_review/export/manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-61eb1a6d889c"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../DataSet/paired_assistant_full_review/export/summary.json",
+    "published_target": "../../ARTIFACTS.md#artifact-39799e41ad0d"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../DataSet/paired_assistant_full_review/export/verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-7c5cf6ca52ab"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../DataSet/paired_assistant_full_review/export/provenance-audit.json",
+    "published_target": "../../ARTIFACTS.md#artifact-96f48a687b38"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../related_work/recording-split-review-20261111/cmhd-fulltext.xml",
+    "published_target": "../../ARTIFACTS.md#artifact-835631a6a819"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../related_work/cmold/evidence-existing/cmold_numbered.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-109cd67ccf39"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../DataSet/paired_assistant_full_review/export/provenance-audit-attempts.jsonl",
+    "published_target": "../../ARTIFACTS.md#artifact-bc278083b6d2"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../DataSet/paired_assistant_full_review/preview-qa/review-result.json",
+    "published_target": "../../ARTIFACTS.md#artifact-5f46ff0c24ec"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-full-review-results.md",
+    "original_target": "../../DataSet/paired_assistant_mortar/model-recheck/same-proposal-review.json",
+    "published_target": "../../ARTIFACTS.md#artifact-c83d3986d18a"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-mortar-results.md",
+    "original_target": "../../DataSet/paired_assistant_mortar/model-recheck/same-proposal-review.json",
+    "published_target": "../../ARTIFACTS.md#artifact-c83d3986d18a"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-remaining-results.md",
+    "original_target": "../../DataSet/paired_assistant_remaining/export/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-72ad1ea7bf7b"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-assistant-remaining-results.md",
+    "original_target": "../../DataSet/paired_assistant_remaining/export/verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-bbe24165a12a"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-bomb-truncated-results.md",
+    "original_target": "../../DataSet/paired_assistant_truncated_review/export/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-a14061aa6c51"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-bomb-truncated-results.md",
+    "original_target": "../../DataSet/paired_assistant_truncated_review/export/README.md",
+    "published_target": "../../ARTIFACTS.md#artifact-387067fb2f13"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-bomb-truncated-results.md",
+    "original_target": "../../DataSet/paired_assistant_truncated_review/export/manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-ba71e56ae039"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-bomb-truncated-results.md",
+    "original_target": "../../DataSet/paired_assistant_truncated_review/export/verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-b4dd603aed73"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-bomb-truncated-results.md",
+    "original_target": "../../DataSet/paired_assistant_truncated_review/export/provenance-audit.json",
+    "published_target": "../../ARTIFACTS.md#artifact-1dc99d1ba9bf"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-bomb-truncated-results.md",
+    "original_target": "../../DataSet/paired_assistant_full_review/export/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-7842e0e73cac"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-bomb-truncated-results.md",
+    "original_target": "../../DataSet/paired_assistant_truncated_review/export/camera-visibility.json",
+    "published_target": "../../ARTIFACTS.md#artifact-6c702c727639"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-expanded-resplit-4836.md",
+    "original_target": "../../DataSet/paired_expanded_resplit_candidate/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-4f30fc00fd8b"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-expanded-resplit-4836.md",
+    "original_target": "../../DataSet/paired_expanded_resplit_candidate/manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-faba58f87393"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-expanded-resplit-4836.md",
+    "original_target": "../../DataSet/paired_expanded_resplit_candidate/review-events.json",
+    "published_target": "../../ARTIFACTS.md#artifact-e0b022dceffe"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-expansion-weak-scene-coverage.md",
+    "original_target": "../../DataSet/paired_weak_scene_coverage_audit/2023-09-21_110049.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-6e4a32e79d33"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-expansion-weak-scene-coverage.md",
+    "original_target": "../../DataSet/paired_weak_scene_coverage_audit/2023-09-21_105856.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-cb917dff53fa"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-expansion-weak-scene-coverage.md",
+    "original_target": "../../DataSet/paired_weak_scene_coverage_audit/2023-09-21_110229.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-7cf6e413aa3e"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-expansion-weak-scene-coverage.md",
+    "original_target": "../../DataSet/paired_weak_scene_coverage_audit/2023-09-21_110411.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-36b0ef0fa5e4"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-complete-ring.md",
+    "original_target": "../../DataSet/paired_grenade_complete_ring/candidates.json",
+    "published_target": "../../ARTIFACTS.md#artifact-4e8cb2fa52e0"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-complete-ring.md",
+    "original_target": "../../DataSet/paired_assistant_grenade_complete_ring/2023-09-21_124915/page-0000.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-8d7a9e460d94"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-complete-ring.md",
+    "original_target": "../../DataSet/paired_assistant_grenade_complete_ring/2023-09-21_124915/page-0012.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-6fbb73a95ae3"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-complete-ring.md",
+    "original_target": "../../DataSet/paired_assistant_grenade_complete_ring/2023-09-21_124915/page-0024.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-78e8940d737e"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/125048-qa-0.png",
+    "published_target": "../../ARTIFACTS.md#artifact-6ddb9955ec12"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/125048-qa-1.png",
+    "published_target": "../../ARTIFACTS.md#artifact-a309f7beb710"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/125048-qa-2.png",
+    "published_target": "../../ARTIFACTS.md#artifact-31c1e113027c"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/125048-qa-3.png",
+    "published_target": "../../ARTIFACTS.md#artifact-67564c332904"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/qa-results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-c62e6006f9a4"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/124915-143.png",
+    "published_target": "../../ARTIFACTS.md#artifact-f8c07230be90"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/124915-160.png",
+    "published_target": "../../ARTIFACTS.md#artifact-dcbffd916a5a"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/124915-source-examples.json",
+    "published_target": "../../ARTIFACTS.md#artifact-aa56d377dafb"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/124915-168.png",
+    "published_target": "../../ARTIFACTS.md#artifact-433b37bac985"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/124915-169.png",
+    "published_target": "../../ARTIFACTS.md#artifact-cf472d2451b2"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-readonly-qa.md",
+    "original_target": "../../DataSet/paired_grenade_independent_qa/124915-170.png",
+    "published_target": "../../ARTIFACTS.md#artifact-98f52b684069"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-remaining-review.md",
+    "original_target": "../../DataSet/paired_grenade_remaining_supplement/candidates.json",
+    "published_target": "../../ARTIFACTS.md#artifact-e75be09ae97a"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-remaining-review.md",
+    "original_target": "../../DataSet/paired_grenade_remaining_supplement/preparation.json",
+    "published_target": "../../ARTIFACTS.md#artifact-f061e3cdf772"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-remaining-review.md",
+    "original_target": "../../DataSet/paired_assistant_grenade_remaining_manual_124915/2023-09-21_124915/page-0000.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-d67a7d651398"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-remaining-review.md",
+    "original_target": "../../DataSet/paired_assistant_grenade_remaining_manual_ring/2023-09-21_125048/page-0000.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-bad192ecaccf"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-remaining-review.md",
+    "original_target": "../../DataSet/paired_assistant_grenade_remaining_manual/2023-09-21_125048/page-0036.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-3b9550a46c84"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-grenade-remaining-review.md",
+    "original_target": "../../DataSet/paired_grenade_remaining_supplement/manual-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-f49fec33f03b"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-mortar-independent-qa.md",
+    "original_target": "../../DataSet/paired_assistant_mortar_independent_qa/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-b1558bbc521d"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-paper-scale.md",
+    "original_target": "../../related_work/recording-split-review-20261111/cmhd-fulltext.xml",
+    "published_target": "../../ARTIFACTS.md#artifact-835631a6a819"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-paper-scale.md",
+    "original_target": "../../related_work/cmold/paper.pdf",
+    "published_target": "../../ARTIFACTS.md#artifact-b44090068078"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-paper-scale.md",
+    "original_target": "../../related_work/cmold/evidence-existing/cmold_numbered.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-109cd67ccf39"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-paper-scale.md",
+    "original_target": "../../DataSet/paired_paper_scale/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-d98db18ebd09"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-paper-scale.md",
+    "original_target": "../../DataSet/paired_paper_scale/manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-d5198bdd1637"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-paper-scale.md",
+    "original_target": "../../DataSet/paired_paper_scale/recording-coverage.json",
+    "published_target": "../../ARTIFACTS.md#artifact-119341ae3172"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-paper-scale.md",
+    "original_target": "../../DataSet/paired_paper_scale/uniform-review-queue.json",
+    "published_target": "../../ARTIFACTS.md#artifact-0d149472fa79"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-visible-expansion-results.md",
+    "original_target": "../../related_work/recording-split-review-20261111/cmhd-fulltext.xml",
+    "published_target": "../../ARTIFACTS.md#artifact-835631a6a819"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-visible-expansion-results.md",
+    "original_target": "../../related_work/cmold/evidence-existing/cmold_numbered.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-109cd67ccf39"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-visible-expansion-results.md",
+    "original_target": "../../related_work/cmold/paper.pdf",
+    "published_target": "../../ARTIFACTS.md#artifact-b44090068078"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-visible-expansion-results.md",
+    "original_target": "../../DataSet/paired_visible_reviewed/export/manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-aa2621df65fe"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-visible-expansion-results.md",
+    "original_target": "../../DataSet/paired_visible_reviewed/export/summary.json",
+    "published_target": "../../ARTIFACTS.md#artifact-6030b8f1796e"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-visible-expansion-results.md",
+    "original_target": "../../DataSet/paired_visible_reviewed/export/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-9eebbc22ffa1"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-visible-expansion-results.md",
+    "original_target": "../../DataSet/paired_visible_expansion_zoom/control-qa/assistant-review.json",
+    "published_target": "../../ARTIFACTS.md#artifact-7bff5081ba97"
+  },
+  {
+    "file": "research/复现/camera-baseline/paired-visible-expansion-results.md",
+    "original_target": "../../DataSet/paired_visible_reviewed/export/verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-d78e477ef9b2"
+  },
+  {
+    "file": "research/复现/camera-baseline/README.md",
+    "original_target": "../../DataSet/camera_temporal_all/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-509c66e4b095"
+  },
+  {
+    "file": "research/复现/camera-baseline/scene-baselines-test715-results.md",
+    "original_target": "../../DataSet/scene_baseline_test715/freeze.json",
+    "published_target": "../../ARTIFACTS.md#artifact-aa0e92bbdb7a"
+  },
+  {
+    "file": "research/复现/camera-baseline/scene-stratified-paired-expansion.md",
+    "original_target": "../../DataSet/scene_stratified_paired_expansion/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-dcdb7635c6e3"
+  },
+  {
+    "file": "research/复现/camera-baseline/scene-stratified-paired-expansion.md",
+    "original_target": "../../DataSet/scene_stratified_paired_expansion/manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-5fb762e00aa2"
+  },
+  {
+    "file": "research/复现/camera-baseline/scene-stratified-paired-expansion.md",
+    "original_target": "../../DataSet/scene_stratified_recording_candidate/source-shortfalls.json",
+    "published_target": "../../ARTIFACTS.md#artifact-72ba266a0820"
+  },
+  {
+    "file": "research/复现/camera-baseline/scene-stratified-paired-expansion.md",
+    "original_target": "../../DataSet/scene_stratified_paired_expansion/decisions.json",
+    "published_target": "../../ARTIFACTS.md#artifact-45e9a8b80941"
+  },
+  {
+    "file": "research/复现/camera-baseline/scene-stratified-paired-expansion.md",
+    "original_target": "../../DataSet/scene_stratified_paired_expansion/sheets/",
+    "published_target": "../../ARTIFACTS.md#artifact-c146ec236df4"
+  },
+  {
+    "file": "research/复现/camera-baseline/scene-stratified-recording-split.md",
+    "original_target": "../../DataSet/scene_stratified_recording_candidate/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-0fc3a69c3703"
+  },
+  {
+    "file": "research/复现/camera-baseline/scene-stratified-recording-split.md",
+    "original_target": "../../DataSet/scene_stratified_recording_candidate/source-shortfalls.json",
+    "published_target": "../../ARTIFACTS.md#artifact-72ba266a0820"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-box-guided-registration.md",
+    "original_target": "../../DataSet/sonar_box_guided_full_trajectory/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-d762b4eec970"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-box-guided-registration.md",
+    "original_target": "../../DataSet/sonar_box_guided_full_trajectory/qa/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-04c45d03627b"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-box-guided-registration.md",
+    "original_target": "../../DataSet/sonar_box_guided_registration/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-6608c5574721"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-box-guided-registration.md",
+    "original_target": "../../DataSet/sonar_box_guided_full_trajectory/incindiary/freeze-model.json",
+    "published_target": "../../ARTIFACTS.md#artifact-d6c036f3c284"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-box-guided-registration.md",
+    "original_target": "../../DataSet/sonar_box_guided_full_trajectory/mortar_shell/freeze-model.json",
+    "published_target": "../../ARTIFACTS.md#artifact-2164315ee548"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-box-guided-registration.md",
+    "original_target": "../../DataSet/sonar_box_guided_full_trajectory/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-972c92461f3f"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-box-guided-registration.md",
+    "original_target": "../../DataSet/sonar_box_guided_full_trajectory/metrics.csv",
+    "published_target": "../../ARTIFACTS.md#artifact-973ba933f228"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-box-guided-registration.md",
+    "original_target": "../../DataSet/sonar_box_guided_full_trajectory/common-check-comparison.json",
+    "published_target": "../../ARTIFACTS.md#artifact-d687cebf4f4c"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-box-guided-registration.md",
+    "original_target": "../../DataSet/sonar_box_guided_registration/input-snapshots/decisions.json",
+    "published_target": "../../ARTIFACTS.md#artifact-3b8638b496c8"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-box-guided-registration.md",
+    "original_target": "../../related_work/cmhd/source/fulltext.xml",
+    "published_target": "../../ARTIFACTS.md#artifact-f5ac120ef892"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-camera-continuous-timing.md",
+    "original_target": "../../DataSet/sonar_camera_continuous_timing/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-29b9517866e3"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-camera-continuous-timing.md",
+    "original_target": "../../DataSet/sonar_camera_continuous_timing/recording-decisions.json",
+    "published_target": "../../ARTIFACTS.md#artifact-e63a76537bbf"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-camera-continuous-timing.md",
+    "original_target": "../../DataSet/sonar_camera_continuous_timing/timing-evidence-corrected.png",
+    "published_target": "../../ARTIFACTS.md#artifact-ef54087f6198"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-camera-continuous-timing.md",
+    "original_target": "../../DataSet/sonar_camera_continuous_timing/visual-review.json",
+    "published_target": "../../ARTIFACTS.md#artifact-63391abd863e"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-camera-continuous-timing.md",
+    "original_target": "../../DataSet/sonar_camera_continuous_timing/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-4b5b632e6bb0"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-camera-continuous-timing.md",
+    "original_target": "../../DataSet/sonar_camera_continuous_timing/activity-grid-correction.json",
+    "published_target": "../../ARTIFACTS.md#artifact-93bc2a2f1309"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-camera-continuous-timing.md",
+    "original_target": "../../DataSet/sonar_camera_continuous_timing/run-notes.json",
+    "published_target": "../../ARTIFACTS.md#artifact-c27afa5c6ad8"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-endpoint-registration.md",
+    "original_target": "../../DataSet/sonar_endpoint_registration/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-3d147a0deb7a"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-endpoint-registration.md",
+    "original_target": "../../DataSet/sonar_endpoint_pan_control/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-a0718ebb700a"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-endpoint-registration.md",
+    "original_target": "../../DataSet/sonar_endpoint_pan_control/camera-fixed-pan-check.json",
+    "published_target": "../../ARTIFACTS.md#artifact-6dabe872e0d7"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-8f0a04b6ace9"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/fixed-mesh-transforms.json",
+    "published_target": "../../ARTIFACTS.md#artifact-fbc529ae2c21"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/numeric-appendix.md",
+    "published_target": "../../ARTIFACTS.md#artifact-e97e0e7632d9"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/run-summary.json",
+    "published_target": "../../ARTIFACTS.md#artifact-9d8f0f1fe563"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/revision-log.json",
+    "published_target": "../../ARTIFACTS.md#artifact-c5389c21ffea"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/numeric-appendix.md",
+    "published_target": "../../ARTIFACTS.md#artifact-e97e0e7632d9"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../DataSet/sonar_independent_registration/selection.json",
+    "published_target": "../../ARTIFACTS.md#artifact-d2fbf44d730b"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../related_work/uxo-upstream-history/scripts/view_recording.py",
+    "published_target": "../../ARTIFACTS.md#artifact-f518715eec11"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../related_work/uxo-upstream-history/scripts/prep_2_aris_to_polar.py",
+    "published_target": "../../ARTIFACTS.md#artifact-78fba5f843d4"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/run-summary.json",
+    "published_target": "../../ARTIFACTS.md#artifact-9d8f0f1fe563"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-mesh.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/delivery-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-c28863b1ddfb"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-registration-refinement.md",
+    "original_target": "../../DataSet/sonar_fixed_registration_refinement/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-2d05d5aadf17"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-registration-refinement.md",
+    "original_target": "../../DataSet/sonar_fixed_registration_refinement/run-summary.json",
+    "published_target": "../../ARTIFACTS.md#artifact-f95805ac1c9c"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-registration-refinement.md",
+    "original_target": "../../DataSet/sonar_fixed_registration_refinement/expanded-numeric-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-2fee9a7ef495"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-fixed-registration-refinement.md",
+    "original_target": "../../DataSet/sonar_fixed_registration_refinement/implementation-report.md",
+    "published_target": "../../ARTIFACTS.md#artifact-1e895fd89350"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-four-recording-timing.md",
+    "original_target": "../../DataSet/sonar_four_recording_timing/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-3c14512d525e"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-four-recording-timing.md",
+    "original_target": "../../DataSet/sonar_four_recording_timing/decisions.json",
+    "published_target": "../../ARTIFACTS.md#artifact-1229b9825f66"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-four-recording-timing.md",
+    "original_target": "../../DataSet/sonar_four_recording_timing/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-af6b58c4342e"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-gantry-gap-origin.md",
+    "original_target": "../../related_work/uxo-upstream-history/scripts/prep_5_gantry_extract.py",
+    "published_target": "../../ARTIFACTS.md#artifact-1b023c78e1aa"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-gantry-gap-origin.md",
+    "original_target": "../../related_work/uxo-upstream-history/scripts/prep_6_gantry_find_offsets.py",
+    "published_target": "../../ARTIFACTS.md#artifact-b1da6ae382f6"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-gantry-gap-origin.md",
+    "original_target": "../../related_work/uxo-upstream-history/scripts/prep_x_match_recordings.py",
+    "published_target": "../../ARTIFACTS.md#artifact-82bc3026a63b"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-gantry-gap-origin.md",
+    "original_target": "../../related_work/uxo-upstream-history/scripts/prep_4_aris_find_offsets.py",
+    "published_target": "../../ARTIFACTS.md#artifact-112f9fec1585"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-gantry-gap-origin.md",
+    "original_target": "../../related_work/uxo-upstream-history/scripts/common/matching_context.py",
+    "published_target": "../../ARTIFACTS.md#artifact-87bf80b8caf7"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-gantry-gap-origin.md",
+    "original_target": "../../DataSet/sonar_gantry_gap_origin/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-4cbd4af925ed"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-gantry-gap-origin.md",
+    "original_target": "../../DataSet/sonar_gantry_gap_origin/source-availability.json",
+    "published_target": "../../ARTIFACTS.md#artifact-f2beb15c35e8"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-gantry-onset-sampling-audit.md",
+    "original_target": "../../DataSet/sonar_translation_onset/human-review-confirmed.json",
+    "published_target": "../../ARTIFACTS.md#artifact-47f610fd61f7"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-gantry-onset-sampling-audit.md",
+    "original_target": "../../DataSet/sonar_translation_onset/gantry-sampling-audit.json",
+    "published_target": "../../ARTIFACTS.md#artifact-47cb6b0e7334"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-independent-registration.md",
+    "original_target": "../../DataSet/sonar_independent_registration/protocol-at-fit.md",
+    "published_target": "../../ARTIFACTS.md#artifact-1fafc4806685"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-independent-registration.md",
+    "original_target": "../../DataSet/sonar_independent_registration/contours.json",
+    "published_target": "../../ARTIFACTS.md#artifact-d19b32fa1774"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-independent-registration.md",
+    "original_target": "../../DataSet/sonar_independent_registration/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-672d9ed3795f"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-independent-registration.md",
+    "original_target": "../../DataSet/sonar_independent_registration/landmarks.json",
+    "published_target": "../../ARTIFACTS.md#artifact-75558f65603b"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-independent-registration.md",
+    "original_target": "../../DataSet/sonar_independent_registration/landmark-diagnostics.json",
+    "published_target": "../../ARTIFACTS.md#artifact-eb4b0f275659"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-independent-registration.md",
+    "original_target": "../../DataSet/sonar_independent_registration/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-c45b6223b81c"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-initial-candidate-audit.md",
+    "original_target": "../../DataSet/sonar_manual_curation_validation/user-initial-box-175000-0887.jpg",
+    "published_target": "../../ARTIFACTS.md#artifact-7c896e0cdd57"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-initial-candidate-audit.md",
+    "original_target": "../../DataSet/sonar_fixed_mesh/fixed-mesh-transforms.json",
+    "published_target": "../../ARTIFACTS.md#artifact-fbc529ae2c21"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-initial-candidate-audit.md",
+    "original_target": "../../related_work/cmhd/source/fulltext.xml",
+    "published_target": "../../ARTIFACTS.md#artifact-f5ac120ef892"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-initial-candidate-audit.md",
+    "original_target": "../../related_work/cmhd/source/sections-indexed.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-94799dbed714"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-initial-candidate-audit.md",
+    "original_target": "D:/pby/uxo-full/extracted/recordings/100lbs_bomb_(floor",
+    "published_target": "../../ARTIFACTS.md#artifact-9b4b8e567f46"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-initial-candidate-audit.md",
+    "original_target": "../../DataSet/sonar_initial_candidate_audit/server-before-floor-target.json",
+    "published_target": "../../ARTIFACTS.md#artifact-519607dc8324"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-initial-candidate-audit.md",
+    "original_target": "../../DataSet/sonar_initial_candidate_audit/floor-target-fix-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-3a7f803c0a37"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-initial-candidate-audit.md",
+    "original_target": "../../DataSet/sonar_initial_candidate_audit/production-restart-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-289c6ff74772"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-input-size-literature.md",
+    "original_target": "../../related_work/cmold/paper.pdf",
+    "published_target": "../../ARTIFACTS.md#artifact-b44090068078"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-literature-recheck.md",
+    "original_target": "../../related_work/uxo-upstream-history/README.md",
+    "published_target": "../../ARTIFACTS.md#artifact-4056e8820906"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-literature-recheck.md",
+    "original_target": "../../related_work/uxo-upstream-history/demo/transforms_nb.ipynb",
+    "published_target": "../../ARTIFACTS.md#artifact-f90e3377e9f1"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-literature-recheck.md",
+    "original_target": "../../related_work/cmhd/source/fulltext.xml",
+    "published_target": "../../ARTIFACTS.md#artifact-f5ac120ef892"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-literature-recheck.md",
+    "original_target": "../../related_work/uxo-upstream-history/scripts/common/aris_definitions.py",
+    "published_target": "../../ARTIFACTS.md#artifact-b6bbc201b4c6"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-literature-recheck.md",
+    "original_target": "../../related_work/uxo-upstream-history/scripts/view_recording.py",
+    "published_target": "../../ARTIFACTS.md#artifact-f518715eec11"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-manual-curation.md",
+    "original_target": "../../related_work/cmhd/source/fulltext.xml",
+    "published_target": "../../ARTIFACTS.md#artifact-f5ac120ef892"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-manual-curation.md",
+    "original_target": "../../related_work/cmhd/source/sections-indexed.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-94799dbed714"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-manual-curation.md",
+    "original_target": "../../DataSet/camera_temporal_all/manifest-resolved.json",
+    "published_target": "../../ARTIFACTS.md#artifact-71c4c91cc60c"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-manual-curation.md",
+    "original_target": "../../DataSet/sonar_manual_curation_validation/candidate-replay-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-c84f1ee0a2b7"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-model-registration-consistency.md",
+    "original_target": "../../DataSet/sonar_model_registration_consistency/calibration-versions.json",
+    "published_target": "../../ARTIFACTS.md#artifact-60a2cae3f48e"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-model-registration-consistency.md",
+    "original_target": "../../DataSet/sonar_model_registration_consistency/mesh-geometry.png",
+    "published_target": "../../ARTIFACTS.md#artifact-26cece11be2a"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-model-registration-consistency.md",
+    "original_target": "../../DataSet/sonar_model_registration_consistency/mesh-registration.json",
+    "published_target": "../../ARTIFACTS.md#artifact-16dd20e0025e"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-motion-paper-alignment.md",
+    "original_target": "../../DataSet/sonar_motion_timing/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-cf4d3c0985b8"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-motion-paper-alignment.md",
+    "original_target": "../../DataSet/sonar_source_onset_control/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-4cd2c1c094b9"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-motion-paper-alignment.md",
+    "original_target": "../../related_work/sonar-motion-paper-alignment/cmhd-section-3-1.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-4019367014c5"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-motion-paper-alignment.md",
+    "original_target": "../../DataSet/sonar_source_onset_control/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-012a726ba335"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-motion-paper-alignment.md",
+    "original_target": "../../DataSet/sonar_source_onset_control/endpoint-region-consistency.json",
+    "published_target": "../../ARTIFACTS.md#artifact-e49143c13feb"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-origin-envelope.md",
+    "original_target": "../../DataSet/sonar_origin_envelope/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-576749ecb1d7"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-origin-envelope.md",
+    "original_target": "../../DataSet/sonar_origin_envelope/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-35f0b6189fb6"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-origin-envelope.md",
+    "original_target": "../../DataSet/sonar_origin_envelope/interval-control.json",
+    "published_target": "../../ARTIFACTS.md#artifact-dcba9a828ed7"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-origin-envelope.md",
+    "original_target": "../../DataSet/sonar_origin_envelope/interval-verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-a248502c71e1"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-chain-audit.md",
+    "original_target": "../../DataSet/sonar_projection_chain_audit/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-3db267dd4f52"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-chain-audit.md",
+    "original_target": "../../DataSet/sonar_projection_chain_audit/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-a0fc851e3a35"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-chain-audit.md",
+    "original_target": "../../DataSet/sonar_projection_chain_audit/physical-input-inventory.json",
+    "published_target": "../../ARTIFACTS.md#artifact-cbfcb216c7d7"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-chain-audit.md",
+    "original_target": "../../DataSet/sonar_projection_chain_audit/official-pose-control.json",
+    "published_target": "../../ARTIFACTS.md#artifact-6228715fe4f4"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-chain-audit.md",
+    "original_target": "../../DataSet/sonar_projection_chain_audit/attempt-1-failure.json",
+    "published_target": "../../ARTIFACTS.md#artifact-b87a4cbb0574"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-root-cause.md",
+    "original_target": "../../DataSet/sonar_projection_root_cause/comparison/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-8091d8907ac2"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-root-cause.md",
+    "original_target": "../../DataSet/sonar_projection_root_cause/proposal_provenance/boundary-review-queue.json",
+    "published_target": "../../ARTIFACTS.md#artifact-345bd32885db"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-root-cause.md",
+    "original_target": "../../DataSet/sonar_projection_root_cause/proposal_provenance/2023-09-21_123841_0329-component.png",
+    "published_target": "../../ARTIFACTS.md#artifact-ef9d4a6ff9b7"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-root-cause.md",
+    "original_target": "../../DataSet/sonar_projection_root_cause/proposal_provenance/2023-09-21_124039_0233-component.png",
+    "published_target": "../../ARTIFACTS.md#artifact-aa79be32e10b"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-root-cause.md",
+    "original_target": "../../DataSet/sonar_projection_root_cause/pose_matched_returns/2023-09-21_123841-difference-0.png",
+    "published_target": "../../ARTIFACTS.md#artifact-7c88c0050e27"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-root-cause.md",
+    "original_target": "../../DataSet/sonar_projection_root_cause/pose_matched_returns/2023-09-21_124039-difference-0.png",
+    "published_target": "../../ARTIFACTS.md#artifact-a3906095cb58"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-root-cause.md",
+    "original_target": "../../DataSet/sonar_projection_root_cause/source/SoundMetrics-FrameHeader.h",
+    "published_target": "../../ARTIFACTS.md#artifact-608d161643a4"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-root-cause.md",
+    "original_target": "../../DataSet/sonar_projection_root_cause/pose_matched_returns/supplied-root-inventory.json",
+    "published_target": "../../ARTIFACTS.md#artifact-98bff9865c9a"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-root-cause.md",
+    "original_target": "../../DataSet/sonar_projection_root_cause/return_envelope_control/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-6a6a5c61ef34"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-projection-root-cause.md",
+    "original_target": "../../DataSet/sonar_projection_root_cause/comparison/summary.json",
+    "published_target": "../../ARTIFACTS.md#artifact-21cfcc829fcd"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-ray-visibility.md",
+    "original_target": "../../DataSet/sonar_ray_visibility/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-9c4e3205ed51"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-ray-visibility.md",
+    "original_target": "../../DataSet/sonar_ray_visibility/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-e25fef1ec5fe"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-ray-visibility.md",
+    "original_target": "../../DataSet/sonar_ray_visibility/synthetic.json",
+    "published_target": "../../ARTIFACTS.md#artifact-4eda1e4d54d3"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-registration-methods.md",
+    "original_target": "../../DataSet/sonar_registration_methods/coordinates/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-569a31f1ea21"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-registration-methods.md",
+    "original_target": "../../DataSet/sonar_registration_methods/coordinates/README.md",
+    "published_target": "../../ARTIFACTS.md#artifact-e688b83d1fd9"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-registration-methods.md",
+    "original_target": "../../DataSet/sonar_registration_methods/anchors/README.md",
+    "published_target": "../../ARTIFACTS.md#artifact-7cae00659716"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-registration-methods.md",
+    "original_target": "../../DataSet/sonar_registration_methods/anchors/geometry.json",
+    "published_target": "../../ARTIFACTS.md#artifact-1e3ec414c049"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-registration-methods.md",
+    "original_target": "../../DataSet/sonar_registration_methods/anchors/100lbs-geometry.png",
+    "published_target": "../../ARTIFACTS.md#artifact-90a026e76cea"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-registration-methods.md",
+    "original_target": "../../DataSet/sonar_registration_methods/anchors/mortar_shell-geometry.png",
+    "published_target": "../../ARTIFACTS.md#artifact-abc9e813849b"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-registration-methods.md",
+    "original_target": "../../DataSet/sonar_registration_methods/observability/README.md",
+    "published_target": "../../ARTIFACTS.md#artifact-506d2be09fd3"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-rgb-pose-pilot.md",
+    "original_target": "../../DataSet/sonar_rgb_pose_pilot/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-7cb9f7b14c08"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-rgb-pose-pilot.md",
+    "original_target": "../../DataSet/sonar_rgb_pose_pilot/tag-rotation.json",
+    "published_target": "../../ARTIFACTS.md#artifact-0f229c71ef34"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/verification-camera.json",
+    "published_target": "../../ARTIFACTS.md#artifact-dfab6ef34c54"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/clip-metadata.json",
+    "published_target": "../../ARTIFACTS.md#artifact-3328e1b5eb6d"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/multiface/anchor-held-face.png",
+    "published_target": "../../ARTIFACTS.md#artifact-772680041658"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/multiface/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-060664052f6b"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/background/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-95ef229caa4a"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/background/verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-7c43cfe073c7"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-4e1b596ee152"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/temporal-pose-diagnostic.png",
+    "published_target": "../../ARTIFACTS.md#artifact-afcf4824fb9f"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/selection.json",
+    "published_target": "../../ARTIFACTS.md#artifact-d8edc1143daf"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/camera_models/evaluation.json",
+    "published_target": "../../ARTIFACTS.md#artifact-f0decebb6a7a"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/camera_solver_control/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-e7f204be9188"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-tag-continuous-camera.md",
+    "original_target": "../../DataSet/sonar_tag_continuous_camera/background/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-72498774906a"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-translation-onset-human-review.md",
+    "original_target": "../../DataSet/sonar_translation_onset/human-review.json",
+    "published_target": "../../ARTIFACTS.md#artifact-18c920c7cd99"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-view-consistency.md",
+    "original_target": "../../DataSet/sonar_view_consistency/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-a78fd6f9c5d4"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-view-consistency.md",
+    "original_target": "../../DataSet/sonar_view_consistency/motion-evidence-review.json",
+    "published_target": "../../ARTIFACTS.md#artifact-748612d1d139"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-view-consistency.md",
+    "original_target": "../../related_work/sonar-projection-audit-assets/data_export_calibration/calibration/camera_parameters/camera_parameter_linear.txt",
+    "published_target": "../../ARTIFACTS.md#artifact-bec7e2f68af0"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-visible-annotation-results.md",
+    "original_target": "../../DataSet/sonar_visible_annotation/export/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-1d3266526924"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-visible-annotation-results.md",
+    "original_target": "../../DataSet/sonar_visible_annotation/export/manifest.json",
+    "published_target": "../../ARTIFACTS.md#artifact-5d96e5908f56"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-visible-annotation-results.md",
+    "original_target": "../../DataSet/sonar_visible_annotation/export/summary.json",
+    "published_target": "../../ARTIFACTS.md#artifact-2bd8b8b979d9"
+  },
+  {
+    "file": "research/复现/camera-baseline/sonar-visible-annotation-results.md",
+    "original_target": "../../DataSet/sonar_visible_annotation/export/verification.json",
+    "published_target": "../../ARTIFACTS.md#artifact-ad16c3036f82"
+  },
+  {
+    "file": "research/复现/camera-baseline/train-scene-coverage-confirmation.md",
+    "original_target": "../../DataSet/train_scene_coverage_confirmation/results.json",
+    "published_target": "../../ARTIFACTS.md#artifact-2d6be42a11f9"
+  },
+  {
+    "file": "research/复现/camera-baseline/train-scene-coverage-confirmation.md",
+    "original_target": "../../DataSet/train_scene_coverage_confirmation/scene-coverage.csv",
+    "published_target": "../../ARTIFACTS.md#artifact-8a2e3d2111f5"
+  },
+  {
+    "file": "research/复现/camera-baseline/train-scene-coverage-confirmation.md",
+    "original_target": "../../DataSet/scene_stratified_mortar_recovered_candidate/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-318e1cce8c85"
+  },
+  {
+    "file": "research/复现/camera-baseline/weak-scene-coverage-resplit-5229.md",
+    "original_target": "../../DataSet/paired_weak_scene_coverage_pan_split/index.html",
+    "published_target": "../../ARTIFACTS.md#artifact-7b6b78ded1da"
+  }
+]

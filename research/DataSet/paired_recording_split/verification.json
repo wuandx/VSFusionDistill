@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "summary": {
+    "train": {
+      "recordings": 18,
+      "selected": 1800,
+      "reserve": 243
+    },
+    "val": {
+      "recordings": 6,
+      "selected": 600,
+      "reserve": 113
+    },
+    "test": {
+      "recordings": 6,
+      "selected": 600,
+      "reserve": 42
+    }
+  },
+  "per_class_recording_counts": {
+    "100lbs_aircraft_bomb": {
+      "train": 6,
+      "val": 2,
+      "test": 2
+    },
+    "incindiary_grenade": {
+      "train": 6,
+      "val": 2,
+      "test": 2
+    },
+    "mortar_shell": {
+      "train": 6,
+      "val": 2,
+      "test": 2
+    }
+  },
+  "recording_group_and_sample_disjoint": true,
+  "cross_role_image_hash_duplicates": 0,
+  "source_inputs_unchanged": true,
+  "image_decodes": 0,
+  "original_test_content_reads": 0,
+  "output_sha256": {
+    "manifest.json": "a894869c30b8a980722ad71d7516a1b06f4d273882745d93e4efbdeaf6f4a4ad",
+    "protocol.json": "206be8290a70c887a860fbac03344c29cd7ea9102ef80fcf6e679847eb3b18d6",
+    "recordings.csv": "6fcf60cdd69ac63caacb55a2d74fd33f85309052c28f15c0296df15c7085c381",
+    "test-reserve.txt": "c5a8ac98eec628be1553b517e912604218b11b915304f365b4da270740d04a22",
+    "test-selected.txt": "3dc51dc1f79336075d9fa89278742494e89e6a59e8d7ed73ac54702c19245272",
+    "train-reserve.txt": "c34531a83cea4bd8e057ac0546dc76c0a022b440fce6df97a46c6d4695888e5c",
+    "train-selected.txt": "16138df2877ef3d590d5ead98aa8203f4c90ca5707e1b5ccbef5369a58f57c8a",
+    "val-reserve.txt": "fd0a0bf7e497d538da86a205ba8b256b6fe5d2ff3f21f42d5d63cbde1304da55",
+    "val-selected.txt": "6854ac3a58bdcdb94f26867690614d1ca9646aca42bdb466d3e5e99c2c213cdb"
+  }
+}

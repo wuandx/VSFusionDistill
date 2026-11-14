@@ -1,0 +1,7 @@
+{
+  "operation": "Range tail scan for independently-reset LZMA2 metadata suffix; no video decoded or materialized",
+  "range_start": 61512034873,
+  "range_end": 61512100408,
+  "bytes_read": 65536,
+  "results": []
+}

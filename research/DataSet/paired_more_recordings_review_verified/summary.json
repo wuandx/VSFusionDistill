@@ -1,0 +1,14 @@
+{
+  "candidate_pairs": 897,
+  "missing_same_frame_aris": 3,
+  "actionable_sonar_review_candidates": 397,
+  "blocked_prior_pairing": 500,
+  "accepted_new_pairs": 0,
+  "training_started": false,
+  "current_4081_pairs_unchanged": true,
+  "camera_only_expansion_not_activated": true,
+  "states": {
+    "blocked_prior_cross_modal_pairing": 500,
+    "pending_sonar_box_and_pair_review": 397
+  }
+}

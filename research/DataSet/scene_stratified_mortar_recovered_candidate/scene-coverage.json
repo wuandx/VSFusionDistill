@@ -1,0 +1,377 @@
+[
+  {
+    "scene_id": "100lbs_aircraft_bomb|floor|ellipse",
+    "category": "100lbs_aircraft_bomb",
+    "placement": "floor",
+    "trajectory": "ellipse",
+    "name": "炸弹 · 地面 · 椭圆轨迹",
+    "recordings": 3,
+    "source_groups": 3,
+    "complete": true,
+    "status": "all_three_roles_covered",
+    "additional_accepted_groups_needed": 0,
+    "members": {
+      "train": [
+        "2023-09-21_160551"
+      ],
+      "val": [
+        "2023-09-21_160146"
+      ],
+      "test": [
+        "2023-09-21_155609"
+      ]
+    },
+    "role_recordings": {
+      "train": 1,
+      "val": 1,
+      "test": 1
+    },
+    "role_groups": {
+      "train": 1,
+      "val": 1,
+      "test": 1
+    },
+    "role_pairs": {
+      "train": 115,
+      "val": 69,
+      "test": 57
+    },
+    "pending_sources": []
+  },
+  {
+    "scene_id": "100lbs_aircraft_bomb|floor|flyby",
+    "category": "100lbs_aircraft_bomb",
+    "placement": "floor",
+    "trajectory": "flyby",
+    "name": "炸弹 · 地面 · flyby",
+    "recordings": 1,
+    "source_groups": 1,
+    "complete": false,
+    "status": "insufficient_accepted_source_groups",
+    "additional_accepted_groups_needed": 2,
+    "members": {
+      "train": [
+        "2023-09-21_161916"
+      ],
+      "val": [],
+      "test": []
+    },
+    "role_recordings": {
+      "train": 1,
+      "val": 0,
+      "test": 0
+    },
+    "role_groups": {
+      "train": 1,
+      "val": 0,
+      "test": 0
+    },
+    "role_pairs": {
+      "train": 78,
+      "val": 0,
+      "test": 0
+    },
+    "pending_sources": [
+      {
+        "recording": "2023-09-21_162055",
+        "status": "new_non_test_pilot",
+        "reason": "旧excluded基于投影残差；本轮新建SD/raw直接审阅试点，尚未验收"
+      }
+    ]
+  },
+  {
+    "scene_id": "100lbs_aircraft_bomb|standard|L_to_R",
+    "category": "100lbs_aircraft_bomb",
+    "placement": "standard",
+    "trajectory": "L_to_R",
+    "name": "炸弹 · 非地面／支架 · 左右运动",
+    "recordings": 9,
+    "source_groups": 7,
+    "complete": true,
+    "status": "all_three_roles_covered",
+    "additional_accepted_groups_needed": 0,
+    "members": {
+      "train": [
+        "2023-09-20_171105",
+        "2023-09-20_175000",
+        "2023-09-20_175905",
+        "2023-09-20_180506",
+        "2023-09-20_180722"
+      ],
+      "val": [
+        "2023-09-20_174200",
+        "2023-09-20_174439"
+      ],
+      "test": [
+        "2023-09-20_175506",
+        "2023-09-20_181139"
+      ]
+    },
+    "role_recordings": {
+      "train": 5,
+      "val": 2,
+      "test": 2
+    },
+    "role_groups": {
+      "train": 4,
+      "val": 1,
+      "test": 2
+    },
+    "role_pairs": {
+      "train": 627,
+      "val": 241,
+      "test": 251
+    },
+    "pending_sources": [
+      {
+        "recording": "2023-09-20_173329",
+        "status": "pairing_failed_retained",
+        "reason": "历史配对检查未通过；不自动恢复，不为扩量改时间"
+      },
+      {
+        "recording": "2023-09-20_173615",
+        "status": "camera_labels_pending",
+        "reason": "全序列原相机框越界，需核查原坐标与可见部分；未改框"
+      },
+      {
+        "recording": "2023-09-20_174711",
+        "status": "new_non_test_pilot",
+        "reason": "旧excluded基于投影残差；本轮新建SD/raw直接审阅试点，尚未验收"
+      }
+    ]
+  },
+  {
+    "scene_id": "100lbs_aircraft_bomb|standard|flyby",
+    "category": "100lbs_aircraft_bomb",
+    "placement": "standard",
+    "trajectory": "flyby",
+    "name": "炸弹 · 非地面／支架 · flyby",
+    "recordings": 1,
+    "source_groups": 1,
+    "complete": false,
+    "status": "insufficient_accepted_source_groups",
+    "additional_accepted_groups_needed": 2,
+    "members": {
+      "train": [
+        "2023-09-20_182317"
+      ],
+      "val": [],
+      "test": []
+    },
+    "role_recordings": {
+      "train": 1,
+      "val": 0,
+      "test": 0
+    },
+    "role_groups": {
+      "train": 1,
+      "val": 0,
+      "test": 0
+    },
+    "role_pairs": {
+      "train": 146,
+      "val": 0,
+      "test": 0
+    },
+    "pending_sources": []
+  },
+  {
+    "scene_id": "incindiary_grenade|standard|L_to_R",
+    "category": "incindiary_grenade",
+    "placement": "standard",
+    "trajectory": "L_to_R",
+    "name": "燃烧弹 · 非地面／支架 · 左右运动",
+    "recordings": 8,
+    "source_groups": 5,
+    "complete": true,
+    "status": "all_three_roles_covered",
+    "additional_accepted_groups_needed": 0,
+    "members": {
+      "train": [
+        "2023-09-21_121124",
+        "2023-09-21_121327",
+        "2023-09-21_122608",
+        "2023-09-21_122855",
+        "2023-09-21_123500"
+      ],
+      "val": [
+        "2023-09-21_123841",
+        "2023-09-21_124039"
+      ],
+      "test": [
+        "2023-09-21_121539"
+      ]
+    },
+    "role_recordings": {
+      "train": 5,
+      "val": 2,
+      "test": 1
+    },
+    "role_groups": {
+      "train": 3,
+      "val": 1,
+      "test": 1
+    },
+    "role_pairs": {
+      "train": 598,
+      "val": 212,
+      "test": 102
+    },
+    "pending_sources": [
+      {
+        "recording": "2023-09-21_120653",
+        "status": "pairing_failed_retained",
+        "reason": "历史配对检查未通过；不自动恢复，不为扩量改时间"
+      },
+      {
+        "recording": "2023-09-21_120912",
+        "status": "pairing_failed_retained",
+        "reason": "历史配对检查未通过；不自动恢复，不为扩量改时间"
+      }
+    ]
+  },
+  {
+    "scene_id": "incindiary_grenade|standard|flyby",
+    "category": "incindiary_grenade",
+    "placement": "standard",
+    "trajectory": "flyby",
+    "name": "燃烧弹 · 非地面／支架 · flyby",
+    "recordings": 3,
+    "source_groups": 3,
+    "complete": true,
+    "status": "all_three_roles_covered",
+    "additional_accepted_groups_needed": 0,
+    "members": {
+      "train": [
+        "2023-09-21_124915"
+      ],
+      "val": [
+        "2023-09-21_125048"
+      ],
+      "test": [
+        "2023-09-21_124735"
+      ]
+    },
+    "role_recordings": {
+      "train": 1,
+      "val": 1,
+      "test": 1
+    },
+    "role_groups": {
+      "train": 1,
+      "val": 1,
+      "test": 1
+    },
+    "role_pairs": {
+      "train": 108,
+      "val": 100,
+      "test": 59
+    },
+    "pending_sources": []
+  },
+  {
+    "scene_id": "mortar_shell|standard|L_to_R",
+    "category": "mortar_shell",
+    "placement": "standard",
+    "trajectory": "L_to_R",
+    "name": "迫击炮 · 非地面／支架 · 左右运动",
+    "recordings": 10,
+    "source_groups": 9,
+    "complete": true,
+    "status": "all_three_roles_covered",
+    "additional_accepted_groups_needed": 0,
+    "members": {
+      "train": [
+        "2023-09-21_101622",
+        "2023-09-21_101840",
+        "2023-09-21_102500",
+        "2023-09-21_103728",
+        "2023-09-21_103927",
+        "2023-09-21_105017"
+      ],
+      "val": [
+        "2023-09-21_101416",
+        "2023-09-21_105230"
+      ],
+      "test": [
+        "2023-09-21_103140",
+        "2023-09-21_104749"
+      ]
+    },
+    "role_recordings": {
+      "train": 6,
+      "val": 2,
+      "test": 2
+    },
+    "role_groups": {
+      "train": 5,
+      "val": 2,
+      "test": 2
+    },
+    "role_pairs": {
+      "train": 784,
+      "val": 252,
+      "test": 246
+    },
+    "pending_sources": [
+      {
+        "recording": "2023-09-21_100927",
+        "status": "pairing_failed_retained",
+        "reason": "历史配对检查未通过；不自动恢复，不为扩量改时间"
+      },
+      {
+        "recording": "2023-09-21_101131",
+        "status": "pairing_failed_retained",
+        "reason": "历史配对检查未通过；不自动恢复，不为扩量改时间"
+      }
+    ]
+  },
+  {
+    "scene_id": "mortar_shell|standard|flyby",
+    "category": "mortar_shell",
+    "placement": "standard",
+    "trajectory": "flyby",
+    "name": "迫击炮 · 非地面／支架 · flyby",
+    "recordings": 2,
+    "source_groups": 2,
+    "complete": false,
+    "status": "insufficient_accepted_source_groups",
+    "additional_accepted_groups_needed": 1,
+    "members": {
+      "train": [
+        "2023-09-21_110049"
+      ],
+      "val": [
+        "2023-09-21_105856"
+      ],
+      "test": []
+    },
+    "role_recordings": {
+      "train": 1,
+      "val": 1,
+      "test": 0
+    },
+    "role_groups": {
+      "train": 1,
+      "val": 1,
+      "test": 0
+    },
+    "role_pairs": {
+      "train": 16,
+      "val": 20,
+      "test": 0
+    },
+    "pending_sources": [
+      {
+        "recording": "2023-09-21_110229",
+        "status": "sonar_review_pending",
+        "reason": "旧双端审核0接受；含截断与回波边界疑点，需新审阅，不能作负样本"
+      },
+      {
+        "recording": "2023-09-21_110411",
+        "status": "sonar_review_pending",
+        "reason": "旧双端审核0接受；含截断与回波边界疑点，需新审阅，不能作负样本"
+      }
+    ]
+  }
+]

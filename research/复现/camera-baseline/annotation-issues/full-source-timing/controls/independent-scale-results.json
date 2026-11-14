@@ -1,0 +1,113 @@
+{
+  "limit": "8s; current FFmpeg; two independent processes per clip; not historical execution logs",
+  "rows": [
+    {
+      "clip": "20230921_GX010012_04",
+      "resolution": "sd",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "info",
+        "-n",
+        "-i",
+        "D:\\pby\\data_processed\\gopro\\clips_uhd\\20230921_GX010012_04.mp4",
+        "-vf",
+        "scale=640:360",
+        "-t",
+        "8",
+        "-c:v",
+        "libx264",
+        "-an",
+        "D:\\agent_workspace\\\u6c34\u4e0b\\\u58f0\u5450\u76ee\u6807\u68c0\u6d4b_workflow\\\u590d\u73b0\\camera-baseline\\annotation-issues\\full-source-timing\\controls\\20230921_GX010012_04-independent-scale-sd.mp4"
+      ],
+      "probe": {
+        "start_time": "0.300300",
+        "duration": "7.707700",
+        "nb_frames": "231",
+        "avg_frame_rate": "30000/1001"
+      }
+    },
+    {
+      "clip": "20230921_GX010012_04",
+      "resolution": "fhd",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "info",
+        "-n",
+        "-i",
+        "D:\\pby\\data_processed\\gopro\\clips_uhd\\20230921_GX010012_04.mp4",
+        "-vf",
+        "scale=1920:1080",
+        "-t",
+        "8",
+        "-c:v",
+        "libx264",
+        "-an",
+        "D:\\agent_workspace\\\u6c34\u4e0b\\\u58f0\u5450\u76ee\u6807\u68c0\u6d4b_workflow\\\u590d\u73b0\\camera-baseline\\annotation-issues\\full-source-timing\\controls\\20230921_GX010012_04-independent-scale-fhd.mp4"
+      ],
+      "probe": {
+        "start_time": "0.300300",
+        "duration": "7.707700",
+        "nb_frames": "231",
+        "avg_frame_rate": "30000/1001"
+      }
+    },
+    {
+      "clip": "20230921_GX020012_02",
+      "resolution": "sd",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "info",
+        "-n",
+        "-i",
+        "D:\\pby\\data_processed\\gopro\\clips_uhd\\20230921_GX020012_02.mp4",
+        "-vf",
+        "scale=640:360",
+        "-t",
+        "8",
+        "-c:v",
+        "libx264",
+        "-an",
+        "D:\\agent_workspace\\\u6c34\u4e0b\\\u58f0\u5450\u76ee\u6807\u68c0\u6d4b_workflow\\\u590d\u73b0\\camera-baseline\\annotation-issues\\full-source-timing\\controls\\20230921_GX020012_02-independent-scale-sd.mp4"
+      ],
+      "probe": {
+        "start_time": "0.900900",
+        "duration": "7.107100",
+        "nb_frames": "213",
+        "avg_frame_rate": "30000/1001"
+      }
+    },
+    {
+      "clip": "20230921_GX020012_02",
+      "resolution": "fhd",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "info",
+        "-n",
+        "-i",
+        "D:\\pby\\data_processed\\gopro\\clips_uhd\\20230921_GX020012_02.mp4",
+        "-vf",
+        "scale=1920:1080",
+        "-t",
+        "8",
+        "-c:v",
+        "libx264",
+        "-an",
+        "D:\\agent_workspace\\\u6c34\u4e0b\\\u58f0\u5450\u76ee\u6807\u68c0\u6d4b_workflow\\\u590d\u73b0\\camera-baseline\\annotation-issues\\full-source-timing\\controls\\20230921_GX020012_02-independent-scale-fhd.mp4"
+      ],
+      "probe": {
+        "start_time": "0.900900",
+        "duration": "7.107100",
+        "nb_frames": "213",
+        "avg_frame_rate": "30000/1001"
+      }
+    }
+  ]
+}

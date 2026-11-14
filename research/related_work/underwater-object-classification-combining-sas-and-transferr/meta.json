@@ -1,0 +1,32 @@
+{
+ "arxiv_id": "2304.11875",
+ "slug": "underwater-object-classification-combining-sas-and-transferr",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:39:38",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Underwater object classification combining SAS and transferred optical-to-SAS Imagery",
+ "authors": [
+  "Abu, Avi",
+  "Diamant, Roee"
+ ],
+ "date": "2023/04/24",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Combining synthetic aperture sonar (SAS) imagery with optical images for underwater object classification has the potential to overcome challenges such as water clarity, the stability of the optical image analysis platform, and strong reflections from the seabed for sonar-based classification. In this work, we propose this type of multi-modal combination to discriminate between man-made targets and objects such as rocks or litter. We offer a novel classification algorithm that overcomes the problem of intensity and object formation differences between the two modalities. To this end, we develop a novel set of geometrical shape descriptors that takes into account the geometrical relation between the objects shadow and highlight. Results from 7,052 pairs of SAS and optical images collected during several sea experiments show improved classification performance compared to the state-of-the-art for better discrimination between different types of underwater objects. For reproducibility, we share our database.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2304.11875",
+  "bytes": 2013759,
+  "sha256": "98b03e17a4251368210529bd0833c4c7d1afe7bb4d7615648fc94db8e338b020"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2304.11875",
+  "bytes": 2013759,
+  "sha256": "98b03e17a4251368210529bd0833c4c7d1afe7bb4d7615648fc94db8e338b020",
+  "kind": "pdf",
+  "n_files": 0,
+  "tex_files": [],
+  "note": "e-print was a PDF, no LaTeX available"
+ }
+}

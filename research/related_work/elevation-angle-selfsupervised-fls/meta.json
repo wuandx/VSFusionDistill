@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2307.16160",
+ "slug": "elevation-angle-selfsupervised-fls",
+ "ok": true,
+ "fetched_at": "2026-11-13T11:27:38",
+ "tier": "B",
+ "why_relevant": "FLS 仰角自监督估计与运动退化：单帧仰角不可解的实证",
+ "title": "Motion Degeneracy in Self-supervised Learning of Elevation Angle Estimation for 2D Forward-Looking Sonar",
+ "authors": [
+  "Wang, Yusheng",
+  "Ji, Yonghoon",
+  "Wu, Chujie",
+  "Tsuchiya, Hiroshi",
+  "Asama, Hajime",
+  "Yamashita, Atsushi"
+ ],
+ "date": "2023/07/30",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: 2D forward-looking sonar is a crucial sensor for underwater robotic perception. A well-known problem in this field is estimating missing information in the elevation direction during sonar imaging. There are demands to estimate 3D information per image for 3D mapping and robot navigation during fly-through missions. Recent learning-based methods have demonstrated their strengths, but there are still drawbacks. Supervised learning methods have achieved high-quality results but may require further efforts to acquire 3D ground-truth labels. The existing self-supervised method requires pretraining using synthetic images with 3D supervision. This study aims to realize stable self-supervised learning of elevation angle estimation without pretraining using synthetic images. Failures during self-supervised learning may be caused by motion degeneracy problems. We first analyze the motion field of 2D forward-looking sonar, which is related to the main supervision signal. We utilize a modern learning framework and prove that if the training dataset is built with effective motions, the network can be trained in a self-supervised manner without the knowledge of synthetic data. Both simulation and real experiments validate the proposed method.",
+ "comments": "IROS2023",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2307.16160",
+  "bytes": 1676035,
+  "sha256": "24ebc6888a802b7e75821d2556cb0ed5cd3edf6ddc21acad72372dc287558b42"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2307.16160",
+  "bytes": 6775442,
+  "sha256": "3a345efd430d4365acaecd5fc5a3560d526842ba41059b1fcc64c7f1f6867e7d",
+  "kind": "tar",
+  "n_files": 22,
+  "tex_files": [
+   "root.tex"
+  ]
+ }
+}

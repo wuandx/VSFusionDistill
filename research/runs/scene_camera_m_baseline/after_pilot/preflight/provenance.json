@@ -1,0 +1,7 @@
+{
+  "reused_existing_preflight": true,
+  "new_gpu_preflight_executed": false,
+  "source": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\runs\\scene_camera_m_baseline\\preflight\\status.json",
+  "source_sha256": "8633b8f9350ee32d90d3ab1a8c788fdf3f06787c79d9d78c35800f8734b5b74e",
+  "reason": "Same data, initialization, implementation and owning source; hashes checked again by launcher and runner"
+}

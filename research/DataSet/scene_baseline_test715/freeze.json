@@ -1,0 +1,37 @@
+{
+  "user_authorized_current_test715": true,
+  "status": "prepared",
+  "models": {
+    "camera": {
+      "run": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/scene_camera_m_baseline/after_pilot/train",
+      "epoch": 200,
+      "kind": "raw",
+      "export_sha256": "3c3086ca5e5eb4ee5a183f4f3f196dcd1ad30e0b1a8dd3b5dd907f3b2caa3d19",
+      "parent_sha256": "bbb1a3e37fe831536d2c31111eeb692718f8692e86761caa25d645f0f333c677",
+      "config_sha256": "5a032dc52189ef40d401020b2afcd1f1364db11bea29cb7b36070369aca47f5c"
+    },
+    "sonar": {
+      "run": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/scene_sonar_s_baseline/after_pilot/train",
+      "epoch": 200,
+      "kind": "raw",
+      "export_sha256": "0446eef538450ad82c711d15d0aac60ee203cfce618327805f482cf134bd2128",
+      "parent_sha256": "207afd223133f8aa993db25980ddc51f6e4c48841df4953a9e79ee1213dba6c4",
+      "config_sha256": "130fa9c59be4d198c642e4698a28d38bbcbec70ff3403e4c24b71038bf8a0101"
+    }
+  },
+  "evaluation": {
+    "score": 0.01,
+    "nms_iou": 0.65,
+    "maxDets": 100,
+    "geometry": "keep_ratio fixed640 right/bottom114",
+    "weights": "epoch200 actual raw only",
+    "no_training": true
+  },
+  "input_sha256": {
+    "camera/coco_test.json": "84aea68e5f842ecab17efd19393f363f9d7ba2d672a457090624f11af20a0d7c",
+    "sonar/coco_test.json": "d322a35025f9f211c94fa48f6b276d8b898c7f0f893d2f6700294c0037d4705d",
+    "test-selected.txt": "e6df3fac2f5b576492999e5cc41bc3ac13aeec9f427d3c656f339e4d451359e6",
+    "recordings.csv": "257ba724286fcdf65d71f6942703f87370424f53c635c2f75aee4fe15b03f097",
+    "user-split-confirmation.json": "e9f92ca030d83a5681521dc28712061bff66d110b13b5a1fb6f7d34bce9b79e4"
+  }
+}

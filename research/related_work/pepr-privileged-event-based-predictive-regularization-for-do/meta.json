@@ -1,0 +1,37 @@
+{
+ "arxiv_id": "2602.04583",
+ "slug": "pepr-privileged-event-based-predictive-regularization-for-do",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:55:31",
+ "tier": "",
+ "why_relevant": "",
+ "title": "PEPR: Privileged Event-based Predictive Regularization for Domain Generalization",
+ "authors": [
+  "Magrini, Gabriele",
+  "Becattini, Federico",
+  "Biondi, Niccolò",
+  "Pala, Pietro"
+ ],
+ "date": "2026/02/04",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Deep neural networks for visual perception are highly susceptible to domain shift, which poses a critical challenge for real-world deployment under conditions that differ from the training data. To address this domain generalization challenge, we propose a cross-modal framework under the learning using privileged information (LUPI) paradigm for training a robust, single-modality RGB model. We leverage event cameras as a source of privileged information, available only during training. The two modalities exhibit complementary characteristics: the RGB stream is semantically dense but domain-dependent, whereas the event stream is sparse yet more domain-invariant. Direct feature alignment between them is therefore suboptimal, as it forces the RGB encoder to mimic the sparse event representation, thereby losing semantic detail. To overcome this, we introduce Privileged Event-based Predictive Regularization (PEPR), which reframes LUPI as a predictive problem in a shared latent space. Instead of enforcing direct cross-modal alignment, we train the RGB encoder with PEPR to predict event-based latent features, distilling robustness without sacrificing semantic richness. The resulting standalone RGB model consistently improves robustness to day-to-night and other domain shifts, outperforming alignment-based baselines across object detection and semantic segmentation.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2602.04583",
+  "bytes": 55356277,
+  "sha256": "4a682ec30cab1631f0a246c669447b763e1c17df22b05b86d2e85fa3a7b47c2d"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2602.04583",
+  "bytes": 69753715,
+  "sha256": "b87cf730d4d74ca06cf3471614fce820c7de2c1a9653060b0d0fc18ae9e41f85",
+  "kind": "tar",
+  "n_files": 115,
+  "tex_files": [
+   "main.tex",
+   "preamble.tex",
+   "suppl.tex"
+  ]
+ }
+}

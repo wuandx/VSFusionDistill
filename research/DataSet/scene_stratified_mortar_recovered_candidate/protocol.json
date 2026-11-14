@@ -1,0 +1,105 @@
+{
+  "name": "scene_stratified_mortar_recovered_candidate",
+  "status": "candidate_pending_user_review",
+  "input_sha256": {
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_paper_scale\\source-inventory.json": "d8cd59d96a95fea6816c916062f2c435e5aa5416b5a1bf36c443e0f935f5c747",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_temporal_all\\manifest-resolved.json": "3b2cf9fd85fce4c76a2e21a953b4ecf230ccc7f846f0547d3fc00d3ca3cffa4a",
+    "D:\\pby\\uxo-full\\split_manifest.json": "2eb707c4ecb038b6174e7abbb1306d366fc93a7fcf4d6b4b25099c053eab6989",
+    "D:\\pby\\data_processed\\matches.csv": "44991a4eef8e9044b84c714bb28600d5bcac6316ab329fa3985a2b685ffc6da3",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\experiment\\archive\\mortar-flyby-recovery-plan.md": "4408ae8c0987ac5c426aa4c0c26456362a4b35b2538985aa60f91249717d3720",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\scene_stratified_paired_expansion\\manifest.json": "796cbee629ca3c5f6342931d9f8ed259be32e99a4c0b98c36e4cf6d8d47aecf3",
+    "D:\\pby\\data_processed\\gopro\\clips_sd\\20230921_GX020012_10.mp4": "6f8e37b109ad58166bfa2fa9a0a1363d4f2b876960d3b32cba22f80bfb82e869",
+    "D:\\pby\\data_processed\\aris\\2023-09-21_105856\\2023-09-21_105856_frames.csv": "9323867f1a810e40dd937df82c8602c114e13491a3ab2e9b77a4b25c86e335a7",
+    "D:\\pby\\data_processed\\gopro\\clips_sd\\20230921_GX030012_02.mp4": "4c842f0e232969861ad9233dc40935f1302189f852f90b03d0a7f93fe2862967",
+    "D:\\pby\\data_processed\\aris\\2023-09-21_110229\\2023-09-21_110229_frames.csv": "fc4e887c44bf7760d051bac5e9f9f9e06fa744cb0d3433ddc83a9a961b2b9ce9",
+    "D:\\pby\\data_processed\\gopro\\clips_sd\\20230921_GX030012_03.mp4": "311d1fd0536238e2be9d04b0548ff9ba019f42617c16be2064573482375e48a9",
+    "D:\\pby\\data_processed\\aris\\2023-09-21_110411\\2023-09-21_110411_frames.csv": "288863512a5f6eb67effb80e7db377702e13457723c30ca07c7f59d22b623efd",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\scene_stratified_paired_expansion\\recordings.json": "7decce50cdff66a1e7e902d04b81d0f6b9f70360c0ad890c0bd1aea80ff71719",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\scene_stratified_paired_expansion\\protocol.json": "fa8858a6b55db36fbbd53e819663637764921df1da63711feb13899fa6251bd7",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\mortar_flyby_recovery\\pairing-review.json": "48333a02435fb2b2944e0f55ebc4e57a7e99c06e0a95634ebea456920d721a54",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\mortar_flyby_recovery\\sources.json": "c018d32ced238c8c7f24d88692e99f5e3366988a628ba57655fa531de5caacab",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\mortar_flyby_recovery\\source-recordings.json": "ce9346ed8a8e05b0d49edfb9e17592058090d012ec1b8843a6c8017ac4482061",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\mortar_flyby_recovery\\2023-09-21_105856\\proposals.json": "46a747e1bc56b8f53f86d30155eeb09606166b5234956bc62e5a920a4ed22a37",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\mortar_flyby_recovery\\2023-09-21_105856\\decisions.json": "b48512e4fd74d4d3146d46655ba75e2fffa39bca73c2aa73f1c147148c09dd2a",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\mortar_flyby_recovery\\2023-09-21_105856\\review-events.jsonl": "d42f923e96ae409b7e3ead22e5a17e384d7cce3fbcb037bd05d445ea4ed71d1a",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_171105\\aris_frame_meta.csv": "6002945ea1921ff0e476ea453f9b1dc5f519f01fe5236f62166f1fc8c71af82a",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_174200\\aris_frame_meta.csv": "d4f0046e3fea6174ce527960f1e10f1f50c7d3c8325406f3f61329ceb94a9a38",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_174439\\aris_frame_meta.csv": "2f28e853e8152b9f843a41c57154686c5f7f5aad7a661e023eaca932b9405e95",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_175000\\aris_frame_meta.csv": "51905b20c26c7fd14d7258aabe6d3043f26a0d2e043df5be58f8516a755d80ba",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_175506\\aris_frame_meta.csv": "e78973274468804694881bbb6426dd6883fb7057365966981b5ffff7e4784bf2",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_175905\\aris_frame_meta.csv": "0673ec2144d6a6ee653e219f540fdd72f6fdf64e223f4c7675c9033f730e8abd",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_180506\\aris_frame_meta.csv": "be432e03ec5b27f8fab39283cc1661e343a86a8103eaa87e1d4da01f35dd233c",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_180722\\aris_frame_meta.csv": "9de010563e3136a65ab5ad18f4b3ed343aac3bffee9e2637436ad82dbb22546e",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_181139\\aris_frame_meta.csv": "ae93469f4f2a0255a87f1398ea3ce676cd225e10ddbe4b0b0436ccfe52c6f3f5",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_182317\\aris_frame_meta.csv": "4ca28dd53fe80f4de550e171c7cccf17ee877753b34eec079e304c6996f8e92a",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101416\\aris_frame_meta.csv": "2b6908387cfe15bfab8a0976869416293e7c31dbb199ae994095478802ca442f",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101622\\aris_frame_meta.csv": "7a2f303be21b54b53a44136b9bf5146c44e3a08257a4b9ed2601c1527e471228",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101840\\aris_frame_meta.csv": "23606d4e199e3ed5740734cc4ade96a822064e53b7e4f0399be7bb9c8154d075",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_102500\\aris_frame_meta.csv": "fb9c44f87585991950e670b8377ecb37bd992efabe2fb09e04b2235f8e4c09b0",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103140\\aris_frame_meta.csv": "02278d85a0c15b64b82dcced91488a6cc246eeeaa9adb5959d5450e2b65583e8",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103728\\aris_frame_meta.csv": "c7a356a4047d211e076c4da145fc692c271a71241aa0063c7317265b711fc51d",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103927\\aris_frame_meta.csv": "f6062de8f6f2f085be18947f9fcd0d6daceba8a2db75b7712e5165ddaff01f28",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_104749\\aris_frame_meta.csv": "926ca572957a75dbb7a572b452d27c94a9a11e06cb88ca359250d9512ae2c686",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_105017\\aris_frame_meta.csv": "4e8c90359291956cff678692800db3c6ba5a90eca7eb878d6a78e603855ad182",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_105230\\aris_frame_meta.csv": "fe703cb1d50c0584325209333182a52de6125bd7c1a2ff542eb1a02114efd921",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_110049\\aris_frame_meta.csv": "607ded751b882691007f97738cdecf3f6fad266afdbc1085494dd82f642faf0d",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_121124\\aris_frame_meta.csv": "4e2d1fd875a7935d62aab944bab847083785a38d104aa43cfbd8ac20aea44271",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_121327\\aris_frame_meta.csv": "4fab9500ba143a37ed71500ce4507d0bf1b6f6ce376e26926721feee84a67d8f",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_121539\\aris_frame_meta.csv": "9d8aa73c32d8f93c1807940d32a126bfd43b6f592b9715afca9e151759b07204",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_122608\\aris_frame_meta.csv": "43b581a78a2d4bd50aec6e92c5f3cda0a98d37c042522a8b44f15aa22f7357ee",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_122855\\aris_frame_meta.csv": "f965dcb84c36002d4614d74b055251c621171c07104a91cd0a88fa1f3e09bc46",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_123500\\aris_frame_meta.csv": "8a70cc5f4148d42a98b169c69c5372f56ae4e0bc49107ac7f4ad2d757844acfa",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_123841\\aris_frame_meta.csv": "81a11b1605f1799a66c179705561af27eb8c2886ad897a8cabcc6429a299bfa1",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_124039\\aris_frame_meta.csv": "19500e0bd1c55a8ba69cffbeeebe32ee7d8fb71c14543519fd73b9180a9cc7bd",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_124735\\aris_frame_meta.csv": "52c80ec83f08e2f20f46374e5b3c0fbe9553e8f1a81d0737229d1619113fc6e9",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_124915\\aris_frame_meta.csv": "e8e84ed6ea2f210f82d9083f537b6b17cd5f2f8a63b82ca18a0577c64cd8186d",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_125048\\aris_frame_meta.csv": "201db0eed229bd182793df3aa13c723866025a89b610c92bb4e5b521df360d67",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb_(floor)\\2023-09-21_155609\\aris_frame_meta.csv": "18f8fbe043d81231b0929fbef4db5767b4d95e6866740e5783ee7f8425e9b1e0",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb_(floor)\\2023-09-21_160146\\aris_frame_meta.csv": "656bf44ca6dd445af2a7ccd7d74556b57e2e0612bc4213ace0fa21eff72f47fa",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb_(floor)\\2023-09-21_160551\\aris_frame_meta.csv": "e0d6e2d502b7d22df202baa1c18f7e83e8cbf2cbe0d7a9041758cd2a384a87e0",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb_(floor)\\2023-09-21_161916\\aris_frame_meta.csv": "47a0326c788c9cabe4f10b259383695f379f2b8fcc8bfc22a3d6222a66f1551a",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_105856\\aris_frame_meta.csv": "f5bb2118b2d892dfca6321d21e1536acf3424d0fbf13f7129b65c0074a29ac68"
+  },
+  "prior_pairs_preserved": 4061,
+  "new_recordings": [
+    "2023-09-21_105856"
+  ],
+  "new_pairs": 20,
+  "original_roles_changed": false,
+  "new_recording_role": "val",
+  "assignment_rule": "Only one recovered new source => val; prior110049 remains train; test gap remains",
+  "source_groups": [
+    [
+      "2023-09-20_174200",
+      "2023-09-20_174439"
+    ],
+    [
+      "2023-09-20_180506",
+      "2023-09-20_180722"
+    ],
+    [
+      "2023-09-21_103728",
+      "2023-09-21_103927"
+    ],
+    [
+      "2023-09-21_121124",
+      "2023-09-21_121327"
+    ],
+    [
+      "2023-09-21_123841",
+      "2023-09-21_124039"
+    ],
+    [
+      "2023-09-21_122608",
+      "2023-09-21_122855"
+    ]
+  ],
+  "training_ready": false,
+  "training": false,
+  "model_inference": false,
+  "original_test_opened": false,
+  "untouched_final_test": false,
+  "precision_sync_certified": false,
+  "expert_verified": false,
+  "user_accepted": false
+}

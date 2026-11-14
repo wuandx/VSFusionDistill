@@ -1,0 +1,40 @@
+{
+ "arxiv_id": "2609.18124",
+ "slug": "aligned-consensus-teaching-for-label-efficient-oriented-obje",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:46:59",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Aligned Consensus Teaching for Label-Efficient Oriented Object Detection in Weakly-Aligned Visible-Infrared Imagery",
+ "authors": [
+  "Ming, Qi",
+  "Yuan, Xiaxin",
+  "Zhou, Jiahuan",
+  "Li, Jiangmeng",
+  "Zhao, Xudong",
+  "Huang, Zhanchao",
+  "Fang, Juan",
+  "Huang, Shaoguang",
+  "Pizurica, Aleksandra"
+ ],
+ "date": "2026/09/16",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Visible-infrared object detection (VIOD) detects objects with oriented bounding boxes from paired visible and infrared images. Existing methods depend on costly dual-modality annotations. Semi-supervised learning can reduce this burden, but extending it from single-modal detection to VIOD is challenging. In the practical image-pair-level setting considered here, only a few pairs are labeled in both modalities, while the rest are completely unlabeled. This limited supervision creates three challenges: (i) too few labeled boxes for robust cross-modal alignment; (ii) pseudo-label errors caused by branch-wise misses accumulate during self-training; and (iii) tail-class annotations become critically scarce as the labeling budget decreases. We propose Aligned Consensus Teacher (ACT) for label-efficient VIOD in this setting. Its Cycle-Consistent Region Alignment (CRA) combines cycle consistency and sparse anchors with reliability-weighted regional matching. Cross-Modal Consensus Mean-Teacher (CMC-MT) forms consensus pseudo labels under pair-preserving views to recover branch-wise misses and supervise unlabeled pairs. Text-Guided Cross-Modal Instance Augmentation (TG-CMIA) uses a vision-language scene prior to compose tail-class instance pairs while preserving RGB--IR offsets. To the best of our knowledge, ACT is the first framework to study semi-supervised VIOD under this image-pair-level setting. Experiments on DroneVehicle and VEDAI show consistent gains across annotation ratios. With 10\\% labeled pairs on DroneVehicle, ACT reaches 94.3\\% of the mAP obtained by the same detector under full supervision. Code and models will be available on GitHub to facilitate future work.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2609.18124",
+  "bytes": 13748764,
+  "sha256": "250cfe60f8f8e89e60fc9d876a68f83a04c9e24eecf2d789ab9612519a57960f"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2609.18124",
+  "bytes": 12920266,
+  "sha256": "b7be3fd7f7a93e2234deaad217b248cb401deb5fa47b4ad953a79e9ed432676a",
+  "kind": "tar",
+  "n_files": 9,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

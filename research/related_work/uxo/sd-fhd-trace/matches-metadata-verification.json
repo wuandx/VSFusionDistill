@@ -1,0 +1,37 @@
+{
+  "archive_range_start": 61491128889,
+  "archive_range_end": 61512100408,
+  "cached_range_sha256": "ba14744abb7b94d0932a2c2acccd402dad9798ceb07de6c741e9d333b42815cd",
+  "csv_size": 23048,
+  "csv_crc32": 2231209736,
+  "csv_sha256": "44991a4eef8e9044b84c714bb28600d5bcac6316ab329fa3985a2b685ffc6da3",
+  "decoder_start": 3413,
+  "temporary_prefix_size": 1,
+  "selected_match_rows": [
+    {
+      "aris_file": "aris/2023-09-21_101622",
+      "aris_idx": "6",
+      "aris_onset": "74",
+      "gantry_file": "gantry/2023-09-21-10-16-23_15cm_mortar.csv",
+      "gantry_idx": "3",
+      "gantry_offset": "3735000.0",
+      "gopro_file": "gopro/clips_sd/20230921_GX010012_04.mp4",
+      "gopro_idx": "3",
+      "gopro_offset": "-4",
+      "notes": "- target: 15cm_mortar- Trajectory: L to R (z: 750)- Tilt: -22°- roll: 90°- Max Transmit- 5dB- bad, needs repeat"
+    },
+    {
+      "aris_file": "aris/2023-09-21_103140",
+      "aris_idx": "12",
+      "aris_onset": "82",
+      "gantry_file": "gantry/2023-09-21-10-31-41_15cm_mortar.csv",
+      "gantry_idx": "9",
+      "gantry_offset": "3953001.0",
+      "gopro_file": "gopro/clips_sd/20230921_GX020012_02.mp4",
+      "gopro_idx": "9",
+      "gopro_offset": "-2",
+      "notes": "- target: 15cm_mortar- Trajectory: L to R (z: 500)- Tilt: -34°- roll: 90°- Max Transmit- 5dB"
+    }
+  ],
+  "operation": "only CSV materialized; container bytes traversed in solid-stream reconstruction, no unrelated image/video decoded"
+}

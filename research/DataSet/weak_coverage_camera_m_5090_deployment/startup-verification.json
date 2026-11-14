@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "captured_at": "2026-11-14T10:09:01.395767+00:00",
+  "remote_root": "/root/wzl/weak_coverage_camera_m_teacher",
+  "recipe_fields_equal_after_path_normalization": {
+    "model": true,
+    "optim_wrapper": true,
+    "param_scheduler": true,
+    "train_cfg": true,
+    "randomness": true,
+    "train_dataloader": true,
+    "custom_hooks": true,
+    "default_hooks": true,
+    "train_pipeline": true,
+    "test_pipeline": true,
+    "load_from": true,
+    "resume": true,
+    "val_cfg": true,
+    "test_cfg": true
+  },
+  "dependencies_equal": {
+    "torch": [
+      "2.7.1+cu128",
+      "2.7.1+cu128"
+    ],
+    "torchvision": [
+      "0.22.1+cu128",
+      "0.22.1+cu128"
+    ],
+    "mmcv": [
+      "2.1.0",
+      "2.1.0"
+    ],
+    "mmengine": [
+      "0.10.7",
+      "0.10.7"
+    ],
+    "mmdet": [
+      "3.3.0",
+      "3.3.0"
+    ],
+    "numpy": [
+      "1.26.4",
+      "1.26.4"
+    ],
+    "pycocotools": [
+      "2.0.11",
+      "2.0.11"
+    ],
+    "pillow": [
+      "12.3.0",
+      "12.3.0"
+    ]
+  },
+  "data_source_initialization_implementation_match_local": true,
+  "preflight_train_hashes_match": true,
+  "iterations": [
+    {
+      "epoch": 1,
+      "iteration": 60,
+      "seconds": 0.1995,
+      "loss": 92.7532
+    },
+    {
+      "epoch": 1,
+      "iteration": 80,
+      "seconds": 0.1964,
+      "loss": 92.2337
+    },
+    {
+      "epoch": 1,
+      "iteration": 100,
+      "seconds": 0.1875,
+      "loss": 91.1833
+    },
+    {
+      "epoch": 1,
+      "iteration": 120,
+      "seconds": 0.1867,
+      "loss": 89.5519
+    },
+    {
+      "epoch": 1,
+      "iteration": 140,
+      "seconds": 0.1882,
+      "loss": 87.1935
+    },
+    {
+      "epoch": 1,
+      "iteration": 160,
+      "seconds": 0.1951,
+      "loss": 84.0814
+    },
+    {
+      "epoch": 1,
+      "iteration": 180,
+      "seconds": 0.1928,
+      "loss": 80.2448
+    },
+    {
+      "epoch": 1,
+      "iteration": 200,
+      "seconds": 0.1942,
+      "loss": 75.7056
+    },
+    {
+      "epoch": 1,
+      "iteration": 220,
+      "seconds": 0.1957,
+      "loss": 70.6313
+    },
+    {
+      "epoch": 1,
+      "iteration": 240,
+      "seconds": 0.1952,
+      "loss": 65.2823
+    },
+    {
+      "epoch": 1,
+      "iteration": 260,
+      "seconds": 0.1948,
+      "loss": 59.8187
+    },
+    {
+      "epoch": 1,
+      "iteration": 280,
+      "seconds": 0.1959,
+      "loss": 52.9891
+    },
+    {
+      "epoch": 1,
+      "iteration": 300,
+      "seconds": 0.191,
+      "loss": 44.1763
+    },
+    {
+      "epoch": 1,
+      "iteration": 320,
+      "seconds": 0.1909,
+      "loss": 35.1954
+    },
+    {
+      "epoch": 1,
+      "iteration": 340,
+      "seconds": 0.1916,
+      "loss": 28.5594
+    },
+    {
+      "epoch": 1,
+      "iteration": 360,
+      "seconds": 0.197,
+      "loss": 24.4619
+    },
+    {
+      "epoch": 1,
+      "iteration": 380,
+      "seconds": 0.1971,
+      "loss": 21.5627
+    },
+    {
+      "epoch": 1,
+      "iteration": 400,
+      "seconds": 0.2025,
+      "loss": 19.562
+    },
+    {
+      "epoch": 1,
+      "iteration": 420,
+      "seconds": 0.2035,
+      "loss": 17.4564
+    },
+    {
+      "epoch": 1,
+      "iteration": 440,
+      "seconds": 0.2029,
+      "loss": 15.5162
+    }
+  ],
+  "last_iteration": {
+    "epoch": 1,
+    "iteration": 440,
+    "seconds": 0.2029,
+    "loss": 15.5162
+  },
+  "nvidia_smi": "NVIDIA GeForce RTX 5090 D v2, 9027 MiB, 50 %",
+  "ssh_disconnected_and_reconnected": true,
+  "test_evaluated": false,
+  "sonar_trained": false,
+  "hardware_difference": "local RTX5060Ti -> remote RTX5090D v2; fresh run, floating-point equivalence not guaranteed"
+}

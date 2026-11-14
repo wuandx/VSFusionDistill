@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2101.03603",
+ "slug": "target-detection-and-segmentation-in-circular-scan-synthetic",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:42:58",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Target Detection and Segmentation in Circular-Scan Synthetic-Aperture-Sonar Images using Semi-Supervised Convolutional Encoder-Decoders",
+ "authors": [
+  "Sledge, Isaac J.",
+  "Emigh, Matthew S.",
+  "King, Jonathan L.",
+  "Woods, Denton L.",
+  "Cobb, J. Tory",
+  "Principe, Jose C."
+ ],
+ "date": "2021/01/10",
+ "doi": "10.1109/JOE.2022.3152863",
+ "journal": "",
+ "abstract": "Abstract: We propose a framework for saliency-based, multi-target detection and segmentation of circular-scan, synthetic-aperture-sonar (CSAS) imagery. Our framework relies on a multi-branch, convolutional encoder-decoder network (MB-CEDN). The encoder portion of the MB-CEDN extracts visual contrast features from CSAS images. These features are fed into dual decoders that perform pixel-level segmentation to mask targets. Each decoder provides different perspectives as to what constitutes a salient target. These opinions are aggregated and cascaded into a deep-parsing network to refine the segmentation. We evaluate our framework using real-world CSAS imagery consisting of five broad target classes. We compare against existing approaches from the computer-vision literature. We show that our framework outperforms supervised, deep-saliency networks designed for natural imagery. It greatly outperforms unsupervised saliency approaches developed for natural imagery. This illustrates that natural-image-based models may need to be altered to be effective for this imaging-sonar modality.",
+ "comments": "Submitted to IEEE Journal of Oceanic Engineering",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2101.03603",
+  "bytes": 37474820,
+  "sha256": "9f820836f1294166d5031708cded3e763c1020b7d7c1d3e9bf4263cf889d779f"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2101.03603",
+  "bytes": 30570941,
+  "sha256": "ecfed9cd80a9c0afb9acd691bfabd8ff7cd0b92f610989b96d46469be4d3e062",
+  "kind": "tar",
+  "n_files": 21,
+  "tex_files": [
+   "Sledge-JOE-2021-1col-1.tex"
+  ]
+ }
+}

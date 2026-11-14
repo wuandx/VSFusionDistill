@@ -1,0 +1,25 @@
+{
+  "input_hashes": {
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_box_guided_registration\\input-snapshots\\decisions.json": "f1c71015cea9a15c882c13080263c00b6d1d9a8f4cca1a8be2571a8437dd4738",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_box_guided_registration\\input-snapshots\\manifest.json": "53b6c4755efdea84af225cdde16cc459cd6af0277ab2767c5f3f94c8fc42c48c",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_fixed_mesh\\fixed-mesh-transforms.json": "31e18b860fbbb6ac489156d9d2f4f3ffa57953301e95ab35f1e9fa0bcc8722c7",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_model_registration_consistency\\calibration-versions.json": "b8fbd58849618569f77cd8570eb20b091a29b3e898928f801ef4f9ac0215d281",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\experiment\\sonar-box-guided-full-trajectory-plan.md": "f7f3c388b716100e9f8b8c198cdf757b0c7e1e6a46493f06d9b823c4b05a51d2",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\tools\\fit_box_guided_full_trajectory.py": "c8c18b229944a6d0dae7d36d1695119c8dbe7fed7991ae828c678aebc1300f91",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\tools\\check_official_sonar_coordinates.py": "50d6f9544d5e992c71e364f9f3ac21602ece97c33bba67da76aa7f2d9385d092",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\tools\\fit_sonar_fixed_registration_refinement.py": "34076c871e141ab9b8186c7631769e05cabf58ef76233ec6b368c7ecd6cbce38",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\uxo-upstream-history\\scripts\\common\\aris_definitions.py": "dc63949fc9f5356ab4a3fd0cb12c1a98bd029a37fdb4ace202c6a571d4f9cbd1",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_temporal_all\\manifest-resolved.json": "3b2cf9fd85fce4c76a2e21a953b4ecf230ccc7f846f0547d3fc00d3ca3cffa4a",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\data_export_3dmodels\\3d_models\\mortar_shell.obj": "0688109b4a2147c212de38b7721cb6b8d60558eec4d4d0bf53cbe5f09a43307e",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_fixed_registration_refinement\\mortar_shell\\freeze-model.json": "233e52b238ae82079bb541fd061c14d40edee903573c3d2769db51f7db5ba196",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\data_export_3dmodels\\3d_models\\incindiary.obj": "e6aab3d5638a368185f1c6807df32f62d45bd92ad54a3f2ecddf9015bd6e1e14",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_fixed_registration_refinement\\incindiary\\freeze-model.json": "920152957c3d585c813ee6dbd8597dbb969bcf3a12a0e760b7eee2a11e0d576e"
+  },
+  "inputs_unchanged": true,
+  "frame_provenance_checked": 505,
+  "fit_check_disjoint": true,
+  "all_samples_in_allowed_development_manifest": true,
+  "test_access": false,
+  "training_runs": 0,
+  "original_labels_changed": false
+}

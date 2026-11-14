@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2608.20916",
+ "slug": "semantically-compatible-knowledge-distillation-for-cross-dom",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:58:47",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Semantically Compatible Knowledge Distillation for Cross-Domain Object Detection with Vision Foundation Models",
+ "authors": [
+  "Zhang, Qifeng",
+  "Xiang, Ting",
+  "Bai, Zeyuan",
+  "Chen, Changjian"
+ ],
+ "date": "2026/08/21",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Vision foundation models (VFMs) offer strong generalization capabilities for domain-adaptive object detection (DAOD). However, existing VFM-based methods overlook the spatial-scale discrepancy between teacher and student feature maps, resulting in semantic incompatibility that weakens both feature alignment and pseudo-label learning. Moreover, domain shift can cause source-trained VFM teachers to miss target-domain objects, limiting the quality of their pseudo-labels. To address these issues, we propose the Semantic Localization-Enhanced Teacher (SLE-T), a semantically compatible knowledge-distillation framework built around a lightweight SLE Adapter for DINOv2. SLE Adapter injects pretrained local-texture priors into DINOv2 to improve cross-domain recognition and reformulates its features into dense representations that are spatially and semantically compatible with the student detector. SLE-T transfers the resulting teacher knowledge through either pseudo-label learning or feature alignment. We instantiate SLE-T with DINOv2-B and DINOv2-L (the ViT-B and ViT-L variants) and compare them with the larger DINOv2-G teacher. Extensive experiments on three DAOD benchmarks demonstrate that our method achieves state-of-the-art performance, and ablation studies confirm the importance of teacher-student semantic compatibility. Notably, SLE-T with DINOv2-B produces competitive or superior pseudo-labels using approximately one-quarter of the training time of DINOv2-G and substantially less GPU memory, demonstrating efficient VFM knowledge transfer under limited computational resources.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2608.20916",
+  "bytes": 3067004,
+  "sha256": "c77ae6a5c80d22a68e905c7b98772d4c88e2cc7b490395f92fba8c1d2f0e5bf1"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2608.20916",
+  "bytes": 2484896,
+  "sha256": "fe9b729e29c314b6aa593664e14f0df103ed70ecdde846d6287e2e59db61ba07",
+  "kind": "tar",
+  "n_files": 15,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

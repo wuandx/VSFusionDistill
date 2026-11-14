@@ -1,0 +1,19 @@
+{
+  "train_images": 1800,
+  "queries": 88,
+  "counts": {
+    "2023-09-20_182317": 54,
+    "2023-09-21_121539": 34
+  },
+  "representatives": [
+    "2023-09-20_182317_0196",
+    "2023-09-20_182317_0285",
+    "2023-09-21_121539_0325",
+    "2023-09-21_121539_0446",
+    "2023-09-21_121539_0088",
+    "2023-09-21_121539_0419"
+  ],
+  "method": "GT crop aspect-preserved HOG cosine - 0.15 log-aspect-distance; distinct recording top2 per class",
+  "no_training": true,
+  "test_used": false
+}

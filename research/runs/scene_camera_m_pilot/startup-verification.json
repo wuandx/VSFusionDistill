@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-11-13T23:44:40.593763+08:00",
+  "latest_iteration": "11/13 23:44:36 - mmengine - INFO - Epoch(train)  [1][200/309]  base_lr: 2.0947e-05 lr: 2.0947e-05  eta: 0:16:39  time: 0.3392  data_time: 0.0173  memory: 7463  grad_norm: 156.0237  loss: 58.6551  camera/loss_cls: 0.6043  camera/loss_bbox: 4.9096  camera/loss_obj: 53.1412",
+  "services": {
+    "scene-camera-m-pilot": "MainPID=8966\nResult=success\nActiveState=active\nSubState=running\n",
+    "scene-camera-m-baseline": "MainPID=0\nResult=success\nActiveState=inactive\nSubState=dead\n",
+    "scene-sonar-s-baseline": "MainPID=0\nResult=success\nActiveState=inactive\nSubState=dead\n"
+  },
+  "epochs": 10,
+  "total_updates": 3090,
+  "automatic_long_run_restart": false,
+  "test_content_read": false
+}

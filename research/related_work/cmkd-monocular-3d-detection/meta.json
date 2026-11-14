@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2211.07171",
+ "slug": "cmkd-monocular-3d-detection",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:31:21",
+ "tier": "B",
+ "why_relevant": "cross-modality KD, monocular 3D",
+ "title": "Cross-Modality Knowledge Distillation Network for Monocular 3D Object Detection",
+ "authors": [
+  "Hong, Yu",
+  "Dai, Hang",
+  "Ding, Yong"
+ ],
+ "date": "2022/11/14",
+ "doi": "10.1007/978-3-031-20080-9_6",
+ "journal": "",
+ "abstract": "Abstract: Leveraging LiDAR-based detectors or real LiDAR point data to guide monocular 3D detection has brought significant improvement, e.g., Pseudo-LiDAR methods. However, the existing methods usually apply non-end-to-end training strategies and insufficiently leverage the LiDAR information, where the rich potential of the LiDAR data has not been well exploited. In this paper, we propose the Cross-Modality Knowledge Distillation (CMKD) network for monocular 3D detection to efficiently and directly transfer the knowledge from LiDAR modality to image modality on both features and responses. Moreover, we further extend CMKD as a semi-supervised training framework by distilling knowledge from large-scale unlabeled data and significantly boost the performance. Until submission, CMKD ranks $1^{st}$ among the monocular 3D detectors with publications on both KITTI $test$ set and Waymo $val$ set with significant performance gains compared to previous state-of-the-art methods.",
+ "comments": "Accepted by ECCV 2022 as Oral Presentation",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2211.07171",
+  "bytes": 8807233,
+  "sha256": "3d7318b716509d997d14a573535830758d2e9ada2aa2b8bd764d5e71eaa9a297"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2211.07171",
+  "bytes": 10655037,
+  "sha256": "68f311a20dcd9920de2184b49768d95fef9d300e6d201db0bd3427ee39dbebca",
+  "kind": "tar",
+  "n_files": 21,
+  "tex_files": [
+   "eccv2022submission.tex"
+  ]
+ }
+}

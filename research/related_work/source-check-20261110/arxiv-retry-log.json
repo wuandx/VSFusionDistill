@@ -1,0 +1,23 @@
+[
+  {
+    "sha256": "340d5513fb25eded9107e36f172b5fedd58a661ffe5be7fb4ffabee690def741",
+    "totalResults": "0",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Cross-Modality%20Object-Level%20Knowledge%20Distillation%20for%20Enhanced%20Underwater%20Sonar%20Object%20Detection%22&max_results=10",
+    "status": 200,
+    "file": "related_work\\source-check-20261110\\cmold-arxiv-query.xml"
+  },
+  {
+    "sha256": "44320f3ba0f931c1e773734d9b66e89d65283998073487a4860b27a7cda13663",
+    "totalResults": "0",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Lightweight%20Underwater%20Sonar%20Object%20Detection%20via%20RGB-Guided%20Heterogeneous%20Distillation%22&max_results=10",
+    "status": 200,
+    "file": "related_work\\source-check-20261110\\cmhd-arxiv-query.xml"
+  },
+  {
+    "sha256": "c8aca60ac4f2b0f83b8ec5bb96328c9f0a04cd155c473e5a73302bcd3aa25883",
+    "totalResults": "0",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22An%20Acoustic%20and%20Optical%20Dataset%20for%20the%20Perception%20of%20Underwater%20Unexploded%20Ordnance%22&max_results=10",
+    "status": 200,
+    "file": "related_work\\source-check-20261110\\uxo-arxiv-query.xml"
+  }
+]

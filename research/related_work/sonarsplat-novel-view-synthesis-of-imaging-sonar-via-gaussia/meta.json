@@ -1,0 +1,41 @@
+{
+ "arxiv_id": "2504.00159",
+ "slug": "sonarsplat-novel-view-synthesis-of-imaging-sonar-via-gaussia",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:44:49",
+ "tier": "",
+ "why_relevant": "",
+ "title": "SonarSplat: Novel View Synthesis of Imaging Sonar via Gaussian Splatting",
+ "authors": [
+  "Sethuraman, Advaith V.",
+  "Rucker, Max",
+  "Bagoren, Onur",
+  "Kung, Pou-Chun",
+  "Amutha, Nibarkavi N. B.",
+  "Skinner, Katherine A."
+ ],
+ "date": "2025/03/31",
+ "doi": "10.1109/LRA.2025.3627089",
+ "journal": "",
+ "abstract": "Abstract: In this paper, we present SonarSplat, a novel Gaussian splatting framework for imaging sonar that demonstrates realistic novel view synthesis and models acoustic streaking phenomena. Our method represents the scene as a set of 3D Gaussians with acoustic reflectance and saturation properties. We develop a novel method to efficiently rasterize Gaussians to produce a range/azimuth image that is faithful to the acoustic image formation model of imaging sonar. In particular, we develop a novel approach to model azimuth streaking in a Gaussian splatting framework. We evaluate SonarSplat using real-world datasets of sonar images collected from an underwater robotic platform in a controlled test tank and in a real-world river environment. Compared to the state-of-the-art, SonarSplat offers improved image synthesis capabilities (+3.2 dB PSNR) and more accurate 3D reconstruction (77% lower Chamfer Distance). We also demonstrate that SonarSplat can be leveraged for azimuth streak removal.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2504.00159",
+  "bytes": 4208258,
+  "sha256": "47721e425db32cfcaf02a140294330c165dfab7911e1c6686f9af27da14953aa"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2504.00159",
+  "bytes": 3698970,
+  "sha256": "2f5169cd6d96a93cf3358735c96d68b085ddae256c0d3630552c788e18010b1a",
+  "kind": "tar",
+  "n_files": 23,
+  "tex_files": [
+   "root.tex",
+   "sec/01_intro.tex",
+   "sec/02_prior_work.tex",
+   "sec/03_tech_approach.tex",
+   "sec/04_exp_results.tex"
+  ]
+ }
+}

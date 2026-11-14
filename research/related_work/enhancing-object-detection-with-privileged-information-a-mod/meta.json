@@ -1,0 +1,39 @@
+{
+ "arxiv_id": "2601.02016",
+ "slug": "enhancing-object-detection-with-privileged-information-a-mod",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:49:32",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Enhancing Object Detection with Privileged Information: A Model-Agnostic Teacher-Student Approach",
+ "authors": [
+  "Bartolo, Matthias",
+  "Seychell, Dylan",
+  "Hili, Gabriel",
+  "Montebello, Matthew",
+  "Debono, Carl James",
+  "Formosa, Saviour",
+  "Makantasis, Konstantinos"
+ ],
+ "date": "2026/01/05",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: This paper investigates the integration of the Learning Using Privileged Information (LUPI) paradigm in object detection to exploit fine-grained, descriptive information available during training but not at inference. We introduce a general, model-agnostic methodology for injecting privileged information-such as bounding box masks, saliency maps, and depth cues-into deep learning-based object detectors through a teacher-student architecture. Experiments are conducted across five state-of-the-art object detection models and multiple public benchmarks, including UAV-based litter detection datasets and Pascal VOC 2012, to assess the impact on accuracy, generalization, and computational efficiency. Our results demonstrate that LUPI-trained students consistently outperform their baseline counterparts, achieving significant boosts in detection accuracy with no increase in inference complexity or model size. Performance improvements are especially marked for medium and large objects, while ablation studies reveal that intermediate weighting of teacher guidance optimally balances learning from privileged and standard inputs. The findings affirm that the LUPI framework provides an effective and practical strategy for advancing object detection systems in both resource-constrained and real-world settings.",
+ "comments": "Code available on GitHub: this https URL",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2601.02016",
+  "bytes": 13443600,
+  "sha256": "6cbd42bae613351907cf2faa627f44732be5158e7a81a73c4b8a28d6f0b9e337"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2601.02016",
+  "bytes": 13467906,
+  "sha256": "42b19e76967a44358377bd689e513b7d36477ba85e846b91154c170fa6fdcc8d",
+  "kind": "tar",
+  "n_files": 18,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

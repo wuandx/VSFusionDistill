@@ -1,0 +1,24 @@
+{
+  "total_recordings": 94,
+  "target_class_recordings": 72,
+  "other_target_recordings": 22,
+  "target_non_original_test": 62,
+  "target_non_original_test_with_camera": 51,
+  "current_pairs_recordings": 37,
+  "state_counts": {
+    "current_train": 21,
+    "original_test_closed": 10,
+    "extra_existing_labels_camera_review": 10,
+    "current_val": 9,
+    "current_test": 7,
+    "extra_camera_needs_annotation": 4,
+    "no_matched_camera_clip": 11,
+    "other_target_test_cylinder": 22
+  },
+  "extra_camera_recordings": 14,
+  "preview_proposals": 168,
+  "all_extra_shared_heldout_sources": 0,
+  "original_test_content_read": false,
+  "training": false,
+  "note": "n_gopro counts camera image availability, not camera GT. Preview resize1920x1080 to640x360; bounds are not acceptance."
+}

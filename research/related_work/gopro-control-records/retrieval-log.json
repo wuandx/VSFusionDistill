@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/contributors",
+    "utc": "2026-11-11T04:27:42.008936+00:00",
+    "error": "HTTP Error 403: rate limit exceeded"
+  },
+  {
+    "url": "https://api.github.com/search/repositories?q=uxo+calibration&per_page=30",
+    "utc": "2026-11-11T04:27:42.008936+00:00",
+    "status": 200,
+    "bytes": 55,
+    "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f"
+  },
+  {
+    "url": "https://api.github.com/search/repositories?q=oceans+user:dfki-ric&per_page=30",
+    "utc": "2026-11-11T04:27:42.009936+00:00",
+    "status": 200,
+    "bytes": 55,
+    "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f"
+  },
+  {
+    "url": "https://api.github.com/users/proneetsharma/repos?per_page=100",
+    "utc": "2026-11-11T04:27:42.009936+00:00",
+    "error": "HTTP Error 403: rate limit exceeded"
+  },
+  {
+    "url": "https://api.github.com/users/jmohrmann/repos?per_page=100",
+    "utc": "2026-11-11T04:27:42.009936+00:00",
+    "error": "HTTP Error 403: rate limit exceeded"
+  }
+]

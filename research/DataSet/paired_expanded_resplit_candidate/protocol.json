@@ -1,0 +1,248 @@
+{
+  "name": "paired_expanded_resplit_4836",
+  "status": "exported_reviewed_development_split",
+  "user_authorized_expansion_and_resplit": true,
+  "seed": 42,
+  "classes": [
+    "100lbs_aircraft_bomb",
+    "mortar_shell",
+    "incindiary_grenade"
+  ],
+  "source_groups": [
+    [
+      "2023-09-20_174200",
+      "2023-09-20_174439"
+    ],
+    [
+      "2023-09-20_180506",
+      "2023-09-20_180722"
+    ],
+    [
+      "2023-09-21_103728",
+      "2023-09-21_103927"
+    ],
+    [
+      "2023-09-21_121124",
+      "2023-09-21_121327"
+    ],
+    [
+      "2023-09-21_123841",
+      "2023-09-21_124039"
+    ],
+    [
+      "2023-09-21_122608",
+      "2023-09-21_122855"
+    ]
+  ],
+  "algorithm": "All 8 scenes in train; >=3 source groups: all three roles required; 2 groups: train/val; 1 group: train only. Per scene lexicographic whole-recording 60/20/20 count error, missing train metadata values, missing joint primary conditions, pair count error, seeded hash tie. No model metric used.",
+  "search": [
+    {
+      "scene": "100lbs_aircraft_bomb|floor|ellipse",
+      "groups": [
+        "2023-09-21_155609",
+        "2023-09-21_160146",
+        "2023-09-21_160551"
+      ],
+      "feasible_assignments": 6,
+      "score": [
+        0.96,
+        5,
+        2,
+        349.44,
+        "13a18e1bb0732ae843907eb7c4b10ab43a16354bcf6e63404a716f5f1112e96b"
+      ],
+      "roles": {
+        "2023-09-21_155609": "val",
+        "2023-09-21_160146": "test",
+        "2023-09-21_160551": "train"
+      }
+    },
+    {
+      "scene": "100lbs_aircraft_bomb|floor|flyby",
+      "groups": [
+        "2023-09-21_161916"
+      ],
+      "feasible_assignments": 1,
+      "score": [
+        0.24,
+        0,
+        0,
+        3341.76,
+        "44c4d763a206fc2ee0ae4618a7d77a71cf566315ed02291a6b905380d0ad80c0"
+      ],
+      "roles": {
+        "2023-09-21_161916": "train"
+      }
+    },
+    {
+      "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+      "groups": [
+        "2023-09-20_171105",
+        "2023-09-20_174200",
+        "2023-09-20_174711",
+        "2023-09-20_175000",
+        "2023-09-20_175506",
+        "2023-09-20_175905",
+        "2023-09-20_180506",
+        "2023-09-20_181139"
+      ],
+      "feasible_assignments": 5796,
+      "score": [
+        0.0,
+        0,
+        1,
+        1250.64,
+        "1763916b9cacbed616c20e33be0ad968ba2360ce4f10b333ed7b38752d6c57f6"
+      ],
+      "roles": {
+        "2023-09-20_171105": "train",
+        "2023-09-20_174200": "val",
+        "2023-09-20_174439": "val",
+        "2023-09-20_175000": "train",
+        "2023-09-20_175506": "train",
+        "2023-09-20_175905": "test",
+        "2023-09-20_180506": "train",
+        "2023-09-20_180722": "train",
+        "2023-09-20_181139": "test",
+        "2023-09-20_174711": "train"
+      }
+    },
+    {
+      "scene": "100lbs_aircraft_bomb|standard|flyby",
+      "groups": [
+        "2023-09-20_182317"
+      ],
+      "feasible_assignments": 1,
+      "score": [
+        0.24,
+        0,
+        0,
+        5115.84,
+        "202225904bd546b0c952ca9efb688a287c2786df9bf5ed02537add6483daf578"
+      ],
+      "roles": {
+        "2023-09-20_182317": "train"
+      }
+    },
+    {
+      "scene": "incindiary_grenade|standard|L_to_R",
+      "groups": [
+        "2023-09-21_121124",
+        "2023-09-21_121539",
+        "2023-09-21_122608",
+        "2023-09-21_123500",
+        "2023-09-21_123841"
+      ],
+      "feasible_assignments": 150,
+      "score": [
+        0.56,
+        0,
+        1,
+        31712.96,
+        "7767130b5ff4f9e7db0ee7f5e43ead00a5a44ed6b0670d4835801beddbe2fc8c"
+      ],
+      "roles": {
+        "2023-09-21_121124": "train",
+        "2023-09-21_121327": "train",
+        "2023-09-21_121539": "test",
+        "2023-09-21_122608": "train",
+        "2023-09-21_122855": "train",
+        "2023-09-21_123500": "train",
+        "2023-09-21_123841": "val",
+        "2023-09-21_124039": "val"
+      }
+    },
+    {
+      "scene": "incindiary_grenade|standard|flyby",
+      "groups": [
+        "2023-09-21_124735",
+        "2023-09-21_124915",
+        "2023-09-21_125048"
+      ],
+      "feasible_assignments": 6,
+      "score": [
+        0.96,
+        4,
+        1,
+        4927.76,
+        "94c07405c89cc95378ed60bc2cd0d185661422bd135ab188bc25746507d5051f"
+      ],
+      "roles": {
+        "2023-09-21_124735": "val",
+        "2023-09-21_124915": "train",
+        "2023-09-21_125048": "test"
+      }
+    },
+    {
+      "scene": "mortar_shell|standard|L_to_R",
+      "groups": [
+        "2023-09-21_101416",
+        "2023-09-21_101622",
+        "2023-09-21_101840",
+        "2023-09-21_102500",
+        "2023-09-21_103140",
+        "2023-09-21_103728",
+        "2023-09-21_104749",
+        "2023-09-21_105017",
+        "2023-09-21_105230"
+      ],
+      "feasible_assignments": 18150,
+      "score": [
+        0.0,
+        0,
+        0,
+        7874.0,
+        "1ee5d6a1e8ff9e669d03db9855d925eaf4025347a17e819888379bebf34362b3"
+      ],
+      "roles": {
+        "2023-09-21_101416": "train",
+        "2023-09-21_101622": "test",
+        "2023-09-21_101840": "train",
+        "2023-09-21_102500": "train",
+        "2023-09-21_103140": "train",
+        "2023-09-21_103728": "val",
+        "2023-09-21_103927": "val",
+        "2023-09-21_104749": "train",
+        "2023-09-21_105017": "train",
+        "2023-09-21_105230": "test"
+      }
+    },
+    {
+      "scene": "mortar_shell|standard|flyby",
+      "groups": [
+        "2023-09-21_105856",
+        "2023-09-21_110049"
+      ],
+      "feasible_assignments": 2,
+      "score": [
+        0.56,
+        3,
+        0,
+        215.36,
+        "bc1fca4f351c4b76f966fcbad53af009c80d774982452c76c5fdfaaef3c59490"
+      ],
+      "roles": {
+        "2023-09-21_110049": "train",
+        "2023-09-21_105856": "val"
+      }
+    }
+  ],
+  "input_sha256": {
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\scene_stratified_mortar_recovered_candidate\\manifest.json": "0cfcbebfa6c0064a29321a88623468d59a0c4e0ae4d17d13a74bc6a290e8a10d",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\scene_stratified_mortar_recovered_candidate\\recordings.json": "2ec19b1ad656368f8cd860d591700829f501e49c56a1f8299931c549cf86d361",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_expanded_resplit_review\\proposals.json": "54b9f3c8dcebd4070da06e13116f77d3891a98de1b68a47761b33a03f648f322",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_expanded_resplit_review\\assistant-decisions.json": "7dd948405c29ab50938d3b00892d743d2d77ce4e2ae9b6b8c5fc00a8e2dc5151",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_new_recording_arc_review\\revision-2\\proposals.json": "1f223289180223ada977fd6f673103b0bc3db3374b73fb427694ba01eec55e29",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_new_recording_arc_review\\revision-2\\assistant-decisions.json": "da390be6a9f6e07547212fea989d6a46a5487bb5f6810ef9cd71fd7124474c73",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\experiment\\archive\\paired-expanded-resplit-plan.md": "2ed02a22304d4f1519be0c1a645164a65c46fc863c5af0c8705d2da48b304c9c",
+    "D:\\pby\\uxo-full\\split_manifest.json": "2eb707c4ecb038b6174e7abbb1306d366fc93a7fcf4d6b4b25099c053eab6989"
+  },
+  "old_715_test_evaluated": true,
+  "untouched_final_test": false,
+  "original_research_test_opened": false,
+  "training_started": false,
+  "coco_file_name_root": "dataset root; not modality subdirectory",
+  "source_images_self_contained": true,
+  "precision_sync_certified": false,
+  "expert_verified": false
+}

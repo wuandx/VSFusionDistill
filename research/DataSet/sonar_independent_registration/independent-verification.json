@@ -1,0 +1,40 @@
+{
+  "replayed_camera_controls": 34,
+  "all_vertex_homogeneous_replay_max_rms_difference_px": 2.5934809855243657e-13,
+  "pytransform3d_transform_max_difference": 7.251144129583054e-16,
+  "synthetic_triangulation": [
+    {
+      "model": "100lbs",
+      "version": "release_current",
+      "triangulation_error_m": 2.7190925877156726e-16
+    },
+    {
+      "model": "100lbs",
+      "version": "notebook_20240723",
+      "triangulation_error_m": 1.024662259598183e-16
+    },
+    {
+      "model": "incindiary",
+      "version": "release_current",
+      "triangulation_error_m": 8.462890747664201e-17
+    },
+    {
+      "model": "incindiary",
+      "version": "notebook_20240723",
+      "triangulation_error_m": 1.5223125142015693e-16
+    },
+    {
+      "model": "mortar_shell",
+      "version": "release_current",
+      "triangulation_error_m": 2.56128851812306e-16
+    },
+    {
+      "model": "mortar_shell",
+      "version": "notebook_20240723",
+      "triangulation_error_m": 3.0444273447339113e-17
+    }
+  ],
+  "passed": true,
+  "note": "Numerical implementation verification only; does not validate camera mode, calibration, contour semantics, or physical registration",
+  "script_sha256": "0c1e0485f5feb98394f916b870f63ddb0cd6b620136528b400845e2046943677"
+}

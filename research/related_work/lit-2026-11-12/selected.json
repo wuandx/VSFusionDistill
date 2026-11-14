@@ -1,0 +1,716 @@
+[
+ {
+  "id": "2403.09313",
+  "slug": "yolox-vit-side-scan-sonar-kd",
+  "tier": "A",
+  "why": "sonar+YOLOX+KD, closest single precedent",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2603.15200",
+  "slug": "physically-motivated-kd-side-scan",
+  "tier": "A",
+  "why": "KD used to correct side-scan imagery geometry",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2410.12953",
+  "slug": "syn2real-mine-like-side-scan",
+  "tier": "A",
+  "why": "unexploded mine-like objects, side-scan, domain generalization",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2410.10554",
+  "slug": "rosar-side-scan-robust-detection",
+  "tier": "B",
+  "why": "side-scan sonar detector robustness",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2212.00352",
+  "slug": "fls-multibeam-detection-dataset",
+  "tier": "B",
+  "why": "forward-looking sonar detection dataset (ARIS-adjacent)",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "1907.00734",
+  "slug": "objectness-sonar-class-independent",
+  "tier": "B",
+  "why": "class-independent sonar object detection",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "1709.02600",
+  "slug": "objectness-proposals-fls",
+  "tier": "C",
+  "why": "early FLS detection proposals",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2108.06800",
+  "slug": "marine-debris-fls-segmentation",
+  "tier": "C",
+  "why": "FLS semantic segmentation dataset",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2411.05863",
+  "slug": "ping360-affordable-sonar-detection",
+  "tier": "C",
+  "why": "low-cost sonar object detection",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2111.08379",
+  "slug": "landmine-flgpr-minimax",
+  "tier": "B",
+  "why": "UXO/landmine detection, non-optical sensor",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2609.01738",
+  "slug": "uav-thermal-inert-ordnance",
+  "tier": "B",
+  "why": "inert ordnance detection from aerial imagery",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2107.10504",
+  "slug": "lowshot-targets-fls",
+  "tier": "C",
+  "why": "low-shot target learning in FLS imagery",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "1910.05374",
+  "slug": "shipwreck-fls-rotation-invariant",
+  "tier": "C",
+  "why": "FLS recognition, rotation invariance",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2308.11633",
+  "slug": "ssl-synthetic-aperture-sonar",
+  "tier": "C",
+  "why": "self-supervised learning on SAS data",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2303.15083",
+  "slug": "unidistill-cross-modality-detection",
+  "tier": "A",
+  "why": "universal cross-modality KD for 3D detection",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2211.07171",
+  "slug": "cmkd-monocular-3d-detection",
+  "tier": "B",
+  "why": "cross-modality KD, monocular 3D",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2407.10164",
+  "slug": "labeldistill-camera-3d",
+  "tier": "B",
+  "why": "label-guided cross-modal KD, camera-based detector",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2412.14571",
+  "slug": "sckd-4d-radar-detection",
+  "tier": "B",
+  "why": "semi-supervised cross-modality KD, radar",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2509.17712",
+  "slug": "rctdistill-radar-camera-3d",
+  "tier": "B",
+  "why": "cross-modal KD radar-camera with temporal fusion",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2606.11572",
+  "slug": "freqkd-infrared-detection",
+  "tier": "A",
+  "why": "RGB->IR cross-modal KD for object detection (closest modality gap analogue)",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2606.24248",
+  "slug": "m2c-evdet-event-detection",
+  "tier": "B",
+  "why": "multi-order cross-modal KD for event detection",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2605.09899",
+  "slug": "hyperbolic-distillation-3d",
+  "tier": "C",
+  "why": "geometry-guided cross-modal transfer, 3D detection",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2603.07464",
+  "slug": "selective-transfer-cmkd-monocular",
+  "tier": "C",
+  "why": "selective cross-modality distillation, monocular 3D",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2312.11829",
+  "slug": "radocc-occupancy-distillation",
+  "tier": "C",
+  "why": "cross-modality occupancy KD via rendering",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2307.04091",
+  "slug": "cmdfusion-lidar-segmentation",
+  "tier": "B",
+  "why": "bidirectional fusion + cross-modality KD",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2512.15311",
+  "slug": "kd360-voxelbev",
+  "tier": "C",
+  "why": "LiDAR-camera cross-modality KD, BEV",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2503.09878",
+  "slug": "cleverdistiller-spatial-consistency",
+  "tier": "B",
+  "why": "simple spatially-consistent cross-modal distillation",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2605.30111",
+  "slug": "xmodel-kd-lidar-3d",
+  "tier": "C",
+  "why": "cross-modal KD for 3D scene perception",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2108.03619",
+  "slug": "augmented-rgb-cmkd-action",
+  "tier": "C",
+  "why": "augmented RGB via cross-modal KD (modality substitution)",
+  "cmold_section": "II-C→跨模态"
+ },
+ {
+  "id": "2310.01035",
+  "slug": "learnable-cmkd-missing-modality",
+  "tier": "A",
+  "why": "cross-modal KD when a modality is missing at test time",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2606.10504",
+  "slug": "cmkd-without-paired-data",
+  "tier": "A",
+  "why": "cross-modal KD without paired data (theory+algorithm)",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2507.16296",
+  "slug": "cm-distill-widely-differing",
+  "tier": "B",
+  "why": "cross-modal distillation across very different modalities",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2409.02438",
+  "slug": "non-target-divergence-hypothesis",
+  "tier": "B",
+  "why": "analysis of domain gaps in cross-modal KD",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2511.08901",
+  "slug": "asymmetric-cmkd-weak-consistency",
+  "tier": "B",
+  "why": "asymmetric cross-modal KD with weak semantic consistency",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2312.02240",
+  "slug": "contrastive-spectral-kd-missing",
+  "tier": "C",
+  "why": "spectral KD with missing modality",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2511.14599",
+  "slug": "ccsd-missing-modality-seg",
+  "tier": "C",
+  "why": "compositional self-distillation, missing modalities",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2507.07015",
+  "slug": "mst-distill-mixture-teachers",
+  "tier": "C",
+  "why": "mixture of specialized teachers, cross-modal KD",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2611.06542",
+  "slug": "evo-opd-privileged-information",
+  "tier": "C",
+  "why": "privileged information distillation strategies",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2412.11840",
+  "slug": "sonar-based-deep-learning-in-underwater-robotics-overview-ro",
+  "tier": "A",
+  "why": "声呐深度学习综述：数据有限+固有噪声为本领域瓶颈",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2603.21071",
+  "slug": "ctfs-collaborative-teacher-framework-for-forward-looking-son",
+  "tier": "A",
+  "why": "前视声呐教师-学生分割，2% 标注；同期最接近的师生框架",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2604.00383",
+  "slug": "mine-jepa-in-domain-self-supervised-learning-for-mine-like-o",
+  "tier": "A",
+  "why": "SSS 域内自监督，仅 1170 张无标注图；支撑声呐域内预训练",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2503.01655",
+  "slug": "can-optical-denoising-clean-sonar-images-a-benchmark-and-fus",
+  "tier": "A",
+  "why": "9 个光学去噪器迁声呐 × 4 检测器含 YOLOX；光学→声呐可行性前提",
+  "cmold_section": "II-B"
+ },
+ {
+  "id": "2304.11875",
+  "slug": "underwater-object-classification-combining-sas-and-transferr",
+  "tier": "A",
+  "why": "7052 对光学/SAS 影像迁移，光学→声学监督迁移直接先例",
+  "cmold_section": "II-B"
+ },
+ {
+  "id": "2406.07189",
+  "slug": "rgb-sonar-tracking-benchmark-and-spatial-cross-attention-tra",
+  "tier": "A",
+  "why": "RGB–声呐配对跟踪基准 + 造伪配对的 SRST",
+  "cmold_section": "II-B"
+ },
+ {
+  "id": "2410.08612",
+  "slug": "synth-sonar-sonar-image-synthesis-with-enhanced-diversity-an",
+  "tier": "A",
+  "why": "双扩散+GPT 合成声呐图像，替代方案的最近邻",
+  "cmold_section": "V"
+ },
+ {
+  "id": "2310.01667",
+  "slug": "stars-zero-shot-sim-to-real-transfer-for-segmentation-of-shi",
+  "tier": "B",
+  "why": "纯仿真训练零样本 sim-to-real 分割，+20%",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2303.12946",
+  "slug": "underwater-camouflage-object-detection-dataset",
+  "tier": "B",
+  "why": "UW-R/UW-S 成对光学与声呐标注集，量化配对稀缺",
+  "cmold_section": "II-B"
+ },
+ {
+  "id": "2603.13585",
+  "slug": "sonar-mast3r-real-time-opti-acoustic-fusion-in-turbid-unstru",
+  "tier": "B",
+  "why": "ICRA26 实时声-光融合，浊度 0.5–12 NTU",
+  "cmold_section": "II-B"
+ },
+ {
+  "id": "2404.18663",
+  "slug": "terrain-characterisation-for-online-adaptability-of-automate",
+  "tier": "B",
+  "why": "ATR 在非良性海底迅速退化；域差来自环境",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "1706.09858",
+  "slug": "what-39-s-mine-is-yours-pretrained-cnns-for-limited-training",
+  "tier": "B",
+  "why": "最早的「声呐样本少→借预训练 CNN」路线",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2005.04621",
+  "slug": "a-comparison-of-few-shot-learning-methods-for-underwater-opt",
+  "tier": "B",
+  "why": "水光与侧扫声呐 few-shot 对比，FSL 优于微调",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2101.03603",
+  "slug": "target-detection-and-segmentation-in-circular-scan-synthetic",
+  "tier": "B",
+  "why": "半监督 CSAS 检测/分割；自然图像模型需改造",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2607.23770",
+  "slug": "a-comparison-of-data-augmentation-methods-for-training-deep-",
+  "tier": "B",
+  "why": "SAS 数据增强系统比较，避免「加增强就涨点」",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2606.06130",
+  "slug": "towards-realistic-3d-sonar-simulation",
+  "tier": "B",
+  "why": "3D 声呐仿真与真实港区对标，量化 sim-to-real gap",
+  "cmold_section": "V"
+ },
+ {
+  "id": "2510.03353",
+  "slug": "sonar-image-datasets-a-comprehensive-survey-of-resources-cha",
+  "tier": "B",
+  "why": "声呐数据集综述，数据稀缺最省事的引证",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2210.06535",
+  "slug": "development-of-a-simulation-environment-for-evaluation-of-a-",
+  "tier": "B",
+  "why": "光线追踪高保真 FLS 仿真环境（OCEANS 2019）",
+  "cmold_section": "V"
+ },
+ {
+  "id": "2504.00159",
+  "slug": "sonarsplat-novel-view-synthesis-of-imaging-sonar-via-gaussia",
+  "tier": "B",
+  "why": "高斯泼溅渲染声呐图，可微渲染工具",
+  "cmold_section": "V"
+ },
+ {
+  "id": "2409.07004",
+  "slug": "performance-assessment-of-feature-detection-methods-for-2-d-",
+  "tier": "C",
+  "why": "RGB 特征检测器不适配声呐斑点噪声",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2108.01111",
+  "slug": "pre-trained-models-for-sonar-images",
+  "tier": "C",
+  "why": "每类 10–30 样本即迁移，跨 Gemini 720i 验证",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2511.13922",
+  "slug": "self-supervised-compression-and-artifact-correction-for-stre",
+  "tier": "C",
+  "why": "斑点/混响/声影影响多达 98% 声呐帧",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2508.10445",
+  "slug": "dod-sa-infrared-visible-decoupled-object-detection-with-sing",
+  "tier": "A",
+  "why": "与本文最同构：**只有一侧模态有标注**，靠跨模态知识迁移 + 三阶段自训练 + 伪标签分配器把标注能力搬到无标注模态——直接对应学生侧「少量人工标注 + 伪标签」",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2609.18124",
+  "slug": "aligned-consensus-teaching-for-label-efficient-oriented-obje",
+  "tier": "A",
+  "why": "少数成对样本有标注、其余全无标注的半监督可见光-红外检测；共识伪标签 + 循环一致区域对齐 + 尾类实例增广，正是「学生侧标注稀缺」的解法与评测口径",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2605.10130",
+  "slug": "thermal-det-language-guided-cross-modal-distillation-for-ope",
+  "tier": "A",
+  "why": "冻结 RGB 教师对**成对但无标注**的 thermal 数据提供几何+语义伪监督，无人工标注迁移开放词汇知识（+2–4 AP）——「强模态全标注、弱模态零标注」的最新范式",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2403.05061",
+  "slug": "radardistill-boosting-radar-based-object-detection-performan",
+  "tier": "A",
+  "why": "跨模态**特征级**蒸馏的标准配方（跨模态对齐 + 激活阈值过滤 + proposal 内蒸馏），radar-only 20.5 mAP / 43.7 NDS——本文方法对照与超参依据",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2311.05494",
+  "slug": "object-centric-cross-modal-feature-distillation-for-event-ba",
+  "tier": "A",
+  "why": "把「object-level」做成**显式模块**：slot attention 把特征图解耦为物体级 + 像素级再蒸馏，几乎把与教师的差距减半——直接支撑本文 object-level KD 的命名与设计",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2601.02016",
+  "slug": "enhancing-object-detection-with-privileged-information-a-mod",
+  "tier": "A",
+  "why": "把 **LUPI 正式引入检测**：特权信息（bbox mask / saliency / depth）仅训练期可用、推理零成本，5 个检测器一致超基线——本文「教师见强模态、学生只见弱模态」的理论框架",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2108.07482",
+  "slug": "g-detkd-towards-general-distillation-framework-for-object-de",
+  "tier": "A",
+  "why": "首个同时覆盖**同构与异构**师生对的通用检测蒸馏（跨 FPN 软匹配 + 对比关系蒸馏）；用它可以正当化本文「共享 YOLOX 架构」的选择，并说明异构情形已被覆盖",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2111.11837",
+  "slug": "focal-and-global-knowledge-distillation-for-detectors",
+  "tier": "A",
+  "why": "证明**等权蒸馏有害**、须按前景/背景分离并重建像素间关系（RetinaNet/FasterRCNN/RepPoints/MaskRCNN +2.9–3.6 mAP）——本文只蒸目标区域的直接依据",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2102.12252",
+  "slug": "localization-distillation-for-dense-object-detection",
+  "tier": "A",
+  "why": "在 dense detector（GFocal，与 YOLOX 同族）上证明**定位知识比语义知识更值得蒸**，logit 模仿可胜特征模仿（40.1→42.1 AP）",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2609.31785",
+  "slug": "cross-modal-knowledge-distillation-for-acoustic-pedestrian-d",
+  "tier": "B",
+  "why": "唯一的「弱模态（音频）学生」跨模态 KD 实测：video 教师→audio 学生，多数方法只让 macro acc 小涨、**PR-AUC 基本不动**，主要是工作点移动（no-pedestrian 准确率升、召回降）——审稿人最可能拿它质疑本文增益的性质",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2409.05564",
+  "slug": "lerojd-lidar-extended-radar-only-object-detection",
+  "tier": "B",
+  "why": "在 Lidar→radar-only 上量化「跨模态 KD 最多 +3.9 mAP，不如多阶段 thin-out 的 +4.2」——提示本文必须把增益拆成 KD 项与初始化/伪标签项",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2512.15581",
+  "slug": "imkd-intensity-aware-multi-level-knowledge-distillation-for-",
+  "tier": "B",
+  "why": "强度感知的多层级蒸馏，67.0 NDS / 61.0 mAP；来自 **DFKI-AV（与 CMOLD 的 DFKI UXO 数据集同机构）**，是同机构后续工作最该引的一篇",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2303.02203",
+  "slug": "x-3-kd-knowledge-distillation-across-modalities-tasks-and-st",
+  "tier": "B",
+  "why": "跨任务（实例分割教师）+ 跨模态特征 + 对抗 + 跨模态**输出**蒸馏组合，并给出 RADAR-based 3DOD 的泛化证据——可支撑「输出级 + 特征级并用」的设计",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2405.13571",
+  "slug": "incomplete-multimodal-industrial-anomaly-detection-via-cross",
+  "tier": "B",
+  "why": "训练时多模态、**推理时可缺模态**的跨模态蒸馏——支撑「部署只有声呐」这一前提的合理性",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2304.08028",
+  "slug": "mmanet-margin-aware-distillation-and-modality-aware-regulari",
+  "tier": "B",
+  "why": "按分类不确定性加权蒸馏 + 专治「弱模态组合」的正则——对应本文学生模态信息量显著低于教师的场景",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2112.04840",
+  "slug": "knowledge-distillation-for-object-detection-via-rank-mimicki",
+  "tier": "B",
+  "why": "一阶段检测器专用：师生对候选框**排序不同**导致精度差，蒸排序优于蒸软标签——对本文伪标签筛选与置信度校准可直接复用",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "1906.03609",
+  "slug": "distilling-object-detectors-with-fine-grained-feature-imitat",
+  "tier": "B",
+  "why": "object-level 蒸馏的源头：只在**近目标 anchor 位置**模仿（KITTI 上 +15% mAP）——本文「只蒸目标区域」的历史依据",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2009.11528",
+  "slug": "mimicdet-bridging-the-gap-between-one-stage-and-two-stage-ob",
+  "tier": "B",
+  "why": "一阶段/两阶段异构结构蒸馏源头篇（共享 backbone 双 head 使特征兼容，COCO 46.1 mAP）——回答「师生结构不完全一致时怎么蒸」",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2501.07101",
+  "slug": "samkd-spatial-aware-adaptive-masking-knowledge-distillation-",
+  "tier": "B",
+  "why": "空间分层掩码（粗到细编码 object-aware locality）+ 掩码 logit 蒸馏，35.3→38.8 mAP——「目标感知掩码」路线较新的一篇",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2205.04072",
+  "slug": "beyond-bounding-box-multimodal-knowledge-learning-for-object",
+  "tier": "B",
+  "why": "显式区分 **image-level 与 object-level 跨模态互信息**蒸馏（+1.6–2.1%），是本文 object-level 措辞最贴的较早文献",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2602.04583",
+  "slug": "pepr-privileged-event-based-predictive-regularization-for-do",
+  "tier": "B",
+  "why": "LUPI 新范式：**不做直接特征对齐**，改为在共享隐空间预测特权模态潜特征，赢过对齐式基线——若声呐/光学特征空间不可直接对齐，这是可选的替代损失",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "1908.10559",
+  "slug": "online-sensor-hallucination-via-knowledge-distillation-for-m",
+  "tier": "B",
+  "why": "最早把「训练时全传感器可用、测试时缺模态」+ KD + privileged 讲清的一篇（分类任务，PAN-MS 评测）——缺模态蒸馏的思想源头",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2405.03355",
+  "slug": "a-generalization-theory-of-cross-modality-distillation-with-",
+  "tier": "B",
+  "why": "给出跨模态 distilled 模型的泛化界：**源/目标模态距离**直接影响下游测试误差——为「光学→声呐 gap 大但仍可蒸」提供理论表述与限制条件",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2609.03378",
+  "slug": "when-depth-hurts-reliability-aware-geometry-distillation-for",
+  "tier": "B",
+  "why": "「辅助模态可能有害」+ 逐像素可靠性门控只注入与当前表示兼容的知识，教师训后即移除——若审稿人质疑光学教师对声呐的负迁移，这是最贴的方法论",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2609.37243",
+  "slug": "codebook-guided-cross-modal-knowledge-distillation-for-struc",
+  "tier": "B",
+  "why": "指出特征级对齐的前提是师生表示空间**结构可对齐**，2D 网格 vs 1D 时序时不成立，改用码本做概念级锚点——本文师生同架构恰好满足该前提，可用来正当化设计选择",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2411.16196",
+  "slug": "learn-from-foundation-model-fruit-detection-model-without-ma",
+  "tier": "B",
+  "why": "强模型（SAM2+OpenCLIP）生成框→蒸馏到边缘小检测器，**完全无人工标注**即接近全监督——对应本文学生侧用伪标签替代人工标注的路线",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2512.22483",
+  "slug": "scalpel-sam-a-semi-supervised-paradigm-for-adapting-sam-to-i",
+  "tier": "B",
+  "why": "10% 标注把 SAM 蒸成专家教师 → 再用其伪标签训轻量下游模型，效果可比甚至超全监督——「少标注 + 伪标签 + 蒸馏」三段式的现成模板",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2309.02719",
+  "slug": "dmkd-improving-feature-based-knowledge-distillation-for-obje",
+  "tier": "C",
+  "why": "空间 + 通道双掩码重建 + 自适应融合权重（+4.1%/+4.3%）——掩码式特征蒸馏的备选实现",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2211.10156",
+  "slug": "detrdistill-a-universal-knowledge-distillation-framework-for",
+  "tier": "C",
+  "why": "DETR 系专用（匈牙利匹配 logits + target-aware 特征），与 YOLOX 架构无关，仅作 KD 组件设计参照",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2608.20916",
+  "slug": "semantically-compatible-knowledge-distillation-for-cross-dom",
+  "tier": "C",
+  "why": "处理 DINOv2 教师与学生特征图**尺度不匹配导致语义不兼容**的适配器方案——若将来换大模型教师才会用到",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2503.10152",
+  "slug": "a-hierarchical-semantic-distillation-framework-for-open-voca",
+  "tier": "C",
+  "why": "instance / class / image 三级语义蒸馏（OV-COCO novel AP 46.4%）——为「object-level 之外是否还要类别级监督」提供分层模板",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2504.04445",
+  "slug": "pnp-2d-fls-convex-global",
+  "tier": "A",
+  "why": "2D FLS 的 PnP：point-to-line 3D 配准 + 正交近似，把 3D 点投到 FLS 的正向模型与全局最优解——投影框的几何底座",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2503.16066",
+  "slug": "outlier-rejection-2d3d-fls",
+  "tier": "A",
+  "why": "2D FLS 的 2D-3D 对应外点剔除（90% 外点率），真实数据上 3D→声呐对应的可靠性边界",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2411.17521",
+  "slug": "bestanp-acoustic-n-point",
+  "tier": "A",
+  "why": "BESTAnP：acoustic-n-point 解耦平移(range)与旋转(azimuth)，FLS 投影/位姿的标准解法",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2507.05410",
+  "slug": "stereo-sidescan-fls-feature-geometry",
+  "tier": "A",
+  "why": "唯一显式做「把一侧声呐看到的特征投到另一侧声呐」的几何方法（FLS↔侧扫，仿极线几何）",
+  "cmold_section": "III/IV"
+ },
+ {
+  "id": "2001.03539",
+  "slug": "rasterized-raytracer-sonar-sim",
+  "tier": "B",
+  "why": "光栅+光线追踪声呐仿真：3D 场景→声呐图的正向管线，可验证投影框可见性",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2503.01074",
+  "slug": "oceansim-gpu-underwater-sim",
+  "tier": "B",
+  "why": "OceanSim：GPU 水下仿真 + 实时成像声呐渲染（含代码），合成台",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2208.00233",
+  "slug": "pseudo-front-depth-fls-mvs",
+  "tier": "B",
+  "why": "FLS 单图 3D 病态性 + 伪前视深度/多视图立体：缺仰角为何使 3D 框投出区域",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2307.16160",
+  "slug": "elevation-angle-selfsupervised-fls",
+  "tier": "B",
+  "why": "FLS 仰角自监督估计与运动退化：单帧仰角不可解的实证",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2402.03309",
+  "slug": "aoneus-acoustic-optical-neural-surface",
+  "tier": "B",
+  "why": "AONeuS：声-光联合神经表面重建，把光学几何与声学观测对齐",
+  "cmold_section": "II-B"
+ },
+ {
+  "id": "2610.01644",
+  "slug": "sonarvoxnet-diver-detection-in-3d-bounding-box-using-3d-sona",
+  "tier": "A",
+  "why": "SonarVoxNet：3D 声呐里的 3D bbox + 全身朝向（原只读 literature 已有 PDF，此处补 LaTeX）",
+  "cmold_section": "II-A"
+ },
+ {
+  "id": "2608.23479",
+  "slug": "geometry-driven-opti-acoustic-co-registration-and-view-invar",
+  "tier": "B",
+  "why": "几何驱动声-光共配准（侧扫）：跨模态几何对齐的另一实现路径（原目录已有 PDF，补 LaTeX）",
+  "cmold_section": "II-B"
+ }
+]

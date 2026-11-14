@@ -1,0 +1,42 @@
+{
+ "arxiv_id": "2603.21071",
+ "slug": "ctfs-collaborative-teacher-framework-for-forward-looking-son",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:39:04",
+ "tier": "",
+ "why_relevant": "",
+ "title": "CTFS : Collaborative Teacher Framework for Forward-Looking Sonar Image Semantic Segmentation with Extremely Limited Labels",
+ "authors": [
+  "Guo, Ping",
+  "Li, Chengzhou",
+  "Meng, Guanchen",
+  "Jia, Qi",
+  "Liu, Jinyuan",
+  "Liu, Zhu",
+  "Liu, Yu",
+  "Luo, Zhongxuan",
+  "Fan, Xin"
+ ],
+ "date": "2026/03/22",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: As one of the most important underwater sensing technologies, forward-looking sonar exhibits unique imaging characteristics. Sonar images are often affected by severe speckle noise, low texture contrast, acoustic shadows, and geometric distortions. These factors make it difficult for traditional teacher-student frameworks to achieve satisfactory performance in sonar semantic segmentation tasks under extremely limited labeled data conditions. To address this issue, we propose a Collaborative Teacher Semantic Segmentation Framework for forward-looking sonar images. This framework introduces a multi-teacher collaborative mechanism composed of one general teacher and multiple sonar-specific teachers. By adopting a multi-teacher alternating guidance strategy, the student model can learn general semantic representations while simultaneously capturing the unique characteristics of sonar images, thereby achieving more comprehensive and robust feature modeling. Considering the challenges of sonar images, which can lead teachers to generate a large number of noisy pseudo-labels, we further design a cross-teacher reliability assessment mechanism. This mechanism dynamically quantifies the reliability of pseudo-labels by evaluating the consistency and stability of predictions across multiple views and multiple teachers, thereby mitigating the negative impact caused by noisy pseudo-labels. Notably, on the FLSMD dataset, when only 2% of the data is labeled, our method achieves a 5.08% improvement in mIoU compared to other state-of-the-art approaches.",
+ "comments": "Accepted to CVPR 2026 Finding. Code: this https URL",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2603.21071",
+  "bytes": 4010226,
+  "sha256": "8ba0e1cc0cfbcd0935b23729be71693fa831249a7196d3c0464449c229414371"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2603.21071",
+  "bytes": 2878859,
+  "sha256": "9d229899c5daf450efd771067268fb2e75ef6d55ff6dc675e0c14d16091af4dd",
+  "kind": "tar",
+  "n_files": 14,
+  "tex_files": [
+   "main.tex",
+   "preamble.tex"
+  ]
+ }
+}

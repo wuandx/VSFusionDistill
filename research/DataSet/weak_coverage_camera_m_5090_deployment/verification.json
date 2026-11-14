@@ -1,0 +1,13 @@
+{
+  "package_sha256": "88fb2462ef1cebc29c2f869659327635f3b3801aa41e2b39bded8d032fa6bc2d",
+  "manifest_sha256": "4404930b3e9b43e50e5dc7e2bef6e80544c053dbd9a620951b2a0072adbb08a0",
+  "files": 9525,
+  "bytes": 211896320,
+  "train": 4138,
+  "val": 573,
+  "images": 4711,
+  "test_uploaded": false,
+  "sonar_uploaded": false,
+  "source_matches_local_training": true,
+  "implementation_matches_local_training": true
+}

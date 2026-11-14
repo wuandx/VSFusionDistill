@@ -1,0 +1,36 @@
+{
+ "arxiv_id": "2411.05863",
+ "slug": "ping360-affordable-sonar-detection",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:28:35",
+ "tier": "C",
+ "why_relevant": "low-cost sonar object detection",
+ "title": "Exploring the Feasibility of Affordable Sonar Technology: Object Detection in Underwater Environments Using the Ping 360",
+ "authors": [
+  "Hasan, Md Junayed",
+  "Kannan, Somasundar",
+  "Rohan, Ali",
+  "Shah, Mohd Asif"
+ ],
+ "date": "2024/11/07",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: This study explores the potential of the Ping 360 sonar device, primarily used for navigation, in detecting complex underwater obstacles. The key motivation behind this research is the device&#39;s affordability and open-source nature, offering a cost-effective alternative to more expensive imaging sonar systems. The investigation focuses on understanding the behaviour of the Ping 360 in controlled environments and assessing its suitability for object detection, particularly in scenarios where human operators are unavailable for inspecting offshore structures in shallow waters. Through a series of carefully designed experiments, we examined the effects of surface reflections and object shadows in shallow underwater environments. Additionally, we developed a manually annotated sonar image dataset to train a U-Net segmentation model. Our findings indicate that while the Ping 360 sonar demonstrates potential in simpler settings, its performance is limited in more cluttered or reflective environments unless extensive data pre-processing and annotation are applied. To our knowledge, this is the first study to evaluate the Ping 360&#39;s capabilities for complex object detection. By investigating the feasibility of low-cost sonar devices, this research provides valuable insights into their limitations and potential for future AI-based interpretation, marking a unique contribution to the field.",
+ "comments": "This work is currently under review. This is a pre-print",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2411.05863",
+  "bytes": 6407516,
+  "sha256": "99f604767706f196486e8d96bcffb50c94503bcc14ede916b78cdcbbf98666c7"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2411.05863",
+  "bytes": 15360632,
+  "sha256": "61bc5d3a835fd9fe70a37fbea297e5272604f8ac8e838a5625143183fb288cb5",
+  "kind": "tar",
+  "n_files": 18,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

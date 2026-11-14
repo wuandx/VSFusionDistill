@@ -1,0 +1,100 @@
+{
+  "train": {
+    "thresholds": {
+      "0.01": {
+        "groups": {
+          "matched": 1800
+        },
+        "TP": 1800,
+        "FN": 0,
+        "FP": 0,
+        "predictions": 1800
+      },
+      "0.25": {
+        "groups": {
+          "matched": 1800
+        },
+        "TP": 1800,
+        "FN": 0,
+        "FP": 0,
+        "predictions": 1800
+      },
+      "0.5": {
+        "groups": {
+          "matched": 1800
+        },
+        "TP": 1800,
+        "FN": 0,
+        "FP": 0,
+        "predictions": 1800
+      }
+    },
+    "best_same_class_iou_percentiles": {
+      "min": 0.9664251041598928,
+      "p10": 0.9936474607384844,
+      "median": 0.9964438720640098,
+      "p90": 0.9981054751677217
+    }
+  },
+  "val": {
+    "thresholds": {
+      "0.01": {
+        "groups": {
+          "matched": 516,
+          "wrong_class": 83,
+          "unmatched": 1
+        },
+        "TP": 516,
+        "FN": 84,
+        "FP": 185,
+        "predictions": 701
+      },
+      "0.25": {
+        "groups": {
+          "matched": 502,
+          "wrong_class": 88,
+          "unmatched": 10
+        },
+        "TP": 502,
+        "FN": 98,
+        "FP": 142,
+        "predictions": 644
+      },
+      "0.5": {
+        "groups": {
+          "matched": 490,
+          "wrong_class": 88,
+          "unmatched": 22
+        },
+        "TP": 490,
+        "FN": 110,
+        "FP": 115,
+        "predictions": 605
+      }
+    },
+    "best_same_class_iou_percentiles": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.8612251279084037,
+      "p90": 0.9821283449494098
+    }
+  },
+  "original_train_label_hash_and_mapping_checked": 1800,
+  "neighbor_reference_count": 176,
+  "same_class_neighbors_matched_at_025": 176,
+  "train_raw_weight": {
+    "checkpoint_sha256": "edff61c275274a58112e8e408a25a9a76dd308c79de8cfaba3e6474dbdc974a0",
+    "weight_source": "ema_state_dict.module.* (actual raw)",
+    "epoch": 200,
+    "images": 1800,
+    "split": "train",
+    "test_used": false
+  },
+  "val_raw_weight": {
+    "checkpoint_sha256": "edff61c275274a58112e8e408a25a9a76dd308c79de8cfaba3e6474dbdc974a0",
+    "weight_source": "ema_state_dict.module.* (actual raw)",
+    "epoch": 200,
+    "images": 600,
+    "test_used": false
+  }
+}

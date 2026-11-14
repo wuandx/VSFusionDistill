@@ -1,0 +1,44 @@
+{
+ "arxiv_id": "2403.09313",
+ "slug": "yolox-vit-side-scan-sonar-kd",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:26:26",
+ "tier": "A",
+ "why_relevant": "sonar+YOLOX+KD, closest single precedent",
+ "title": "Knowledge Distillation in YOLOX-ViT for Side-Scan Sonar Object Detection",
+ "authors": [
+  "Aubard, Martin",
+  "Antal, László",
+  "Madureira, Ana",
+  "Ábrahám, Erika"
+ ],
+ "date": "2024/03/14",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: In this paper we present YOLOX-ViT, a novel object detection model, and investigate the efficacy of knowledge distillation for model size reduction without sacrificing performance. Focused on underwater robotics, our research addresses key questions about the viability of smaller models and the impact of the visual transformer layer in YOLOX. Furthermore, we introduce a new side-scan sonar image dataset, and use it to evaluate our object detector&#39;s performance. Results show that knowledge distillation effectively reduces false positives in wall detection. Additionally, the introduced visual transformer layer significantly improves object detection accuracy in the underwater environment. The source code of the knowledge distillation in the YOLOX-ViT is at this https URL .",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2403.09313",
+  "bytes": 1125191,
+  "sha256": "35f8382556e30ade149817cb248603c99590aec1a1502be48f6f476c478be417"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2403.09313",
+  "bytes": 1284856,
+  "sha256": "84e84031120d95945de8b83869976c020904e2c33ec9525c98acf3a4ebc82d5c",
+  "kind": "tar",
+  "n_files": 26,
+  "tex_files": [
+   "misc/packages.tex",
+   "sample-1col.tex",
+   "tex/00_abstract.tex",
+   "tex/01_introduction.tex",
+   "tex/02_related_work.tex",
+   "tex/03_model.tex",
+   "tex/04_knowledge_distillation.tex",
+   "tex/05_exp_results.tex",
+   "tex/06_conclusion.tex",
+   "tex/appendix.tex"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+  "recordings": 47,
+  "old_reviewed_recordings": 30,
+  "additional_existing_development": 10,
+  "new_non_test_sources": 7,
+  "by_category": {
+    "100lbs_aircraft_bomb": 18,
+    "mortar_shell": 16,
+    "incindiary_grenade": 13
+  },
+  "by_status": {
+    "existing_reviewed_recording": 30,
+    "pairing_failed_retained": 5,
+    "camera_labels_pending": 1,
+    "new_non_test_pilot": 7,
+    "sonar_review_pending": 4
+  },
+  "new_pilot_pairs": 84,
+  "new_pilot_accepted": 0,
+  "source_hash_unchanged": true,
+  "original_test_images_opened": 0,
+  "model_inference": false,
+  "training": false,
+  "old_split_changed": false
+}

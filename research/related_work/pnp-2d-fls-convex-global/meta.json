@@ -1,0 +1,39 @@
+{
+ "arxiv_id": "2504.04445",
+ "slug": "pnp-2d-fls-convex-global",
+ "ok": true,
+ "fetched_at": "2026-11-13T11:25:33",
+ "tier": "A",
+ "why_relevant": "2D FLS 的 PnP：point-to-line 3D 配准 + 正交近似，给出把 3D 点投到 FLS 的正向模型与全局最优解——投影框的几何底座",
+ "title": "A Convex and Global Solution for the P$n$P Problem in 2D Forward-Looking Sonar",
+ "authors": [
+  "Su, Jiayi",
+  "Qian, Jingyu",
+  "Yang, Liuqing",
+  "Yuan, Yufan",
+  "Fu, Yanbing",
+  "Wu, Jie",
+  "Wei, Yan",
+  "Qu, Fengzhong"
+ ],
+ "date": "2025/04/06",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: The perspective-$n$-point (P$n$P) problem is important for robotic pose estimation. It is well studied for optical cameras, but research is lacking for 2D forward-looking sonar (FLS) in underwater scenarios due to the vastly different imaging principles. In this paper, we demonstrate that, despite the nonlinearity inherent in sonar image formation, the P$n$P problem for 2D FLS can still be effectively addressed within a point-to-line (PtL) 3D registration paradigm through orthographic approximation. The registration is then resolved by a duality-based optimal solver, ensuring the global optimality. For coplanar cases, a null space analysis is conducted to retrieve the solutions from the dual formulation, enabling the methods to be applied to more general cases. Extensive simulations have been conducted to systematically evaluate the performance under different settings. Compared to non-reprojection-optimized state-of-the-art (SOTA) methods, the proposed approach achieves significantly higher precision. When both methods are optimized, ours demonstrates comparable or slightly superior precision.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2504.04445",
+  "bytes": 1961767,
+  "sha256": "b5b5029d8e917c9357cafc3a59478ac354d811405beedfae87a088d107d119bf"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2504.04445",
+  "bytes": 5441855,
+  "sha256": "f34d26ca5fce2d791ebc0b3ab373206ef78de4ca6337aa1abfe96fee990a4b7c",
+  "kind": "tar",
+  "n_files": 28,
+  "tex_files": [
+   "IEEE-conference-template-062824.tex"
+  ]
+ }
+}

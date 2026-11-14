@@ -1,0 +1,52 @@
+{
+ "arxiv_id": "2509.17712",
+ "slug": "rctdistill-radar-camera-3d",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:32:04",
+ "tier": "B",
+ "why_relevant": "cross-modal KD radar-camera with temporal fusion",
+ "title": "RCTDistill: Cross-Modal Knowledge Distillation Framework for Radar-Camera 3D Object Detection with Temporal Fusion",
+ "authors": [
+  "Bang, Geonho",
+  "Seong, Minjae",
+  "Kim, Jisong",
+  "Baek, Geunju",
+  "Oh, Daye",
+  "Kim, Junhyung",
+  "Koh, Junho",
+  "Choi, Jun Won"
+ ],
+ "date": "2025/09/22",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Radar-camera fusion methods have emerged as a cost-effective approach for 3D object detection but still lag behind LiDAR-based methods in performance. Recent works have focused on employing temporal fusion and Knowledge Distillation (KD) strategies to overcome these limitations. However, existing approaches have not sufficiently accounted for uncertainties arising from object motion or sensor-specific errors inherent in radar and camera modalities. In this work, we propose RCTDistill, a novel cross-modal KD method based on temporal fusion, comprising three key modules: Range-Azimuth Knowledge Distillation (RAKD), Temporal Knowledge Distillation (TKD), and Region-Decoupled Knowledge Distillation (RDKD). RAKD is designed to consider the inherent errors in the range and azimuth directions, enabling effective knowledge transfer from LiDAR features to refine inaccurate BEV representations. TKD mitigates temporal misalignment caused by dynamic objects by aligning historical radar-camera BEV features with current LiDAR representations. RDKD enhances feature discrimination by distilling relational knowledge from the teacher model, allowing the student to differentiate foreground and background features. RCTDistill achieves state-of-the-art radar-camera fusion performance on both the nuScenes and View-of-Delft (VoD) datasets, with the fastest inference speed of 26.2 FPS.",
+ "comments": "Accepted at ICCV 2025",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2509.17712",
+  "bytes": 12357045,
+  "sha256": "bd47d69688d2e531e0effc4a13f1cc1daa45db78f6c7ccc35f1ab003d238dda2"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2509.17712",
+  "bytes": 9410910,
+  "sha256": "e946ef95b7aa2e5fdd2488f0bef91121d49f4dd25a265f6af60f2da04e79abd6",
+  "kind": "tar",
+  "n_files": 23,
+  "tex_files": [
+   "main.tex",
+   "preamble.tex",
+   "sec/0_abstract.tex",
+   "sec/1_intro.tex",
+   "sec/2_related.tex",
+   "sec/3_method.tex",
+   "sec/4_experiment.tex",
+   "sec/5_conclusion.tex",
+   "sec/6_acknowledgement.tex",
+   "table/4dRadar.tex",
+   "table/main_0307_jisong.tex",
+   "table/main_ablation.tex",
+   "table/region_ablation.tex"
+  ]
+ }
+}

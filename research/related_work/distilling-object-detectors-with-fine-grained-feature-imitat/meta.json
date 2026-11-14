@@ -1,0 +1,36 @@
+{
+ "arxiv_id": "1906.03609",
+ "slug": "distilling-object-detectors-with-fine-grained-feature-imitat",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:54:01",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Distilling Object Detectors with Fine-grained Feature Imitation",
+ "authors": [
+  "Wang, Tao",
+  "Yuan, Li",
+  "Zhang, Xiaopeng",
+  "Feng, Jiashi"
+ ],
+ "date": "2019/06/09",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: State-of-the-art CNN based recognition models are often computationally prohibitive to deploy on low-end devices. A promising high level approach tackling this limitation is knowledge distillation, which let small student model mimic cumbersome teacher model&#39;s output to get improved generalization. However, related methods mainly focus on simple task of classification while do not consider complex tasks like object detection. We show applying the vanilla knowledge distillation to detection model gets minor gain. To address the challenge of distilling knowledge in detection model, we propose a fine-grained feature imitation method exploiting the cross-location discrepancy of feature response. Our intuition is that detectors care more about local near object regions. Thus the discrepancy of feature response on the near object anchor locations reveals important information of how teacher model tends to generalize. We design a novel mechanism to estimate those locations and let student model imitate the teacher on them to get enhanced performance. We first validate the idea on a developed lightweight toy detector which carries simplest notion of current state-of-the-art anchor based detection models on challenging KITTI dataset, our method generates up to 15% boost of mAP for the student model compared to the non-imitated counterpart. We then extensively evaluate the method with Faster R-CNN model under various scenarios with common object detection benchmark of Pascal VOC and COCO, imitation alleviates up to 74% performance drop of student model compared to teacher. Codes released at this https URL",
+ "comments": "accepted at CVPR2019 code: this https URL",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/1906.03609",
+  "bytes": 4265898,
+  "sha256": "7912b2b3e7095587aa5628a7e70f35db97d367a168ff6eca8eb152402034893e"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/1906.03609",
+  "bytes": 5349697,
+  "sha256": "473bf7ae6c30e760f2d04c55448b8f3578d51b4274932969ce0a623b614426bb",
+  "kind": "tar",
+  "n_files": 45,
+  "tex_files": [
+   "egpaper_final.tex"
+  ]
+ }
+}

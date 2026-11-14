@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "unique_metadata_rows": 94,
+  "actual_review_recordings": 84,
+  "fixed_frames": 252,
+  "unassigned_videos_viewed": 11,
+  "unassigned_frames": 55,
+  "recording_sheet_hashes_preserved": true,
+  "input_hashes_preserved": true,
+  "original_test_pilot_content_count": 0,
+  "current_dataset_changed": false,
+  "all_pilot_source_hashes_unchanged": true,
+  "all_unassigned_video_hashes_unchanged": true,
+  "original_test_recordings_disjoint_from_pilots": true
+}

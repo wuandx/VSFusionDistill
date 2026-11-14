@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2410.08612",
+ "slug": "synth-sonar-sonar-image-synthesis-with-enhanced-diversity-an",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:40:06",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Synth-SONAR: Sonar Image Synthesis with Enhanced Diversity and Realism via Dual Diffusion Models and GPT Prompting",
+ "authors": [
+  "Natarajan, Purushothaman",
+  "Basha, Kamal",
+  "Nambiar, Athira"
+ ],
+ "date": "2024/10/11",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Sonar image synthesis is crucial for advancing applications in underwater exploration, marine biology, and defence. Traditional methods often rely on extensive and costly data collection using sonar sensors, jeopardizing data quality and diversity. To overcome these limitations, this study proposes a new sonar image synthesis framework, Synth-SONAR leveraging diffusion models and GPT prompting. The key novelties of Synth-SONAR are threefold: First, by integrating Generative AI-based style injection techniques along with publicly available real/simulated data, thereby producing one of the largest sonar data corpus for sonar research. Second, a dual text-conditioning sonar diffusion model hierarchy synthesizes coarse and fine-grained sonar images with enhanced quality and diversity. Third, high-level (coarse) and low-level (detailed) text-based sonar generation methods leverage advanced semantic information available in visual language models (VLMs) and GPT-prompting. During inference, the method generates diverse and realistic sonar images from textual prompts, bridging the gap between textual descriptions and sonar image generation. This marks the application of GPT-prompting in sonar imagery for the first time, to the best of our knowledge. Synth-SONAR achieves state-of-the-art results in producing high-quality synthetic sonar datasets, significantly enhancing their diversity and realism.",
+ "comments": "12 pages, 5 tables and 9 figures",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2410.08612",
+  "bytes": 3151683,
+  "sha256": "9412233fd1beff23cb526d9859eba21cd317b9506cb7ff40f4bb57652d713343"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2410.08612",
+  "bytes": 4183640,
+  "sha256": "36efa8e7d38b9c2061af23014c295c4c3c9bf950afa1395ae8de8beebb56046c",
+  "kind": "tar",
+  "n_files": 130,
+  "tex_files": [
+   "SYNTH-SONAR.tex"
+  ]
+ }
+}

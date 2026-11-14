@@ -1,0 +1,44 @@
+{
+ "arxiv_id": "2609.31785",
+ "slug": "cross-modal-knowledge-distillation-for-acoustic-pedestrian-d",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:51:24",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Cross-Modal Knowledge Distillation for Acoustic Pedestrian Detection",
+ "authors": [
+  "Kim, Yonghyun",
+  "Han, Chaeyeon",
+  "Gatungay, Sancho",
+  "Guhathakurta, Subhrajit",
+  "Lerch, Alexander"
+ ],
+ "date": "2026/09/24",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Audio-only pedestrian detection is attractive for urban sensing but limited by weak acoustic cues. An appealing strategy is cross-modal knowledge distillation, in which a video teacher supervises the audio student during training so that the deployed model runs on audio alone. Under this task&#39;s severe class imbalance and wide video-audio modality gap, however, what such distillation contributes is unclear. We introduce Trust-Filtered Distillation (TFD), which selectively suppresses teacher supervision on pedestrian samples, and interpret its logit formulation as conditional label smoothing under a shared temperature. Across ten distillation configurations under five-fold cross-session validation on ASPED, most methods yield modest gains in macro accuracy accompanied by small changes in PR-AUC. The main effect is higher no-pedestrian accuracy at the cost of lower pedestrian recall. Adding TFD to logit distillation strengthens this trade-off without improving mean PR-AUC. These findings clarify the benefits and limitations of selective cross-modal supervision by distinguishing operating-point shifts from discrimination gains in imbalanced acoustic detection.",
+ "comments": "5 pages, 1 figure",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2609.31785",
+  "bytes": 329879,
+  "sha256": "fd3ca11f4df3e012510ba5f76997e358822c62755e3919405d5cbac3b211f20a"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2609.31785",
+  "bytes": 23619,
+  "sha256": "05439092408c849aa7b32d531bef32fc1c55cad9bbd84a3d58078a661acd284b",
+  "kind": "tar",
+  "n_files": 12,
+  "tex_files": [
+   "main.tex",
+   "sections/0_abstract.tex",
+   "sections/1_introduction.tex",
+   "sections/2_related.tex",
+   "sections/3_method.tex",
+   "sections/4_experiments.tex",
+   "sections/5_results.tex",
+   "sections/7_conclusion.tex"
+  ]
+ }
+}

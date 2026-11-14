@@ -1,0 +1,4 @@
+config=configs/repro_cmold/teachers/t_camera_s_stretch_yoloxs.py
+seed=0
+git=253c931bad7642c170f62d02d0b3403b57d52ec1
+python=3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]

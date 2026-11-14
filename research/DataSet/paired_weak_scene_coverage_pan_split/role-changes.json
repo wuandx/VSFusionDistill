@@ -1,0 +1,800 @@
+[
+  {
+    "recording": "2023-09-20_171105",
+    "group_id": "2023-09-20_171105",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 176,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "750",
+      "-22",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "10"
+    ]
+  },
+  {
+    "recording": "2023-09-20_174200",
+    "group_id": "2023-09-20_174200",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 116,
+    "old_role": "val",
+    "new_role": "train",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "725",
+      "-26",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "10"
+    ]
+  },
+  {
+    "recording": "2023-09-20_174439",
+    "group_id": "2023-09-20_174200",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 125,
+    "old_role": "val",
+    "new_role": "train",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "725",
+      "-26",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "10"
+    ]
+  },
+  {
+    "recording": "2023-09-20_175000",
+    "group_id": "2023-09-20_175000",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 166,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "725",
+      "-26",
+      "90"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "10"
+    ]
+  },
+  {
+    "recording": "2023-09-20_175506",
+    "group_id": "2023-09-20_175506",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 120,
+    "old_role": "train",
+    "new_role": "val",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "500",
+      "-34",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "10"
+    ]
+  },
+  {
+    "recording": "2023-09-20_175905",
+    "group_id": "2023-09-20_175905",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 155,
+    "old_role": "test",
+    "new_role": "train",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "500",
+      "-34",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "5"
+    ]
+  },
+  {
+    "recording": "2023-09-20_180506",
+    "group_id": "2023-09-20_180506",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 169,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "10"
+    ]
+  },
+  {
+    "recording": "2023-09-20_180722",
+    "group_id": "2023-09-20_180506",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 161,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "10"
+    ]
+  },
+  {
+    "recording": "2023-09-20_181139",
+    "group_id": "2023-09-20_181139",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 131,
+    "old_role": "test",
+    "new_role": "train",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "90"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "10"
+    ]
+  },
+  {
+    "recording": "2023-09-20_182317",
+    "group_id": "2023-09-20_182317",
+    "scene": "100lbs_aircraft_bomb|standard|flyby",
+    "pairs": 146,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-60",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "10"
+    ]
+  },
+  {
+    "recording": "2023-09-21_101416",
+    "group_id": "2023-09-21_101416",
+    "scene": "mortar_shell|standard|L_to_R",
+    "pairs": 120,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": true,
+    "nominal_joint": [
+      "750",
+      "-22",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "5"
+    ]
+  },
+  {
+    "recording": "2023-09-21_101622",
+    "group_id": "2023-09-21_101622",
+    "scene": "mortar_shell|standard|L_to_R",
+    "pairs": 146,
+    "old_role": "test",
+    "new_role": "test",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "750",
+      "-22",
+      "90"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "5"
+    ]
+  },
+  {
+    "recording": "2023-09-21_101840",
+    "group_id": "2023-09-21_101840",
+    "scene": "mortar_shell|standard|L_to_R",
+    "pairs": 157,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "750",
+      "-22",
+      "90"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_102500",
+    "group_id": "2023-09-21_102500",
+    "scene": "mortar_shell|standard|L_to_R",
+    "pairs": 185,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "500",
+      "-34",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_103140",
+    "group_id": "2023-09-21_103140",
+    "scene": "mortar_shell|standard|L_to_R",
+    "pairs": 128,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "500",
+      "-34",
+      "90"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "5"
+    ]
+  },
+  {
+    "recording": "2023-09-21_103728",
+    "group_id": "2023-09-21_103728",
+    "scene": "mortar_shell|standard|L_to_R",
+    "pairs": 196,
+    "old_role": "val",
+    "new_role": "train",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_103927",
+    "group_id": "2023-09-21_103728",
+    "scene": "mortar_shell|standard|L_to_R",
+    "pairs": 176,
+    "old_role": "val",
+    "new_role": "train",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_104749",
+    "group_id": "2023-09-21_104749",
+    "scene": "mortar_shell|standard|L_to_R",
+    "pairs": 118,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": true,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "5"
+    ]
+  },
+  {
+    "recording": "2023-09-21_105017",
+    "group_id": "2023-09-21_105017",
+    "scene": "mortar_shell|standard|L_to_R",
+    "pairs": 147,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "90"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "5"
+    ]
+  },
+  {
+    "recording": "2023-09-21_105230",
+    "group_id": "2023-09-21_105230",
+    "scene": "mortar_shell|standard|L_to_R",
+    "pairs": 132,
+    "old_role": "test",
+    "new_role": "val",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "90"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_110049",
+    "group_id": "2023-09-21_110049",
+    "scene": "mortar_shell|standard|flyby",
+    "pairs": 38,
+    "old_role": "train",
+    "new_role": "val",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-60",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_121124",
+    "group_id": "2023-09-21_121124",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 164,
+    "old_role": "train",
+    "new_role": "test",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "750",
+      "-22",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "5"
+    ]
+  },
+  {
+    "recording": "2023-09-21_121327",
+    "group_id": "2023-09-21_121124",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 178,
+    "old_role": "train",
+    "new_role": "test",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "750",
+      "-22",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "0"
+    ]
+  },
+  {
+    "recording": "2023-09-21_121539",
+    "group_id": "2023-09-21_121539",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 102,
+    "old_role": "test",
+    "new_role": "train",
+    "changed": true,
+    "focus": true,
+    "nominal_joint": [
+      "750",
+      "-22",
+      "90"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "0"
+    ]
+  },
+  {
+    "recording": "2023-09-21_122608",
+    "group_id": "2023-09-21_122608",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 140,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "500",
+      "-34",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "0"
+    ]
+  },
+  {
+    "recording": "2023-09-21_122855",
+    "group_id": "2023-09-21_122608",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 141,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "500",
+      "-34",
+      "90"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "0"
+    ]
+  },
+  {
+    "recording": "2023-09-21_123500",
+    "group_id": "2023-09-21_123500",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 175,
+    "old_role": "train",
+    "new_role": "val",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_123841",
+    "group_id": "2023-09-21_123841",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 106,
+    "old_role": "val",
+    "new_role": "train",
+    "changed": true,
+    "focus": true,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "0"
+    ]
+  },
+  {
+    "recording": "2023-09-21_124039",
+    "group_id": "2023-09-21_123841",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 106,
+    "old_role": "val",
+    "new_role": "train",
+    "changed": true,
+    "focus": true,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "0"
+    ]
+  },
+  {
+    "recording": "2023-09-21_124735",
+    "group_id": "2023-09-21_124735",
+    "scene": "incindiary_grenade|standard|flyby",
+    "pairs": 59,
+    "old_role": "val",
+    "new_role": "train",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-60",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_124915",
+    "group_id": "2023-09-21_124915",
+    "scene": "incindiary_grenade|standard|flyby",
+    "pairs": 108,
+    "old_role": "train",
+    "new_role": "val",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-60",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "0"
+    ]
+  },
+  {
+    "recording": "2023-09-21_125048",
+    "group_id": "2023-09-21_125048",
+    "scene": "incindiary_grenade|standard|flyby",
+    "pairs": 100,
+    "old_role": "test",
+    "new_role": "train",
+    "changed": true,
+    "focus": true,
+    "nominal_joint": [
+      "250",
+      "-90",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "0"
+    ]
+  },
+  {
+    "recording": "2023-09-21_155609",
+    "group_id": "2023-09-21_155609",
+    "scene": "100lbs_aircraft_bomb|floor|ellipse",
+    "pairs": 57,
+    "old_role": "val",
+    "new_role": "train",
+    "changed": true,
+    "focus": true,
+    "nominal_joint": [
+      "1250",
+      "-32",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_160146",
+    "group_id": "2023-09-21_160146",
+    "scene": "100lbs_aircraft_bomb|floor|ellipse",
+    "pairs": 69,
+    "old_role": "test",
+    "new_role": "train",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "1000",
+      "-38",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_160551",
+    "group_id": "2023-09-21_160551",
+    "scene": "100lbs_aircraft_bomb|floor|ellipse",
+    "pairs": 155,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "1000",
+      "-32",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "0"
+    ]
+  },
+  {
+    "recording": "2023-09-21_161916",
+    "group_id": "2023-09-21_161916",
+    "scene": "100lbs_aircraft_bomb|floor|flyby",
+    "pairs": 118,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "unknown",
+      "-60",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_105856",
+    "group_id": "2023-09-21_105856",
+    "scene": "mortar_shell|standard|flyby",
+    "pairs": 20,
+    "old_role": "val",
+    "new_role": "train",
+    "changed": true,
+    "focus": true,
+    "nominal_joint": [
+      "250",
+      "-60",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "5"
+    ]
+  },
+  {
+    "recording": "2023-09-20_174711",
+    "group_id": "2023-09-20_174711",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 30,
+    "old_role": "train",
+    "new_role": "test",
+    "changed": true,
+    "focus": false,
+    "nominal_joint": [
+      "725",
+      "-26",
+      "0"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "5"
+    ]
+  },
+  {
+    "recording": "2023-09-20_180126",
+    "group_id": "2023-09-20_180126",
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "pairs": 100,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "500",
+      "-34",
+      "90"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "10"
+    ]
+  },
+  {
+    "recording": "2023-09-21_124241",
+    "group_id": "grenade_roll90_124241_124440",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 100,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "90"
+    ],
+    "transmit": "Max",
+    "gain": [
+      "0"
+    ]
+  },
+  {
+    "recording": "2023-09-21_124440",
+    "group_id": "grenade_roll90_124241_124440",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 93,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "250",
+      "-42",
+      "90"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  },
+  {
+    "recording": "2023-09-21_125924",
+    "group_id": "2023-09-21_125924",
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "pairs": 100,
+    "old_role": "train",
+    "new_role": "train",
+    "changed": false,
+    "focus": false,
+    "nominal_joint": [
+      "750",
+      "-22",
+      "0"
+    ],
+    "transmit": "Min",
+    "gain": [
+      "15"
+    ]
+  }
+]

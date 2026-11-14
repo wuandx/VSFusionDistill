@@ -1,0 +1,210 @@
+{
+  "name": "scene_stratified_recording_split",
+  "status": "candidate_incomplete_scene_coverage_pending_user_review",
+  "user_intent": "each scene represented separately in train/val/test",
+  "scene_fields": [
+    "category",
+    "placement",
+    "trajectory"
+  ],
+  "within_scene_fields": [
+    "z",
+    "tilt",
+    "roll",
+    "pan",
+    "transmit",
+    "settings"
+  ],
+  "seed": 42,
+  "objective": "Hard all-three scene coverage when >=3 accepted source groups; then per-scene 60/20/20 recording count error, train metadata diversity, per-class count error, scene sample-count error, recorded pan support, seeded hash.",
+  "no_hard_pan_threshold": true,
+  "source_groups": [
+    [
+      "2023-09-20_174200",
+      "2023-09-20_174439"
+    ],
+    [
+      "2023-09-20_180506",
+      "2023-09-20_180722"
+    ],
+    [
+      "2023-09-21_103728",
+      "2023-09-21_103927"
+    ],
+    [
+      "2023-09-21_121124",
+      "2023-09-21_121327"
+    ],
+    [
+      "2023-09-21_123841",
+      "2023-09-21_124039"
+    ],
+    [
+      "2023-09-21_122608",
+      "2023-09-21_122855"
+    ]
+  ],
+  "scene_search": [
+    {
+      "scene": "100lbs_aircraft_bomb|floor|ellipse",
+      "recordings": 3,
+      "groups": 3,
+      "feasible_assignments": 6,
+      "minimum_scene_count_error": 0.96,
+      "minimum_missing_train_attribute_values": 5,
+      "remaining_options": 6
+    },
+    {
+      "scene": "100lbs_aircraft_bomb|floor|flyby",
+      "recordings": 1,
+      "groups": 1,
+      "feasible_assignments": 1,
+      "minimum_scene_count_error": 0.24,
+      "minimum_missing_train_attribute_values": 0,
+      "remaining_options": 1
+    },
+    {
+      "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+      "recordings": 9,
+      "groups": 7,
+      "feasible_assignments": 1806,
+      "minimum_scene_count_error": 0.24,
+      "minimum_missing_train_attribute_values": 0,
+      "remaining_options": 6
+    },
+    {
+      "scene": "100lbs_aircraft_bomb|standard|flyby",
+      "recordings": 1,
+      "groups": 1,
+      "feasible_assignments": 1,
+      "minimum_scene_count_error": 0.24,
+      "minimum_missing_train_attribute_values": 0,
+      "remaining_options": 1
+    },
+    {
+      "scene": "incindiary_grenade|standard|L_to_R",
+      "recordings": 8,
+      "groups": 5,
+      "feasible_assignments": 150,
+      "minimum_scene_count_error": 0.56,
+      "minimum_missing_train_attribute_values": 0,
+      "remaining_options": 2
+    },
+    {
+      "scene": "incindiary_grenade|standard|flyby",
+      "recordings": 3,
+      "groups": 3,
+      "feasible_assignments": 6,
+      "minimum_scene_count_error": 0.96,
+      "minimum_missing_train_attribute_values": 4,
+      "remaining_options": 6
+    },
+    {
+      "scene": "mortar_shell|standard|L_to_R",
+      "recordings": 10,
+      "groups": 9,
+      "feasible_assignments": 18150,
+      "minimum_scene_count_error": 0.0,
+      "minimum_missing_train_attribute_values": 0,
+      "remaining_options": 354
+    },
+    {
+      "scene": "mortar_shell|standard|flyby",
+      "recordings": 1,
+      "groups": 1,
+      "feasible_assignments": 1,
+      "minimum_scene_count_error": 0.24,
+      "minimum_missing_train_attribute_values": 0,
+      "remaining_options": 1
+    }
+  ],
+  "class_search": [
+    {
+      "category": "100lbs_aircraft_bomb",
+      "score": [
+        0.24,
+        6165.28,
+        1.1404425,
+        "74a9f930dd83a23a2ca0ee9afd09d4b63461455546880829685be35c03d3aff7"
+      ],
+      "roles": {
+        "2023-09-21_155609": "test",
+        "2023-09-21_160146": "val",
+        "2023-09-21_160551": "train",
+        "2023-09-21_161916": "train",
+        "2023-09-20_171105": "train",
+        "2023-09-20_174200": "val",
+        "2023-09-20_174439": "val",
+        "2023-09-20_175000": "train",
+        "2023-09-20_175506": "test",
+        "2023-09-20_175905": "train",
+        "2023-09-20_180506": "train",
+        "2023-09-20_180722": "train",
+        "2023-09-20_181139": "test",
+        "2023-09-20_182317": "train"
+      }
+    },
+    {
+      "category": "mortar_shell",
+      "score": [
+        0.24,
+        61.44,
+        0.0,
+        "010be079b8db8f3a23acfba8741b3f768512cbd0455877c56224acd613e16b84"
+      ],
+      "roles": {
+        "2023-09-21_101416": "val",
+        "2023-09-21_101622": "train",
+        "2023-09-21_101840": "train",
+        "2023-09-21_102500": "train",
+        "2023-09-21_103140": "test",
+        "2023-09-21_103728": "train",
+        "2023-09-21_103927": "train",
+        "2023-09-21_104749": "test",
+        "2023-09-21_105017": "train",
+        "2023-09-21_105230": "val",
+        "2023-09-21_110049": "train"
+      }
+    },
+    {
+      "category": "incindiary_grenade",
+      "score": [
+        1.04,
+        10346.56,
+        0.03,
+        "0842f8ddfa6eaead75006b8505a8f88d64655d6d876a5070c2edadd90290c34f"
+      ],
+      "roles": {
+        "2023-09-21_121124": "train",
+        "2023-09-21_121327": "train",
+        "2023-09-21_121539": "test",
+        "2023-09-21_122608": "train",
+        "2023-09-21_122855": "train",
+        "2023-09-21_123500": "train",
+        "2023-09-21_123841": "val",
+        "2023-09-21_124039": "val",
+        "2023-09-21_124735": "test",
+        "2023-09-21_124915": "train",
+        "2023-09-21_125048": "val"
+      }
+    }
+  ],
+  "input_sha256": {
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_coverage_candidate\\manifest.json": "dd29f5f863371dcd91b6300ec6aec947e2e134dc109412cb67540afa9f02ce79",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_coverage_candidate\\recordings.json": "7cfec173c13ad19ef652e1f06f597d35399ead7f07021e7a4489e8694d28398c",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_coverage_candidate\\protocol.json": "d358a395167c5dcd1164c72567d84e0ada6c837e91729c44f7ec311de2b1bb1e",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_coverage_candidate\\independent-verification.json": "cccf90e2c3d99cfe8bf7ca9d78876b1784bc95e7781fcb3d928b682ec216f316",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_recordings\\inventory.json": "644feb363fa1f9d5a81127883c0c5781a1a57d539a60e92e3ee166aeca719869",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\experiment\\archive\\scene-stratified-recording-split-plan.md": "40957cd7a811ab836fbc374ef565421219c5a0b4526d4155f6e43b88da7567ef",
+    "D:\\pby\\uxo-full\\inventory.json": "581928d307d0bc4aa666c4c6e948ba0ffb682e2469521267b59dd7bfd2b79fe5",
+    "D:\\pby\\uxo-full\\split_manifest.json": "2eb707c4ecb038b6174e7abbb1306d366fc93a7fcf4d6b4b25099c053eab6989",
+    "D:\\pby\\data_processed\\matches.csv": "44991a4eef8e9044b84c714bb28600d5bcac6316ab329fa3985a2b685ffc6da3"
+  },
+  "images_and_annotations_reused_from": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_coverage_candidate",
+  "old_splits_changed": false,
+  "new_labels_accepted": 0,
+  "training": false,
+  "model_inference": false,
+  "original_test_opened": false,
+  "untouched_final_test": false
+}

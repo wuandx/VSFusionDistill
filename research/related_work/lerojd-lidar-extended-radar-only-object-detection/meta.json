@@ -1,0 +1,46 @@
+{
+ "arxiv_id": "2409.05564",
+ "slug": "lerojd-lidar-extended-radar-only-object-detection",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:51:33",
+ "tier": "",
+ "why_relevant": "",
+ "title": "LEROjD: Lidar Extended Radar-Only Object Detection",
+ "authors": [
+  "Palmer, Patrick",
+  "Krüger, Martin",
+  "Schütte, Stefan",
+  "Altendorfer, Richard",
+  "Adam, Ganesh",
+  "Bertram, Torsten"
+ ],
+ "date": "2024/09/09",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Accurate 3D object detection is vital for automated driving. While lidar sensors are well suited for this task, they are expensive and have limitations in adverse weather conditions. 3+1D imaging radar sensors offer a cost-effective, robust alternative but face challenges due to their low resolution and high measurement noise. Existing 3+1D imaging radar datasets include radar and lidar data, enabling cross-modal model improvements. Although lidar should not be used during inference, it can aid the training of radar-only object detectors. We explore two strategies to transfer knowledge from the lidar to the radar domain and radar-only object detectors: 1. multi-stage training with sequential lidar point cloud thin-out, and 2. cross-modal knowledge distillation. In the multi-stage process, three thin-out methods are examined. Our results show significant performance gains of up to 4.2 percentage points in mean Average Precision with multi-stage training and up to 3.9 percentage points with knowledge distillation by initializing the student with the teacher&#39;s weights. The main benefit of these approaches is their applicability to other 3D object detection networks without altering their architecture, as we show by analyzing it on two different object detectors. Our code is available at this https URL",
+ "comments": "Accepted for publication as ECCV 2024",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2409.05564",
+  "bytes": 2099938,
+  "sha256": "52220570103e86197d1c55ef060081924b884ce6b802072ecf02939ab71ca8f3"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2409.05564",
+  "bytes": 1490076,
+  "sha256": "6b44c0b3e4d6dd64e51180b0b54211f2d5450f702dd721749cab9c8e53491d95",
+  "kind": "tar",
+  "n_files": 39,
+  "tex_files": [
+   "00_abstract.tex",
+   "01_intro.tex",
+   "02_related.tex",
+   "03_method.tex",
+   "04_experiments.tex",
+   "10_conclusion.tex",
+   "12_appendix.tex",
+   "main.tex",
+   "supplementary.tex"
+  ]
+ }
+}

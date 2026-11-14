@@ -1,0 +1,99 @@
+{
+  "status": "automated_checks_passed",
+  "samples": 1482,
+  "candidate_images": 1449,
+  "all_labels_copied_byte_identically": true,
+  "all_fhd_boxes_equal_original_gallery": true,
+  "all_original_sample_inputs_hash_unchanged": true,
+  "fixed_inputs_hash_unchanged": true,
+  "manifest_sha256": "4eab10af3fa21bc52e9f00363f607636ce36c14112e455ca8855ed2bdac1523a",
+  "independent_script_sha256": "61a5d2f2cf18c42b157c57767d202e298b8811a2717af54ae7aced33c427aee5",
+  "recordings": [
+    {
+      "recording": "2023-09-21_101622",
+      "total": 768,
+      "status_counts": {
+        "fhd_coverage_missing": 33,
+        "candidate": 735
+      },
+      "paired_total": 118,
+      "paired_candidates": 111,
+      "candidate_mse_median": 1.2395551204681396,
+      "old_mse_median_same_candidate_samples": 229.46852111816406,
+      "candidate_content_lower_than_old": 735,
+      "max_time_residual_s": 0.0005340000000018108,
+      "csv_FrameIndex_equals_row_number": true
+    },
+    {
+      "recording": "2023-09-21_103140",
+      "total": 714,
+      "status_counts": {
+        "candidate": 714
+      },
+      "paired_total": 150,
+      "paired_candidates": 150,
+      "candidate_mse_median": 1.1805866360664368,
+      "old_mse_median_same_candidate_samples": 334.4947814941406,
+      "candidate_content_lower_than_old": 714,
+      "max_time_residual_s": 0.00013400000000274304,
+      "csv_FrameIndex_equals_row_number": true
+    }
+  ],
+  "independently_decoded_export_checks": [
+    {
+      "sample": "2023-09-21_101622_0109",
+      "fhd_index": 1,
+      "export_vs_independently_decoded_frame_rgb_mse": 4.047924995422363,
+      "verification": "independent single-frame PNG decode vs saved JPEG; compression tolerance 64"
+    },
+    {
+      "sample": "2023-09-21_101622_0476",
+      "fhd_index": 748,
+      "export_vs_independently_decoded_frame_rgb_mse": 4.5815019607543945,
+      "verification": "independent single-frame PNG decode vs saved JPEG; compression tolerance 64"
+    },
+    {
+      "sample": "2023-09-21_101622_0822",
+      "fhd_index": 1449,
+      "export_vs_independently_decoded_frame_rgb_mse": 5.401491641998291,
+      "verification": "independent single-frame PNG decode vs saved JPEG; compression tolerance 64"
+    },
+    {
+      "sample": "2023-09-21_101622_0843",
+      "fhd_index": 1491,
+      "export_vs_independently_decoded_frame_rgb_mse": 5.693028450012207,
+      "verification": "independent single-frame PNG decode vs saved JPEG; compression tolerance 64"
+    },
+    {
+      "sample": "2023-09-21_103140_0084",
+      "fhd_index": 195,
+      "export_vs_independently_decoded_frame_rgb_mse": 3.9603304862976074,
+      "verification": "independent single-frame PNG decode vs saved JPEG; compression tolerance 64"
+    },
+    {
+      "sample": "2023-09-21_103140_0223",
+      "fhd_index": 482,
+      "export_vs_independently_decoded_frame_rgb_mse": 4.024923324584961,
+      "verification": "independent single-frame PNG decode vs saved JPEG; compression tolerance 64"
+    },
+    {
+      "sample": "2023-09-21_103140_0309",
+      "fhd_index": 658,
+      "export_vs_independently_decoded_frame_rgb_mse": 4.670097351074219,
+      "verification": "independent single-frame PNG decode vs saved JPEG; compression tolerance 64"
+    },
+    {
+      "sample": "2023-09-21_103140_0441",
+      "fhd_index": 922,
+      "export_vs_independently_decoded_frame_rgb_mse": 5.209149360656738,
+      "verification": "independent single-frame PNG decode vs saved JPEG; compression tolerance 64"
+    },
+    {
+      "sample": "2023-09-21_103140_0797",
+      "fhd_index": 1643,
+      "export_vs_independently_decoded_frame_rgb_mse": 5.980795383453369,
+      "verification": "independent single-frame PNG decode vs saved JPEG; compression tolerance 64"
+    }
+  ],
+  "limit": "Timestamp/content reconstruction checks; not manual acceptance of every bbox or model performance validation."
+}

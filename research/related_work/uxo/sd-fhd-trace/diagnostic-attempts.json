@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "name": "matches_tail_64KiB_without_dictionary",
+      "status": "no valid CSV recovered; empty logs retained"
+    },
+    {
+      "name": "matches_tail_20MiB_dictionary_initialization",
+      "status": "CSV size+official CRC passed"
+    },
+    {
+      "name": "FHD_second_movie_initial_prefix",
+      "status": "failed CRC recovery, no unverified movie accepted; later restart after early compressed packet passed"
+    },
+    {
+      "name": "FFmpeg_default_vsync",
+      "status": "rejected for frame-ordinal comparison because decoded frame-count differences (62/-201) differed from original stream metadata (64/-194); full initial arrays not retained; summary comes from command output"
+    },
+    {
+      "name": "FFmpeg_fps_mode_passthrough",
+      "status": "accepted: decoded counts exactly equal stream nb_frames; updated scripts and current JSON use passthrough"
+    }
+  ]
+}

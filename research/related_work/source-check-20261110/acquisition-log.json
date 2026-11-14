@@ -1,0 +1,67 @@
+[
+  {
+    "url": "https://api.crossref.org/works/10.1109/ACCESS.2026.3666096",
+    "checked_at_utc": "2026-11-10T01:20:56.594660+00:00",
+    "local_path": "related_work\\source-check-20261110\\cmold-crossref.json",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.1109/ACCESS.2026.3666096",
+    "content_type": "application/json",
+    "bytes": 6201,
+    "sha256": "baa660ef4e4b394f61d599109372ac25740021b12ed1e34592841240703675ff"
+  },
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Cross-Modality+Object-Level+Knowledge+Distillation+for+Enhanced+Underwater+Sonar+Object+Detection%22&max_results=10",
+    "checked_at_utc": "2026-11-10T01:20:56.595182+00:00",
+    "local_path": "related_work\\source-check-20261110\\cmold-arxiv-query.xml",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Lightweight+Underwater+Sonar+Object+Detection+via+RGB-Guided+Heterogeneous+Distillation%22&max_results=10",
+    "checked_at_utc": "2026-11-10T01:20:56.595718+00:00",
+    "local_path": "related_work\\source-check-20261110\\cmhd-arxiv-query.xml",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22An+Acoustic+and+Optical+Dataset+for+the+Perception+of+Underwater+Unexploded+Ordnance%22&max_results=10",
+    "checked_at_utc": "2026-11-10T01:20:56.595718+00:00",
+    "local_path": "related_work\\source-check-20261110\\uxo-arxiv-query.xml",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://api.github.com/search/repositories?q=%22Cross-Modality+Object-Level%22",
+    "checked_at_utc": "2026-11-10T01:20:56.973571+00:00",
+    "local_path": "related_work\\source-check-20261110\\cmold-github-repositories.json",
+    "status": 200,
+    "final_url": "https://api.github.com/search/repositories?q=%22Cross-Modality+Object-Level%22",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 55,
+    "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+    "total_count": 0
+  },
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/git/trees/main?recursive=1",
+    "checked_at_utc": "2026-11-10T01:20:56.974156+00:00",
+    "local_path": "related_work\\source-check-20261110\\uxo-github-tree.json",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/git/trees/main?recursive=1",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 11870,
+    "sha256": "a776b64b6993ddefac8595ca159ce896ff98dfbf582b8c5bb1e6ed86925d6297"
+  },
+  {
+    "url": "https://research.itu.edu.tr/en/publications/cross-modality-object-level-knowledge-distillation-for-enhanced-u/",
+    "checked_at_utc": "2026-11-10T01:20:56.999513+00:00",
+    "local_path": "related_work\\source-check-20261110\\cmold-institution.html",
+    "status": 200,
+    "final_url": "https://research.itu.edu.tr/en/publications/cross-modality-object-level-knowledge-distillation-for-enhanced-u/",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 58917,
+    "sha256": "1fff22d27db99b6a041bfa1b0c55279fce553fbd42ec8d0e7739500818c0ff67"
+  },
+  {
+    "url": "https://arxiv.org/abs/2107.08430",
+    "checked_at_utc": "2026-11-10T01:20:57.794272+00:00",
+    "local_path": "related_work\\source-check-20261110\\yolox-arxiv-abstract.html",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  }
+]

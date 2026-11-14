@@ -1,0 +1,98 @@
+{
+  "run": "sonar_box_guided_registration",
+  "frames": 413,
+  "images_decoded": 413,
+  "iou_checks": 1239,
+  "max_iou_difference": 0,
+  "independent_projection_checks": [
+    {
+      "sample": "2023-09-21_123500_0077",
+      "max_edge_error_px": 1.7053025658242404e-13
+    },
+    {
+      "sample": "2023-09-21_123500_0250",
+      "max_edge_error_px": 8.526512829121202e-14
+    },
+    {
+      "sample": "2023-09-21_123500_0443",
+      "max_edge_error_px": 2.2737367544323206e-13
+    },
+    {
+      "sample": "2023-09-21_123500_0621",
+      "max_edge_error_px": 1.1368683772161603e-13
+    },
+    {
+      "sample": "2023-09-21_123500_0711",
+      "max_edge_error_px": 2.2737367544323206e-13
+    },
+    {
+      "sample": "2023-09-21_123500_0806",
+      "max_edge_error_px": 2.2737367544323206e-13
+    },
+    {
+      "sample": "2023-09-21_123841_0103",
+      "max_edge_error_px": 1.4210854715202004e-13
+    },
+    {
+      "sample": "2023-09-21_123841_0439",
+      "max_edge_error_px": 3.979039320256561e-13
+    },
+    {
+      "sample": "2023-09-21_123841_0832",
+      "max_edge_error_px": 1.7053025658242404e-13
+    },
+    {
+      "sample": "2023-09-21_124039_0081",
+      "max_edge_error_px": 2.2737367544323206e-13
+    },
+    {
+      "sample": "2023-09-21_124039_0436",
+      "max_edge_error_px": 8.526512829121202e-14
+    },
+    {
+      "sample": "2023-09-21_124039_0851",
+      "max_edge_error_px": 8.526512829121202e-14
+    },
+    {
+      "sample": "2023-09-21_102500_0284",
+      "max_edge_error_px": 1.1368683772161603e-13
+    },
+    {
+      "sample": "2023-09-21_102500_0473",
+      "max_edge_error_px": 1.9895196601282805e-13
+    },
+    {
+      "sample": "2023-09-21_102500_0772",
+      "max_edge_error_px": 8.526512829121202e-14
+    },
+    {
+      "sample": "2023-09-21_103728_0114",
+      "max_edge_error_px": 2.2737367544323206e-13
+    },
+    {
+      "sample": "2023-09-21_103728_0278",
+      "max_edge_error_px": 3.694822225952521e-13
+    },
+    {
+      "sample": "2023-09-21_103728_0386",
+      "max_edge_error_px": 8.526512829121202e-14
+    },
+    {
+      "sample": "2023-09-21_103728_0472",
+      "max_edge_error_px": 8.526512829121202e-14
+    },
+    {
+      "sample": "2023-09-21_103728_0598",
+      "max_edge_error_px": 1.9895196601282805e-13
+    },
+    {
+      "sample": "2023-09-21_103728_0782",
+      "max_edge_error_px": 1.7053025658242404e-13
+    }
+  ],
+  "max_projection_error_px": 3.979039320256561e-13,
+  "rigid_matrices_valid": true,
+  "minimum_fit_cost_selection_verified": true,
+  "html_local_links_resolve": true,
+  "browser_rendering_verified": false
+}

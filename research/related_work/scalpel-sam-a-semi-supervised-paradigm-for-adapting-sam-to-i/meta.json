@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2512.22483",
+ "slug": "scalpel-sam-a-semi-supervised-paradigm-for-adapting-sam-to-i",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:58:03",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Scalpel-SAM: A Semi-Supervised Paradigm for Adapting SAM to Infrared Small Object Detection",
+ "authors": [
+  "Liu, Zihan",
+  "Ren, Xiangning",
+  "Kong, Dezhang",
+  "Zhang, Yipeng",
+  "Han, Meng"
+ ],
+ "date": "2025/12/27",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Infrared small object detection urgently requires semi-supervised paradigms due to the high cost of annotation. However, existing methods like SAM face significant challenges of domain gaps, inability of encoding physical priors, and inherent architectural complexity. To address this, we designed a Hierarchical MoE Adapter consisting of four white-box neural operators. Building upon this core component, we propose a two-stage paradigm for knowledge distillation and transfer: (1) Prior-Guided Knowledge Distillation, where we use our MoE adapter and 10% of available fully supervised data to distill SAM into an expert teacher (Scalpel-SAM); and (2) Deployment-Oriented Knowledge Transfer, where we use Scalpel-SAM to generate pseudo labels for training lightweight and efficient downstream models. Experiments demonstrate that with minimal annotations, our paradigm enables downstream models to achieve performance comparable to, or even surpassing, their fully supervised counterparts. To our knowledge, this is the first semi-supervised paradigm that systematically addresses the data scarcity issue in IR-SOT using SAM as the teacher model.",
+ "comments": "9 pages, 3 figures",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2512.22483",
+  "bytes": 824041,
+  "sha256": "3ffc67d705d01b273e0907feb569609e8d3f7e8e793f69db51133b7877e57b81"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2512.22483",
+  "bytes": 467484,
+  "sha256": "1a4be3c7ef372633d9d829396a71e2286d72043c0d5b7f2d0efaed819dc599e1",
+  "kind": "tar",
+  "n_files": 10,
+  "tex_files": [
+   "X_suppl.tex",
+   "icme2026_template_anonymized.tex"
+  ]
+ }
+}

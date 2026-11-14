@@ -1,0 +1,32 @@
+{
+  "old_accepted": 81,
+  "new_reviewed": 27,
+  "new_accepted": 27,
+  "total_unique_accepted": 108,
+  "accepted_overlap": 0,
+  "hash_checks": 108,
+  "old_decision_hash_snapshot": {
+    "paired_assistant_remaining_strong": "4c930d3c5628773edf57e61de9da92eb4683da8460ff1054e02e4c3c5eb54643",
+    "paired_assistant_grenade_remaining_body": "eefe536a340a70456ff28dbce09b03fb547eae5db4db7ddc3cf3e628630e1544",
+    "paired_assistant_grenade_remaining_high": "e3182228ddafe2dd9a3d1cb9a20859d67f67b2c56755d7746e2ca04380eac103",
+    "paired_assistant_grenade_remaining_padded": "c1c078e49c802123cd0fa34baf8aa6e2bc122f601a1b0c726b927c7778cbc0d1",
+    "paired_assistant_grenade_remaining_supplement": "cd065d341945eeb915771daac40dd4757eba5525746d585099733cf5bab14e3e",
+    "paired_assistant_grenade_remaining_manual": "7626230f3188916de6f3ff27f06b3277463db44af282a2fdc59edb974b5aadfb",
+    "paired_assistant_grenade_remaining_manual_ring": "aa4c1e205c1a3a6ebae6c1fbdbd9a92c3c1b9f33cc093be557a29dab8333ab77",
+    "paired_assistant_grenade_remaining_manual_124915": "9a9839fc6d1f16953a49627093164e42144551e939b8b0f3618956888444cd16"
+  },
+  "gain_image_hashes": {
+    "gain-00.png": "3522670f3b25ddf923fcea9e599bd2c8e68976b34b38df12000027335fa382ed",
+    "gain-01.png": "c70006372e34cc609950d88edab64e115ecc4e6066c3b7829b3325e51b67e2aa",
+    "gain-02.png": "d86a5bc84f0fdd1ad28f82a2a18857e6ff51da26c39d5d36ba1b3359b7f737de",
+    "gain-03.png": "97a9798fc2319c4105d68ae30a3e8486e7339a6bcf0e898666a31e42b54f4011",
+    "gain-04.png": "4ac28bc1f48c0b0c8fc5f0a369c54e91a37f4e6be3d57f434d12214de8189077",
+    "gain-05.png": "c196466b33929bf359ed51fa22d13deb0baf974bfcb5a531336e611c90b87d8d",
+    "gain-06.png": "a9898cbd3078b59363e96c438923c747de2bb7848d069a098321d6961bd59077",
+    "gain-07.png": "bc95c76a3ec32ff039b147661a1c0a2e2a850251a33fca66531dbe597636f7d5",
+    "gain-08.png": "27b7c7541d35df777510acaa23b10291f4b48ee711d345da139efcfa4059b427"
+  },
+  "candidate_manifest_sha256": "ec175dacea7ae30bba2570756c1aed1ee382442a5ece7b57dad4e639587aecd9",
+  "precision_sync_certified": false,
+  "expert_verified": false
+}

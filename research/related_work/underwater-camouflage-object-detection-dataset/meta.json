@@ -1,0 +1,33 @@
+{
+ "arxiv_id": "2303.12946",
+ "slug": "underwater-camouflage-object-detection-dataset",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:41:16",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Underwater Camouflage Object Detection Dataset",
+ "authors": [
+  "Dong, Feng",
+  "Zhu, Jinchao"
+ ],
+ "date": "2023/03/01",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: We have made a dataset of camouflage object detection mainly for complex seabed scenes, and named it UnderWater RGB&amp;Sonar,or UW-RS for short. The UW-RS dataset contains a total of 1972 image data. The dataset mainly consists of two parts, namely underwater optical data part (UW-R dataset) and underwater sonar data part (UW-S dataset).",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2303.12946",
+  "bytes": 1545631,
+  "sha256": "287638c5ac76c57e1d6fd3a22d21b0d6a01d9994f7e4e08e94391622af5ff545"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2303.12946",
+  "bytes": 1523000,
+  "sha256": "07c5db68020a4453cb05b776c1a60a8fa779e2ee7c629dabda39fbf07dbecafd",
+  "kind": "tar",
+  "n_files": 9,
+  "tex_files": [
+   "sonar.tex"
+  ]
+ }
+}

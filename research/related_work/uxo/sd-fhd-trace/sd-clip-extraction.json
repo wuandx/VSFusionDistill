@@ -1,0 +1,43 @@
+{
+  "scope": "two approved SD clips only; no other MP4 materialized or decoded; no test frames decoded",
+  "range_start": 30931503934,
+  "maximum_range_bytes": 167772160,
+  "actual_bytes_read": 124780544,
+  "archive_bytes_processed_note": "preceding compressed/container bytes in the same solid block are passed by archive decompression and discarded; this is not zero access to all unrelated binary payload",
+  "selected": [
+    {
+      "name": "data_processed/gopro/clips_sd/20230921_GX010012_04.mp4",
+      "size": 2660967,
+      "crc32": 1256863408,
+      "folder": 16,
+      "pack_start": 30931503934,
+      "pack_size": 1834384494,
+      "folder_members": 159,
+      "preceding_unpacked": 64638207,
+      "folder_extensions": {
+        ".mp4": 81,
+        ".csv": 78
+      },
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_annotation_trace\\sd_clips\\20230921_GX010012_04.mp4",
+      "sha256": "0e9687cd463fb0f4ff1c39836893d0e91eb77fec79cd39dc12ddb6ca0ed37446",
+      "size_crc_matches": true
+    },
+    {
+      "name": "data_processed/gopro/clips_sd/20230921_GX020012_02.mp4",
+      "size": 2256966,
+      "crc32": 1061927502,
+      "folder": 16,
+      "pack_start": 30931503934,
+      "pack_size": 1834384494,
+      "folder_members": 159,
+      "preceding_unpacked": 123259248,
+      "folder_extensions": {
+        ".mp4": 81,
+        ".csv": 78
+      },
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_annotation_trace\\sd_clips\\20230921_GX020012_02.mp4",
+      "sha256": "eef6b0f7b477ac6a7b593b8156e0feb1a89368f72e4f0d3e6aa42ff6c2e7acc8",
+      "size_crc_matches": true
+    }
+  ]
+}

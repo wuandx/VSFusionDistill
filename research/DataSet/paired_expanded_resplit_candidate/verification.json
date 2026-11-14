@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "pairs": 4836,
+  "recordings": 38,
+  "groups": 32,
+  "new_pairs": 755,
+  "new_recordings": 1,
+  "old_4081_identities_images_and_boxes_preserved": true,
+  "all_images_decoded": true,
+  "all_boxes_in_bounds": true,
+  "original_camera_json_boxes_unchanged": true,
+  "raw_to_png_pixel_exact": true,
+  "source_groups_disjoint": true,
+  "cross_role_duplicate_hashes": 0,
+  "inputs_unchanged": true,
+  "summary": {
+    "train": {
+      "recordings": 22,
+      "groups": 19,
+      "pairs": 3040,
+      "per_class_pairs": {
+        "100lbs_aircraft_bomb": 1241,
+        "mortar_shell": 893,
+        "incindiary_grenade": 906
+      }
+    },
+    "val": {
+      "recordings": 9,
+      "groups": 6,
+      "pairs": 961,
+      "per_class_pairs": {
+        "100lbs_aircraft_bomb": 298,
+        "mortar_shell": 392,
+        "incindiary_grenade": 271
+      }
+    },
+    "test": {
+      "recordings": 7,
+      "groups": 7,
+      "pairs": 835,
+      "per_class_pairs": {
+        "100lbs_aircraft_bomb": 355,
+        "mortar_shell": 278,
+        "incindiary_grenade": 202
+      }
+    }
+  }
+}

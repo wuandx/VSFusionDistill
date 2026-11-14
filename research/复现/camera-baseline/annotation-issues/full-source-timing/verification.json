@@ -1,0 +1,28 @@
+{
+  "scope": "read-only source diagnostics; 40 approved development recordings; no test sample or label access",
+  "scripts_syntax_ok": [
+    "audit_full_local_video_timing.py",
+    "audit_allowed_video_pixel_timing.py",
+    "probe_timing_pipeline_controls.py",
+    "probe_independent_uhd_scale.py"
+  ],
+  "report_local_links": 21,
+  "broken_links": [],
+  "metadata_recordings": 40,
+  "metadata_videos": 120,
+  "pixel_recordings": 40,
+  "pixel_pairs": 2992,
+  "nonzero_offsets_with_lower_median_mse": 38,
+  "all_decode_counts_verified": true,
+  "original_repo_HEAD": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+  "original_repo_status": "clean",
+  "source_identity_limit": "prior MD5 log and four selected videos CRC; not a fresh full-extraction hash audit",
+  "sha256": {
+    "\u590d\u73b0\\camera-baseline\\annotation-issues\\full-source-timing-cause-audit.md": "1054a37bc6cc51e8ce90835b471f929f4222faacc8684ecd65b0f8cb13024749",
+    "\u590d\u73b0\\camera-baseline\\annotation-issues\\full-source-timing\\summary.json": "ca3393a85fa37da716198b24c8c0d9b8e30f31467a56e44c4eca54d96c777982",
+    "\u590d\u73b0\\camera-baseline\\annotation-issues\\full-source-timing\\pixel-correspondence.json": "768e15731f8d8cf71ac3e50af28e8ad80c981db0f1fcdf7c09fb8d35221eb7bb",
+    "\u590d\u73b0\\camera-baseline\\annotation-issues\\full-source-timing\\controls\\control-results.json": "43bbf87ec7e0b7e4113438392e80170141bc127c0fd9d44c95f87d08fb063a5a",
+    "\u590d\u73b0\\camera-baseline\\annotation-issues\\full-source-timing\\controls\\independent-scale-results.json": "f45078f1b4766d158ff04c8b22828b26906dc8577455a74e7bda1e7caae97bd4"
+  },
+  "independent_review": "implementation_audit: direction, scope, controls and inference limits reviewed; fps statement and relative links corrected before delivery"
+}

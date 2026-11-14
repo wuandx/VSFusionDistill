@@ -1,0 +1,60 @@
+{
+ "arxiv_id": "2311.05494",
+ "slug": "object-centric-cross-modal-feature-distillation-for-event-ba",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:48:56",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Object-centric Cross-modal Feature Distillation for Event-based Object Detection",
+ "authors": [
+  "Li, Lei",
+  "Liniger, Alexander",
+  "Millhaeusler, Mario",
+  "Tsiminaki, Vagia",
+  "Li, Yuanyou",
+  "Dai, Dengxin"
+ ],
+ "date": "2023/11/09",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Event cameras are gaining popularity due to their unique properties, such as their low latency and high dynamic range. One task where these benefits can be crucial is real-time object detection. However, RGB detectors still outperform event-based detectors due to the sparsity of the event data and missing visual details. In this paper, we develop a novel knowledge distillation approach to shrink the performance gap between these two modalities. To this end, we propose a cross-modality object detection distillation method that by design can focus on regions where the knowledge distillation works best. We achieve this by using an object-centric slot attention mechanism that can iteratively decouple features maps into object-centric features and corresponding pixel-features used for distillation. We evaluate our novel distillation approach on a synthetic and a real event dataset with aligned grayscale images as a teacher modality. We show that object-centric distillation allows to significantly improve the performance of the event-based student object detector, nearly halving the performance gap with respect to the teacher.",
+ "comments": "12 pages, 8 figures",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2311.05494",
+  "bytes": 3755964,
+  "sha256": "fa756fb45a71a911e67052238446ce84eae7e4eb77a34f977c0559104aaae04a"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2311.05494",
+  "bytes": 7277097,
+  "sha256": "52e385a66f76d481243319bd64adf929f50c979b0fc70ea9059d16c8ee12e610",
+  "kind": "tar",
+  "n_files": 194,
+  "tex_files": [
+   "00_introduction.tex",
+   "01_related_work.tex",
+   "02_method.tex",
+   "03_experiment.tex",
+   "05_appendix.tex",
+   "figures/comparison_carla.tex",
+   "figures/comparison_dsec.tex",
+   "figures/heatmap.tex",
+   "figures/pipeline.tex",
+   "figures/pixeldistill.tex",
+   "figures/slotattention.tex",
+   "figures/teaser.tex",
+   "figures/training_process.tex",
+   "figures/vis_affinity.tex",
+   "figures/vis_attention_type.tex",
+   "figures/vis_perobject_attn.tex",
+   "icra_main.tex",
+   "tables/attention_type.tex",
+   "tables/comparison_carla.tex",
+   "tables/comparison_dsec_ema.tex",
+   "tables/dsec_compression.tex",
+   "tables/feature_disti_ablation2.tex",
+   "tables/teacher_modal_ablation.tex"
+  ]
+ }
+}

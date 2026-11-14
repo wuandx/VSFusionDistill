@@ -1,0 +1,1796 @@
+{
+ "generated": "2026-11-13T11:29:12",
+ "selected": 102,
+ "acquired": 102,
+ "with_latex": 96,
+ "rows": [
+  {
+   "id": "2102.12252",
+   "dir": "localization-distillation-for-dense-object-detection",
+   "tier": "A",
+   "title": "Localization Distillation for Dense Object Detection",
+   "date": "2021/02/24",
+   "cmold_section": "II-C",
+   "pdf_bytes": 4448206,
+   "pdf_sha": "09e3aaf466b8648bc6102004109221ced2329b5d6e611ca5e71ffcac7f257a38",
+   "tex": [
+    "LD.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2108.07482",
+   "dir": "g-detkd-towards-general-distillation-framework-for-object-de",
+   "tier": "A",
+   "title": "G-DetKD: Towards General Distillation Framework for Object Detectors via Contrastive and Semantic-guided Feature Imitation",
+   "date": "2021/08/17",
+   "cmold_section": "II-C",
+   "pdf_bytes": 1939595,
+   "pdf_sha": "766226c3b9beffe15b5267ea30ba223c6d2e315fd7350c2478322d83ee673941",
+   "tex": [
+    "detectionkd_9107.tex",
+    "detectionkd_9107_2.47.16_PM.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2111.11837",
+   "dir": "focal-and-global-knowledge-distillation-for-detectors",
+   "tier": "A",
+   "title": "Focal and Global Knowledge Distillation for Detectors",
+   "date": "2021/11/23",
+   "cmold_section": "II-C",
+   "pdf_bytes": 10197597,
+   "pdf_sha": "6e6576a129cec280ec69763bb1ae3e0fcfacbde59eab6067b5589dd8328170b5",
+   "tex": [
+    "FGD.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2303.15083",
+   "dir": "unidistill-cross-modality-detection",
+   "tier": "A",
+   "title": "UniDistill: A Universal Cross-Modality Knowledge Distillation Framework for 3D Object Detection in Bird&#39;s-Eye View",
+   "date": "2023/03/27",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 6315604,
+   "pdf_sha": "5a029e85deba4d23ab68372894c4a5f8dd85b7e8d9a5a0c7fe1187065a2d6283",
+   "tex": [
+    "chapter/appendix.tex",
+    "chapter/conclusion.tex",
+    "chapter/experiments.tex",
+    "chapter/introduction.tex",
+    "chapter/methodology.tex",
+    "chapter/relatedwork.tex",
+    "cvpr.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2304.11875",
+   "dir": "underwater-object-classification-combining-sas-and-transferr",
+   "tier": "A",
+   "title": "Underwater object classification combining SAS and transferred optical-to-SAS Imagery",
+   "date": "2023/04/24",
+   "cmold_section": "II-B",
+   "pdf_bytes": 2013759,
+   "pdf_sha": "98b03e17a4251368210529bd0833c4c7d1afe7bb4d7615648fc94db8e338b020",
+   "tex": [],
+   "eprint_kind": "pdf"
+  },
+  {
+   "id": "2310.01035",
+   "dir": "learnable-cmkd-missing-modality",
+   "tier": "A",
+   "title": "Learnable Cross-modal Knowledge Distillation for Multi-modal Learning with Missing Modality",
+   "date": "2023/10/02",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 1634840,
+   "pdf_sha": "5c395672c1626181cd1319926d2e58644e7043773f86556afd2b52480b08063b",
+   "tex": [
+    "main.tex",
+    "supp.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2311.05494",
+   "dir": "object-centric-cross-modal-feature-distillation-for-event-ba",
+   "tier": "A",
+   "title": "Object-centric Cross-modal Feature Distillation for Event-based Object Detection",
+   "date": "2023/11/09",
+   "cmold_section": "II-C",
+   "pdf_bytes": 3755964,
+   "pdf_sha": "fa756fb45a71a911e67052238446ce84eae7e4eb77a34f977c0559104aaae04a",
+   "tex": [
+    "00_introduction.tex",
+    "01_related_work.tex",
+    "02_method.tex",
+    "03_experiment.tex",
+    "05_appendix.tex",
+    "figures/comparison_carla.tex",
+    "figures/comparison_dsec.tex",
+    "figures/heatmap.tex",
+    "figures/pipeline.tex",
+    "figures/pixeldistill.tex",
+    "figures/slotattention.tex",
+    "figures/teaser.tex",
+    "figures/training_process.tex",
+    "figures/vis_affinity.tex",
+    "figures/vis_attention_type.tex",
+    "figures/vis_perobject_attn.tex",
+    "icra_main.tex",
+    "tables/attention_type.tex",
+    "tables/comparison_carla.tex",
+    "tables/comparison_dsec_ema.tex",
+    "tables/dsec_compression.tex",
+    "tables/feature_disti_ablation2.tex",
+    "tables/teacher_modal_ablation.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2403.05061",
+   "dir": "radardistill-boosting-radar-based-object-detection-performan",
+   "tier": "A",
+   "title": "RadarDistill: Boosting Radar-based Object Detection Performance via Knowledge Distillation from LiDAR Features",
+   "date": "2024/03/08",
+   "cmold_section": "II-C",
+   "pdf_bytes": 5898525,
+   "pdf_sha": "079cd06552318fddca0fcedb677341b0a7d0fb7caf765f1e5cc26575858a1fcd",
+   "tex": [
+    "main.tex",
+    "table/SOTA_test.tex",
+    "table/SOTA_test_class.tex",
+    "table/ablation_final_1.tex",
+    "table/ablation_final_2.tex",
+    "table/mr-occ_sota.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2403.09313",
+   "dir": "yolox-vit-side-scan-sonar-kd",
+   "tier": "A",
+   "title": "Knowledge Distillation in YOLOX-ViT for Side-Scan Sonar Object Detection",
+   "date": "2024/03/14",
+   "cmold_section": "II-C",
+   "pdf_bytes": 1125191,
+   "pdf_sha": "35f8382556e30ade149817cb248603c99590aec1a1502be48f6f476c478be417",
+   "tex": [
+    "misc/packages.tex",
+    "sample-1col.tex",
+    "tex/00_abstract.tex",
+    "tex/01_introduction.tex",
+    "tex/02_related_work.tex",
+    "tex/03_model.tex",
+    "tex/04_knowledge_distillation.tex",
+    "tex/05_exp_results.tex",
+    "tex/06_conclusion.tex",
+    "tex/appendix.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2406.07189",
+   "dir": "rgb-sonar-tracking-benchmark-and-spatial-cross-attention-tra",
+   "tier": "A",
+   "title": "RGB-Sonar Tracking Benchmark and Spatial Cross-Attention Transformer Tracker",
+   "date": "2024/06/11",
+   "cmold_section": "II-B",
+   "pdf_bytes": 8421073,
+   "pdf_sha": "ea1476540477607791418f4293db742458bda8b3c1179217ecdf6bad43ea0dd9",
+   "tex": [
+    "figures/fig_pr_sr_plots.tex",
+    "figures/fig_rgb_tdes.tex",
+    "figures/fig_rgb_trackingresults.tex",
+    "figures/fig_rgbs50_benchmark.tex",
+    "figures/fig_rgbs50_examples.tex",
+    "figures/fig_rgbs_framework.tex",
+    "figures/fig_rgbs_heatmap.tex",
+    "figures/fig_rgbs_radar_npr.tex",
+    "figures/fig_rgbs_radar_sr.tex",
+    "figures/fig_rgbs_sca.tex",
+    "figures/fig_rgbs_srst.tex",
+    "main.tex",
+    "sections/0_abstract.tex",
+    "sections/0_keywords.tex",
+    "sections/1_introduction.tex",
+    "sections/2_related_work.tex",
+    "sections/3_benchmark.tex",
+    "sections/4_method.tex",
+    "sections/5_experiments.tex",
+    "sections/6_conclusion.tex",
+    "sections/acknowledgement.tex",
+    "tables/ablation_layers.tex",
+    "tables/ablation_scam.tex",
+    "tables/ablation_srst.tex",
+    "tables/attribute.tex",
+    "tables/attribute_results.tex",
+    "tables/benchmarks_compare.tex",
+    "tables/compare_results.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2410.08612",
+   "dir": "synth-sonar-sonar-image-synthesis-with-enhanced-diversity-an",
+   "tier": "A",
+   "title": "Synth-SONAR: Sonar Image Synthesis with Enhanced Diversity and Realism via Dual Diffusion Models and GPT Prompting",
+   "date": "2024/10/11",
+   "cmold_section": "V",
+   "pdf_bytes": 3151683,
+   "pdf_sha": "9412233fd1beff23cb526d9859eba21cd317b9506cb7ff40f4bb57652d713343",
+   "tex": [
+    "SYNTH-SONAR.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2410.12953",
+   "dir": "syn2real-mine-like-side-scan",
+   "tier": "A",
+   "title": "Syn2Real Domain Generalization for Underwater Mine-like Object Detection Using Side-Scan Sonar",
+   "date": "2024/10/16",
+   "cmold_section": "II-A",
+   "pdf_bytes": 3284752,
+   "pdf_sha": "d315823a07311675c4e17903028cfe72854e7d9e68bcc471cbe090a4bf99c152",
+   "tex": [
+    "Main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2411.17521",
+   "dir": "bestanp-acoustic-n-point",
+   "tier": "A",
+   "title": "BESTAnP: Bi-Step Efficient and Statistically Optimal Estimator for Acoustic-n-Point Problem",
+   "date": "2024/11/26",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 3140493,
+   "pdf_sha": "4dfc6a06e1390ebe3a4d53a339c25b042d6060b4505aabcb56ba7b3d0e213e55",
+   "tex": [
+    "RAL_version3.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2412.11840",
+   "dir": "sonar-based-deep-learning-in-underwater-robotics-overview-ro",
+   "tier": "A",
+   "title": "Sonar-based Deep Learning in Underwater Robotics: Overview, Robustness and Challenges",
+   "date": "2024/12/16",
+   "cmold_section": "II-A",
+   "pdf_bytes": 1077468,
+   "pdf_sha": "8877e58288025d5d645cf17941c08f2194553a8b98ba1cfd8e93256e48065858",
+   "tex": [
+    "bare_jrnl_new_sample4.tex",
+    "tex/1.0_introduction.tex",
+    "tex/2.0_AI-Based_Underwater_Robotics_Tasks.tex",
+    "tex/2_1_Survey_Review.tex",
+    "tex/4_Safe_AI_in_Underwater_Robotics.tex",
+    "tex/6.0_Conclusion.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2503.01655",
+   "dir": "can-optical-denoising-clean-sonar-images-a-benchmark-and-fus",
+   "tier": "A",
+   "title": "Can Optical Denoising Clean Sonar Images? A Benchmark and Fusion Approach",
+   "date": "2025/03/03",
+   "cmold_section": "II-B",
+   "pdf_bytes": 3830671,
+   "pdf_sha": "891a147ca230c2e43a8886bef4a05130031767982940f23848172e2e32a6c15b",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2503.16066",
+   "dir": "outlier-rejection-2d3d-fls",
+   "tier": "A",
+   "title": "Rejecting Outliers in 2D-3D Point Correspondences from 2D Forward-Looking Sonar Observations",
+   "date": "2025/03/20",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 1786815,
+   "pdf_sha": "ede8aeb3c104fa028764d3f41af91fae34b54647c211ea7983869d51211c1fa9",
+   "tex": [
+    "root.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2504.04445",
+   "dir": "pnp-2d-fls-convex-global",
+   "tier": "A",
+   "title": "A Convex and Global Solution for the P$n$P Problem in 2D Forward-Looking Sonar",
+   "date": "2025/04/06",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 1961767,
+   "pdf_sha": "b5b5029d8e917c9357cafc3a59478ac354d811405beedfae87a088d107d119bf",
+   "tex": [
+    "IEEE-conference-template-062824.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2507.05410",
+   "dir": "stereo-sidescan-fls-feature-geometry",
+   "tier": "A",
+   "title": "Feature Geometry for Stereo Sidescan and Forward-looking Sonar",
+   "date": "2025/07/07",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 6688212,
+   "pdf_sha": "12f03e6edc3e2080245ba116428091bd5a166206f8b8d4c9d7dcc28c68d5409e",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2508.10445",
+   "dir": "dod-sa-infrared-visible-decoupled-object-detection-with-sing",
+   "tier": "A",
+   "title": "DOD-SA: Infrared-Visible Decoupled Object Detection with Single-Modality Annotations",
+   "date": "2025/08/14",
+   "cmold_section": "II-C",
+   "pdf_bytes": 9909162,
+   "pdf_sha": "9c62f7db93fae76a926625eee0c5bfdb78fac8b4e8355c5a93a955cd5cc56df8",
+   "tex": [
+    "bare_jrnl_new_sample4.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2601.02016",
+   "dir": "enhancing-object-detection-with-privileged-information-a-mod",
+   "tier": "A",
+   "title": "Enhancing Object Detection with Privileged Information: A Model-Agnostic Teacher-Student Approach",
+   "date": "2026/01/05",
+   "cmold_section": "II-C",
+   "pdf_bytes": 13443600,
+   "pdf_sha": "6cbd42bae613351907cf2faa627f44732be5158e7a81a73c4b8a28d6f0b9e337",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2603.15200",
+   "dir": "physically-motivated-kd-side-scan",
+   "tier": "A",
+   "title": "Physically Motivated Knowledge Distillation for Blind Geometric Correction of Side-Scan Sonar Imagery",
+   "date": "2026/03/16",
+   "cmold_section": "II-C",
+   "pdf_bytes": 16629963,
+   "pdf_sha": "329db56cafc93ebff58285b704efec16697599fd2e1dea1f2ae3eac98d5cdccf",
+   "tex": [
+    "version2.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2603.21071",
+   "dir": "ctfs-collaborative-teacher-framework-for-forward-looking-son",
+   "tier": "A",
+   "title": "CTFS : Collaborative Teacher Framework for Forward-Looking Sonar Image Semantic Segmentation with Extremely Limited Labels",
+   "date": "2026/03/22",
+   "cmold_section": "II-C",
+   "pdf_bytes": 4010226,
+   "pdf_sha": "8ba0e1cc0cfbcd0935b23729be71693fa831249a7196d3c0464449c229414371",
+   "tex": [
+    "main.tex",
+    "preamble.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2604.00383",
+   "dir": "mine-jepa-in-domain-self-supervised-learning-for-mine-like-o",
+   "tier": "A",
+   "title": "Mine-JEPA: In-Domain Self-Supervised Learning for Mine-Like Object Classification in Side-Scan Sonar",
+   "date": "2026/04/01",
+   "cmold_section": "II-A",
+   "pdf_bytes": 1971197,
+   "pdf_sha": "0d34c47d5b4dc8cb6227f9fb3263425b2831b10b468aa7ecd4253aea878695de",
+   "tex": [
+    "main.tex",
+    "preamble.tex",
+    "sec/0_abstract.tex",
+    "sec/1_intro.tex",
+    "sec/2_related_work.tex",
+    "sec/3_method.tex",
+    "sec/4_experiments.tex",
+    "sec/5_discussion.tex",
+    "sec/6_conclusion.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2605.10130",
+   "dir": "thermal-det-language-guided-cross-modal-distillation-for-ope",
+   "tier": "A",
+   "title": "Thermal-Det: Language-Guided Cross-Modal Distillation for Open-Vocabulary Thermal Object Detection",
+   "date": "2026/05/11",
+   "cmold_section": "II-C",
+   "pdf_bytes": 2750806,
+   "pdf_sha": "7bbe1926106201dd9e050ff417f07f562de5cfda35d7f3db45fdac95d5b937f4",
+   "tex": [
+    "main.tex",
+    "preamble.tex",
+    "sec/0_abstract.tex",
+    "sec/X_suppl.tex",
+    "sec/conclusion.tex",
+    "sec/dataset.tex",
+    "sec/experiment.tex",
+    "sec/introduction.tex",
+    "sec/method.tex",
+    "sec/results.tex",
+    "sec/tables.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2606.10504",
+   "dir": "cmkd-without-paired-data",
+   "tier": "A",
+   "title": "Cross-Modal Knowledge Distillation without Paired Data: Theoretical Foundation and Algorithm",
+   "date": "2026/06/09",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 665553,
+   "pdf_sha": "4aca2c541472c70dd07c3c83f1ec84943addaa915396759a9275a20a3dec5886",
+   "tex": [
+    "example_paper.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2606.11572",
+   "dir": "freqkd-infrared-detection",
+   "tier": "A",
+   "title": "FreqKD: Frequency-Decoupled Cross-Modal Knowledge Distillation for Infrared Object Detection",
+   "date": "2026/06/10",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 1187408,
+   "pdf_sha": "13405a207bbe75d242b24834d39263e5901453bd8ba1ec05b95c2fc5439c4f20",
+   "tex": [
+    "bmvc_final.tex",
+    "sec/01_abstract.tex",
+    "sec/02_intro.tex",
+    "sec/03_related.tex",
+    "sec/04_method.tex",
+    "sec/05_experiments.tex",
+    "sec/06_conclusion.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2609.18124",
+   "dir": "aligned-consensus-teaching-for-label-efficient-oriented-obje",
+   "tier": "A",
+   "title": "Aligned Consensus Teaching for Label-Efficient Oriented Object Detection in Weakly-Aligned Visible-Infrared Imagery",
+   "date": "2026/09/16",
+   "cmold_section": "II-C",
+   "pdf_bytes": 13748764,
+   "pdf_sha": "250cfe60f8f8e89e60fc9d876a68f83a04c9e24eecf2d789ab9612519a57960f",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2610.01644",
+   "dir": "sonarvoxnet-diver-detection-in-3d-bounding-box-using-3d-sona",
+   "tier": "A",
+   "title": "SonarVoxNet: Diver Detection in 3D Bounding Box using 3D Sonar",
+   "date": "2026/10/01",
+   "cmold_section": "II-A",
+   "pdf_bytes": 2081277,
+   "pdf_sha": "222df7708016ff8dc1162b8afc89960b4e8221bd2712309037aefea8493228bd",
+   "tex": [
+    "root.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "1706.09858",
+   "dir": "what-39-s-mine-is-yours-pretrained-cnns-for-limited-training",
+   "tier": "B",
+   "title": "What&#39;s Mine is Yours: Pretrained CNNs for Limited Training Sonar ATR",
+   "date": "2017/06/29",
+   "cmold_section": "II-A",
+   "pdf_bytes": 5291745,
+   "pdf_sha": "f61205e93690e15c475d3531d8454593751390f23acd719ca05d1806c08b5a84",
+   "tex": [
+    "McKayOceans17.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "1906.03609",
+   "dir": "distilling-object-detectors-with-fine-grained-feature-imitat",
+   "tier": "B",
+   "title": "Distilling Object Detectors with Fine-grained Feature Imitation",
+   "date": "2019/06/09",
+   "cmold_section": "II-C",
+   "pdf_bytes": 4265898,
+   "pdf_sha": "7912b2b3e7095587aa5628a7e70f35db97d367a168ff6eca8eb152402034893e",
+   "tex": [
+    "egpaper_final.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "1907.00734",
+   "dir": "objectness-sonar-class-independent",
+   "tier": "B",
+   "title": "Learning Objectness from Sonar Images for Class-Independent Object Detection",
+   "date": "2019/07/01",
+   "cmold_section": "II-A",
+   "pdf_bytes": 1868776,
+   "pdf_sha": "f0a6b43732c43ef3022cb1c69e044baedc26a41bcb3b5d6d83027f7f0c6b036a",
+   "tex": [
+    "sonar-proposals-paper.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "1908.10559",
+   "dir": "online-sensor-hallucination-via-knowledge-distillation-for-m",
+   "tier": "B",
+   "title": "Online Sensor Hallucination via Knowledge Distillation for Multimodal Image Classification",
+   "date": "2019/08/28",
+   "cmold_section": "II-C",
+   "pdf_bytes": 524172,
+   "pdf_sha": "7d01366c2ed0124a6add3fee8ba290128004b0400e3c077fa387958107995874",
+   "tex": [
+    "draft.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2001.03539",
+   "dir": "rasterized-raytracer-sonar-sim",
+   "tier": "B",
+   "title": "A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation",
+   "date": "2020/01/08",
+   "cmold_section": "II-A",
+   "pdf_bytes": 3548848,
+   "pdf_sha": "15732a3b1b809d45b8b80a80913a4b385c03075afb64a3eda493dbba40b35e9d",
+   "tex": [
+    "elsarticle-template.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2005.04621",
+   "dir": "a-comparison-of-few-shot-learning-methods-for-underwater-opt",
+   "tier": "B",
+   "title": "A Comparison of Few-Shot Learning Methods for Underwater Optical and Sonar Image Classification",
+   "date": "2020/05/10",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 1514600,
+   "pdf_sha": "3374920a3173ef5acde6a0697d5c496ce53aff8ae968fe002e849a4de5ccb94e",
+   "tex": [
+    "abstract.tex",
+    "acknowledgement.tex",
+    "conclusion.tex",
+    "conference_main.tex",
+    "contributions.tex",
+    "datasets.tex",
+    "experiments.tex",
+    "future_work.tex",
+    "introduction.tex",
+    "limitations.tex",
+    "methodology.tex",
+    "navigation.tex",
+    "related_work.tex",
+    "results.tex",
+    "results_figs.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2009.11528",
+   "dir": "mimicdet-bridging-the-gap-between-one-stage-and-two-stage-ob",
+   "tier": "B",
+   "title": "MimicDet: Bridging the Gap Between One-Stage and Two-Stage Object Detection",
+   "date": "2020/09/24",
+   "cmold_section": "II-C",
+   "pdf_bytes": 4957224,
+   "pdf_sha": "044d76522ad676cdca9fafb191e257225fc7b7dc675c56274a898e05baf7d430",
+   "tex": [
+    "MimicDet.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2101.03603",
+   "dir": "target-detection-and-segmentation-in-circular-scan-synthetic",
+   "tier": "B",
+   "title": "Target Detection and Segmentation in Circular-Scan Synthetic-Aperture-Sonar Images using Semi-Supervised Convolutional Encoder-Decoders",
+   "date": "2021/01/10",
+   "cmold_section": "II-A",
+   "pdf_bytes": 37474820,
+   "pdf_sha": "9f820836f1294166d5031708cded3e763c1020b7d7c1d3e9bf4263cf889d779f",
+   "tex": [
+    "Sledge-JOE-2021-1col-1.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2111.08379",
+   "dir": "landmine-flgpr-minimax",
+   "tier": "B",
+   "title": "Minimax Robust Landmine Detection Using Forward-Looking Ground-Penetrating Radar",
+   "date": "2021/11/16",
+   "cmold_section": "II-A",
+   "pdf_bytes": 3421669,
+   "pdf_sha": "43e196296d9c62885c8589ac09ac915dd1f3457aa24be28e841552515b63fee8",
+   "tex": [
+    "bar.tex",
+    "final_manuscript.tex",
+    "g1.tex",
+    "g2.tex",
+    "hc_closest.tex",
+    "hc_farthest.tex",
+    "lc_closest.tex",
+    "lc_farthest.tex",
+    "lr_rob1.tex",
+    "lr_rob2.tex",
+    "no_clutter.tex",
+    "nom_high.tex",
+    "nom_low.tex",
+    "nom_mix.tex",
+    "rob1_high.tex",
+    "rob1_low.tex",
+    "rob1_mix.tex",
+    "rob2_high.tex",
+    "rob2_low.tex",
+    "rob2_mix.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2112.04840",
+   "dir": "knowledge-distillation-for-object-detection-via-rank-mimicki",
+   "tier": "B",
+   "title": "Knowledge Distillation for Object Detection via Rank Mimicking and Prediction-guided Feature Imitation",
+   "date": "2021/12/09",
+   "cmold_section": "II-C",
+   "pdf_bytes": 3228409,
+   "pdf_sha": "aa726de5ff5881129263fd3da6123d514adcc68fa1b35ac1c83547df9d3c70e3",
+   "tex": [
+    "aaai-2022.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2205.04072",
+   "dir": "beyond-bounding-box-multimodal-knowledge-learning-for-object",
+   "tier": "B",
+   "title": "Beyond Bounding Box: Multimodal Knowledge Learning for Object Detection",
+   "date": "2022/05/09",
+   "cmold_section": "II-C",
+   "pdf_bytes": 3806763,
+   "pdf_sha": "0ea51aa39134cbaa9c80bc2dc8f854b61781f48f68f8821d489a9d4842b3f17b",
+   "tex": [
+    "PaperForReview.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2208.00233",
+   "dir": "pseudo-front-depth-fls-mvs",
+   "tier": "B",
+   "title": "Learning Pseudo Front Depth for 2D Forward-Looking Sonar-based Multi-view Stereo",
+   "date": "2022/07/30",
+   "cmold_section": "II-A",
+   "pdf_bytes": 2738172,
+   "pdf_sha": "7c340045cd710ae4c4c5eefb28355302514c0b9d5e35bb37847af1a50ef5468d",
+   "tex": [
+    "root.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2210.06535",
+   "dir": "development-of-a-simulation-environment-for-evaluation-of-a-",
+   "tier": "B",
+   "title": "Development of a Simulation Environment for Evaluation of a Forward Looking Sonar System for Small AUVs",
+   "date": "2022/10/12",
+   "cmold_section": "V",
+   "pdf_bytes": 1847740,
+   "pdf_sha": "e019a4167984523d5ba25e652b102e41429c852c15026904d87e035c9a282033",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2211.07171",
+   "dir": "cmkd-monocular-3d-detection",
+   "tier": "B",
+   "title": "Cross-Modality Knowledge Distillation Network for Monocular 3D Object Detection",
+   "date": "2022/11/14",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 8807233,
+   "pdf_sha": "3d7318b716509d997d14a573535830758d2e9ada2aa2b8bd764d5e71eaa9a297",
+   "tex": [
+    "eccv2022submission.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2212.00352",
+   "dir": "fls-multibeam-detection-dataset",
+   "tier": "B",
+   "title": "A Dataset with Multibeam Forward-Looking Sonar for Underwater Object Detection",
+   "date": "2022/12/01",
+   "cmold_section": "II-A",
+   "pdf_bytes": 3121783,
+   "pdf_sha": "439c494e53948cd474222b4ed6068a20ca8cea724c9541fe52ee3a268591e684",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2303.12946",
+   "dir": "underwater-camouflage-object-detection-dataset",
+   "tier": "B",
+   "title": "Underwater Camouflage Object Detection Dataset",
+   "date": "2023/03/01",
+   "cmold_section": "II-B",
+   "pdf_bytes": 1545631,
+   "pdf_sha": "287638c5ac76c57e1d6fd3a22d21b0d6a01d9994f7e4e08e94391622af5ff545",
+   "tex": [
+    "sonar.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2303.02203",
+   "dir": "x-3-kd-knowledge-distillation-across-modalities-tasks-and-st",
+   "tier": "B",
+   "title": "X$^3$KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection",
+   "date": "2023/03/03",
+   "cmold_section": "II-C",
+   "pdf_bytes": 8964239,
+   "pdf_sha": "43a084c14ff110596756f96387ae273d4c4474670e403a5c26e6b3fd25e30c6d",
+   "tex": [
+    "figs/complexity/complexity.tex",
+    "figs/concept/concept.tex",
+    "figs/features/features.tex",
+    "figs/overview/overview.tex",
+    "figs/qualitative/qualitative.tex",
+    "figs/qualitative_sup/qualitative.tex",
+    "include/experiments.tex",
+    "include/introduction.tex",
+    "include/method.tex",
+    "include/related_work.tex",
+    "include/supp_qualitative.tex",
+    "main_paper.tex",
+    "main_rebuttal.tex",
+    "tables/ablation_inst_seg_nuscenes.tex",
+    "tables/ablation_lidar_nuscenes.tex",
+    "tables/ablation_main_nuscenes.tex",
+    "tables/generalization_radar.tex",
+    "tables/motivation_analysis.tex",
+    "tables/sota_nuscenes.tex",
+    "tables/sota_waymo.tex",
+    "tables/supp_ablation_main_nuscenes.tex",
+    "tables/supp_backbones.tex",
+    "tables/supp_hyperparameters.tex",
+    "tables/supp_hyperparameters2.tex",
+    "tables/supp_more_baselines.tex",
+    "tables/supp_train_comp.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2304.08028",
+   "dir": "mmanet-margin-aware-distillation-and-modality-aware-regulari",
+   "tier": "B",
+   "title": "MMANet: Margin-aware Distillation and Modality-aware Regularization for Incomplete Multimodal Learning",
+   "date": "2023/04/17",
+   "cmold_section": "II-C",
+   "pdf_bytes": 3538326,
+   "pdf_sha": "eca00075a7cb74b9303c4b934e834532631419bf110b19befd27a5865cf994f8",
+   "tex": [
+    "PaperForReview.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2307.04091",
+   "dir": "cmdfusion-lidar-segmentation",
+   "tier": "B",
+   "title": "CMDFusion: Bidirectional Fusion Network with Cross-modality Knowledge Distillation for LIDAR Semantic Segmentation",
+   "date": "2023/07/09",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 5337109,
+   "pdf_sha": "f571010d03351b6ac1edf00fe3cfd00a244ae4215c9f9e1e9b7c77c5277e020e",
+   "tex": [
+    "latex/0_abstract.tex",
+    "latex/1_intro.tex",
+    "latex/2_related.tex",
+    "latex/3_method.tex",
+    "latex/3_method_o.tex",
+    "latex/4_exp.tex",
+    "latex/4_exp_o.tex",
+    "latex/5_conclu.tex",
+    "ms.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2307.16160",
+   "dir": "elevation-angle-selfsupervised-fls",
+   "tier": "B",
+   "title": "Motion Degeneracy in Self-supervised Learning of Elevation Angle Estimation for 2D Forward-Looking Sonar",
+   "date": "2023/07/30",
+   "cmold_section": "II-A",
+   "pdf_bytes": 1676035,
+   "pdf_sha": "24ebc6888a802b7e75821d2556cb0ed5cd3edf6ddc21acad72372dc287558b42",
+   "tex": [
+    "root.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2310.01667",
+   "dir": "stars-zero-shot-sim-to-real-transfer-for-segmentation-of-shi",
+   "tier": "B",
+   "title": "STARS: Zero-shot Sim-to-Real Transfer for Segmentation of Shipwrecks in Sonar Imagery",
+   "date": "2023/10/02",
+   "cmold_section": "II-A",
+   "pdf_bytes": 3137283,
+   "pdf_sha": "000af82014d5975e5e6287510cd840a401102bf6d12f1452ce7b083002eb30c1",
+   "tex": [
+    "bmvc_final.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2402.03309",
+   "dir": "aoneus-acoustic-optical-neural-surface",
+   "tier": "B",
+   "title": "AONeuS: A Neural Rendering Framework for Acoustic-Optical Sensor Fusion",
+   "date": "2024/02/05",
+   "cmold_section": "II-B",
+   "pdf_bytes": 10082904,
+   "pdf_sha": "20edb75aebc015ed0d1d56c52c7ffe59e9a60e402176288f2303428387c04f27",
+   "tex": [
+    "sample-acmtog-SIGGRAPH-submission.tex",
+    "sec/0_abstract.tex",
+    "sec/1_intro.tex",
+    "sec/2_related_work.tex",
+    "sec/3_method.tex",
+    "sec/4_experimental_results.tex",
+    "sec/5_discussion.tex",
+    "sec/6_figure_only.tex",
+    "sec/7_ack.tex",
+    "sec/X_suppl.tex",
+    "sec/supplement_body.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2404.18663",
+   "dir": "terrain-characterisation-for-online-adaptability-of-automate",
+   "tier": "B",
+   "title": "Terrain characterisation for online adaptability of automated sonar processing: Lessons learnt from operationally applying ATR to sidescan sonar in MCM applications",
+   "date": "2024/04/29",
+   "cmold_section": "II-A",
+   "pdf_bytes": 5310186,
+   "pdf_sha": "e287c1d18c42b300511e4641fa2283dc1820847cc9d765e476c611fe053ed40b",
+   "tex": [],
+   "eprint_kind": "pdf"
+  },
+  {
+   "id": "2405.03355",
+   "dir": "a-generalization-theory-of-cross-modality-distillation-with-",
+   "tier": "B",
+   "title": "A Generalization Theory of Cross-Modality Distillation with Contrastive Learning",
+   "date": "2024/05/06",
+   "cmold_section": "II-C",
+   "pdf_bytes": 446056,
+   "pdf_sha": "c46973aedeb35a59fbab3d98bd984f7916e28a074adccf4c43c40be01970aa29",
+   "tex": [
+    "main_workshop.tex",
+    "math_commands.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2405.13571",
+   "dir": "incomplete-multimodal-industrial-anomaly-detection-via-cross",
+   "tier": "B",
+   "title": "Incomplete Multimodal Industrial Anomaly Detection via Cross-Modal Distillation",
+   "date": "2024/05/22",
+   "cmold_section": "II-C",
+   "pdf_bytes": 3881101,
+   "pdf_sha": "e7b6394ed84790ea2c6eed5750ae62ca7e1cff01e69c670261ad1a2043c76cdd",
+   "tex": [],
+   "eprint_kind": "pdf"
+  },
+  {
+   "id": "2407.10164",
+   "dir": "labeldistill-camera-3d",
+   "tier": "B",
+   "title": "LabelDistill: Label-guided Cross-modal Knowledge Distillation for Camera-based 3D Object Detection",
+   "date": "2024/07/14",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 10466385,
+   "pdf_sha": "beec08c4a18b93e0e5ba8397f9cef30e495d18748f786769e84ea2cd81227666",
+   "tex": [
+    "figures/1_introduction/fig1.tex",
+    "figures/3_method/fig2.tex",
+    "figures/3_method/fig3.tex",
+    "figures/3_method/fig_feats.tex",
+    "figures/4_experiments/fig4.tex",
+    "main.tex",
+    "sections/0_abstract.tex",
+    "sections/1_introduction.tex",
+    "sections/2_relatedwork.tex",
+    "sections/3_method.tex",
+    "sections/4_experiments.tex",
+    "sections/5_conclusion.tex",
+    "tables/tabel_distance.tex",
+    "tables/table_ablation.tex",
+    "tables/table_bevformer.tex",
+    "tables/table_channel.tex",
+    "tables/table_distillation.tex",
+    "tables/table_frames.tex",
+    "tables/table_inverse_approximation.tex",
+    "tables/table_labelenc.tex",
+    "tables/table_labelenc_ablation.tex",
+    "tables/table_loss.tex",
+    "tables/table_mask.tex",
+    "tables/table_perclass.tex",
+    "tables/table_testset.tex",
+    "tables/table_valset.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2409.02438",
+   "dir": "non-target-divergence-hypothesis",
+   "tier": "B",
+   "title": "Non-target Divergence Hypothesis: Toward Understanding Domain Gaps in Cross-Modal Knowledge Distillation",
+   "date": "2024/09/04",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 4715103,
+   "pdf_sha": "6c874b5d59ce1c5c678b6ee66737aec18efd848b8c0347c861dcde96491bbfe8",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2409.05564",
+   "dir": "lerojd-lidar-extended-radar-only-object-detection",
+   "tier": "B",
+   "title": "LEROjD: Lidar Extended Radar-Only Object Detection",
+   "date": "2024/09/09",
+   "cmold_section": "II-C",
+   "pdf_bytes": 2099938,
+   "pdf_sha": "52220570103e86197d1c55ef060081924b884ce6b802072ecf02939ab71ca8f3",
+   "tex": [
+    "00_abstract.tex",
+    "01_intro.tex",
+    "02_related.tex",
+    "03_method.tex",
+    "04_experiments.tex",
+    "10_conclusion.tex",
+    "12_appendix.tex",
+    "main.tex",
+    "supplementary.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2410.10554",
+   "dir": "rosar-side-scan-robust-detection",
+   "tier": "B",
+   "title": "ROSAR: An Adversarial Re-Training Framework for Robust Side-Scan Sonar Object Detection",
+   "date": "2024/10/14",
+   "cmold_section": "II-A",
+   "pdf_bytes": 5961607,
+   "pdf_sha": "b8132cc94335a201917d3208bfe95cb3036144ad3dd166e16b43a301d47e9126",
+   "tex": [
+    "root.tex",
+    "tex/00_abstract.tex",
+    "tex/01_introduction.tex",
+    "tex/02_related_work.tex",
+    "tex/03_methodology.tex",
+    "tex/04_datasets.tex",
+    "tex/05_datasets_exp_results.tex",
+    "tex/06_adversarial_attack.tex",
+    "tex/07_exp_results.tex",
+    "tex/08_conclusion.tex",
+    "tex/appendix.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2411.16196",
+   "dir": "learn-from-foundation-model-fruit-detection-model-without-ma",
+   "tier": "B",
+   "title": "Learn from Foundation Model: Fruit Detection Model without Manual Annotation",
+   "date": "2024/11/25",
+   "cmold_section": "II-C",
+   "pdf_bytes": 17750076,
+   "pdf_sha": "1bf90152e80feaedeb578c21790953f6dff0dbfe986bb7b23e83b163fa14cd9f",
+   "tex": [
+    "arxiv.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2412.14571",
+   "dir": "sckd-4d-radar-detection",
+   "tier": "B",
+   "title": "SCKD: Semi-Supervised Cross-Modality Knowledge Distillation for 4D Radar Object Detection",
+   "date": "2024/12/19",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 3379343,
+   "pdf_sha": "44cae4baf223b0452b3acdfa55fed9137f74b85ae2064e1b3e50505923c66d04",
+   "tex": [
+    "SCKD.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2501.07101",
+   "dir": "samkd-spatial-aware-adaptive-masking-knowledge-distillation-",
+   "tier": "B",
+   "title": "SAMKD: Spatial-aware Adaptive Masking Knowledge Distillation for Object Detection",
+   "date": "2025/01/13",
+   "cmold_section": "II-C",
+   "pdf_bytes": 890682,
+   "pdf_sha": "cbd7c1050f499364b717b7bbcb521e9096b3594636c2f548f9162243de5d356e",
+   "tex": [
+    "root.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2503.01074",
+   "dir": "oceansim-gpu-underwater-sim",
+   "tier": "B",
+   "title": "OceanSim: A GPU-Accelerated Underwater Robot Perception Simulation Framework",
+   "date": "2025/03/03",
+   "cmold_section": "II-A",
+   "pdf_bytes": 5988786,
+   "pdf_sha": "378569753547110a375dc5580323a7f62664e9f5422fdcfadfdf81ff1bc9cef2",
+   "tex": [
+    "Sections/Conclusion.tex",
+    "Sections/Discussion.tex",
+    "Sections/Introduction.tex",
+    "Sections/Method.tex",
+    "Sections/Related_works.tex",
+    "Sections/Results.tex",
+    "main.tex",
+    "shortcuts.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2503.09878",
+   "dir": "cleverdistiller-spatial-consistency",
+   "tier": "B",
+   "title": "CleverDistiller: Simple and Spatially Consistent Cross-modal Distillation",
+   "date": "2025/03/12",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 7615740,
+   "pdf_sha": "cf41164479035e2d92b9d3b92ee36a035e6cfe2e2405fa35adf358ecfc8f8d0f",
+   "tex": [
+    "main.tex",
+    "math_commands.tex",
+    "preamble.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2504.00159",
+   "dir": "sonarsplat-novel-view-synthesis-of-imaging-sonar-via-gaussia",
+   "tier": "B",
+   "title": "SonarSplat: Novel View Synthesis of Imaging Sonar via Gaussian Splatting",
+   "date": "2025/03/31",
+   "cmold_section": "V",
+   "pdf_bytes": 4208258,
+   "pdf_sha": "47721e425db32cfcaf02a140294330c165dfab7911e1c6686f9af27da14953aa",
+   "tex": [
+    "root.tex",
+    "sec/01_intro.tex",
+    "sec/02_prior_work.tex",
+    "sec/03_tech_approach.tex",
+    "sec/04_exp_results.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2507.16296",
+   "dir": "cm-distill-widely-differing",
+   "tier": "B",
+   "title": "Cross-Modal Distillation For Widely Differing Modalities",
+   "date": "2025/07/22",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 1170618,
+   "pdf_sha": "d30cf3075b7ee09cfe3a55f9f8101b372360fdd14af81192210ad02ae0602c6f",
+   "tex": [
+    "paper.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2509.17712",
+   "dir": "rctdistill-radar-camera-3d",
+   "tier": "B",
+   "title": "RCTDistill: Cross-Modal Knowledge Distillation Framework for Radar-Camera 3D Object Detection with Temporal Fusion",
+   "date": "2025/09/22",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 12357045,
+   "pdf_sha": "bd47d69688d2e531e0effc4a13f1cc1daa45db78f6c7ccc35f1ab003d238dda2",
+   "tex": [
+    "main.tex",
+    "preamble.tex",
+    "sec/0_abstract.tex",
+    "sec/1_intro.tex",
+    "sec/2_related.tex",
+    "sec/3_method.tex",
+    "sec/4_experiment.tex",
+    "sec/5_conclusion.tex",
+    "sec/6_acknowledgement.tex",
+    "table/4dRadar.tex",
+    "table/main_0307_jisong.tex",
+    "table/main_ablation.tex",
+    "table/region_ablation.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2510.03353",
+   "dir": "sonar-image-datasets-a-comprehensive-survey-of-resources-cha",
+   "tier": "B",
+   "title": "Sonar Image Datasets: A Comprehensive Survey of Resources, Challenges, and Applications",
+   "date": "2025/10/02",
+   "cmold_section": "II-A",
+   "pdf_bytes": 3795502,
+   "pdf_sha": "a855e7e9a7ddb84dbff7ef6e12a507b9fedefb44e0773eec0c8a5bc3714d9ce1",
+   "tex": [
+    "Sections/0_intro.tex",
+    "Sections/1_related_works.tex",
+    "Sections/2_methodology.tex",
+    "Sections/3_applications.tex",
+    "Sections/4_acknowledgment.tex",
+    "Sections/5_conclusion.tex",
+    "Sections/sonar_explained.tex",
+    "Sections/table_large.tex",
+    "Sections/timeline.tex",
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2511.08901",
+   "dir": "asymmetric-cmkd-weak-consistency",
+   "tier": "B",
+   "title": "Asymmetric Cross-Modal Knowledge Distillation: Bridging Modalities with Weak Semantic Consistency",
+   "date": "2025/11/12",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 3394633,
+   "pdf_sha": "43d4430882dd41a5fab53c35873e3292dbd851ca0203ad7e3a7496c75dd17b95",
+   "tex": [
+    "Formatting-Instructions-LaTeX-2026.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2512.15581",
+   "dir": "imkd-intensity-aware-multi-level-knowledge-distillation-for-",
+   "tier": "B",
+   "title": "IMKD: Intensity-Aware Multi-Level Knowledge Distillation for Camera-Radar Fusion",
+   "date": "2025/12/17",
+   "cmold_section": "II-C",
+   "pdf_bytes": 12168812,
+   "pdf_sha": "bc10b9eee81e10527f3160235f31661d8433800d71ff59dcc4e00e637ea4f592",
+   "tex": [
+    "main.tex",
+    "preamble.tex",
+    "sec/0_abstract.tex",
+    "sec/1_intro.tex",
+    "sec/2_realted_work.tex",
+    "sec/3_methodology.tex",
+    "sec/4_experiments.tex",
+    "sec/5_conclusion.tex",
+    "sec/6_supplementary.tex",
+    "sec/acknowledgement.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2512.22483",
+   "dir": "scalpel-sam-a-semi-supervised-paradigm-for-adapting-sam-to-i",
+   "tier": "B",
+   "title": "Scalpel-SAM: A Semi-Supervised Paradigm for Adapting SAM to Infrared Small Object Detection",
+   "date": "2025/12/27",
+   "cmold_section": "II-C",
+   "pdf_bytes": 824041,
+   "pdf_sha": "3ffc67d705d01b273e0907feb569609e8d3f7e8e793f69db51133b7877e57b81",
+   "tex": [
+    "X_suppl.tex",
+    "icme2026_template_anonymized.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2602.04583",
+   "dir": "pepr-privileged-event-based-predictive-regularization-for-do",
+   "tier": "B",
+   "title": "PEPR: Privileged Event-based Predictive Regularization for Domain Generalization",
+   "date": "2026/02/04",
+   "cmold_section": "II-C",
+   "pdf_bytes": 55356277,
+   "pdf_sha": "4a682ec30cab1631f0a246c669447b763e1c17df22b05b86d2e85fa3a7b47c2d",
+   "tex": [
+    "main.tex",
+    "preamble.tex",
+    "suppl.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2603.13585",
+   "dir": "sonar-mast3r-real-time-opti-acoustic-fusion-in-turbid-unstru",
+   "tier": "B",
+   "title": "Sonar-MASt3R: Real-Time Opti-Acoustic Fusion in Turbid, Unstructured Environments",
+   "date": "2026/03/13",
+   "cmold_section": "II-B",
+   "pdf_bytes": 5263593,
+   "pdf_sha": "c02d7935e78f40becb2643fe3e22c39ee98f2e3a1a029efd5c577e4300d46a3c",
+   "tex": [
+    "root.tex",
+    "text/01-abstract.tex",
+    "text/02-introduction.tex",
+    "text/03-relatedwork.tex",
+    "text/04-method.tex",
+    "text/05-results.tex",
+    "text/06-discussion.tex",
+    "text/07-conclusion.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2606.06130",
+   "dir": "towards-realistic-3d-sonar-simulation",
+   "tier": "B",
+   "title": "Towards Realistic 3D Sonar Simulation",
+   "date": "2026/06/04",
+   "cmold_section": "V",
+   "pdf_bytes": 2063474,
+   "pdf_sha": "56571650d14b0325172c87b62acad06e4533648470c4e95ea27fba7bc239ebc4",
+   "tex": [
+    "conference_101719.tex",
+    "figures/block_diagram.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2606.24248",
+   "dir": "m2c-evdet-event-detection",
+   "tier": "B",
+   "title": "M^2C-EvDet: Multi-Domain Multi-Order Cross-Modal Knowledge Distillation for Event-based Object Detection",
+   "date": "2026/06/23",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 4798264,
+   "pdf_sha": "91bb1e25329406e87809064792a2530822325861ae936367569f50e24dd34ae2",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2607.23770",
+   "dir": "a-comparison-of-data-augmentation-methods-for-training-deep-",
+   "tier": "B",
+   "title": "A Comparison of Data Augmentation Methods for Training Deep Neural Networks on Synthetic Aperture Sonar",
+   "date": "2026/07/26",
+   "cmold_section": "II-A",
+   "pdf_bytes": 364123,
+   "pdf_sha": "4b2c84aa94eeb577e386db7edd9fbc508ef91772bec7dbd4aaddb940bc36db4d",
+   "tex": [],
+   "eprint_kind": "pdf"
+  },
+  {
+   "id": "2608.23479",
+   "dir": "geometry-driven-opti-acoustic-co-registration-and-view-invar",
+   "tier": "B",
+   "title": "Geometry-Driven Opti-Acoustic Co-Registration and View-Invariant Reflectivity Mapping for Side-Scan Sonar",
+   "date": "2026/08/24",
+   "cmold_section": "II-B",
+   "pdf_bytes": 27292774,
+   "pdf_sha": "73d905019697202c7551ec6f7bc63b6c10da92a623aa03f36e68de73ce02cb02",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2609.01738",
+   "dir": "uav-thermal-inert-ordnance",
+   "tier": "B",
+   "title": "UAV Thermal Imagery for Inert Ordnance Screening: Multi Campaign Dataset Development,Object Detection, and Practical Recommendations",
+   "date": "2026/09/01",
+   "cmold_section": "II-A",
+   "pdf_bytes": 13645057,
+   "pdf_sha": "60fb9d723cf536aaa50751981b4226928342746d8cc6f74abd1ca1458c39c3d1",
+   "tex": [],
+   "eprint_kind": "pdf"
+  },
+  {
+   "id": "2609.03378",
+   "dir": "when-depth-hurts-reliability-aware-geometry-distillation-for",
+   "tier": "B",
+   "title": "When Depth Hurts: Reliability-Aware Geometry Distillation for Depth-Free RGB-D Salient Object Detection",
+   "date": "2026/09/03",
+   "cmold_section": "II-C",
+   "pdf_bytes": 1931257,
+   "pdf_sha": "3597a25b081e004c4ca05c660fceae39a5ef32892e8108db60333c68b2ead3e1",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2609.31785",
+   "dir": "cross-modal-knowledge-distillation-for-acoustic-pedestrian-d",
+   "tier": "B",
+   "title": "Cross-Modal Knowledge Distillation for Acoustic Pedestrian Detection",
+   "date": "2026/09/24",
+   "cmold_section": "II-C",
+   "pdf_bytes": 329879,
+   "pdf_sha": "fd3ca11f4df3e012510ba5f76997e358822c62755e3919405d5cbac3b211f20a",
+   "tex": [
+    "main.tex",
+    "sections/0_abstract.tex",
+    "sections/1_introduction.tex",
+    "sections/2_related.tex",
+    "sections/3_method.tex",
+    "sections/4_experiments.tex",
+    "sections/5_results.tex",
+    "sections/7_conclusion.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2609.37243",
+   "dir": "codebook-guided-cross-modal-knowledge-distillation-for-struc",
+   "tier": "B",
+   "title": "Codebook-Guided Cross-Modal Knowledge Distillation for Structurally Heterogeneous Features",
+   "date": "2026/09/29",
+   "cmold_section": "II-C",
+   "pdf_bytes": 1140152,
+   "pdf_sha": "5fa95d21bf7739fde42191c0c646b2eebb19a6ffa7507efa5950554253f4d46f",
+   "tex": [
+    "alg/alg.tex",
+    "neurips_2026.tex",
+    "tables/ablation_branch.tex",
+    "tables/ablation_branch_std.tex",
+    "tables/ablation_loss.tex",
+    "tables/ablation_loss_std.tex",
+    "tables/ablation_score.tex",
+    "tables/ablation_score_std.tex",
+    "tables/avg_rank.tex",
+    "tables/cls_main.tex",
+    "tables/cls_main_std.tex",
+    "tables/codebook_size.tex",
+    "tables/comp_cost.tex",
+    "tables/mmimdb_dist.tex",
+    "tables/nyu_classwise.tex",
+    "tables/seg_main.tex",
+    "tables/seg_main_std.tex",
+    "tables/sig_loss.tex",
+    "tables/sig_main.tex",
+    "tables/sig_score.tex",
+    "tables/soft_assign.tex",
+    "tex/0-abstract.tex",
+    "tex/1-Introduction.tex",
+    "tex/2-RelatedWork.tex",
+    "tex/3-Method.tex",
+    "tex/4-Experiment.tex",
+    "tex/5-Conclusion.tex",
+    "tex/99-Appendix.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "1709.02600",
+   "dir": "objectness-proposals-fls",
+   "tier": "C",
+   "title": "Objectness Scoring and Detection Proposals in Forward-Looking Sonar Images with Convolutional Neural Networks",
+   "date": "2017/09/08",
+   "cmold_section": "II-A",
+   "pdf_bytes": 1158118,
+   "pdf_sha": "d663d9b931faa4da48509c96d4064ad9c2ba2763225a536072a4b9ebab1a3757",
+   "tex": [
+    "proposal-forward-looking-sonar.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "1910.05374",
+   "dir": "shipwreck-fls-rotation-invariant",
+   "tier": "C",
+   "title": "Rotation-invariant shipwreck recognition with forward-looking sonar",
+   "date": "2019/10/11",
+   "cmold_section": "II-A",
+   "pdf_bytes": 7411337,
+   "pdf_sha": "6fd65c2ae27c49f26fd313dcb9a1959cec8ed84d1d6f7bbb43a1b1f0bc3dc041",
+   "tex": [
+    "paper.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2107.10504",
+   "dir": "lowshot-targets-fls",
+   "tier": "C",
+   "title": "External-Memory Networks for Low-Shot Learning of Targets in Forward-Looking-Sonar Imagery",
+   "date": "2021/07/22",
+   "cmold_section": "II-A",
+   "pdf_bytes": 12316336,
+   "pdf_sha": "c43d5d197c936e7e9ea8ade7154c0e50625ee460c23a6d85bc009dc8c11c2cdb",
+   "tex": [
+    "Sledge-JOE-2021-1col.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2108.01111",
+   "dir": "pre-trained-models-for-sonar-images",
+   "tier": "C",
+   "title": "Pre-trained Models for Sonar Images",
+   "date": "2021/08/02",
+   "cmold_section": "II-A",
+   "pdf_bytes": 4798506,
+   "pdf_sha": "360daac1ae230329899ebbfadf70cb1a3c4299ed07db63e8865a57166bd72eb5",
+   "tex": [
+    "paper-pretrained-models-sonar.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2108.03619",
+   "dir": "augmented-rgb-cmkd-action",
+   "tier": "C",
+   "title": "Learning an Augmented RGB Representation with Cross-Modal Knowledge Distillation for Action Detection",
+   "date": "2021/08/08",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 1857672,
+   "pdf_sha": "d933f25a0a77e5e651fbaf24b83f36ec30ff6dafd6540c22351fa2c4f89e27fd",
+   "tex": [],
+   "eprint_kind": "pdf"
+  },
+  {
+   "id": "2108.06800",
+   "dir": "marine-debris-fls-segmentation",
+   "tier": "C",
+   "title": "The Marine Debris Dataset for Forward-Looking Sonar Semantic Segmentation",
+   "date": "2021/08/15",
+   "cmold_section": "II-A",
+   "pdf_bytes": 6346631,
+   "pdf_sha": "f8abb4bce403da7c62121f1d953df551b9ac1c6ad75c0c5a360ca0c219ea5876",
+   "tex": [
+    "paper-debris-segmentation.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2211.10156",
+   "dir": "detrdistill-a-universal-knowledge-distillation-framework-for",
+   "tier": "C",
+   "title": "DETRDistill: A Universal Knowledge Distillation Framework for DETR-families",
+   "date": "2022/11/17",
+   "cmold_section": "II-C",
+   "pdf_bytes": 7292695,
+   "pdf_sha": "fd33fd5257b2c571cac79b957708b4f1e5b0df320b704ac1bcc403e417cb9a91",
+   "tex": [
+    "egpaper_for_review.tex",
+    "figures/fpn_masks.tex",
+    "figures/gt_cnn_detr.tex",
+    "figures/main_fig.tex",
+    "figures/performance.tex",
+    "figures/query_mask.tex",
+    "figures/stability.tex",
+    "figures/tea6_stu3.tex",
+    "tables/enc_dec.tex",
+    "tables/fea_distill.tex",
+    "tables/featKD_ablation.tex",
+    "tables/lightweight.tex",
+    "tables/main_abl.tex",
+    "tables/main_results.tex",
+    "tables/pos_neg.tex",
+    "tables/progressive.tex",
+    "tables/self_distill.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2308.11633",
+   "dir": "ssl-synthetic-aperture-sonar",
+   "tier": "C",
+   "title": "Advances in Self-Supervised Learning for Synthetic Aperture Sonar Data Processing, Classification, and Pattern Recognition",
+   "date": "2023/08/12",
+   "cmold_section": "II-A",
+   "pdf_bytes": 552250,
+   "pdf_sha": "6d32e70d2183b4597cd0405f38254b6d223a6393d2359505d4c42987732875f9",
+   "tex": [
+    "paper.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2309.02719",
+   "dir": "dmkd-improving-feature-based-knowledge-distillation-for-obje",
+   "tier": "C",
+   "title": "DMKD: Improving Feature-based Knowledge Distillation for Object Detection Via Dual Masking Augmentation",
+   "date": "2023/09/06",
+   "cmold_section": "II-C",
+   "pdf_bytes": 922028,
+   "pdf_sha": "319d223cc638b6e89f04167741b8f38b05a087ce02ddd93d6cb90996a9c89388",
+   "tex": [
+    "Template.tex",
+    "conclu.tex",
+    "expe.tex",
+    "intro.tex",
+    "method.tex",
+    "relate.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2312.02240",
+   "dir": "contrastive-spectral-kd-missing",
+   "tier": "C",
+   "title": "Contrastive Learning-Based Spectral Knowledge Distillation for Multi-Modality and Missing Modality Scenarios in Semantic Segmentation",
+   "date": "2023/12/04",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 4777518,
+   "pdf_sha": "fc801305277e8e17c203b38a2b5ef6984658f5ca09a17eca0d3e93fe09b3310f",
+   "tex": [
+    "main.tex",
+    "preamble.tex",
+    "rebuttal.tex",
+    "sec/0_abstract.tex",
+    "sec/1_intro.tex",
+    "sec/2_formatting.tex",
+    "sec/3_finalcopy.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2312.11829",
+   "dir": "radocc-occupancy-distillation",
+   "tier": "C",
+   "title": "RadOcc: Learning Cross-Modality Occupancy Knowledge through Rendering Assisted Distillation",
+   "date": "2023/12/19",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 9596925,
+   "pdf_sha": "e18f5b6780cf86863ce6d33726984a4d1b1f5cd52e5b458f37a82c4c72996abf",
+   "tex": [
+    "aaai24.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2409.07004",
+   "dir": "performance-assessment-of-feature-detection-methods-for-2-d-",
+   "tier": "C",
+   "title": "Performance Assessment of Feature Detection Methods for 2-D FS Sonar Imagery",
+   "date": "2024/09/11",
+   "cmold_section": "II-A",
+   "pdf_bytes": 2069357,
+   "pdf_sha": "48a797ac6c52b233189537bb4f84d984f5dc2341f2530703f4307efdf1c62735",
+   "tex": [
+    "main.tex",
+    "sections/00_abstract.tex",
+    "sections/01_intro.tex",
+    "sections/02_related_work.tex",
+    "sections/03_experiments.tex",
+    "sections/04_results.tex",
+    "sections/05_conclusion.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2411.05863",
+   "dir": "ping360-affordable-sonar-detection",
+   "tier": "C",
+   "title": "Exploring the Feasibility of Affordable Sonar Technology: Object Detection in Underwater Environments Using the Ping 360",
+   "date": "2024/11/07",
+   "cmold_section": "II-A",
+   "pdf_bytes": 6407516,
+   "pdf_sha": "99f604767706f196486e8d96bcffb50c94503bcc14ede916b78cdcbbf98666c7",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2503.10152",
+   "dir": "a-hierarchical-semantic-distillation-framework-for-open-voca",
+   "tier": "C",
+   "title": "A Hierarchical Semantic Distillation Framework for Open-Vocabulary Object Detection",
+   "date": "2025/03/13",
+   "cmold_section": "II-C",
+   "pdf_bytes": 4271264,
+   "pdf_sha": "136e42316a175896579c53a4c7fc5cd5b8d68203467ec814cf0776d440e2600b",
+   "tex": [
+    "final.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2507.07015",
+   "dir": "mst-distill-mixture-teachers",
+   "tier": "C",
+   "title": "MST-Distill: Mixture of Specialized Teachers for Cross-Modal Knowledge Distillation",
+   "date": "2025/07/09",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 3145303,
+   "pdf_sha": "4e4de8c1241de7179c669c5324793846725f823b63b32b3041a9e1e48ea622d6",
+   "tex": [
+    "MST-Distill.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2511.13922",
+   "dir": "self-supervised-compression-and-artifact-correction-for-stre",
+   "tier": "C",
+   "title": "Self-Supervised Compression and Artifact Correction for Streaming Underwater Imaging Sonar",
+   "date": "2025/11/17",
+   "cmold_section": "II-A",
+   "pdf_bytes": 4009051,
+   "pdf_sha": "31d8534673e6b910c22c9fce50296e3792d32cbc68d311d6d6134b61484d4ec6",
+   "tex": [
+    "main.tex",
+    "preamble.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2511.14599",
+   "dir": "ccsd-missing-modality-seg",
+   "tier": "C",
+   "title": "CCSD: Cross-Modal Compositional Self-Distillation for Robust Brain Tumor Segmentation with Missing Modalities",
+   "date": "2025/11/18",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 3106097,
+   "pdf_sha": "910e232ab97c83c8cea4383cc49970df670a88497d3658fceac0aff384bd1f2a",
+   "tex": [
+    "main_v2-revised.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2512.15311",
+   "dir": "kd360-voxelbev",
+   "tier": "C",
+   "title": "KD360-VoxelBEV: LiDAR and 360-degree Camera Cross Modality Knowledge Distillation for Bird&#39;s-Eye-View Segmentation",
+   "date": "2025/12/17",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 18817414,
+   "pdf_sha": "036524041f3c7b750df1f116353383b8f340ac123085a97b9f07f2e8432f3b57",
+   "tex": [
+    "main.tex",
+    "preamble.tex",
+    "sec/0_abstract.tex",
+    "sec/1_intro.tex",
+    "sec/2_related_work.tex",
+    "sec/3_methodology.tex",
+    "sec/4_experiments.tex",
+    "sec/5_conclusion.tex",
+    "sec/X_suppl.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2603.07464",
+   "dir": "selective-transfer-cmkd-monocular",
+   "tier": "C",
+   "title": "Selective Transfer Learning of Cross-Modality Distillation for Monocular 3D Object Detection",
+   "date": "2026/03/08",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 5969239,
+   "pdf_sha": "6ebc1079a62cc0bc278a328ee0785226c55eb59fcaff4336089636b0222f971a",
+   "tex": [
+    "MonoSTL.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2605.09899",
+   "dir": "hyperbolic-distillation-3d",
+   "tier": "C",
+   "title": "Hyperbolic Distillation: Geometry-Guided Cross-Modal Transfer for Robust 3D Object Detection",
+   "date": "2026/05/11",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 7303745,
+   "pdf_sha": "2c72813a83e4416a7ac8eb231659f7b803b08f73a85b9434bd17ec02d2337c7d",
+   "tex": [
+    "Hyperbolic_Distillation__Geometry_Guided_Cross_Modal_Transfer_for_Robust_3D_Object_Detection.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2605.30111",
+   "dir": "xmodel-kd-lidar-3d",
+   "tier": "C",
+   "title": "xModel-KD: Cross-modal Knowledge Distillation for 3D Scene Perception using LiDAR",
+   "date": "2026/05/28",
+   "cmold_section": "II-C→跨模态",
+   "pdf_bytes": 3799208,
+   "pdf_sha": "5c8a3c2932f2a4b97b5f568bc3b3f7050969e7c4827cb28e72b7e3f45f7793d8",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2608.20916",
+   "dir": "semantically-compatible-knowledge-distillation-for-cross-dom",
+   "tier": "C",
+   "title": "Semantically Compatible Knowledge Distillation for Cross-Domain Object Detection with Vision Foundation Models",
+   "date": "2026/08/21",
+   "cmold_section": "II-C",
+   "pdf_bytes": 3067004,
+   "pdf_sha": "c77ae6a5c80d22a68e905c7b98772d4c88e2cc7b490395f92fba8c1d2f0e5bf1",
+   "tex": [
+    "main.tex"
+   ],
+   "eprint_kind": "tar"
+  },
+  {
+   "id": "2611.06542",
+   "dir": "evo-opd-privileged-information",
+   "tier": "C",
+   "title": "EvoOPD: Evolving Privileged Information Strategies for Black-Box On-Policy Distillation",
+   "date": "2026/11/04",
+   "cmold_section": "III/IV",
+   "pdf_bytes": 1276068,
+   "pdf_sha": "21d6c666ab5690202b44df435cbd0691797e11b5fcc63291a5e86112ebbf7e77",
+   "tex": [
+    "figures/bank_analysis.tex",
+    "figures/continued_adaptation.tex",
+    "figures/overview.tex",
+    "figures/strategy_motivation.tex",
+    "main.tex",
+    "math_commands.tex",
+    "sections/appendix.tex",
+    "sections/bank_evolution.tex",
+    "sections/cases.tex",
+    "sections/conclusion.tex",
+    "sections/evolve.tex",
+    "sections/experiments.tex",
+    "sections/introduction.tex",
+    "sections/method.tex",
+    "sections/prompts.tex",
+    "sections/related_work.tex",
+    "sections/training_loop.tex",
+    "tables/code.tex",
+    "tables/controls.tex",
+    "tables/math.tex",
+    "tables/rule_schema.tex",
+    "tables/teacher_usage.tex"
+   ],
+   "eprint_kind": "tar"
+  }
+ ]
+}

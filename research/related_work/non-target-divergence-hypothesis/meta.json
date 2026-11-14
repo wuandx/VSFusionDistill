@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2409.02438",
+ "slug": "non-target-divergence-hypothesis",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:35:53",
+ "tier": "B",
+ "why_relevant": "analysis of domain gaps in cross-modal KD",
+ "title": "Non-target Divergence Hypothesis: Toward Understanding Domain Gaps in Cross-Modal Knowledge Distillation",
+ "authors": [
+  "Chen, Yilong",
+  "Xu, Zongyi",
+  "Huang, Xiaoshui",
+  "Zhao, Shanshan",
+  "Jiang, Xinqi",
+  "Gao, Xinyu",
+  "Gao, Xinbo"
+ ],
+ "date": "2024/09/04",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Compared to single-modal knowledge distillation, cross-modal knowledge distillation faces more severe challenges due to domain gaps between modalities. Although various methods have proposed various solutions to overcome these challenges, there is still limited research on how domain gaps affect cross-modal knowledge distillation. This paper provides an in-depth analysis and evaluation of this issue. We first introduce the Non-Target Divergence Hypothesis (NTDH) to reveal the impact of domain gaps on cross-modal knowledge distillation. Our key finding is that domain gaps between modalities lead to distribution differences in non-target classes, and the smaller these differences, the better the performance of cross-modal knowledge distillation. Subsequently, based on Vapnik-Chervonenkis (VC) theory, we derive the upper and lower bounds of the approximation error for cross-modal knowledge distillation, thereby theoretically validating the NTDH. Finally, experiments on five cross-modal datasets further confirm the validity, generalisability, and applicability of the NTDH.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2409.02438",
+  "bytes": 4715103,
+  "sha256": "6c874b5d59ce1c5c678b6ee66737aec18efd848b8c0347c861dcde96491bbfe8"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2409.02438",
+  "bytes": 4035048,
+  "sha256": "8e7a0f21acc55014f98ade60271fa083fe0ad989be37b3e175b9d359340078d6",
+  "kind": "tar",
+  "n_files": 17,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

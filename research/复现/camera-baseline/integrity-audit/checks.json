@@ -1,0 +1,27 @@
+{
+  "group_disjoint": true,
+  "native_camera_equality": true,
+  "geometry_roundtrip_max_error": 5.684341886080802e-14,
+  "size_counts": {
+    "train": {
+      "category1:128x780": 600,
+      "category3:128x441": 600,
+      "category2:128x441": 600
+    },
+    "val": {
+      "category1:128x780": 200,
+      "category3:128x441": 200,
+      "category2:128x441": 200
+    }
+  },
+  "boxes_checked": 4800,
+  "perfect_AP": 1.0,
+  "wrong_class_AP": 0.0,
+  "test_content_read": false,
+  "checkpoint_fields": {
+    "path": "/mnt/d/agent_workspace/\u6c34\u4e0b/\u58f0\u5450\u76ee\u6807\u68c0\u6d4b_workflow/runs/camera_recording_baseline/train/epoch_110.pth",
+    "matching_keysets": true,
+    "camera_raw_ema_different_tensors": 457,
+    "ema_updates": 24750
+  }
+}

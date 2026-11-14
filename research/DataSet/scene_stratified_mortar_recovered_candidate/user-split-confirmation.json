@@ -1,0 +1,22 @@
+{
+  "status": "user_confirmed_split_scheme",
+  "user_statement": "可以只要训练集里有就可以了",
+  "criterion": "Training includes all eight category x placement x trajectory scenes; exact height/tilt/electronic-setting combinations need not all occur in train.",
+  "total_pairs": 4081,
+  "role_pairs": {
+    "train": 2472,
+    "val": 894,
+    "test": 715
+  },
+  "train_scenes": 8,
+  "individual_box_expert_acceptance": false,
+  "precision_sync_certified": false,
+  "new_training_authorized": false,
+  "members_or_roles_changed": false,
+  "confirmed_file_sha256": {
+    "manifest.json": "0cfcbebfa6c0064a29321a88623468d59a0c4e0ae4d17d13a74bc6a290e8a10d",
+    "recordings.json": "2ec19b1ad656368f8cd860d591700829f501e49c56a1f8299931c549cf86d361",
+    "protocol.json": "678e19e1420a454f07d1afa32d2f5531ea3476504e56616223a0efffc7c82315",
+    "scene-coverage.json": "97a25c6c6d38ee403b3f16c93b4ee19ef547436668bcc94151c21d8f0ac5f704"
+  }
+}

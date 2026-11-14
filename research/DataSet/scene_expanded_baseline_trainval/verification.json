@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "status": "prepared",
+  "source": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/DataSet/scene_stratified_mortar_recovered_candidate",
+  "input_sha256": {
+    "camera/coco_train.json": "771d7a185aae686cc1cdc3c5615bb123284302d54bcd64df52f5d962c9380000",
+    "sonar/coco_train.json": "5c581f27fe28d27527f63429830cbae37cf49026403c4b1322c0fb0913851af9",
+    "camera/coco_val.json": "c699461919224051fad669469af82b446eae5a9f59190ab7f55c3112c8b40f0e",
+    "sonar/coco_val.json": "0f876363c3046dd0b7068ae9d2de5cb9b5f49c5e27b68dad37e5ceece645d40f",
+    "recordings.csv": "257ba724286fcdf65d71f6942703f87370424f53c635c2f75aee4fe15b03f097",
+    "user-split-confirmation.json": "e9f92ca030d83a5681521dc28712061bff66d110b13b5a1fb6f7d34bce9b79e4"
+  },
+  "classes": [
+    "100lbs_aircraft_bomb",
+    "mortar_shell",
+    "incindiary_grenade"
+  ],
+  "counts": {
+    "camera-train": {
+      "images": 2472,
+      "boxes": 2472
+    },
+    "sonar-train": {
+      "images": 2472,
+      "boxes": 2472
+    },
+    "camera-val": {
+      "images": 894,
+      "boxes": 894
+    },
+    "sonar-val": {
+      "images": 894,
+      "boxes": 894
+    }
+  },
+  "source_groups": {
+    "train": 17,
+    "val": 7
+  },
+  "all_images_decoded": true,
+  "all_copies_hash_match": true,
+  "bbox_bounds_valid": true,
+  "train_val_groups_disjoint": true,
+  "cross_role_image_duplicates": 0,
+  "test_content_read": false,
+  "train_steps_per_epoch": 309,
+  "total_updates_200_epochs": 61800
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010012_04.mp4",
+    "size": 31037644,
+    "crc32": 948562858,
+    "folder": 15,
+    "pack_start": 28811725868,
+    "pack_size": 2119778066,
+    "folder_members": 779,
+    "preceding_unpacked": 771589508,
+    "folder_extensions": {
+      ".png": 607,
+      ".csv": 97,
+      ".mp4": 75
+    }
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_02.mp4",
+    "size": 30680583,
+    "crc32": 2870520973,
+    "folder": 15,
+    "pack_start": 28811725868,
+    "pack_size": 2119778066,
+    "folder_members": 779,
+    "preceding_unpacked": 1493844037,
+    "folder_extensions": {
+      ".png": 607,
+      ".csv": 97,
+      ".mp4": 75
+    }
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX010012_04.mp4",
+    "size": 2660967,
+    "crc32": 1256863408,
+    "folder": 16,
+    "pack_start": 30931503934,
+    "pack_size": 1834384494,
+    "folder_members": 159,
+    "preceding_unpacked": 64638207,
+    "folder_extensions": {
+      ".mp4": 81,
+      ".csv": 78
+    }
+  },
+  {
+    "name": "data_processed/gopro/clips_sd/20230921_GX020012_02.mp4",
+    "size": 2256966,
+    "crc32": 1061927502,
+    "folder": 16,
+    "pack_start": 30931503934,
+    "pack_size": 1834384494,
+    "folder_members": 159,
+    "preceding_unpacked": 123259248,
+    "folder_extensions": {
+      ".mp4": 81,
+      ".csv": 78
+    }
+  }
+]

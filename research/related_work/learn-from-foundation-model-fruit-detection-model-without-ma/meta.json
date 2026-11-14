@@ -1,0 +1,36 @@
+{
+ "arxiv_id": "2411.16196",
+ "slug": "learn-from-foundation-model-fruit-detection-model-without-ma",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:57:44",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Learn from Foundation Model: Fruit Detection Model without Manual Annotation",
+ "authors": [
+  "Wang, Yanan",
+  "Fei, Zhenghao",
+  "Li, Ruichen",
+  "Ying, Yibin"
+ ],
+ "date": "2024/11/25",
+ "doi": "10.1016/j.patcog.2025.112799",
+ "journal": "",
+ "abstract": "Abstract: Recent breakthroughs in large foundation models have enabled the possibility of transferring knowledge pre-trained on vast datasets to domains with limited data availability. Agriculture is one of the domains that lacks sufficient data. This study proposes a framework to train effective, domain-specific, small models from foundation models without manual annotation. Our approach begins with SDM (Segmentation-Description-Matching), a stage that leverages two foundation models: SAM2 (Segment Anything in Images and Videos) for segmentation and OpenCLIP (Open Contrastive Language-Image Pretraining) for zero-shot open-vocabulary classification. In the second stage, a novel knowledge distillation mechanism is utilized to distill compact, edge-deployable models from SDM, enhancing both inference speed and perception accuracy. The complete method, termed SDM-D (Segmentation-Description-Matching-Distilling), demonstrates strong performance across various fruit detection tasks object detection, semantic segmentation, and instance segmentation) without manual annotation. It nearly matches the performance of models trained with abundant labels. Notably, SDM-D outperforms open-set detection methods such as Grounding SAM and YOLO-World on all tested fruit detection datasets. Additionally, we introduce MegaFruits, a comprehensive fruit segmentation dataset encompassing over 25,000 images, and all code and datasets are made publicly available at this https URL .",
+ "comments": "35 pages, 11figures, conference or other essential info",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2411.16196",
+  "bytes": 17750076,
+  "sha256": "1bf90152e80feaedeb578c21790953f6dff0dbfe986bb7b23e83b163fa14cd9f"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2411.16196",
+  "bytes": 15337579,
+  "sha256": "8b5b1666ac46ac4e8426ed982f4992a3de9704c762dcd672337866d1b3442a23",
+  "kind": "tar",
+  "n_files": 15,
+  "tex_files": [
+   "arxiv.tex"
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+{
+  "audit_scope": "existing train/val artifact only; no raw data verification",
+  "source": "D:\\pby\\uxo-full\\repro\\frame_split.json",
+  "sha256": "7192a5f3541f20e46b493a7a94ce1503dc71c09e94e93f63432451accc4ad4c8",
+  "seed": 0,
+  "val_frac": 0.2,
+  "counts": {
+    "train": 3322,
+    "val": 830
+  },
+  "duplicate_ids": {
+    "train": 0,
+    "val": 0
+  },
+  "frame_id_intersection": 0,
+  "counts_match_artifact": true,
+  "pool_count_matches_union": true,
+  "recordings": {
+    "pool": 37,
+    "train": 37,
+    "val": 37,
+    "intersection": 37,
+    "same_train_val_set": true
+  },
+  "per_class_from_artifact": {
+    "100lbs_aircraft_bomb": {
+      "train": 912,
+      "val": 228,
+      "total": 1140,
+      "val_frac": 0.2
+    },
+    "incindiary_grenade": {
+      "train": 1061,
+      "val": 265,
+      "total": 1326,
+      "val_frac": 0.199849
+    },
+    "mortar_shell": {
+      "train": 1349,
+      "val": 337,
+      "total": 1686,
+      "val_frac": 0.199881
+    }
+  },
+  "excluded_split_counts_from_artifact": {
+    "test": 1500,
+    "val_id": 594
+  },
+  "source_metadata_hash_recorded_in_artifact": "446d2202799784550ad194e3b1cd8e9abc4dbf879bc0af9579e84bb6e27b385a",
+  "not_checked": [
+    "current mixed frame_meta.csv or annotation files",
+    "test samples or annotations",
+    "recording identity accuracy against raw data",
+    "frame_idx nearest-neighbour distance",
+    "pixel similarity or duplicates"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "arxiv_id": "2412.14571",
+ "slug": "sckd-4d-radar-detection",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:31:53",
+ "tier": "B",
+ "why_relevant": "semi-supervised cross-modality KD, radar",
+ "title": "SCKD: Semi-Supervised Cross-Modality Knowledge Distillation for 4D Radar Object Detection",
+ "authors": [
+  "Xu, Ruoyu",
+  "Xiang, Zhiyu",
+  "Zhang, Chenwei",
+  "Zhong, Hanzhi",
+  "Zhao, Xijun",
+  "Dang, Ruina",
+  "Xu, Peng",
+  "Pu, Tianyu",
+  "Liu, Eryun"
+ ],
+ "date": "2024/12/19",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: 3D object detection is one of the fundamental perception tasks for autonomous vehicles. Fulfilling such a task with a 4D millimeter-wave radar is very attractive since the sensor is able to acquire 3D point clouds similar to Lidar while maintaining robust measurements under adverse weather. However, due to the high sparsity and noise associated with the radar point clouds, the performance of the existing methods is still much lower than expected. In this paper, we propose a novel Semi-supervised Cross-modality Knowledge Distillation (SCKD) method for 4D radar-based 3D object detection. It characterizes the capability of learning the feature from a Lidar-radar-fused teacher network with semi-supervised distillation. We first propose an adaptive fusion module in the teacher network to boost its performance. Then, two feature distillation modules are designed to facilitate the cross-modality knowledge transfer. Finally, a semi-supervised output distillation is proposed to increase the effectiveness and flexibility of the distillation framework. With the same network structure, our radar-only student trained by SCKD boosts the mAP by 10.38% over the baseline and outperforms the state-of-the-art works on the VoD dataset. The experiment on ZJUODset also shows 5.12% mAP improvements on the moderate difficulty level over the baseline when extra unlabeled data are available. Code is available at this https URL .",
+ "comments": "Accepted by AAAI 2025",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2412.14571",
+  "bytes": 3379343,
+  "sha256": "44cae4baf223b0452b3acdfa55fed9137f74b85ae2064e1b3e50505923c66d04"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2412.14571",
+  "bytes": 4021570,
+  "sha256": "975bab9ba282d69d287d063ff43145d6c8e6eb3be19e95d2aca7facfe88a2bd5",
+  "kind": "tar",
+  "n_files": 9,
+  "tex_files": [
+   "SCKD.tex"
+  ]
+ }
+}

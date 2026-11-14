@@ -1,0 +1,62 @@
+{
+ "arxiv_id": "2407.10164",
+ "slug": "labeldistill-camera-3d",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:31:39",
+ "tier": "B",
+ "why_relevant": "label-guided cross-modal KD, camera-based detector",
+ "title": "LabelDistill: Label-guided Cross-modal Knowledge Distillation for Camera-based 3D Object Detection",
+ "authors": [
+  "Kim, Sanmin",
+  "Kim, Youngseok",
+  "Hwang, Sihwan",
+  "Jeong, Hyeonjun",
+  "Kum, Dongsuk"
+ ],
+ "date": "2024/07/14",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Recent advancements in camera-based 3D object detection have introduced cross-modal knowledge distillation to bridge the performance gap with LiDAR 3D detectors, leveraging the precise geometric information in LiDAR point clouds. However, existing cross-modal knowledge distillation methods tend to overlook the inherent imperfections of LiDAR, such as the ambiguity of measurements on distant or occluded objects, which should not be transferred to the image detector. To mitigate these imperfections in LiDAR teacher, we propose a novel method that leverages aleatoric uncertainty-free features from ground truth labels. In contrast to conventional label guidance approaches, we approximate the inverse function of the teacher&#39;s head to effectively embed label inputs into feature space. This approach provides additional accurate guidance alongside LiDAR teacher, thereby boosting the performance of the image detector. Additionally, we introduce feature partitioning, which effectively transfers knowledge from the teacher modality while preserving the distinctive features of the student, thereby maximizing the potential of both modalities. Experimental results demonstrate that our approach improves mAP and NDS by 5.1 points and 4.9 points compared to the baseline model, proving the effectiveness of our approach. The code is available at this https URL",
+ "comments": "ECCV 2024",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2407.10164",
+  "bytes": 10466385,
+  "sha256": "beec08c4a18b93e0e5ba8397f9cef30e495d18748f786769e84ea2cd81227666"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2407.10164",
+  "bytes": 3096912,
+  "sha256": "9df024cc8dc7ec2ddea1b3961ea8280389ac032ac1ff0fbb3ca4aaa416467263",
+  "kind": "tar",
+  "n_files": 41,
+  "tex_files": [
+   "figures/1_introduction/fig1.tex",
+   "figures/3_method/fig2.tex",
+   "figures/3_method/fig3.tex",
+   "figures/3_method/fig_feats.tex",
+   "figures/4_experiments/fig4.tex",
+   "main.tex",
+   "sections/0_abstract.tex",
+   "sections/1_introduction.tex",
+   "sections/2_relatedwork.tex",
+   "sections/3_method.tex",
+   "sections/4_experiments.tex",
+   "sections/5_conclusion.tex",
+   "tables/tabel_distance.tex",
+   "tables/table_ablation.tex",
+   "tables/table_bevformer.tex",
+   "tables/table_channel.tex",
+   "tables/table_distillation.tex",
+   "tables/table_frames.tex",
+   "tables/table_inverse_approximation.tex",
+   "tables/table_labelenc.tex",
+   "tables/table_labelenc_ablation.tex",
+   "tables/table_loss.tex",
+   "tables/table_mask.tex",
+   "tables/table_perclass.tex",
+   "tables/table_testset.tex",
+   "tables/table_valset.tex"
+  ]
+ }
+}

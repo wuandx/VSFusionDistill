@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/issues/1/comments",
+    "captured_utc": "2026-11-11T03:50:46.485785+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/issues/1/comments",
+    "bytes": 1729,
+    "sha256": "0cf81d0b4c2ba2f03eac407554a045a2251297c3e0c3fec1bce59523555fa263",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\gopro-imaging-model\\issue-1-comments.json"
+  },
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/issues/5/comments",
+    "captured_utc": "2026-11-11T03:50:47.057228+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/issues/5/comments",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\gopro-imaging-model\\issue-5-comments.json"
+  },
+  {
+    "url": "https://zenodo.org/api/records/13778485",
+    "captured_utc": "2026-11-11T03:50:47.441507+00:00",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/13778485",
+    "bytes": 10931,
+    "sha256": "8aa2d3121d1148bcf56af686218aa51efaeb7b28ca0686e62d5d23a23d72c4a3",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\gopro-imaging-model\\zenodo.json"
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1109/OCEANS55160.2024.10754316",
+    "captured_utc": "2026-11-11T03:50:48.557270+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.1109/OCEANS55160.2024.10754316",
+    "bytes": 9894,
+    "sha256": "52be4234510b58520c512afe7a61d54e6f4e7243bbc06f7dc5e36d0538bf9e05",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\gopro-imaging-model\\paper-crossref.json"
+  },
+  {
+    "url": "https://api.openalex.org/works/https://doi.org/10.1109/OCEANS55160.2024.10754316",
+    "captured_utc": "2026-11-11T03:50:49.449760+00:00",
+    "status": 200,
+    "final_url": "https://api.openalex.org/works/https://doi.org/10.1109/OCEANS55160.2024.10754316",
+    "bytes": 18490,
+    "sha256": "8ac357ea03ee4d767c879a7ecd5cf40c93784185ce142e8a4c7977368761c2c5",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\gopro-imaging-model\\paper-openalex.json"
+  }
+]

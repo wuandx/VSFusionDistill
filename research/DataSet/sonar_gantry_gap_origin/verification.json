@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "operator": "main assistant; separate Decimal/Fraction calculation, not independent human review",
+  "records": [
+    {
+      "recording": "2023-09-20_171105",
+      "decimal_timestamp_gap_s": "2.093999",
+      "first_changed_row_matches": true,
+      "crc_recheck": true
+    },
+    {
+      "recording": "2023-09-20_173329",
+      "decimal_timestamp_gap_s": "2.188",
+      "first_changed_row_matches": true,
+      "crc_recheck": true
+    },
+    {
+      "recording": "2023-09-21_100927",
+      "decimal_timestamp_gap_s": "2.187001",
+      "first_changed_row_matches": true,
+      "crc_recheck": true
+    },
+    {
+      "recording": "2023-09-21_101131",
+      "decimal_timestamp_gap_s": "2.109",
+      "first_changed_row_matches": true,
+      "crc_recheck": true
+    },
+    {
+      "recording": "2023-09-21_120653",
+      "decimal_timestamp_gap_s": "2.109",
+      "first_changed_row_matches": true,
+      "crc_recheck": true
+    },
+    {
+      "recording": "2023-09-21_120912",
+      "decimal_timestamp_gap_s": "2.188",
+      "first_changed_row_matches": true,
+      "crc_recheck": true
+    }
+  ],
+  "all_input_sha256_unchanged": true,
+  "new_image_decodes": 0
+}

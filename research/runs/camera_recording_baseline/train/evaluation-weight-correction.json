@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "raw_results": "val_actual_raw_epoch200/metrics.json",
+  "ema_results": "val_raw_epoch200/metrics.json",
+  "legacy_raw_directory_is_actually_ema": true,
+  "raw_pooled": {
+    "mAP": 0.6457604834822096,
+    "AP50": 0.8041111837670315,
+    "AP75": 0.7566613989501257,
+    "APsmall": -1.0,
+    "APmedium": 0.611056105610561,
+    "APlarge": 0.6415168803189919,
+    "AR1": 0.6940000000000001,
+    "AR10": 0.6943333333333332,
+    "AR100": 0.6943333333333332,
+    "ARsmall": -1.0,
+    "ARmedium": 0.6131578947368421,
+    "ARlarge": 0.6937911646586346
+  },
+  "ema_pooled": {
+    "mAP": 0.6488777065334682,
+    "AP50": 0.8100922147963792,
+    "AP75": 0.7587722844576765,
+    "APsmall": -1.0,
+    "APmedium": 0.6318358343110818,
+    "APlarge": 0.6430939461734339,
+    "AR1": 0.6945,
+    "AR10": 0.6945,
+    "AR100": 0.6945,
+    "ARsmall": -1.0,
+    "ARmedium": 0.6368421052631579,
+    "ARlarge": 0.6927309236947792
+  },
+  "test_used": false
+}

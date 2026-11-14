@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "pairs": 4836,
+  "old_pairs_preserved": 4081,
+  "new_pairs": 755,
+  "recordings": 38,
+  "source_groups": 32,
+  "all_exported_files_decoded_and_hashed": true,
+  "all_coco_and_yolo_round_trips": true,
+  "all_new_raw_png_pixels_identical": true,
+  "review_sheet_hashes_unchanged": true,
+  "source_group_disjoint": true,
+  "cross_role_image_hash_duplicates": 0,
+  "manifest_sha256": "234a48df4dd8e929189ee0b33fe3ce7d6fac445532060552a9e875edba0f8ff5",
+  "protocol_sha256": "46b5b380c048766ea026db453b1f8191726dec5218bdb9cd0d7007502711da42"
+}

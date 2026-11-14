@@ -1,0 +1,40 @@
+[
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX010012_04.mp4",
+    "size": 31037644,
+    "crc32": 948562858,
+    "folder": 15,
+    "pack_start": 28811725868,
+    "pack_size": 2119778066,
+    "folder_members": 779,
+    "preceding_unpacked": 771589508,
+    "folder_extensions": {
+      ".png": 607,
+      ".csv": 97,
+      ".mp4": 75
+    },
+    "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_annotation_trace\\fhd_clips\\20230921_GX010012_04.mp4",
+    "sha256": "edc9d716e6fa218548d609c0ec343dde7528371d538f1b2d72c3199d76c6c31b",
+    "size_crc_matches": true,
+    "method": "revalidated existing CRC-verified window recovery; caches and second-clip recovery log retained"
+  },
+  {
+    "name": "data_processed/gopro/clips_fhd/20230921_GX020012_02.mp4",
+    "size": 30680583,
+    "crc32": 2870520973,
+    "folder": 15,
+    "pack_start": 28811725868,
+    "pack_size": 2119778066,
+    "folder_members": 779,
+    "preceding_unpacked": 1493844037,
+    "folder_extensions": {
+      ".png": 607,
+      ".csv": 97,
+      ".mp4": 75
+    },
+    "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_annotation_trace\\fhd_clips\\20230921_GX020012_02.mp4",
+    "sha256": "30609100c8e336eff5f0009a2b16c3eb67e71ead6c757f43f6ca8d909d152b7d",
+    "size_crc_matches": true,
+    "method": "revalidated existing CRC-verified window recovery; caches and second-clip recovery log retained"
+  }
+]

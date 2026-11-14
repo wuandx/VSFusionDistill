@@ -1,0 +1,39 @@
+{
+ "arxiv_id": "2511.14599",
+ "slug": "ccsd-missing-modality-seg",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:36:55",
+ "tier": "C",
+ "why_relevant": "compositional self-distillation, missing modalities",
+ "title": "CCSD: Cross-Modal Compositional Self-Distillation for Robust Brain Tumor Segmentation with Missing Modalities",
+ "authors": [
+  "Xie, Dongqing",
+  "Wu, Yonghuang",
+  "Ai, Zisheng",
+  "Min, Jun",
+  "Jiang, Zhencun",
+  "Geng, Shaojin",
+  "Wang, Lei"
+ ],
+ "date": "2025/11/18",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: The accurate segmentation of brain tumors from multi-modal MRI is critical for clinical diagnosis and treatment planning. While integrating complementary information from various MRI sequences is a common practice, the frequent absence of one or more modalities in real-world clinical settings poses a significant challenge, severely compromising the performance and generalizability of deep learning-based segmentation models. To address this challenge, we propose a novel Cross-Modal Compositional Self-Distillation (CCSD) framework that can flexibly handle arbitrary combinations of input modalities. CCSD adopts a shared-specific encoder-decoder architecture and incorporates two self-distillation strategies: (i) a hierarchical modality self-distillation mechanism that transfers knowledge across modality hierarchies to reduce semantic discrepancies, and (ii) a progressive modality combination distillation approach that enhances robustness to missing modalities by simulating gradual modality dropout during training. Extensive experiments on public brain tumor segmentation benchmarks demonstrate that CCSD achieves state-of-the-art performance across various missing-modality scenarios, with strong generalization and stability.",
+ "comments": "29 pages, 5 figures, 6 tables",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2511.14599",
+  "bytes": 3106097,
+  "sha256": "910e232ab97c83c8cea4383cc49970df670a88497d3658fceac0aff384bd1f2a"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2511.14599",
+  "bytes": 1951611,
+  "sha256": "c0db958197f8a784c3c3053a327f71136a24cb58fb6ea33c6290a2d3721192b0",
+  "kind": "tar",
+  "n_files": 9,
+  "tex_files": [
+   "main_v2-revised.tex"
+  ]
+ }
+}

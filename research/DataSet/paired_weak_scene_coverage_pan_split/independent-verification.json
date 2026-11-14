@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "pairs": 5229,
+  "recordings": 42,
+  "conservative_groups": 35,
+  "all_base_5229_identities_images_boxes_annotation_origin_preserved": true,
+  "changed_fields_only_role_and_previous_role": true,
+  "decoded_and_hashed_images": 10458,
+  "coco_and_yolo_roundtrip_passed": true,
+  "all_three_classes_in_each_role": true,
+  "source_groups_and_recordings_disjoint": true,
+  "cross_role_encoded_and_pixel_hash_duplicates": 0,
+  "all_27_observed_scene_z_tilt_roll_conditions_in_train": true,
+  "all_focus_recordings_in_train": true,
+  "independent_set_cover_limits": [
+    {
+      "scene": "100lbs_aircraft_bomb|floor|ellipse",
+      "minimum_groups_for_full_joint_train": 3,
+      "max_independent_holdout_groups": 0
+    },
+    {
+      "scene": "100lbs_aircraft_bomb|floor|flyby",
+      "minimum_groups_for_full_joint_train": 1,
+      "max_independent_holdout_groups": 0
+    },
+    {
+      "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+      "minimum_groups_for_full_joint_train": 7,
+      "max_independent_holdout_groups": 2
+    },
+    {
+      "scene": "100lbs_aircraft_bomb|standard|flyby",
+      "minimum_groups_for_full_joint_train": 1,
+      "max_independent_holdout_groups": 0
+    },
+    {
+      "scene": "incindiary_grenade|standard|L_to_R",
+      "minimum_groups_for_full_joint_train": 5,
+      "max_independent_holdout_groups": 2
+    },
+    {
+      "scene": "incindiary_grenade|standard|flyby",
+      "minimum_groups_for_full_joint_train": 2,
+      "max_independent_holdout_groups": 1
+    },
+    {
+      "scene": "mortar_shell|standard|L_to_R",
+      "minimum_groups_for_full_joint_train": 6,
+      "max_independent_holdout_groups": 3
+    },
+    {
+      "scene": "mortar_shell|standard|flyby",
+      "minimum_groups_for_full_joint_train": 1,
+      "max_independent_holdout_groups": 1
+    }
+  ],
+  "independent_pan_recomputed": [
+    {
+      "recording": "2023-09-20_175506",
+      "role": "val",
+      "percent": 95.0
+    },
+    {
+      "recording": "2023-09-21_101622",
+      "role": "test",
+      "percent": 100.0
+    },
+    {
+      "recording": "2023-09-21_105230",
+      "role": "val",
+      "percent": 92.42424242424242
+    },
+    {
+      "recording": "2023-09-21_110049",
+      "role": "val",
+      "percent": 100.0
+    },
+    {
+      "recording": "2023-09-21_121124",
+      "role": "test",
+      "percent": 100.0
+    },
+    {
+      "recording": "2023-09-21_121327",
+      "role": "test",
+      "percent": 100.0
+    },
+    {
+      "recording": "2023-09-21_123500",
+      "role": "val",
+      "percent": 100.0
+    },
+    {
+      "recording": "2023-09-21_124915",
+      "role": "val",
+      "percent": 100.0
+    },
+    {
+      "recording": "2023-09-20_174711",
+      "role": "test",
+      "percent": 100.0
+    }
+  ],
+  "below95_pan_support": [
+    {
+      "recording": "2023-09-21_105230",
+      "role": "val",
+      "percent": 92.42424242424242
+    }
+  ],
+  "unresolved_admitted": 0,
+  "original_input_hashes_unchanged": true,
+  "static_links_verified": 47,
+  "previews_decoded": 42,
+  "browser_render_verified": false,
+  "new_model_inference": false,
+  "new_training": false,
+  "new_model_metrics": false,
+  "new_split_is_development_protocol_with_old_val_test_use": true,
+  "original_research_test_opened": false,
+  "expert_verified": false,
+  "precision_sync_certified": false,
+  "manifest_sha256": "744aff50c0a6d69b4e79003c78262df9c2f1100ee438380cc71f44cc22ba26a5",
+  "protocol_sha256": "d439959bab1e4f92dbeb27252e07d7d96367ac13f7b81bff700dd1ccdca14676"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/issues?state=all&per_page=100",
+    "checked_at_utc": "2026-11-10T18:22:26.374668+00:00",
+    "status": 200,
+    "path": "related_work\\model-registration-sources\\issues-all.json",
+    "sha256": "fdd0bbd6c2512ea9b00a24e14187716ac353e5ebab3297112241ee392ce6087a"
+  },
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/issues/2/comments?per_page=100",
+    "checked_at_utc": "2026-11-10T18:22:26.375168+00:00",
+    "status": 200,
+    "path": "related_work\\model-registration-sources\\issue-2-comments.json",
+    "sha256": "11eb250c2eb95b30593ed6d7f66bc8f975d3d9be894705bde9678f97fe3d76e5"
+  },
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/issues/3/comments?per_page=100",
+    "checked_at_utc": "2026-11-10T18:22:26.375168+00:00",
+    "status": 200,
+    "path": "related_work\\model-registration-sources\\issue-3-comments.json",
+    "sha256": "013c6b01038888565175b0f772557a46f97a6ae8aa7b59a51349c6699dca1c06"
+  },
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/issues/4/comments?per_page=100",
+    "checked_at_utc": "2026-11-10T18:22:26.375168+00:00",
+    "status": 200,
+    "path": "related_work\\model-registration-sources\\issue-4-comments.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/issues/5/comments?per_page=100",
+    "checked_at_utc": "2026-11-10T18:22:26.707768+00:00",
+    "status": 200,
+    "path": "related_work\\model-registration-sources\\issue-5-comments.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/issues/6/comments?per_page=100",
+    "checked_at_utc": "2026-11-10T18:22:26.877322+00:00",
+    "status": 200,
+    "path": "related_work\\model-registration-sources\\issue-6-comments.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "https://api.github.com/repos/dfki-ric/uxo-dataset2024/pulls/6",
+    "checked_at_utc": "2026-11-10T18:22:27.106353+00:00",
+    "status": 200,
+    "path": "related_work\\model-registration-sources\\pull-6.json",
+    "sha256": "c27c968255e4ff849799f9ecdb8e0d70163ce9384c79df58b8dd18004d639571"
+  },
+  {
+    "url": "https://zenodo.org/api/records/11068046",
+    "checked_at_utc": "2026-11-10T18:22:27.227526+00:00",
+    "status": 200,
+    "path": "related_work\\model-registration-sources\\zenodo-v1.json",
+    "sha256": "896808d4a5ebb1135bb51d9e1bd384326a714a4468e0ec97cb37313e1d2c5701"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/olayasturias/uxo-dataset2024/8810df836c8391dd5cea9c6824093e988c46c8dd/rerun_viz/log_to_rerun.py",
+    "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\model-registration-sources\\third-party-pr6-log_to_rerun.py",
+    "sha256": "74a40b2ceeb055241be569b1e01bf4c60e0e20c7cc91b4f2bede6db741422006",
+    "bytes": 18656,
+    "retrieved_at_utc": "2026-11-10T18:24:15.799242+00:00",
+    "note": "Third-party open PR, inspect only"
+  }
+]

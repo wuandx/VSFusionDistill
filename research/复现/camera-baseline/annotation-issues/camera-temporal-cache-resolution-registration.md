@@ -1,0 +1,11 @@
+# 旧导出EOF缓存样本：补充恢复登记
+
+全量初始保守导出发现少量old_export_index_missing。独立调查前5例：旧请求序号刚越过FHD流范围，发布JPG与前一个原生样本逐字节相同；在原FHD流中匹配到前一个请求序号。公开MatchingContext读取失败仍返回旧_gopro_frame，与此一致。新的SD参考及时间对应FHD真实帧均存在，PTS残差和内容MSE均满足原门槛。
+
+目的：在不放宽时间或内容门槛的前提下，补齐有独立缓存血缘证据的样本。范围只限全量初始manifest中old_export_index_missing；逐一验证，不把前5例推广为全部自动正确。
+
+唯一变化：原JPG来源核验分支由“旧序号直接取帧”改为有证据支持的缓存图血缘。必要条件全部满足：旧序号恰等于FHD帧数，前一个原生样本旧序号有效，两个原JPG字节/hash相同，原JPG与前一个请求FHD帧灰度MSE<=4；当前样本SD参考有效，真实FHD最近PTS残差<=半帧且内容MSE<=9。类别与原框数值完全保留。未满足则保持原待核状态，不进一步搜索bbox或调整阈值。该证据与缓存复用相容，但原生标注样本之间可能存在其他导出请求，不能宣称唯一还原完整历史请求顺序。
+
+初始manifest.json、verification.json、录音manifest及所有副本不改写。仅补充恢复图与对照、manifest-resolved.json、verification-resolved.json；最终浏览页切换到新清单前保留index-initial.html。新清单保留initial_status和恢复证据链。数据仍为时间对应候选，不能当框QA全部通过。
+
+核验：新图与FHD实际帧的低分辨率内容、每张新图的独立全分辨率单帧PNG解码压缩容差、GT及原输入hash、全部26761/4746身份闭合、初始清单hash不变。只在初始全量独立核验成功后执行。time_pending的真实PTS缺口、缺FHD覆盖和缺SD参考不由本分支填补。

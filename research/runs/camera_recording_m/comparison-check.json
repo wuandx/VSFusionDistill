@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "equal_fields": [
+    "seed",
+    "epochs",
+    "batch",
+    "iterations",
+    "split_protocol_sha256",
+    "train_dataset_sha256",
+    "val_dataset_sha256"
+  ],
+  "S_initialization": "4592a793b95f18f62fd73fbb6cfe61dd445f71a8e072366e114e7134d4492760",
+  "M_initialization": "eaab1cad97fa5f3b404db01e75e7cd7931b6d81a21b4c0fbee7be4eefea11488",
+  "pretraining_source_differs": true
+}

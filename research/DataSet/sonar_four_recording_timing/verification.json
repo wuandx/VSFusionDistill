@@ -1,0 +1,42 @@
+[
+  {
+    "recording": "2023-09-21_100927",
+    "checked_indices": 297,
+    "exact_ffmpeg_bgr_frames": [
+      3,
+      890,
+      1567
+    ],
+    "zero_lag_correlation_direct": 0.06461075960565986
+  },
+  {
+    "recording": "2023-09-21_101131",
+    "checked_indices": 316,
+    "exact_ffmpeg_bgr_frames": [
+      3,
+      950,
+      1747
+    ],
+    "zero_lag_correlation_direct": 0.4033385388620664
+  },
+  {
+    "recording": "2023-09-21_120653",
+    "checked_indices": 297,
+    "exact_ffmpeg_bgr_frames": [
+      3,
+      891,
+      1616
+    ],
+    "zero_lag_correlation_direct": -0.040561876640402776
+  },
+  {
+    "recording": "2023-09-21_120912",
+    "checked_indices": 291,
+    "exact_ffmpeg_bgr_frames": [
+      3,
+      874,
+      1443
+    ],
+    "zero_lag_correlation_direct": -0.23960517803158135
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "retained_original_plain_run": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/scene_camera_m_baseline/after_pilot/train",
+  "matching_config_keys": [
+    "model",
+    "optim_wrapper",
+    "param_scheduler",
+    "train_cfg",
+    "randomness",
+    "env_cfg"
+  ],
+  "same_initialization_and_source_hashes": true,
+  "original_sampler_all_200_epochs_identical": true,
+  "expanded_samples_per_epoch": 2472,
+  "all_expanded_images_sampled_across_run": true,
+  "expanded_per_image_exposures_min": 123,
+  "expanded_per_image_exposures_max": 166,
+  "total_updates": 61800,
+  "expanded_equivalent_full_passes": 146.61921708185054,
+  "unchanged_original_implementation_hashes": true
+}

@@ -1,0 +1,8 @@
+{
+  "checkpoint_sha256": "53a2f8021c70b14ffbdce2b995858231eeabfa451f08da1fdd891abdd28d0300",
+  "weight_source": "ema_state_dict.module.* (actual raw)",
+  "epoch": 200,
+  "images": 600,
+  "split": "val",
+  "test_used": false
+}

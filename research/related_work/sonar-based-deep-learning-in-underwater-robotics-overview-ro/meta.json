@@ -1,0 +1,40 @@
+{
+ "arxiv_id": "2412.11840",
+ "slug": "sonar-based-deep-learning-in-underwater-robotics-overview-ro",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:38:48",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Sonar-based Deep Learning in Underwater Robotics: Overview, Robustness and Challenges",
+ "authors": [
+  "Aubard, Martin",
+  "Madureira, Ana",
+  "Teixeira, Luís",
+  "Pinto, José"
+ ],
+ "date": "2024/12/16",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: With the growing interest in underwater exploration and monitoring, Autonomous Underwater Vehicles (AUVs) have become essential. The recent interest in onboard Deep Learning (DL) has advanced real-time environmental interaction capabilities relying on efficient and accurate vision-based DL models. However, the predominant use of sonar in underwater environments, characterized by limited training data and inherent noise, poses challenges to model robustness. This autonomy improvement raises safety concerns for deploying such models during underwater operations, potentially leading to hazardous situations. This paper aims to provide the first comprehensive overview of sonar-based DL under the scope of robustness. It studies sonar-based DL perception task models, such as classification, object detection, segmentation, and SLAM. Furthermore, the paper systematizes sonar-based state-of-the-art datasets, simulators, and robustness methods such as neural network verification, out-of-distribution, and adversarial attacks. This paper highlights the lack of robustness in sonar-based DL research and suggests future research pathways, notably establishing a baseline sonar-based dataset and bridging the simulation-to-reality gap.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2412.11840",
+  "bytes": 1077468,
+  "sha256": "8877e58288025d5d645cf17941c08f2194553a8b98ba1cfd8e93256e48065858"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2412.11840",
+  "bytes": 8068278,
+  "sha256": "1d9c56dd05e1bf2ad43de403b7d31afd6aa9c36d3e83233fcea0714fa6b53653",
+  "kind": "tar",
+  "n_files": 84,
+  "tex_files": [
+   "bare_jrnl_new_sample4.tex",
+   "tex/1.0_introduction.tex",
+   "tex/2.0_AI-Based_Underwater_Robotics_Tasks.tex",
+   "tex/2_1_Survey_Review.tex",
+   "tex/4_Safe_AI_in_Underwater_Robotics.tex",
+   "tex/6.0_Conclusion.tex"
+  ]
+ }
+}

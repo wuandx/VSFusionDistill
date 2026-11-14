@@ -1,0 +1,41 @@
+{
+ "arxiv_id": "2603.13585",
+ "slug": "sonar-mast3r-real-time-opti-acoustic-fusion-in-turbid-unstru",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:41:26",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Sonar-MASt3R: Real-Time Opti-Acoustic Fusion in Turbid, Unstructured Environments",
+ "authors": [
+  "Phung, Amy",
+  "Camilli, Richard"
+ ],
+ "date": "2026/03/13",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Underwater intervention is an important capability in several marine domains, with numerous industrial, scientific, and defense applications. However, existing perception systems used during intervention operations rely on data from optical cameras, which limits capabilities in poor visibility or lighting conditions. Prior work has examined opti-acoustic fusion methods, which use sonar data to resolve the depth ambiguity of the camera data while using camera data to resolve the elevation angle ambiguity of the sonar data. However, existing methods cannot achieve dense 3D reconstructions in real-time, and few studies have reported results from applying these methods in a turbid environment. In this work, we propose the opti-acoustic fusion method Sonar-MASt3R, which uses MASt3R to extract dense correspondences from optical camera data in real-time and pairs it with geometric cues from an acoustic 3D reconstruction to ensure robustness in turbid conditions. Experimental results using data recorded from an opti-acoustic eye-in-hand configuration across turbidity values ranging from &lt;0.5 to &gt;12 NTU highlight this method&#39;s improved robustness to turbidity relative to baseline methods.",
+ "comments": "This paper has been accepted for publication in ICRA 2026. Copyright IEEE",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2603.13585",
+  "bytes": 5263593,
+  "sha256": "c02d7935e78f40becb2643fe3e22c39ee98f2e3a1a029efd5c577e4300d46a3c"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2603.13585",
+  "bytes": 3884808,
+  "sha256": "56e6fecd9d1f6713970b57049e835408a78329b8c87a1fe64983ad156087dee5",
+  "kind": "tar",
+  "n_files": 18,
+  "tex_files": [
+   "root.tex",
+   "text/01-abstract.tex",
+   "text/02-introduction.tex",
+   "text/03-relatedwork.tex",
+   "text/04-method.tex",
+   "text/05-results.tex",
+   "text/06-discussion.tex",
+   "text/07-conclusion.tex"
+  ]
+ }
+}

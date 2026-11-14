@@ -1,0 +1,8 @@
+{
+  "start": 35455515,
+  "pad": 1,
+  "range_bytes": 99886599,
+  "crc32": 2870520973,
+  "verified": true,
+  "method": "same CRC-validated container-window recovery, initialize after early compressed-packet boundary"
+}

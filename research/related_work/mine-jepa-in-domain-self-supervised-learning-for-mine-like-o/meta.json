@@ -1,0 +1,46 @@
+{
+ "arxiv_id": "2604.00383",
+ "slug": "mine-jepa-in-domain-self-supervised-learning-for-mine-like-o",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:39:14",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Mine-JEPA: In-Domain Self-Supervised Learning for Mine-Like Object Classification in Side-Scan Sonar",
+ "authors": [
+  "Kwon, Taeyoun",
+  "Choi, Youngwon",
+  "Kim, Hyeonyu",
+  "Cho, Myeongkyun",
+  "Choi, Junhyeok",
+  "Kim, Moon Hwan"
+ ],
+ "date": "2026/04/01",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Side-scan sonar (SSS) mine classification is a challenging maritime vision problem characterized by extreme data scarcity and a large domain gap from natural images. While self-supervised learning (SSL) and general-purpose vision foundation models have shown strong performance in general vision and several specialized domains, their use in SSS remains largely unexplored. We present Mine-JEPA, the first in-domain SSL pipeline for SSS mine classification, using SIGReg, a regularization-based SSL loss, to pretrain on only 1,170 unlabeled sonar images. In the binary mine vs. non-mine setting, Mine-JEPA achieves an F1 score of 0.935, outperforming fine-tuned DINOv3 (0.922), a foundation model pretrained on 1.7B images. For 3-class mine-like object classification, Mine-JEPA reaches 0.820 with synthetic data augmentation, again outperforming fine-tuned DINOv3 (0.810). We further observe that applying in-domain SSL to foundation models degrades performance by 10--13 percentage points, suggesting that stronger pretrained models do not always benefit from additional domain adaptation. In addition, Mine-JEPA with a compact ViT-Tiny backbone achieves competitive performance while using 4x fewer parameters than DINOv3. These results suggest that carefully designed in-domain self-supervised learning is a viable alternative to much larger foundation models in data-scarce maritime sonar imagery.",
+ "comments": "9 pages, 3 figures, 6 tables. Accepted at CVPR 2026 MACVi Workshop",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2604.00383",
+  "bytes": 1971197,
+  "sha256": "0d34c47d5b4dc8cb6227f9fb3263425b2831b10b468aa7ecd4253aea878695de"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2604.00383",
+  "bytes": 1618733,
+  "sha256": "a540005504b7a80d2a529c8021ce268146e5d1dd9f7dbd2da1ee857f34bcf7ac",
+  "kind": "tar",
+  "n_files": 16,
+  "tex_files": [
+   "main.tex",
+   "preamble.tex",
+   "sec/0_abstract.tex",
+   "sec/1_intro.tex",
+   "sec/2_related_work.tex",
+   "sec/3_method.tex",
+   "sec/4_experiments.tex",
+   "sec/5_discussion.tex",
+   "sec/6_conclusion.tex"
+  ]
+ }
+}

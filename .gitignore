@@ -25,3 +25,17 @@ third_party/*
 
 # scratch eval/projection outputs (reproducible from tools/)
 work/
+
+# Research snapshots: large/runtime artifacts stay outside Git
+**/__pycache__/
+*.pth
+*.pt
+*.onnx
+*.7z
+*.tar
+*.mp4
+*.avi
+*.pyd
+research/**/images/
+research/**/previews/
+research/**/vis_data/

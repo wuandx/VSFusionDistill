@@ -1,0 +1,39 @@
+{
+ "arxiv_id": "2310.01035",
+ "slug": "learnable-cmkd-missing-modality",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:35:17",
+ "tier": "A",
+ "why_relevant": "cross-modal KD when a modality is missing at test time",
+ "title": "Learnable Cross-modal Knowledge Distillation for Multi-modal Learning with Missing Modality",
+ "authors": [
+  "Wang, Hu",
+  "Ma, Congbo",
+  "Zhang, Jianpeng",
+  "Zhang, Yuan",
+  "Avery, Jodie",
+  "Hull, Louise",
+  "Carneiro, Gustavo"
+ ],
+ "date": "2023/10/02",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: The problem of missing modalities is both critical and non-trivial to be handled in multi-modal models. It is common for multi-modal tasks that certain modalities contribute more compared to other modalities, and if those important modalities are missing, the model performance drops significantly. Such fact remains unexplored by current multi-modal approaches that recover the representation from missing modalities by feature reconstruction or blind feature aggregation from other modalities, instead of extracting useful information from the best performing modalities. In this paper, we propose a Learnable Cross-modal Knowledge Distillation (LCKD) model to adaptively identify important modalities and distil knowledge from them to help other modalities from the cross-modal perspective for solving the missing modality issue. Our approach introduces a teacher election procedure to select the most ``qualified&#39;&#39; teachers based on their single modality performance on certain tasks. Then, cross-modal knowledge distillation is performed between teacher and student modalities for each task to push the model parameters to a point that is beneficial for all tasks. Hence, even if the teacher modalities for certain tasks are missing during testing, the available student modalities can accomplish the task well enough based on the learned knowledge from their automatically elected teacher modalities. Experiments on the Brain Tumour Segmentation Dataset 2018 (BraTS2018) shows that LCKD outperforms other methods by a considerable margin, improving the state-of-the-art performance by 3.61% for enhancing tumour, 5.99% for tumour core, and 3.76% for whole tumour in terms of segmentation Dice score.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2310.01035",
+  "bytes": 1634840,
+  "sha256": "5c395672c1626181cd1319926d2e58644e7043773f86556afd2b52480b08063b"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2310.01035",
+  "bytes": 1197896,
+  "sha256": "080e5a43c1eb6eccc5fe099c4e984fef1242e12ad5819a282e7f6fcd3ffa08d9",
+  "kind": "tar",
+  "n_files": 11,
+  "tex_files": [
+   "main.tex",
+   "supp.tex"
+  ]
+ }
+}

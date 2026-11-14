@@ -1,0 +1,34 @@
+{
+ "arxiv_id": "2603.07464",
+ "slug": "selective-transfer-cmkd-monocular",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:33:09",
+ "tier": "C",
+ "why_relevant": "selective cross-modality distillation, monocular 3D",
+ "title": "Selective Transfer Learning of Cross-Modality Distillation for Monocular 3D Object Detection",
+ "authors": [
+  "Ding, Rui",
+  "Yang, Meng",
+  "Zheng, Nanning"
+ ],
+ "date": "2026/03/08",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Monocular 3D object detection is a promising yet ill-posed task for autonomous vehicles due to the lack of accurate depth information. Cross-modality knowledge distillation could effectively transfer depth information from LiDAR to image-based network. However, modality gap between image and LiDAR seriously limits its accuracy. In this paper, we systematically investigate the negative transfer problem induced by modality gap in cross-modality distillation for the first time, including not only the architecture inconsistency issue but more importantly the feature overfitting issue. We propose a selective learning approach named MonoSTL to overcome these issues, which encourages positive transfer of depth information from LiDAR while alleviates the negative transfer on image-based network. On the one hand, we utilize similar architectures to ensure spatial alignment of features between image-based and LiDAR-based networks. On the other hand, we develop two novel distillation modules, namely Depth-Aware Selective Feature Distillation (DASFD) and Depth-Aware Selective Relation Distillation (DASRD), which selectively learn positive features and relationships of objects by integrating depth uncertainty into feature and relation distillations, respectively. Our approach can be seamlessly integrated into various CNN-based and DETR-based models, where we take three recent models on KITTI and a recent model on NuScenes for validation. Extensive experiments show that our approach considerably improves the accuracy of the base models and thereby achieves the best accuracy compared with all recently released SOTA models.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2603.07464",
+  "bytes": 5969239,
+  "sha256": "6ebc1079a62cc0bc278a328ee0785226c55eb59fcaff4336089636b0222f971a"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2603.07464",
+  "bytes": 5624534,
+  "sha256": "305edfa98f1f2c88122cb83b8b9a657fe683981d2a59e61f8a087dfdcd3901c1",
+  "kind": "tar",
+  "n_files": 8,
+  "tex_files": [
+   "MonoSTL.tex"
+  ]
+ }
+}

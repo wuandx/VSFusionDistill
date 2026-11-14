@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2605.30111",
+ "slug": "xmodel-kd-lidar-3d",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:34:55",
+ "tier": "C",
+ "why_relevant": "cross-modal KD for 3D scene perception",
+ "title": "xModel-KD: Cross-modal Knowledge Distillation for 3D Scene Perception using LiDAR",
+ "authors": [
+  "Pathmanathan, Thenukan",
+  "Keisham, Kanchan",
+  "Akilan, Thangarajah"
+ ],
+ "date": "2026/05/28",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Point cloud segmentation is a fundamental task in 3D scene understanding. Its progress is constrained by the high cost and time required for dense 3D annotations, making labeled samples difficult to obtain. Beyond annotation scarcity, different sensing modalities face inherent limitations. 2D images provide rich texture and appearance cues, yet they lack explicit depth and geometric structure. In contrast, 3D point clouds capture accurate spatial geometry but are sparse and contain no texture information. As a result, relying on a single modality restricts the richness of learned representations and weakens generalization. Although recent multi-modal methods that combine 3D point clouds with 2D images have demonstrated strong performance in tasks such as classification and retrieval, they typically depend on large-scale labeled datasets and have not been fully exploited for data-efficient dense prediction. To address these limitations, we propose a novel cross-modal knowledge distillation framework, xModel-KD, for 3D point cloud segmentation. Our method exploits the complementary strengths of 2D texture and 3D geometry by learning unified per-point representations through cross-modal alignment. Specifically, we design a cross-modal fusion encoder trained with a contrastive objective that enforces feature consistency between corresponding 2D and 3D representations across multiple views. By integrating powerful pre-trained backbones with a targeted fusion strategy, the proposed framework effectively transfers appearance cues from images to geometry-aware point features. Experimental results show that cross-modal fusion achieves a 2% absolute improvement in mIoU over a LiDAR-only baseline, demonstrating the benefit of leveraging complementary multi-modal information for scalable and annotation-efficient 3D scene understanding.",
+ "comments": "3 figures, and 5 tables",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2605.30111",
+  "bytes": 3799208,
+  "sha256": "5c8a3c2932f2a4b97b5f568bc3b3f7050969e7c4827cb28e72b7e3f45f7793d8"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2605.30111",
+  "bytes": 3316819,
+  "sha256": "06e5a9f65fe66e645ee78455ce446dbd6633fb3c018b1de60ebab28cd7aec354",
+  "kind": "tar",
+  "n_files": 13,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2507.07015",
+ "slug": "mst-distill-mixture-teachers",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:37:07",
+ "tier": "C",
+ "why_relevant": "mixture of specialized teachers, cross-modal KD",
+ "title": "MST-Distill: Mixture of Specialized Teachers for Cross-Modal Knowledge Distillation",
+ "authors": [
+  "Li, Hui",
+  "Yang, Pengfei",
+  "Chen, Juanyang",
+  "Dong, Le",
+  "Chen, Yanxin",
+  "Wang, Quan"
+ ],
+ "date": "2025/07/09",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Knowledge distillation as an efficient knowledge transfer technique, has achieved remarkable success in unimodal scenarios. However, in cross-modal settings, conventional distillation methods encounter significant challenges due to data and statistical heterogeneities, failing to leverage the complementary prior knowledge embedded in cross-modal teacher models. This paper empirically reveals two critical issues in existing approaches: distillation path selection and knowledge drift. To address these limitations, we propose MST-Distill, a novel cross-modal knowledge distillation framework featuring a mixture of specialized teachers. Our approach employs a diverse ensemble of teacher models across both cross-modal and multimodal configurations, integrated with an instance-level routing network that facilitates adaptive and dynamic distillation. This architecture effectively transcends the constraints of traditional methods that rely on monotonous and static teacher models. Additionally, we introduce a plug-in masking module, independently trained to suppress modality-specific discrepancies and reconstruct teacher representations, thereby mitigating knowledge drift and enhancing transfer effectiveness. Extensive experiments across five diverse multimodal datasets, spanning visual, audio, and text, demonstrate that our method significantly outperforms existing state-of-the-art knowledge distillation methods in cross-modal distillation tasks. The source code is available at this https URL .",
+ "comments": "Accepted to ACM MM 2025 (The 33rd ACM International Conference on Multimedia)",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2507.07015",
+  "bytes": 3145303,
+  "sha256": "4e4de8c1241de7179c669c5324793846725f823b63b32b3041a9e1e48ea622d6"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2507.07015",
+  "bytes": 2433618,
+  "sha256": "532e246d00b678de164c98d9d071416d07bcaaa4df7e16d3aca6a1af8bb4a5e0",
+  "kind": "tar",
+  "n_files": 15,
+  "tex_files": [
+   "MST-Distill.tex"
+  ]
+ }
+}

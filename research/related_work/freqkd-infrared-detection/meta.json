@@ -1,0 +1,41 @@
+{
+ "arxiv_id": "2606.11572",
+ "slug": "freqkd-infrared-detection",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:32:25",
+ "tier": "A",
+ "why_relevant": "RGB->IR cross-modal KD for object detection (closest modality gap analogue)",
+ "title": "FreqKD: Frequency-Decoupled Cross-Modal Knowledge Distillation for Infrared Object Detection",
+ "authors": [
+  "Thaker, Keval",
+  "Narayanan, Venkatraman",
+  "Aburaddaha, Abdalmalek",
+  "Rawashdeh, Samir A."
+ ],
+ "date": "2026/06/10",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Transfer learning from large-scale RGB foundation models to infrared (IR) imagery through knowledge distillation (KD) remains challenging due to fundamental differences in image formation physics. We investigate the spectral structure of the RGB--IR modality gap and observe that feature divergence is not uniform across spatial frequencies: low-frequency components (shape, layout) show greater cross-modal alignment than high-frequency components (texture, fine edges), which reflect modality-specific characteristics. Based on this analysis, we propose FreqKD, a frequency-decoupled distillation framework that applies asymmetric supervision adapted to each band&#39;s cross-modal consistency. The method employs strict mean squared error (MSE) on the low-frequency band to preserve shared structural information and a relaxed log-MSE loss (weighted at 0.1) on the high-frequency band to provide edge guidance while tolerating texture differences. Spectral divergence analysis on 500 paired samples shows that high-frequency divergence exceeds low-frequency divergence by a factor of 2.4x on average across all analysed transformer layers. On KAIST multispectral pedestrian detection, FreqKD achieves 64.1 mAP50, improving 2.4 points over the DINOv2 baseline. The learned representation transfers across datasets (FLIR ADAS, +2.1 mAP50), tasks (MFNet segmentation, +1.85 mean intersection-over-union), and architectures (ResNet-50, +1.0 mAP50). Code is available at: this https URL",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2606.11572",
+  "bytes": 1187408,
+  "sha256": "13405a207bbe75d242b24834d39263e5901453bd8ba1ec05b95c2fc5439c4f20"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2606.11572",
+  "bytes": 903061,
+  "sha256": "b823bcf3fa30918583ef852d1de3822d20886a04e1ab713df7139da78a3542f7",
+  "kind": "tar",
+  "n_files": 13,
+  "tex_files": [
+   "bmvc_final.tex",
+   "sec/01_abstract.tex",
+   "sec/02_intro.tex",
+   "sec/03_related.tex",
+   "sec/04_method.tex",
+   "sec/05_experiments.tex",
+   "sec/06_conclusion.tex"
+  ]
+ }
+}

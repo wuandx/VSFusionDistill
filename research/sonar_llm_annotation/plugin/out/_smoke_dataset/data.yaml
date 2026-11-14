@@ -1,0 +1,8 @@
+# 由 sonarllm 导出；候选/伪标签，不是人工 GT
+path: out/_smoke_dataset
+train: images/train
+val: images/val
+names:
+  0: 100lbs_aircraft_bomb
+  1: incindiary_grenade
+  2: mortar_shell

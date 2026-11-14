@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2001.03539",
+ "slug": "rasterized-raytracer-sonar-sim",
+ "ok": true,
+ "fetched_at": "2026-11-13T11:26:58",
+ "tier": "B",
+ "why_relevant": "光栅+光线追踪的声呐仿真：3D 场景 → 声呐图的正向管线，可用于验证投影框的可见性",
+ "title": "A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation",
+ "authors": [
+  "Cerqueira, Rômulo",
+  "Trocoli, Tiago",
+  "Albiez, Jan",
+  "Oliveira, Luciano"
+ ],
+ "date": "2020/01/08",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Simulating sonar devices requires modeling complex underwater acoustics, simultaneously rendering time-efficient data. Existing methods focus on basic implementation of one sonar type, where most of sound properties are disregarded. In this context, this work presents a multi-device sonar simulator capable of processing an underwater scene by a hybrid pipeline on GPU: Rasterization computes the primary intersections, while only the reflective areas are ray-traced. Our proposed system launches few rays when compared to a full ray-tracing based method, achieving a significant performance gain without quality loss in the final rendering. Resulting reflections are then characterized as two sonar parameters: Echo intensity and pulse distance. Underwater acoustic features, such as speckle noise, transmission loss, reverberation and material properties of observable objects are also computed in the final generated acoustic image. Visual and numerical performance assessments demonstrated the effectiveness of the proposed simulator to render underwater scenes in comparison to real-world sonar devices.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2001.03539",
+  "bytes": 3548848,
+  "sha256": "15732a3b1b809d45b8b80a80913a4b385c03075afb64a3eda493dbba40b35e9d"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2001.03539",
+  "bytes": 3043739,
+  "sha256": "a8425da08147fe17c747fbb304cee029e8f0fb9c1aa65f5ff9467a4aa6575761",
+  "kind": "tar",
+  "n_files": 40,
+  "tex_files": [
+   "elsarticle-template.tex"
+  ]
+ }
+}

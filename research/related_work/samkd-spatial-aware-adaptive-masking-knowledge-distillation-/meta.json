@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2501.07101",
+ "slug": "samkd-spatial-aware-adaptive-masking-knowledge-distillation-",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:54:56",
+ "tier": "",
+ "why_relevant": "",
+ "title": "SAMKD: Spatial-aware Adaptive Masking Knowledge Distillation for Object Detection",
+ "authors": [
+  "Zhang, Zhourui",
+  "Li, Jun",
+  "Li, Jiayan",
+  "Xu, Jianhua"
+ ],
+ "date": "2025/01/13",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Most of recent attention-guided feature masking distillation methods perform knowledge transfer via global teacher attention maps without delving into fine-grained clues. Instead, performing distillation at finer granularity is conducive to uncovering local details supplementary to global knowledge transfer and reconstructing comprehensive student features. In this study, we propose a Spatial-aware Adaptive Masking Knowledge Distillation (SAMKD) framework for accurate object detection. Different from previous feature distillation methods which mainly perform single-scale feature masking, we develop spatially hierarchical feature masking distillation scheme, such that the object-aware locality is encoded during coarse-to-fine distillation process for improved feature reconstruction. In addition, our spatial-aware feature distillation strategy is combined with a masking logit distillation scheme in which region-specific feature difference between teacher and student networks is utilized to adaptively guide the distillation process. Thus, it can help the student model to better learn from the teacher counterpart with improved knowledge transfer and reduced gap. Extensive experiments for detection task demonstrate the superiority of our method. For example, when FCOS is used as teacher detector with ResNet101 backbone, our method improves the student network from 35.3\\% to 38.8\\% mAP, outperforming state-of-the-art distillation methods including MGD, FreeKD and DMKD.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2501.07101",
+  "bytes": 890682,
+  "sha256": "cbd7c1050f499364b717b7bbcb521e9096b3594636c2f548f9162243de5d356e"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2501.07101",
+  "bytes": 568678,
+  "sha256": "df8f892c591eacfb7724c098bd2be526d091e36df48d71607467bedb9eda7f4d",
+  "kind": "tar",
+  "n_files": 8,
+  "tex_files": [
+   "root.tex"
+  ]
+ }
+}

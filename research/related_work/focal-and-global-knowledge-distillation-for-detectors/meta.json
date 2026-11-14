@@ -1,0 +1,39 @@
+{
+ "arxiv_id": "2111.11837",
+ "slug": "focal-and-global-knowledge-distillation-for-detectors",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:50:45",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Focal and Global Knowledge Distillation for Detectors",
+ "authors": [
+  "Yang, Zhendong",
+  "Li, Zhe",
+  "Jiang, Xiaohu",
+  "Gong, Yuan",
+  "Yuan, Zehuan",
+  "Zhao, Danpei",
+  "Yuan, Chun"
+ ],
+ "date": "2021/11/23",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Knowledge distillation has been applied to image classification successfully. However, object detection is much more sophisticated and most knowledge distillation methods have failed on it. In this paper, we point out that in object detection, the features of the teacher and student vary greatly in different areas, especially in the foreground and background. If we distill them equally, the uneven differences between feature maps will negatively affect the distillation. Thus, we propose Focal and Global Distillation (FGD). Focal distillation separates the foreground and background, forcing the student to focus on the teacher&#39;s critical pixels and channels. Global distillation rebuilds the relation between different pixels and transfers it from teachers to students, compensating for missing global information in focal distillation. As our method only needs to calculate the loss on the feature map, FGD can be applied to various detectors. We experiment on various detectors with different backbones and the results show that the student detector achieves excellent mAP improvement. For example, ResNet-50 based RetinaNet, Faster RCNN, RepPoints and Mask RCNN with our distillation method achieve 40.7%, 42.0%, 42.0% and 42.1% mAP on COCO2017, which are 3.3, 3.6, 3.4 and 2.9 higher than the baseline, respectively. Our codes are available at this https URL .",
+ "comments": "Accept by CVPR 2022",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2111.11837",
+  "bytes": 10197597,
+  "sha256": "6e6576a129cec280ec69763bb1ae3e0fcfacbde59eab6067b5589dd8328170b5"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2111.11837",
+  "bytes": 9498598,
+  "sha256": "587bd91faa0b2a2117f5049a31907c4b66dd1d5b7fc1cabe1753738c1fa0282f",
+  "kind": "tar",
+  "n_files": 14,
+  "tex_files": [
+   "FGD.tex"
+  ]
+ }
+}

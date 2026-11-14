@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2507.16296",
+ "slug": "cm-distill-widely-differing",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:35:42",
+ "tier": "B",
+ "why_relevant": "cross-modal distillation across very different modalities",
+ "title": "Cross-Modal Distillation For Widely Differing Modalities",
+ "authors": [
+  "Zhao, Cairong",
+  "Jin, Yufeng",
+  "Song, Zifan",
+  "Chen, Haonan",
+  "Miao, Duoqian",
+  "Hu, Guosheng"
+ ],
+ "date": "2025/07/22",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Deep learning achieved great progress recently, however, it is not easy or efficient to further improve its performance by increasing the size of the model. Multi-modal learning can mitigate this challenge by introducing richer and more discriminative information as input. To solve the problem of limited access to multi-modal data at the time of use, we conduct multi-modal learning by introducing a teacher model to transfer discriminative knowledge to a student model during training. However, this knowledge transfer via distillation is not trivial because the big domain gap between the widely differing modalities can easily lead to overfitting. In this work, we introduce a cross-modal distillation framework. Specifically, we find hard constrained loss, e.g. l2 loss forcing the student being exact the same as the teacher, can easily lead to overfitting in cross-modality distillation. To address this, we propose two soft constrained knowledge distillation strategies at the feature level and classifier level respectively. In addition, we propose a quality-based adaptive weights module to weigh input samples via quantified data quality, leading to robust model training. We conducted experiments on speaker recognition and image classification tasks, and the results show that our approach is able to effectively achieve knowledge transfer between the commonly used and widely differing modalities of image, text, and speech.",
+ "comments": "14 pages, 9 figures",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2507.16296",
+  "bytes": 1170618,
+  "sha256": "d30cf3075b7ee09cfe3a55f9f8101b372360fdd14af81192210ad02ae0602c6f"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2507.16296",
+  "bytes": 627174,
+  "sha256": "4049b17c0917ea81ad671bc2853d8ddc2ef1c6da81321ea0958d902c1018fde7",
+  "kind": "tar",
+  "n_files": 13,
+  "tex_files": [
+   "paper.tex"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "document links, syntax only, explicit non-test input hashes, read-only git",
+  "documents": 12,
+  "local_links_checked": 57,
+  "broken_links": [],
+  "unfilled_placeholders_in_current_docs": [],
+  "syntax_errors": [],
+  "changed_allowlisted_inputs": [],
+  "head_before": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+  "head_after": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+  "status_before": "",
+  "status_after": "",
+  "repo_state_matches": true,
+  "no_training_or_inference": true,
+  "limitations": "No remote link availability test, no model/COCOeval rerun, no test data access; matching HEAD/status and allowlist hashes are not a hash of the entire research tree.",
+  "passed": true
+}

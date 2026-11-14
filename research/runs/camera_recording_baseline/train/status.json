@@ -1,0 +1,33 @@
+{
+  "name": "camera_recording_baseline",
+  "status": "completed",
+  "seed": 0,
+  "epochs": 200,
+  "batch": 8,
+  "iterations": 45000,
+  "initialized_from": "/home/ty/.cache/torch/hub/checkpoints/yolox_s_8x8_300e_coco_20211121_095711-4592a793.pth",
+  "initialization_sha256": "4592a793b95f18f62fd73fbb6cfe61dd445f71a8e072366e114e7134d4492760",
+  "source_repo": "/mnt/d/agent_workspace/\u6c34\u4e0b/\u58f0\u5450\u76ee\u6807\u68c0\u6d4b/code/VSFusionDistill",
+  "source_git": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+  "torch": "2.7.1+cu128",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "checkpoint_selection": "epoch_200 raw state_dict; EMA separately retained",
+  "split_protocol_sha256": "206be8290a70c887a860fbac03344c29cd7ea9102ef80fcf6e679847eb3b18d6",
+  "train_dataset_sha256": "635af3cf57c06701eb9ed0d7913309e7a2a666a7e7b955b4f14bc5aff7ed751e",
+  "val_dataset_sha256": "879ee5b6d282eb964850fca05fd99040d42688a0dcc028f19a15b19f9f9d8bd8",
+  "checkpoint_sha256": "edff61c275274a58112e8e408a25a9a76dd308c79de8cfaba3e6474dbdc974a0",
+  "val_pooled": {
+    "mAP": 0.6488777065334682,
+    "AP50": 0.8100922147963792,
+    "AP75": 0.7587722844576765,
+    "APsmall": -1.0,
+    "APmedium": 0.6318358343110818,
+    "APlarge": 0.6430939461734339,
+    "AR1": 0.6945,
+    "AR10": 0.6945,
+    "AR100": 0.6945,
+    "ARsmall": -1.0,
+    "ARmedium": 0.6368421052631579,
+    "ARlarge": 0.6927309236947792
+  }
+}

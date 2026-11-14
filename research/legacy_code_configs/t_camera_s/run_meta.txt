@@ -1,0 +1,4 @@
+config=configs/repro_cmold/teachers/t_camera_s_yoloxs.py
+seed=0
+git=e4b1dc7467b1382e41536ad949ac1a76631059c2
+python=3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]

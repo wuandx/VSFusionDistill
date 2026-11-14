@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2405.13571",
+ "slug": "incomplete-multimodal-industrial-anomaly-detection-via-cross",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:53:15",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Incomplete Multimodal Industrial Anomaly Detection via Cross-Modal Distillation",
+ "authors": [
+  "Sui, Wenbo",
+  "Lichau, Daniel",
+  "Lefèvre, Josselin",
+  "Phelippeau, Harold"
+ ],
+ "date": "2024/05/22",
+ "doi": "10.1016/j.inffus.2025.103572",
+ "journal": "",
+ "abstract": "Abstract: Recent studies of multimodal industrial anomaly detection (IAD) based on 3D point clouds and RGB images have highlighted the importance of exploiting the redundancy and complementarity among modalities for accurate classification and segmentation. However, achieving multimodal IAD in practical production lines remains a work in progress. It is essential to consider the trade-offs between the costs and benefits associated with the introduction of new modalities while ensuring compatibility with current processes. Existing quality control processes combine rapid in-line inspections, such as optical and infrared imaging with high-resolution but time-consuming near-line characterization techniques, including industrial CT and electron microscopy to manually or semi-automatically locate and analyze defects in the production of Li-ion batteries and composite materials. Given the cost and time limitations, only a subset of the samples can be inspected by all in-line and near-line methods, and the remaining samples are only evaluated through one or two forms of in-line inspection. To fully exploit data for deep learning-driven automatic defect detection, the models must have the ability to leverage multimodal training and handle incomplete modalities during inference. In this paper, we propose CMDIAD, a Cross-Modal Distillation framework for IAD to demonstrate the feasibility of a Multi-modal Training, Few-modal Inference (MTFI) pipeline. Our findings show that the MTFI pipeline can more effectively utilize incomplete multimodal information compared to applying only a single modality for training and inference. Moreover, we investigate the reasons behind the asymmetric performance improvement using point clouds or RGB images as the main modality of inference. This provides a foundation for our future multimodal dataset construction with additional modalities from manufacturing scenarios.",
+ "comments": "For a published version refer to the Information Fusion, DOI. https://doi.org/10.1016/j.inffus.2025.103572",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2405.13571",
+  "bytes": 3881101,
+  "sha256": "e7b6394ed84790ea2c6eed5750ae62ca7e1cff01e69c670261ad1a2043c76cdd"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2405.13571",
+  "bytes": 3881101,
+  "sha256": "e7b6394ed84790ea2c6eed5750ae62ca7e1cff01e69c670261ad1a2043c76cdd",
+  "kind": "pdf",
+  "n_files": 0,
+  "tex_files": [],
+  "note": "e-print was a PDF, no LaTeX available"
+ }
+}

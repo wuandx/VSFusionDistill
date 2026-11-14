@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "images_per_modality": 715,
+  "recordings": 7,
+  "groups": 7,
+  "all_images_decoded": true,
+  "all_hashes_match": true,
+  "bounds_valid": true,
+  "train_val_groups_disjoint": true,
+  "cross_role_image_duplicates": 0,
+  "other_original_test_sources_read": false
+}

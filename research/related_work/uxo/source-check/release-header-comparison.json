@@ -1,0 +1,149 @@
+{
+  "url": "https://zenodo.org/records/13778485/files/data_export_recordings.7z?download=1",
+  "py7zr": "1.1.4",
+  "archive_size": 16658054765,
+  "archive_members_listed": 162771,
+  "bytes_transferred": 933860,
+  "operation": "header metadata only; list, not extract",
+  "ranges": [
+    {
+      "start": 0,
+      "end_inclusive": 5,
+      "bytes": 6,
+      "path": "header-range-0-5.bin",
+      "sha256": "66fa59e8d4a03861706e6197b6189eb9c7fa6a47a23da2a69aaa6eb6260182ff"
+    },
+    {
+      "start": 6,
+      "end_inclusive": 6,
+      "bytes": 1,
+      "path": "header-range-6-6.bin",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+    },
+    {
+      "start": 7,
+      "end_inclusive": 7,
+      "bytes": 1,
+      "path": "header-range-7-7.bin",
+      "sha256": "e52d9c508c502347344d8c07ad91cbd6068afc75ff6292f062a09ca381c89e71"
+    },
+    {
+      "start": 8,
+      "end_inclusive": 11,
+      "bytes": 4,
+      "path": "header-range-8-11.bin",
+      "sha256": "dcab482e7bf9701a3bacbce94542cb565fed85241688813424315ba6e209dfd4"
+    },
+    {
+      "start": 12,
+      "end_inclusive": 19,
+      "bytes": 8,
+      "path": "header-range-12-19.bin",
+      "sha256": "f8e0d8c112e5918237cd24afb0520b264f67328c1b8cfb063620fd73b10e6c53"
+    },
+    {
+      "start": 20,
+      "end_inclusive": 27,
+      "bytes": 8,
+      "path": "header-range-20-27.bin",
+      "sha256": "b8282e78d87c2a42f7c0f5b543c0d7760d3fe5a3860a25c20ec57ddaa4d80b81"
+    },
+    {
+      "start": 28,
+      "end_inclusive": 31,
+      "bytes": 4,
+      "path": "header-range-28-31.bin",
+      "sha256": "832eb43613c3d876ae41671af8b0c33118592e932de7a8ce17f160c2d0aa1add"
+    },
+    {
+      "start": 16658054724,
+      "end_inclusive": 16658054764,
+      "bytes": 41,
+      "path": "header-range-16658054724-16658054764.bin",
+      "sha256": "f2ded4de750ed095e7f67b72ad509799434922a23a79ec473d6275a9f2ef48a2"
+    },
+    {
+      "start": 16657120937,
+      "end_inclusive": 16658054723,
+      "bytes": 933787,
+      "path": "header-range-16657120937-16658054723.bin",
+      "sha256": "38e9e70658a62887d0e50a8742b884f73c3f8282dca4b3ffa75185b2ed0ffa10"
+    }
+  ],
+  "selected_non_test_files": [
+    {
+      "sample": "2023-09-21_101622_0822",
+      "archive_member": "recordings/15cm_mortar/2023-09-21_101622/gopro/0822.jpg",
+      "local_path": "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101622\\gopro\\0822.jpg",
+      "archive_size": 273253,
+      "local_size": 273253,
+      "archive_crc32": 1057253130,
+      "local_crc32": 1057253130,
+      "size_matches": true,
+      "crc_matches": true,
+      "local_sha256": "bb7ae1346f593d5a8865d7010489ac95f4393a4192b393a68d5253fbcd5ec07d"
+    },
+    {
+      "sample": "2023-09-21_101622_0822",
+      "archive_member": "recordings/15cm_mortar/2023-09-21_101622/labels/0822.json",
+      "local_path": "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101622\\labels\\0822.json",
+      "archive_size": 103,
+      "local_size": 103,
+      "archive_crc32": 1287222946,
+      "local_crc32": 1287222946,
+      "size_matches": true,
+      "crc_matches": true,
+      "local_sha256": "3bc68dc0616fd599227424f73d1c36ba575a4e980043ecf91e4bc7931db27792"
+    },
+    {
+      "sample": "2023-09-21_103140_0223",
+      "archive_member": "recordings/15cm_mortar/2023-09-21_103140/gopro/0223.jpg",
+      "local_path": "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103140\\gopro\\0223.jpg",
+      "archive_size": 306895,
+      "local_size": 306895,
+      "archive_crc32": 1269351442,
+      "local_crc32": 1269351442,
+      "size_matches": true,
+      "crc_matches": true,
+      "local_sha256": "eecc8adcfda0ed1384bd0164bd65660175cc65b839848dd88640068a90bfd433"
+    },
+    {
+      "sample": "2023-09-21_103140_0223",
+      "archive_member": "recordings/15cm_mortar/2023-09-21_103140/labels/0223.json",
+      "local_path": "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103140\\labels\\0223.json",
+      "archive_size": 102,
+      "local_size": 102,
+      "archive_crc32": 1202010957,
+      "local_crc32": 1202010957,
+      "size_matches": true,
+      "crc_matches": true,
+      "local_sha256": "cdaa879f7033a99e1868c0b56b1d181026d8a6dc14baa4ac0b8a6387650100e7"
+    },
+    {
+      "sample": "2023-09-21_103140_0309",
+      "archive_member": "recordings/15cm_mortar/2023-09-21_103140/gopro/0309.jpg",
+      "local_path": "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103140\\gopro\\0309.jpg",
+      "archive_size": 275516,
+      "local_size": 275516,
+      "archive_crc32": 2743808128,
+      "local_crc32": 2743808128,
+      "size_matches": true,
+      "crc_matches": true,
+      "local_sha256": "19a43e0de5cc47c26b4ef1a2d67749e824f1164cb07a8f4f6abd62c2b94816c8"
+    },
+    {
+      "sample": "2023-09-21_103140_0309",
+      "archive_member": "recordings/15cm_mortar/2023-09-21_103140/labels/0309.json",
+      "local_path": "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103140\\labels\\0309.json",
+      "archive_size": 103,
+      "local_size": 103,
+      "archive_crc32": 1899644263,
+      "local_crc32": 1899644263,
+      "size_matches": true,
+      "crc_matches": true,
+      "local_sha256": "191b286e57c77f43dd49ea447bf17f2fa1833df1f6ed7f1461dae93a5f6b96ca"
+    }
+  ],
+  "all_selected_size_crc_match": true,
+  "limit": "CRC32+size identity evidence is not a full cryptographic comparison of remote member bytes."
+}

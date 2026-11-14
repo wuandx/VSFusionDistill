@@ -1,0 +1,43 @@
+{
+ "arxiv_id": "2409.07004",
+ "slug": "performance-assessment-of-feature-detection-methods-for-2-d-",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:45:12",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Performance Assessment of Feature Detection Methods for 2-D FS Sonar Imagery",
+ "authors": [
+  "Kyatham, Hitesh",
+  "Negahdaripour, Shahriar",
+  "Xu, Michael",
+  "Lin, Xiaomin",
+  "Yu, Miao",
+  "Aloimonos, Yiannis"
+ ],
+ "date": "2024/09/11",
+ "doi": "10.1109/OCEANS55160.2024.10754482",
+ "journal": "",
+ "abstract": "Abstract: Underwater robot perception is crucial in scientific subsea exploration and commercial operations. The key challenges include non-uniform lighting and poor visibility in turbid environments. High-frequency forward-look sonar cameras address these issues, by providing high-resolution imagery at maximum range of tens of meters, despite complexities posed by high degree of speckle noise, and lack of color and texture. In particular, robust feature detection is an essential initial step for automated object recognition, localization, navigation, and 3-D mapping. Various local feature detectors developed for RGB images are not well-suited for sonar data. To assess their performances, we evaluate a number of feature detectors using real sonar images from five different sonar devices. Performance metrics such as detection accuracy, false positives, and robustness to variations in target characteristics and sonar devices are applied to analyze the experimental results. The study would provide a deeper insight into the bottlenecks of feature detection for sonar data, and developing more effective methods",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2409.07004",
+  "bytes": 2069357,
+  "sha256": "48a797ac6c52b233189537bb4f84d984f5dc2341f2530703f4307efdf1c62735"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2409.07004",
+  "bytes": 1884557,
+  "sha256": "d0f708df55f67e39b7bd2151818763760d6ddfe0bb1d0b7c3c5baf3c7a7b074c",
+  "kind": "tar",
+  "n_files": 19,
+  "tex_files": [
+   "main.tex",
+   "sections/00_abstract.tex",
+   "sections/01_intro.tex",
+   "sections/02_related_work.tex",
+   "sections/03_experiments.tex",
+   "sections/04_results.tex",
+   "sections/05_conclusion.tex"
+  ]
+ }
+}

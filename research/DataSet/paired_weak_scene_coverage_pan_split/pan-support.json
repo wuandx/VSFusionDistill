@@ -1,0 +1,480 @@
+[
+  {
+    "recording": "2023-09-20_171105",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-20_171105"
+    ],
+    "selected_frames": 176,
+    "pan_min": 25.56083297729492,
+    "pan_max": 142.5711669921875,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-20_174200",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-20_174200",
+      "2023-09-20_174439"
+    ],
+    "selected_frames": 116,
+    "pan_min": 27.875999450683597,
+    "pan_max": 155.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-20_174439",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-20_174200",
+      "2023-09-20_174439"
+    ],
+    "selected_frames": 125,
+    "pan_min": 25.323999404907227,
+    "pan_max": 143.67950439453125,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-20_175000",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-20_175000"
+    ],
+    "selected_frames": 166,
+    "pan_min": 50.1533317565918,
+    "pan_max": 155.0001678466797,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-20_175506",
+    "role": "val",
+    "same_joint_train_recordings": [
+      "2023-09-20_175905"
+    ],
+    "selected_frames": 120,
+    "pan_min": 24.42183303833008,
+    "pan_max": 150.73316955566406,
+    "same_joint_train_pan_within_5_degree_percent": 95.0
+  },
+  {
+    "recording": "2023-09-20_175905",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-20_175905"
+    ],
+    "selected_frames": 155,
+    "pan_min": 57.20816802978516,
+    "pan_max": 148.1563262939453,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-20_180506",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-20_180506",
+      "2023-09-20_180722"
+    ],
+    "selected_frames": 169,
+    "pan_min": 35.962501525878906,
+    "pan_max": 155.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-20_180722",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-20_180506",
+      "2023-09-20_180722"
+    ],
+    "selected_frames": 161,
+    "pan_min": 20.90483283996582,
+    "pan_max": 152.4320068359375,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-20_181139",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-20_181139"
+    ],
+    "selected_frames": 131,
+    "pan_min": 11.20366668701172,
+    "pan_max": 151.059326171875,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-20_182317",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-20_182317"
+    ],
+    "selected_frames": 146,
+    "pan_min": -180.0,
+    "pan_max": -180.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_101416",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_101416"
+    ],
+    "selected_frames": 120,
+    "pan_min": 134.3163299560547,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_101622",
+    "role": "test",
+    "same_joint_train_recordings": [
+      "2023-09-21_101840"
+    ],
+    "selected_frames": 146,
+    "pan_min": 135.32899475097656,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_101840",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_101840"
+    ],
+    "selected_frames": 157,
+    "pan_min": 29.375667572021484,
+    "pan_max": 165.0001678466797,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_102500",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_102500"
+    ],
+    "selected_frames": 185,
+    "pan_min": 31.369333267211918,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_103140",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_103140"
+    ],
+    "selected_frames": 128,
+    "pan_min": 125.16799926757812,
+    "pan_max": 165.0001678466797,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_103728",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_103728",
+      "2023-09-21_103927",
+      "2023-09-21_104749"
+    ],
+    "selected_frames": 196,
+    "pan_min": 33.70333480834961,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_103927",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_103728",
+      "2023-09-21_103927",
+      "2023-09-21_104749"
+    ],
+    "selected_frames": 176,
+    "pan_min": 18.946332931518555,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_104749",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_103728",
+      "2023-09-21_103927",
+      "2023-09-21_104749"
+    ],
+    "selected_frames": 118,
+    "pan_min": 136.08016967773438,
+    "pan_max": 165.0001678466797,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_105017",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_105017"
+    ],
+    "selected_frames": 147,
+    "pan_min": 28.156665802001957,
+    "pan_max": 165.0001678466797,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_105230",
+    "role": "val",
+    "same_joint_train_recordings": [
+      "2023-09-21_105017"
+    ],
+    "selected_frames": 132,
+    "pan_min": 40.637001037597656,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 92.42424242424242
+  },
+  {
+    "recording": "2023-09-21_110049",
+    "role": "val",
+    "same_joint_train_recordings": [
+      "2023-09-21_105856"
+    ],
+    "selected_frames": 38,
+    "pan_min": -180.0,
+    "pan_max": -180.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_121124",
+    "role": "test",
+    "same_joint_train_recordings": [
+      "2023-09-21_125924"
+    ],
+    "selected_frames": 164,
+    "pan_min": 32.98816680908203,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_121327",
+    "role": "test",
+    "same_joint_train_recordings": [
+      "2023-09-21_125924"
+    ],
+    "selected_frames": 178,
+    "pan_min": 28.806833267211918,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_121539",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_121539"
+    ],
+    "selected_frames": 102,
+    "pan_min": 36.82383346557617,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_122608",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_122608"
+    ],
+    "selected_frames": 140,
+    "pan_min": 27.639833450317383,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_122855",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_122855"
+    ],
+    "selected_frames": 141,
+    "pan_min": 25.009666442871094,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_123500",
+    "role": "val",
+    "same_joint_train_recordings": [
+      "2023-09-21_123841",
+      "2023-09-21_124039"
+    ],
+    "selected_frames": 175,
+    "pan_min": 32.97816848754883,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_123841",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_123841",
+      "2023-09-21_124039"
+    ],
+    "selected_frames": 106,
+    "pan_min": 23.3439998626709,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_124039",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_123841",
+      "2023-09-21_124039"
+    ],
+    "selected_frames": 106,
+    "pan_min": 16.003334045410156,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_124735",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_124735"
+    ],
+    "selected_frames": 59,
+    "pan_min": -180.0,
+    "pan_max": -180.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_124915",
+    "role": "val",
+    "same_joint_train_recordings": [
+      "2023-09-21_124735"
+    ],
+    "selected_frames": 108,
+    "pan_min": -180.0,
+    "pan_max": -180.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_125048",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_125048"
+    ],
+    "selected_frames": 100,
+    "pan_min": -180.0,
+    "pan_max": -180.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_155609",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_155609"
+    ],
+    "selected_frames": 57,
+    "pan_min": -152.4913330078125,
+    "pan_max": 175.27133178710938,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_160146",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_160146"
+    ],
+    "selected_frames": 69,
+    "pan_min": -154.89967346191406,
+    "pan_max": 177.10816955566406,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_160551",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_160551"
+    ],
+    "selected_frames": 155,
+    "pan_min": -155.0118408203125,
+    "pan_max": 180.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_161916",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_161916"
+    ],
+    "selected_frames": 118,
+    "pan_min": -179.9998321533203,
+    "pan_max": 180.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_105856",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_105856"
+    ],
+    "selected_frames": 20,
+    "pan_min": -180.0,
+    "pan_max": -180.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-20_174711",
+    "role": "test",
+    "same_joint_train_recordings": [
+      "2023-09-20_174200",
+      "2023-09-20_174439"
+    ],
+    "selected_frames": 30,
+    "pan_min": 65.31950378417969,
+    "pan_max": 146.44366455078125,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-20_180126",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-20_180126"
+    ],
+    "selected_frames": 100,
+    "pan_min": 32.96549987792969,
+    "pan_max": 155.0001678466797,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_124241",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_124241",
+      "2023-09-21_124440"
+    ],
+    "selected_frames": 100,
+    "pan_min": 11.47350025177002,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_124440",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_124241",
+      "2023-09-21_124440"
+    ],
+    "selected_frames": 93,
+    "pan_min": 20.364166259765625,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  },
+  {
+    "recording": "2023-09-21_125924",
+    "role": "train",
+    "same_joint_train_recordings": [
+      "2023-09-21_125924"
+    ],
+    "selected_frames": 100,
+    "pan_min": 30.226333618164062,
+    "pan_max": 165.0,
+    "same_joint_train_pan_within_5_degree_percent": 100.0
+  }
+]

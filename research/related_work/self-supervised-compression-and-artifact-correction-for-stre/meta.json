@@ -1,0 +1,40 @@
+{
+ "arxiv_id": "2511.13922",
+ "slug": "self-supervised-compression-and-artifact-correction-for-stre",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:45:56",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Self-Supervised Compression and Artifact Correction for Streaming Underwater Imaging Sonar",
+ "authors": [
+  "Qian, Rongsheng",
+  "Xu, Chi",
+  "Ma, Xiaoqiang",
+  "Fang, Hao",
+  "Jin, Yili",
+  "Atlas, William I.",
+  "Liu, Jiangchuan"
+ ],
+ "date": "2025/11/17",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Real-time imaging sonar is crucial for underwater monitoring where optical sensing fails, but its use is limited by low uplink bandwidth and severe sonar-specific artifacts (speckle, motion blur, reverberation, acoustic shadows) affecting up to 98% of frames. We present SCOPE, a self-supervised framework that jointly performs compression and artifact correction without clean-noise pairs or synthetic assumptions. SCOPE combines (i) Adaptive Codebook Compression (ACC), which learns frequency-encoded latent representations tailored to sonar, with (ii) Frequency-Aware Multiscale Segmentation (FAMS), which decomposes frames into low-frequency structure and sparse high-frequency dynamics while suppressing rapidly fluctuating artifacts. A hedging training strategy further guides frequency-aware learning using low-pass proxy pairs generated without labels. Evaluated on months of in-situ ARIS sonar data, SCOPE achieves a structural similarity index (SSIM) of 0.77, representing a 40% improvement over prior self-supervised denoising baselines, at bitrates down to &lt;= 0.0118 bpp. It reduces uplink bandwidth by more than 80% while improving downstream detection. The system runs in real time, with 3.1 ms encoding on an embedded GPU and 97 ms full multi-layer decoding on the server end. SCOPE has been deployed for months in three Pacific Northwest rivers to support real-time salmon enumeration and environmental monitoring in the wild. Results demonstrate that learning frequency-structured latents enables practical, low-bitrate sonar streaming with preserved signal details under real-world deployment conditions.",
+ "comments": "Accepted to WACV 2026",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2511.13922",
+  "bytes": 4009051,
+  "sha256": "31d8534673e6b910c22c9fce50296e3792d32cbc68d311d6d6134b61484d4ec6"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2511.13922",
+  "bytes": 3594603,
+  "sha256": "3ee6b3b47ac8b7870a694f9a8b44b15d89d6d1b2f5a5f62831c8a5bb4525dac3",
+  "kind": "tar",
+  "n_files": 15,
+  "tex_files": [
+   "main.tex",
+   "preamble.tex"
+  ]
+ }
+}

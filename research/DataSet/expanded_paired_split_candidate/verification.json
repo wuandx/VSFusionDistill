@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "summary": {
+    "train": {
+      "recordings": 22,
+      "selected": 2023,
+      "reserve": 262,
+      "per_class": {
+        "100lbs_aircraft_bomb": 8,
+        "mortar_shell": 7,
+        "incindiary_grenade": 7
+      }
+    },
+    "val": {
+      "recordings": 7,
+      "selected": 653,
+      "reserve": 80,
+      "per_class": {
+        "100lbs_aircraft_bomb": 3,
+        "mortar_shell": 2,
+        "incindiary_grenade": 2
+      }
+    },
+    "test": {
+      "recordings": 7,
+      "selected": 642,
+      "reserve": 56,
+      "per_class": {
+        "100lbs_aircraft_bomb": 3,
+        "mortar_shell": 2,
+        "incindiary_grenade": 2
+      }
+    }
+  },
+  "recordings": 36,
+  "selected": 3318,
+  "reserve": 398,
+  "new_recordings": 6,
+  "new_assistant_accepted_pairs": 318,
+  "original_3398_identities_preserved": true,
+  "recording_and_group_disjoint": true,
+  "cross_role_duplicate_hashes": 0,
+  "all_inputs_hash_unchanged": true,
+  "all_images_decoded": true,
+  "all_boxes_in_bounds": true,
+  "broad_conditions": 11,
+  "all_broad_conditions_in_train": true,
+  "user_accepted_new_pairs": 0,
+  "expert_verified_new_pairs": 0
+}

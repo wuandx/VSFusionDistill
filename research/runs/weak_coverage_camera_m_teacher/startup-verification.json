@@ -1,0 +1,99 @@
+{
+  "verified_at": "2026-11-14T09:51:54.665732+00:00",
+  "training_started": true,
+  "name": "weak_coverage_camera_m_teacher",
+  "service": "weak-coverage-camera-m-teacher.service",
+  "actual_train_epoch": 1,
+  "actual_iteration_in_epoch": 320,
+  "iterations_per_epoch": 518,
+  "latest_optimizer_log": "11/14 17:51:54 - mmengine - INFO - Epoch(train)   [1][320/518]  base_lr: 1.9081e-05 lr: 1.9081e-05  eta: 9:45:08  time: 0.3367  data_time: 0.0156  memory: 7463  grad_norm: 218.2950  loss: 42.3362  camera/loss_cls: 1.3044  camera/loss_bbox: 4.5023  camera/loss_obj: 36.5295",
+  "preflight_passed": true,
+  "preflight_train_semantics_hash_match": true,
+  "checks": {
+    "initialization_strict_match": true,
+    "input_shape": [
+      8,
+      3,
+      640,
+      640
+    ],
+    "coverage": {
+      "train": [
+        [
+          [
+            0
+          ],
+          640,
+          360
+        ],
+        [
+          [
+            1
+          ],
+          640,
+          360
+        ],
+        [
+          [
+            2
+          ],
+          640,
+          360
+        ]
+      ],
+      "val": [
+        [
+          [
+            0
+          ],
+          640,
+          360
+        ],
+        [
+          [
+            1
+          ],
+          640,
+          360
+        ],
+        [
+          [
+            2
+          ],
+          640,
+          360
+        ]
+      ]
+    },
+    "loss": 101.29194641113281,
+    "geometry_max_abs_error": 0.0,
+    "inference_passed": true,
+    "checkpoint_roundtrip": {
+      "raw_field": "ema_state_dict",
+      "ema_field": "state_dict",
+      "verified_against_live_models": true,
+      "raw_equals_ema": false
+    },
+    "formal_training": false,
+    "short_batch2_loss": 100.68348693847656,
+    "short_batch2_finite_gradients": true
+  },
+  "train_images": 4138,
+  "val_images": 573,
+  "epochs": 200,
+  "total_updates": 103600,
+  "checkpoint_initialization": "fresh COCO-M backbone/neck, no UXO resume",
+  "frozen_initialization_sha256": "eaab1cad97fa5f3b404db01e75e7cd7931b6d81a21b4c0fbee7be4eefea11488",
+  "dataset_sha256": "c5e48db49087cb5a03503343ca1b7ded7c238aad625c53d0592e8e66bd00f7d1",
+  "source_repo_read_only_hashes_match_preflight": true,
+  "only_camera_input": true,
+  "augmentation": false,
+  "sonar_training": false,
+  "test_content_read": false,
+  "automatic_restart": false,
+  "observed_log_lines": [
+    "11/14 17:51:40 - mmengine - INFO - Epoch(train)   [1][280/518]  base_lr: 1.4609e-05 lr: 1.4609e-05  eta: 9:46:05  time: 0.3363  data_time: 0.0158  memory: 7463  grad_norm: 159.6858  loss: 56.4270  camera/loss_cls: 0.6352  camera/loss_bbox: 4.8965  camera/loss_obj: 50.8953",
+    "11/14 17:51:47 - mmengine - INFO - Epoch(train)   [1][300/518]  base_lr: 1.6771e-05 lr: 1.6771e-05  eta: 9:45:23  time: 0.3359  data_time: 0.0157  memory: 7463  grad_norm: 175.2009  loss: 50.8033  camera/loss_cls: 0.8410  camera/loss_bbox: 4.7962  camera/loss_obj: 45.1661",
+    "11/14 17:51:54 - mmengine - INFO - Epoch(train)   [1][320/518]  base_lr: 1.9081e-05 lr: 1.9081e-05  eta: 9:45:08  time: 0.3367  data_time: 0.0156  memory: 7463  grad_norm: 218.2950  loss: 42.3362  camera/loss_cls: 1.3044  camera/loss_bbox: 4.5023  camera/loss_obj: 36.5295"
+  ]
+}

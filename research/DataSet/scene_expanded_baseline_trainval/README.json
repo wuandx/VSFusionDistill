@@ -1,0 +1,14 @@
+{
+  "description": "Independent train/val package. Relative image paths resolve against this directory.",
+  "classes": [
+    "100lbs_aircraft_bomb",
+    "mortar_shell",
+    "incindiary_grenade"
+  ],
+  "test_included": false,
+  "geometry": "keep_ratio + right/bottom pad114 to640",
+  "label_semantics": {
+    "camera": "native SD camera boxes",
+    "sonar": "accepted visible-echo boxes"
+  }
+}

@@ -1,0 +1,45 @@
+{
+ "arxiv_id": "2512.15581",
+ "slug": "imkd-intensity-aware-multi-level-knowledge-distillation-for-",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:51:47",
+ "tier": "",
+ "why_relevant": "",
+ "title": "IMKD: Intensity-Aware Multi-Level Knowledge Distillation for Camera-Radar Fusion",
+ "authors": [
+  "Mishra, Shashank",
+  "Patil, Karan",
+  "Stricker, Didier",
+  "Rambach, Jason"
+ ],
+ "date": "2025/12/17",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: High-performance Radar-Camera 3D object detection can be achieved by leveraging knowledge distillation without using LiDAR at inference time. However, existing distillation methods typically transfer modality-specific features directly to each sensor, which can distort their unique characteristics and degrade their individual strengths. To address this, we introduce IMKD, a radar-camera fusion framework based on multi-level knowledge distillation that preserves each sensor&#39;s intrinsic characteristics while amplifying their complementary strengths. IMKD applies a three-stage, intensity-aware distillation strategy to enrich the fused representation across the architecture: (1) LiDAR-to-Radar intensity-aware feature distillation to enhance radar representations with fine-grained structural cues, (2) LiDAR-to-Fused feature intensity-guided distillation to selectively highlight useful geometry and depth information at the fusion level, fostering complementarity between the modalities rather than forcing them to align, and (3) Camera-Radar intensity-guided fusion mechanism that facilitates effective feature alignment and calibration. Extensive experiments on the nuScenes benchmark show that IMKD reaches 67.0% NDS and 61.0% mAP, outperforming all prior distillation-based radar-camera fusion methods. Our code and models are available at this https URL .",
+ "comments": "Accepted at IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026. 22 pages, 8 figures. Includes supplementary material",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2512.15581",
+  "bytes": 12168812,
+  "sha256": "bc10b9eee81e10527f3160235f31661d8433800d71ff59dcc4e00e637ea4f592"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2512.15581",
+  "bytes": 33567922,
+  "sha256": "4661b35c492555b35f1209dbce84b04dcba5ad331722a7217f7741b56329204e",
+  "kind": "tar",
+  "n_files": 26,
+  "tex_files": [
+   "main.tex",
+   "preamble.tex",
+   "sec/0_abstract.tex",
+   "sec/1_intro.tex",
+   "sec/2_realted_work.tex",
+   "sec/3_methodology.tex",
+   "sec/4_experiments.tex",
+   "sec/5_conclusion.tex",
+   "sec/6_supplementary.tex",
+   "sec/acknowledgement.tex"
+  ]
+ }
+}

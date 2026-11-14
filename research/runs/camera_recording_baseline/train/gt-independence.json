@@ -1,0 +1,10 @@
+{
+  "train": {
+    "images": 18,
+    "empty_GT_predictions_identical": true
+  },
+  "val": {
+    "images": 6,
+    "empty_GT_predictions_identical": true
+  }
+}

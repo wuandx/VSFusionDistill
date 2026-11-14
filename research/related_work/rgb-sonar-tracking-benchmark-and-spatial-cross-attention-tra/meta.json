@@ -1,0 +1,63 @@
+{
+ "arxiv_id": "2406.07189",
+ "slug": "rgb-sonar-tracking-benchmark-and-spatial-cross-attention-tra",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:39:49",
+ "tier": "",
+ "why_relevant": "",
+ "title": "RGB-Sonar Tracking Benchmark and Spatial Cross-Attention Transformer Tracker",
+ "authors": [
+  "Li, Yunfeng",
+  "Wang, Bo",
+  "Sun, Jiuran",
+  "Wu, Xueyi",
+  "Li, Ye"
+ ],
+ "date": "2024/06/11",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Vision camera and sonar are naturally complementary in the underwater environment. Combining the information from two modalities will promote better observation of underwater targets. However, this problem has not received sufficient attention in previous research. Therefore, this paper introduces a new challenging RGB-Sonar (RGB-S) tracking task and investigates how to achieve efficient tracking of an underwater target through the interaction of RGB and sonar modalities. Specifically, we first propose an RGBS50 benchmark dataset containing 50 sequences and more than 87000 high-quality annotated bounding boxes. Experimental results show that the RGBS50 benchmark poses a challenge to currently popular SOT trackers. Second, we propose an RGB-S tracker called SCANet, which includes a spatial cross-attention module (SCAM) consisting of a novel spatial cross-attention layer and two independent global integration modules. The spatial cross-attention is used to overcome the problem of spatial misalignment of between RGB and sonar images. Third, we propose a SOT data-based RGB-S simulation training method (SRST) to overcome the lack of RGB-S training datasets. It converts RGB images into sonar-like saliency images to construct pseudo-data pairs, enabling the model to learn the semantic structure of RGB-S-like data. Comprehensive experiments show that the proposed spatial cross-attention effectively achieves the interaction between RGB and sonar modalities and SCANet achieves state-of-the-art performance on the proposed benchmark. The code is available at this https URL .",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2406.07189",
+  "bytes": 8421073,
+  "sha256": "ea1476540477607791418f4293db742458bda8b3c1179217ecdf6bad43ea0dd9"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2406.07189",
+  "bytes": 7723592,
+  "sha256": "187fdadd9bd6a7deb5c5aaba3ba3f92a5585966c4a9d806876ca87202337ee6c",
+  "kind": "tar",
+  "n_files": 49,
+  "tex_files": [
+   "figures/fig_pr_sr_plots.tex",
+   "figures/fig_rgb_tdes.tex",
+   "figures/fig_rgb_trackingresults.tex",
+   "figures/fig_rgbs50_benchmark.tex",
+   "figures/fig_rgbs50_examples.tex",
+   "figures/fig_rgbs_framework.tex",
+   "figures/fig_rgbs_heatmap.tex",
+   "figures/fig_rgbs_radar_npr.tex",
+   "figures/fig_rgbs_radar_sr.tex",
+   "figures/fig_rgbs_sca.tex",
+   "figures/fig_rgbs_srst.tex",
+   "main.tex",
+   "sections/0_abstract.tex",
+   "sections/0_keywords.tex",
+   "sections/1_introduction.tex",
+   "sections/2_related_work.tex",
+   "sections/3_benchmark.tex",
+   "sections/4_method.tex",
+   "sections/5_experiments.tex",
+   "sections/6_conclusion.tex",
+   "sections/acknowledgement.tex",
+   "tables/ablation_layers.tex",
+   "tables/ablation_scam.tex",
+   "tables/ablation_srst.tex",
+   "tables/attribute.tex",
+   "tables/attribute_results.tex",
+   "tables/benchmarks_compare.tex",
+   "tables/compare_results.tex"
+  ]
+ }
+}

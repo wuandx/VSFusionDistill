@@ -1,0 +1,19 @@
+{
+  "source_camera_and_label_hashes_verified": true,
+  "mesh_and_texture_hashes_verified": true,
+  "render_views_checked": 96,
+  "max_surface_mapping_coordinate_error_px": 0.9957455689786912,
+  "synthetic_reprojection_independently_recomputed": true,
+  "fit_check_disjoint": true,
+  "selection_uses_fit_only": true,
+  "real_pose_acceptances": 0,
+  "tag_rotation_invariant_to_double_side_length": true,
+  "max_scale_rotation_matrix_error": 0.0,
+  "max_independent_trace_angle_error_deg": 5.684341886080802e-14,
+  "images_decoded": 137,
+  "script_parse_checks": 5,
+  "local_links_resolved": 28,
+  "browser_rendering_verified": false,
+  "physical_registration_validated": false,
+  "delivery_report_and_html_links_verified": 37
+}

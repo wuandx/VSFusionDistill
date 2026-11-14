@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2603.15200",
+ "slug": "physically-motivated-kd-side-scan",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:26:41",
+ "tier": "A",
+ "why_relevant": "KD used to correct side-scan imagery geometry",
+ "title": "Physically Motivated Knowledge Distillation for Blind Geometric Correction of Side-Scan Sonar Imagery",
+ "authors": [
+  "Lei, Can",
+  "Rajani, Hayat",
+  "Franchi, Valerio",
+  "Garcia, Rafael",
+  "Gracias, Nuno",
+  "Wang, Huigang",
+  "Qiang, Wei"
+ ],
+ "date": "2026/03/16",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Side-scan sonar (SSS) imagery is susceptible to geometric distortions caused by platform motion instability, which degrade geometric consistency and limit downstream analyses such as mosaicking and perception. Conventional correction methods typically rely on navigation and attitude measurements, which are often unreliable in real ocean conditions. This unreliability necessitates blind geometric correction from a single distorted image, a highly ill-posed problem. To address this issue, we propose a physically motivated knowledge distillation framework for blind geometric correction of SSS imagery. Specifically, a teacher network is trained using paired distorted and geocoded reference images to learn distortion-related geometric differences, and this knowledge is transferred to a student network that performs correction using only a single distorted image during blind inference. To ensure physically plausible deformation estimation, we design a parametric decoder that represents distortions as row-wise affine transformations consistent with the SSS line-scanning imaging mechanism. To compensate for the absence of reference information during blind inference, a hallucination context module is introduced to approximate the teachers geometric reasoning from distorted features under a multi-level distillation scheme. In addition, a differentiable forward warping strategy is adopted to handle the non-bijective deformation characteristics of SSS imagery in an end-to-end manner. Extensive experiments on multiple datasets show that the proposed method outperforms state-of-the-art baselines and generalizes well across different platforms and acquisition conditions.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2603.15200",
+  "bytes": 16629963,
+  "sha256": "329db56cafc93ebff58285b704efec16697599fd2e1dea1f2ae3eac98d5cdccf"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2603.15200",
+  "bytes": 15256105,
+  "sha256": "36a144e008e25fd59f066823cd03bd8f5895797aaeee3e34d88a3ffec4939a9b",
+  "kind": "tar",
+  "n_files": 12,
+  "tex_files": [
+   "version2.tex"
+  ]
+ }
+}

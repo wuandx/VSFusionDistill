@@ -1,0 +1,219 @@
+[
+ {
+  "id": "2508.10445",
+  "slug": "dod-sa-infrared-visible-decoupled-object-detec",
+  "tier": "A",
+  "why": "与本文最同构：**只有一侧模态有标注**，靠跨模态知识迁移 + 三阶段自训练 + 伪标签分配器把标注能力搬到无标注模态——直接对应学生侧「少量人工标注 + 伪标签」",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2609.18124",
+  "slug": "act-aligned-consensus-teaching-for-label-effic",
+  "tier": "A",
+  "why": "少数成对样本有标注、其余全无标注的半监督可见光-红外检测；共识伪标签 + 循环一致区域对齐 + 尾类实例增广，正是「学生侧标注稀缺」的解法与评测口径",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2605.10130",
+  "slug": "thermal-det",
+  "tier": "A",
+  "why": "冻结 RGB 教师对**成对但无标注**的 thermal 数据提供几何+语义伪监督，无人工标注迁移开放词汇知识（+2–4 AP）——「强模态全标注、弱模态零标注」的最新范式",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2403.05061",
+  "slug": "radardistill-boosting-radar-based-object-detec",
+  "tier": "A",
+  "why": "跨模态**特征级**蒸馏的标准配方（跨模态对齐 + 激活阈值过滤 + proposal 内蒸馏），radar-only 20.5 mAP / 43.7 NDS——本文方法对照与超参依据",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2311.05494",
+  "slug": "object-centric-cross-modal-feature-distillatio",
+  "tier": "A",
+  "why": "把「object-level」做成**显式模块**：slot attention 把特征图解耦为物体级 + 像素级再蒸馏，几乎把与教师的差距减半——直接支撑本文 object-level KD 的命名与设计",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2601.02016",
+  "slug": "enhancing-object-detection-with-privileged-inf",
+  "tier": "A",
+  "why": "把 **LUPI 正式引入检测**：特权信息（bbox mask / saliency / depth）仅训练期可用、推理零成本，5 个检测器一致超基线——本文「教师见强模态、学生只见弱模态」的理论框架",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2108.07482",
+  "slug": "g-detkd-towards-general-distillation-framework",
+  "tier": "A",
+  "why": "首个同时覆盖**同构与异构**师生对的通用检测蒸馏（跨 FPN 软匹配 + 对比关系蒸馏）；用它可以正当化本文「共享 YOLOX 架构」的选择，并说明异构情形已被覆盖",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2111.11837",
+  "slug": "focal-and-global-knowledge-distillation-for-de",
+  "tier": "A",
+  "why": "证明**等权蒸馏有害**、须按前景/背景分离并重建像素间关系（RetinaNet/FasterRCNN/RepPoints/MaskRCNN +2.9–3.6 mAP）——本文只蒸目标区域的直接依据",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2102.12252",
+  "slug": "localization-distillation-for-dense-object-det",
+  "tier": "A",
+  "why": "在 dense detector（GFocal，与 YOLOX 同族）上证明**定位知识比语义知识更值得蒸**，logit 模仿可胜特征模仿（40.1→42.1 AP）",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2609.31785",
+  "slug": "cross-modal-knowledge-distillation-for-acousti",
+  "tier": "B",
+  "why": "唯一的「弱模态（音频）学生」跨模态 KD 实测：video 教师→audio 学生，多数方法只让 macro acc 小涨、**PR-AUC 基本不动**，主要是工作点移动（no-pedestrian 准确率升、召回降）——审稿人最可能拿它质疑本文增益的性质",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2409.05564",
+  "slug": "lerojd-lidar-extended-radar-only-object-detect",
+  "tier": "B",
+  "why": "在 Lidar→radar-only 上量化「跨模态 KD 最多 +3.9 mAP，不如多阶段 thin-out 的 +4.2」——提示本文必须把增益拆成 KD 项与初始化/伪标签项",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2512.15581",
+  "slug": "imkd-intensity-aware-multi-level-knowledge-dis",
+  "tier": "B",
+  "why": "强度感知的多层级蒸馏，67.0 NDS / 61.0 mAP；来自 **DFKI-AV（与 CMOLD 的 DFKI UXO 数据集同机构）**，是同机构后续工作最该引的一篇",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2303.02203",
+  "slug": "x3kd-knowledge-distillation-across-modalities",
+  "tier": "B",
+  "why": "跨任务（实例分割教师）+ 跨模态特征 + 对抗 + 跨模态**输出**蒸馏组合，并给出 RADAR-based 3DOD 的泛化证据——可支撑「输出级 + 特征级并用」的设计",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2405.13571",
+  "slug": "cmdiad-cross-modal-distillation-for-incomplete",
+  "tier": "B",
+  "why": "训练时多模态、**推理时可缺模态**的跨模态蒸馏——支撑「部署只有声呐」这一前提的合理性",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2304.08028",
+  "slug": "mmanet-margin-aware-distillation-and-modality",
+  "tier": "B",
+  "why": "按分类不确定性加权蒸馏 + 专治「弱模态组合」的正则——对应本文学生模态信息量显著低于教师的场景",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2112.04840",
+  "slug": "knowledge-distillation-for-object-detection-vi",
+  "tier": "B",
+  "why": "一阶段检测器专用：师生对候选框**排序不同**导致精度差，蒸排序优于蒸软标签——对本文伪标签筛选与置信度校准可直接复用",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "1906.03609",
+  "slug": "distilling-object-detectors-with-fine-grained",
+  "tier": "B",
+  "why": "object-level 蒸馏的源头：只在**近目标 anchor 位置**模仿（KITTI 上 +15% mAP）——本文「只蒸目标区域」的历史依据",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2009.11528",
+  "slug": "mimicdet-bridging-the-gap-between-one-stage-an",
+  "tier": "B",
+  "why": "一阶段/两阶段异构结构蒸馏源头篇（共享 backbone 双 head 使特征兼容，COCO 46.1 mAP）——回答「师生结构不完全一致时怎么蒸」",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2501.07101",
+  "slug": "samkd-spatial-hierarchical-masked-distillation",
+  "tier": "B",
+  "why": "空间分层掩码（粗到细编码 object-aware locality）+ 掩码 logit 蒸馏，35.3→38.8 mAP——「目标感知掩码」路线较新的一篇",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2205.04072",
+  "slug": "beyond-bounding-box-multimodal-knowledge-learn",
+  "tier": "B",
+  "why": "显式区分 **image-level 与 object-level 跨模态互信息**蒸馏（+1.6–2.1%），是本文 object-level 措辞最贴的较早文献",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2602.04583",
+  "slug": "pepr-privileged-event-based-predictive-regular",
+  "tier": "B",
+  "why": "LUPI 新范式：**不做直接特征对齐**，改为在共享隐空间预测特权模态潜特征，赢过对齐式基线——若声呐/光学特征空间不可直接对齐，这是可选的替代损失",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "1908.10559",
+  "slug": "online-sensor-hallucination-via-knowledge-dist",
+  "tier": "B",
+  "why": "最早把「训练时全传感器可用、测试时缺模态」+ KD + privileged 讲清的一篇（分类任务，PAN-MS 评测）——缺模态蒸馏的思想源头",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2405.03355",
+  "slug": "a-generalization-theory-of-cross-modality-dist",
+  "tier": "B",
+  "why": "给出跨模态 distilled 模型的泛化界：**源/目标模态距离**直接影响下游测试误差——为「光学→声呐 gap 大但仍可蒸」提供理论表述与限制条件",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2609.03378",
+  "slug": "when-depth-hurts-reliability-aware-geometry-di",
+  "tier": "B",
+  "why": "「辅助模态可能有害」+ 逐像素可靠性门控只注入与当前表示兼容的知识，教师训后即移除——若审稿人质疑光学教师对声呐的负迁移，这是最贴的方法论",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2609.37243",
+  "slug": "codebook-guided-cross-modal-knowledge-distilla",
+  "tier": "B",
+  "why": "指出特征级对齐的前提是师生表示空间**结构可对齐**，2D 网格 vs 1D 时序时不成立，改用码本做概念级锚点——本文师生同架构恰好满足该前提，可用来正当化设计选择",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2411.16196",
+  "slug": "sdm-d-learn-from-foundation-model-fruit-detect",
+  "tier": "B",
+  "why": "强模型（SAM2+OpenCLIP）生成框→蒸馏到边缘小检测器，**完全无人工标注**即接近全监督——对应本文学生侧用伪标签替代人工标注的路线",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2512.22483",
+  "slug": "scalpel-sam-a-semi-supervised-paradigm-for-ada",
+  "tier": "B",
+  "why": "10% 标注把 SAM 蒸成专家教师 → 再用其伪标签训轻量下游模型，效果可比甚至超全监督——「少标注 + 伪标签 + 蒸馏」三段式的现成模板",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2309.02719",
+  "slug": "dmkd-improving-feature-based-knowledge-distill",
+  "tier": "C",
+  "why": "空间 + 通道双掩码重建 + 自适应融合权重（+4.1%/+4.3%）——掩码式特征蒸馏的备选实现",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2211.10156",
+  "slug": "detrdistill-a-universal-knowledge-distillation",
+  "tier": "C",
+  "why": "DETR 系专用（匈牙利匹配 logits + target-aware 特征），与 YOLOX 架构无关，仅作 KD 组件设计参照",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2608.20916",
+  "slug": "sle-t-semantically-compatible-knowledge-distil",
+  "tier": "C",
+  "why": "处理 DINOv2 教师与学生特征图**尺度不匹配导致语义不兼容**的适配器方案——若将来换大模型教师才会用到",
+  "cmold_section": "II-C"
+ },
+ {
+  "id": "2503.10152",
+  "slug": "hd-ovd-a-hierarchical-semantic-distillation-fr",
+  "tier": "C",
+  "why": "instance / class / image 三级语义蒸馏（OV-COCO novel AP 46.4%）——为「object-level 之外是否还要类别级监督」提供分层模板",
+  "cmold_section": "II-C"
+ }
+]

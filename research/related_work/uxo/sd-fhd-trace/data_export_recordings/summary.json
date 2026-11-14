@@ -1,0 +1,18 @@
+{
+  "archive": "data_export_recordings.7z",
+  "archive_size": 16658054765,
+  "members": 162771,
+  "solid": true,
+  "blocks": 9,
+  "new_bytes_transferred": 0,
+  "operation": "list only; no members extracted",
+  "new_ranges": [],
+  "extension_counts": {
+    ".yaml": 94,
+    ".csv": 188,
+    ".pgm": 74437,
+    ".jpg": 48462,
+    ".json": 39086,
+    ".txt": 94
+  }
+}

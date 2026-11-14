@@ -1,0 +1,62 @@
+{
+ "arxiv_id": "2611.06542",
+ "slug": "evo-opd-privileged-information",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:37:18",
+ "tier": "C",
+ "why_relevant": "privileged information distillation strategies",
+ "title": "EvoOPD: Evolving Privileged Information Strategies for Black-Box On-Policy Distillation",
+ "authors": [
+  "Zhu, Ximo",
+  "Liu, Ruiqi",
+  "Han, Yi",
+  "Wu, Zhengan",
+  "Li, Gengsheng",
+  "Wang, ZiAn",
+  "Yuantian, Zhu",
+  "Jiang, Jin",
+  "Wang, Wenhao"
+ ],
+ "date": "2026/11/04",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Proprietary language models exhibit strong reasoning and coding capabilities, but their output distributions are inaccessible, making fine-grained distillation methods that rely on teacher logits difficult to apply directly to black-box models. We observe that rich textual feedback from a black-box teacher can be treated as privileged information (PI) and converted, through a PI-conditioned privileged teacher, into dense supervision signals on the student&#39;s own trajectories. However, what PI should be acquired from the teacher to most effectively support student learning remains unclear. PI strategies that differ in where they focus, what information they request, and how much detail they provide can have substantially different effects on the current student, and their relative effectiveness can further change as training progresses. Based on this observation, we propose Evolving Privileged Information Strategies for Black-Box On-Policy Distillation (EvoOPD), which treats PI acquisition itself as an optimization problem and maintains a PI Strategy Bank that evolves with the student state. EvoOPD uses the measured repair utility of PI on the current student to adapt the focus, information type, and granularity of teacher feedback, allowing the acquired information to continually match the student&#39;s learning needs. We systematically evaluate EvoOPD on mathematical reasoning and code generation with Qwen3-1.7B, 4B, and 8B students. EvoOPD achieves the best overall performance in all six model-task settings, improving over the strongest baseline in each setting by an average of 2.14 percentage points in mathematics and 1.30 points in code. Further analysis shows that the relative effectiveness of PI acquisition strategies changes with student state, making a fixed strategy difficult to sustain as the best choice throughout distillation.",
+ "comments": "26 pages, 4 figures",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2611.06542",
+  "bytes": 1276068,
+  "sha256": "21d6c666ab5690202b44df435cbd0691797e11b5fcc63291a5e86112ebbf7e77"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2611.06542",
+  "bytes": 974269,
+  "sha256": "baa64b8153a31bbdb06e309768452316a22db32a8dfdd7c712129eb81a42fa69",
+  "kind": "tar",
+  "n_files": 33,
+  "tex_files": [
+   "figures/bank_analysis.tex",
+   "figures/continued_adaptation.tex",
+   "figures/overview.tex",
+   "figures/strategy_motivation.tex",
+   "main.tex",
+   "math_commands.tex",
+   "sections/appendix.tex",
+   "sections/bank_evolution.tex",
+   "sections/cases.tex",
+   "sections/conclusion.tex",
+   "sections/evolve.tex",
+   "sections/experiments.tex",
+   "sections/introduction.tex",
+   "sections/method.tex",
+   "sections/prompts.tex",
+   "sections/related_work.tex",
+   "sections/training_loop.tex",
+   "tables/code.tex",
+   "tables/controls.tex",
+   "tables/math.tex",
+   "tables/rule_schema.tex",
+   "tables/teacher_usage.tex"
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "arxiv_id": "2606.10504",
+ "slug": "cmkd-without-paired-data",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:35:29",
+ "tier": "A",
+ "why_relevant": "cross-modal KD without paired data (theory+algorithm)",
+ "title": "Cross-Modal Knowledge Distillation without Paired Data: Theoretical Foundation and Algorithm",
+ "authors": [
+  "Tran, Trong Khiem",
+  "Chu, Anh Duc",
+  "Pham, Quang Hung",
+  "Nguyen, Phi Le",
+  "Hoang, Trong Nghia"
+ ],
+ "date": "2026/06/09",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Cross-modal knowledge distillation (CMKD) studies how a (large) teacher model trained on one type of data (e.g., images) can guide a (smaller) student model building on another type of data (e.g., text/audio). Existing CMKD methods often require paired multi-modal data with aligned semantics, but obtaining such paired data are often costly and impractical. To mitigate this limitation, we develop a new CMKD framework for the more challenging setting where paired data are unavailable. In particular, we establish a cross-modal distributional relationship between teacher and student models, which reveals two fundamental quantities governing effective distillation: feature alignment and label alignment. These quantities characterize semantic discrepancy between modalities at the levels of representation and prediction distributions, respectively. Motivated by this insight, we propose a principled framework, with theoretical guarantees, that enables effective cross-modal knowledge distillation by aligning distributions rather than individual samples. Extensive experiments across a wide range of multimodal benchmarks show that our framework is highly effective in both unpaired and paired data settings, improving significantly over prior work.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2606.10504",
+  "bytes": 665553,
+  "sha256": "4aca2c541472c70dd07c3c83f1ec84943addaa915396759a9275a20a3dec5886"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2606.10504",
+  "bytes": 1733956,
+  "sha256": "9e53c3e7ef28a943c024aa50a558354de44e87dd80a9c3bfe91b30a2d37f8e90",
+  "kind": "tar",
+  "n_files": 75,
+  "tex_files": [
+   "example_paper.tex"
+  ]
+ }
+}

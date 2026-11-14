@@ -1,0 +1,40 @@
+{
+ "arxiv_id": "2503.09878",
+ "slug": "cleverdistiller-spatial-consistency",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:34:40",
+ "tier": "B",
+ "why_relevant": "simple spatially-consistent cross-modal distillation",
+ "title": "CleverDistiller: Simple and Spatially Consistent Cross-modal Distillation",
+ "authors": [
+  "Govindarajan, Hariprasath",
+  "Wozniak, Maciej K.",
+  "Klingner, Marvin",
+  "Maurice, Camille",
+  "Kiran, B Ravi",
+  "Yogamani, Senthil"
+ ],
+ "date": "2025/03/12",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Vision foundation models (VFMs) such as DINO have led to a paradigm shift in 2D camera-based perception towards extracting generalized features to support many downstream tasks. Recent works introduce self-supervised cross-modal knowledge distillation (KD) as a way to transfer these powerful generalization capabilities into 3D LiDAR-based models. However, they either rely on highly complex distillation losses, pseudo-semantic maps, or limit KD to features useful for semantic segmentation only. In this work, we propose CleverDistiller, a self-supervised, cross-modal 2D-to-3D KD framework introducing a set of simple yet effective design choices: Unlike contrastive approaches relying on complex loss design choices, our method employs a direct feature similarity loss in combination with a multi layer perceptron (MLP) projection head to allow the 3D network to learn complex semantic dependencies throughout the projection. Crucially, our approach does not depend on pseudo-semantic maps, allowing for direct knowledge transfer from a VFM without explicit semantic supervision. Additionally, we introduce the auxiliary self-supervised spatial task of occupancy prediction to enhance the semantic knowledge, obtained from a VFM through KD, with 3D spatial reasoning capabilities. Experiments on standard autonomous driving benchmarks for 2D-to-3D KD demonstrate that CleverDistiller achieves state-of-the-art performance in both semantic segmentation and 3D object detection (3DOD) by up to 10% mIoU, especially when fine tuning on really low data amounts, showing the effectiveness of our simple yet powerful KD strategy",
+ "comments": "Accepted to BMVC 2025",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2503.09878",
+  "bytes": 7615740,
+  "sha256": "cf41164479035e2d92b9d3b92ee36a035e6cfe2e2405fa35adf358ecfc8f8d0f"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2503.09878",
+  "bytes": 6427822,
+  "sha256": "071668a59a639b03bf5ab08733eabbe4900c13d019df587d88e0c9ed76645107",
+  "kind": "tar",
+  "n_files": 12,
+  "tex_files": [
+   "main.tex",
+   "math_commands.tex",
+   "preamble.tex"
+  ]
+ }
+}

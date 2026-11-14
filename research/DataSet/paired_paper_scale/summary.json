@@ -1,0 +1,48 @@
+{
+  "name": "paired_paper_scale",
+  "status": "incomplete_candidate_only",
+  "target_pairs": 3000,
+  "target_recordings_per_class": 10,
+  "target_pairs_per_recording": 100,
+  "allowed_recordings": 40,
+  "allowed_identities": 26761,
+  "linked_pairs": 1120,
+  "format_valid_pairs": 986,
+  "eligible_for_pairing_review": 825,
+  "prior_pairing_check_insufficient": 161,
+  "supported_in_checked_window": 100,
+  "training_ready": 0,
+  "uniform_pending_review": 4000,
+  "source_hashes": {
+    "DataSet\\camera_temporal_all\\manifest-resolved.json": "3b2cf9fd85fce4c76a2e21a953b4ecf230ccc7f846f0547d3fc00d3ca3cffa4a",
+    "DataSet\\sonar_visible_annotation\\export\\manifest.json": "1667748840145cb12c57c6fb6c2a00714d120d60383f40340ea6a1cf681411ba",
+    "DataSet\\sonar_camera_continuous_timing\\recording-decisions.json": "6860eb3200852df0e932a19d8e272a4e7d03f156eddc0656e6805aebbdbc2d44",
+    "DataSet\\sonar_four_recording_timing\\decisions.json": "6e5752b4fc51370cb2ff4f416f9e335c8d221ed466481ae62eb97410afb07a78"
+  },
+  "per_class": {
+    "100lbs_aircraft_bomb": {
+      "linked": 822,
+      "format_valid": 688,
+      "eligible_for_pairing_review": 620,
+      "missing_to_1000": 380,
+      "recordings_with_100_review_candidates": 4,
+      "recordings_with_at_least_100_source_candidates": 10
+    },
+    "mortar_shell": {
+      "linked": 199,
+      "format_valid": 199,
+      "eligible_for_pairing_review": 155,
+      "missing_to_1000": 845,
+      "recordings_with_100_review_candidates": 0,
+      "recordings_with_at_least_100_source_candidates": 14
+    },
+    "incindiary_grenade": {
+      "linked": 99,
+      "format_valid": 99,
+      "eligible_for_pairing_review": 50,
+      "missing_to_1000": 950,
+      "recordings_with_100_review_candidates": 0,
+      "recordings_with_at_least_100_source_candidates": 10
+    }
+  }
+}

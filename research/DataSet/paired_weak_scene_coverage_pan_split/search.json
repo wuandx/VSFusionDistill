@@ -1,0 +1,248 @@
+[
+  {
+    "scene": "100lbs_aircraft_bomb|floor|ellipse",
+    "groups": 3,
+    "joint_conditions": 3,
+    "minimum_train_groups_for_all_joint_conditions": 3,
+    "maximum_holdout_groups_with_all_joint_conditions": 0,
+    "focus_train_groups": [
+      "2023-09-21_155609"
+    ],
+    "selected_train_groups": [
+      "2023-09-21_155609",
+      "2023-09-21_160146",
+      "2023-09-21_160551"
+    ],
+    "remaining_groups": [],
+    "feasible_train_subsets": 1,
+    "score": [
+      0,
+      0,
+      0,
+      1.44,
+      12633.76,
+      2,
+      "2f768582f0c162b0a5ce42eba43f17b92274a88488a19c42db63e78d93235de8"
+    ],
+    "train_missing_electronic_marginal_values": []
+  },
+  {
+    "scene": "100lbs_aircraft_bomb|floor|flyby",
+    "groups": 1,
+    "joint_conditions": 1,
+    "minimum_train_groups_for_all_joint_conditions": 1,
+    "maximum_holdout_groups_with_all_joint_conditions": 0,
+    "focus_train_groups": [],
+    "selected_train_groups": [
+      "2023-09-21_161916"
+    ],
+    "remaining_groups": [],
+    "feasible_train_subsets": 1,
+    "score": [
+      0,
+      0,
+      0,
+      0.16,
+      2227.84,
+      0,
+      "380793f37f2239a92ae1e0d9cb70bd2dcead12df7b6fd1752d8b27df920b3fbf"
+    ],
+    "train_missing_electronic_marginal_values": []
+  },
+  {
+    "scene": "100lbs_aircraft_bomb|standard|L_to_R",
+    "groups": 9,
+    "joint_conditions": 7,
+    "minimum_train_groups_for_all_joint_conditions": 7,
+    "maximum_holdout_groups_with_all_joint_conditions": 2,
+    "focus_train_groups": [],
+    "selected_train_groups": [
+      "2023-09-20_171105",
+      "2023-09-20_174200",
+      "2023-09-20_175000",
+      "2023-09-20_175905",
+      "2023-09-20_180126",
+      "2023-09-20_180506",
+      "2023-09-20_181139"
+    ],
+    "remaining_groups": [
+      "2023-09-20_174711",
+      "2023-09-20_175506"
+    ],
+    "feasible_train_subsets": 9,
+    "score": [
+      0,
+      0,
+      0,
+      2.56,
+      184556.16,
+      6,
+      "590cb5265dd928170d536d9e25f445c03d7d322aaccf842901136cc6e3a83183"
+    ],
+    "train_missing_electronic_marginal_values": []
+  },
+  {
+    "scene": "100lbs_aircraft_bomb|standard|flyby",
+    "groups": 1,
+    "joint_conditions": 1,
+    "minimum_train_groups_for_all_joint_conditions": 1,
+    "maximum_holdout_groups_with_all_joint_conditions": 0,
+    "focus_train_groups": [],
+    "selected_train_groups": [
+      "2023-09-20_182317"
+    ],
+    "remaining_groups": [],
+    "feasible_train_subsets": 1,
+    "score": [
+      0,
+      0,
+      0,
+      0.16,
+      3410.56,
+      0,
+      "dfaab45e2737d7d74edc13a22e09e6cafbaad01f71029670ef718b21dc86bc95"
+    ],
+    "train_missing_electronic_marginal_values": []
+  },
+  {
+    "scene": "incindiary_grenade|standard|L_to_R",
+    "groups": 7,
+    "joint_conditions": 6,
+    "minimum_train_groups_for_all_joint_conditions": 5,
+    "maximum_holdout_groups_with_all_joint_conditions": 2,
+    "focus_train_groups": [
+      "2023-09-21_121539",
+      "2023-09-21_123841"
+    ],
+    "selected_train_groups": [
+      "2023-09-21_121539",
+      "2023-09-21_122608",
+      "2023-09-21_123841",
+      "2023-09-21_125924",
+      "grenade_roll90_124241_124440"
+    ],
+    "remaining_groups": [
+      "2023-09-21_121124",
+      "2023-09-21_123500"
+    ],
+    "feasible_train_subsets": 6,
+    "score": [
+      0,
+      0,
+      1,
+      0.64,
+      2025.0,
+      6,
+      "8213f9894b9c4f996dd3a5124d085e0f42f7c8720eaefb21169b89554336fddf"
+    ],
+    "train_missing_electronic_marginal_values": [
+      [
+        "ReceiverGain",
+        "5"
+      ]
+    ]
+  },
+  {
+    "scene": "incindiary_grenade|standard|flyby",
+    "groups": 3,
+    "joint_conditions": 2,
+    "minimum_train_groups_for_all_joint_conditions": 2,
+    "maximum_holdout_groups_with_all_joint_conditions": 1,
+    "focus_train_groups": [
+      "2023-09-21_125048"
+    ],
+    "selected_train_groups": [
+      "2023-09-21_124735",
+      "2023-09-21_125048"
+    ],
+    "remaining_groups": [
+      "2023-09-21_124915"
+    ],
+    "feasible_train_subsets": 3,
+    "score": [
+      0,
+      0,
+      0,
+      0.04,
+      1.44,
+      3,
+      "fc5f6650ee3d1966d31c8464b916b9dfcec2d5fe45e9694722c704aac5722060"
+    ],
+    "train_missing_electronic_marginal_values": []
+  },
+  {
+    "scene": "mortar_shell|standard|L_to_R",
+    "groups": 9,
+    "joint_conditions": 6,
+    "minimum_train_groups_for_all_joint_conditions": 6,
+    "maximum_holdout_groups_with_all_joint_conditions": 3,
+    "focus_train_groups": [
+      "2023-09-21_101416",
+      "2023-09-21_104749"
+    ],
+    "selected_train_groups": [
+      "2023-09-21_101416",
+      "2023-09-21_101840",
+      "2023-09-21_102500",
+      "2023-09-21_103140",
+      "2023-09-21_103728",
+      "2023-09-21_104749",
+      "2023-09-21_105017"
+    ],
+    "remaining_groups": [
+      "2023-09-21_101622",
+      "2023-09-21_105230"
+    ],
+    "feasible_train_subsets": 18,
+    "score": [
+      1,
+      0.0257575758,
+      0,
+      2.56,
+      104976.0,
+      2,
+      "d61d248b5d03514967586d1c482ed9e7732332de04b637fbd560c3e97dd02d76"
+    ],
+    "train_missing_electronic_marginal_values": []
+  },
+  {
+    "scene": "mortar_shell|standard|flyby",
+    "groups": 2,
+    "joint_conditions": 1,
+    "minimum_train_groups_for_all_joint_conditions": 1,
+    "maximum_holdout_groups_with_all_joint_conditions": 1,
+    "focus_train_groups": [
+      "2023-09-21_105856"
+    ],
+    "selected_train_groups": [
+      "2023-09-21_105856"
+    ],
+    "remaining_groups": [
+      "2023-09-21_110049"
+    ],
+    "feasible_train_subsets": 2,
+    "score": [
+      0,
+      0,
+      3,
+      0.04,
+      219.04,
+      2,
+      "6164562827cdfb502dfee9e236a66d4065f9769d61ab197dd65e5327e694a545"
+    ],
+    "train_missing_electronic_marginal_values": [
+      [
+        "Enable150V",
+        "0"
+      ],
+      [
+        "ReceiverGain",
+        "15"
+      ],
+      [
+        "transmit",
+        "Min"
+      ]
+    ]
+  }
+]

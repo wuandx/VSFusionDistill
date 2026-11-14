@@ -1,0 +1,54 @@
+{
+ "arxiv_id": "2211.10156",
+ "slug": "detrdistill-a-universal-knowledge-distillation-framework-for",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:58:24",
+ "tier": "",
+ "why_relevant": "",
+ "title": "DETRDistill: A Universal Knowledge Distillation Framework for DETR-families",
+ "authors": [
+  "Chang, Jiahao",
+  "Wang, Shuo",
+  "Xu, Haiming",
+  "Chen, Zehui",
+  "Yang, Chenhongyi",
+  "Zhao, Feng"
+ ],
+ "date": "2022/11/17",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Transformer-based detectors (DETRs) are becoming popular for their simple framework, but the large model size and heavy time consumption hinder their deployment in the real world. While knowledge distillation (KD) can be an appealing technique to compress giant detectors into small ones for comparable detection performance and low inference cost. Since DETRs formulate object detection as a set prediction problem, existing KD methods designed for classic convolution-based detectors may not be directly applicable. In this paper, we propose DETRDistill, a novel knowledge distillation method dedicated to DETR-families. Specifically, we first design a Hungarian-matching logits distillation to encourage the student model to have the exact predictions as that of teacher DETRs. Next, we propose a target-aware feature distillation to help the student model learn from the object-centric features of the teacher model. Finally, in order to improve the convergence rate of the student DETR, we introduce a query-prior assignment distillation to speed up the student model learning from well-trained queries and stable assignment of the teacher model. Extensive experimental results on the COCO dataset validate the effectiveness of our approach. Notably, DETRDistill consistently improves various DETRs by more than 2.0 mAP, even surpassing their teacher models.",
+ "comments": "10 pages, 6 figures",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2211.10156",
+  "bytes": 7292695,
+  "sha256": "fd33fd5257b2c571cac79b957708b4f1e5b0df320b704ac1bcc403e417cb9a91"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2211.10156",
+  "bytes": 18300225,
+  "sha256": "4d027051f415acb559d3f9bff9a29e2f2a0a439f2743b0dc5e28eb0c2af03525",
+  "kind": "tar",
+  "n_files": 34,
+  "tex_files": [
+   "egpaper_for_review.tex",
+   "figures/fpn_masks.tex",
+   "figures/gt_cnn_detr.tex",
+   "figures/main_fig.tex",
+   "figures/performance.tex",
+   "figures/query_mask.tex",
+   "figures/stability.tex",
+   "figures/tea6_stu3.tex",
+   "tables/enc_dec.tex",
+   "tables/fea_distill.tex",
+   "tables/featKD_ablation.tex",
+   "tables/lightweight.tex",
+   "tables/main_abl.tex",
+   "tables/main_results.tex",
+   "tables/pos_neg.tex",
+   "tables/progressive.tex",
+   "tables/self_distill.tex"
+  ]
+ }
+}

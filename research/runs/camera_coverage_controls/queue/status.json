@@ -1,0 +1,54 @@
+{
+  "status": "stopped_scope_corrected_to_paired",
+  "automatic_restart": false,
+  "stages": [
+    {
+      "variant": "expanded_plain",
+      "mode": "preflight",
+      "status": "running",
+      "command": [
+        "/home/ty/mycode/VSFusionDistill/.venv-gpu/bin/python",
+        "-B",
+        "-u",
+        "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/tools/run_camera_coverage.py",
+        "--variant",
+        "expanded_plain",
+        "--repo",
+        "/mnt/d/agent_workspace/水下/声呐目标检测/code/VSFusionDistill",
+        "--checkpoint",
+        "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/assets/checkpoints/yolox_m_coco_backbone_neck.pth",
+        "--work-dir",
+        "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/camera_coverage_controls/expanded_plain/preflight",
+        "--preflight"
+      ],
+      "log": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/camera_coverage_controls/expanded_plain/preflight.log"
+    },
+    {
+      "variant": "expanded_plain",
+      "mode": "train",
+      "status": "queued"
+    },
+    {
+      "variant": "original_aug",
+      "mode": "preflight",
+      "status": "queued"
+    },
+    {
+      "variant": "original_aug",
+      "mode": "train",
+      "status": "queued"
+    },
+    {
+      "variant": "expanded_aug",
+      "mode": "preflight",
+      "status": "queued"
+    },
+    {
+      "variant": "expanded_aug",
+      "mode": "train",
+      "status": "queued"
+    }
+  ],
+  "test_content_read": false,
+  "stop_reason": "User requires camera-sonar paired expansion; camera-only queue stopped during preflight before formal training"
+}

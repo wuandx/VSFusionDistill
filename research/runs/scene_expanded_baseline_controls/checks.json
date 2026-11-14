@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": {
+    "camera_perfect_gt": {
+      "mAP": 1.0,
+      "images": 894
+    },
+    "camera_wrong_category": {
+      "mAP": 0.0,
+      "images": 894
+    },
+    "sonar_perfect_gt": {
+      "mAP": 1.0,
+      "images": 894
+    },
+    "sonar_wrong_category": {
+      "mAP": 0.0,
+      "images": 894
+    },
+    "missing_image_rejected": true,
+    "unidentified_weights_rejected": true
+  },
+  "formal_training": false,
+  "test_content_read": false
+}

@@ -1,0 +1,40 @@
+{
+  "verified_source_videos": [
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_annotation_trace\\fhd_clips\\20230921_GX010012_04.mp4",
+      "size": 31037644,
+      "sha256": "edc9d716e6fa218548d609c0ec343dde7528371d538f1b2d72c3199d76c6c31b",
+      "official_size_crc_matches": true
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_annotation_trace\\fhd_clips\\20230921_GX020012_02.mp4",
+      "size": 30680583,
+      "sha256": "30609100c8e336eff5f0009a2b16c3eb67e71ead6c757f43f6ca8d909d152b7d",
+      "official_size_crc_matches": true
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_annotation_trace\\sd_clips\\20230921_GX010012_04.mp4",
+      "size": 2660967,
+      "sha256": "0e9687cd463fb0f4ff1c39836893d0e91eb77fec79cd39dc12ddb6ca0ed37446",
+      "official_size_crc_matches": true
+    },
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_annotation_trace\\sd_clips\\20230921_GX020012_02.mp4",
+      "size": 2256966,
+      "sha256": "eef6b0f7b477ac6a7b593b8156e0feb1a89368f72e4f0d3e6aa42ff6c2e7acc8",
+      "official_size_crc_matches": true
+    }
+  ],
+  "matches_csv_size_crc_verified": true,
+  "timestamp_offset_matches_frame_count": true,
+  "pixel_correspondence_checks_passed": true,
+  "scripts_syntax_checked": 6,
+  "broken_report_links": [],
+  "original_research_git_head": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+  "original_research_git_status": "",
+  "annotations_changed": false,
+  "dataset_images_replaced": false,
+  "training_or_model_evaluation": false,
+  "test_or_unrelated_videos_decoded": false,
+  "scope_note": "Solid-archive container dictionary windows were traversed; only selected members were accepted by official CRC and decoded. This does not claim zero unrelated binary access."
+}

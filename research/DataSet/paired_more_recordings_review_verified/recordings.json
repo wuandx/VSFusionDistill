@@ -1,0 +1,247 @@
+[
+  {
+    "recording": "2023-09-20_173329",
+    "candidates": 100,
+    "prior_pairing_block": true,
+    "accepted_new_pairs": 0,
+    "sheets": [
+      {
+        "path": "2023-09-20_173329\\page-00.jpg",
+        "sha256": "e19f0fce6387fa378e8ece1391625ef5d9c20e4af4d4ecc75fe2445d07f6a58e"
+      }
+    ],
+    "metadata_sha256": "ce809f806d584d3b92554a0e16516ec35a632eba57683bde14009d46c6679876"
+  },
+  {
+    "recording": "2023-09-20_174711",
+    "candidates": 97,
+    "prior_pairing_block": false,
+    "accepted_new_pairs": 0,
+    "sheets": [
+      {
+        "path": "2023-09-20_174711\\page-00.jpg",
+        "sha256": "316fe21c64af8e89fcf1289fd6d9d25ded2d360a7df95c4407606745ac2c4cb5"
+      },
+      {
+        "path": "2023-09-20_174711\\page-01.jpg",
+        "sha256": "d3bc0cc52efc4de0aaecac27f5d5df07f62cf99f9be48102430b8a94df06d3e0"
+      },
+      {
+        "path": "2023-09-20_174711\\page-02.jpg",
+        "sha256": "713233d5c38c9126483a54b58f883a25f4ed4a4b2e91b2a86d2f49c01cb922d2"
+      },
+      {
+        "path": "2023-09-20_174711\\page-03.jpg",
+        "sha256": "db25b71800f13fb68c3e0b64c1f6c2f249c76ea0afe9915223750637f42e69c4"
+      },
+      {
+        "path": "2023-09-20_174711\\page-04.jpg",
+        "sha256": "1f6ec9a90d4474672cd3dcfa375b823bb16d09ab99b0b0ef989845e6db555d23"
+      },
+      {
+        "path": "2023-09-20_174711\\page-05.jpg",
+        "sha256": "67915ff03535eb01df8d0a71b16c056ded584fafde5a7187824c9a838039d043"
+      },
+      {
+        "path": "2023-09-20_174711\\page-06.jpg",
+        "sha256": "0b13e9645a5844bb4ca38b141823c98c161a4c0e4b3716fcc4a9a91d1de31704"
+      },
+      {
+        "path": "2023-09-20_174711\\page-07.jpg",
+        "sha256": "34a80f88e60fe6bcc82a5b7ebf866fff0ef138ee870079496ded36d3827a5b1f"
+      },
+      {
+        "path": "2023-09-20_174711\\page-08.jpg",
+        "sha256": "faad6a2ef2d5dd8f24348baa2c99667ed2ca6121007fec084622d284a240b90d"
+      }
+    ],
+    "metadata_sha256": "b9614e7c5091e316dcaa9fb48314d0c907974b30c0a5b0f1da7c81def5c1670c"
+  },
+  {
+    "recording": "2023-09-21_100927",
+    "candidates": 100,
+    "prior_pairing_block": true,
+    "accepted_new_pairs": 0,
+    "sheets": [
+      {
+        "path": "2023-09-21_100927\\page-00.jpg",
+        "sha256": "289b032d99eeff4573bcdbbe76003e1a982545c9eacabfde2c1cd2320bf69489"
+      }
+    ],
+    "metadata_sha256": "7f8cde3927e70a223b4bde0805dd24b097afabbce98292a839cd3004fc204115"
+  },
+  {
+    "recording": "2023-09-21_101131",
+    "candidates": 100,
+    "prior_pairing_block": true,
+    "accepted_new_pairs": 0,
+    "sheets": [
+      {
+        "path": "2023-09-21_101131\\page-00.jpg",
+        "sha256": "bd4aefda1b3194782700c7e6ff0f93f67aac2fc61e6cbf075ebd56505043d3da"
+      }
+    ],
+    "metadata_sha256": "cb0d79adb42c92165a7e79cc5d5ded1e8486ee7d9d06e003e791345c57b19e41"
+  },
+  {
+    "recording": "2023-09-21_110229",
+    "candidates": 100,
+    "prior_pairing_block": false,
+    "accepted_new_pairs": 0,
+    "sheets": [
+      {
+        "path": "2023-09-21_110229\\page-00.jpg",
+        "sha256": "760062134e2b85237eb90b30206ccdf61cb27533952ee81db5c5cc5fe6e7444b"
+      },
+      {
+        "path": "2023-09-21_110229\\page-01.jpg",
+        "sha256": "29b6d244ae24595ed2daa4952a9505f1aa16f3e9f4a88bed62379f13e0305cab"
+      },
+      {
+        "path": "2023-09-21_110229\\page-02.jpg",
+        "sha256": "6178beaafcf5edcb14566920720f21f6d5d9f726686e92ef6961469b04aea83a"
+      },
+      {
+        "path": "2023-09-21_110229\\page-03.jpg",
+        "sha256": "9edfff18d226f1e4ae9844c0731bceb3cb47c0ac482b06db9806d000ad654cb7"
+      },
+      {
+        "path": "2023-09-21_110229\\page-04.jpg",
+        "sha256": "8a5b72fe9d072a548c9130b616278199645ceaa1387fa3468fe86d0f3af73efe"
+      },
+      {
+        "path": "2023-09-21_110229\\page-05.jpg",
+        "sha256": "d206c7e09557eeca56f8ab6f91ae19acae7bb0f6d327deff3ecf062ff98b9347"
+      },
+      {
+        "path": "2023-09-21_110229\\page-06.jpg",
+        "sha256": "3351eb4817cd74a1350d6b2f2c96e979bfdc5bfcfcd9f9237ffd2b420147a4ca"
+      },
+      {
+        "path": "2023-09-21_110229\\page-07.jpg",
+        "sha256": "0922681483024434aa4ac6db3dd275cbad6f71c4f6f462ce95c341313f54725b"
+      },
+      {
+        "path": "2023-09-21_110229\\page-08.jpg",
+        "sha256": "dbd85fa59d9374d65c10edf892413cd37936d2d599353315a2c2815b0c6304a9"
+      }
+    ],
+    "metadata_sha256": "fc4e887c44bf7760d051bac5e9f9f9e06fa744cb0d3433ddc83a9a961b2b9ce9"
+  },
+  {
+    "recording": "2023-09-21_110411",
+    "candidates": 100,
+    "prior_pairing_block": false,
+    "accepted_new_pairs": 0,
+    "sheets": [
+      {
+        "path": "2023-09-21_110411\\page-00.jpg",
+        "sha256": "703da41c0b2b03c3ffecd777c80592d63aeb533b540be55de9d843e4ab4b227a"
+      },
+      {
+        "path": "2023-09-21_110411\\page-01.jpg",
+        "sha256": "bf65ef37f0aea9ebe527ed2eb27dbc010c7ad9c446dbd52a5d722e88205d6734"
+      },
+      {
+        "path": "2023-09-21_110411\\page-02.jpg",
+        "sha256": "b492c73ebdd1eea956eea4ecf8245c8bf500ca92a78c37014f2e44721b4a9c2a"
+      },
+      {
+        "path": "2023-09-21_110411\\page-03.jpg",
+        "sha256": "584db1142f3508324f594f08181db4e8c1cc3f56b771e618ce2d352837db5070"
+      },
+      {
+        "path": "2023-09-21_110411\\page-04.jpg",
+        "sha256": "7abdfc8bd2036d6aaf22c2edc1ede697a976f03a510e44a2307369739fb4696d"
+      },
+      {
+        "path": "2023-09-21_110411\\page-05.jpg",
+        "sha256": "f97f1b78c5aa6ce98adb51b03ca48a19d8cc71aac749e56f29f5100e7c8d4495"
+      },
+      {
+        "path": "2023-09-21_110411\\page-06.jpg",
+        "sha256": "d791b955af1bbf1f330c7d82155cc8ec241cfb71d507cbe994cc6ad44fbce2fa"
+      },
+      {
+        "path": "2023-09-21_110411\\page-07.jpg",
+        "sha256": "97c317e96deb878798145e9c0be0889cbd640f5aff6f7f6c6eb492c9dd9a9b26"
+      },
+      {
+        "path": "2023-09-21_110411\\page-08.jpg",
+        "sha256": "3ad5c2f07ff530cea9171e8cd6a7f7b3ae806019c328163649e0c10870865393"
+      }
+    ],
+    "metadata_sha256": "288863512a5f6eb67effb80e7db377702e13457723c30ca07c7f59d22b623efd"
+  },
+  {
+    "recording": "2023-09-21_120653",
+    "candidates": 100,
+    "prior_pairing_block": true,
+    "accepted_new_pairs": 0,
+    "sheets": [
+      {
+        "path": "2023-09-21_120653\\page-00.jpg",
+        "sha256": "fc3e9629e512d4ff7cb645ece504e00778aff170443040a33387fd2e8e7aab23"
+      }
+    ],
+    "metadata_sha256": "776b3d2a1dea90f0232368de9756208b248a355753c307b9c444f8815eec1471"
+  },
+  {
+    "recording": "2023-09-21_120912",
+    "candidates": 100,
+    "prior_pairing_block": true,
+    "accepted_new_pairs": 0,
+    "sheets": [
+      {
+        "path": "2023-09-21_120912\\page-00.jpg",
+        "sha256": "29e91ca2beceb10b483b17260b63df403ecbc83deb00418f5f2da955301ed275"
+      }
+    ],
+    "metadata_sha256": "3ba29255899f75f0f59759f19862800354fa3ada48c29cd8d11edaf806879508"
+  },
+  {
+    "recording": "2023-09-21_162055",
+    "candidates": 100,
+    "prior_pairing_block": false,
+    "accepted_new_pairs": 0,
+    "sheets": [
+      {
+        "path": "2023-09-21_162055\\page-00.jpg",
+        "sha256": "77b9c46215aaa37c25934934ff42c685c8b28d4fe8c8f0597e2d5e0dc7a9baeb"
+      },
+      {
+        "path": "2023-09-21_162055\\page-01.jpg",
+        "sha256": "bf235b787492e8feb3398f53797a44d073651ed6960b4edf6ebc8cd737679299"
+      },
+      {
+        "path": "2023-09-21_162055\\page-02.jpg",
+        "sha256": "26e8a9e4c1e028d0282aec2a61670c3f5e1b7f91370819303fd3f6f34a8fc2c8"
+      },
+      {
+        "path": "2023-09-21_162055\\page-03.jpg",
+        "sha256": "a566bba38519f9e59ef6362772fe8e475639fcb4da7e076317a61179b72738df"
+      },
+      {
+        "path": "2023-09-21_162055\\page-04.jpg",
+        "sha256": "e53ba77a64c9f6ffc8e81a58fd3023b6b451d8cb7f45e4210adf8744a5e267b6"
+      },
+      {
+        "path": "2023-09-21_162055\\page-05.jpg",
+        "sha256": "ffe21284b740f35c41f8aba3263e22a6246889dd2ed66705a4672485dfb46b58"
+      },
+      {
+        "path": "2023-09-21_162055\\page-06.jpg",
+        "sha256": "e6dae5ad6215f6367dccf14a1508c9ea35253e7473d7e1a2158be14d227711b8"
+      },
+      {
+        "path": "2023-09-21_162055\\page-07.jpg",
+        "sha256": "6f081593b373b85991d4911b534bc6fbe9bc213a54c5ba0dc13fbcd7d771c818"
+      },
+      {
+        "path": "2023-09-21_162055\\page-08.jpg",
+        "sha256": "e9620473b37c43e49ebc9c420a2cf1423a481813c58e64983760dd94b42da329"
+      }
+    ],
+    "metadata_sha256": "38fa93f5f6e2cc3bc332c7fc6c2a12fbe6157d193a10e7da9bdee94e61f4a4e3"
+  }
+]

@@ -1,0 +1,63 @@
+{
+ "arxiv_id": "2609.37243",
+ "slug": "codebook-guided-cross-modal-knowledge-distillation-for-struc",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:57:32",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Codebook-Guided Cross-Modal Knowledge Distillation for Structurally Heterogeneous Features",
+ "authors": [
+  "Jo, Dae Ung",
+  "Lim, Jongin",
+  "Yoo, YoungJoon",
+  "Um, Daeho"
+ ],
+ "date": "2026/09/29",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Cross-modal knowledge distillation transfers knowledge from a teacher modality to a student modality. Existing feature-level alignment methods typically assume that teacher and student features reside in structurally alignable representation spaces. However, this assumption does not hold when cross-modal features are structurally heterogeneous and lack clear unit-level correspondence, such as 2D spatial visual grids and 1D temporal audio sequences, thereby limiting the applicability of feature-level alignment. To address this challenge, we propose a cross-modal distillation framework that enables effective knowledge transfer across structurally heterogeneous feature spaces via a vector-quantized codebook. Specifically, teacher features are abstracted into a set of vector-form codes regardless of their original feature structure, and the selected codes serve as concept-level anchors for student learning. Code selection is guided by both task relevance and student compatibility, allowing the student to receive transferable teacher knowledge without requiring direct unit-level feature alignment. Experimental results across diverse cross-modal distillation scenarios demonstrate the effectiveness of the proposed framework on classification and semantic segmentation tasks.",
+ "comments": "40th Conference on Neural Information Processing Systems (NeurIPS 2026)",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2609.37243",
+  "bytes": 1140152,
+  "sha256": "5fa95d21bf7739fde42191c0c646b2eebb19a6ffa7507efa5950554253f4d46f"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2609.37243",
+  "bytes": 758547,
+  "sha256": "982794ec2e584d14e1cbb7ea30dd635b97d21bb9a27ffb24b8f2b19c3470907b",
+  "kind": "tar",
+  "n_files": 37,
+  "tex_files": [
+   "alg/alg.tex",
+   "neurips_2026.tex",
+   "tables/ablation_branch.tex",
+   "tables/ablation_branch_std.tex",
+   "tables/ablation_loss.tex",
+   "tables/ablation_loss_std.tex",
+   "tables/ablation_score.tex",
+   "tables/ablation_score_std.tex",
+   "tables/avg_rank.tex",
+   "tables/cls_main.tex",
+   "tables/cls_main_std.tex",
+   "tables/codebook_size.tex",
+   "tables/comp_cost.tex",
+   "tables/mmimdb_dist.tex",
+   "tables/nyu_classwise.tex",
+   "tables/seg_main.tex",
+   "tables/seg_main_std.tex",
+   "tables/sig_loss.tex",
+   "tables/sig_main.tex",
+   "tables/sig_score.tex",
+   "tables/soft_assign.tex",
+   "tex/0-abstract.tex",
+   "tex/1-Introduction.tex",
+   "tex/2-RelatedWork.tex",
+   "tex/3-Method.tex",
+   "tex/4-Experiment.tex",
+   "tex/5-Conclusion.tex",
+   "tex/99-Appendix.tex"
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "arxiv_id": "2111.08379",
+ "slug": "landmine-flgpr-minimax",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:29:08",
+ "tier": "B",
+ "why_relevant": "UXO/landmine detection, non-optical sensor",
+ "title": "Minimax Robust Landmine Detection Using Forward-Looking Ground-Penetrating Radar",
+ "authors": [
+  "Pambudi, Afief Dias",
+  "Fauß, Michael",
+  "Ahmad, Fauzia",
+  "Zoubir, Abdelhak M."
+ ],
+ "date": "2021/11/16",
+ "doi": "10.1109/TGRS.2020.2971956",
+ "journal": "",
+ "abstract": "Abstract: We propose a robust likelihood-ratio test (LRT) to detect landmines and unexploded ordnance using a forward-looking ground-penetrating radar. Instead of modeling the distributions of the target and clutter returns with parametric families, we construct a band of feasible probability densities under each hypothesis. The LRT is then devised based on the least favorable densities within the bands. This detector is designed to maximize the worst-case performance over all feasible density pairs and, hence, does not require strong assumptions about the clutter and noise distributions. The proposed technique is evaluated using electromagnetic field simulation data of shallow-buried targets. We show that, compared to detectors based on parametric models, robust detectors can lead to significantly reduced false alarm rates, particularly in cases where there is a mismatch between the assumed model and the true distributions.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2111.08379",
+  "bytes": 3421669,
+  "sha256": "43e196296d9c62885c8589ac09ac915dd1f3457aa24be28e841552515b63fee8"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2111.08379",
+  "bytes": 2869444,
+  "sha256": "a71ed7ac3b30a34344d167201f329ad3eb12487c666022c0a84944a4deecb93c",
+  "kind": "tar",
+  "n_files": 47,
+  "tex_files": [
+   "bar.tex",
+   "final_manuscript.tex",
+   "g1.tex",
+   "g2.tex",
+   "hc_closest.tex",
+   "hc_farthest.tex",
+   "lc_closest.tex",
+   "lc_farthest.tex",
+   "lr_rob1.tex",
+   "lr_rob2.tex",
+   "no_clutter.tex",
+   "nom_high.tex",
+   "nom_low.tex",
+   "nom_mix.tex",
+   "rob1_high.tex",
+   "rob1_low.tex",
+   "rob1_mix.tex",
+   "rob2_high.tex",
+   "rob2_low.tex",
+   "rob2_mix.tex"
+  ]
+ }
+}

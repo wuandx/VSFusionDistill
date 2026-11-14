@@ -1,0 +1,50 @@
+{
+ "arxiv_id": "2005.04621",
+ "slug": "a-comparison-of-few-shot-learning-methods-for-underwater-opt",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:42:20",
+ "tier": "",
+ "why_relevant": "",
+ "title": "A Comparison of Few-Shot Learning Methods for Underwater Optical and Sonar Image Classification",
+ "authors": [
+  "Ochal, Mateusz",
+  "Vazquez, Jose",
+  "Petillot, Yvan",
+  "Wang, Sen"
+ ],
+ "date": "2020/05/10",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Deep convolutional neural networks generally perform well in underwater object recognition tasks on both optical and sonar images. Many such methods require hundreds, if not thousands, of images per class to generalize well to unseen examples. However, obtaining and labeling sufficiently large volumes of data can be relatively costly and time-consuming, especially when observing rare objects or performing real-time operations. Few-Shot Learning (FSL) efforts have produced many promising methods to deal with low data availability. However, little attention has been given in the underwater domain, where the style of images poses additional challenges for object recognition algorithms. To the best of our knowledge, this is the first paper to evaluate and compare several supervised and semi-supervised Few-Shot Learning (FSL) methods using underwater optical and side-scan sonar imagery. Our results show that FSL methods offer a significant advantage over the traditional transfer learning methods that fine-tune pre-trained models. We hope that our work will help apply FSL to autonomous underwater systems and expand their learning capabilities.",
+ "comments": "Accepted to IEEE Global OCEANS 2020: Singapore - U.S. Gulf Coast",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2005.04621",
+  "bytes": 1514600,
+  "sha256": "3374920a3173ef5acde6a0697d5c496ce53aff8ae968fe002e849a4de5ccb94e"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2005.04621",
+  "bytes": 23622786,
+  "sha256": "1d03d46b25c3c3ae35c4c6f693efa7a57684e188926541a086a43830083ee2a8",
+  "kind": "tar",
+  "n_files": 89,
+  "tex_files": [
+   "abstract.tex",
+   "acknowledgement.tex",
+   "conclusion.tex",
+   "conference_main.tex",
+   "contributions.tex",
+   "datasets.tex",
+   "experiments.tex",
+   "future_work.tex",
+   "introduction.tex",
+   "limitations.tex",
+   "methodology.tex",
+   "navigation.tex",
+   "related_work.tex",
+   "results.tex",
+   "results_figs.tex"
+  ]
+ }
+}

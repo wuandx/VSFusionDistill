@@ -1,0 +1,37 @@
+{
+ "arxiv_id": "2606.06130",
+ "slug": "towards-realistic-3d-sonar-simulation",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:44:10",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Towards Realistic 3D Sonar Simulation",
+ "authors": [
+  "Attia, Youssef",
+  "Costa, Davide",
+  "Wanderlingh, Francesco",
+  "Campagnaro, Filippo",
+  "Simetti, Enrico"
+ ],
+ "date": "2026/06/04",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: As underwater robotics research increasingly addresses complex 3D perception and autonomous navigation, the fidelity of sonar simulation has become a key factor in algorithm development. Current simulation frameworks typically rely on geometry-driven rendering, approximating 3D sonar as an underwater equivalent to LiDAR, which fails to account for fundamental acoustic phenomena such as refraction, multi-path interference, and phase-dependent signal formation. This paper proposes a modular architecture for realistic 3D sonar simulation that integrates GPU-accelerated graphics engines with physically grounded acoustic propagation principles. We implement a volumetric 3D sonar model within the NVIDIA Isaac Sim environment, modeled after the Water Linked 3D-15 sensor, and integrate it into a comprehensive underwater simulation framework. The system is validated through a hardware-in-the-loop configuration, where a modified FastLIO2 SLAM pipeline, executed on an NVIDIA Jetson Orin Nano, performs sensor fusion using synthetic 3D sonar, DVL, IMU, and pressure data. Finally, a qualitative comparison between simulated outputs and real-world data from harbor sheet-pile inspections is provided, characterizing the remaining sim-to-real gap and establishing a roadmap toward fully acoustics-driven volumetric sensing.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2606.06130",
+  "bytes": 2063474,
+  "sha256": "56571650d14b0325172c87b62acad06e4533648470c4e95ea27fba7bc239ebc4"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2606.06130",
+  "bytes": 2601027,
+  "sha256": "b5a67c961100accd6597bea0d86681f8de74bfbbdc84d06a7f5c0ce92aa093f0",
+  "kind": "tar",
+  "n_files": 13,
+  "tex_files": [
+   "conference_101719.tex",
+   "figures/block_diagram.tex"
+  ]
+ }
+}

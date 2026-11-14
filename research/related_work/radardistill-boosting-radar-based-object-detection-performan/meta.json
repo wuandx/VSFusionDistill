@@ -1,0 +1,42 @@
+{
+ "arxiv_id": "2403.05061",
+ "slug": "radardistill-boosting-radar-based-object-detection-performan",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:48:21",
+ "tier": "",
+ "why_relevant": "",
+ "title": "RadarDistill: Boosting Radar-based Object Detection Performance via Knowledge Distillation from LiDAR Features",
+ "authors": [
+  "Bang, Geonho",
+  "Choi, Kwangjin",
+  "Kim, Jisong",
+  "Kum, Dongsuk",
+  "Choi, Jun Won"
+ ],
+ "date": "2024/03/08",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: The inherent noisy and sparse characteristics of radar data pose challenges in finding effective representations for 3D object detection. In this paper, we propose RadarDistill, a novel knowledge distillation (KD) method, which can improve the representation of radar data by leveraging LiDAR data. RadarDistill successfully transfers desirable characteristics of LiDAR features into radar features using three key components: Cross-Modality Alignment (CMA), Activation-based Feature Distillation (AFD), and Proposal-based Feature Distillation (PFD). CMA enhances the density of radar features by employing multiple layers of dilation operations, effectively addressing the challenge of inefficient knowledge transfer from LiDAR to radar. AFD selectively transfers knowledge based on regions of the LiDAR features, with a specific focus on areas where activation intensity exceeds a predefined threshold. PFD similarly guides the radar network to selectively mimic features from the LiDAR network within the object proposals. Our comparative analyses conducted on the nuScenes datasets demonstrate that RadarDistill achieves state-of-the-art (SOTA) performance for radar-only object detection task, recording 20.5% in mAP and 43.7% in NDS. Also, RadarDistill significantly improves the performance of the camera-radar fusion model.",
+ "comments": "Accepted to CVPR 2024. Code available at this https URL",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2403.05061",
+  "bytes": 5898525,
+  "sha256": "079cd06552318fddca0fcedb677341b0a7d0fb7caf765f1e5cc26575858a1fcd"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2403.05061",
+  "bytes": 3338356,
+  "sha256": "9874218be88dd43f1b11cd446e595130ad6b5bb325815ebd561f64e6b54f5c2c",
+  "kind": "tar",
+  "n_files": 13,
+  "tex_files": [
+   "main.tex",
+   "table/SOTA_test.tex",
+   "table/SOTA_test_class.tex",
+   "table/ablation_final_1.tex",
+   "table/ablation_final_2.tex",
+   "table/mr-occ_sota.tex"
+  ]
+ }
+}

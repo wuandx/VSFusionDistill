@@ -1,0 +1,36 @@
+{
+ "arxiv_id": "2009.11528",
+ "slug": "mimicdet-bridging-the-gap-between-one-stage-and-two-stage-ob",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:54:21",
+ "tier": "",
+ "why_relevant": "",
+ "title": "MimicDet: Bridging the Gap Between One-Stage and Two-Stage Object Detection",
+ "authors": [
+  "Lu, Xin",
+  "Li, Quanquan",
+  "Li, Buyu",
+  "Yan, Junjie"
+ ],
+ "date": "2020/09/24",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Modern object detection methods can be divided into one-stage approaches and two-stage ones. One-stage detectors are more efficient owing to straightforward architectures, but the two-stage detectors still take the lead in accuracy. Although recent work try to improve the one-stage detectors by imitating the structural design of the two-stage ones, the accuracy gap is still significant. In this paper, we propose MimicDet, a novel and efficient framework to train a one-stage detector by directly mimic the two-stage features, aiming to bridge the accuracy gap between one-stage and two-stage detectors. Unlike conventional mimic methods, MimicDet has a shared backbone for one-stage and two-stage detectors, then it branches into two heads which are well designed to have compatible features for mimicking. Thus MimicDet can be end-to-end trained without the pre-train of the teacher network. And the cost does not increase much, which makes it practical to adopt large networks as backbones. We also make several specialized designs such as dual-path mimicking and staggered feature pyramid to facilitate the mimicking process. Experiments on the challenging COCO detection benchmark demonstrate the effectiveness of MimicDet. It achieves 46.1 mAP with ResNeXt-101 backbone on the COCO test-dev set, which significantly surpasses current state-of-the-art methods.",
+ "comments": "ECCV 2020",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2009.11528",
+  "bytes": 4957224,
+  "sha256": "044d76522ad676cdca9fafb191e257225fc7b7dc675c56274a898e05baf7d430"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2009.11528",
+  "bytes": 6976920,
+  "sha256": "2526da5ae4cb1d3342329196f75d530f7d8c6305345b855092e883b8a6d4a9f6",
+  "kind": "tar",
+  "n_files": 17,
+  "tex_files": [
+   "MimicDet.tex"
+  ]
+ }
+}

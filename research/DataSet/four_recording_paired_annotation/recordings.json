@@ -1,0 +1,62 @@
+[
+  {
+    "recording": "2023-09-20_180126",
+    "notes": "- target: 100lbs bomb\n- Trajectory: L to R (z: 500)\n- Tilt: -34°\n- roll: 90°\n- Min Transmit\n- 10dB",
+    "raw_mapping_capacity": 740,
+    "selected": 100,
+    "probe": {
+      "width": 640,
+      "height": 360,
+      "avg_frame_rate": "30000/1001",
+      "duration": 58.4584,
+      "nb_frames": "1752",
+      "fps": 29.97002997002997
+    },
+    "source_clip": "D:\\pby\\data_processed\\gopro\\clips_sd\\20230920_GX030010_01.mp4"
+  },
+  {
+    "recording": "2023-09-21_124241",
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: L to R (z: 250)\n- Tilt: -42°\n- roll: 90°\n- Max Transmit\n- 0dB",
+    "raw_mapping_capacity": 754,
+    "selected": 100,
+    "probe": {
+      "width": 640,
+      "height": 360,
+      "avg_frame_rate": "30000/1001",
+      "duration": 55.188467,
+      "nb_frames": "1654",
+      "fps": 29.97002997002997
+    },
+    "source_clip": "D:\\pby\\data_processed\\gopro\\clips_sd\\20230921_GX020014_06.mp4"
+  },
+  {
+    "recording": "2023-09-21_124440",
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: L to R (z: 250)\n- Tilt: -42°\n- roll: 90°\n- Min Transmit\n- 15dB",
+    "raw_mapping_capacity": 695,
+    "selected": 100,
+    "probe": {
+      "width": 640,
+      "height": 360,
+      "avg_frame_rate": "30000/1001",
+      "duration": 48.314933,
+      "nb_frames": "1448",
+      "fps": 29.97002997002997
+    },
+    "source_clip": "D:\\pby\\data_processed\\gopro\\clips_sd\\20230921_GX020014_07.mp4"
+  },
+  {
+    "recording": "2023-09-21_125924",
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 0°\n- Min Transmit\n- 15dB\n- additional phone clips",
+    "raw_mapping_capacity": 708,
+    "selected": 100,
+    "probe": {
+      "width": 640,
+      "height": 360,
+      "avg_frame_rate": "30000/1001",
+      "duration": 49.015633,
+      "nb_frames": "1469",
+      "fps": 29.97002997002997
+    },
+    "source_clip": "D:\\pby\\data_processed\\gopro\\clips_sd\\20230921_GX030014_02.mp4"
+  }
+]

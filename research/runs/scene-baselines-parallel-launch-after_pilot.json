@@ -1,0 +1,50 @@
+[
+  {
+    "name": "scene_camera_m_baseline",
+    "service": "scene-camera-m-baseline-after-pilot.service",
+    "command": [
+      "/home/ty/mycode/VSFusionDistill/.venv-gpu/bin/python",
+      "-B",
+      "-u",
+      "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/tools/run_scene_baseline.py",
+      "--modality",
+      "camera",
+      "--repo",
+      "/mnt/d/agent_workspace/水下/声呐目标检测/code/VSFusionDistill",
+      "--checkpoint",
+      "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/assets/checkpoints/yolox_m_coco_backbone_neck.pth",
+      "--work-dir",
+      "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/scene_camera_m_baseline/after_pilot/train",
+      "--train"
+    ],
+    "log": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/scene_camera_m_baseline/after_pilot/train.log",
+    "launch_status": "MainPID=9471\nResult=success\nActiveState=active\nSubState=running\n",
+    "automatic_restart": false,
+    "attempt": "after_pilot",
+    "test_content_read": false
+  },
+  {
+    "name": "scene_sonar_s_baseline",
+    "service": "scene-sonar-s-baseline-after-pilot.service",
+    "command": [
+      "/home/ty/mycode/VSFusionDistill/.venv-gpu/bin/python",
+      "-B",
+      "-u",
+      "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/tools/run_scene_baseline.py",
+      "--modality",
+      "sonar",
+      "--repo",
+      "/mnt/d/agent_workspace/水下/声呐目标检测/code/VSFusionDistill",
+      "--checkpoint",
+      "/home/ty/.cache/torch/hub/checkpoints/yolox_s_8x8_300e_coco_20211121_095711-4592a793.pth",
+      "--work-dir",
+      "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/scene_sonar_s_baseline/after_pilot/train",
+      "--train"
+    ],
+    "log": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/scene_sonar_s_baseline/after_pilot/train.log",
+    "launch_status": "MainPID=9474\nResult=success\nActiveState=active\nSubState=running\n",
+    "automatic_restart": false,
+    "attempt": "after_pilot",
+    "test_content_read": false
+  }
+]

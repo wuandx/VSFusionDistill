@@ -1,0 +1,26 @@
+{
+  "schema": "sonarllm/dataset-provenance/v1",
+  "candidate_only_not_training_ready": true,
+  "sonar_gt_status": "HOLD: 原项目 converter 原文 —— sonar ground-truth boxes do not exist；sonar.json 的框由相机框经位姿投影生成，非人工标注",
+  "split_source": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_temporal_all\\manifest-resolved.json :: paired_role（录音级）",
+  "split_policy": "只用既有 paired_role；不新建划分；同录音多 role 时拒绝导出",
+  "accepts": "status=accept 取 final_box；revise 需带 final_box；reject/skip 不导出",
+  "n_exported": 2,
+  "per_recording": {
+    "2023-09-20_171105": 2
+  },
+  "recordings_per_split": {
+    "val": 1
+  },
+  "classes": [
+    "100lbs_aircraft_bomb",
+    "incindiary_grenade",
+    "mortar_shell"
+  ],
+  "image_size": {
+    "width": 128,
+    "height": 780
+  },
+  "coordinate_frame": "sonar polar rectangle: cols=128 beams (azimuth), rows=780 range samples",
+  "refusals": []
+}

@@ -1,0 +1,181 @@
+{
+  "pooled": {
+    "mAP": 1.0,
+    "AP50": 1.0,
+    "AP75": 1.0,
+    "APsmall": -1.0,
+    "APmedium": 1.0,
+    "APlarge": 1.0,
+    "AR1": 1.0,
+    "AR10": 1.0,
+    "AR100": 1.0,
+    "ARsmall": -1.0,
+    "ARmedium": 1.0,
+    "ARlarge": 1.0
+  },
+  "per_class": {
+    "100lbs_aircraft_bomb": {
+      "mAP": 1.0,
+      "AP50": 1.0,
+      "AP75": 1.0,
+      "APsmall": -1.0,
+      "APmedium": -1.0,
+      "APlarge": 1.0,
+      "AR1": 1.0,
+      "AR10": 1.0,
+      "AR100": 1.0,
+      "ARsmall": -1.0,
+      "ARmedium": -1.0,
+      "ARlarge": 1.0
+    },
+    "incindiary_grenade": {
+      "mAP": 1.0,
+      "AP50": 1.0,
+      "AP75": 1.0,
+      "APsmall": -1.0,
+      "APmedium": 1.0,
+      "APlarge": 1.0,
+      "AR1": 1.0,
+      "AR10": 1.0,
+      "AR100": 1.0,
+      "ARsmall": -1.0,
+      "ARmedium": 1.0,
+      "ARlarge": 1.0
+    },
+    "mortar_shell": {
+      "mAP": 1.0,
+      "AP50": 1.0,
+      "AP75": 1.0,
+      "APsmall": -1.0,
+      "APmedium": -1.0,
+      "APlarge": 1.0,
+      "AR1": 1.0,
+      "AR10": 1.0,
+      "AR100": 1.0,
+      "ARsmall": -1.0,
+      "ARmedium": -1.0,
+      "ARlarge": 1.0
+    }
+  },
+  "per_recording": {
+    "2023-09-20_180506": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 100,
+      "gt": 100,
+      "predictions": 100
+    },
+    "2023-09-20_182317": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 100,
+      "gt": 100,
+      "predictions": 100
+    },
+    "2023-09-21_101416": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 100,
+      "gt": 100,
+      "predictions": 100
+    },
+    "2023-09-21_103140": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 100,
+      "gt": 100,
+      "predictions": 100
+    },
+    "2023-09-21_121539": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": 1.0,
+        "ARlarge": 1.0
+      },
+      "images": 100,
+      "gt": 100,
+      "predictions": 100
+    },
+    "2023-09-21_124915": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": 1.0,
+        "ARlarge": 1.0
+      },
+      "images": 100,
+      "gt": 100,
+      "predictions": 100
+    }
+  },
+  "counts": {
+    "images": 600,
+    "gt": 600,
+    "predictions": 600
+  }
+}

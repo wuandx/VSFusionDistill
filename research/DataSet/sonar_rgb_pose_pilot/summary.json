@@ -1,0 +1,66 @@
+{
+  "frames": [
+    {
+      "sample": "2023-09-21_103728_0128",
+      "single_view_matches": 5,
+      "pooled_matches": 38,
+      "maximum_fit_inliers": 5,
+      "accepted_pose": false
+    },
+    {
+      "sample": "2023-09-21_103728_0388",
+      "single_view_matches": 7,
+      "pooled_matches": 46,
+      "maximum_fit_inliers": 0,
+      "accepted_pose": false
+    },
+    {
+      "sample": "2023-09-21_103728_0758",
+      "single_view_matches": 6,
+      "pooled_matches": 35,
+      "maximum_fit_inliers": 5,
+      "accepted_pose": false
+    },
+    {
+      "sample": "2023-09-21_123500_0088",
+      "single_view_matches": 6,
+      "pooled_matches": 39,
+      "maximum_fit_inliers": 0,
+      "accepted_pose": false
+    },
+    {
+      "sample": "2023-09-21_123500_0392",
+      "single_view_matches": 7,
+      "pooled_matches": 55,
+      "maximum_fit_inliers": 0,
+      "accepted_pose": false
+    },
+    {
+      "sample": "2023-09-21_123500_0788",
+      "single_view_matches": 7,
+      "pooled_matches": 61,
+      "maximum_fit_inliers": 0,
+      "accepted_pose": false
+    }
+  ],
+  "synthetic_controls": [
+    {
+      "sample": "synthetic-mortar_shell",
+      "rotation_error_deg": 1.2481288736618525,
+      "translation_error_model_scale_m": 0.0009281918286224076,
+      "withheld_median_px": 0.925541451214642,
+      "withheld_p90_px": 5.2229140103983065
+    },
+    {
+      "sample": "synthetic-incindiary",
+      "rotation_error_deg": 1.8087075234817405,
+      "translation_error_model_scale_m": 0.00254861361982511,
+      "withheld_median_px": 1.1489080653861767,
+      "withheld_p90_px": 1.971194347189492
+    }
+  ],
+  "accepted_object_poses": 0,
+  "sonar_projections_generated": 0,
+  "reason": "RGB correspondence gate failed before sonar transfer",
+  "tag_rotation_is_conditional_not_physical_ground_truth": true
+}

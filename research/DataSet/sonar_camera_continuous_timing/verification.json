@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "recording": "2023-09-20_171105",
+      "all_frame_mappings_verified": 272,
+      "independent_sd_decodes": [
+        {
+          "sd_index": 1,
+          "exact_equal": true,
+          "mean_abs_difference": 0.0,
+          "p99_abs_difference": 0.0
+        },
+        {
+          "sd_index": 817,
+          "exact_equal": true,
+          "mean_abs_difference": 0.0,
+          "p99_abs_difference": 0.0
+        },
+        {
+          "sd_index": 1492,
+          "exact_equal": true,
+          "mean_abs_difference": 0.0,
+          "p99_abs_difference": 0.0
+        }
+      ],
+      "videos": [
+        {
+          "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_camera_continuous_timing\\2023-09-20_171105\\early.mp4",
+          "probe": {
+            "width": 1024,
+            "height": 620,
+            "avg_frame_rate": "5/1",
+            "duration": "8.000000",
+            "nb_frames": "40"
+          },
+          "full_decode_passed": true
+        },
+        {
+          "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_camera_continuous_timing\\2023-09-20_171105\\late.mp4",
+          "probe": {
+            "width": 1024,
+            "height": 620,
+            "avg_frame_rate": "5/1",
+            "duration": "8.000000",
+            "nb_frames": "40"
+          },
+          "full_decode_passed": true
+        },
+        {
+          "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_camera_continuous_timing\\2023-09-20_171105\\middle.mp4",
+          "probe": {
+            "width": 1024,
+            "height": 620,
+            "avg_frame_rate": "5/1",
+            "duration": "7.800000",
+            "nb_frames": "39"
+          },
+          "full_decode_passed": true
+        },
+        {
+          "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_camera_continuous_timing\\2023-09-20_171105\\paired.mp4",
+          "probe": {
+            "width": 1024,
+            "height": 620,
+            "avg_frame_rate": "5/1",
+            "duration": "54.400000",
+            "nb_frames": "272"
+          },
+          "full_decode_passed": true
+        }
+      ],
+      "zero_lag_direct_correlation": 0.769402196652688,
+      "paired_valid_intervals": 249
+    },
+    {
+      "recording": "2023-09-20_173329",
+      "all_frame_mappings_verified": 294,
+      "independent_sd_decodes": [
+        {
+          "sd_index": 1,
+          "exact_equal": true,
+          "mean_abs_difference": 0.0,
+          "p99_abs_difference": 0.0
+        },
+        {
+          "sd_index": 1764,
+          "exact_equal": true,
+          "mean_abs_difference": 0.0,
+          "p99_abs_difference": 0.0
+        },
+        {
+          "sd_index": 3190,
+          "exact_equal": true,
+          "mean_abs_difference": 0.0,
+          "p99_abs_difference": 0.0
+        }
+      ],
+      "videos": [
+        {
+          "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_camera_continuous_timing\\2023-09-20_173329\\early.mp4",
+          "probe": {
+            "width": 1024,
+            "height": 620,
+            "avg_frame_rate": "5/1",
+            "duration": "8.000000",
+            "nb_frames": "40"
+          },
+          "full_decode_passed": true
+        },
+        {
+          "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_camera_continuous_timing\\2023-09-20_173329\\late.mp4",
+          "probe": {
+            "width": 1024,
+            "height": 620,
+            "avg_frame_rate": "5/1",
+            "duration": "8.000000",
+            "nb_frames": "40"
+          },
+          "full_decode_passed": true
+        },
+        {
+          "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_camera_continuous_timing\\2023-09-20_173329\\middle.mp4",
+          "probe": {
+            "width": 1024,
+            "height": 620,
+            "avg_frame_rate": "5/1",
+            "duration": "7.800000",
+            "nb_frames": "39"
+          },
+          "full_decode_passed": true
+        },
+        {
+          "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_camera_continuous_timing\\2023-09-20_173329\\paired.mp4",
+          "probe": {
+            "width": 1024,
+            "height": 620,
+            "avg_frame_rate": "5/1",
+            "duration": "58.800000",
+            "nb_frames": "294"
+          },
+          "full_decode_passed": true
+        }
+      ],
+      "zero_lag_direct_correlation": -0.32948459067853714,
+      "paired_valid_intervals": 267
+    }
+  ],
+  "source_hashes_unchanged": true,
+  "local_links_checked": 14,
+  "synthetic_lag_sign_control": {
+    "delta_camera_s": 1.2,
+    "pairs": 211,
+    "correlation": 0.9999999999999999
+  },
+  "operator": "main assistant, separate verification code",
+  "source_video_frames_decoded_for_independent_checks": 6
+}

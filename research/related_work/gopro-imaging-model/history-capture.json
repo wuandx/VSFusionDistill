@@ -1,0 +1,47 @@
+[
+  {
+    "command": [
+      "show",
+      "2d5f8de",
+      "--format=fuller",
+      "--",
+      "calibration"
+    ],
+    "exit_code": 0,
+    "sha256": "ce7d3dc53cb5f7d5afa70ca44aaa260d3def041d854c36a360212ac16b0cdde2",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "show",
+      "a52d22a",
+      "--",
+      "README.md"
+    ],
+    "exit_code": 0,
+    "sha256": "b57127c0d5826275ebb94f1e277cba26bbb5bfc671a1addd0c27cfc37126df8e",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "show",
+      "4219e68",
+      "--stat",
+      "--format=fuller"
+    ],
+    "exit_code": 0,
+    "sha256": "680a8873991db1ec9156175a9472b40e0130a3e0346d41378ab98a5474f78dd4",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "log",
+      "--all",
+      "--format=",
+      "--name-only"
+    ],
+    "exit_code": 0,
+    "sha256": "0308cb846280126738f900c6da03a8ffe2cb5cc41b563f39e5256757c47cc394",
+    "stderr": ""
+  }
+]

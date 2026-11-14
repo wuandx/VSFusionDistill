@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2304.08028",
+ "slug": "mmanet-margin-aware-distillation-and-modality-aware-regulari",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:53:30",
+ "tier": "",
+ "why_relevant": "",
+ "title": "MMANet: Margin-aware Distillation and Modality-aware Regularization for Incomplete Multimodal Learning",
+ "authors": [
+  "Wei, Shicai",
+  "Luo, Yang",
+  "Luo, Chunbo"
+ ],
+ "date": "2023/04/17",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Multimodal learning has shown great potentials in numerous scenes and attracts increasing interest recently. However, it often encounters the problem of missing modality data and thus suffers severe performance degradation in practice. To this end, we propose a general framework called MMANet to assist incomplete multimodal learning. It consists of three components: the deployment network used for inference, the teacher network transferring comprehensive multimodal information to the deployment network, and the regularization network guiding the deployment network to balance weak modality combinations. Specifically, we propose a novel margin-aware distillation (MAD) to assist the information transfer by weighing the sample contribution with the classification uncertainty. This encourages the deployment network to focus on the samples near decision boundaries and acquire the refined inter-class margin. Besides, we design a modality-aware regularization (MAR) algorithm to mine the weak modality combinations and guide the regularization network to calculate prediction loss for them. This forces the deployment network to improve its representation ability for the weak modality combinations adaptively. Finally, extensive experiments on multimodal classification and segmentation tasks demonstrate that our MMANet outperforms the state-of-the-art significantly. Code is available at: this https URL",
+ "comments": "10 pages, 3 figures, CVPR2023",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2304.08028",
+  "bytes": 3538326,
+  "sha256": "eca00075a7cb74b9303c4b934e834532631419bf110b19befd27a5865cf994f8"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2304.08028",
+  "bytes": 6430609,
+  "sha256": "a6a4ce233e860eeb91631d8beeb466964cb40438903a1a96f2b74d665ebfb729",
+  "kind": "tar",
+  "n_files": 19,
+  "tex_files": [
+   "PaperForReview.tex"
+  ]
+ }
+}

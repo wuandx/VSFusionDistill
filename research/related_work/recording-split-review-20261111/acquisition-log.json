@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/README.md",
+    "checked_at_utc": "2026-11-10T17:29:12.212205+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "path": "related_work\\recording-split-review-20261111\\uxo-readme.md",
+    "bytes": 5869,
+    "sha256": "2fedd4fa429a31c5b23525ef1e56abd830970ec7b751069dbfdd995296d619b5"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/scripts/config.yaml",
+    "checked_at_utc": "2026-11-10T17:29:12.212705+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/scripts/config.yaml",
+    "content_type": "text/plain; charset=utf-8",
+    "path": "related_work\\recording-split-review-20261111\\uxo-config.yaml",
+    "bytes": 3661,
+    "sha256": "9ff684ea2dad21b20e8ead990e699aa4db03ed8bfca4d8bcba77783e948cc1cc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/scripts/release_1_export.py",
+    "checked_at_utc": "2026-11-10T17:29:12.212705+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/dfki-ric/uxo-dataset2024/main/scripts/release_1_export.py",
+    "content_type": "text/plain; charset=utf-8",
+    "path": "related_work\\recording-split-review-20261111\\uxo-release-export.py",
+    "bytes": 8202,
+    "sha256": "e37b0d649a011b20337f431fb0ec4c1f3cf8c97ef295a690b80512294f66d95b"
+  },
+  {
+    "url": "https://robotik.dfki-bremen.de/en/research/publications/15133",
+    "checked_at_utc": "2026-11-10T17:29:12.213205+00:00",
+    "status": 200,
+    "final_url": "https://robotik.dfki-bremen.de/en/research/publications/15133",
+    "content_type": "text/html; charset=utf-8",
+    "path": "related_work\\recording-split-review-20261111\\uxo-institution.html",
+    "bytes": 35777,
+    "sha256": "2a95be902d1a03b4eb8574a27a579dbd1586c0af1b906b33fc1a61bfb331bf80"
+  },
+  {
+    "url": "https://www.dfki.de/fileadmin/user_upload/import/15133_20240801_oceans24_uxo_dataset_full.pdf",
+    "checked_at_utc": "2026-11-10T17:29:12.213205+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13417324/fullTextXML",
+    "checked_at_utc": "2026-11-10T17:29:12.664311+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13417324/fullTextXML",
+    "content_type": "application/xml",
+    "path": "related_work\\recording-split-review-20261111\\cmhd-fulltext.xml",
+    "bytes": 164159,
+    "sha256": "7e1cf91e74e20f063656fd91c8c64e8f0b59c1b2d4c7272e597fdd261f3f9601"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9715547/fullTextXML",
+    "checked_at_utc": "2026-11-10T17:29:12.668810+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9715547/fullTextXML",
+    "content_type": "application/xml",
+    "path": "related_work\\recording-split-review-20261111\\uatd-fulltext.xml",
+    "bytes": 57720,
+    "sha256": "d4c431e0dd9eb342ed3e4900f525dcae4ba1411be4ce4fb55195a1ed9aa9acad"
+  },
+  {
+    "url": "https://arxiv.org/html/2503.22880v1",
+    "checked_at_utc": "2026-11-10T17:29:12.750002+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2503.22880v1",
+    "content_type": "text/html; charset=utf-8",
+    "path": "related_work\\recording-split-review-20261111\\marine-debris.html",
+    "bytes": 229327,
+    "sha256": "0e8756fd22de4390d91924a21a1dd245417f06062bbe94322a2a46be23d819e5"
+  }
+]

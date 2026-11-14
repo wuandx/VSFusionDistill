@@ -1,0 +1,194 @@
+﻿recording,category,group_id,old_role,placement,trajectory,nominal_z,nominal_tilt,nominal_roll,nominal_pan,primary_condition,selected,reserve,notes,transmit_note,notes_gain,sonar_settings,selected_frame_min,selected_frame_max,selected_duration_s,selected_pan_range,selected_tilt_range,selected_roll_range,window_start_range,window_length_range,camera_bottom_touch,camera_any_boundary_touch,history,source_metadata,role,condition_recordings,condition_groups,reason
+2023-09-20_171105,100lbs_aircraft_bomb,2023-09-20_171105,train,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|z=750|tilt=-22|roll=0|pan=unknown,100,16,"- target: 100lbs bomb
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Min Transmit
+- 10dB",Min,10,"{""ReceiverGain"": [""10""], ""SamplesPerBeam"": [""780""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",622,1154,36.930739,"[60.80966567993164, 142.5711669921875]","[-22.0, -22.0]","[-0.0, -0.0]","[0.6949365139007568, 0.6949371695518494]","[2.326396942138672, 2.326399087905884]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_171105\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-20_174439,100lbs_aircraft_bomb,2023-09-20_174439,train,standard,L_to_R,725,-26,0,unknown,standard|L_to_R|z=725|tilt=-26|roll=0|pan=unknown,100,5,"- target: 100lbs bomb
+- Trajectory: L to R (z: 725)
+- Tilt: -26°
+- roll: 0°
+- Min Transmit
+- 10dB
+- repeat (main data)",Min,10,"{""ReceiverGain"": [""10""], ""SamplesPerBeam"": [""780""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",188,739,38.399832,"[57.077667236328125, 143.67950439453125]","[-26.0, -26.0]","[-0.0, -0.0]","[0.694770872592926, 0.6949371695518494]","[2.3258426189422607, 2.326399087905884]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_174439\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-20_175000,100lbs_aircraft_bomb,2023-09-20_175000,train,standard,L_to_R,725,-26,90,unknown,standard|L_to_R|z=725|tilt=-26|roll=90|pan=unknown,100,7,"- target: 100lbs bomb
+- Trajectory: L to R (z: 725)
+- Tilt: -26°
+- roll: 90°
+- Min Transmit
+- 10dB",Min,10,"{""ReceiverGain"": [""10""], ""SamplesPerBeam"": [""780""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",135,689,38.506368,"[59.4010009765625, 155.0]","[-26.0, -26.0]","[90.0, 90.0]","[0.6947721242904663, 0.6949375867843628]","[2.325846672058105, 2.3264005184173584]",1,3,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_175000\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-20_175506,100lbs_aircraft_bomb,2023-09-20_175506,test,standard,L_to_R,500,-34,0,unknown,standard|L_to_R|z=500|tilt=-34|roll=0|pan=unknown,100,0,"- target: 100lbs bomb
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Min Transmit
+- 10dB",Min,10,"{""ReceiverGain"": [""10""], ""SamplesPerBeam"": [""780""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",143,694,39.398752,"[59.657501220703125, 150.73316955566406]","[-34.0, -34.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949354410171509]","[2.326392889022827, 2.3263933658599854]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_175506\aris_frame_meta.csv,val,2,2,repeated_condition_recording_holdout
+2023-09-20_175905,100lbs_aircraft_bomb,2023-09-20_175905,train,standard,L_to_R,500,-34,0,unknown,standard|L_to_R|z=500|tilt=-34|roll=0|pan=unknown,100,7,"- target: 100lbs bomb
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Max Transmit
+- 5dB",Max,5,"{""ReceiverGain"": [""5""], ""SamplesPerBeam"": [""780""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",157,723,39.732764,"[57.20816802978516, 148.1563262939453]","[-34.0, -34.0]","[-0.0, -0.0]","[0.6947709918022156, 0.6947723627090454]","[2.32584285736084, 2.3258473873138428]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_175905\aris_frame_meta.csv,train,2,2,train_condition_representative
+2023-09-20_180506,100lbs_aircraft_bomb,2023-09-20_180506,val,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|z=250|tilt=-42|roll=0|pan=unknown,100,9,"- target: 100lbs bomb
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 10dB",Min,10,"{""ReceiverGain"": [""10""], ""SamplesPerBeam"": [""780""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",116,737,43.451552,"[54.08533477783203, 155.0]","[-42.0, -42.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[2.326392889022827, 2.326392889022827]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_180506\aris_frame_meta.csv,train,2,2,train_condition_representative
+2023-09-20_180722,100lbs_aircraft_bomb,2023-09-20_180722,train,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|z=250|tilt=-42|roll=0|pan=unknown,100,1,"- target: 100lbs bomb
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 10dB
+- repeat (main data)",Min,10,"{""ReceiverGain"": [""10""], ""SamplesPerBeam"": [""780""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",139,713,40.989015,"[53.294166564941406, 152.4320068359375]","[-42.0, -42.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[2.326392889022827, 2.326392889022827]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_180722\aris_frame_meta.csv,test,2,2,repeated_condition_recording_holdout
+2023-09-20_181139,100lbs_aircraft_bomb,2023-09-20_181139,train,standard,L_to_R,250,-42,90,unknown,standard|L_to_R|z=250|tilt=-42|roll=90|pan=unknown,100,11,"- target: 100lbs bomb
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 90°
+- Min Transmit
+- 10dB",Min,10,"{""ReceiverGain"": [""10""], ""SamplesPerBeam"": [""780""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",159,656,35.076209,"[54.32899856567383, 151.059326171875]","[-42.0, -42.0]","[90.0, 90.00016784667969]","[0.694770097732544, 0.6949353218078613]","[2.3258397579193115, 2.326392889022827]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_181139\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-20_182317,100lbs_aircraft_bomb,2023-09-20_182317,val,standard,flyby,250,-60,0,-180,standard|flyby|z=250|tilt=-60|roll=0|pan=-180,100,46,"- target: 100lbs bomb
+- Trajectory: flyby (z: 250, y: 1420)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Min Transmit
+- 10dB
+- incorrect gopro offset",Min,10,"{""ReceiverGain"": [""10""], ""SamplesPerBeam"": [""780""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",140,285,9.917684,"[-180.0, -180.0]","[-60.0, -60.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[2.326392889022827, 2.326392889022827]",82,82,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_182317\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-21_101416,mortar_shell,2023-09-21_101416,val,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|z=750|tilt=-22|roll=0|pan=unknown,100,20,"- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Max Transmit
+- 5dB",Max,5,"{""ReceiverGain"": [""5""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",106,270,11.166684,"[134.3163299560547, 165.0]","[-22.0, -22.0]","[-0.0, -0.0]","[0.694936215877533, 0.6949369311332703]","[1.3153084516525269, 1.3153098821640017]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_101416\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-21_101622,mortar_shell,2023-09-21_101622,train,standard,L_to_R,750,-22,90,unknown,standard|L_to_R|z=750|tilt=-22|roll=90|pan=unknown,100,23,"- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Max Transmit
+- 5dB
+- bad, needs repeat",Max,5,"{""ReceiverGain"": [""5""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",76,221,9.833163,"[135.32899475097656, 165.0]","[-22.0, -22.0]","[89.99983215332031, 90.0]","[0.6949361562728882, 0.6949372887611389]","[1.3153083324432373, 1.3153104782104492]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_101622\aris_frame_meta.csv,test,2,2,repeated_condition_recording_holdout
+2023-09-21_101840,mortar_shell,2023-09-21_101840,test,standard,L_to_R,750,-22,90,unknown,standard|L_to_R|z=750|tilt=-22|roll=90|pan=unknown,100,8,"- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Min Transmit
+- 15dB",Min,15,"{""ReceiverGain"": [""15""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",125,642,35.434186,"[71.40699768066406, 165.0]","[-22.0, -22.0]","[89.99983215332031, 90.0]","[0.6949353218078613, 0.6949357986450195]","[1.3153067827224731, 1.3153077363967896]",3,3,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_101840\aris_frame_meta.csv,train,2,2,train_condition_representative
+2023-09-21_102500,mortar_shell,2023-09-21_102500,test,standard,L_to_R,500,-34,0,unknown,standard|L_to_R|z=500|tilt=-34|roll=0|pan=unknown,100,26,"- target: 15cm_mortar
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Min Transmit
+- 15dB",Min,15,"{""ReceiverGain"": [""15""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",284,772,32.999863,"[58.86166763305664, 151.34849548339844]","[-34.0, -34.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_102500\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-21_103140,mortar_shell,2023-09-21_103140,val,standard,L_to_R,500,-34,90,unknown,standard|L_to_R|z=500|tilt=-34|roll=90|pan=unknown,100,28,"- target: 15cm_mortar
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 90°
+- Max Transmit
+- 5dB",Max,5,"{""ReceiverGain"": [""5""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",84,270,12.70308,"[125.16799926757812, 165.0]","[-34.0, -34.0]","[89.99983215332031, 89.99983215332031]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_103140\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-21_103728,mortar_shell,2023-09-21_103728,train,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|z=250|tilt=-42|roll=0|pan=unknown,100,39,"- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 15dB",Min,15,"{""ReceiverGain"": [""15""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",114,782,47.111988,"[33.70333480834961, 165.0]","[-42.00016784667969, -42.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_103728\aris_frame_meta.csv,val,3,3,repeated_condition_recording_holdout
+2023-09-21_103927,mortar_shell,2023-09-21_103927,train,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|z=250|tilt=-42|roll=0|pan=unknown,100,19,"- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 15dB
+- repeat (main data)",Min,15,"{""ReceiverGain"": [""15""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",90,853,52.446256,"[18.946332931518555, 165.0]","[-42.0, -42.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_103927\aris_frame_meta.csv,train,3,3,train_condition_representative
+2023-09-21_104749,mortar_shell,2023-09-21_104749,train,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|z=250|tilt=-42|roll=0|pan=unknown,100,18,"- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Max Transmit
+- 5dB",Max,5,"{""ReceiverGain"": [""5""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",72,239,11.568334,"[136.08016967773438, 165.0001678466797]","[-42.0, -42.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_104749\aris_frame_meta.csv,test,3,3,repeated_condition_recording_holdout
+2023-09-21_105017,mortar_shell,2023-09-21_105017,train,standard,L_to_R,250,-42,90,unknown,standard|L_to_R|z=250|tilt=-42|roll=90|pan=unknown,100,7,"- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 90°
+- Max Transmit
+- 5dB",Max,5,"{""ReceiverGain"": [""5""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",80,756,47.905424,"[28.156665802001957, 165.0001678466797]","[-42.0, -42.0]","[89.99983215332031, 89.99983215332031]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_105017\aris_frame_meta.csv,val,2,2,repeated_condition_recording_holdout
+2023-09-21_105230,mortar_shell,2023-09-21_105230,train,standard,L_to_R,250,-42,90,unknown,standard|L_to_R|z=250|tilt=-42|roll=90|pan=unknown,100,16,"- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 90°
+- Min Transmit
+- 15dB",Min,15,"{""ReceiverGain"": [""15""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",118,437,21.767052,"[110.51383209228516, 159.5586700439453]","[-42.0, -42.0]","[89.99983215332031, 89.99983215332031]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_105230\aris_frame_meta.csv,train,2,2,train_condition_representative
+2023-09-21_121124,incindiary_grenade,2023-09-21_121124,train,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|z=750|tilt=-22|roll=0|pan=unknown,100,17,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Max Transmit
+- 5dB",Max,5,"{""ReceiverGain"": [""5""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",35,731,48.766861,"[32.98816680908203, 165.0]","[-22.0, -22.0]","[-0.0, -0.0]","[0.6949357390403748, 0.6949368715286255]","[1.3153076171875, 1.315309762954712]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_121124\aris_frame_meta.csv,train,2,2,train_condition_representative
+2023-09-21_121327,incindiary_grenade,2023-09-21_121327,train,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|z=750|tilt=-22|roll=0|pan=unknown,100,30,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Max Transmit
+- 0dB
+- repeat (0db gain)",Max,0,"{""ReceiverGain"": [""0""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",72,810,49.906061,"[28.806833267211918, 165.0]","[-22.0, -22.0]","[-0.0, -0.0]","[0.6949362754821777, 0.6949368715286255]","[1.3153085708618164, 1.315309762954712]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_121327\aris_frame_meta.csv,val,2,2,repeated_condition_recording_holdout
+2023-09-21_121539,incindiary_grenade,2023-09-21_121539,val,standard,L_to_R,750,-22,90,unknown,standard|L_to_R|z=750|tilt=-22|roll=90|pan=unknown,100,2,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Max Transmit
+- 0dB",Max,0,"{""ReceiverGain"": [""0""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",72,761,48.508303,"[36.82383346557617, 165.0]","[-22.0, -22.0]","[89.99983215332031, 89.99983215332031]","[0.6949363350868225, 0.6949371695518494]","[1.315308690071106, 1.3153103590011597]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_121539\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-21_122608,incindiary_grenade,2023-09-21_122608,test,standard,L_to_R,500,-34,0,unknown,standard|L_to_R|z=500|tilt=-34|roll=0|pan=unknown,100,0,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Max Transmit
+- 0dB",Max,0,"{""ReceiverGain"": [""0""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",66,822,51.234154,"[27.639833450317383, 165.0]","[-34.0, -34.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353814125061]","[1.3153067827224731, 1.3153069019317627]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_122608\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-21_122855,incindiary_grenade,2023-09-21_122608,test,standard,L_to_R,500,-34,90,unknown,standard|L_to_R|z=500|tilt=-34|roll=90|pan=unknown,100,1,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 90°
+- Max Transmit
+- 0dB
+- original aris recording covers two trajectories, this is the 2nd one",Max,0,"{""ReceiverGain"": [""0""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",88,864,52.166103,"[25.009666442871094, 165.0]","[-34.0, -34.0]","[89.99983215332031, 89.99983215332031]","[0.6949353218078613, 0.6949355006217957]","[1.3153067827224731, 1.3153071403503418]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_122855\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-21_123500,incindiary_grenade,2023-09-21_123500,train,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|z=250|tilt=-42|roll=0|pan=unknown,100,15,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 15dB",Min,15,"{""ReceiverGain"": [""15""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""0""]}",77,806,49.109229,"[32.97816848754883, 165.0]","[-42.0, -42.0]","[-0.0001666666648816, -0.0]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_123500\aris_frame_meta.csv,train,3,3,train_condition_representative
+2023-09-21_123841,incindiary_grenade,2023-09-21_123841,train,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|z=250|tilt=-42|roll=0|pan=unknown,100,6,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Max Transmit
+- 0dB
+- off-center",Max,0,"{""ReceiverGain"": [""0""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",103,832,50.046536,"[23.3439998626709, 165.0]","[-42.0, -42.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_123841\aris_frame_meta.csv,test,3,3,repeated_condition_recording_holdout
+2023-09-21_124039,incindiary_grenade,2023-09-21_124039,train,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|z=250|tilt=-42|roll=0|pan=unknown,100,6,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Max Transmit
+- 0dB
+- repeat",Max,0,"{""ReceiverGain"": [""0""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",81,851,52.507729,"[16.003334045410156, 165.0]","[-42.0, -42.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_124039\aris_frame_meta.csv,test,3,3,repeated_condition_recording_holdout
+2023-09-21_124915,incindiary_grenade,2023-09-21_124915,val,standard,flyby,250,-60,0,-180,standard|flyby|z=250|tilt=-60|roll=0|pan=-180,100,8,"- target: 20lbs_incendiary
+- Trajectory: flyby (z:250, y: 1250)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Max Transmit
+- 0dB",Max,0,"{""ReceiverGain"": [""0""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",62,169,7.300595,"[-180.0, -180.0]","[-60.0, -60.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",1,1,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_124915\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-21_125048,incindiary_grenade,2023-09-21_125048,train,standard,flyby,250,-90,0,-180,standard|flyby|z=250|tilt=-90|roll=0|pan=-180,100,0,"- target: 20lbs_incendiary
+- Trajectory: flyby (z:250, y: 1250)
+- Tilt: -90°
+- Roll: 0°
+- Pan: -180°
+- Max Transmit
+- 0dB",Max,0,"{""ReceiverGain"": [""0""], ""SamplesPerBeam"": [""441""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",239,339,6.799923,"[-180.0, -180.0]","[-90.0, -90.0]","[-0.0, -0.0]","[0.6949353218078613, 0.6949353218078613]","[1.3153067827224731, 1.3153067827224731]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_125048\aris_frame_meta.csv,train,1,1,unique_source_group_train_only
+2023-09-21_160551,100lbs_aircraft_bomb,2023-09-21_160551,test,floor,ellipse,1000,-32,0,unknown,floor|ellipse|z=1000|tilt=-32|roll=0|pan=unknown,100,7,"- target: 100lbs_bomb (floor)
+- Trajectory: ellipse (z: 1000)
+- Tilt: -32° (start)
+- roll: 0°
+- Max Transmit
+- 0dB
+- not sure about gopro offset",Max,0,"{""ReceiverGain"": [""0""], ""SamplesPerBeam"": [""603""], ""SamplePeriod"": [""4""], ""FrequencyHiLow"": [""1""], ""Enable150V"": [""1""]}",66,1324,89.122125,"[-127.79033660888672, 180.0]","[-61.29816818237305, -37.55783462524414]","[-0.0, -0.0]","[0.700157880783081, 0.7001587748527527]","[1.7984884977340698, 1.7984908819198608]",0,0,all_recordings_previously_developed;old_test_results_inspected,D:\pby\uxo-full\extracted\recordings\100lbs_bomb_(floor)\2023-09-21_160551\aris_frame_meta.csv,train,1,1,unique_source_group_train_only

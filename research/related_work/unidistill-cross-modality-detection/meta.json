@@ -1,0 +1,42 @@
+{
+ "arxiv_id": "2303.15083",
+ "slug": "unidistill-cross-modality-detection",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:31:01",
+ "tier": "A",
+ "why_relevant": "universal cross-modality KD for 3D detection",
+ "title": "UniDistill: A Universal Cross-Modality Knowledge Distillation Framework for 3D Object Detection in Bird&#39;s-Eye View",
+ "authors": [
+  "Zhou, Shengchao",
+  "Liu, Weizhou",
+  "Hu, Chen",
+  "Zhou, Shuchang",
+  "Ma, Chao"
+ ],
+ "date": "2023/03/27",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: In the field of 3D object detection for autonomous driving, the sensor portfolio including multi-modality and single-modality is diverse and complex. Since the multi-modal methods have system complexity while the accuracy of single-modal ones is relatively low, how to make a tradeoff between them is difficult. In this work, we propose a universal cross-modality knowledge distillation framework (UniDistill) to improve the performance of single-modality detectors. Specifically, during training, UniDistill projects the features of both the teacher and the student detector into Bird&#39;s-Eye-View (BEV), which is a friendly representation for different modalities. Then, three distillation losses are calculated to sparsely align the foreground features, helping the student learn from the teacher without introducing additional cost during inference. Taking advantage of the similar detection paradigm of different detectors in BEV, UniDistill easily supports LiDAR-to-camera, camera-to-LiDAR, fusion-to-LiDAR and fusion-to-camera distillation paths. Furthermore, the three distillation losses can filter the effect of misaligned background information and balance between objects of different sizes, improving the distillation effectiveness. Extensive experiments on nuScenes demonstrate that UniDistill effectively improves the mAP and NDS of student detectors by 2.0%~3.2%.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2303.15083",
+  "bytes": 6315604,
+  "sha256": "5a029e85deba4d23ab68372894c4a5f8dd85b7e8d9a5a0c7fe1187065a2d6283"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2303.15083",
+  "bytes": 19605606,
+  "sha256": "a075a638315378717fced2af750a990c277c7c0ee89de6c92cddae362adf8515",
+  "kind": "tar",
+  "n_files": 22,
+  "tex_files": [
+   "chapter/appendix.tex",
+   "chapter/conclusion.tex",
+   "chapter/experiments.tex",
+   "chapter/introduction.tex",
+   "chapter/methodology.tex",
+   "chapter/relatedwork.tex",
+   "cvpr.tex"
+  ]
+ }
+}

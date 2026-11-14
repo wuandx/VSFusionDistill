@@ -1,0 +1,25 @@
+{
+  "metadata_videos": 18,
+  "metadata_only": true,
+  "images_detected": 31,
+  "positive_images": 12,
+  "positive_identities": 6,
+  "metadata_inputs_unchanged_except_documented_plan_append": true,
+  "documented_plan_change": [
+    {
+      "path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\experiment\\gopro-imaging-model-plan.md",
+      "old_sha256": "d3f41e6f64778ce969eb4888b51bab8fbcfecea139631d7761e1cf9799e980c2",
+      "new_sha256": "df72d8ac446feec654a682fc9d3b841a3f6758e6cce404c4eca694b93d069189"
+    }
+  ],
+  "tag_input_hashes_unchanged": true,
+  "video_stats_unchanged": true,
+  "local_report_links": 9,
+  "report_sha256": "884300e47360c3439137f2f6a80b1a59c9059aaff8d536f63a7d424b355826e7",
+  "original_repo_status": "",
+  "physical_camera_model_certified": false,
+  "sync_pose_certified": false,
+  "training_runs": 0,
+  "formal_gt": 0,
+  "test_access": false
+}

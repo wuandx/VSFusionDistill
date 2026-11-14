@@ -1,0 +1,10 @@
+{
+  "kind": "raw",
+  "epoch": 200,
+  "parent_sha256": "207afd223133f8aa993db25980ddc51f6e4c48841df4953a9e79ee1213dba6c4",
+  "verified_against_live_models": true,
+  "export_sha256": "0446eef538450ad82c711d15d0aac60ee203cfce618327805f482cf134bd2128",
+  "authorized_test_images": 715,
+  "test_used_for_model_evaluation": true,
+  "freeze_sha256": "9b15dafa76dae926637cf985f77135fd13e73e5f2e879fc24115ec24ed1fba88"
+}

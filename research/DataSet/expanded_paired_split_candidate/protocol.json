@@ -1,0 +1,188 @@
+{
+  "name": "expanded_paired_condition_split",
+  "status": "candidate_pending_user_review",
+  "seed": 42,
+  "input_sha256": {
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_recordings\\inventory.json": "644feb363fa1f9d5a81127883c0c5781a1a57d539a60e92e3ee166aeca719869",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_recordings\\assistant-review-decisions.json": "1249b322be4ebd9f14ee587767fa88c957b81c96765356cb068d535b53165050",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_assistant_truncated_review\\export\\manifest.json": "399ff4845fcce647bac7480065a5f3b55e9b8cd22bd97e0dd2e1557638b33f98",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_recording_split\\manifest.json": "a894869c30b8a980722ad71d7516a1b06f4d273882745d93e4efbdeaf6f4a4ad",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_recording_condition_coverage_candidate\\protocol.json": "9b602bb13d9b5ae60184388af27a0f906c2270aa01ecc3a9e0a20a2daa15e02a",
+    "D:\\pby\\uxo-full\\split_manifest.json": "2eb707c4ecb038b6174e7abbb1306d366fc93a7fcf4d6b4b25099c053eab6989",
+    "D:\\pby\\data_processed\\matches.csv": "44991a4eef8e9044b84c714bb28600d5bcac6316ab329fa3985a2b685ffc6da3",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\experiment\\archive\\expanded-paired-recordings-plan.md": "c01f207620168e97b0bc841b2fd1e0e37a5d2d3cf1dae6fc2f8e404f7df9bde0",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_recordings\\full-review\\2023-09-20_174200\\spec.json": "6b57e2e96223e4c0558ff94d1358451d35547a6b2e0dc55fcdb9d58e0eebb104",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_recordings\\full-review\\2023-09-20_174711\\spec.json": "2b0748c6691bcb571b37455b0770751ed3c782a3f0777f403beb93e06ace2475",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_recordings\\full-review\\2023-09-21_124735\\spec.json": "61b27fca76d915857c300f3427ecd2b03504506c34ff181b827eb0a5e109537f",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_recordings\\full-review\\2023-09-21_155609\\spec.json": "2a5fb8aef1ae17fe482f82f8bafbad9d6a95a3279f4b04d8f951b5c1563865fa",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_recordings\\full-review\\2023-09-21_160146\\spec.json": "d298042f8f90a0d333c8cb88be5b9545cdabd1d9a3c9ddf12f66896219171360",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_recordings\\full-review\\2023-09-21_161916\\spec.json": "2d79c96a98399fda94cc7708c8fb73d5db22378e2cfcecf4dc47298ed28966f7",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\expanded_paired_recordings\\full-review\\2023-09-21_162055\\spec.json": "8e6a79cbb7db9fdb9dfd5f4adb761fc972d2660e6abd3700ee5a75efd6285df6",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_assistant_mortar_late_review\\2023-09-21_110049\\page-0072.json": "e143e33932ed6a59377bded8aaee2bb9c5cb5779a124dbecabbb0fd8c3a7eac6",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_assistant_mortar_late_review\\2023-09-21_110049\\page-0084.json": "dc9999cd1cdb441fd4f9ad0fb8bc140ab0947da6427e9dfd5d0d509a7622b43f",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_assistant_mortar_late_review\\2023-09-21_110049\\page-0096.json": "dce17b84b01285b8518c443db948017caeb359566a9ba4e6244aa01ee1fdc156",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_171105\\aris_frame_meta.csv": "6002945ea1921ff0e476ea453f9b1dc5f519f01fe5236f62166f1fc8c71af82a",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_174200\\aris_frame_meta.csv": "d4f0046e3fea6174ce527960f1e10f1f50c7d3c8325406f3f61329ceb94a9a38",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_174439\\aris_frame_meta.csv": "2f28e853e8152b9f843a41c57154686c5f7f5aad7a661e023eaca932b9405e95",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_175000\\aris_frame_meta.csv": "51905b20c26c7fd14d7258aabe6d3043f26a0d2e043df5be58f8516a755d80ba",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_175506\\aris_frame_meta.csv": "e78973274468804694881bbb6426dd6883fb7057365966981b5ffff7e4784bf2",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_175905\\aris_frame_meta.csv": "0673ec2144d6a6ee653e219f540fdd72f6fdf64e223f4c7675c9033f730e8abd",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_180506\\aris_frame_meta.csv": "be432e03ec5b27f8fab39283cc1661e343a86a8103eaa87e1d4da01f35dd233c",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_180722\\aris_frame_meta.csv": "9de010563e3136a65ab5ad18f4b3ed343aac3bffee9e2637436ad82dbb22546e",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_181139\\aris_frame_meta.csv": "ae93469f4f2a0255a87f1398ea3ce676cd225e10ddbe4b0b0436ccfe52c6f3f5",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb\\2023-09-20_182317\\aris_frame_meta.csv": "4ca28dd53fe80f4de550e171c7cccf17ee877753b34eec079e304c6996f8e92a",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101416\\aris_frame_meta.csv": "2b6908387cfe15bfab8a0976869416293e7c31dbb199ae994095478802ca442f",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101622\\aris_frame_meta.csv": "7a2f303be21b54b53a44136b9bf5146c44e3a08257a4b9ed2601c1527e471228",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_101840\\aris_frame_meta.csv": "23606d4e199e3ed5740734cc4ade96a822064e53b7e4f0399be7bb9c8154d075",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_102500\\aris_frame_meta.csv": "fb9c44f87585991950e670b8377ecb37bd992efabe2fb09e04b2235f8e4c09b0",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103140\\aris_frame_meta.csv": "02278d85a0c15b64b82dcced91488a6cc246eeeaa9adb5959d5450e2b65583e8",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103728\\aris_frame_meta.csv": "c7a356a4047d211e076c4da145fc692c271a71241aa0063c7317265b711fc51d",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103927\\aris_frame_meta.csv": "f6062de8f6f2f085be18947f9fcd0d6daceba8a2db75b7712e5165ddaff01f28",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_104749\\aris_frame_meta.csv": "926ca572957a75dbb7a572b452d27c94a9a11e06cb88ca359250d9512ae2c686",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_105017\\aris_frame_meta.csv": "4e8c90359291956cff678692800db3c6ba5a90eca7eb878d6a78e603855ad182",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_105230\\aris_frame_meta.csv": "fe703cb1d50c0584325209333182a52de6125bd7c1a2ff542eb1a02114efd921",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_110049\\aris_frame_meta.csv": "607ded751b882691007f97738cdecf3f6fad266afdbc1085494dd82f642faf0d",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_121124\\aris_frame_meta.csv": "4e2d1fd875a7935d62aab944bab847083785a38d104aa43cfbd8ac20aea44271",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_121327\\aris_frame_meta.csv": "4fab9500ba143a37ed71500ce4507d0bf1b6f6ce376e26926721feee84a67d8f",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_121539\\aris_frame_meta.csv": "9d8aa73c32d8f93c1807940d32a126bfd43b6f592b9715afca9e151759b07204",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_122608\\aris_frame_meta.csv": "43b581a78a2d4bd50aec6e92c5f3cda0a98d37c042522a8b44f15aa22f7357ee",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_122855\\aris_frame_meta.csv": "f965dcb84c36002d4614d74b055251c621171c07104a91cd0a88fa1f3e09bc46",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_123500\\aris_frame_meta.csv": "8a70cc5f4148d42a98b169c69c5372f56ae4e0bc49107ac7f4ad2d757844acfa",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_123841\\aris_frame_meta.csv": "81a11b1605f1799a66c179705561af27eb8c2886ad897a8cabcc6429a299bfa1",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_124039\\aris_frame_meta.csv": "19500e0bd1c55a8ba69cffbeeebe32ee7d8fb71c14543519fd73b9180a9cc7bd",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_124735\\aris_frame_meta.csv": "52c80ec83f08e2f20f46374e5b3c0fbe9553e8f1a81d0737229d1619113fc6e9",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_124915\\aris_frame_meta.csv": "e8e84ed6ea2f210f82d9083f537b6b17cd5f2f8a63b82ca18a0577c64cd8186d",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_125048\\aris_frame_meta.csv": "201db0eed229bd182793df3aa13c723866025a89b610c92bb4e5b521df360d67",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb_(floor)\\2023-09-21_155609\\aris_frame_meta.csv": "18f8fbe043d81231b0929fbef4db5767b4d95e6866740e5783ee7f8425e9b1e0",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb_(floor)\\2023-09-21_160146\\aris_frame_meta.csv": "656bf44ca6dd445af2a7ccd7d74556b57e2e0612bc4213ace0fa21eff72f47fa",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb_(floor)\\2023-09-21_160551\\aris_frame_meta.csv": "e0d6e2d502b7d22df202baa1c18f7e83e8cbf2cbe0d7a9041758cd2a384a87e0",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\100lbs_bomb_(floor)\\2023-09-21_161916\\aris_frame_meta.csv": "47a0326c788c9cabe4f10b259383695f379f2b8fcc8bfc22a3d6222a66f1551a"
+  },
+  "groups": [
+    [
+      "2023-09-20_174200",
+      "2023-09-20_174439"
+    ],
+    [
+      "2023-09-20_180506",
+      "2023-09-20_180722"
+    ],
+    [
+      "2023-09-21_103728",
+      "2023-09-21_103927"
+    ],
+    [
+      "2023-09-21_121124",
+      "2023-09-21_121327"
+    ],
+    [
+      "2023-09-21_123841",
+      "2023-09-21_124039"
+    ],
+    [
+      "2023-09-21_122608",
+      "2023-09-21_122855"
+    ]
+  ],
+  "algorithm": "Hard broad-condition train coverage and floor ellipse in all three roles; lexicographic per-class squared 60/20/20 count error, held-out exact-condition gaps, marginal-field/setting gaps, broad-condition pan gaps <=5deg, seeded hash tie break.",
+  "search": [
+    {
+      "category": "100lbs_aircraft_bomb",
+      "feasible": 6330,
+      "score": [
+        0.24,
+        5,
+        2,
+        0.99460916,
+        "1ceac2f36872d3a713de6c4528aebe06a679e0c7885940c0e4e88f96bc16288c"
+      ],
+      "roles": {
+        "train": [
+          "2023-09-20_181139",
+          "2023-09-21_161916",
+          "2023-09-20_171105",
+          "2023-09-20_174200",
+          "2023-09-20_174439",
+          "2023-09-20_175905",
+          "2023-09-21_160551",
+          "2023-09-20_182317"
+        ],
+        "val": [
+          "2023-09-20_180506",
+          "2023-09-20_180722",
+          "2023-09-21_160146"
+        ],
+        "test": [
+          "2023-09-20_175000",
+          "2023-09-20_175506",
+          "2023-09-21_155609"
+        ]
+      }
+    },
+    {
+      "category": "mortar_shell",
+      "feasible": 12786,
+      "score": [
+        0.24,
+        0,
+        0,
+        0.21,
+        "5224821ccc39498360b5889b31e3549d3b6dd0734cf9151f88759abd67f045e1"
+      ],
+      "roles": {
+        "train": [
+          "2023-09-21_105017",
+          "2023-09-21_103140",
+          "2023-09-21_101840",
+          "2023-09-21_101416",
+          "2023-09-21_104749",
+          "2023-09-21_110049",
+          "2023-09-21_102500"
+        ],
+        "val": [
+          "2023-09-21_103728",
+          "2023-09-21_103927"
+        ],
+        "test": [
+          "2023-09-21_101622",
+          "2023-09-21_105230"
+        ]
+      }
+    },
+    {
+      "category": "incindiary_grenade",
+      "feasible": 1940,
+      "score": [
+        0.24,
+        1,
+        0,
+        0.24,
+        "07ef3a789ad210e64bfafc316c488b7bc5a8a8af6f29f3c7523d46b4ac20a36d"
+      ],
+      "roles": {
+        "train": [
+          "2023-09-21_122608",
+          "2023-09-21_122855",
+          "2023-09-21_125048",
+          "2023-09-21_121124",
+          "2023-09-21_121327",
+          "2023-09-21_124735",
+          "2023-09-21_123500"
+        ],
+        "val": [
+          "2023-09-21_123841",
+          "2023-09-21_124039"
+        ],
+        "test": [
+          "2023-09-21_121539",
+          "2023-09-21_124915"
+        ]
+      }
+    }
+  ],
+  "model_metrics_used": false,
+  "untouched_final_test": false,
+  "training_started": false,
+  "original_test_opened": false,
+  "old_split_changed": false
+}

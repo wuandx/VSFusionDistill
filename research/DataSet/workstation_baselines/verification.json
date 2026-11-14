@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "data": {
+    "camera-train": {
+      "images": 1800,
+      "boxes": 1800,
+      "image_hashes_match": true,
+      "all_decoded": true,
+      "native_bounds_valid": true
+    },
+    "sonar-train": {
+      "images": 1800,
+      "boxes": 1800,
+      "image_hashes_match": true,
+      "all_decoded": true,
+      "native_bounds_valid": true
+    },
+    "camera-val": {
+      "images": 600,
+      "boxes": 600,
+      "image_hashes_match": true,
+      "all_decoded": true,
+      "native_bounds_valid": true
+    },
+    "sonar-val": {
+      "images": 600,
+      "boxes": 600,
+      "image_hashes_match": true,
+      "all_decoded": true,
+      "native_bounds_valid": true
+    }
+  },
+  "file_count": 9609,
+  "test_uploaded": false,
+  "reserve_uploaded": false,
+  "package_sha256": "ddc769685797b636ae1cc692f72ca2f3d037c93f6a33d8f9890a730937eae666",
+  "package_bytes": 169850880,
+  "sonar_bbox_source": "delivered YOLO coordinates, native pixels reconstructed to 1e-6"
+}

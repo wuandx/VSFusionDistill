@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2503.10152",
+ "slug": "a-hierarchical-semantic-distillation-framework-for-open-voca",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:58:58",
+ "tier": "",
+ "why_relevant": "",
+ "title": "A Hierarchical Semantic Distillation Framework for Open-Vocabulary Object Detection",
+ "authors": [
+  "Fu, Shenghao",
+  "Yan, Junkai",
+  "Yang, Qize",
+  "Wei, Xihan",
+  "Xie, Xiaohua",
+  "Zheng, Wei-Shi"
+ ],
+ "date": "2025/03/13",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Open-vocabulary object detection (OVD) aims to detect objects beyond the training annotations, where detectors are usually aligned to a pre-trained vision-language model, eg, CLIP, to inherit its generalizable recognition ability so that detectors can recognize new or novel objects. However, previous works directly align the feature space with CLIP and fail to learn the semantic knowledge effectively. In this work, we propose a hierarchical semantic distillation framework named HD-OVD to construct a comprehensive distillation process, which exploits generalizable knowledge from the CLIP model in three aspects. In the first hierarchy of HD-OVD, the detector learns fine-grained instance-wise semantics from the CLIP image encoder by modeling relations among single objects in the visual space. Besides, we introduce text space novel-class-aware classification to help the detector assimilate the highly generalizable class-wise semantics from the CLIP text encoder, representing the second hierarchy. Lastly, abundant image-wise semantics containing multi-object and their contexts are also distilled by an image-wise contrastive distillation. Benefiting from the elaborated semantic distillation in triple hierarchies, our HD-OVD inherits generalizable recognition ability from CLIP in instance, class, and image levels. Thus, we boost the novel AP on the OV-COCO dataset to 46.4% with a ResNet50 backbone, which outperforms others by a clear margin. We also conduct extensive ablation studies to analyze how each component works.",
+ "comments": "Accepted to TMM 2025",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2503.10152",
+  "bytes": 4271264,
+  "sha256": "136e42316a175896579c53a4c7fc5cd5b8d68203467ec814cf0776d440e2600b"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2503.10152",
+  "bytes": 8177524,
+  "sha256": "e82a37a1341e32505525bc072f06babc31d180b40db1f4bc8fe09d1885b23ca8",
+  "kind": "tar",
+  "n_files": 18,
+  "tex_files": [
+   "final.tex"
+  ]
+ }
+}

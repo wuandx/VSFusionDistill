@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-11-14T00:14:28.263403+08:00",
+  "parallel_training_verified": true,
+  "runs": [
+    {
+      "name": "scene_camera_m_baseline",
+      "attempt": "after_pilot",
+      "latest_iteration": "11/14 00:14:26 - mmengine - INFO - Epoch(train)   [1][150/309]  base_lr: 1.1782e-05 lr: 1.1782e-05  eta: 8:52:39  time: 0.5140  data_time: 0.0528  memory: 7463  grad_norm: 193.9463  loss: 80.2340  camera/loss_cls: 0.4900  camera/loss_bbox: 4.9436  camera/loss_obj: 74.8003",
+      "service": "MainPID=9471\nResult=success\nActiveState=active\nSubState=running\n",
+      "initialization_sha256": "eaab1cad97fa5f3b404db01e75e7cd7931b6d81a21b4c0fbee7be4eefea11488",
+      "dataset_sha256": "57104b3cf4344408970a6af9d010f1ec1847d74db89519190ea6e8e7981494f1"
+    },
+    {
+      "name": "scene_sonar_s_baseline",
+      "attempt": "after_pilot",
+      "latest_iteration": "11/14 00:14:13 - mmengine - INFO - Epoch(train)   [1][150/309]  base_lr: 1.1782e-05 lr: 1.1782e-05  eta: 7:29:32  time: 0.4303  data_time: 0.0389  memory: 3988  grad_norm: 369.1125  loss: 84.6810  uncoupled_sonar/loss_cls: 0.7570  uncoupled_sonar/loss_bbox: 4.8475  uncoupled_sonar/loss_obj: 79.0765",
+      "service": "MainPID=9474\nResult=success\nActiveState=active\nSubState=running\n",
+      "initialization_sha256": "4592a793b95f18f62fd73fbb6cfe61dd445f71a8e072366e114e7134d4492760",
+      "dataset_sha256": "57104b3cf4344408970a6af9d010f1ec1847d74db89519190ea6e8e7981494f1"
+    }
+  ],
+  "fresh_from_coco": true,
+  "pilot_preserved": true,
+  "test_content_read": false
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://api.github.com/orgs/dfki-ric/repos?per_page=100",
+    "status": 200,
+    "records": 68,
+    "sha256": "40bbb07766ae124341b206da759da02d198cee5e941fc3f0f7c3400854888465",
+    "local_file": "dfki-repos.json",
+    "pagination": "single page; returned fewer than requested 100; response Link headers not retained"
+  },
+  {
+    "url": "https://api.github.com/users/ndahn/repos?per_page=100",
+    "status": 200,
+    "records": 24,
+    "sha256": "1d838daabb5ad1cf04f63dcaccac52d8a41b8f6f298360b28e30a7636b9aa977",
+    "local_file": "ndahn-repos.json",
+    "pagination": "single page; returned fewer than requested 100; response Link headers not retained"
+  },
+  {
+    "url": "https://api.github.com/users/mbandefirvida/repos?per_page=100",
+    "status": 404,
+    "note": "guessed username; identity unverified; from observed failed request"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "model": true,
+  "optim_wrapper": true,
+  "param_scheduler": true,
+  "randomness": true,
+  "train_cfg": true,
+  "fresh_coco": true,
+  "old_optimizer_and_epoch_schedule_identical": true,
+  "old_model_and_preprocessing_identical": true,
+  "no_test_loader": true,
+  "old_sampler_recipe_identical": true
+}

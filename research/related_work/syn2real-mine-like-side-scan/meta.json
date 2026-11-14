@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2410.12953",
+ "slug": "syn2real-mine-like-side-scan",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:26:59",
+ "tier": "A",
+ "why_relevant": "unexploded mine-like objects, side-scan, domain generalization",
+ "title": "Syn2Real Domain Generalization for Underwater Mine-like Object Detection Using Side-Scan Sonar",
+ "authors": [
+  "Agrawal, Aayush",
+  "Sikdar, Aniruddh",
+  "Makam, Rajini",
+  "Sundaram, Suresh",
+  "Besai, Suresh Kumar",
+  "Gopi, Mahesh"
+ ],
+ "date": "2024/10/16",
+ "doi": "10.1109/LGRS.2025.3550037",
+ "journal": "",
+ "abstract": "Abstract: Underwater mine detection with deep learning suffers from limitations due to the scarcity of real-world data. This scarcity leads to overfitting, where models perform well on training data but poorly on unseen data. This paper proposes a Syn2Real (Synthetic to Real) domain generalization approach using diffusion models to address this challenge. We demonstrate that synthetic data generated with noise by DDPM and DDIM models, even if not perfectly realistic, can effectively augment real-world samples for training. The residual noise in the final sampled images improves the model&#39;s ability to generalize to real-world data with inherent noise and high variation. The baseline Mask-RCNN model when trained on a combination of synthetic and original training datasets, exhibited approximately a 60% increase in Average Precision (AP) compared to being trained solely on the original training data. This significant improvement highlights the potential of Syn2Real domain generalization for underwater mine detection tasks.",
+ "comments": "7 pages, 4 figures and 3 tables",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2410.12953",
+  "bytes": 3284752,
+  "sha256": "d315823a07311675c4e17903028cfe72854e7d9e68bcc471cbe090a4bf99c152"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2410.12953",
+  "bytes": 6635037,
+  "sha256": "c2cc5e5364f1445c07cd5117e55a0090c4f1e54bc22c542b9d8c9d21fb80a5b7",
+  "kind": "tar",
+  "n_files": 23,
+  "tex_files": [
+   "Main.tex"
+  ]
+ }
+}

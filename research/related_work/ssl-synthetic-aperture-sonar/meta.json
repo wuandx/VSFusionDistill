@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2308.11633",
+ "slug": "ssl-synthetic-aperture-sonar",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:30:50",
+ "tier": "C",
+ "why_relevant": "self-supervised learning on SAS data",
+ "title": "Advances in Self-Supervised Learning for Synthetic Aperture Sonar Data Processing, Classification, and Pattern Recognition",
+ "authors": [
+  "Sheffield, Brandon",
+  "Bobe III, Frank E.",
+  "Marchand, Bradley",
+  "Emigh, Matthew S."
+ ],
+ "date": "2023/08/12",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Synthetic Aperture Sonar (SAS) imaging has become a crucial technology for underwater exploration because of its unique ability to maintain resolution at increasing ranges, a characteristic absent in conventional sonar techniques. However, the effective application of deep learning to SAS data processing is often limited due to the scarcity of labeled data. To address this challenge, this paper proposes MoCo-SAS that leverages self-supervised learning (SSL) for SAS data processing, classification, and pattern recognition. The experimental results demonstrate that MoCo-SAS significantly outperforms traditional supervised learning methods, as evidenced by significant improvements observed in terms of the F1-score. These findings highlight the potential of SSL in advancing the state-of-the-art in SAS data processing, offering promising avenues for enhanced underwater object detection and classification.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2308.11633",
+  "bytes": 552250,
+  "sha256": "6d32e70d2183b4597cd0405f38254b6d223a6393d2359505d4c42987732875f9"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2308.11633",
+  "bytes": 548269,
+  "sha256": "17bff7a1c87eb0a5016c2ee1e2fb59eab5cc0fada2226c424cc299a1da566748",
+  "kind": "tar",
+  "n_files": 8,
+  "tex_files": [
+   "paper.tex"
+  ]
+ }
+}

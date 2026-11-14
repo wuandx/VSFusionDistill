@@ -1,0 +1,33 @@
+{
+ "arxiv_id": "2310.01667",
+ "slug": "stars-zero-shot-sim-to-real-transfer-for-segmentation-of-shi",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:40:20",
+ "tier": "",
+ "why_relevant": "",
+ "title": "STARS: Zero-shot Sim-to-Real Transfer for Segmentation of Shipwrecks in Sonar Imagery",
+ "authors": [
+  "Sethuraman, Advaith Venkatramanan",
+  "Skinner, Katherine A."
+ ],
+ "date": "2023/10/02",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: In this paper, we address the problem of sim-to-real transfer for object segmentation when there is no access to real examples of an object of interest during training, i.e. zero-shot sim-to-real transfer for segmentation. We focus on the application of shipwreck segmentation in side scan sonar imagery. Our novel segmentation network, STARS, addresses this challenge by fusing a predicted deformation field and anomaly volume, allowing it to generalize better to real sonar images and achieve more effective zero-shot sim-to-real transfer for image segmentation. We evaluate the sim-to-real transfer capabilities of our method on a real, expert-labeled side scan sonar dataset of shipwrecks collected from field work surveys with an autonomous underwater vehicle (AUV). STARS is trained entirely in simulation and performs zero-shot shipwreck segmentation with no additional fine-tuning on real data. Our method provides a significant 20% increase in segmentation performance for the targeted shipwreck class compared to the best baseline.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2310.01667",
+  "bytes": 3137283,
+  "sha256": "000af82014d5975e5e6287510cd840a401102bf6d12f1452ce7b083002eb30c1"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2310.01667",
+  "bytes": 39164358,
+  "sha256": "3f0bf0addedb5f100aebb8f60d6bda09d69e0d3e53fcbe7016ba3be71f9d8967",
+  "kind": "tar",
+  "n_files": 24,
+  "tex_files": [
+   "bmvc_final.tex"
+  ]
+ }
+}

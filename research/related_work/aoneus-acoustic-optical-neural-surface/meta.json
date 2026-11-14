@@ -1,0 +1,48 @@
+{
+ "arxiv_id": "2402.03309",
+ "slug": "aoneus-acoustic-optical-neural-surface",
+ "ok": true,
+ "fetched_at": "2026-11-13T11:27:52",
+ "tier": "B",
+ "why_relevant": "AONeuS：声-光联合神经表面重建，物理驱动地把光学几何与声学观测对齐",
+ "title": "AONeuS: A Neural Rendering Framework for Acoustic-Optical Sensor Fusion",
+ "authors": [
+  "Qadri, Mohamad",
+  "Zhang, Kevin",
+  "Hinduja, Akshay",
+  "Kaess, Michael",
+  "Pediredla, Adithya",
+  "Metzler, Christopher A."
+ ],
+ "date": "2024/02/05",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Underwater perception and 3D surface reconstruction are challenging problems with broad applications in construction, security, marine archaeology, and environmental monitoring. Treacherous operating conditions, fragile surroundings, and limited navigation control often dictate that submersibles restrict their range of motion and, thus, the baseline over which they can capture measurements. In the context of 3D scene reconstruction, it is well-known that smaller baselines make reconstruction more challenging. Our work develops a physics-based multimodal acoustic-optical neural surface reconstruction framework (AONeuS) capable of effectively integrating high-resolution RGB measurements with low-resolution depth-resolved imaging sonar measurements. By fusing these complementary modalities, our framework can reconstruct accurate high-resolution 3D surfaces from measurements captured over heavily-restricted baselines. Through extensive simulations and in-lab experiments, we demonstrate that AONeuS dramatically outperforms recent RGB-only and sonar-only inverse-differentiable-rendering--based surface reconstruction methods. A website visualizing the results of our paper is located at this address: this https URL",
+ "comments": "SIGGRAPH 2024 (conference track full paper). First two authors contributed equally. Paper website: this https URL",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2402.03309",
+  "bytes": 10082904,
+  "sha256": "20edb75aebc015ed0d1d56c52c7ffe59e9a60e402176288f2303428387c04f27"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2402.03309",
+  "bytes": 11873939,
+  "sha256": "77da223f06f3fe51f9d77962daa2ff72189a26fabfc5892e6ca2ccd50c909750",
+  "kind": "tar",
+  "n_files": 35,
+  "tex_files": [
+   "sample-acmtog-SIGGRAPH-submission.tex",
+   "sec/0_abstract.tex",
+   "sec/1_intro.tex",
+   "sec/2_related_work.tex",
+   "sec/3_method.tex",
+   "sec/4_experimental_results.tex",
+   "sec/5_discussion.tex",
+   "sec/6_figure_only.tex",
+   "sec/7_ack.tex",
+   "sec/X_suppl.tex",
+   "sec/supplement_body.tex"
+  ]
+ }
+}

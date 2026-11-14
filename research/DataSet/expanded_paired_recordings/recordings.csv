@@ -1,0 +1,310 @@
+﻿recording,category,placement,trajectory,z,tilt,roll,pan,primary_condition,legacy_role,legacy_exclude_reason,status,reason,old_delivered,source_count,source_sd_count,camera_issues,pairing_status,previous_review,notes,source_root,pilot_count,pilot_sheet,pilot_in_bounds
+2023-09-20_171105,100lbs_aircraft_bomb,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|750|-22|0|unknown,val,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,116,715,715,{},"{""supported_in_checked_window"": 715}","{""recording"": ""2023-09-20_171105"", ""category"": ""100lbs_aircraft_bomb"", ""eligible_source_count"": 715, ""unique_viewed"": 180, ""accepted"": 116, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 100lbs bomb
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Min Transmit
+- 10dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_171105,0,,
+2023-09-20_173329,100lbs_aircraft_bomb,standard,L_to_R,750,-22,90,unknown,standard|L_to_R|750|-22|90|unknown,train,,pairing_failed_retained,历史配对检查未通过；不自动恢复，不为扩量改时间,0,763,763,{},"{""prior_pairing_check_insufficient"": 763}",{},"- target: 100lbs bomb
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Min Transmit
+- 10dB
+- lost track of object",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_173329,0,,
+2023-09-20_173615,100lbs_aircraft_bomb,standard,L_to_R,750,-22,90,unknown,standard|L_to_R|750|-22|90|unknown,train,,camera_labels_pending,全序列原相机框越界，需核查原坐标与可见部分；未改框,0,797,797,"{""camera_bbox_out_of_bounds"": 797}","{""not_independently_checked"": 797}",{},"- target: 100lbs bomb
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Min Transmit
+- 10dB
+- repeat of previous recording",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_173615,0,,
+2023-09-20_174200,100lbs_aircraft_bomb,standard,L_to_R,725,-26,0,unknown,standard|L_to_R|725|-26|0|unknown,excluded,row residual p50 42.6 px > 28.0,new_non_test_pilot,旧excluded基于投影残差；本轮新建SD/raw直接审阅试点，尚未验收,0,744,744,{},{},{},"- target: 100lbs bomb
+- Trajectory: L to R (z: 725)
+- Tilt: -26°
+- roll: 0°
+- Min Transmit
+- 10dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_174200,12,pilots\2023-09-20_174200\pilot.jpg,12
+2023-09-20_174439,100lbs_aircraft_bomb,standard,L_to_R,725,-26,0,unknown,standard|L_to_R|725|-26|0|unknown,val,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,105,734,734,{},"{""not_independently_checked"": 734}","{""recording"": ""2023-09-20_174439"", ""category"": ""100lbs_aircraft_bomb"", ""eligible_source_count"": 734, ""unique_viewed"": 273, ""accepted"": 105, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 100lbs bomb
+- Trajectory: L to R (z: 725)
+- Tilt: -26°
+- roll: 0°
+- Min Transmit
+- 10dB
+- repeat (main data)",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_174439,0,,
+2023-09-20_174711,100lbs_aircraft_bomb,standard,L_to_R,725,-26,0,unknown,standard|L_to_R|725|-26|0|unknown,excluded,row residual p50 41.0 px > 28.0,new_non_test_pilot,旧excluded基于投影残差；本轮新建SD/raw直接审阅试点，尚未验收,0,710,710,{},{},{},"- target: 100lbs bomb
+- Trajectory: L to R (z: 725)
+- Tilt: -26°
+- roll: 0°
+- Max Transmit
+- 5dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_174711,12,pilots\2023-09-20_174711\pilot.jpg,12
+2023-09-20_175000,100lbs_aircraft_bomb,standard,L_to_R,725,-26,90,unknown,standard|L_to_R|725|-26|90|unknown,excluded,row residual p50 30.8 px > 28.0,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,107,793,793,"{""camera_bbox_out_of_bounds"": 320}","{""not_independently_checked"": 793}","{""recording"": ""2023-09-20_175000"", ""category"": ""100lbs_aircraft_bomb"", ""eligible_source_count"": 473, ""unique_viewed"": 252, ""accepted"": 107, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 100lbs bomb
+- Trajectory: L to R (z: 725)
+- Tilt: -26°
+- roll: 90°
+- Min Transmit
+- 10dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_175000,0,,
+2023-09-20_175506,100lbs_aircraft_bomb,standard,L_to_R,500,-34,0,unknown,standard|L_to_R|500|-34|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,100,734,734,{},"{""not_independently_checked"": 734}","{""recording"": ""2023-09-20_175506"", ""category"": ""100lbs_aircraft_bomb"", ""eligible_source_count"": 734, ""unique_viewed"": 120, ""accepted"": 100, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 100lbs bomb
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Min Transmit
+- 10dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_175506,0,,
+2023-09-20_175905,100lbs_aircraft_bomb,standard,L_to_R,500,-34,0,unknown,standard|L_to_R|500|-34|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,107,705,705,{},"{""not_independently_checked"": 705}","{""recording"": ""2023-09-20_175905"", ""category"": ""100lbs_aircraft_bomb"", ""eligible_source_count"": 705, ""unique_viewed"": 144, ""accepted"": 107, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 100lbs bomb
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Max Transmit
+- 5dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_175905,0,,
+2023-09-20_180506,100lbs_aircraft_bomb,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|250|-42|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,109,737,737,{},"{""not_independently_checked"": 737}","{""recording"": ""2023-09-20_180506"", ""category"": ""100lbs_aircraft_bomb"", ""eligible_source_count"": 737, ""unique_viewed"": 120, ""accepted"": 109, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 100lbs bomb
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 10dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_180506,0,,
+2023-09-20_180722,100lbs_aircraft_bomb,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|250|-42|0|unknown,val,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,101,743,743,{},"{""not_independently_checked"": 743}","{""recording"": ""2023-09-20_180722"", ""category"": ""100lbs_aircraft_bomb"", ""eligible_source_count"": 743, ""unique_viewed"": 120, ""accepted"": 101, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 100lbs bomb
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 10dB
+- repeat (main data)",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_180722,0,,
+2023-09-20_181139,100lbs_aircraft_bomb,standard,L_to_R,250,-42,90,unknown,standard|L_to_R|250|-42|90|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,111,745,745,{},"{""not_independently_checked"": 745}","{""recording"": ""2023-09-20_181139"", ""category"": ""100lbs_aircraft_bomb"", ""eligible_source_count"": 745, ""unique_viewed"": 144, ""accepted"": 111, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 100lbs bomb
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 90°
+- Min Transmit
+- 10dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_181139,0,,
+2023-09-20_182317,100lbs_aircraft_bomb,standard,flyby,250,-60,0,-180,standard|flyby|250|-60|0|-180,excluded,row residual p50 42.2 px > 28.0,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,146,146,146,{},"{""not_independently_checked"": 146}","{""recording"": ""2023-09-20_182317"", ""category"": ""100lbs_aircraft_bomb"", ""eligible_source_count"": 146, ""unique_viewed"": 146, ""accepted"": 31, ""selected"": 31, ""shortfall"": 69, ""source_identities_all_viewed"": true}","- target: 100lbs bomb
+- Trajectory: flyby (z: 250, y: 1420)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Min Transmit
+- 10dB
+- incorrect gopro offset",D:\pby\uxo-full\extracted\recordings\100lbs_bomb\2023-09-20_182317,0,,
+2023-09-21_100927,mortar_shell,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|750|-22|0|unknown,train,,pairing_failed_retained,历史配对检查未通过；不自动恢复，不为扩量改时间,0,725,725,{},"{""prior_pairing_check_insufficient"": 725}",{},"- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Min Transmit
+- 15dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_100927,0,,
+2023-09-21_101131,mortar_shell,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|750|-22|0|unknown,train,,pairing_failed_retained,历史配对检查未通过；不自动恢复，不为扩量改时间,0,829,828,"{""missing_sd"": 1}","{""prior_pairing_check_insufficient"": 829}",{},"- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Min Transmit
+- 15dB
+- repeat (main data)",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_101131,0,,
+2023-09-21_101416,mortar_shell,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|750|-22|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,120,743,743,{},"{""not_independently_checked"": 743}","{""recording"": ""2023-09-21_101416"", ""category"": ""mortar_shell"", ""eligible_source_count"": 743, ""unique_viewed"": 144, ""accepted"": 120, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Max Transmit
+- 5dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_101416,0,,
+2023-09-21_101622,mortar_shell,standard,L_to_R,750,-22,90,unknown,standard|L_to_R|750|-22|90|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,123,768,768,{},"{""not_independently_checked"": 768}","{""recording"": ""2023-09-21_101622"", ""category"": ""mortar_shell"", ""eligible_source_count"": 768, ""unique_viewed"": 144, ""accepted"": 123, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Max Transmit
+- 5dB
+- bad, needs repeat",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_101622,0,,
+2023-09-21_101840,mortar_shell,standard,L_to_R,750,-22,90,unknown,standard|L_to_R|750|-22|90|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,108,759,758,"{""missing_sd"": 1}","{""not_independently_checked"": 759}","{""recording"": ""2023-09-21_101840"", ""category"": ""mortar_shell"", ""eligible_source_count"": 758, ""unique_viewed"": 227, ""accepted"": 108, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Min Transmit
+- 15dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_101840,0,,
+2023-09-21_102500,mortar_shell,standard,L_to_R,500,-34,0,unknown,standard|L_to_R|500|-34|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,126,736,736,{},"{""not_independently_checked"": 736}","{""recording"": ""2023-09-21_102500"", ""category"": ""mortar_shell"", ""eligible_source_count"": 736, ""unique_viewed"": 184, ""accepted"": 126, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 15cm_mortar
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Min Transmit
+- 15dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_102500,0,,
+2023-09-21_103140,mortar_shell,standard,L_to_R,500,-34,90,unknown,standard|L_to_R|500|-34|90|unknown,val,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,128,714,714,{},"{""not_independently_checked"": 714}","{""recording"": ""2023-09-21_103140"", ""category"": ""mortar_shell"", ""eligible_source_count"": 714, ""unique_viewed"": 228, ""accepted"": 128, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 15cm_mortar
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 90°
+- Max Transmit
+- 5dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_103140,0,,
+2023-09-21_103728,mortar_shell,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|250|-42|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,139,693,693,{},"{""not_independently_checked"": 693}","{""recording"": ""2023-09-21_103728"", ""category"": ""mortar_shell"", ""eligible_source_count"": 693, ""unique_viewed"": 172, ""accepted"": 139, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 15dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_103728,0,,
+2023-09-21_103927,mortar_shell,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|250|-42|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,119,781,780,"{""missing_sd"": 1}","{""not_independently_checked"": 781}","{""recording"": ""2023-09-21_103927"", ""category"": ""mortar_shell"", ""eligible_source_count"": 780, ""unique_viewed"": 156, ""accepted"": 119, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 15dB
+- repeat (main data)",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_103927,0,,
+2023-09-21_104749,mortar_shell,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|250|-42|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,118,725,725,{},"{""not_independently_checked"": 725}","{""recording"": ""2023-09-21_104749"", ""category"": ""mortar_shell"", ""eligible_source_count"": 725, ""unique_viewed"": 144, ""accepted"": 118, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Max Transmit
+- 5dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_104749,0,,
+2023-09-21_105017,mortar_shell,standard,L_to_R,250,-42,90,unknown,standard|L_to_R|250|-42|90|unknown,val,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,107,677,677,{},"{""not_independently_checked"": 677}","{""recording"": ""2023-09-21_105017"", ""category"": ""mortar_shell"", ""eligible_source_count"": 677, ""unique_viewed"": 167, ""accepted"": 107, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 90°
+- Max Transmit
+- 5dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_105017,0,,
+2023-09-21_105230,mortar_shell,standard,L_to_R,250,-42,90,unknown,standard|L_to_R|250|-42|90|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,116,766,765,"{""missing_sd"": 1}","{""not_independently_checked"": 766}","{""recording"": ""2023-09-21_105230"", ""category"": ""mortar_shell"", ""eligible_source_count"": 765, ""unique_viewed"": 268, ""accepted"": 116, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 90°
+- Min Transmit
+- 15dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_105230,0,,
+2023-09-21_105856,mortar_shell,standard,flyby,250,-60,0,-180,standard|flyby|250|-60|0|-180,val,,sonar_review_pending,旧双端审核0接受；含截断与回波边界疑点，需新审阅，不能作负样本,0,206,206,{},"{""not_independently_checked"": 206}","{""recording"": ""2023-09-21_105856"", ""category"": ""mortar_shell"", ""eligible_source_count"": 206, ""unique_viewed"": 206, ""accepted"": 0, ""selected"": 0, ""shortfall"": 100, ""source_identities_all_viewed"": true}","- target: 15cm_mortar
+- Trajectory: flyby (z: 250, y: 1250)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Max Transmit
+- 5dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_105856,0,,
+2023-09-21_110049,mortar_shell,standard,flyby,250,-60,0,-180,standard|flyby|250|-60|0|-180,excluded,row residual p50 58.0 px > 28.0,sonar_review_pending,旧双端审核0接受；含截断与回波边界疑点，需新审阅，不能作负样本,0,193,193,{},"{""not_independently_checked"": 193}","{""recording"": ""2023-09-21_110049"", ""category"": ""mortar_shell"", ""eligible_source_count"": 193, ""unique_viewed"": 193, ""accepted"": 0, ""selected"": 0, ""shortfall"": 100, ""source_identities_all_viewed"": true}","- target: 15cm_mortar
+- Trajectory: flyby (z: 250, y: 1250)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Min Transmit
+- 15dB",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_110049,0,,
+2023-09-21_110229,mortar_shell,standard,flyby,250,-90,0,-180,standard|flyby|250|-90|0|-180,val,,sonar_review_pending,旧双端审核0接受；含截断与回波边界疑点，需新审阅，不能作负样本,0,226,226,{},"{""not_independently_checked"": 226}","{""recording"": ""2023-09-21_110229"", ""category"": ""mortar_shell"", ""eligible_source_count"": 226, ""unique_viewed"": 226, ""accepted"": 0, ""selected"": 0, ""shortfall"": 100, ""source_identities_all_viewed"": true}","- target: 15cm_mortar
+- Trajectory: flyby (z: 250, y: 1250)
+- Tilt: -90°
+- Roll: 0°
+- Pan: -180°
+- Min Transmit
+- 15dB
+- impossible to match",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_110229,0,,
+2023-09-21_110411,mortar_shell,standard,flyby,250,-90,0,-180,standard|flyby|250|-90|0|-180,train,,sonar_review_pending,旧双端审核0接受；含截断与回波边界疑点，需新审阅，不能作负样本,0,291,291,{},"{""not_independently_checked"": 291}","{""recording"": ""2023-09-21_110411"", ""category"": ""mortar_shell"", ""eligible_source_count"": 291, ""unique_viewed"": 291, ""accepted"": 0, ""selected"": 0, ""shortfall"": 100, ""source_identities_all_viewed"": true}","- target: 15cm_mortar
+- Trajectory: flyby (z: 250, y: 1250)
+- Tilt: -90°
+- Roll: 0°
+- Pan: -180°
+- Max Transmit
+- 5dB
+- impossible to match",D:\pby\uxo-full\extracted\recordings\15cm_mortar\2023-09-21_110411,0,,
+2023-09-21_120653,incindiary_grenade,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|750|-22|0|unknown,train,,pairing_failed_retained,历史配对检查未通过；不自动恢复，不为扩量改时间,0,771,770,"{""missing_sd"": 1}","{""prior_pairing_check_insufficient"": 771}",{},"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Min Transmit
+- 15dB",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_120653,0,,
+2023-09-21_120912,incindiary_grenade,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|750|-22|0|unknown,val,,pairing_failed_retained,历史配对检查未通过；不自动恢复，不为扩量改时间,0,683,683,{},"{""prior_pairing_check_insufficient"": 683}",{},"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Min Transmit
+- 15dB
+- repeat (main data)",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_120912,0,,
+2023-09-21_121124,incindiary_grenade,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|750|-22|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,117,697,697,{},"{""not_independently_checked"": 697}","{""recording"": ""2023-09-21_121124"", ""category"": ""incindiary_grenade"", ""eligible_source_count"": 697, ""unique_viewed"": 203, ""accepted"": 117, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Max Transmit
+- 5dB",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_121124,0,,
+2023-09-21_121327,incindiary_grenade,standard,L_to_R,750,-22,0,unknown,standard|L_to_R|750|-22|0|unknown,val,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,130,739,739,{},"{""not_independently_checked"": 739}","{""recording"": ""2023-09-21_121327"", ""category"": ""incindiary_grenade"", ""eligible_source_count"": 739, ""unique_viewed"": 266, ""accepted"": 130, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Max Transmit
+- 0dB
+- repeat (0db gain)",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_121327,0,,
+2023-09-21_121539,incindiary_grenade,standard,L_to_R,750,-22,90,unknown,standard|L_to_R|750|-22|90|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,102,777,776,"{""missing_sd"": 1}","{""not_independently_checked"": 777}","{""recording"": ""2023-09-21_121539"", ""category"": ""incindiary_grenade"", ""eligible_source_count"": 776, ""unique_viewed"": 203, ""accepted"": 102, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Max Transmit
+- 0dB",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_121539,0,,
+2023-09-21_122608,incindiary_grenade,standard,L_to_R,500,-34,0,unknown,standard|L_to_R|500|-34|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,100,757,757,{},"{""not_independently_checked"": 757}","{""recording"": ""2023-09-21_122608"", ""category"": ""incindiary_grenade"", ""eligible_source_count"": 757, ""unique_viewed"": 203, ""accepted"": 100, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 20lbs_incendiary
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Max Transmit
+- 0dB",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_122608,0,,
+2023-09-21_122855,incindiary_grenade,standard,L_to_R,500,-34,90,unknown,standard|L_to_R|500|-34|90|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,101,809,809,{},"{""not_independently_checked"": 809}","{""recording"": ""2023-09-21_122855"", ""category"": ""incindiary_grenade"", ""eligible_source_count"": 809, ""unique_viewed"": 201, ""accepted"": 101, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 20lbs_incendiary
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 90°
+- Max Transmit
+- 0dB
+- original aris recording covers two trajectories, this is the 2nd one",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_122855,0,,
+2023-09-21_123500,incindiary_grenade,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|250|-42|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,115,731,730,"{""missing_sd"": 1}","{""not_independently_checked"": 731}","{""recording"": ""2023-09-21_123500"", ""category"": ""incindiary_grenade"", ""eligible_source_count"": 730, ""unique_viewed"": 124, ""accepted"": 115, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 20lbs_incendiary
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 15dB",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_123500,0,,
+2023-09-21_123841,incindiary_grenade,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|250|-42|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,106,753,753,{},"{""not_independently_checked"": 753}","{""recording"": ""2023-09-21_123841"", ""category"": ""incindiary_grenade"", ""eligible_source_count"": 753, ""unique_viewed"": 112, ""accepted"": 106, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 20lbs_incendiary
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Max Transmit
+- 0dB
+- off-center",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_123841,0,,
+2023-09-21_124039,incindiary_grenade,standard,L_to_R,250,-42,0,unknown,standard|L_to_R|250|-42|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,106,795,795,{},"{""not_independently_checked"": 795}","{""recording"": ""2023-09-21_124039"", ""category"": ""incindiary_grenade"", ""eligible_source_count"": 795, ""unique_viewed"": 112, ""accepted"": 106, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 20lbs_incendiary
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Max Transmit
+- 0dB
+- repeat",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_124039,0,,
+2023-09-21_124735,incindiary_grenade,standard,flyby,250,-60,0,-180,standard|flyby|250|-60|0|-180,excluded,row residual p50 96.9 px > 28.0,new_non_test_pilot,旧excluded基于投影残差；本轮新建SD/raw直接审阅试点，尚未验收,0,168,168,{},{},{},"- target: 20lbs_incendiary
+- Trajectory: flyby (z:250, y: 1250)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Min Transmit
+- 15dB
+- gopro offset based on previous",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_124735,12,pilots\2023-09-21_124735\pilot.jpg,12
+2023-09-21_124915,incindiary_grenade,standard,flyby,250,-60,0,-180,standard|flyby|250|-60|0|-180,val,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,108,169,169,{},"{""not_independently_checked"": 169}","{""recording"": ""2023-09-21_124915"", ""category"": ""incindiary_grenade"", ""eligible_source_count"": 169, ""unique_viewed"": 169, ""accepted"": 108, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": true}","- target: 20lbs_incendiary
+- Trajectory: flyby (z:250, y: 1250)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Max Transmit
+- 0dB",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_124915,0,,
+2023-09-21_125048,incindiary_grenade,standard,flyby,250,-90,0,-180,standard|flyby|250|-90|0|-180,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,100,251,251,{},"{""not_independently_checked"": 251}","{""recording"": ""2023-09-21_125048"", ""category"": ""incindiary_grenade"", ""eligible_source_count"": 251, ""unique_viewed"": 251, ""accepted"": 100, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": true}","- target: 20lbs_incendiary
+- Trajectory: flyby (z:250, y: 1250)
+- Tilt: -90°
+- Roll: 0°
+- Pan: -180°
+- Max Transmit
+- 0dB",D:\pby\uxo-full\extracted\recordings\20lbs_incendiary\2023-09-21_125048,0,,
+2023-09-21_155609,100lbs_aircraft_bomb,floor,ellipse,1250,-32,0,unknown,floor|ellipse|1250|-32|0|unknown,excluded,bearing residual rms 3.35 deg > 3.0,new_non_test_pilot,旧excluded基于投影残差；本轮新建SD/raw直接审阅试点，尚未验收,0,1396,1396,{},{},{},"- target: 100lbs_bomb (floor)
+- Trajectory: ellipse (z: 1250)
+- Tilt: -32° (start)
+- roll: 0°
+- Min Transmit
+- 15dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb_(floor)\2023-09-21_155609,12,pilots\2023-09-21_155609\pilot.jpg,12
+2023-09-21_160146,100lbs_aircraft_bomb,floor,ellipse,1000,-38,0,unknown,floor|ellipse|1000|-38|0|unknown,excluded,row residual p50 37.6 px > 28.0,new_non_test_pilot,旧excluded基于投影残差；本轮新建SD/raw直接审阅试点，尚未验收,0,1404,1404,{},{},{},"- target: 100lbs_bomb (floor)
+- Trajectory: ellipse (z: 1000)
+- Tilt: -38° (start)
+- roll: 0°
+- Min Transmit
+- 15dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb_(floor)\2023-09-21_160146,12,pilots\2023-09-21_160146\pilot.jpg,12
+2023-09-21_160551,100lbs_aircraft_bomb,floor,ellipse,1000,-32,0,unknown,floor|ellipse|1000|-32|0|unknown,train,,existing_reviewed_recording,沿用当前接受包；不重新认证同步或专家GT,107,1385,1384,"{""missing_sd"": 1}","{""not_independently_checked"": 1385}","{""recording"": ""2023-09-21_160551"", ""category"": ""100lbs_aircraft_bomb"", ""eligible_source_count"": 1384, ""unique_viewed"": 180, ""accepted"": 107, ""selected"": 100, ""shortfall"": 0, ""source_identities_all_viewed"": false}","- target: 100lbs_bomb (floor)
+- Trajectory: ellipse (z: 1000)
+- Tilt: -32° (start)
+- roll: 0°
+- Max Transmit
+- 0dB
+- not sure about gopro offset",D:\pby\uxo-full\extracted\recordings\100lbs_bomb_(floor)\2023-09-21_160551,0,,
+2023-09-21_161916,100lbs_aircraft_bomb,floor,flyby,unknown,-60,0,-180,floor|flyby|unknown|-60|0|-180,excluded,row residual p50 53.2 px > 28.0,new_non_test_pilot,旧excluded基于投影残差；本轮新建SD/raw直接审阅试点，尚未验收,0,224,224,{},{},{},"- target: 100lbs_bomb (floor)
+- Trajectory: flyby (z: ?, y: 1000)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Min Transmit
+- 12dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb_(floor)\2023-09-21_161916,12,pilots\2023-09-21_161916\pilot.jpg,12
+2023-09-21_162055,100lbs_aircraft_bomb,floor,flyby,unknown,-60,0,-180,floor|flyby|unknown|-60|0|-180,excluded,row residual p50 52.2 px > 28.0,new_non_test_pilot,旧excluded基于投影残差；本轮新建SD/raw直接审阅试点，尚未验收,0,255,255,{},{},{},"- target: 100lbs_bomb (floor)
+- Trajectory: flyby (z: ?, y: 1000)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Max Transmit
+- 0dB",D:\pby\uxo-full\extracted\recordings\100lbs_bomb_(floor)\2023-09-21_162055,12,pilots\2023-09-21_162055\pilot.jpg,12

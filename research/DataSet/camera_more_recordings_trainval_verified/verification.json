@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "status": "camera_only_assistant_reviewed_trainval",
+  "counts": {
+    "train": {
+      "images": 3372,
+      "recordings": 30,
+      "groups": 26
+    },
+    "val": {
+      "images": 894,
+      "recordings": 9,
+      "groups": 7
+    }
+  },
+  "added_images": 900,
+  "added_recordings": 9,
+  "original_train_preserved": true,
+  "val_annotations_byte_identical": true,
+  "all_images_hash_decode_verified": true,
+  "cross_train_val_hash_duplicates": 0,
+  "new_train_vs_frozen_test_hash_duplicates": 0,
+  "test_pixels_read": false,
+  "source_labels_modified": false,
+  "paired_distillation_ready": false,
+  "expert_verified": false,
+  "candidate_manifest_sha256": "2f084066612025578289bf0b324ab65f29d6e9f0d2447bb055ffd6bcb29b8413"
+}

@@ -1,0 +1,34 @@
+{
+ "arxiv_id": "2507.05410",
+ "slug": "stereo-sidescan-fls-feature-geometry",
+ "ok": true,
+ "fetched_at": "2026-11-13T11:26:32",
+ "tier": "A",
+ "why_relevant": "唯一显式做「把一侧声呐看到的特征投到另一侧声呐」的几何方法（FLS↔侧扫，仿极线几何）——跨模态特征投影最直接先例",
+ "title": "Feature Geometry for Stereo Sidescan and Forward-looking Sonar",
+ "authors": [
+  "Norman, Kalin",
+  "Mangelson, Joshua G."
+ ],
+ "date": "2025/07/07",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: In this paper, we address stereo acoustic data fusion for marine robotics and propose a geometry-based method for projecting observed features from one sonar to another for a cross-modal stereo sonar setup that consists of both a forward-looking and a sidescan sonar. Our acoustic geometry for sidescan and forward-looking sonar is inspired by the epipolar geometry for stereo cameras, and we leverage relative pose information to project where an observed feature in one sonar image will be found in the image of another sonar. Additionally, we analyze how both the feature location relative to the sonar and the relative pose between the two sonars impact the projection. From simulated results, we identify desirable stereo configurations for applications in field robotics like feature correspondence and recovery of the 3D information of the feature.",
+ "comments": "This is a submission to a workshop and was presented at the Workshop on Field Robotics, which was a part of ICRA 2025",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2507.05410",
+  "bytes": 6688212,
+  "sha256": "12f03e6edc3e2080245ba116428091bd5a166206f8b8d4c9d7dcc28c68d5409e"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2507.05410",
+  "bytes": 7382725,
+  "sha256": "5b2a68e595180005efd7920eeeb3c87e379286be7c8f7c06fc07eddc80333e75",
+  "kind": "tar",
+  "n_files": 29,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

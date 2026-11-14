@@ -1,0 +1,8 @@
+{
+  "kind": "raw",
+  "epoch": 10,
+  "parent_sha256": "03eaaa903a382d1cead25917fb3a4fa5d68fdca656cce9d7da0bb0cb3ac3a6c4",
+  "verified_against_live_models": true,
+  "checkpoint_sha256": "2e6c9b6fac0dbe922a1d116bb816b20d64e45f18eeca30867a1e2293959a2a24",
+  "test_content_read": false
+}

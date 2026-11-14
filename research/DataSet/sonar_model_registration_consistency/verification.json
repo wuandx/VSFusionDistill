@@ -1,0 +1,27 @@
+{
+  "input_files": 160,
+  "input_hashes_unchanged": true,
+  "matches_previous_audit_hashes": true,
+  "original_repo_before": {
+    "head": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+    "status": ""
+  },
+  "original_repo_after": {
+    "head": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+    "status": ""
+  },
+  "historical_notebook_reproduced": true,
+  "independent_library_passed": true,
+  "only_changed_frame": [
+    "setup/gopro_mounting_axis"
+  ],
+  "public_release_calibration_matches_archive": true,
+  "sonar_static_chain_unchanged": true,
+  "notebook_expected_values_present_in_historical_source": true,
+  "model_registration_approved": false,
+  "training_runs": 0,
+  "new_gt_files": 0,
+  "new_splits": 0,
+  "test_sample_access": false,
+  "script_sha256": "bd1d9d8b30593d312ef3070c330b7971410d8c1c3a227b64af5268c2b2f2a57f"
+}

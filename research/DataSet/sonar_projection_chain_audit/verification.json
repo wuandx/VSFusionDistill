@@ -1,0 +1,34 @@
+{
+  "samples": 9,
+  "recordings": 3,
+  "input_files": 52,
+  "all_inputs_unchanged": true,
+  "repo_state_unchanged": true,
+  "repo_after": {
+    "head": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+    "status": ""
+  },
+  "independent_formula_passed": true,
+  "raw_matches_paired": true,
+  "frame_time_matches": true,
+  "raw_shapes": [
+    [
+      441,
+      128
+    ],
+    [
+      780,
+      128
+    ]
+  ],
+  "current_source_counts": {
+    "blob": 3,
+    "projected": 6
+  },
+  "current_empty": 0,
+  "sd_reference_missing": 1,
+  "height_441_changes_pure_box": 0,
+  "training_gt_accepted": false,
+  "new_split": false,
+  "test_samples_accessed": false
+}

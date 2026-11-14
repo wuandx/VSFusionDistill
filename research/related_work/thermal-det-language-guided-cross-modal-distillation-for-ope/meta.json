@@ -1,0 +1,48 @@
+{
+ "arxiv_id": "2605.10130",
+ "slug": "thermal-det-language-guided-cross-modal-distillation-for-ope",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:48:02",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Thermal-Det: Language-Guided Cross-Modal Distillation for Open-Vocabulary Thermal Object Detection",
+ "authors": [
+  "Ranasinghe, Yasiru",
+  "Schenck, Elim",
+  "Yellin, Florence",
+  "Hu, Shuowen",
+  "Funk, Christopher",
+  "Patel, Vishal M."
+ ],
+ "date": "2026/05/11",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Existing open-vocabulary detectors focus on RGB images and fail to generalize to thermal imagery, where low texture and emissivity variations challenge RGB-based semantics. We present Thermal-Det, the first large language model (LLM) supervised open-vocabulary detector tailored for thermal images. To enable large-scale training, we develop a synthetic dataset by converting GroundingCap-1M into the thermal domain and filtering captions to remove RGB-specific terms, yielding over one million thermally aligned samples with bounding boxes, grounding texts, and detailed captions. Thermal-Det jointly optimizes detection, captioning, and cross-modal distillation objectives. A frozen RGB teacher provides geometric and semantic pseudo-supervision for paired but unlabeled RGB-thermal data, transferring open-vocabulary knowledge without manual annotation. The model further employs a Thermal-Text Alignment Head for text calibration and a Modality-Fused Cross-Attention module for dual-modality reasoning. Unlike prior domain-adaptation methods, the detector is fully fine-tuned to internalize thermal contrast patterns while preserving language alignment. Experiments on public benchmarks show consistent 2-4% AP gains over existing open-vocabulary detectors, establishing a strong foundation for scalable, language-driven thermal perception.",
+ "comments": "Accepted at CVPR 26",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2605.10130",
+  "bytes": 2750806,
+  "sha256": "7bbe1926106201dd9e050ff417f07f562de5cfda35d7f3db45fdac95d5b937f4"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2605.10130",
+  "bytes": 3746002,
+  "sha256": "0affdab069bad00c7d9b3a37b02f28b138162285d42372a751d8bbd32374fe80",
+  "kind": "tar",
+  "n_files": 22,
+  "tex_files": [
+   "main.tex",
+   "preamble.tex",
+   "sec/0_abstract.tex",
+   "sec/X_suppl.tex",
+   "sec/conclusion.tex",
+   "sec/dataset.tex",
+   "sec/experiment.tex",
+   "sec/introduction.tex",
+   "sec/method.tex",
+   "sec/results.tex",
+   "sec/tables.tex"
+  ]
+ }
+}

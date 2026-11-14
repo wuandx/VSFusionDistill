@@ -1,0 +1,37 @@
+{
+ "arxiv_id": "2208.00233",
+ "slug": "pseudo-front-depth-fls-mvs",
+ "ok": true,
+ "fetched_at": "2026-11-13T11:27:27",
+ "tier": "B",
+ "why_relevant": "FLS 单图 3D 的病态性 + 伪前视深度/多视图立体，说明缺仰角为何使 3D 框投出的是区域",
+ "title": "Learning Pseudo Front Depth for 2D Forward-Looking Sonar-based Multi-view Stereo",
+ "authors": [
+  "Wang, Yusheng",
+  "Ji, Yonghoon",
+  "Tsuchiya, Hiroshi",
+  "Asama, Hajime",
+  "Yamashita, Atsushi"
+ ],
+ "date": "2022/07/30",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Retrieving the missing dimension information in acoustic images from 2D forward-looking sonar is a well-known problem in the field of underwater robotics. There are works attempting to retrieve 3D information from a single image which allows the robot to generate 3D maps with fly-through motion. However, owing to the unique image formulation principle, estimating 3D information from a single image faces severe ambiguity problems. Classical methods of multi-view stereo can avoid the ambiguity problems, but may require a large number of viewpoints to generate an accurate model. In this work, we propose a novel learning-based multi-view stereo method to estimate 3D information. To better utilize the information from multiple frames, an elevation plane sweeping method is proposed to generate the depth-azimuth-elevation cost volume. The volume after regularization can be considered as a probabilistic volumetric representation of the target. Instead of performing regression on the elevation angles, we use pseudo front depth from the cost volume to represent the 3D information which can avoid the 2D-3D problem in acoustic imaging. High-accuracy results can be generated with only two or three images. Synthetic datasets were generated to simulate various underwater targets. We also built the first real dataset with accurate ground truth in a large scale water tank. Experimental results demonstrate the superiority of our method, compared to other state-of-the-art methods.",
+ "comments": "Accepted at IROS 2022",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2208.00233",
+  "bytes": 2738172,
+  "sha256": "7c340045cd710ae4c4c5eefb28355302514c0b9d5e35bb37847af1a50ef5468d"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2208.00233",
+  "bytes": 2402918,
+  "sha256": "a3e5062f770085d56fd6437962b86c16f76106e2ac5f89076d4a6c42ee5c2c63",
+  "kind": "tar",
+  "n_files": 23,
+  "tex_files": [
+   "root.tex"
+  ]
+ }
+}

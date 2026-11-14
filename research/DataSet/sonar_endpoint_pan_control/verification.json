@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "run": "sonar_endpoint_registration",
+      "frames": 6,
+      "candidates": 12,
+      "max_endpoint_replay_difference_px": 1.7053025658242404e-13,
+      "source_hashes_unchanged": true,
+      "all_images_decode": true,
+      "fit_passed": false,
+      "approved_for_training_gt": false
+    },
+    {
+      "run": "sonar_endpoint_pan_control",
+      "frames": 6,
+      "candidates": 12,
+      "max_endpoint_replay_difference_px": 2.8421709430404007e-13,
+      "source_hashes_unchanged": true,
+      "all_images_decode": true,
+      "fit_passed": false,
+      "approved_for_training_gt": false
+    }
+  ],
+  "passed": true
+}

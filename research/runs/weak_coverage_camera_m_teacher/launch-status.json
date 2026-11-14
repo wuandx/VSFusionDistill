@@ -1,0 +1,51 @@
+{
+  "status": "stopped_deployed_to5090",
+  "started_at": "2026-11-14T09:44:02.699368+00:00",
+  "single_model": "camera-only YOLOX-M teacher",
+  "automatic_restart": false,
+  "test_content_read": false,
+  "stages": [
+    {
+      "mode": "preflight",
+      "status": "completed",
+      "command": [
+        "/home/ty/mycode/VSFusionDistill/.venv-gpu/bin/python",
+        "-B",
+        "-u",
+        "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/tools/run_weak_coverage_camera_teacher.py",
+        "--repo",
+        "/mnt/d/agent_workspace/水下/声呐目标检测/code/VSFusionDistill",
+        "--checkpoint",
+        "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/assets/checkpoints/yolox_m_coco_backbone_neck.pth",
+        "--work-dir",
+        "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/weak_coverage_camera_m_teacher/preflight",
+        "--mode",
+        "preflight"
+      ],
+      "log": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/weak_coverage_camera_m_teacher/preflight.log",
+      "returncode": 0
+    },
+    {
+      "mode": "train",
+      "status": "running",
+      "command": [
+        "/home/ty/mycode/VSFusionDistill/.venv-gpu/bin/python",
+        "-B",
+        "-u",
+        "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/tools/run_weak_coverage_camera_teacher.py",
+        "--repo",
+        "/mnt/d/agent_workspace/水下/声呐目标检测/code/VSFusionDistill",
+        "--checkpoint",
+        "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/assets/checkpoints/yolox_m_coco_backbone_neck.pth",
+        "--work-dir",
+        "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/weak_coverage_camera_m_teacher/train",
+        "--mode",
+        "train"
+      ],
+      "log": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/weak_coverage_camera_m_teacher/train.log"
+    }
+  ],
+  "stopped_at": "2026-11-14T10:09:31.382931+00:00",
+  "remote_run": "/root/wzl/weak_coverage_camera_m_teacher/runs/weak_coverage_camera_m_teacher",
+  "migration_mode": "remote fresh COCO run; local attempt retained, not resumed"
+}

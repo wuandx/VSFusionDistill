@@ -1,0 +1,32 @@
+{
+  "candidates": 400,
+  "accepted": 393,
+  "unresolved": 7,
+  "recordings": 4,
+  "per_recording": {
+    "2023-09-20_180126": {
+      "accepted": 100,
+      "unresolved": 0
+    },
+    "2023-09-21_124241": {
+      "accepted": 100,
+      "unresolved": 0
+    },
+    "2023-09-21_124440": {
+      "accepted": 93,
+      "unresolved": 7
+    },
+    "2023-09-21_125924": {
+      "accepted": 100,
+      "unresolved": 0
+    }
+  },
+  "corrected_samples": 24,
+  "full_reviewed_identities": 400,
+  "registered_at": "2026-11-14T08:22:08.692473+00:00",
+  "earlier_registration_superseded": true,
+  "expert_verified": false,
+  "precision_sync_certified": false,
+  "training": false,
+  "inference": false
+}

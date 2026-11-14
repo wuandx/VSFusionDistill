@@ -1,0 +1,42 @@
+{
+ "arxiv_id": "2309.02719",
+ "slug": "dmkd-improving-feature-based-knowledge-distillation-for-obje",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:58:13",
+ "tier": "",
+ "why_relevant": "",
+ "title": "DMKD: Improving Feature-based Knowledge Distillation for Object Detection Via Dual Masking Augmentation",
+ "authors": [
+  "Yang, Guang",
+  "Tang, Yin",
+  "Wu, Zhijian",
+  "Li, Jun",
+  "Xu, Jianhua",
+  "Wan, Xili"
+ ],
+ "date": "2023/09/06",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Recent mainstream masked distillation methods function by reconstructing selectively masked areas of a student network from the feature map of its teacher counterpart. In these methods, the masked regions need to be properly selected, such that reconstructed features encode sufficient discrimination and representation capability like the teacher feature. However, previous masked distillation methods only focus on spatial masking, making the resulting masked areas biased towards spatial importance without encoding informative channel clues. In this study, we devise a Dual Masked Knowledge Distillation (DMKD) framework which can capture both spatially important and channel-wise informative clues for comprehensive masked feature reconstruction. More specifically, we employ dual attention mechanism for guiding the respective masking branches, leading to reconstructed feature encoding dual significance. Furthermore, fusing the reconstructed features is achieved by self-adjustable weighting strategy for effective feature distillation. Our experiments on object detection task demonstrate that the student networks achieve performance gains of 4.1% and 4.3% with the help of our method when RetinaNet and Cascade Mask R-CNN are respectively used as the teacher networks, while outperforming the other state-of-the-art distillation methods.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2309.02719",
+  "bytes": 922028,
+  "sha256": "319d223cc638b6e89f04167741b8f38b05a087ce02ddd93d6cb90996a9c89388"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2309.02719",
+  "bytes": 1644487,
+  "sha256": "8a26c3d1a0a2bfa3547bf49b590b97721a46fe3b41c6c8f3d937f6269bce25b5",
+  "kind": "tar",
+  "n_files": 21,
+  "tex_files": [
+   "Template.tex",
+   "conclu.tex",
+   "expe.tex",
+   "intro.tex",
+   "method.tex",
+   "relate.tex"
+  ]
+ }
+}

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "summary": {
+    "train": {
+      "images": 1800,
+      "classes": {
+        "100lbs_aircraft_bomb": 600,
+        "mortar_shell": 600,
+        "incindiary_grenade": 600
+      },
+      "all_images_decoded": true,
+      "all_image_hashes_match": true,
+      "boxes_in_native_sd_bounds": true
+    },
+    "val": {
+      "images": 600,
+      "classes": {
+        "100lbs_aircraft_bomb": 200,
+        "mortar_shell": 200,
+        "incindiary_grenade": 200
+      },
+      "all_images_decoded": true,
+      "all_image_hashes_match": true,
+      "boxes_in_native_sd_bounds": true
+    }
+  },
+  "test_content_read": false,
+  "coordinate_scale": 1,
+  "clip": false
+}

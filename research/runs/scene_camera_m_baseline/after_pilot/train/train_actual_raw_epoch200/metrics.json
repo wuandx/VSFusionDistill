@@ -1,0 +1,466 @@
+{
+  "pooled": {
+    "mAP": 1.0,
+    "AP50": 1.0,
+    "AP75": 1.0,
+    "APsmall": -1.0,
+    "APmedium": 1.0,
+    "APlarge": 1.0,
+    "AR1": 1.0,
+    "AR10": 1.0,
+    "AR100": 1.0,
+    "ARsmall": -1.0,
+    "ARmedium": 1.0,
+    "ARlarge": 1.0
+  },
+  "per_class": {
+    "100lbs_aircraft_bomb": {
+      "mAP": 1.0,
+      "AP50": 1.0,
+      "AP75": 1.0,
+      "APsmall": -1.0,
+      "APmedium": 1.0,
+      "APlarge": 1.0,
+      "AR1": 1.0,
+      "AR10": 1.0,
+      "AR100": 1.0,
+      "ARsmall": -1.0,
+      "ARmedium": 1.0,
+      "ARlarge": 1.0
+    },
+    "mortar_shell": {
+      "mAP": 1.0,
+      "AP50": 1.0,
+      "AP75": 1.0,
+      "APsmall": -1.0,
+      "APmedium": 1.0,
+      "APlarge": 1.0,
+      "AR1": 1.0,
+      "AR10": 1.0,
+      "AR100": 1.0,
+      "ARsmall": -1.0,
+      "ARmedium": 1.0,
+      "ARlarge": 1.0
+    },
+    "incindiary_grenade": {
+      "mAP": 1.0,
+      "AP50": 1.0,
+      "AP75": 1.0,
+      "APsmall": -1.0,
+      "APmedium": 1.0,
+      "APlarge": 1.0,
+      "AR1": 1.0,
+      "AR10": 1.0,
+      "AR100": 1.0,
+      "ARsmall": -1.0,
+      "ARmedium": 1.0,
+      "ARlarge": 1.0
+    }
+  },
+  "per_recording": {
+    "2023-09-20_171105": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 136,
+      "gt": 136,
+      "predictions": 136
+    },
+    "2023-09-20_175000": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 126,
+      "gt": 126,
+      "predictions": 126
+    },
+    "2023-09-20_175905": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 115,
+      "gt": 115,
+      "predictions": 115
+    },
+    "2023-09-20_180506": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 129,
+      "gt": 129,
+      "predictions": 129
+    },
+    "2023-09-20_180722": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 121,
+      "gt": 121,
+      "predictions": 121
+    },
+    "2023-09-20_182317": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 146,
+      "gt": 146,
+      "predictions": 146
+    },
+    "2023-09-21_101622": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 123,
+      "gt": 123,
+      "predictions": 123
+    },
+    "2023-09-21_101840": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": 1.0,
+        "ARlarge": 1.0
+      },
+      "images": 117,
+      "gt": 117,
+      "predictions": 117
+    },
+    "2023-09-21_102500": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 145,
+      "gt": 145,
+      "predictions": 145
+    },
+    "2023-09-21_103728": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": 1.0,
+        "ARlarge": 1.0
+      },
+      "images": 156,
+      "gt": 156,
+      "predictions": 156
+    },
+    "2023-09-21_103927": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": 1.0,
+        "ARlarge": 1.0
+      },
+      "images": 136,
+      "gt": 136,
+      "predictions": 136
+    },
+    "2023-09-21_105017": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": 1.0,
+        "ARlarge": 1.0
+      },
+      "images": 107,
+      "gt": 107,
+      "predictions": 107
+    },
+    "2023-09-21_110049": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 1.0,
+        "APlarge": -1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": 1.0,
+        "ARlarge": -1.0
+      },
+      "images": 16,
+      "gt": 16,
+      "predictions": 16
+    },
+    "2023-09-21_121124": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 124,
+      "gt": 124,
+      "predictions": 124
+    },
+    "2023-09-21_121327": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 138,
+      "gt": 138,
+      "predictions": 138
+    },
+    "2023-09-21_122608": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 100,
+      "gt": 100,
+      "predictions": 100
+    },
+    "2023-09-21_122855": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": 1.0,
+        "ARlarge": 1.0
+      },
+      "images": 101,
+      "gt": 101,
+      "predictions": 101
+    },
+    "2023-09-21_123500": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 135,
+      "gt": 135,
+      "predictions": 135
+    },
+    "2023-09-21_124915": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": 1.0,
+        "ARlarge": 1.0
+      },
+      "images": 108,
+      "gt": 108,
+      "predictions": 108
+    },
+    "2023-09-21_160551": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": -1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": -1.0,
+        "ARlarge": 1.0
+      },
+      "images": 115,
+      "gt": 115,
+      "predictions": 115
+    },
+    "2023-09-21_161916": {
+      "metrics": {
+        "mAP": 1.0,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 1.0,
+        "APlarge": 1.0,
+        "AR1": 1.0,
+        "AR10": 1.0,
+        "AR100": 1.0,
+        "ARsmall": -1.0,
+        "ARmedium": 1.0,
+        "ARlarge": 1.0
+      },
+      "images": 78,
+      "gt": 78,
+      "predictions": 78
+    }
+  },
+  "counts": {
+    "images": 2472,
+    "gt": 2472,
+    "predictions": 2472
+  }
+}

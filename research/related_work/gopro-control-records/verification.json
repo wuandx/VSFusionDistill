@@ -1,0 +1,32 @@
+{
+  "archive_paths_verified": 198915,
+  "archive_members_extracted": 0,
+  "source_snapshots_verified": true,
+  "prior_tag_input_hashes_unchanged": true,
+  "prior_video_stats_unchanged": true,
+  "report_links_verified": 7,
+  "original_repo_head": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+  "original_repo_status": "",
+  "records_obtained": false,
+  "messages_sent": 0,
+  "new_image_access": 0,
+  "training_runs": 0,
+  "new_gt": 0,
+  "new_split": 0,
+  "test_content_access": false,
+  "file_hashes": {
+    "复现\\camera-baseline\\gopro-control-records.md": "c6149392deea09958503a31e5119f3ad191e011ab1eb2ddfa39c3823e6ea7200",
+    "experiment\\gopro-control-records-plan.md": "1e8b8017cf498dcab9a33a33bf5256a4ddcf4c88897177135026688840278908",
+    "related_work\\gopro-control-records\\author-request-draft.md": "1c15fe52221fc2835fbde60d8c2c3dd92da8939eb3124054eae88d0069ccd3f2",
+    "related_work\\gopro-control-records\\dfki-repos.json": "40bbb07766ae124341b206da759da02d198cee5e941fc3f0f7c3400854888465",
+    "related_work\\gopro-control-records\\initial-camera-tilt.py": "0c4e2033f093db7a9f535a2d60cbb906ad5c4c17cb949f7ac323fdb4de3d086d",
+    "related_work\\gopro-control-records\\ndahn-repos.json": "1d838daabb5ad1cf04f63dcaccac52d8a41b8f6f298360b28e30a7636b9aa977",
+    "related_work\\gopro-control-records\\processed-archive-paths.json": "1ef98d6547a5e438a5139459941c70cb0ec8cbc41bba361bee3ff3c5b958a14d",
+    "related_work\\gopro-control-records\\processed-archive-summary.json": "4f59164f6978b7c3a274d2114c8812ef8503f34d16293687451d7b36aa5cdc31",
+    "related_work\\gopro-control-records\\required-records.md": "77db95ad861d1994ed4f8997acd0d463472952da7e075ca02bebedea3cba0aca",
+    "related_work\\gopro-control-records\\retrieval-log.json": "44796149af2eecc95e3ba5989ed2537ee6a60238ea132ae36cb9718cb20d343c",
+    "related_work\\gopro-control-records\\search-paper.json": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+    "related_work\\gopro-control-records\\search-uxo.json": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+    "related_work\\gopro-control-records\\supplemental-retrieval.json": "450af7484aa8422c17b016d0565744942fd18b7c595080a66a6df75b5332214a"
+  }
+}

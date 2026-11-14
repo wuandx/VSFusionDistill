@@ -1,0 +1,36 @@
+{
+ "arxiv_id": "2606.24248",
+ "slug": "m2c-evdet-event-detection",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:32:37",
+ "tier": "B",
+ "why_relevant": "multi-order cross-modal KD for event detection",
+ "title": "M^2C-EvDet: Multi-Domain Multi-Order Cross-Modal Knowledge Distillation for Event-based Object Detection",
+ "authors": [
+  "Bao, Wei",
+  "Li, Siqi",
+  "Pan, Shouan",
+  "Xie, Yi",
+  "Gao, Yue"
+ ],
+ "date": "2026/06/23",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Event-based object Detection (EvDet), as a biologically inspired visual perception paradigm, demonstrates superior performance in scenarios demanding high temporal resolution and a wide dynamic range. Nevertheless, the inherent sparse representations and inadequate visual semantics of event data result in a considerable performance disparity between EvDet and frame-based object detection. Previous works attempt to alleviate this cross-modal discrepancy through knowledge distillation, yet they only focus on spatial visual semantics or pair-wise relational information, thus limiting performance in more complex scenarios. To address this challenge, this paper proposes M^2C-EvDet, a Multi-domain and Multi-order Cross-modal knowledge distillation framework for EvDet. Built upon frequency learning and hypergraph computation, M^2C-EvDet integrates two specialized modules: Adaptive Frequency-Decoupled Feature Distillation (AF^2D^2) and Multi-Order Relational Distillation (MORD).",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2606.24248",
+  "bytes": 4798264,
+  "sha256": "91bb1e25329406e87809064792a2530822325861ae936367569f50e24dd34ae2"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2606.24248",
+  "bytes": 4643410,
+  "sha256": "9a4aaf56010c69a2acaa95433132eed82d91e4275da07eb260341024a49b63e0",
+  "kind": "tar",
+  "n_files": 14,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

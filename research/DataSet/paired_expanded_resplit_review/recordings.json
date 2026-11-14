@@ -1,0 +1,306 @@
+[
+  {
+    "recording": "2023-09-20_171105",
+    "eligible_near_anchor": 332,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-20_171105\\page-00.jpg",
+        "sha256": "f2be2fdc29030a17192044c73ea8541181bf0bd222781bf8d878d001ba673c57"
+      },
+      {
+        "path": "2023-09-20_171105\\page-01.jpg",
+        "sha256": "52d9a18cc54759ba091e15e06f0cf18b58b92d5fad1aa81e121475cbb142e2c9"
+      }
+    ],
+    "scene_id": "100lbs_aircraft_bomb|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-20_175000",
+    "eligible_near_anchor": 132,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-20_175000\\page-00.jpg",
+        "sha256": "86034ad5a73ed66b41d8a7120c21b22f5952d13c46f5adbaeb452096c3be4c04"
+      },
+      {
+        "path": "2023-09-20_175000\\page-01.jpg",
+        "sha256": "0b5b3fef82479d0501e416e9c177d66e94faf92c184ff42e6121a49033abf8b7"
+      }
+    ],
+    "scene_id": "100lbs_aircraft_bomb|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-20_175905",
+    "eligible_near_anchor": 341,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-20_175905\\page-00.jpg",
+        "sha256": "15b13fea639110301c8cb421994ca3927fafa0cd71f51caaba9240608ecc79c3"
+      },
+      {
+        "path": "2023-09-20_175905\\page-01.jpg",
+        "sha256": "874f71c7f31f330e81947f35e8bb01f3601a15c625000ae3f014eec5c8297c7a"
+      }
+    ],
+    "scene_id": "100lbs_aircraft_bomb|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-20_180506",
+    "eligible_near_anchor": 398,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-20_180506\\page-00.jpg",
+        "sha256": "46344852e172d49bfcbd6a596df0bb52cb665d7faa8075a3b940d8d112c8aad5"
+      },
+      {
+        "path": "2023-09-20_180506\\page-01.jpg",
+        "sha256": "383dc900b2b1671211873a2c319fcef9faa7054963e4daca1ffe04b5aec17a32"
+      }
+    ],
+    "scene_id": "100lbs_aircraft_bomb|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-20_180722",
+    "eligible_near_anchor": 352,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-20_180722\\page-00.jpg",
+        "sha256": "11b6180dda83d8266783139f3e8a02d3a2d1e746b931a1fdcabfc34b54361aa7"
+      },
+      {
+        "path": "2023-09-20_180722\\page-01.jpg",
+        "sha256": "cac42ade6f041b2eb195b1bb81467d7f0cd98240947586550b5b8c755756fac1"
+      }
+    ],
+    "scene_id": "100lbs_aircraft_bomb|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_101622",
+    "eligible_near_anchor": 23,
+    "proposals": 23,
+    "sheets": [
+      {
+        "path": "2023-09-21_101622\\page-00.jpg",
+        "sha256": "155d647d903dd073497b819bddd494b2f1f8f2b935ebd62b7bc793ea95680c46"
+      },
+      {
+        "path": "2023-09-21_101622\\page-01.jpg",
+        "sha256": "a806a265b2f52b7f64b94984b7ad0f279858233fb65d617861779c70fce220e5"
+      }
+    ],
+    "scene_id": "mortar_shell|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_101840",
+    "eligible_near_anchor": 247,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_101840\\page-00.jpg",
+        "sha256": "ceb5fd5c64bb0cf218df99187ee218b7ba93feb9b58ea6c0451c88ed4dc7d5fd"
+      },
+      {
+        "path": "2023-09-21_101840\\page-01.jpg",
+        "sha256": "5cbbfc04b9d2799e9d2e52dd4742d8ebeee7e1f4759ec1e72e2a6d3e03c57910"
+      }
+    ],
+    "scene_id": "mortar_shell|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_102500",
+    "eligible_near_anchor": 269,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_102500\\page-00.jpg",
+        "sha256": "6f3e1ded5fc5abeca62e035ca36e383718d94056d2ffd59147d1f8c6a38e6c43"
+      },
+      {
+        "path": "2023-09-21_102500\\page-01.jpg",
+        "sha256": "354948b7afcc6ca9a0f1f95754abd9eeae6502ff510008dd9fb82c1b505ee672"
+      }
+    ],
+    "scene_id": "mortar_shell|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_103728",
+    "eligible_near_anchor": 303,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_103728\\page-00.jpg",
+        "sha256": "c53f4329518745cc57ff2753516b70dd998e7b24d17ed86ff0744f7057778c7c"
+      },
+      {
+        "path": "2023-09-21_103728\\page-01.jpg",
+        "sha256": "ae3da310779ba1bd0323034e596a697d8be9be2778fdb8638c708d4060928ed1"
+      }
+    ],
+    "scene_id": "mortar_shell|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_103927",
+    "eligible_near_anchor": 353,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_103927\\page-00.jpg",
+        "sha256": "a09ad0ae553ae031cd7c9b864d7be4cb5e432d87e8274dcd2ee3b34f7cb3ac30"
+      },
+      {
+        "path": "2023-09-21_103927\\page-01.jpg",
+        "sha256": "69101cbf5d0ff1fc3c79ca2dde00db7d3dfd510e50c041b4059c320c82603ae5"
+      }
+    ],
+    "scene_id": "mortar_shell|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_105017",
+    "eligible_near_anchor": 254,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_105017\\page-00.jpg",
+        "sha256": "471e0699cc86a38a53c47303e22bcf0a164ae4508daaa0d0af1d425bea805ae3"
+      },
+      {
+        "path": "2023-09-21_105017\\page-01.jpg",
+        "sha256": "08c517fbb51b1388adb9192919c05413300b1bc5dab9b7094a0f6a40a89005d8"
+      }
+    ],
+    "scene_id": "mortar_shell|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_110049",
+    "eligible_near_anchor": 22,
+    "proposals": 22,
+    "sheets": [
+      {
+        "path": "2023-09-21_110049\\page-00.jpg",
+        "sha256": "947d161d79902422044ab5ed1dfe2a940e5d82a5a546000b8f3d320d33166fad"
+      },
+      {
+        "path": "2023-09-21_110049\\page-01.jpg",
+        "sha256": "bf45f5bd56da9776af78a43af2f4c84833db6740a87a46c97b16f886f3ed9e66"
+      }
+    ],
+    "scene_id": "mortar_shell|standard|flyby"
+  },
+  {
+    "recording": "2023-09-21_121124",
+    "eligible_near_anchor": 288,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_121124\\page-00.jpg",
+        "sha256": "11ee1588e958de6d2504467cc925295cfd9bbb157fb2ffcc55de4ac43f63505b"
+      },
+      {
+        "path": "2023-09-21_121124\\page-01.jpg",
+        "sha256": "942bf3135c2b5678917c01e78a57ae6dcd6f0259e712acf237f155591aa5fee9"
+      }
+    ],
+    "scene_id": "incindiary_grenade|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_121327",
+    "eligible_near_anchor": 103,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_121327\\page-00.jpg",
+        "sha256": "051e51e88e91fb751cd2e685ebb2cab8a5f0fce2c5b60a414f78e0fec51b4dc3"
+      },
+      {
+        "path": "2023-09-21_121327\\page-01.jpg",
+        "sha256": "cb07e050aa28ce109f5ed89b96b6e9bd453b75220b081e09c9b21482270a512f"
+      }
+    ],
+    "scene_id": "incindiary_grenade|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_122608",
+    "eligible_near_anchor": 280,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_122608\\page-00.jpg",
+        "sha256": "7951561b530de328b246d6b1fdf230175b85fe9027f03d2c90322a9f5c8ee904"
+      },
+      {
+        "path": "2023-09-21_122608\\page-01.jpg",
+        "sha256": "391a900e78f22522923fba4c925f20c05f45d277dca3d57b0843378d4ce2e46f"
+      }
+    ],
+    "scene_id": "incindiary_grenade|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_122855",
+    "eligible_near_anchor": 308,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_122855\\page-00.jpg",
+        "sha256": "21bbc368bdb55fa7039da9b37238c1e55e249f4fc7fe07de9652ac31a8a8a5bd"
+      },
+      {
+        "path": "2023-09-21_122855\\page-01.jpg",
+        "sha256": "5f2db3cb7679f5475d814c7f9c804d6a37a6c4918eaca13ece6c567beacae13e"
+      }
+    ],
+    "scene_id": "incindiary_grenade|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_123500",
+    "eligible_near_anchor": 432,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_123500\\page-00.jpg",
+        "sha256": "f46c9a308b79c0674b8c92c28c6577a32bee73490c606443138ce6f0dc1a322a"
+      },
+      {
+        "path": "2023-09-21_123500\\page-01.jpg",
+        "sha256": "4a78b77d0b66789fee108678aa4a49ee1311d94ddbf640f04a69f29678596294"
+      }
+    ],
+    "scene_id": "incindiary_grenade|standard|L_to_R"
+  },
+  {
+    "recording": "2023-09-21_160551",
+    "eligible_near_anchor": 92,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_160551\\page-00.jpg",
+        "sha256": "fc950a17d4af7af63efd9b6897d11d8e720fc1bb8476154677a85ce13ffd0bb3"
+      },
+      {
+        "path": "2023-09-21_160551\\page-01.jpg",
+        "sha256": "07a5485d94be03d5e0c0c1afdeaf575db769a23555a6f91c6f755b4903179003"
+      }
+    ],
+    "scene_id": "100lbs_aircraft_bomb|floor|ellipse"
+  },
+  {
+    "recording": "2023-09-21_161916",
+    "eligible_near_anchor": 112,
+    "proposals": 40,
+    "sheets": [
+      {
+        "path": "2023-09-21_161916\\page-00.jpg",
+        "sha256": "669dedf491da8d3e78172c1df9f8a526e52e7b1d3c249c2c0cfbf80faf3e1e44"
+      },
+      {
+        "path": "2023-09-21_161916\\page-01.jpg",
+        "sha256": "afc8daa9d16517f1039b2894e87e4b6ce07f37c65fe918ff988a72f078246741"
+      }
+    ],
+    "scene_id": "100lbs_aircraft_bomb|floor|flyby"
+  }
+]

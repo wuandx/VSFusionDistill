@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "linked_pairs": 1120,
+  "unique_camera_frames": 1120,
+  "source_bytes_and_original_labels_unchanged": true,
+  "shared_coco_identity_verified": true,
+  "coco_yolo_roundtrip_max_error_px": 5.700002247976954e-08,
+  "uniform_queue_unique_pairs": 4000,
+  "original_sonar_manifest_sha256": "1667748840145cb12c57c6fb6c2a00714d120d60383f40340ea6a1cf681411ba",
+  "scope": "Numerical, provenance and file verification only; not semantic or synchronization certification"
+}

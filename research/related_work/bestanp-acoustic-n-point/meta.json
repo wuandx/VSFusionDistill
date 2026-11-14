@@ -1,0 +1,40 @@
+{
+ "arxiv_id": "2411.17521",
+ "slug": "bestanp-acoustic-n-point",
+ "ok": true,
+ "fetched_at": "2026-11-13T11:26:07",
+ "tier": "A",
+ "why_relevant": "BESTAnP：acoustic-n-point 解耦平移(range)与旋转(azimuth)，是 FLS 投影/位姿的标准解法",
+ "title": "BESTAnP: Bi-Step Efficient and Statistically Optimal Estimator for Acoustic-n-Point Problem",
+ "authors": [
+  "Sheng, Wenliang",
+  "Zhao, Hongxu",
+  "Chen, Lingpeng",
+  "Zeng, Guangyang",
+  "Shao, Yunling",
+  "Hong, Yuze",
+  "Yang, Chao",
+  "Hong, Ziyang",
+  "Wu, Junfeng"
+ ],
+ "date": "2024/11/26",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: We consider the acoustic-n-point (AnP) problem, which estimates the pose of a 2D forward-looking sonar (FLS) according to n 3D-2D point correspondences. We explore the nature of the measured partial spherical coordinates and reveal their inherent relationships to translation and orientation. Based on this, we propose a bi-step efficient and statistically optimal AnP (BESTAnP) algorithm that decouples the estimation of translation and orientation. Specifically, in the first step, the translation estimation is formulated as the range-based localization problem based on distance-only measurements. In the second step, the rotation is estimated via eigendecomposition based on azimuth-only measurements and the estimated translation. BESTAnP is the first AnP algorithm that gives a closed-form solution for the full six-degree pose. In addition, we conduct bias elimination for BESTAnP such that it owns the statistical property of consistency. Through simulation and real-world experiments, we demonstrate that compared with the state-of-the-art (SOTA) methods, BESTAnP is over ten times faster and features real-time capacity in resource-constrained platforms while exhibiting comparable accuracy. Moreover, for the first time, we embed BESTAnP into a sonar-based odometry which shows its effectiveness for trajectory estimation.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2411.17521",
+  "bytes": 3140493,
+  "sha256": "4dfc6a06e1390ebe3a4d53a339c25b042d6060b4505aabcb56ba7b3d0e213e55"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2411.17521",
+  "bytes": 16375939,
+  "sha256": "f2269e27baa3db1f8f24e4ea3252593d4680636a0f6d459e7ac1e02ac0fe1337",
+  "kind": "tar",
+  "n_files": 97,
+  "tex_files": [
+   "RAL_version3.tex"
+  ]
+ }
+}

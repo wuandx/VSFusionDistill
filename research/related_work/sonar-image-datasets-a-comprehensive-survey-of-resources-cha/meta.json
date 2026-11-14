@@ -1,0 +1,50 @@
+{
+ "arxiv_id": "2510.03353",
+ "slug": "sonar-image-datasets-a-comprehensive-survey-of-resources-cha",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:44:24",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Sonar Image Datasets: A Comprehensive Survey of Resources, Challenges, and Applications",
+ "authors": [
+  "Gomes, Larissa S.",
+  "Almeida, Gustavo P.",
+  "Moreira, Bryan U.",
+  "Quiroz, Marco",
+  "Xavier, Breno",
+  "Soares, Lucas",
+  "Brião, Stephanie L.",
+  "Oliveira, Felipe G.",
+  "Drews-Jr, Paulo L. J."
+ ],
+ "date": "2025/10/02",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Sonar images are relevant for advancing underwater exploration, autonomous navigation, and ecosystem monitoring. However, the progress depends on data availability. The scarcity of publicly available, well-annotated sonar image datasets creates a significant bottleneck for the development of robust machine learning models. This paper presents a comprehensive and concise review of the current landscape of sonar image datasets, seeking not only to catalog existing resources but also to contextualize them, identify gaps, and provide a clear roadmap, serving as a base guide for researchers of any kind who wish to start or advance in the field of underwater acoustic data analysis. We mapped publicly accessible datasets across various sonar modalities, including Side Scan Sonar (SSS), Forward-Looking Sonar (FLS), Synthetic Aperture Sonar (SAS), Multibeam Echo Sounder (MBES), and Dual-Frequency Identification Sonar (DIDSON). An analysis was conducted on applications such as classification, detection, segmentation, and 3D reconstruction. This work focuses on state-of-the-art advancements, incorporating newly released datasets. The findings are synthesized into a master table and a chronological timeline, offering a clear and accessible comparison of characteristics, sizes, and annotation details datasets.",
+ "comments": "Published in the Conference on Graphics, Patterns and Images (SIBGRAPI). This 4-page paper presents a timeline of publicly available datasets up to the year 2025",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2510.03353",
+  "bytes": 3795502,
+  "sha256": "a855e7e9a7ddb84dbff7ef6e12a507b9fedefb44e0773eec0c8a5bc3714d9ce1"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2510.03353",
+  "bytes": 3817271,
+  "sha256": "623a0a3d3c2959beea28c40f657c974619256d85760b19e7c5afd880b5a520c0",
+  "kind": "tar",
+  "n_files": 18,
+  "tex_files": [
+   "Sections/0_intro.tex",
+   "Sections/1_related_works.tex",
+   "Sections/2_methodology.tex",
+   "Sections/3_applications.tex",
+   "Sections/4_acknowledgment.tex",
+   "Sections/5_conclusion.tex",
+   "Sections/sonar_explained.tex",
+   "Sections/table_large.tex",
+   "Sections/timeline.tex",
+   "main.tex"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "raw",
+  "epoch": 200,
+  "parent_sha256": "207afd223133f8aa993db25980ddc51f6e4c48841df4953a9e79ee1213dba6c4",
+  "verified_against_live_models": true,
+  "export_sha256": "0446eef538450ad82c711d15d0aac60ee203cfce618327805f482cf134bd2128",
+  "split": "train",
+  "images": 2472,
+  "test_content_read": false
+}

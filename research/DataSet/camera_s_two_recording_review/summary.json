@@ -1,0 +1,133 @@
+{
+  "2023-09-20_182317": {
+    "images": 100,
+    "thresholds": {
+      "0.01": {
+        "groups": {
+          "matched": 47,
+          "wrong_class": 53
+        },
+        "TP": 47,
+        "FN": 53,
+        "FP": 124,
+        "predictions": 171
+      },
+      "0.25": {
+        "groups": {
+          "matched": 44,
+          "wrong_class": 54,
+          "unmatched": 2
+        },
+        "TP": 44,
+        "FN": 56,
+        "FP": 97,
+        "predictions": 141
+      },
+      "0.5": {
+        "groups": {
+          "matched": 39,
+          "wrong_class": 57,
+          "unmatched": 4
+        },
+        "TP": 39,
+        "FN": 61,
+        "FP": 80,
+        "predictions": 119
+      }
+    },
+    "COCO_metrics": {
+      "mAP": 0.25364486533366465,
+      "AP50": 0.443008014735323,
+      "AP75": 0.2529215975784771,
+      "APsmall": -1.0,
+      "APmedium": -1.0,
+      "APlarge": 0.25364486533366465,
+      "AR1": 0.284,
+      "AR10": 0.286,
+      "AR100": 0.286,
+      "ARsmall": -1.0,
+      "ARmedium": -1.0,
+      "ARlarge": 0.286
+    },
+    "overview_indices": [
+      0,
+      9,
+      18,
+      27,
+      36,
+      45,
+      54,
+      63,
+      72,
+      81,
+      90,
+      99
+    ]
+  },
+  "2023-09-21_121539": {
+    "images": 100,
+    "thresholds": {
+      "0.01": {
+        "groups": {
+          "unmatched": 1,
+          "matched": 69,
+          "wrong_class": 30
+        },
+        "TP": 69,
+        "FN": 31,
+        "FP": 59,
+        "predictions": 128
+      },
+      "0.25": {
+        "groups": {
+          "unmatched": 8,
+          "wrong_class": 34,
+          "matched": 58
+        },
+        "TP": 58,
+        "FN": 42,
+        "FP": 44,
+        "predictions": 102
+      },
+      "0.5": {
+        "groups": {
+          "unmatched": 18,
+          "wrong_class": 30,
+          "matched": 52
+        },
+        "TP": 52,
+        "FN": 48,
+        "FP": 34,
+        "predictions": 86
+      }
+    },
+    "COCO_metrics": {
+      "mAP": 0.41047357605388257,
+      "AP50": 0.6831683168316832,
+      "AP75": 0.48339117231615486,
+      "APsmall": -1.0,
+      "APmedium": 0.20297029702970298,
+      "APlarge": 0.4225060713289727,
+      "AR1": 0.43899999999999995,
+      "AR10": 0.43899999999999995,
+      "AR100": 0.43899999999999995,
+      "ARsmall": -1.0,
+      "ARmedium": 0.2,
+      "ARlarge": 0.45157894736842097
+    },
+    "overview_indices": [
+      0,
+      9,
+      18,
+      27,
+      36,
+      45,
+      54,
+      63,
+      72,
+      81,
+      90,
+      99
+    ]
+  }
+}

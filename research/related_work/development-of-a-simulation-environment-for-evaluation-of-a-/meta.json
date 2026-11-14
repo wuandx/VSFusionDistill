@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2210.06535",
+ "slug": "development-of-a-simulation-environment-for-evaluation-of-a-",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:44:36",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Development of a Simulation Environment for Evaluation of a Forward Looking Sonar System for Small AUVs",
+ "authors": [
+  "Morency, Christopher",
+  "Stilwell, Daniel J.",
+  "Hess, Sebastian"
+ ],
+ "date": "2022/10/12",
+ "doi": "10.23919/OCEANS40490.2019.8962650",
+ "journal": "",
+ "abstract": "Abstract: This paper describes a high-fidelity sonar model and a simulation environment that implements the model. The model and simulation environment have been developed to aid in the design of a forward looking sonar for autonomous underwater vehicles (AUVs). The simulator achieves real-time visualization through ray tracing and approximation. The simulator facilitates the assessment of sonar design choices, such as beam pattern and beam location, and assessment of obstacle detection and tracking algorithms. An obstacle detection model is proposed for which the null hypothesis is estimated from the environmental model. Sonar data is generated from the simulator and compared to the expected results from the detection model demonstrating the benefits and limitations of the proposed approach.",
+ "comments": "9 Pages, OCEANS 2019",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2210.06535",
+  "bytes": 1847740,
+  "sha256": "e019a4167984523d5ba25e652b102e41429c852c15026904d87e035c9a282033"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2210.06535",
+  "bytes": 1925873,
+  "sha256": "b6165e3af2049c61258363099a2e8a15d73439c19dc7444aa11b4007fdeef459",
+  "kind": "tar",
+  "n_files": 19,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

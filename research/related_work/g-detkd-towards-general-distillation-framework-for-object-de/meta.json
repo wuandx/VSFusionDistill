@@ -1,0 +1,39 @@
+{
+ "arxiv_id": "2108.07482",
+ "slug": "g-detkd-towards-general-distillation-framework-for-object-de",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:50:32",
+ "tier": "",
+ "why_relevant": "",
+ "title": "G-DetKD: Towards General Distillation Framework for Object Detectors via Contrastive and Semantic-guided Feature Imitation",
+ "authors": [
+  "Yao, Lewei",
+  "Pi, Renjie",
+  "Xu, Hang",
+  "Zhang, Wei",
+  "Li, Zhenguo",
+  "Zhang, Tong"
+ ],
+ "date": "2021/08/17",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: In this paper, we investigate the knowledge distillation (KD) strategy for object detection and propose an effective framework applicable to both homogeneous and heterogeneous student-teacher pairs. The conventional feature imitation paradigm introduces imitation masks to focus on informative foreground areas while excluding the background noises. However, we find that those methods fail to fully utilize the semantic information in all feature pyramid levels, which leads to inefficiency for knowledge distillation between FPN-based detectors. To this end, we propose a novel semantic-guided feature imitation technique, which automatically performs soft matching between feature pairs across all pyramid levels to provide the optimal guidance to the student. To push the envelop even further, we introduce contrastive distillation to effectively capture the information encoded in the relationship between different feature regions. Finally, we propose a generalized detection KD pipeline, which is capable of distilling both homogeneous and heterogeneous detector pairs. Our method consistently outperforms the existing detection KD techniques, and works when (1) components in the framework are used separately and in conjunction; (2) for both homogeneous and heterogenous student-teacher pairs and (3) on multiple detection benchmarks. With a powerful X101-FasterRCNN-Instaboost detector as the teacher, R50-FasterRCNN reaches 44.0% AP, R50-RetinaNet reaches 43.3% AP and R50-FCOS reaches 43.1% AP on COCO dataset.",
+ "comments": "Accepted by ICCV2021",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2108.07482",
+  "bytes": 1939595,
+  "sha256": "766226c3b9beffe15b5267ea30ba223c6d2e315fd7350c2478322d83ee673941"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2108.07482",
+  "bytes": 3797399,
+  "sha256": "c6fef4fab91bbaad0151a869999849d22955efa82a30762bb472f3496a8d0ba2",
+  "kind": "tar",
+  "n_files": 35,
+  "tex_files": [
+   "detectionkd_9107.tex",
+   "detectionkd_9107_2.47.16_PM.tex"
+  ]
+ }
+}

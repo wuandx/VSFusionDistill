@@ -1,0 +1,20 @@
+[
+  {
+    "commit": "a52d22ae549633e1b7e523b5425340e80e433a68",
+    "repository_path": "oceans_abstract/oceans_abstract.tex",
+    "local_file": "historical-abstract.tex",
+    "sha256": "27005c919fbf197c1981e0f42c9186661f804b8afe6cf7b99c7db127814ae4a1"
+  },
+  {
+    "commit": "a52d22ae549633e1b7e523b5425340e80e433a68",
+    "repository_path": "oceans_abstract/oceans_abstract.bib",
+    "local_file": "historical-abstract.bib",
+    "sha256": "38eff85291d319a85b38b5d0b5a9ffb9266c4213e42b1037bdf7960d5e4ee8f9"
+  },
+  {
+    "commit": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+    "repository_path": "demo/camera_tilt.ipynb",
+    "local_file": "camera-tilt.py",
+    "sha256": "2a7f4e25483bd9348e6bc9be68643d5f3504480202a773ae98344de6876d35ac"
+  }
+]

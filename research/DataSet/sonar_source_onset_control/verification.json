@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "poses_checked": 18,
+  "independent_interpolation_max_error_m": 1.1102230246251565e-16,
+  "selected_frames_clamped": 0,
+  "all_hashes_unchanged": true,
+  "images_decoded": 6,
+  "unchanged_controls": [
+    {
+      "category": "incindiary_grenade",
+      "unchanged_check_median_difference_px": 1.945185346130529e-08
+    },
+    {
+      "category": "mortar_shell",
+      "unchanged_check_median_difference_px": 0.0
+    }
+  ],
+  "physical_sync_certified": false
+}

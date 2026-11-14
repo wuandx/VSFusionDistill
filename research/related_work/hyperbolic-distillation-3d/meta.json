@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2605.09899",
+ "slug": "hyperbolic-distillation-3d",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:32:55",
+ "tier": "C",
+ "why_relevant": "geometry-guided cross-modal transfer, 3D detection",
+ "title": "Hyperbolic Distillation: Geometry-Guided Cross-Modal Transfer for Robust 3D Object Detection",
+ "authors": [
+  "Ning, Kanglin",
+  "Li, Wenrui",
+  "Quan, Houde",
+  "Li, Qifan",
+  "Wang, Xingtao",
+  "Fan, Xiaopeng"
+ ],
+ "date": "2026/05/11",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Cross-modal knowledge distillation has emerged as an effective strategy for integrating point cloud and image features in 3D perception tasks. However, the modality heterogeneity, spatial misalignment, and the representation crisis of multiple modalities often limit the efficient of these cross-modal distillation methods. To address these limitations in existing approaches, we propose a hyperbolic constrained cross-modal distillation method for multimodal 3D object detection (HGC-Det). The proposed HGC-Det framework includes an image branch and a point cloud branch to extract semantic features from two different modalities. The point cloud branch comprises three core components: a 2D semantic-guided voxel optimization component (SGVO), a hyperbolic geometry constrained cross-modal feature transfer component (HFT), and a feature aggregation-based geometry optimization component (FAGO). Specifically, the SGVO component adaptively refines the spatial representation of the 3D branch by leveraging semantic cues from the image branch, thereby mitigating the issue of inadequate representation fusion. The HFT component exploits the intrinsic geometric properties of hyperbolic space to alleviate semantic loss during the fusion of high-dimensional image features and low-dimensional point cloud features. Finally, the FAGO compensates for potential spatial feature degradation introduced by the 2D semantic-guided voxel optimization component. Extensive experiments on indoor datasets (SUN RGB-D, ARKitScenes) and outdoor datasets (KITTI, nuScenes) demonstrate that our method achieves a better trade-off between detection accuracy and computational cost.",
+ "comments": "Current version has been subbmitted to IEEE Transactions on Multimedia. Now, this manuscript&#39;s status is Under Review",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2605.09899",
+  "bytes": 7303745,
+  "sha256": "2c72813a83e4416a7ac8eb231659f7b803b08f73a85b9434bd17ec02d2337c7d"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2605.09899",
+  "bytes": 6725752,
+  "sha256": "83adbb7c660e2e8c045116151db2ff819fc5a09315b92fdd3d81a033876b8131",
+  "kind": "tar",
+  "n_files": 14,
+  "tex_files": [
+   "Hyperbolic_Distillation__Geometry_Guided_Cross_Modal_Transfer_for_Robust_3D_Object_Detection.tex"
+  ]
+ }
+}

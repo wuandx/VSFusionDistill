@@ -1,0 +1,111 @@
+{
+  "rows": [
+    {
+      "model": "100lbs",
+      "source_object_point": [
+        1.251079,
+        1.418704,
+        -1.151828
+      ],
+      "point_plus_crane_to_aris_offset": [
+        1.251079,
+        1.592704,
+        -1.4898280000000002
+      ],
+      "release_target_translation": [
+        1.251079,
+        1.592704,
+        -1.489828
+      ],
+      "release_minus_corrected_note": [
+        0.0,
+        0.0,
+        2.220446049250313e-16
+      ],
+      "old_nominal_length_m": 0.737,
+      "old_mesh_extent_m": [
+        0.7369999999999999,
+        0.2096458350753571,
+        0.2300582800405575
+      ],
+      "nominal_diameter_m": 0.208,
+      "semantic_axis": "PCA +x rounded nose; -x neck, visually inspected",
+      "mesh_to_target_from_source": null
+    },
+    {
+      "model": "incindiary",
+      "source_object_point": [
+        1.2351,
+        1.25,
+        -1.192784
+      ],
+      "point_plus_crane_to_aris_offset": [
+        1.2351,
+        1.424,
+        -1.5307840000000001
+      ],
+      "release_target_translation": [
+        1.2351,
+        1.409233,
+        -1.530784
+      ],
+      "release_minus_corrected_note": [
+        0.0,
+        -0.014766999999999975,
+        2.220446049250313e-16
+      ],
+      "old_nominal_length_m": 0.442,
+      "old_mesh_extent_m": [
+        0.44200000000000006,
+        0.15363564961497733,
+        0.12254369699737572
+      ],
+      "nominal_diameter_m": 0.127,
+      "semantic_axis": "PCA +x broad open/deformed end; -x narrower/torn end, visual hypothesis",
+      "mesh_to_target_from_source": null
+    },
+    {
+      "model": "mortar_shell",
+      "source_object_point": [
+        1.263516,
+        1.252357,
+        -1.180909
+      ],
+      "point_plus_crane_to_aris_offset": [
+        1.263516,
+        1.4263569999999999,
+        -1.518909
+      ],
+      "release_target_translation": [
+        1.263516,
+        1.4371,
+        -1.51891
+      ],
+      "release_minus_corrected_note": [
+        0.0,
+        0.010743000000000169,
+        -9.999999999177334e-07
+      ],
+      "old_nominal_length_m": 0.58,
+      "old_mesh_extent_m": [
+        0.58,
+        0.1297464952630862,
+        0.12201509441518721
+      ],
+      "nominal_diameter_m": 0.12,
+      "semantic_axis": "PCA -x nose/fuze; +x tail fins, visually inspected",
+      "mesh_to_target_from_source": null
+    }
+  ],
+  "mesh_file_paths_in_local_git_history": [],
+  "git_head": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+  "stl_import_commit": "571a653e27e2e86452c5ed535d057ca12fcd501c",
+  "stl_commit_changes": "notebook only; STL itself not committed",
+  "source_hashes": {
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\model-registration-sources\\object-notes-9a0ebad3.md": "b95bdd0f277a803d8b42050b6ec6182433f2cb83deb565f5f37ccc1768997cc9",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\model-registration-sources\\historical-README.md": "923f89f93cda1cd5e14b35d1be00211dd0362feeb41cfef8ae97d1c7e5704cb3",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_fixed_mesh\\fixed-mesh-transforms.json": "31e18b860fbbb6ac489156d9d2f4f3ffa57953301e95ab35f1e9fa0bcc8722c7",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_model_registration_consistency\\calibration-versions.json": "b8fbd58849618569f77cd8570eb20b091a29b3e898928f801ef4f9ac0215d281"
+  },
+  "status": "target survey semantics partly recovered; physical OBJ registration not published in inspected local history"
+}

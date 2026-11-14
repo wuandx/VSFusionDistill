@@ -1,0 +1,26 @@
+[
+  {
+    "name": "dfki",
+    "url": "https://www.dfki.de/fileadmin/user_upload/import/15133_20240801_oceans24_uxo_dataset_full.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "dfki2",
+    "url": "https://robotik.dfki-bremen.de/fileadmin/user_upload/import/15133_20240801_oceans24_uxo_dataset_full.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "openalex.json",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1109/OCEANS55160.2024.10754316",
+    "status": 200,
+    "type": "application/json",
+    "bytes": 18490,
+    "final_url": "https://api.openalex.org/works/https://doi.org/10.1109/OCEANS55160.2024.10754316",
+    "sha256": "8ac357ea03ee4d767c879a7ecd5cf40c93784185ce142e8a4c7977368761c2c5"
+  },
+  {
+    "name": "researchgate.html",
+    "url": "https://www.researchgate.net/publication/386124306_An_Acoustic_and_Optical_Dataset_for_the_Perception_of_Underwater_Unexploded_Ordnance_UXO",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

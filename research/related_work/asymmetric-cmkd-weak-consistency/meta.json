@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2511.08901",
+ "slug": "asymmetric-cmkd-weak-consistency",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:36:09",
+ "tier": "B",
+ "why_relevant": "asymmetric cross-modal KD with weak semantic consistency",
+ "title": "Asymmetric Cross-Modal Knowledge Distillation: Bridging Modalities with Weak Semantic Consistency",
+ "authors": [
+  "Wei, Riling",
+  "Yao, Kelu",
+  "Yang, Chuanguang",
+  "Wang, Jin",
+  "Gao, Zhuoyan",
+  "Li, Chao"
+ ],
+ "date": "2025/11/12",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Cross-modal Knowledge Distillation has demonstrated promising performance on paired modalities with strong semantic connections, referred to as Symmetric Cross-modal Knowledge Distillation (SCKD). However, implementing SCKD becomes exceedingly constrained in real-world scenarios due to the limited availability of paired modalities. To this end, we investigate a general and effective knowledge learning concept under weak semantic consistency, dubbed Asymmetric Cross-modal Knowledge Distillation (ACKD), aiming to bridge modalities with limited semantic overlap. Nevertheless, the shift from strong to weak semantic consistency improves flexibility but exacerbates challenges in knowledge transmission costs, which we rigorously verified based on optimal transport theory. To mitigate the issue, we further propose a framework, namely SemBridge, integrating a Student-Friendly Matching module and a Semantic-aware Knowledge Alignment module. The former leverages self-supervised learning to acquire semantic-based knowledge and provide personalized instruction for each student sample by dynamically selecting the relevant teacher samples. The latter seeks the optimal transport path by employing Lagrangian optimization. To facilitate the research, we curate a benchmark dataset derived from two modalities, namely Multi-Spectral (MS) and asymmetric RGB images, tailored for remote sensing scene classification. Comprehensive experiments exhibit that our framework achieves state-of-the-art performance compared with 7 existing approaches on 6 different model architectures across various datasets.",
+ "comments": "Accepted by AAAI-2026",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2511.08901",
+  "bytes": 3394633,
+  "sha256": "43d4430882dd41a5fab53c35873e3292dbd851ca0203ad7e3a7496c75dd17b95"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2511.08901",
+  "bytes": 2497234,
+  "sha256": "891d2d93d46db602a2343ac1723583deb5e2bfe6d879acdbbbda276858d7228f",
+  "kind": "tar",
+  "n_files": 12,
+  "tex_files": [
+   "Formatting-Instructions-LaTeX-2026.tex"
+  ]
+ }
+}

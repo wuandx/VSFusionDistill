@@ -1,0 +1,40 @@
+{
+ "arxiv_id": "2503.01655",
+ "slug": "can-optical-denoising-clean-sonar-images-a-benchmark-and-fus",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:39:26",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Can Optical Denoising Clean Sonar Images? A Benchmark and Fusion Approach",
+ "authors": [
+  "Wang, Ziyu",
+  "Xue, Tao",
+  "Li, Jingyuan",
+  "Zhang, Haibin",
+  "Xu, Zhiqiang",
+  "Xu, Gaofei",
+  "Wang, Zhen",
+  "Wang, Yanbin",
+  "Liu, Zhiquan"
+ ],
+ "date": "2025/03/03",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Object detection in sonar images is crucial for underwater robotics applications including autonomous navigation and resource exploration. However, complex noise patterns inherent in sonar imagery, particularly speckle, reverberation, and non-Gaussian noise, significantly degrade detection accuracy. While denoising techniques have achieved remarkable success in optical imaging, their applicability to sonar data remains underexplored. This study presents the first systematic evaluation of nine state-of-the-art deep denoising models with distinct architectures, including Neighbor2Neighbor with varying noise parameters, Blind2Unblind with different noise configurations, and DSPNet, for sonar image preprocessing. We establish a rigorous benchmark using five publicly available sonar datasets and assess their impact on four representative detection algorithms: YOLOX, Faster R-CNN, SSD300, and SSDMobileNetV2. Our evaluation addresses three unresolved questions: first, how effectively optical denoising architectures transfer to sonar data; second, which model families perform best against sonar noise; and third, whether denoising truly improves detection accuracy in practical pipelines. Extensive experiments demonstrate that while denoising generally improves detection performance, effectiveness varies across methods due to their inherent biases toward specific noise types. To leverage complementary denoising effects, we propose a mutually-supervised multi-source denoising fusion framework where outputs from different denoisers mutually supervise each other at the pixel level, creating a synergistic framework that produces cleaner images.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2503.01655",
+  "bytes": 3830671,
+  "sha256": "891a147ca230c2e43a8886bef4a05130031767982940f23848172e2e32a6c15b"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2503.01655",
+  "bytes": 3302537,
+  "sha256": "0440c4914f7479c515666913326526cec2ddf4bf4e1bc52e97785398c6a855db",
+  "kind": "tar",
+  "n_files": 14,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

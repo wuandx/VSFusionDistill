@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "2108.01111",
+ "slug": "pre-trained-models-for-sonar-images",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:45:28",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Pre-trained Models for Sonar Images",
+ "authors": [
+  "Valdenegro-Toro, Matias",
+  "Preciado-Grijalva, Alan",
+  "Wehbe, Bilal"
+ ],
+ "date": "2021/08/02",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Machine learning and neural networks are now ubiquitous in sonar perception, but it lags behind the computer vision field due to the lack of data and pre-trained models specifically for sonar images. In this paper we present the Marine Debris Turntable dataset and produce pre-trained neural networks trained on this dataset, meant to fill the gap of missing pre-trained models for sonar images. We train Resnet 20, MobileNets, DenseNet121, SqueezeNet, MiniXception, and an Autoencoder, over several input image sizes, from 32 x 32 to 96 x 96, on the Marine Debris turntable dataset. We evaluate these models using transfer learning for low-shot classification in the Marine Debris Watertank and another dataset captured using a Gemini 720i sonar. Our results show that in both datasets the pre-trained models produce good features that allow good classification accuracy with low samples (10-30 samples per class). The Gemini dataset validates that the features transfer to other kinds of sonar sensors. We expect that the community benefits from the public release of our pre-trained models and the turntable dataset.",
+ "comments": "Global Oceans 2021, Camera ready, 8 pages, 9 figures",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2108.01111",
+  "bytes": 4798506,
+  "sha256": "360daac1ae230329899ebbfadf70cb1a3c4299ed07db63e8865a57166bd72eb5"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2108.01111",
+  "bytes": 4811302,
+  "sha256": "11b72747ed9113530e19af9c14d5590ebf911a21a1af73a1231ade133103d59e",
+  "kind": "tar",
+  "n_files": 121,
+  "tex_files": [
+   "paper-pretrained-models-sonar.tex"
+  ]
+ }
+}

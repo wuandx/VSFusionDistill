@@ -1,0 +1,10 @@
+{
+  "cmhd_format": "original JATS XML; not LaTeX",
+  "cmhd_path": "D:\\agent_workspace\\\u6c34\u4e0b\\\u58f0\u5450\u76ee\u6807\u68c0\u6d4b_workflow\\related_work\\cmhd\\source\\fulltext.xml",
+  "cmhd_sha256": "7e1cf91e74e20f063656fd91c8c64e8f0b59c1b2d4c7272e597fdd261f3f9601",
+  "uxo_pdf_attempt": {
+    "url": "https://www.dfki.de/fileadmin/user_upload/import/15133_20240801_oceans24_uxo_dataset_full.pdf",
+    "result": "urllib HTTP403; web fetch exceeds content-size limit; final full text not obtained"
+  },
+  "uxo_primary_code": "related_work/uxo-upstream-history/scripts/"
+}

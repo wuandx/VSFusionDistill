@@ -1,0 +1,14 @@
+{
+  "current_train_recordings": 21,
+  "current_train_pairs": 2472,
+  "additional_frames_existing_train": 11161,
+  "additional_unique_sd_existing_train": 11161,
+  "additional_frames_extra_labelled_sources": 5251,
+  "additional_unique_sd_extra_sources": 5251,
+  "extra_labelled_sources_with_valid_candidates": 9,
+  "extra_unlabelled_camera_sources": 4,
+  "newly_accepted_pairs": 0,
+  "all_counts_are_candidates_not_sonar_GT": true,
+  "no_new_test_content_read": true,
+  "metadata_and_path_checks_only": true
+}

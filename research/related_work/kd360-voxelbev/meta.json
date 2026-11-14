@@ -1,0 +1,45 @@
+{
+ "arxiv_id": "2512.15311",
+ "slug": "kd360-voxelbev",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:34:15",
+ "tier": "C",
+ "why_relevant": "LiDAR-camera cross-modality KD, BEV",
+ "title": "KD360-VoxelBEV: LiDAR and 360-degree Camera Cross Modality Knowledge Distillation for Bird&#39;s-Eye-View Segmentation",
+ "authors": [
+  "E, Wenke",
+  "Sun, Yixin",
+  "Liu, Jiaxu",
+  "Shum, Hubert P. H.",
+  "Atapour-Abarghouei, Amir",
+  "Breckon, Toby P."
+ ],
+ "date": "2025/12/17",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: We present the first cross-modality distillation framework specifically tailored for single-panoramic-camera Bird&#39;s-Eye-View (BEV) segmentation. Our approach leverages a novel LiDAR image representation fused from range, intensity and ambient channels, together with a voxel-aligned view transformer that preserves spatial fidelity while enabling efficient BEV processing. During training, a high-capacity LiDAR and camera fusion Teacher network extracts both rich spatial and semantic features for cross-modality knowledge distillation into a lightweight Student network that relies solely on a single 360-degree panoramic camera image. Extensive experiments on the Dur360BEV dataset demonstrate that our teacher model significantly outperforms existing camera-based BEV segmentation methods, achieving a 25.6\\% IoU improvement. Meanwhile, the distilled Student network attains competitive performance with an 8.5\\% IoU gain and state-of-the-art inference speed of 31.2 FPS. Moreover, evaluations on KITTI-360 (two fisheye cameras) confirm that our distillation framework generalises to diverse camera setups, underscoring its feasibility and robustness. This approach reduces sensor complexity and deployment costs while providing a practical solution for efficient, low-cost BEV segmentation in real-world autonomous driving.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2512.15311",
+  "bytes": 18817414,
+  "sha256": "036524041f3c7b750df1f116353383b8f340ac123085a97b9f07f2e8432f3b57"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2512.15311",
+  "bytes": 18960238,
+  "sha256": "bab20e554e7ca0c7fc13506e991a050d8887bfb775d5a1c217843c46f420316c",
+  "kind": "tar",
+  "n_files": 37,
+  "tex_files": [
+   "main.tex",
+   "preamble.tex",
+   "sec/0_abstract.tex",
+   "sec/1_intro.tex",
+   "sec/2_related_work.tex",
+   "sec/3_methodology.tex",
+   "sec/4_experiments.tex",
+   "sec/5_conclusion.tex",
+   "sec/X_suppl.tex"
+  ]
+ }
+}

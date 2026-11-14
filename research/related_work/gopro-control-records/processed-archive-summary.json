@@ -1,0 +1,19 @@
+{
+  "archive": "D:\\pby\\data_processed.7z",
+  "bytes": 61513277947,
+  "paths": 198915,
+  "extension_counts": {
+    "": 217,
+    ".pgm": 98937,
+    ".csv": 386,
+    ".yaml": 210,
+    ".png": 98937,
+    ".mp4": 228
+  },
+  "record_candidates": [],
+  "root_entries": [
+    "data_processed"
+  ],
+  "stat_unchanged": true,
+  "members_extracted": 0
+}

@@ -1,0 +1,39 @@
+{
+ "arxiv_id": "2102.12252",
+ "slug": "localization-distillation-for-dense-object-detection",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:51:11",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Localization Distillation for Dense Object Detection",
+ "authors": [
+  "Zheng, Zhaohui",
+  "Ye, Rongguang",
+  "Wang, Ping",
+  "Ren, Dongwei",
+  "Zuo, Wangmeng",
+  "Hou, Qibin",
+  "Cheng, Ming-Ming"
+ ],
+ "date": "2021/02/24",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Knowledge distillation (KD) has witnessed its powerful capability in learning compact models in object detection. Previous KD methods for object detection mostly focus on imitating deep features within the imitation regions instead of mimicking classification logit due to its inefficiency in distilling localization information and trivial improvement. In this paper, by reformulating the knowledge distillation process on localization, we present a novel localization distillation (LD) method which can efficiently transfer the localization knowledge from the teacher to the student. Moreover, we also heuristically introduce the concept of valuable localization region that can aid to selectively distill the semantic and localization knowledge for a certain region. Combining these two new components, for the first time, we show that logit mimicking can outperform feature imitation and localization knowledge distillation is more important and efficient than semantic knowledge for distilling object detectors. Our distillation scheme is simple as well as effective and can be easily applied to different dense object detectors. Experiments show that our LD can boost the AP score of GFocal-ResNet-50 with a single-scale 1x training schedule from 40.1 to 42.1 on the COCO benchmark without any sacrifice on the inference speed. Our source code and trained models are publicly available at this https URL",
+ "comments": "Accepted by CVPR 2022. Camera Ready",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2102.12252",
+  "bytes": 4448206,
+  "sha256": "09e3aaf466b8648bc6102004109221ced2329b5d6e611ca5e71ffcac7f257a38"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2102.12252",
+  "bytes": 3605544,
+  "sha256": "86370be8c7ae47ec4e3012e2873681849956b2f73bd93d84f59c322a39540ae9",
+  "kind": "tar",
+  "n_files": 17,
+  "tex_files": [
+   "LD.tex"
+  ]
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "arxiv_id": "1910.05374",
+ "slug": "shipwreck-fls-rotation-invariant",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:30:27",
+ "tier": "C",
+ "why_relevant": "FLS recognition, rotation invariance",
+ "title": "Rotation-invariant shipwreck recognition with forward-looking sonar",
+ "authors": [
+  "Neves, Gustavo",
+  "Cerqueira, Rômulo",
+  "Albiez, Jan",
+  "Oliveira, Luciano"
+ ],
+ "date": "2019/10/11",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Under the sea, visible spectrum cameras have limited sensing capacity, being able to detect objects only in clear water, but in a constrained range. Considering any sea water condition, sonars are more suitable to support autonomous underwater vehicles&#39; navigation, even in turbid condition. Despite that sonar suitability, this type of sensor does not provide high-density information, such as optical sensors, making the process of object recognition to be more complex. To deal with that problem, we propose a novel trainable method to detect and recognize (identify) specific target objects under the sea with a forward-looking sonar. Our method has a preprocessing step in charge of strongly reducing the sensor noise and seabed background. To represent the object, our proposed method uses histogram of orientation gradient (HOG) as feature extractor. HOG ultimately feed a multi-scale oriented detector combined with a support vector machine to recognize specific trained objects in a rotation-invariant way. Performance assessment demonstrated promising results, favoring the method to be applied in underwater remote sensing.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/1910.05374",
+  "bytes": 7411337,
+  "sha256": "6fd65c2ae27c49f26fd313dcb9a1959cec8ed84d1d6f7bbb43a1b1f0bc3dc041"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/1910.05374",
+  "bytes": 5155838,
+  "sha256": "f1a465c5b1b658087d2338def449949467147dd8857850a6875b1a9b863ee63f",
+  "kind": "tar",
+  "n_files": 21,
+  "tex_files": [
+   "paper.tex"
+  ]
+ }
+}

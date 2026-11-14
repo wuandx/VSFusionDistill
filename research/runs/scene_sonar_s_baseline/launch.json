@@ -1,0 +1,21 @@
+{
+  "name": "scene_sonar_s_baseline",
+  "service": "scene-sonar-s-baseline.service",
+  "command": [
+    "/home/ty/mycode/VSFusionDistill/.venv-gpu/bin/python",
+    "-B",
+    "-u",
+    "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/tools/run_scene_baseline.py",
+    "--modality",
+    "sonar",
+    "--repo",
+    "/mnt/d/agent_workspace/水下/声呐目标检测/code/VSFusionDistill",
+    "--checkpoint",
+    "/home/ty/.cache/torch/hub/checkpoints/yolox_s_8x8_300e_coco_20211121_095711-4592a793.pth",
+    "--train"
+  ],
+  "log": "/mnt/d/agent_workspace/水下/声呐目标检测_workflow/runs/scene_sonar_s_baseline/train.log",
+  "launch_status": "MainPID=8683\nResult=success\nActiveState=active\nSubState=running\n",
+  "automatic_restart": false,
+  "test_content_read": false
+}

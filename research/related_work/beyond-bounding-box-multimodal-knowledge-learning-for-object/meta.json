@@ -1,0 +1,36 @@
+{
+ "arxiv_id": "2205.04072",
+ "slug": "beyond-bounding-box-multimodal-knowledge-learning-for-object",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:55:07",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Beyond Bounding Box: Multimodal Knowledge Learning for Object Detection",
+ "authors": [
+  "Feng, Weixin",
+  "Bu, Xingyuan",
+  "Zhang, Chenchen",
+  "Li, Xubin"
+ ],
+ "date": "2022/05/09",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Multimodal supervision has achieved promising results in many visual language understanding tasks, where the language plays an essential role as a hint or context for recognizing and locating instances. However, due to the defects of the human-annotated language corpus, multimodal supervision remains unexplored in fully supervised object detection scenarios. In this paper, we take advantage of language prompt to introduce effective and unbiased linguistic supervision into object detection, and propose a new mechanism called multimodal knowledge learning (\\textbf{MKL}), which is required to learn knowledge from language supervision. Specifically, we design prompts and fill them with the bounding box annotations to generate descriptions containing extensive hints and context for instances recognition and localization. The knowledge from language is then distilled into the detection model via maximizing cross-modal mutual information in both image- and object-level. Moreover, the generated descriptions are manipulated to produce hard negatives to further boost the detector performance. Extensive experiments demonstrate that the proposed method yields a consistent performance gain by 1.6\\% $\\sim$ 2.1\\% and achieves state-of-the-art on MS-COCO and OpenImages datasets.",
+ "comments": "Submitted to CVPR2022",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2205.04072",
+  "bytes": 3806763,
+  "sha256": "0ea51aa39134cbaa9c80bc2dc8f854b61781f48f68f8821d489a9d4842b3f17b"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2205.04072",
+  "bytes": 13308080,
+  "sha256": "0251688c128bbc9d78516eb76c4853ad50bbd9dc21c7327bcc43f3a1694e26d6",
+  "kind": "tar",
+  "n_files": 21,
+  "tex_files": [
+   "PaperForReview.tex"
+  ]
+ }
+}

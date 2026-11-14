@@ -1,0 +1,194 @@
+﻿recording,group_id,category,role,selected,reserve,historical_paired_roles,development_history,gantry_file,gopro_file,notes
+2023-09-20_171105,2023-09-20_171105,100lbs_aircraft_bomb,train,100,16,val,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-20-17-11-30_100lbs_bomb.csv,gopro/clips_sd/20230920_GX010010_01.mp4,"- target: 100lbs bomb
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Min Transmit
+- 10dB"
+2023-09-20_174439,2023-09-20_174439,100lbs_aircraft_bomb,train,100,5,val,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-20-17-44-40_100lbs_bomb.csv,gopro/clips_sd/20230920_GX020010_03.mp4,"- target: 100lbs bomb
+- Trajectory: L to R (z: 725)
+- Tilt: -26°
+- roll: 0°
+- Min Transmit
+- 10dB
+- repeat (main data)"
+2023-09-20_175000,2023-09-20_175000,100lbs_aircraft_bomb,train,100,7,,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-20-17-50-02_100lbs_bomb.csv,gopro/clips_sd/20230920_GX020010_05.mp4,"- target: 100lbs bomb
+- Trajectory: L to R (z: 725)
+- Tilt: -26°
+- roll: 90°
+- Min Transmit
+- 10dB"
+2023-09-20_175506,2023-09-20_175506,100lbs_aircraft_bomb,test,100,0,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-20-17-55-08_100lbs_bomb.csv,gopro/clips_sd/20230920_GX020010_06.mp4,"- target: 100lbs bomb
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Min Transmit
+- 10dB"
+2023-09-20_175905,2023-09-20_175905,100lbs_aircraft_bomb,train,100,7,train,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-20-17-59-06_100lbs_bomb.csv,gopro/clips_sd/20230920_GX030010_02.mp4,"- target: 100lbs bomb
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Max Transmit
+- 5dB"
+2023-09-20_180506,2023-09-20_180506,100lbs_aircraft_bomb,val,100,9,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-20-18-05-08_100lbs_bomb.csv,gopro/clips_sd/20230920_GX030010_03.mp4,"- target: 100lbs bomb
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 10dB"
+2023-09-20_180722,2023-09-20_180722,100lbs_aircraft_bomb,train,100,1,val,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-20-18-07-24_100lbs_bomb.csv,gopro/clips_sd/20230920_GX030010_04.mp4,"- target: 100lbs bomb
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 10dB
+- repeat (main data)"
+2023-09-20_181139,2023-09-20_181139,100lbs_aircraft_bomb,train,100,11,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-20-18-11-40_100lbs_bomb.csv,gopro/clips_sd/20230920_GX030010_05.mp4,"- target: 100lbs bomb
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 90°
+- Min Transmit
+- 10dB"
+2023-09-20_182317,2023-09-20_182317,100lbs_aircraft_bomb,val,100,46,,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-20-18-23-16_100lbs_bomb.csv,gopro/clips_sd/20230920_GX030010_06.mp4,"- target: 100lbs bomb
+- Trajectory: flyby (z: 250, y: 1420)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Min Transmit
+- 10dB
+- incorrect gopro offset"
+2023-09-21_101416,2023-09-21_101416,mortar_shell,val,100,20,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-10-14-18_15cm_mortar.csv,gopro/clips_sd/20230921_GX010012_03.mp4,"- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Max Transmit
+- 5dB"
+2023-09-21_101622,2023-09-21_101622,mortar_shell,train,100,23,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-10-16-23_15cm_mortar.csv,gopro/clips_sd/20230921_GX010012_04.mp4,"- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Max Transmit
+- 5dB
+- bad, needs repeat"
+2023-09-21_101840,2023-09-21_101840,mortar_shell,test,100,8,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-10-18-42_15cm_mortar.csv,gopro/clips_sd/20230921_GX010012_05.mp4,"- target: 15cm_mortar
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Min Transmit
+- 15dB"
+2023-09-21_102500,2023-09-21_102500,mortar_shell,test,100,26,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-10-25-01_15cm_mortar.csv,gopro/clips_sd/20230921_GX010012_07.mp4,"- target: 15cm_mortar
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Min Transmit
+- 15dB"
+2023-09-21_103140,2023-09-21_103140,mortar_shell,val,100,28,val,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-10-31-41_15cm_mortar.csv,gopro/clips_sd/20230921_GX020012_02.mp4,"- target: 15cm_mortar
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 90°
+- Max Transmit
+- 5dB"
+2023-09-21_103728,2023-09-21_103728,mortar_shell,train,100,39,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-10-37-30_15cm_mortar.csv,gopro/clips_sd/20230921_GX020012_04.mp4,"- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 15dB"
+2023-09-21_103927,2023-09-21_103927,mortar_shell,train,100,19,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-10-39-28_15cm_mortar.csv,gopro/clips_sd/20230921_GX020012_05.mp4,"- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 15dB
+- repeat (main data)"
+2023-09-21_104749,2023-09-21_104749,mortar_shell,train,100,18,train,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-10-47-49_15cm_mortar.csv,gopro/clips_sd/20230921_GX020012_06.mp4,"- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Max Transmit
+- 5dB"
+2023-09-21_105017,2023-09-21_105017,mortar_shell,train,100,7,val,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-10-50-18_15cm_mortar.csv,gopro/clips_sd/20230921_GX020012_07.mp4,"- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 90°
+- Max Transmit
+- 5dB"
+2023-09-21_105230,2023-09-21_105230,mortar_shell,train,100,16,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-10-52-31_15cm_mortar.csv,gopro/clips_sd/20230921_GX020012_09.mp4,"- target: 15cm_mortar
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 90°
+- Min Transmit
+- 15dB"
+2023-09-21_121124,2023-09-21_121124,incindiary_grenade,train,100,17,train,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-12-11-22_20lbs_incendiary.csv,gopro/clips_sd/20230921_GX010014_03.mp4,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Max Transmit
+- 5dB"
+2023-09-21_121327,2023-09-21_121327,incindiary_grenade,train,100,30,val,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-12-13-27_20lbs_incendiary.csv,gopro/clips_sd/20230921_GX010014_04.mp4,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 0°
+- Max Transmit
+- 0dB
+- repeat (0db gain)"
+2023-09-21_121539,2023-09-21_121539,incindiary_grenade,val,100,2,train,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-12-15-38_20lbs_incendiary.csv,gopro/clips_sd/20230921_GX010014_05.mp4,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 750)
+- Tilt: -22°
+- roll: 90°
+- Max Transmit
+- 0dB"
+2023-09-21_122608,2023-09-21_122608,incindiary_grenade,test,100,0,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-12-26-08_20lbs_incendiary.csv,gopro/clips_sd/20230921_GX020014_02.mp4,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 0°
+- Max Transmit
+- 0dB"
+2023-09-21_122855,2023-09-21_122608,incindiary_grenade,test,100,1,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-12-28-57_20lbs_incendiary.csv,gopro/clips_sd/20230921_GX020014_03.mp4,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 500)
+- Tilt: -34°
+- roll: 90°
+- Max Transmit
+- 0dB
+- original aris recording covers two trajectories, this is the 2nd one"
+2023-09-21_123500,2023-09-21_123500,incindiary_grenade,train,100,15,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-12-35-01_20lbs_incendiary.csv,gopro/clips_sd/20230921_GX020014_05.mp4,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Min Transmit
+- 15dB"
+2023-09-21_123841,2023-09-21_123841,incindiary_grenade,train,100,6,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-12-38-42_20lbs_incendiary.csv,gopro/clips_sd/20230921_GX020014_04.mp4,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Max Transmit
+- 0dB
+- off-center"
+2023-09-21_124039,2023-09-21_124039,incindiary_grenade,train,100,6,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-12-40-38_20lbs_incendiary.csv,gopro/clips_sd/20230921_GX030014_01.mp4,"- target: 20lbs_incendiary
+- Trajectory: L to R (z: 250)
+- Tilt: -42°
+- roll: 0°
+- Max Transmit
+- 0dB
+- repeat"
+2023-09-21_124915,2023-09-21_124915,incindiary_grenade,val,100,8,val,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-12-49-15_20lbs_incendiary.csv,gopro/clips_sd/20230921_GX020014_09.mp4,"- target: 20lbs_incendiary
+- Trajectory: flyby (z:250, y: 1250)
+- Tilt: -60°
+- Roll: 0°
+- Pan: -180°
+- Max Transmit
+- 0dB"
+2023-09-21_125048,2023-09-21_125048,incindiary_grenade,train,100,0,train;val_id,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-12-50-48_20lbs_incendiary.csv,gopro/clips_sd/20230921_GX020014_10.mp4,"- target: 20lbs_incendiary
+- Trajectory: flyby (z:250, y: 1250)
+- Tilt: -90°
+- Roll: 0°
+- Pan: -180°
+- Max Transmit
+- 0dB"
+2023-09-21_160551,2023-09-21_160551,100lbs_aircraft_bomb,test,100,7,train,included_in_40_recording_development_checks;full_history_not_certified,gantry/2023-09-21-16-05-51_100lbs.csv,gopro/clips_sd/20230921_GX010018_03.mp4,"- target: 100lbs_bomb (floor)
+- Trajectory: ellipse (z: 1000)
+- Tilt: -32° (start)
+- roll: 0°
+- Max Transmit
+- 0dB
+- not sure about gopro offset"

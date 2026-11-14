@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2405.03355",
+ "slug": "a-generalization-theory-of-cross-modality-distillation-with-",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:57:06",
+ "tier": "",
+ "why_relevant": "",
+ "title": "A Generalization Theory of Cross-Modality Distillation with Contrastive Learning",
+ "authors": [
+  "Lin, Hangyu",
+  "Liu, Chen",
+  "Xu, Chengming",
+  "Gao, Zhengqi",
+  "Fu, Yanwei",
+  "Yao, Yuan"
+ ],
+ "date": "2024/05/06",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Cross-modality distillation arises as an important topic for data modalities containing limited knowledge such as depth maps and high-quality sketches. Such techniques are of great importance, especially for memory and privacy-restricted scenarios where labeled training data is generally unavailable. To solve the problem, existing label-free methods leverage a few pairwise unlabeled data to distill the knowledge by aligning features or statistics between the source and target modalities. For instance, one typically aims to minimize the L2 distance or contrastive loss between the learned features of pairs of samples in the source (e.g. image) and the target (e.g. sketch) modalities. However, most algorithms in this domain only focus on the experimental results but lack theoretical insight. To bridge the gap between the theory and practical method of cross-modality distillation, we first formulate a general framework of cross-modality contrastive distillation (CMCD), built upon contrastive learning that leverages both positive and negative correspondence, towards a better distillation of generalizable features. Furthermore, we establish a thorough convergence analysis that reveals that the distance between source and target modalities significantly impacts the test error on downstream tasks within the target modality which is also validated by the empirical results. Extensive experimental results show that our algorithm outperforms existing algorithms consistently by a margin of 2-3\\% across diverse modalities and tasks, covering modalities of image, sketch, depth map, and audio and tasks of recognition and segmentation.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2405.03355",
+  "bytes": 446056,
+  "sha256": "c46973aedeb35a59fbab3d98bd984f7916e28a074adccf4c43c40be01970aa29"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2405.03355",
+  "bytes": 1355962,
+  "sha256": "cccf583c709ea51f213dd3999f32926d59b29df2680cf5787ed0bcdd52ce51be",
+  "kind": "tar",
+  "n_files": 16,
+  "tex_files": [
+   "main_workshop.tex",
+   "math_commands.tex"
+  ]
+ }
+}

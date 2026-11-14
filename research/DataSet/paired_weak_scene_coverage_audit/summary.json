@@ -1,0 +1,10 @@
+{
+  "actionable_candidates": 397,
+  "mortar_flyby_candidates": 200,
+  "bomb_candidates": 197,
+  "accepted_new_pairs": 0,
+  "original_test_content_read": false,
+  "model_inference": false,
+  "training": false,
+  "metadata_not_physical_pose_certification": true
+}

@@ -1,0 +1,36 @@
+{
+ "arxiv_id": "2107.10504",
+ "slug": "lowshot-targets-fls",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:29:55",
+ "tier": "C",
+ "why_relevant": "low-shot target learning in FLS imagery",
+ "title": "External-Memory Networks for Low-Shot Learning of Targets in Forward-Looking-Sonar Imagery",
+ "authors": [
+  "Sledge, Isaac J.",
+  "Toole, Christopher D.",
+  "Maestri, Joseph A.",
+  "Principe, Jose C."
+ ],
+ "date": "2021/07/22",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: We propose a memory-based framework for real-time, data-efficient target analysis in forward-looking-sonar (FLS) imagery. Our framework relies on first removing non-discriminative details from the imagery using a small-scale DenseNet-inspired network. Doing so simplifies ensuing analyses and permits generalizing from few labeled examples. We then cascade the filtered imagery into a novel NeuralRAM-based convolutional matching network, NRMN, for low-shot target recognition. We employ a small-scale FlowNet, LFN to align and register FLS imagery across local temporal scales. LFN enables target label consensus voting across images and generally improves target detection and recognition rates. We evaluate our framework using real-world FLS imagery with multiple broad target classes that have high intra-class variability and rich sub-class structure. We show that few-shot learning, with anywhere from ten to thirty class-specific exemplars, performs similarly to supervised deep networks trained on hundreds of samples per class. Effective zero-shot learning is also possible. High performance is realized from the inductive-transfer properties of NRMNs when distractor elements are removed.",
+ "comments": "Submitted to IEEE Journal of Oceanic Engineering",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2107.10504",
+  "bytes": 12316336,
+  "sha256": "c43d5d197c936e7e9ea8ade7154c0e50625ee460c23a6d85bc009dc8c11c2cdb"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2107.10504",
+  "bytes": 10470201,
+  "sha256": "4fe8131b19dc7e122d13d7cf27ec7ce2a65e45802b2a4e237985baa28379ea4d",
+  "kind": "tar",
+  "n_files": 27,
+  "tex_files": [
+   "Sledge-JOE-2021-1col.tex"
+  ]
+ }
+}

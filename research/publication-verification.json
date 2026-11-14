@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "imported_hashes_checked": 1403,
+  "json_files_checked": 619,
+  "local_links_checked": 1351,
+  "total_files": 1415,
+  "total_bytes": 48786983,
+  "failures": [],
+  "baseline_result_rows": 13,
+  "index_bytes_match_files": true,
+  "staged_research_files": 1415,
+  "existing_model_code_unchanged_vs_source_head": true,
+  "original_code_head_unchanged": "4fadd06829c6c738977639a55b6e44ad0e35ac44",
+  "original_code_status_clean": true,
+  "new_training_or_evaluation": false,
+  "original_test_images_or_annotations_accessed": false,
+  "full_images_or_weights_uploaded": false,
+  "checks_scope": "local imported snapshot and Git index before adding this verification JSON; no live training query or model rerun"
+}

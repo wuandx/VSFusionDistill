@@ -1,0 +1,32 @@
+{
+  "input_hashes": {
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\experiment\\archive\\sonar-ray-visibility-plan.md": "af6ea9f70d26f306475d71c3f54d2f895942507b4d6577940dc960de06da112f",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\tools\\diagnose_sonar_ray_visibility.py": "e21223656c7be25dd1e19c1a34947c77c63428583e2138dbfd9b733618b9a787",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_fixed_mesh\\fixed-mesh-transforms.json": "31e18b860fbbb6ac489156d9d2f4f3ffa57953301e95ab35f1e9fa0bcc8722c7",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_rgb_pose_pilot\\selection.json": "c63465fa04f17d7be516c03b965eaed878c8d1f193c83c496602f8e47322af54",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_recording_split\\recordings.csv": "6fcf60cdd69ac63caacb55a2d74fd33f85309052c28f15c0296df15c7085c381",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_model_registration_consistency\\calibration-versions.json": "b8fbd58849618569f77cd8570eb20b091a29b3e898928f801ef4f9ac0215d281",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_temporal_all\\manifest-resolved.json": "3b2cf9fd85fce4c76a2e21a953b4ecf230ccc7f846f0547d3fc00d3ca3cffa4a",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\data_export_3dmodels\\3d_models\\mortar_shell.obj": "0688109b4a2147c212de38b7721cb6b8d60558eec4d4d0bf53cbe5f09a43307e",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_box_guided_registration\\mortar_shell\\freeze-model.json": "ba2247eae60c43239997715487bf94668f79986bef3b0d45f53d27a800b5bbb9",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103728\\aris_frame_meta.csv": "c7a356a4047d211e076c4da145fc692c271a71241aa0063c7317265b711fc51d",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103728\\gantry.csv": "38ccbc1982be108710fe6d1af000da4ee8074b3ff9aa7bad7b1bad4e7362ca34",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103728\\aris_raw\\0128.pgm": "ade3840653e74e616c0a34f5dcc755a6fa602be7947adaa1d71b0b3665dacd8f",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103728\\aris_raw\\0388.pgm": "5a098003c0f266280fbed8919f76f0c702165b80e4392159c1564434002ebd2d",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\15cm_mortar\\2023-09-21_103728\\aris_raw\\0758.pgm": "8b31d98889f8b9ed9ad087f9738f823eb1f21a95fdea4cb17edf4ff0fd635cf8",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\sonar-projection-audit-assets\\data_export_3dmodels\\3d_models\\incindiary.obj": "e6aab3d5638a368185f1c6807df32f62d45bd92ad54a3f2ecddf9015bd6e1e14",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\sonar_box_guided_registration\\incindiary\\freeze-model.json": "a038ee114ddc22fd067c8a66ecbd6cb0bd2f58879338b5e99b9b4d0eb59fdf72",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_123500\\aris_frame_meta.csv": "8a70cc5f4148d42a98b169c69c5372f56ae4e0bc49107ac7f4ad2d757844acfa",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_123500\\gantry.csv": "b512a4d5870405e6dbc4aca77ac98b710f4f879284192063814024af1b99780e",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_123500\\aris_raw\\0088.pgm": "c882b4da5d1af6c50e5c8ca312d5e3bdf17ae70f7fe976797774c6d9193eb784",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_123500\\aris_raw\\0392.pgm": "a9cb40889418dadf453fc8140102c6c9a46204cf96a618e61878ea9fa28f0ab3",
+    "D:\\pby\\uxo-full\\extracted\\recordings\\20lbs_incendiary\\2023-09-21_123500\\aris_raw\\0788.pgm": "0bdec058de84e5dc0c2baff13395d43211d93ce54a9ef2fa94b0aa19e0a463db"
+  },
+  "inputs_unchanged": true,
+  "independent_real_ray_count": 84,
+  "independent_ray_max_error_m": 4.884981308350689e-15,
+  "all_resolution_checks_pass": false,
+  "test_access": false,
+  "training": false,
+  "all_selected_recordings_current_train": true
+}

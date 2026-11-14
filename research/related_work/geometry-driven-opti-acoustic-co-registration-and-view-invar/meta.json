@@ -1,0 +1,33 @@
+{
+ "arxiv_id": "2608.23479",
+ "slug": "geometry-driven-opti-acoustic-co-registration-and-view-invar",
+ "ok": true,
+ "fetched_at": "2026-11-13T11:28:38",
+ "tier": "B",
+ "why_relevant": "几何驱动的声-光共配准（侧扫）：跨模态几何对齐的另一条实现路径（原目录已有 PDF，补 LaTeX）",
+ "title": "Geometry-Driven Opti-Acoustic Co-Registration and View-Invariant Reflectivity Mapping for Side-Scan Sonar",
+ "authors": [
+  "Hamoda, Taqi",
+  "Gracias, Nuno"
+ ],
+ "date": "2026/08/24",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Side-Scan Sonar (SSS) is a primary modality for large-scale underwater mapping, yet automated perception and cross-modal alignment are severely bottlenecked by acoustic complexities such as speckle noise, shadows, and extreme viewpoint dependencies. Traditional handcrafted descriptors and modern deep learning matchers fail to bridge the physical domain gap between optical and acoustic imagery without 3D geometric constraints. To overcome these limitations, we propose a novel geometry-driven framework for pixel-level opti-acoustic co-registration and view-invariant reflectivity mapping. Our method utilizes Structure-from-Motion (SfM) to reconstruct a dense 3D seafloor mesh, acting as a geometric anchor between the visual and acoustic domains. We introduce a First Bottom Return (FBR) extraction algorithm to dynamically correct non-linear altitude drift caused by uncalibrated SfM reconstruction. Furthermore, we apply an inverse Lambertian model and a dual-Gaussian weighting function to isolate the intrinsic seabed reflectivity, effectively neutralizing slant-range propagation loss and geometric view-dependence. By deterministically associating these isolated acoustic properties with optical pixels, our pipeline generates highly accurate, strictly co-registered multi-modal datasets. This automated, physics-guided approach eliminates the need for manual annotation and paves the way for advanced self-supervised learning in benthic habitat mapping.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2608.23479",
+  "bytes": 27292774,
+  "sha256": "73d905019697202c7551ec6f7bc63b6c10da92a623aa03f36e68de73ce02cb02"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2608.23479",
+  "bytes": 27103752,
+  "sha256": "a683981cc15878e9f68d69b6e6820e01ae3f127211e69be16f14ce4d5a0f5ecf",
+  "kind": "tar",
+  "n_files": 24,
+  "tex_files": [
+   "main.tex"
+  ]
+ }
+}

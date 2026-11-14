@@ -1,0 +1,37 @@
+{
+ "arxiv_id": "2503.16066",
+ "slug": "outlier-rejection-2d3d-fls",
+ "ok": true,
+ "fetched_at": "2026-11-13T11:25:54",
+ "tier": "A",
+ "why_relevant": "2D FLS 的 2D-3D 对应外点剔除（90% 外点率），说明真实数据上 3D→声呐对应的可靠性边界",
+ "title": "Rejecting Outliers in 2D-3D Point Correspondences from 2D Forward-Looking Sonar Observations",
+ "authors": [
+  "Su, Jiayi",
+  "Zou, Shaofeng",
+  "Qian, Jingyu",
+  "Wei, Yan",
+  "Qu, Fengzhong",
+  "Yang, Liuqing"
+ ],
+ "date": "2025/03/20",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Rejecting outliers before applying classical robust methods is a common approach to increase the success rate of estimation, particularly when the outlier ratio is extremely high (e.g. 90%). However, this method often relies on sensor- or task-specific characteristics, which may not be easily transferable across different scenarios. In this paper, we focus on the problem of rejecting 2D-3D point correspondence outliers from 2D forward-looking sonar (2D FLS) observations, which is one of the most popular perception device in the underwater field but has a significantly different imaging mechanism compared to widely used perspective cameras and LiDAR. We fully leverage the narrow field of view in the elevation of 2D FLS and develop two compatibility tests for different 3D point configurations: (1) In general cases, we design a pairwise length in-range test to filter out overly long or short edges formed from point sets; (2) In coplanar cases, we design a coplanarity test to check if any four correspondences are compatible under a coplanar setting. Both tests are integrated into outlier rejection pipelines, where they are followed by maximum clique searching to identify the largest consistent measurement set as inliers. Extensive simulations demonstrate that the proposed methods for general and coplanar cases perform effectively under outlier ratios of 80% and 90%, respectively.",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2503.16066",
+  "bytes": 1786815,
+  "sha256": "ede8aeb3c104fa028764d3f41af91fae34b54647c211ea7983869d51211c1fa9"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2503.16066",
+  "bytes": 1477610,
+  "sha256": "e415f7c01afdea402fda630c7584b762664799a438389dec6ca272e9716de489",
+  "kind": "tar",
+  "n_files": 21,
+  "tex_files": [
+   "root.tex"
+  ]
+ }
+}

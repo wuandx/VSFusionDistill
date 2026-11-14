@@ -1,0 +1,63 @@
+[
+  {
+    "path": "related_work\\cmold\\evidence-existing\\cmold_t1.png",
+    "original_path": "D:\\agent_workspace\\水下\\声呐目标检测\\docs\\investigation\\cmold_t1.png",
+    "provenance": "pre-existing PDF-derived image/text; copied read-only, not LaTeX",
+    "sha256": "30bcf11f175f5acd9ae3ad9b7f3f4adeb03fd70f095741f413555ff833a95353"
+  },
+  {
+    "path": "related_work\\cmold\\evidence-existing\\cmold_t2.png",
+    "original_path": "D:\\agent_workspace\\水下\\声呐目标检测\\docs\\investigation\\cmold_t2.png",
+    "provenance": "pre-existing PDF-derived image/text; copied read-only, not LaTeX",
+    "sha256": "30b35ee007aecc4dd3e142639d0ac0481e7cd14b4e5442f3055ec64de159c487"
+  },
+  {
+    "path": "related_work\\cmold\\evidence-existing\\cmold_t3.png",
+    "original_path": "D:\\agent_workspace\\水下\\声呐目标检测\\docs\\investigation\\cmold_t3.png",
+    "provenance": "pre-existing PDF-derived image/text; copied read-only, not LaTeX",
+    "sha256": "0df123f2833377bb3ea42b5d415239f8a01a4dfeff91d06cdcb883265dbd7ea8"
+  },
+  {
+    "path": "related_work\\cmold\\evidence-existing\\cmold_numbered.txt",
+    "original_path": "D:\\agent_workspace\\水下\\声呐目标检测\\docs\\investigation\\cmold_numbered.txt",
+    "provenance": "pre-existing PDF-derived image/text; copied read-only, not LaTeX",
+    "sha256": "d9e4bab8b17c0aba26f4b7ba9ca31197782118cc265b2588c5481f2b7d35e074"
+  },
+  {
+    "path": "related_work/cmhd/source/fulltext.xml",
+    "sha256": "7e1cf91e74e20f063656fd91c8c64e8f0b59c1b2d4c7272e597fdd261f3f9601",
+    "bytes": 164159
+  },
+  {
+    "path": "related_work\\cmhd\\source\\sections-indexed.txt",
+    "sha256": "252283ee68525b0224818ac6fff4d0d3bdc326ab11f46151813a4da52e611597",
+    "bytes": 46526
+  },
+  {
+    "path": "related_work/cmold/paper.pdf",
+    "sha256": "f60d51937d9864c6aa6b2c35d610f7beba575f5c53b93f19add7b7099db64d41",
+    "bytes": 2398272
+  },
+  {
+    "path": "related_work/yolox/downloads/source.tar.gz",
+    "sha256": "ae28850a510b059de76d836972bac8032f3040b37ce30c5c94dd2a22054a6f34",
+    "bytes": 636622
+  },
+  {
+    "path": "related_work/yolox/source/yolox.tex",
+    "sha256": "d74fd1f208bd3bbeab7782074910929dad704e0cbd5fdebf806a652019d387c4",
+    "bytes": 32193
+  },
+  {
+    "archive_tex": "yolox.tex",
+    "archive_tex_matches_existing": true
+  },
+  {
+    "url": "https://arxiv.org/src/2107.08430v2",
+    "checked_at_utc": "2026-11-10T01:22:17.169406+00:00",
+    "v2_download_sha256": "ae28850a510b059de76d836972bac8032f3040b37ce30c5c94dd2a22054a6f34",
+    "identical_to_existing_archive": true,
+    "retained_archive": "related_work/yolox/downloads/source.tar.gz",
+    "duplicate_retained": false
+  }
+]

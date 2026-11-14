@@ -1,0 +1,85 @@
+{
+  "commit": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+  "paths": [
+    ".gitignore",
+    "README.md",
+    "calibration/camera_parameters/camera_parameter_linear.txt",
+    "calibration/camera_parameters/camera_parameter_narrow.txt",
+    "calibration/camera_parameters/camera_parameter_superview.txt",
+    "calibration/camera_parameters/camera_parameter_wide.txt",
+    "calibration/transforms.yaml",
+    "demo/camera_tilt.ipynb",
+    "demo/snippet_for_pose_gt.ipynb",
+    "demo/transforms.py",
+    "demo/transforms_nb.ipynb",
+    "media/aris_setup_labeled.jpg",
+    "media/teaser_100lbs.png",
+    "media/teaser_incendery.png",
+    "media/teaser_montage.png",
+    "media/teaser_montage_h.png",
+    "media/teaser_mortar.png",
+    "requirements.txt",
+    "scripts/common/aris_definitions.py",
+    "scripts/common/config.py",
+    "scripts/common/csv_updater.py",
+    "scripts/common/gopro_extract_metadata.py",
+    "scripts/common/gopro_timestamps.py",
+    "scripts/common/matching_context.py",
+    "scripts/common/optical_flow.py",
+    "scripts/common/q_custom_widgets.py",
+    "scripts/common/qrangeslider.py",
+    "scripts/config.yaml",
+    "scripts/prep_1_aris_extract.py",
+    "scripts/prep_2_aris_to_polar.py",
+    "scripts/prep_3_aris_calc_optical_flow.py",
+    "scripts/prep_4_aris_find_offsets.py",
+    "scripts/prep_5_gantry_extract.py",
+    "scripts/prep_6_gantry_find_offsets.py",
+    "scripts/prep_7_gopro_cut.bash",
+    "scripts/prep_8_gopro_downsample.bash",
+    "scripts/prep_9_gopro_calc_optical_flow.py",
+    "scripts/prep_x_match_recordings.py",
+    "scripts/release_1_export.py",
+    "scripts/release_2_archive.bash",
+    "scripts/release_3_upload.py",
+    "scripts/view_recording.py"
+  ],
+  "source_snapshots": [
+    {
+      "path": "related_work\\uxo\\sd-fhd-trace\\config.yaml",
+      "commit": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+      "source": "scripts/config.yaml",
+      "sha256": "9ff684ea2dad21b20e8ead990e699aa4db03ed8bfca4d8bcba77783e948cc1cc"
+    },
+    {
+      "path": "related_work\\uxo\\sd-fhd-trace\\prep_x_match_recordings.py",
+      "commit": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+      "source": "scripts/prep_x_match_recordings.py",
+      "sha256": "43b90aa32f956758352fd024241d7dc723931ced8e96992d852a9111c61b9b19"
+    },
+    {
+      "path": "related_work\\uxo\\sd-fhd-trace\\release_1_export.py",
+      "commit": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+      "source": "scripts/release_1_export.py",
+      "sha256": "e37b0d649a011b20337f431fb0ec4c1f3cf8c97ef295a690b80512294f66d95b"
+    },
+    {
+      "path": "related_work\\uxo\\sd-fhd-trace\\matching_context.py",
+      "commit": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+      "source": "scripts/common/matching_context.py",
+      "sha256": "9b3c008902703b88f0cd3bbe372dad95b1a56b3567942a0be3ec44c6592ce87b"
+    },
+    {
+      "path": "related_work\\uxo\\sd-fhd-trace\\prep_7_gopro_cut.bash",
+      "commit": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+      "source": "scripts/prep_7_gopro_cut.bash",
+      "sha256": "27144b492a97adaeea7ad62e747b024294619c9819881592f9b1828cdec3306e"
+    },
+    {
+      "path": "related_work\\uxo\\sd-fhd-trace\\prep_8_gopro_downsample.bash",
+      "commit": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+      "source": "scripts/prep_8_gopro_downsample.bash",
+      "sha256": "b112f679b62213208554e13ec78e0c342d40092fa01c4910ba4deeb7d67296a4"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+ "arxiv_id": "2112.04840",
+ "slug": "knowledge-distillation-for-object-detection-via-rank-mimicki",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:53:48",
+ "tier": "",
+ "why_relevant": "",
+ "title": "Knowledge Distillation for Object Detection via Rank Mimicking and Prediction-guided Feature Imitation",
+ "authors": [
+  "Li, Gang",
+  "Li, Xiang",
+  "Wang, Yujie",
+  "Zhang, Shanshan",
+  "Wu, Yichao",
+  "Liang, Ding"
+ ],
+ "date": "2021/12/09",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Knowledge Distillation (KD) is a widely-used technology to inherit information from cumbersome teacher models to compact student models, consequently realizing model compression and acceleration. Compared with image classification, object detection is a more complex task, and designing specific KD methods for object detection is non-trivial. In this work, we elaborately study the behaviour difference between the teacher and student detection models, and obtain two intriguing observations: First, the teacher and student rank their detected candidate boxes quite differently, which results in their precision discrepancy. Second, there is a considerable gap between the feature response differences and prediction differences between teacher and student, indicating that equally imitating all the feature maps of the teacher is the sub-optimal choice for improving the student&#39;s accuracy. Based on the two observations, we propose Rank Mimicking (RM) and Prediction-guided Feature Imitation (PFI) for distilling one-stage detectors, respectively. RM takes the rank of candidate boxes from teachers as a new form of knowledge to distill, which consistently outperforms the traditional soft label distillation. PFI attempts to correlate feature differences with prediction differences, making feature imitation directly help to improve the student&#39;s accuracy. On MS COCO and PASCAL VOC benchmarks, extensive experiments are conducted on various detectors with different backbones to validate the effectiveness of our method. Specifically, RetinaNet with ResNet50 achieves 40.4% mAP in MS COCO, which is 3.5% higher than its baseline, and also outperforms previous KD methods.",
+ "comments": "Accepted by AAAI 2022",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2112.04840",
+  "bytes": 3228409,
+  "sha256": "aa726de5ff5881129263fd3da6123d514adcc68fa1b35ac1c83547df9d3c70e3"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2112.04840",
+  "bytes": 3491891,
+  "sha256": "33347e9bd7ed77eaa72d057361f7106ab1ee44faae8886f26206fe10c48d418a",
+  "kind": "tar",
+  "n_files": 11,
+  "tex_files": [
+   "aaai-2022.tex"
+  ]
+ }
+}

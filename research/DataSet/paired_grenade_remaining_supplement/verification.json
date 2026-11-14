@@ -1,0 +1,84 @@
+{
+  "scope": "assistant visual paired grenade review; not expert GT or precision synchronization",
+  "recordings": {
+    "2023-09-21_121124": {
+      "accepted_unique": 117,
+      "reviewed_unique": 203,
+      "allowed_inventory": 697,
+      "shortfall_to_100": 0
+    },
+    "2023-09-21_121327": {
+      "accepted_unique": 130,
+      "reviewed_unique": 266,
+      "allowed_inventory": 739,
+      "shortfall_to_100": 0
+    },
+    "2023-09-21_121539": {
+      "accepted_unique": 102,
+      "reviewed_unique": 203,
+      "allowed_inventory": 776,
+      "shortfall_to_100": 0
+    },
+    "2023-09-21_122608": {
+      "accepted_unique": 100,
+      "reviewed_unique": 203,
+      "allowed_inventory": 757,
+      "shortfall_to_100": 0
+    },
+    "2023-09-21_122855": {
+      "accepted_unique": 101,
+      "reviewed_unique": 201,
+      "allowed_inventory": 809,
+      "shortfall_to_100": 0
+    },
+    "2023-09-21_124915": {
+      "accepted_unique": 81,
+      "reviewed_unique": 169,
+      "allowed_inventory": 169,
+      "shortfall_to_100": 19
+    },
+    "2023-09-21_125048": {
+      "accepted_unique": 56,
+      "reviewed_unique": 251,
+      "allowed_inventory": 251,
+      "shortfall_to_100": 44
+    }
+  },
+  "roots": {
+    "paired_assistant_remaining_strong": {
+      "2023-09-21_124915": 22
+    },
+    "paired_assistant_grenade_remaining_body": {
+      "2023-09-21_122608": 75,
+      "2023-09-21_122855": 101,
+      "2023-09-21_125048": 4,
+      "2023-09-21_124915": 12
+    },
+    "paired_assistant_grenade_remaining_high": {
+      "2023-09-21_124915": 47
+    },
+    "paired_assistant_grenade_remaining_padded": {
+      "2023-09-21_121124": 117,
+      "2023-09-21_121327": 65,
+      "2023-09-21_121539": 102,
+      "2023-09-21_122608": 25,
+      "2023-09-21_125048": 40
+    },
+    "paired_assistant_grenade_remaining_supplement": {
+      "2023-09-21_121327": 65,
+      "2023-09-21_125048": 12
+    }
+  },
+  "decision_rows_verified": 2024,
+  "hash_checks": 8096,
+  "unique_files_hashed": 4660,
+  "different_accepted_boxes_for_same_identity": 0,
+  "duplicate_accepted_identities": [],
+  "supplement_manifest": "DataSet/paired_grenade_remaining_supplement/candidates.json",
+  "supplement_sha256": "6f472c9c9fa1f1fbace708db9787ed37f05afaa30de6823090c065a9be1f3b2e",
+  "source_files": {
+    "DataSet\\paired_paper_scale\\source-inventory.json": "d8cd59d96a95fea6816c916062f2c435e5aa5416b5a1bf36c443e0f935f5c747",
+    "DataSet\\camera_temporal_all\\manifest-resolved.json": "3b2cf9fd85fce4c76a2e21a953b4ecf230ccc7f846f0547d3fc00d3ca3cffa4a",
+    "DataSet\\paired_visible_expansion\\candidates.json": "42ff542fa92e348c82ea945d91600f31f8784d08dede0fa049e3d2d524d0cd40"
+  }
+}

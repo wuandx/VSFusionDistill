@@ -1,0 +1,392 @@
+[
+  {
+    "recording": "2023-09-20_171105",
+    "state": "current_train",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 715,
+    "current_selected": 136,
+    "additional_frame_candidates": 579,
+    "additional_unique_sd_indices": 579,
+    "excluded": {},
+    "notes": "- target: 100lbs bomb\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 0°\n- Min Transmit\n- 10dB"
+  },
+  {
+    "recording": "2023-09-20_173329",
+    "state": "extra_existing_labels_camera_review",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "pairing_failed_retained",
+    "available_file_candidates": 763,
+    "current_selected": 0,
+    "additional_frame_candidates": 763,
+    "additional_unique_sd_indices": 763,
+    "excluded": {},
+    "notes": "- target: 100lbs bomb\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 90°\n- Min Transmit\n- 10dB\n- lost track of object"
+  },
+  {
+    "recording": "2023-09-20_173615",
+    "state": "extra_existing_labels_camera_review",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "camera_labels_pending",
+    "available_file_candidates": 0,
+    "current_selected": 0,
+    "additional_frame_candidates": 0,
+    "additional_unique_sd_indices": 0,
+    "excluded": {
+      "bbox_out_of_bounds": 797
+    },
+    "notes": "- target: 100lbs bomb\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 90°\n- Min Transmit\n- 10dB\n- repeat of previous recording"
+  },
+  {
+    "recording": "2023-09-20_174711",
+    "state": "extra_existing_labels_camera_review",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "new_non_test_pilot",
+    "available_file_candidates": 710,
+    "current_selected": 0,
+    "additional_frame_candidates": 710,
+    "additional_unique_sd_indices": 710,
+    "excluded": {
+      "missing_aris_file": 19
+    },
+    "notes": "- target: 100lbs bomb\n- Trajectory: L to R (z: 725)\n- Tilt: -26°\n- roll: 0°\n- Max Transmit\n- 5dB"
+  },
+  {
+    "recording": "2023-09-20_175000",
+    "state": "current_train",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 473,
+    "current_selected": 126,
+    "additional_frame_candidates": 347,
+    "additional_unique_sd_indices": 347,
+    "excluded": {
+      "bbox_out_of_bounds": 320
+    },
+    "notes": "- target: 100lbs bomb\n- Trajectory: L to R (z: 725)\n- Tilt: -26°\n- roll: 90°\n- Min Transmit\n- 10dB"
+  },
+  {
+    "recording": "2023-09-20_175905",
+    "state": "current_train",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 705,
+    "current_selected": 115,
+    "additional_frame_candidates": 590,
+    "additional_unique_sd_indices": 590,
+    "excluded": {},
+    "notes": "- target: 100lbs bomb\n- Trajectory: L to R (z: 500)\n- Tilt: -34°\n- roll: 0°\n- Max Transmit\n- 5dB"
+  },
+  {
+    "recording": "2023-09-20_180506",
+    "state": "current_train",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 737,
+    "current_selected": 129,
+    "additional_frame_candidates": 608,
+    "additional_unique_sd_indices": 608,
+    "excluded": {},
+    "notes": "- target: 100lbs bomb\n- Trajectory: L to R (z: 250)\n- Tilt: -42°\n- roll: 0°\n- Min Transmit\n- 10dB"
+  },
+  {
+    "recording": "2023-09-20_180722",
+    "state": "current_train",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 743,
+    "current_selected": 121,
+    "additional_frame_candidates": 622,
+    "additional_unique_sd_indices": 622,
+    "excluded": {},
+    "notes": "- target: 100lbs bomb\n- Trajectory: L to R (z: 250)\n- Tilt: -42°\n- roll: 0°\n- Min Transmit\n- 10dB\n- repeat (main data)"
+  },
+  {
+    "recording": "2023-09-20_182317",
+    "state": "current_train",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 146,
+    "current_selected": 146,
+    "additional_frame_candidates": 0,
+    "additional_unique_sd_indices": 0,
+    "excluded": {},
+    "notes": "- target: 100lbs bomb\n- Trajectory: flyby (z: 250, y: 1420)\n- Tilt: -60°\n- Roll: 0°\n- Pan: -180°\n- Min Transmit\n- 10dB\n- incorrect gopro offset"
+  },
+  {
+    "recording": "2023-09-21_100927",
+    "state": "extra_existing_labels_camera_review",
+    "category": "mortar_shell",
+    "prior_review": "pairing_failed_retained",
+    "available_file_candidates": 725,
+    "current_selected": 0,
+    "additional_frame_candidates": 725,
+    "additional_unique_sd_indices": 725,
+    "excluded": {},
+    "notes": "- target: 15cm_mortar\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 0°\n- Min Transmit\n- 15dB"
+  },
+  {
+    "recording": "2023-09-21_101131",
+    "state": "extra_existing_labels_camera_review",
+    "category": "mortar_shell",
+    "prior_review": "pairing_failed_retained",
+    "available_file_candidates": 828,
+    "current_selected": 0,
+    "additional_frame_candidates": 828,
+    "additional_unique_sd_indices": 828,
+    "excluded": {
+      "no_corrected_sd_reference": 1
+    },
+    "notes": "- target: 15cm_mortar\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 0°\n- Min Transmit\n- 15dB\n- repeat (main data)"
+  },
+  {
+    "recording": "2023-09-21_101622",
+    "state": "current_train",
+    "category": "mortar_shell",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 768,
+    "current_selected": 123,
+    "additional_frame_candidates": 645,
+    "additional_unique_sd_indices": 645,
+    "excluded": {},
+    "notes": "- target: 15cm_mortar\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 90°\n- Max Transmit\n- 5dB\n- bad, needs repeat"
+  },
+  {
+    "recording": "2023-09-21_101840",
+    "state": "current_train",
+    "category": "mortar_shell",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 758,
+    "current_selected": 117,
+    "additional_frame_candidates": 641,
+    "additional_unique_sd_indices": 641,
+    "excluded": {
+      "no_corrected_sd_reference": 1
+    },
+    "notes": "- target: 15cm_mortar\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 90°\n- Min Transmit\n- 15dB"
+  },
+  {
+    "recording": "2023-09-21_102500",
+    "state": "current_train",
+    "category": "mortar_shell",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 736,
+    "current_selected": 145,
+    "additional_frame_candidates": 591,
+    "additional_unique_sd_indices": 591,
+    "excluded": {},
+    "notes": "- target: 15cm_mortar\n- Trajectory: L to R (z: 500)\n- Tilt: -34°\n- roll: 0°\n- Min Transmit\n- 15dB"
+  },
+  {
+    "recording": "2023-09-21_103728",
+    "state": "current_train",
+    "category": "mortar_shell",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 693,
+    "current_selected": 156,
+    "additional_frame_candidates": 537,
+    "additional_unique_sd_indices": 537,
+    "excluded": {},
+    "notes": "- target: 15cm_mortar\n- Trajectory: L to R (z: 250)\n- Tilt: -42°\n- roll: 0°\n- Min Transmit\n- 15dB"
+  },
+  {
+    "recording": "2023-09-21_103927",
+    "state": "current_train",
+    "category": "mortar_shell",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 780,
+    "current_selected": 136,
+    "additional_frame_candidates": 644,
+    "additional_unique_sd_indices": 644,
+    "excluded": {
+      "no_corrected_sd_reference": 1
+    },
+    "notes": "- target: 15cm_mortar\n- Trajectory: L to R (z: 250)\n- Tilt: -42°\n- roll: 0°\n- Min Transmit\n- 15dB\n- repeat (main data)"
+  },
+  {
+    "recording": "2023-09-21_105017",
+    "state": "current_train",
+    "category": "mortar_shell",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 677,
+    "current_selected": 107,
+    "additional_frame_candidates": 570,
+    "additional_unique_sd_indices": 570,
+    "excluded": {},
+    "notes": "- target: 15cm_mortar\n- Trajectory: L to R (z: 250)\n- Tilt: -42°\n- roll: 90°\n- Max Transmit\n- 5dB"
+  },
+  {
+    "recording": "2023-09-21_110049",
+    "state": "current_train",
+    "category": "mortar_shell",
+    "prior_review": "sonar_review_pending",
+    "available_file_candidates": 193,
+    "current_selected": 16,
+    "additional_frame_candidates": 177,
+    "additional_unique_sd_indices": 177,
+    "excluded": {},
+    "notes": "- target: 15cm_mortar\n- Trajectory: flyby (z: 250, y: 1250)\n- Tilt: -60°\n- Roll: 0°\n- Pan: -180°\n- Min Transmit\n- 15dB"
+  },
+  {
+    "recording": "2023-09-21_110229",
+    "state": "extra_existing_labels_camera_review",
+    "category": "mortar_shell",
+    "prior_review": "sonar_review_pending",
+    "available_file_candidates": 226,
+    "current_selected": 0,
+    "additional_frame_candidates": 226,
+    "additional_unique_sd_indices": 226,
+    "excluded": {},
+    "notes": "- target: 15cm_mortar\n- Trajectory: flyby (z: 250, y: 1250)\n- Tilt: -90°\n- Roll: 0°\n- Pan: -180°\n- Min Transmit\n- 15dB\n- impossible to match"
+  },
+  {
+    "recording": "2023-09-21_110411",
+    "state": "extra_existing_labels_camera_review",
+    "category": "mortar_shell",
+    "prior_review": "sonar_review_pending",
+    "available_file_candidates": 291,
+    "current_selected": 0,
+    "additional_frame_candidates": 291,
+    "additional_unique_sd_indices": 291,
+    "excluded": {},
+    "notes": "- target: 15cm_mortar\n- Trajectory: flyby (z: 250, y: 1250)\n- Tilt: -90°\n- Roll: 0°\n- Pan: -180°\n- Max Transmit\n- 5dB\n- impossible to match"
+  },
+  {
+    "recording": "2023-09-21_120653",
+    "state": "extra_existing_labels_camera_review",
+    "category": "incindiary_grenade",
+    "prior_review": "pairing_failed_retained",
+    "available_file_candidates": 770,
+    "current_selected": 0,
+    "additional_frame_candidates": 770,
+    "additional_unique_sd_indices": 770,
+    "excluded": {
+      "no_corrected_sd_reference": 1
+    },
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 0°\n- Min Transmit\n- 15dB"
+  },
+  {
+    "recording": "2023-09-21_120912",
+    "state": "extra_existing_labels_camera_review",
+    "category": "incindiary_grenade",
+    "prior_review": "pairing_failed_retained",
+    "available_file_candidates": 683,
+    "current_selected": 0,
+    "additional_frame_candidates": 683,
+    "additional_unique_sd_indices": 683,
+    "excluded": {},
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 0°\n- Min Transmit\n- 15dB\n- repeat (main data)"
+  },
+  {
+    "recording": "2023-09-21_121124",
+    "state": "current_train",
+    "category": "incindiary_grenade",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 697,
+    "current_selected": 124,
+    "additional_frame_candidates": 573,
+    "additional_unique_sd_indices": 573,
+    "excluded": {},
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 0°\n- Max Transmit\n- 5dB"
+  },
+  {
+    "recording": "2023-09-21_121327",
+    "state": "current_train",
+    "category": "incindiary_grenade",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 739,
+    "current_selected": 138,
+    "additional_frame_candidates": 601,
+    "additional_unique_sd_indices": 601,
+    "excluded": {},
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: L to R (z: 750)\n- Tilt: -22°\n- roll: 0°\n- Max Transmit\n- 0dB\n- repeat (0db gain)"
+  },
+  {
+    "recording": "2023-09-21_122608",
+    "state": "current_train",
+    "category": "incindiary_grenade",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 757,
+    "current_selected": 100,
+    "additional_frame_candidates": 657,
+    "additional_unique_sd_indices": 657,
+    "excluded": {},
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: L to R (z: 500)\n- Tilt: -34°\n- roll: 0°\n- Max Transmit\n- 0dB"
+  },
+  {
+    "recording": "2023-09-21_122855",
+    "state": "current_train",
+    "category": "incindiary_grenade",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 809,
+    "current_selected": 101,
+    "additional_frame_candidates": 708,
+    "additional_unique_sd_indices": 708,
+    "excluded": {},
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: L to R (z: 500)\n- Tilt: -34°\n- roll: 90°\n- Max Transmit\n- 0dB\n- original aris recording covers two trajectories, this is the 2nd one"
+  },
+  {
+    "recording": "2023-09-21_123500",
+    "state": "current_train",
+    "category": "incindiary_grenade",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 730,
+    "current_selected": 135,
+    "additional_frame_candidates": 595,
+    "additional_unique_sd_indices": 595,
+    "excluded": {
+      "no_corrected_sd_reference": 1
+    },
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: L to R (z: 250)\n- Tilt: -42°\n- roll: 0°\n- Min Transmit\n- 15dB"
+  },
+  {
+    "recording": "2023-09-21_124915",
+    "state": "current_train",
+    "category": "incindiary_grenade",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 169,
+    "current_selected": 108,
+    "additional_frame_candidates": 61,
+    "additional_unique_sd_indices": 61,
+    "excluded": {},
+    "notes": "- target: 20lbs_incendiary\n- Trajectory: flyby (z:250, y: 1250)\n- Tilt: -60°\n- Roll: 0°\n- Pan: -180°\n- Max Transmit\n- 0dB"
+  },
+  {
+    "recording": "2023-09-21_160551",
+    "state": "current_train",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "existing_reviewed_recording",
+    "available_file_candidates": 1384,
+    "current_selected": 115,
+    "additional_frame_candidates": 1269,
+    "additional_unique_sd_indices": 1269,
+    "excluded": {
+      "no_corrected_sd_reference": 1
+    },
+    "notes": "- target: 100lbs_bomb (floor)\n- Trajectory: ellipse (z: 1000)\n- Tilt: -32° (start)\n- roll: 0°\n- Max Transmit\n- 0dB\n- not sure about gopro offset"
+  },
+  {
+    "recording": "2023-09-21_161916",
+    "state": "current_train",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "new_non_test_pilot",
+    "available_file_candidates": 224,
+    "current_selected": 78,
+    "additional_frame_candidates": 146,
+    "additional_unique_sd_indices": 146,
+    "excluded": {},
+    "notes": "- target: 100lbs_bomb (floor)\n- Trajectory: flyby (z: ?, y: 1000)\n- Tilt: -60°\n- Roll: 0°\n- Pan: -180°\n- Min Transmit\n- 12dB"
+  },
+  {
+    "recording": "2023-09-21_162055",
+    "state": "extra_existing_labels_camera_review",
+    "category": "100lbs_aircraft_bomb",
+    "prior_review": "new_non_test_pilot",
+    "available_file_candidates": 255,
+    "current_selected": 0,
+    "additional_frame_candidates": 255,
+    "additional_unique_sd_indices": 255,
+    "excluded": {},
+    "notes": "- target: 100lbs_bomb (floor)\n- Trajectory: flyby (z: ?, y: 1000)\n- Tilt: -60°\n- Roll: 0°\n- Pan: -180°\n- Max Transmit\n- 0dB"
+  }
+]

@@ -1,0 +1,34 @@
+{
+ "arxiv_id": "2108.06800",
+ "slug": "marine-debris-fls-segmentation",
+ "ok": true,
+ "fetched_at": "2026-11-12T16:28:17",
+ "tier": "C",
+ "why_relevant": "FLS semantic segmentation dataset",
+ "title": "The Marine Debris Dataset for Forward-Looking Sonar Semantic Segmentation",
+ "authors": [
+  "Singh, Deepak",
+  "Valdenegro-Toro, Matias"
+ ],
+ "date": "2021/08/15",
+ "doi": "",
+ "journal": "",
+ "abstract": "Abstract: Accurate detection and segmentation of marine debris is important for keeping the water bodies clean. This paper presents a novel dataset for marine debris segmentation collected using a Forward Looking Sonar (FLS). The dataset consists of 1868 FLS images captured using ARIS Explorer 3000 sensor. The objects used to produce this dataset contain typical house-hold marine debris and distractor marine objects (tires, hooks, valves,etc), divided in 11 classes plus a background class. Performance of state of the art semantic segmentation architectures with a variety of encoders have been analyzed on this dataset and presented as baseline results. Since the images are grayscale, no pretrained weights have been used. Comparisons are made using Intersection over Union (IoU). The best performing model is Unet with ResNet34 backbone at 0.7481 mIoU. The dataset is available at this https URL",
+ "comments": "OceanVision 2021 ICCV Worshop, Camera Ready, 9 pages, 13 figures, 6 Tables",
+ "versions": [],
+ "pdf": {
+  "url": "https://arxiv.org/pdf/2108.06800",
+  "bytes": 6346631,
+  "sha256": "f8abb4bce403da7c62121f1d953df551b9ac1c6ad75c0c5a360ca0c219ea5876"
+ },
+ "eprint": {
+  "url": "https://arxiv.org/e-print/2108.06800",
+  "bytes": 7018735,
+  "sha256": "193e83fbd7150220478c1efcc0adce5c0b8817c506a7e60b2a44997160cf95b0",
+  "kind": "tar",
+  "n_files": 54,
+  "tex_files": [
+   "paper-debris-segmentation.tex"
+  ]
+ }
+}

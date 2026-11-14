@@ -1,0 +1,52 @@
+{
+  "name": "paired_recording_split",
+  "seed": 42,
+  "algorithm": "sha256 group ranking; first feasible whole-group test then val combinations; remainder train",
+  "group_ranking": {
+    "100lbs_aircraft_bomb": [
+      "2023-09-20_175506",
+      "2023-09-21_160551",
+      "2023-09-20_182317",
+      "2023-09-20_180506",
+      "2023-09-20_181139",
+      "2023-09-20_180722",
+      "2023-09-20_175000",
+      "2023-09-20_175905",
+      "2023-09-20_171105",
+      "2023-09-20_174439"
+    ],
+    "incindiary_grenade": [
+      "2023-09-21_121539",
+      "2023-09-21_124915",
+      "2023-09-21_125048",
+      "2023-09-21_123500",
+      "2023-09-21_121327",
+      "2023-09-21_124039",
+      "2023-09-21_123841",
+      "2023-09-21_122608",
+      "2023-09-21_121124"
+    ],
+    "mortar_shell": [
+      "2023-09-21_101840",
+      "2023-09-21_102500",
+      "2023-09-21_101416",
+      "2023-09-21_103140",
+      "2023-09-21_105230",
+      "2023-09-21_103728",
+      "2023-09-21_101622",
+      "2023-09-21_104749",
+      "2023-09-21_103927",
+      "2023-09-21_105017"
+    ]
+  },
+  "input_sha256": {
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_assistant_truncated_review\\export\\manifest.json": "399ff4845fcce647bac7480065a5f3b55e9b8cd22bd97e0dd2e1557638b33f98",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_assistant_truncated_review\\export\\selected-samples.txt": "21aa7ac8db8c15735c16738f34c14aac43ba356954364a3f53c1bf8728083120",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_assistant_truncated_review\\export\\reserve-samples.txt": "e3f49def57c2fdf8bb4c7758f50e36dfbdff52be1f7eb8f7f63d710a602826cf",
+    "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\camera_temporal_all\\manifest-resolved.json": "3b2cf9fd85fce4c76a2e21a953b4ecf230ccc7f846f0547d3fc00d3ca3cffa4a",
+    "D:\\pby\\data_processed\\matches.csv": "44991a4eef8e9044b84c714bb28600d5bcac6316ab329fa3985a2b685ffc6da3"
+  },
+  "source_export": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\DataSet\\paired_assistant_truncated_review\\export",
+  "untouched_final_test": false,
+  "training_started": false
+}

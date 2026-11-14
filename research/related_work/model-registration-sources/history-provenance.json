@@ -1,0 +1,53 @@
+{
+  "head": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+  "captured_utc": "2026-11-10T18:27:05.738837+00:00",
+  "snapshots": [
+    {
+      "commit": "ffd60f8271038e3dc9f12e3dd218e3a1c9e9a4a9",
+      "repository": "https://github.com/dfki-ric/uxo-dataset2024",
+      "repository_path": "scripts/common/tf_statics.yaml",
+      "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\model-registration-sources\\notebook-era-transforms.yaml",
+      "sha256": "26c605843e0d18dd09b1cde0f7e060a8eff1e3c2677af830844d360584c41510",
+      "bytes": 2302
+    },
+    {
+      "commit": "a42c40d835e5df3e1fa65493342c78fc6689a09d",
+      "repository": "https://github.com/dfki-ric/uxo-dataset2024",
+      "repository_path": "scripts/common/tf_statics.yaml",
+      "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\model-registration-sources\\pre-pitch-change-transforms.yaml",
+      "sha256": "26c605843e0d18dd09b1cde0f7e060a8eff1e3c2677af830844d360584c41510",
+      "bytes": 2302
+    },
+    {
+      "commit": "323ac6cf45bb6129806c8e3ed8ec31e22e1a392d",
+      "repository": "https://github.com/dfki-ric/uxo-dataset2024",
+      "repository_path": "calibration/transforms.yaml",
+      "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\model-registration-sources\\current-transforms.yaml",
+      "sha256": "db99ddb4153a71011b6c2563da706bd7b6f6626681dd861641c4aecb5fd7a560",
+      "bytes": 2328
+    },
+    {
+      "commit": "d713bed7eb5253d5462218138c009bc004bebf47",
+      "repository": "https://github.com/dfki-ric/uxo-dataset2024",
+      "repository_path": "README.md",
+      "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\model-registration-sources\\historical-README.md",
+      "sha256": "923f89f93cda1cd5e14b35d1be00211dd0362feeb41cfef8ae97d1c7e5704cb3",
+      "bytes": 12797
+    },
+    {
+      "commit": "ffd60f8271038e3dc9f12e3dd218e3a1c9e9a4a9",
+      "repository": "https://github.com/dfki-ric/uxo-dataset2024",
+      "repository_path": "scripts/snippet_for_pose_gt.ipynb",
+      "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\model-registration-sources\\pose-notebook-at-addition.ipynb",
+      "sha256": "fb177b061cee5d2f46023fdd0a666dacb83cbc670ca6a91e83d6d1acc4bd6f2c",
+      "bytes": 13304
+    },
+    {
+      "commit": "9a0ebad391fb6068d2fb24c7f9a4015239cdc15f",
+      "repository_path": "object_notes.md",
+      "local_path": "D:\\agent_workspace\\水下\\声呐目标检测_workflow\\related_work\\model-registration-sources\\object-notes-9a0ebad3.md",
+      "sha256": "b95bdd0f277a803d8b42050b6ec6182433f2cb83deb565f5f37ccc1768997cc9"
+    }
+  ],
+  "model_asset_paths": []
+}
