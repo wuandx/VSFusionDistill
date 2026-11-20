@@ -1555,7 +1555,9 @@
       "published": "research/dataset.md",
       "source_sha256": "bee08c1c1215fac13878d13e0068dad29b70ddd79fab6ec43aead330fe725ec9",
       "transformation": "publication banner and/or local-link rewrite; historical content retained",
-      "published_sha256": "b3ed605acc44d83c2fc87f44c33ce7d90920ff3f95e5dba15c3b46a4aebc95ab"
+      "published_sha256": "3dc75c929dd2bc064383505f570d110bfb4db1a85122d872b3bda8912ca261da",
+      "previous_published_sha256": "b3ed605acc44d83c2fc87f44c33ce7d90920ff3f95e5dba15c3b46a4aebc95ab",
+      "supplement": "2026-11-20 research progress; historical entries retained"
     },
     {
       "source": "experiment/archive/all94-recording-coverage-audit-plan.md",
@@ -2206,14 +2208,18 @@
       "published": "research/experiment/evaluation.md",
       "source_sha256": "23d050fd446f4e2c16004085a505c04b97bc59832ff3c1773a0e2f4396bc1abe",
       "transformation": "publication banner and/or local-link rewrite; historical content retained",
-      "published_sha256": "d95ef8f3dcc3dd73fc4d349512adaf23e47fc78cc53d6230a1219091f601a750"
+      "published_sha256": "e5e05313e49f7c7a52ee88f2b01e8f1bc8d019faf2a1ed81558f7a226b04dede",
+      "previous_published_sha256": "d95ef8f3dcc3dd73fc4d349512adaf23e47fc78cc53d6230a1219091f601a750",
+      "supplement": "2026-11-20 research progress; historical entries retained"
     },
     {
       "source": "experiment/results.md",
       "published": "research/experiment/results.md",
       "source_sha256": "d02af5f9cbd0feac85cc28dec88e361380ca10a797391ce5c4719bab07a6be28",
       "transformation": "publication banner and/or local-link rewrite; historical content retained",
-      "published_sha256": "1a4bafee4d65313b2eb8992acf6834e263922d987fbe2fc6332baa4fbaac5443"
+      "published_sha256": "53af80d5cf6df2dbf1fa35c0be29dbf36d58e1584e8aac4d121f5b7867bdc78f",
+      "previous_published_sha256": "1a4bafee4d65313b2eb8992acf6834e263922d987fbe2fc6332baa4fbaac5443",
+      "supplement": "2026-11-20 research progress; historical entries retained"
     },
     {
       "source": "experiment/tools/prepare_camera_dataset.py",
@@ -2234,7 +2240,9 @@
       "published": "research/handoff.md",
       "source_sha256": "1426b68b64ac9dbd5c339a1917e6197ad91cf2ded8af986762385d03ea9d55ed",
       "transformation": "publication banner and/or local-link rewrite; historical content retained",
-      "published_sha256": "a5f9c43e7e4ad0c5fe6458cbf39484689d0f3e78d751602b0865aafd65b1149e"
+      "published_sha256": "185bae5ac53e387e3ee2ed30b1ea175998b1ec325763d94db926412f8b8f96f6",
+      "previous_published_sha256": "a5f9c43e7e4ad0c5fe6458cbf39484689d0f3e78d751602b0865aafd65b1149e",
+      "supplement": "2026-11-20 research progress; historical entries retained"
     },
     {
       "source": "original-code/work_dirs/repro_cmold_teacher/t_camera_s/run_meta.txt",
@@ -2318,14 +2326,18 @@
       "published": "research/paper/baseline.md",
       "source_sha256": "f0bb72e48bdf983c715d72d8981166196c931a45e1e586b2992a0f7c78cf1656",
       "transformation": "publication banner and/or local-link rewrite; historical content retained",
-      "published_sha256": "6c1a09d258fac4ea7aa07ec3cb72de8c74a777eaca24f6a636bc307df7bba276"
+      "published_sha256": "338b7021626af82244e9a5cffeaf4c68fbf4283e8c3a81184680eed5621e7d10",
+      "previous_published_sha256": "6c1a09d258fac4ea7aa07ec3cb72de8c74a777eaca24f6a636bc307df7bba276",
+      "supplement": "2026-11-20 research progress; historical entries retained"
     },
     {
       "source": "paper/dataset.md",
       "published": "research/paper/dataset.md",
       "source_sha256": "dea577f23df8d081dcacef4f0af0fab13a319ca55424ded0e9c8506c2b81347c",
       "transformation": "publication banner and/or local-link rewrite; historical content retained",
-      "published_sha256": "54f3fcb204e9cec3a704f3aa00f7073e9e725270c5147d4b39cfdf4b8fa09376"
+      "published_sha256": "bd213eb013f994d958bfa7d31d0fb5e09353cec15503aa8e56e73fadaf1d295b",
+      "previous_published_sha256": "54f3fcb204e9cec3a704f3aa00f7073e9e725270c5147d4b39cfdf4b8fa09376",
+      "supplement": "2026-11-20 research progress; historical entries retained"
     },
     {
       "source": "related_work/a-comparison-of-data-augmentation-methods-for-training-deep-/meta.json",
@@ -9823,11 +9835,33 @@
       "source_sha256": "14531feb20d873f647870071d84c010d68ca8e9d5e3b6d332302c864e225f6ec",
       "transformation": "copy",
       "published_sha256": "14531feb20d873f647870071d84c010d68ca8e9d5e3b6d332302c864e225f6ec"
+    },
+    {
+      "source": "runs/cmhd50_camera_grenade_paired_4787/bomb-val-test-swap/val-metrics.json",
+      "published": "research/runs/cmhd50_camera_grenade_paired_4787/bomb-val-test-swap/val-metrics.json",
+      "source_sha256": "ac838123def02f14d5a4783fedf01e80d5377fc9131b033a391394049d1b0d3b",
+      "transformation": "copy",
+      "published_sha256": "ac838123def02f14d5a4783fedf01e80d5377fc9131b033a391394049d1b0d3b"
+    },
+    {
+      "source": "runs/cmhd50_camera_grenade_paired_4787/bomb-val-test-swap/test-metrics.json",
+      "published": "research/runs/cmhd50_camera_grenade_paired_4787/bomb-val-test-swap/test-metrics.json",
+      "source_sha256": "59de8a94d33d16c6aa0356fe1d1274fca4a2b132ea0be9767479d7597ea46adc",
+      "transformation": "copy",
+      "published_sha256": "59de8a94d33d16c6aa0356fe1d1274fca4a2b132ea0be9767479d7597ea46adc"
+    },
+    {
+      "source": "runs/sonar_s_baseline_4787/train/monitor_val_actual_raw_epoch050/metrics.json",
+      "published": "research/runs/sonar_s_baseline_4787/val445-epoch50-actual-raw-metrics.json",
+      "source_sha256": "8a1e1965a343373711b38494040a3194544525df5cec6c826ecf4e68991caa49",
+      "transformation": "copy",
+      "published_sha256": "8a1e1965a343373711b38494040a3194544525df5cec6c826ecf4e68991caa49"
     }
   ],
   "omitted_link_count": 460,
   "omitted_artifact_count": 326,
   "scope": "publication only; no training, inference, or original test access",
   "additional_scope": "historical baseline results and frozen dataset metadata requested by user; no full image upload",
-  "readme_policy": "Original repository README.md and README.zh-CN.md preserved; new research indexes are separate."
+  "readme_policy": "Original repository README.md and README.zh-CN.md preserved; new research indexes are separate.",
+  "supplement_date": "2026-11-20"
 }

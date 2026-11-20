@@ -1,3 +1,7 @@
+## 2026-11-20 当前数据版本
+
+当前划分为 4,787 Train / 445 Val / 608 Test。相对 4,661 对 Train 增加 126 对燃烧弹样本，新增双端框含沿用和审阅的助手标注。最终划分将炸弹录音 175506 的 120 对由 Val 调入 Test，将 174711 的 30 对由 Test 调入 Val。Train 与其他类别角色保持。录音级角色互斥，炸弹和燃烧弹 Test 与部分 Train 有 GoPro 母片共用。 [数据集索引](DATASETS.md) · [冻结摘要](runs/baseline-progress-2026-11-20.json)
+
 ## 2026-11-14 已确认camera-M教师训练输入
 
 用户确认数据并授权仅相机YOLOX-M教师训练。采用paired_weak_scene_coverage_pan_split，独立相机train4138/val573输入在[训练副本](DataSet/camera_weak_coverage_trainval/README.md)，4711图/hash/框/类别/组互斥与血缘核验通过；[冻结](runs/weak_coverage_camera_m_teacher/dataset-freeze.json)。test/sonar未复制或载入，7未决不纳入，原配对数据/角色/标注保持。新增393相机助手标注单列；旧val/test开发历史及专家/同步边界不变。仅camera-M已启动，[启动证据](runs/weak_coverage_camera_m_teacher/startup-verification.json)。
@@ -232,4 +236,3 @@ DataSet/sonar_motion_timing与sonar_source_onset_control仅开发诊断，源off
 > 本条初稿已作废：400全部接受的说法错误，最终393接受、7未决；见本文顶部5229版更正。下文原样保留历史。
 
 全94录音审计后，四条优先来源180126、124241、124440、125924各取100个共同可映射身份，形成400个相机—raw声呐候选。全程逐对总览复核后400个通过候选框几何与同类可见性登记；框为助手新增候选标注，非原始GT/专家GT，未认证精密同步。当前4836对、录音角色和split不变，400个保持`dataset_admission=pending_user_split_review`。[复核报告](复现/camera-baseline/four-recording-paired-annotation-review.md)。
-

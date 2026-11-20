@@ -1,0 +1,101 @@
+{
+  "snapshot_at": "2026-11-20T12:55:14+08:00",
+  "partition": {
+    "train": 4787,
+    "val": 445,
+    "test": 608,
+    "camera_class_counts": {
+      "val": {
+        "1": 30,
+        "2": 132,
+        "3": 283
+      },
+      "test": {
+        "1": 120,
+        "2": 146,
+        "3": 342
+      }
+    },
+    "camera_val_coco_sha256": "fbd2e080b158b7b5821508a9da42b4945520a13c3496a6dc45df4a8ae5396542",
+    "camera_test_coco_sha256": "1d2a492b56c44ada1a37879ea6eca0a1367aa2ba6447a89898839f0175720f61",
+    "swapped_recordings": {
+      "val_to_test": "2023-09-20_175506",
+      "test_to_val": "2023-09-20_174711"
+    },
+    "shared_bomb_gopro_mother": "20230920_GX020010.mp4"
+  },
+  "camera_m_actual_raw": {
+    "epoch": 50,
+    "sha256": "36b763e7a51d9c9006cc607b601f80c69e59e7b8ba7a0a66cf9efcaf9dc8feea",
+    "parent_sha256": "225deb4095f3008132be3d428c0ab274b0700ca599aef886fe230224b3d3da11"
+  },
+  "sonar_s_final": {
+    "epoch": 50,
+    "iterations": 29950,
+    "parent_sha256": "c680fb8aca2b482eba4ff5ad901e771735c0bda2f3cdeb01ed13b6524828f054",
+    "raw_sha256": "8a5d45d21c89c8430f3ece1882da82368a94cc2a803eb9c97b2f0de57cc8cc78",
+    "completed_at": "2026-11-20T04:53:22.699722+00:00"
+  },
+  "camera_scale_in_progress": {
+    "camera_scale_4787_s": {
+      "status": "training",
+      "observed_at": "2026-11-20T12:55:10+08:00",
+      "epoch": 14,
+      "in_epoch": 120,
+      "iterations": 7907,
+      "total_updates": 29950,
+      "last_monitor_val_epoch": 10,
+      "last_monitor_val_pooled": {
+        "mAP": 0.8783070020548951,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 0.8160615963551199,
+        "APlarge": 0.8843005133404893,
+        "AR1": 0.8985640860905877,
+        "AR10": 0.8985640860905877,
+        "AR100": 0.8985640860905877,
+        "ARsmall": -1.0,
+        "ARmedium": 0.8394444444444445,
+        "ARlarge": 0.9062868831188655
+      }
+    },
+    "camera_scale_4787_l": {
+      "status": "training",
+      "observed_at": "2026-11-20T12:55:14+08:00",
+      "epoch": 11,
+      "in_epoch": 520,
+      "iterations": 6510,
+      "total_updates": 29950,
+      "last_monitor_val_epoch": 10,
+      "last_monitor_val_pooled": {
+        "mAP": 0.8335572416536461,
+        "AP50": 1.0,
+        "AP75": 1.0,
+        "APsmall": -1.0,
+        "APmedium": 0.7787775517024665,
+        "APlarge": 0.8389281488773812,
+        "AR1": 0.8498734696791234,
+        "AR10": 0.8498734696791234,
+        "AR100": 0.8498734696791234,
+        "ARsmall": -1.0,
+        "ARmedium": 0.8052777777777778,
+        "ARlarge": 0.8546280777274047
+      }
+    }
+  },
+  "metric_artifacts": {
+    "runs/cmhd50_camera_grenade_paired_4787/bomb-val-test-swap/val-metrics.json": {
+      "source": "runs/cmhd50_camera_grenade_paired_4787/bomb-val-test-swap/val-metrics.json",
+      "sha256": "ac838123def02f14d5a4783fedf01e80d5377fc9131b033a391394049d1b0d3b"
+    },
+    "runs/cmhd50_camera_grenade_paired_4787/bomb-val-test-swap/test-metrics.json": {
+      "source": "runs/cmhd50_camera_grenade_paired_4787/bomb-val-test-swap/test-metrics.json",
+      "sha256": "59de8a94d33d16c6aa0356fe1d1274fca4a2b132ea0be9767479d7597ea46adc"
+    },
+    "runs/sonar_s_baseline_4787/val445-epoch50-actual-raw-metrics.json": {
+      "source": "runs/sonar_s_baseline_4787/train/monitor_val_actual_raw_epoch050/metrics.json",
+      "sha256": "8a1e1965a343373711b38494040a3194544525df5cec6c826ecf4e68991caa49"
+    }
+  }
+}

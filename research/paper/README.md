@@ -1,5 +1,5 @@
 # 论文草稿
 
-当前保留[数据集双语草稿](dataset.md)与[基线草稿](baseline.md)，均来自较早阶段，尚未同步当前5229对数据版本及最新实验进展。它们是写作材料，不是当前数据规模或结果的权威入口。
+当前[基线草稿](baseline.md)已补 4,787 Train / Val445 / Test608 的纯相机 M、纯声呐 S 和相机论文参考。 [数据集双语草稿](dataset.md)保留历史版本，当前划分见[数据集索引](../DATASETS.md)。
 
-当前数据与实验事实见[研究进展](../README.md)、[数据报告](../复现/camera-baseline/weak-scene-coverage-resplit-5229.md)和[结果登记](../experiment/results.md)。本次发布标明草稿版本，没有代写未经验证的最终论文结果。
+当前数据与实验事实见[研究进展](../README.md)和[结果登记](../experiment/results.md)。

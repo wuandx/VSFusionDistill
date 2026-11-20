@@ -1,20 +1,23 @@
-# 历史baseline对应的数据集与划分
+# Baseline 对应的数据集与划分
 
 本页把每组模型成绩对应到当时使用的数据版本。仓库发布成员身份、标签/框元数据、划分协议、文件hash及部分配置；全量图像、视频和模型权重仍保存在本地。本次没有建立这些大文件的下载地址，不能把本仓库称为开箱即用的完整数据集。
 
 | 版本 | baseline模型 | train / val / test | 划分性质与入口 |
 |---|---|---|---|
+| 5,840 对当前版 | 纯相机 YOLOX-S/M/L、纯声呐 YOLOX-S | 4,787 / 445 / 608 | Train 沿用 4,787 对；Val/Test 整条交换两条炸弹录音，见[冻结摘要与哈希](runs/baseline-progress-2026-11-20.json) |
 | 原代码4152帧train+val池 | t_camera_s、t_camera_s_stretch | 3322 / 830 / 本表不迁入原test | train/val共享37录音；[原frame_split](legacy_code_data/frame_split.json)、[原始审计](复现/camera-baseline/results-and-failure-evidence.md) |
 | 3000对 | camera YOLOX-S/M 640×384；workstation S两模态 | 1800 / 600 / 600 | 每类6/2/2录音，122608/122855保守同组；[协议](DataSet/paired_recording_split/protocol.json)、[录音表](DataSet/paired_recording_split/recordings.csv)、[完整manifest](DataSet/paired_recording_split/manifest.json.gz) |
 | 4081对 | scene camera-M / sonar-S after_pilot | 2472 / 894 / 715 | 37录音、31保守来源组；[协议](DataSet/scene_stratified_mortar_recovered_candidate/protocol.json)、[录音表](DataSet/scene_stratified_mortar_recovered_candidate/recordings.csv)、[完整manifest](DataSet/scene_stratified_mortar_recovered_candidate/manifest.json.gz) |
-| 5229对当前版 | 最新weak_coverage_camera_m_teacher，尚无本次确认的最终结果 | 4138 / 573 / 518 | 42录音、35保守来源组；[协议](DataSet/paired_weak_scene_coverage_pan_split/protocol.json)、[录音表](DataSet/paired_weak_scene_coverage_pan_split/recordings.csv)、[完整manifest](DataSet/paired_weak_scene_coverage_pan_split/manifest.json.gz) |
+| 5,229 对历史版 | weak_coverage_camera_m_teacher 阶段快照 | 4138 / 573 / 518 | 42录音、35保守来源组；[协议](DataSet/paired_weak_scene_coverage_pan_split/protocol.json)、[录音表](DataSet/paired_weak_scene_coverage_pan_split/recordings.csv)、[完整manifest](DataSet/paired_weak_scene_coverage_pan_split/manifest.json.gz) |
+
+当前 Val445 的炸弹、迫击炮、燃烧弹分别为 30 / 132 / 283 对，Test608 为 120 / 146 / 342 对。炸弹录音 175506 由 Val 移至 Test，174711 由 Test 移至 Val，Train 和其他类别的集合角色沿用 4,787 版。两条炸弹录音和部分 Train 共用 GoPro 母片，燃烧弹测试录音也与部分 Train 同源。Test608 有开发使用史，覆盖常规左右扫拍。当前发布包含划分摘要、成员文件哈希和指标 JSON。
 
 ## 训练与评测使用的标签元数据
 
 - 3000对本地camera S/M：[train COCO压缩副本](DataSet/camera_recording_baseline/train-coco.json.gz)、[val COCO](DataSet/camera_recording_baseline/val-coco.json)、[历史test COCO](DataSet/camera_recording_baseline/test-coco.json)、[准备与身份核验](DataSet/camera_recording_baseline/verification.json)。相机输入640×384，与fixed640工作站分开。
 - 3000对工作站相机/声呐：对应[数据目录](DataSet/workstation_baselines/)包含两模态train/val COCO与dataset压缩副本、成员表和文件hash；不含图像。其最终模型结果在本次依据的记录中仍缺失。
 - 4081对正式baseline：对应[执行数据目录](DataSet/scene_expanded_baseline_trainval/)包含两模态train/val COCO、dataset、成员表和hash；[train camera COCO](DataSet/scene_expanded_baseline_trainval/camera-train-coco.json.gz)、[val camera COCO](DataSet/scene_expanded_baseline_trainval/camera-val-coco.json)、[val sonar COCO](DataSet/scene_expanded_baseline_trainval/sonar-val-coco.json)。[历史715 test元数据](DataSet/scene_baseline_test715/)另列。
-- 最新5229对教师：[相机train/val执行副本元数据](DataSet/camera_weak_coverage_trainval/)、[run冻结](runs/weak_coverage_camera_m_teacher/dataset-freeze.json)。当前角色变更不适用于旧模型的结果表。
+- 历史 5,229 对教师：[相机train/val执行副本元数据](DataSet/camera_weak_coverage_trainval/)、[run冻结](runs/weak_coverage_camera_m_teacher/dataset-freeze.json)。该角色分配用于对应阶段的记录。
 
 3000和4081对版本各自保留train/val/test身份列表。`.json.gz`解压后与发布清单中的源SHA256一致；原始JSON内的本机路径保留用于血缘追溯，换机器时需要准备图像并调整路径。标签由各自数据准备脚本生成，类别编号/名称和几何以相应COCO、dataset与配置为准，不跨版本直接替换。
 

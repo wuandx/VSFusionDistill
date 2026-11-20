@@ -1,10 +1,20 @@
 # 研究进展与证据入口
 
-**历史baseline入口：[模型结果汇总](BASELINES.md) · [对应数据集与划分](DATASETS.md) · [指标CSV](baselines.csv)。**
+**基线入口：[模型结果汇总](BASELINES.md) · [对应数据集与划分](DATASETS.md) · [指标 CSV](baselines.csv)。**
 
-更新日期：2026-11-14。本页用于阶段汇报；详细原始记录和更正继续保留。数据处理、已完成模型结果和最新训练分别列出。
+更新日期 2026-11-20。当前使用 **4,787 Train / Val445 / Test608**。模型结果与训练进度分列，历史记录保留原数据版本。
 
-## 已完成的工作
+## 当前进展
+
+| 模型 | 状态 | 结果 |
+|---|---|---|
+| 纯相机 YOLOX-M | 第 50 轮 actual raw，当前可用基线 | Val445 mAP **96.57%**；Test608 mAP **95.46%** |
+| 纯声呐 YOLOX-S | 完成 50 轮、29,950 步 | Val445 mAP **33.57%**；mAR@100 **48.17%** |
+| 纯相机 YOLOX-S / L | 训练中 | 中途验证与进度见[实验登记](experiment/results.md) |
+
+相机 M 的 Val445 / Test608 来自存档预测按样本 ID 重组后的复算。Test608 有开发使用史，炸弹录音曾用于 Val，且炸弹和燃烧弹测试录音与部分 Train 共 GoPro 母片。蒸馏暂缓。 [数据口径](DATASETS.md) · [已完成指标及论文参考](paper/baseline.md) · [原始指标与进度来源](runs/baseline-progress-2026-11-20.json)
+
+## 历史阶段的工作（2026-11-14 快照）
 
 1. 审计CMOLD/CMHD论文与原实现，区分论文事实、原始产物复算和我方选择；[文献核验](related_work/paper-evidence-review.md)。
 2. 追查相机SD/FHD时间对应问题，保留原标签与重建血缘；[完整源审计](复现/camera-baseline/annotation-issues/full-source-timing-cause-audit.md)。
@@ -12,9 +22,9 @@
 4. 完成一版camera-M与sonar-S开发baseline，并按类、录音、场景分析失败；[完整结果](复现/camera-baseline/scene-expanded-baselines-final-results.md)。
 5. 针对已知薄弱条件重划分，并在最新train/val启动camera-only YOLOX-M；[划分报告](复现/camera-baseline/weak-scene-coverage-resplit-5229.md)、[启动与迁移](复现/camera-baseline/weak-coverage-camera-m-5090-deployment.md)。
 
-## 当前数据版本
+## 历史数据版本（5,229 对）
 
-权威版本：`paired_weak_scene_coverage_pan_split`。保守来源组整体分配，不在不同集合之间拆开。
+该阶段使用 `paired_weak_scene_coverage_pan_split`。保守来源组整体分配，不在不同集合之间拆开。
 
 | 集合 | 配对数 | 录音数 | 保守来源组数 |
 |---|---:|---:|---:|
@@ -40,7 +50,7 @@
 
 旧715对test已按事前方案评价，此后属于已使用测试集：[历史test报告](复现/camera-baseline/scene-baselines-test715-results.md)。新旧test与原研究保留test必须分开，不将其表述为未触碰最终盲测。
 
-## 最新教师训练：尚无本次确认的最终指标
+## 历史教师部署快照（4,138 Train / Val573）
 
 最新camera-only YOLOX-M采用train4138 / val573，COCO-M fresh backbone/neck、随机三类head、seed0、batch8、200epoch/103600次更新、无增广。固定epoch200 actual raw为主结果，每10epoch仅监测val，EMA单列。
 

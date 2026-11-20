@@ -1,3 +1,7 @@
+## 2026-11-20 基线与训练进度
+
+采用 4,787 Train / Val445 / Test608。纯相机 YOLOX-M 固定第 50 轮 actual raw，Val445 / Test608 mAP 为 96.57% / 95.46%。纯声呐 YOLOX-S 已完成 50 轮共 29,950 步，末轮 Val445 mAP / mAR@100 为 33.57% / 48.17%。相机 S/L 在训练，中途进度单列。蒸馏暂缓。 [当前进展](README.md) · [结果和进度](experiment/results.md) · [当前划分](DATASETS.md)
+
 ## 2026-11-14 camera-M已迁移5090正式训练，本地尝试已停止
 
 用户授权部署192.168.10.100的WSL wzl目录。[部署报告](复现/camera-baseline/weak-coverage-camera-m-5090-deployment.md)、[独立核验](DataSet/weak_coverage_camera_m_5090_deployment/startup-verification.json)。远端根/root/wzl/weak_coverage_camera_m_teacher，独立source/数据/模型；实际GPU RTX5090D v2。全部9525文件hash、4711图与标注/组、GPU batch8/末batch2/推理/几何/rawEMA预检通过；源/数据/实现/初始化与本地相同、15配置字段路径归一后相同、8主要依赖版本一致。

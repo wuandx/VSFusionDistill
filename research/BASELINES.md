@@ -1,4 +1,18 @@
-# 历史模型baseline结果
+# 模型 baseline 结果
+
+## 当前 4,787 Train / Val445 / Test608（2026-11-20）
+
+单位为 %，全部为第 50 轮 actual raw。相机 M 的 Val445 和 Test608 由存档预测重组复算。相机 S/L 的中途读数记在[实验登记](experiment/results.md)。
+
+| 模型 | 评价集 | mAP | AP50 | AP75 | mAR@1 | mAR@100 | 结果 |
+|---|---|---:|---:|---:|---:|---:|---|
+| 纯相机 YOLOX-M | Val445 | 96.57 | 100.00 | 100.00 | 97.40 | 97.40 | [JSON](runs/cmhd50_camera_grenade_paired_4787/bomb-val-test-swap/val-metrics.json) |
+| 纯相机 YOLOX-M | Test608 | 95.46 | 100.00 | 100.00 | 96.93 | 96.93 | [JSON](runs/cmhd50_camera_grenade_paired_4787/bomb-val-test-swap/test-metrics.json) |
+| 纯声呐 YOLOX-S | Val445 | 33.57 | 60.53 | 33.02 | 48.14 | 48.17 | [JSON](runs/sonar_s_baseline_4787/val445-epoch50-actual-raw-metrics.json) |
+
+[逐类与论文对比](paper/baseline.md) · [数据版本](DATASETS.md) · [指标 CSV](baselines.csv)
+
+## 历史结果口径
 
 2026-11-14整理。数值直接读取既有结果JSON，没有重新运行模型或COCOeval。全部指标为百分数，mAP为pooled COCO AP@[.5:.95]，AR@1与AR@100分列。每一行链接到原结果，数据版本见[数据集索引](DATASETS.md)；另提供[CSV](baselines.csv)与[完整精度JSON](baselines.json)。
 
@@ -40,7 +54,7 @@
 - 4081对的[逐类/录音/场景分析](复现/camera-baseline/scene-expanded-baselines-final-results.md)、[已使用715 test报告](复现/camera-baseline/scene-baselines-test715-results.md)。相机与声呐使用各自GT，指标差不能称蒸馏收益。
 - 10epoch camera-M pilot是独立诊断，不与200epoch run拼接；见[pilot报告](复现/camera-baseline/camera-m-pilot-distribution.md)。
 - 早期workstation camera-S fixed640 / sonar-S在本次发布依据的记录中没有最终actual raw结果，不能补写成完成，见[部署记录](DataSet/workstation_baselines/README.md)。
-- 最新5229对camera-M仅有启动与迁移证据，本次未实时确认完成，无该版最终AP可填，见[最新进展](README.md)。
+- 5,229 对 camera-M 的历史发布快照仅含启动与迁移证据，见[阶段记录](README.md#历史教师部署快照4138-train--val573)。
 - 更早的E11、R0/R1/R2、多seed及融合历史保留在原代码[实验台账](../doc/experiments.md)与[历史日志](../doc/logs/)。这些记录涉及不同blob/all、val/val_id、平台与任务；本次没有重新核验全部原始产物，不搬入上方统一口径表。
 
 这张表只登记已有模型成绩，不把完美GT/错类合成控制的AP当成训练模型指标。所有test结果均来自已有评价文件，当前整理没有读取原研究test图像或标注、没有新评价或调参。

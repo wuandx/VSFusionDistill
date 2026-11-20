@@ -1,3 +1,16 @@
+## 2026-11-20 当前纯相机与纯声呐基线
+
+相机 YOLOX-M 固定第 50 轮 actual raw，基于存档预测复算 Val445 / Test608。mAP 分别为 96.57% / 95.46%，mAR@100 分别为 97.40% / 96.93%。纯声呐 YOLOX-S 于北京时间 12:53:22 完成 50 轮、29,950 步，末轮 Val445 mAP / mAR@100 为 33.57% / 48.17%，炸弹、迫击炮、燃烧弹 AP 分别为 39.74% / 22.03% / 38.93%。 [基线索引](../BASELINES.md) · [原始指标及权重身份](../runs/baseline-progress-2026-11-20.json)
+
+同一 4,787 Train / Val445 的纯相机 S/L 采用 50 轮、batch 8、seed 0、FP32、无增广。以下是北京时间 12:55 的监测快照。
+
+| 相机模型 | 训练进度 | 最新 Val445 监测轮次 | mAP |
+|---|---|---:|---:|
+| YOLOX-S | 第 14 轮，7,907 / 29,950 步 | 10 | 87.83% |
+| YOLOX-L | 第 11 轮，6,510 / 29,950 步 | 10 | 83.36% |
+
+相机 S/L 尚无末轮指标。本组声呐 S 和相机 S/L 的 Test608 留待协议确定后的统一评估。蒸馏暂缓。 [进度与中途指标 JSON](../runs/baseline-progress-2026-11-20.json)
+
 ## 2026-11-14 camera-M已迁移5090正式训练，本地尝试已停止
 
 用户授权部署192.168.10.100的WSL wzl目录。[部署报告](../复现/camera-baseline/weak-coverage-camera-m-5090-deployment.md)、[独立核验](../DataSet/weak_coverage_camera_m_5090_deployment/startup-verification.json)。远端根/root/wzl/weak_coverage_camera_m_teacher，独立source/数据/模型；实际GPU RTX5090D v2。全部9525文件hash、4711图与标注/组、GPU batch8/末batch2/推理/几何/rawEMA预检通过；源/数据/实现/初始化与本地相同、15配置字段路径归一后相同、8主要依赖版本一致。
@@ -322,4 +335,3 @@ P2−t_camera_s 的 AP = −0.0281290454（−2.8129 个百分点），不能解
 > 本条初稿已作废：400全部接受的说法错误，最终393接受、7未决；见本文顶部5229版更正。下文原样保留历史。
 
 全94录音审计后，独立处理180126、124241、124440、125924。每条100个共同可映射身份，四条合计400；相机和raw声呐框均由本轮候选标注并逐对总览复核，400/400登记为`accepted_candidate`。这些不是原始GT或专家GT，未认证精密同步；未加入当前4836对及任何split，未训练、推理或访问新的test。报告：[复核](../复现/camera-baseline/four-recording-paired-annotation-review.md)。
-

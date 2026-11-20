@@ -1,3 +1,9 @@
+## 2026-11-20 4,787 Train / Val445 / Test608
+
+当前纯相机 S/M/L 和纯声呐 S 采用本版划分。主权重固定第 50 轮 actual raw，EMA 单列。使用 COCOeval，score 0.01、NMS 0.65、maxDets=100，报告 pooled mAP@[.5:.95]、AP50、AP75、mAR@1/100 和逐类 AP/AR@100。有逐录音指标时与 pooled 指标分别留存。
+
+相机 M 训练时监测 Val535，固定权重的 Val445 / Test608 由存档预测按样本 ID 重组并复算。相机 S/L 和纯声呐 S 在 Val445 上每 10 轮监测。中途读数单列，末轮完成才进入基线汇总。论文值采用各自评价协议。 [划分与使用史](../DATASETS.md) · [证据](../runs/baseline-progress-2026-11-20.json)
+
 ## 2026-11-14 camera-M已迁移5090正式训练，本地尝试已停止
 
 用户授权部署192.168.10.100的WSL wzl目录。[部署报告](../复现/camera-baseline/weak-coverage-camera-m-5090-deployment.md)、[独立核验](../DataSet/weak_coverage_camera_m_5090_deployment/startup-verification.json)。远端根/root/wzl/weak_coverage_camera_m_teacher，独立source/数据/模型；实际GPU RTX5090D v2。全部9525文件hash、4711图与标注/组、GPU batch8/末batch2/推理/几何/rawEMA预检通过；源/数据/实现/初始化与本地相同、15配置字段路径归一后相同、8主要依赖版本一致。
